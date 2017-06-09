@@ -1,0 +1,9 @@
+varNames,zType,description,subTitle
+bank_t,Capital market,"Households' access to banking services, total (percent of households)",HH Access to Banking Services
+e_pr_fin3,Capital market,Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Private Non-Agri Enterprise Finance
+edu_lit_7_t,Labor market,"Literacy rate,7+ years,total(percent of population group)",7+ Literacy Rate
+edu_sec_15_t,Labor market,"Secondary education completion rate,15+ years,total(percent of population group)",Secondary Education Complete (percent of pop.)
+cr_s,Land market,Cropland (percent of area),Cropland (percent of area)
+di_e_2,Product market,"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Non-Agri Diversification index
+e_own1,Product market,Non-agr. enterprises by ownership -Private(percent of establishments),Private Non-Agri Enterprise (percent of establishments)
+est_sh_1,Product market,"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Food/Beverage/Tobacco Manufacturing (percent)

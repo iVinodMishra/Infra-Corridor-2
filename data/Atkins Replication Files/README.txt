@@ -1,0 +1,6 @@
+This zip-file contains travel times between Indian districts for the years 1962, 1969, 1977, 1988, 1996, 2004, and 2011. Distances in each year were calculated using that year's edition of the "Road Map of India." For each year, we digitized and geo-referenced the map and then used an color-matching algorithm to locate the pixels representing highways. Finally, we used the Fast Marching Method to calculate the bilateral travel times from the center point of each district to all other districts. To do so, we assigned a travel time of 60 miles / hour on highway pixels, X miles / hour for all non-highway pixels within India and 0.25*X / hour for all pixels outside of India, where each data set included uses a different X (5, 10, 15, 20, and 30). The name of the stata dataset is "district_distance_distX.dta," where "X" indicates the speed off highways.
+
+If you use the data, please cite the following paper:
+Allen, Treb and David Atkin. "Volatility, Insurance, and the Gains from Trade." Mimeo, Northwestern University and Massachusetts Insitute of Technology. 2015. 
+
+Please contact Treb Allen (treballen@gmail.com) if you have any questions or suggestions.

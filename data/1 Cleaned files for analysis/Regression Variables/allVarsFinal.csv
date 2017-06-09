@@ -1,0 +1,165 @@
+varNames,description,source,varType,zType,summaryType,logs,title
+nFactories,Number of factories (sum of the x1 in asi),ASI,y,,,,Number of Factories
+totPersonsEngaged,Persons engaged (Sum of the x8),ASI,y,,,,Total Persons Engaged
+totValOutput,Total value of output (Sum of the x19),ASI,y,,,,Total Output Value
+pct_agrEmp_both_tot,N total agriculture employed/Total employed,LF,control,,,,
+povrate_rur,poverty rate (rural),LF,y,,,,Rural HH Poverty Rate
+povrate_urb,poverty rate (urban),LF,y,,,,Urban HH Poverty Rate
+povrate_tot,poverty rate (total),LF,y,,,,Rural + Urban HH Poverty Rate
+cons_pc_mean_rur,mean hh consumption (rural),LF,y,,,,Rural HH Consumption
+cons_pc_mean_urb,mean hh consumption (urban),LF,y,,,,Urban HH Consumption
+cons_pc_mean_tot,mean hh consumption (total),LF,y,,,,Rural + Urban HH Consumption
+pct_emp_f_rur,N rural females employed/female rural population,LF,y,,,,Percent females employed (rural)
+pct_emp_m_rur,N rural  males employed/male rural population,LF,y,,,,Percent males employed (rural)
+pct_emp_both_rur,N rural  employed/Total rural population,LF,y,,,,Percent employed (rural)
+pct_emp_f_urb,N urban females employed/female urban population,LF,y,,,,Percent females employed (urban)
+pct_emp_m_urb,N urban  males employed/male urban population,LF,y,,,,Percent males employed (urban)
+pct_emp_both_urb,N urban  employed/Total urban population,LF,y,,,,Percent employed (urban)
+pct_emp_f_tot,N females employed/female total population,LF,y,,,,Percent females employed (total)
+pct_emp_m_tot,N males employed/male total population,LF,y,,,,Percent males employed (total)
+pct_emp_both_tot,N employed/Total total population,LF,y,,,,Percent employed (total)
+pct_inactive_f_rur,N rural females inactive/female rural population,LF,y,,,,Percent females inactive (rural)
+pct_inactive_m_rur,N rural  males inactive/male rural population,LF,y,,,,Percent males inactive (rural)
+pct_inactive_both_rur,N rural  inactive/Total rural population,LF,y,,,,Percent inactive (rural)
+pct_inactive_f_urb,N urban  females inactive/female urban population,LF,y,,,,Percent females inactive (urban)
+pct_inactive_m_urb,N urban  males inactive/male urban population,LF,y,,,,Percent males inactive (urban)
+pct_inactive_both_urb,N urban  inactive/Total urban population,LF,y,,,,Percent inactive (urban)
+pct_inactive_f_tot,N females inactive/female total population,LF,y,,,,Percent females inactive (total)
+pct_inactive_m_tot,N males inactive/male total population,LF,y,,,,Percent males inactive (total)
+pct_inactive_both_tot,N inactive/Total total population,LF,y,,,,Percent inactive (total)
+pct_wage_f_rur,N rural females wage employed/N female rural employed,LF,y,,,,Percent females wage employed (rural)
+pct_wage_m_rur,N rural males wage employed/N male rural employed,LF,y,,,,Percent males wage employed (rural)
+pct_wage_both_rur,N rural wage employed/Total rural employed,LF,y,,,,Percent wage employed (rural)
+pct_wage_f_urb,N urban females wage employed/N female urban employed,LF,y,,,,Percent females wage employed (urban)
+pct_wage_m_urb,N urban males wage employed/N male urban employed,LF,y,,,,Percent males wage employed (urban)
+pct_wage_both_urb,N urban wage employed/Total urban employed,LF,y,,,,Percent wage employed (urban)
+pct_wage_f_tot,N total females wage employed/N female employed,LF,y,,,,Percent females wage  employed (total)
+pct_wage_m_tot,N total males wage employed/N male employed,LF,y,,,,Percent males wage  employed (total)
+pct_wage_both_tot,N total wage employed/Total employed,LF,y,,,,Percent wage employed (total)
+pct_regWage_f_rur,N rural females regular wage employed/N female rural employed,LF,y,,,,Percent females regular wage employed (rural)
+pct_regWage_m_rur,N rural males regular wage employed/N male rural employed,LF,y,,,,Percent males regular wage employed (rural)
+pct_regWage_both_rur,N rural regular wage employed/Total rural employed,LF,y,,,,Percent regular wage employed (rural)
+pct_regWage_f_urb,N urban females regular wage employed/N female urban employed,LF,y,,,,Percent females regular wage employed (urban)
+pct_regWage_m_urb,N urban males regular wage employed/N male urban employed,LF,y,,,,Percent males regular wage employed (urban)
+pct_regWage_both_urb,N urban regular wage employed/Total urban employed,LF,y,,,,Percent regular wage employed (urban)
+pct_regWage_f_tot,N total females regular wage employed/N female employed,LF,y,,,,Percent females regular wage employed (total)
+pct_regWage_m_tot,N total males regular wage employed/N male employed,LF,y,,,,Percent males regular wage employed (total)
+pct_regWage_both_tot,N total regular wage employed/Total employed,LF,y,,,,Percent regular wage employed (total)
+pct_formal_f_rur,N rural females formal employed/N female rural employed,LF,y,,,,Percent females formal employed (rural)
+pct_formal_m_rur,N rural males formal employed/N male rural employed,LF,y,,,,Percent males formal employed (rural)
+pct_formal_both_rur,N rural formal employed/Total rural employed,LF,y,,,,Percent formal employed (rural)
+pct_formal_f_urb,N urban females formal employed/N female urban employed,LF,y,,,,Percent females formal employed (urban)
+pct_formal_m_urb,N urban males formal employed/N male urban employed,LF,y,,,,Percent males formal employed (urban)
+pct_formal_both_urb,N urban formal employed/Total urban employed,LF,y,,,,Percent formal employed (urban)
+pct_formal_f_tot,N total females formal employed/N female employed,LF,y,,,,Percent females formal employed (total)
+pct_formal_m_tot,N total males formal employed/N male employed,LF,y,,,,Percent males formal employed (total)
+pct_formal_both_tot,N total formal employed/Total employed,LF,y,,,,Percent formal employed (total)
+pct_selfemp_f_rur,N rural females self employed/N female rural employed,LF,y,,,,Percent females self employed (rural)
+pct_selfemp_m_rur,N rural males self employed/N male rural employed,LF,y,,,,Percent males self employed (rural)
+pct_selfemp_both_rur,N rural self employed/Total rural employed,LF,y,,,,Percent self employed (rural)
+pct_selfemp_f_urb,N urban females self employed/N female urban employed,LF,y,,,,Percent females self employed (urban)
+pct_selfemp_m_urb,N urban males self employed/N male urban employed,LF,y,,,,Percent males self employed (urban)
+pct_selfemp_both_urb,N urban self employed/Total urban employed,LF,y,,,,Percent self employed (urban)
+pct_selfemp_f_tot,N total females self employed/N female employed,LF,y,,,,Percent females self employed (total)
+pct_selfemp_m_tot,N total males self employed/N male employed,LF,y,,,,Percent males self employed (total)
+pct_selfemp_both_tot,N total self employed/Total employed,LF,y,,,,Percent self employed (total)
+pct_hhemp_f_rur,N rural females household employed/N female rural employed,LF,y,,,,Percent females household employed (rural)
+pct_hhemp_m_rur,N rural males household employed/N male rural employed,LF,y,,,,Percent males household employed (rural)
+pct_hhemp_both_rur,N rural household employed/Total rural employed,LF,y,,,,Percent household employed (rural)
+pct_hhemp_f_urb,N urban females household employed/N female urban employed,LF,y,,,,Percent females household employed (urban)
+pct_hhemp_m_urb,N urban males household employed/N male urban employed,LF,y,,,,Percent males household employed (urban)
+pct_hhemp_both_urb,N urban household employed/Total urban employed,LF,y,,,,Percent household employed (urban)
+pct_hhemp_f_tot,N total females household employed/N female employed,LF,y,,,,Percent females household employed (total)
+pct_hhemp_m_tot,N total males household employed/N male employed,LF,y,,,,Percent males household employed (total)
+pct_hhemp_both_tot,N total household employed/Total employed,LF,y,,,,Percent household employed (total)
+pct_agrEmp_f_rur,N rural females agriculture employed/N female rural employed,LF,y,,,,Percent females agriculture employed (rural)
+pct_agrEmp_m_rur,N rural males agriculture employed/N male rural employed,LF,y,,,,Percent males agriculture employed (rural)
+pct_agrEmp_both_rur,N rural agriculture employed/Total rural employed,LF,y,,,,Percent agriculture employed (rural)
+pct_agrEmp_f_urb,N urban females agriculture employed/N female urban employed,LF,y,,,,Percent females agriculture employed (urban)
+pct_agrEmp_m_urb,N urban males agriculture employed/N male urban employed,LF,y,,,,Percent males agriculture employed (urban)
+pct_agrEmp_both_urb,N urban agriculture employed/Total urban employed,LF,y,,,,Percent agriculture employed (urban)
+pct_agrEmp_f_tot,N total females agriculture employed/N female employed,LF,y,,,,Percent females agriculture employed (total)
+pct_agrEmp_m_tot,N total males agriculture employed/N male employed,LF,y,,,,Percent males agriculture employed (total)
+pct_agrEmp_both_tot,N total agriculture employed/Total employed,LF,y,,,,Percent agriculture employed (total)
+pct_mfgEmp_f_rur,N rural females manufacturing employed/N female rural employed,LF,y,,,,Percent females manufacturing employed (rural)
+pct_mfgEmp_m_rur,N rural males manufacturing employed/N male rural employed,LF,y,,,,Percent males manufacturing employed (rural)
+pct_mfgEmp_both_rur,N rural manufacturing employed/Total rural employed,LF,y,,,,Percent manufacturing employed (rural)
+pct_mfgEmp_f_urb,N urban females manufacturing employed/N female urban employed,LF,y,,,,Percent females manufacturing employed (urban)
+pct_mfgEmp_m_urb,N urban males manufacturing employed/N male urban employed,LF,y,,,,Percent males manufacturing employed (urban)
+pct_mfgEmp_both_urb,N urban manufacturing employed/Total urban employed,LF,y,,,,Percent manufacturing employed (urban)
+pct_mfgEmp_f_tot,N total females manufacturing employed/N female employed,LF,y,,,,Percent females manufacturing employed (total)
+pct_mfgEmp_m_tot,N total males manufacturing employed/N male employed,LF,y,,,,Percent males manufacturing employed (total)
+pct_mfgEmp_both_tot,N total manufacturing employed/Total employed,LF,y,,,,Percent manufacturing employed (total)
+pct_trspEmp_f_rur,N rural females transportation employed/N female rural employed,LF,y,,,,Percent females transport employed (rural)
+pct_trspEmp_m_rur,N rural males transportation employed/N male rural employed,LF,y,,,,Percent males transport employed (rural)
+pct_trspEmp_both_rur,N rural transportation employed/Total rural employed,LF,y,,,,Percent transport employed (rural)
+pct_trspEmp_f_urb,N urban females transportation employed/N female urban employed,LF,y,,,,Percent females transport employed (urban)
+pct_trspEmp_m_urb,N urban males transportation employed/N male urban employed,LF,y,,,,Percent males transport employed (urban)
+pct_trspEmp_both_urb,N urban transportation employed/Total urban employed,LF,y,,,,Percent transport employed (urban)
+pct_trspEmp_f_tot,N total females transportation employed/N female employed,LF,y,,,,Percent females transport employed (total)
+pct_trspEmp_m_tot,N total males transportation employed/N male employed,LF,y,,,,Percent males transport employed (total)
+pct_trspEmp_both_tot,N total transportation employed/Total employed,LF,y,,,,Percent transport employed (total)
+pct_comEmp_f_rur,N rural females commerce employed/N female rural employed,LF,y,,,,Percent females commerce employed (rural)
+pct_comEmp_m_rur,N rural males commerce employed/N male rural employed,LF,y,,,,Percent males commerce employed (rural)
+pct_comEmp_both_rur,N rural commerce employed/Total rural employed,LF,y,,,,Percent commerce employed (rural)
+pct_comEmp_f_urb,N urban females commerce employed/N female urban employed,LF,y,,,,Percent females commerce employed (urban)
+pct_comEmp_m_urb,N urban males commerce employed/N male urban employed,LF,y,,,,Percent males commerce employed (urban)
+pct_comEmp_both_urb,N urban commerce employed/Total urban employed,LF,y,,,,Percent commerce employed (urban)
+pct_comEmp_f_tot,N total females commerce employed/N female employed,LF,y,,,,Percent females commerce employed (total)
+pct_comEmp_m_tot,N total males commerce employed/N male employed,LF,y,,,,Percent males commerce employed (total)
+pct_comEmp_both_tot,N total commerce employed/Total employed,LF,y,,,,Percent commerce employed (total)
+mis_out_3b,,MA,z,,,,
+mis_Y_3b,,MA,z,,,,
+mis_L_3b,,MA,z,,,,
+mis_T_3b,,MA,z,,,,
+mis_KT_3b,,MA,z,,,,
+mis_K_3b,,MA,z,,,,
+bank_t,"Households' access to banking services, total (percent of households)",spatial,z,Capital market,pop weighted mean,,
+e_fin3,Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),spatial,z,Capital market,mean,,
+e_pr_fin3,Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),spatial,z,Capital market,mean,,
+edu_lit_15_t,"Literacy rate,15+ years,total(percent of population group)",spatial,z,Labor market,mean,,
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)",spatial,z,Labor market,mean,,
+edu_sec_15_t,"Secondary education completion rate,15+ years,total(percent of population group)",spatial,z,Labor market,mean,,
+edu_ter_15_t,"Tertiary education completion rate,15+ years,total(percent of population group)",spatial,z,Labor market,mean,,
+ger_t,"Gross primary enrollment, total (percent of population group)",spatial,z,Labor market,mean,,
+c_oper_t,Mineral production capacity  (million metric tons per year ),spatial,z,Land market,mean,,
+ac_irr,Land area actually irrigated (percent of land area),spatial,z,Land market,area weighted mean,,
+cr_s,Cropland (percent of area),spatial,z,Land market,area weighted mean,,
+hous_slm,Housing units located in urban slums(percent of housing units),spatial,z,Land market,mean,,
+irr_all,Land area equipped for irrigation - Total (percent of land area),spatial,z,Land market,area weighted mean,,
+lcrt,Land area with limited or no constraints (percent of land area),spatial,z,Land market,area weighted mean,,
+est_sh_1,"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",spatial,z,Product market,mean,,
+di_e_2,"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",spatial,z,Product market,mean,,
+e_own1,Non-agr. enterprises by ownership -Private(percent of establishments),spatial,z,Product market,mean,,
+e_own2,Non-agr. enterprises by ownership -Public(percent of establishments),spatial,z,Product market,mean,,
+dens,Population density (people per sq. km.),spatial,control,,area weighted mean,,
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)",spatial,control,,mean,,
+elev,Elevation (meters),spatial,control,,mean,,
+hh_elec_t,"Households' access to electricity,total(percent of households)",spatial,control,,pop weighted mean,,
+pop,Population (thousands),spatial,control,,sum,,
+sc,Scheduled Caste (SC) population (percent),spatial,control,,pop weighted mean,,
+bank_t,"Households' access to banking services, total (percent of households)",spatial,control,,pop weighted mean,,
+urbanPopShare,Share of urban population,spatial,control,,pop weighted mean,,
+ap,Aerosol particle radius (percent of small particles),spatial,y,,mean,,Aerosole Radius
+at,Aerosol optical thickness (thickness scale  0–1 ),spatial,y,,mean,,Aerosole Optical thickness
+cm,Carbon monoxide levels (parts per billion by volume),spatial,y,,mean,,CO
+emp_7_f,"Empl rate, 7+ years, main + marginal, Female (percent of age group)",spatial,y,,mean,,Female Emp Rate
+emp_7_t,"Empl rate, 7+ years, main + marginal, Total (percent of age group)",spatial,y,,mean,,Total Emp Rate
+emp_rwg_f,"Regular wage earners, Female (percent of total empl)",spatial,y,,mean,,Female wage earners
+emp_rwg_t,"Regular wage earners, Total (percent of total emplt)",spatial,y,,mean,,Total wage earners
+emp_slf_f,"Self-employed, Female(percent of total employment)",spatial,y,,mean,,Female Self Employed
+emp_slf_t,"Self-employed,Total(percent of total employment)",spatial,y,,mean,,Total Self Employed
+emp_fmr_f,"Farmers,  Female(percent of total employment)",spatial,y,,mean,,Female Farmers
+emp_fmr_t,"Farmers, Total(percent of total employment)",spatial,y,,mean,,Total Farmers
+emp_cwg_f,"Casual wage earners, Female(percent of total employment)",spatial,y,,mean,,Female Casual Wage Earners
+emp_cwg_t,"Casual wage earners, Total(percent of total employment)",spatial,y,,mean,,Total Casual Wage Earners
+fo_s,Forest (percent of area),spatial,y,,area weighted mean,,Forest Cover
+gdp,"GDP (current USD, in millions)",spatial,y,,sum,,GDP
+gdp_pc,GDP per capita (current USD),spatial,y,,pop weighted mean,,GDPperCap
+nd,Nitrogen dioxide levels (billion molecules/mm2),spatial,y,,mean,,Nitrogen Dioxide
+ntl_a,Light intensity per area,spatial,y,,area weighted mean,,Light Intensity (area)
+ntl_pc,Light intensity per 1000 people,spatial,y,,pop weighted mean,,Light Intensity per 1000 ppl
+dens,Population density (people per sq. km.),spatial,y,,area weighted mean,,Pop Density
+urbanPopShare,Share of urban population,spatial,y,,pop weighted mean,,Share of Urban Pop
+logGdp,"Log of GDP (current USD, in millions)",spatial,y,,,,Log GDP
+logCons_pc_mean_tot,Log of mean hh consumption (total),LF,y,,,,Log of Rural + Urban HH Consumption

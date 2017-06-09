@@ -1,0 +1,232 @@
+---
+title: 'Create a correspondence file with 1999 as the base year'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+
+##Summary
+In the first part of this file I compare the district ids from four different sources.
+
+1. The district codes from the labor force data (LF)
+2. The NSS pdf reference table
+3. The new NSS concordance table
+4. The old (and potentially faulty) concordance table from Go Lian (not sure if I am spelling his name correct)
+
+It turns out that the old concordance file is the most representative. There are three districts in the old concordance file that are missing in the NSS reference table and the LF data. I add these to the list of districts and ids in the old concordance file to create a final 1999 LF concordance file.
+
+In the second part of this file, I use the final 1999 **LF** concordance file and the 2001 **spatial** concordance file to create a new 1999 **spatial** concordance file.
+
+##Loading the datasets and preprocessing
+In some of the data sources, the district ids need to be created by combining the district and state ids. This steps requires me to add preceding zeroes to single digit district ids. So for instance, state id 20 + district id 1 become "2001" instead of 201. This is done so that there no accidental conflicts in the unique ids. ie. to make sure that state id 2 + 10 = "210" does not conflict with 20 + 1.
+
+In other cases the district ids are loaded as numeric so I convert them to character.
+
+1. New Concordance File: The district id variable is converted to character
+2. Old Concordance File: This file does not contain a final district id variable. So I construct this by adding preceding seroes to single digit district ids and combining the state and district ids.
+3. LF rural data: I convert the district id (already there in the data) to character
+4. LF urban data: I convert the district id (already there in the data) to character
+5. The scraped pdf reference table: I follow the same steps as step 2.
+
+```{r, warning=FALSE, message=FALSE}
+rm(list = ls())
+load("../../data/1 Cleaned files for analysis/districtCorrespondence.RDA")
+
+##Loading the new concordance
+newConcordance <- read_dta("../../data/labor force surveys/distcode_asi88 asi99 nss43 nss50 nss55 code91.dta") %>% 
+        mutate(distt_id55 = as.character(distt_id55)) ##converting to character
+
+## Loading the old concordance
+oldConcordance99 <- read_dta("../../data/labor force surveys/Final_2000-1989(55th).dta") %>% 
+        mutate(NSS2000_dist_code = ifelse(NSS2000_dist_code < 10, paste("0", NSS2000_dist_code, sep = ""), as.character(NSS2000_dist_code))) %>% ##adding a preceding "0" to single digit district codes.
+        mutate(distt_id55 = paste(NSS2000_state_id, NSS2000_dist_code, sep = ""))
+
+##Loading the LF data
+lf99Rural <- read_dta("../../data/labor force surveys/lfs199900_rural.dta") %>% 
+        mutate(distt_id55 = as.character(distt_id55)) ##converting to character
+lf99Urban <- read_dta("../../data/labor force surveys/lfs199900_urban.dta") %>% 
+        mutate(distt_id55 = as.character(distt_id55)) ##converting to character
+
+##Loading the scraped pdf table
+pdfTable99 <- read_csv("../../data/labor force surveys/tabula-NSS districtcodes 1999_2000(55th).csv") %>% 
+        filter(row_number() != 1) 
+
+names(pdfTable99) <- c("state", "subRegion", "district", "stateCode", "subRegCode", "distCode") ##changing names
+
+pdfTable99 <- pdfTable99 %>% 
+        mutate_at(4:6, as.integer) %>% 
+        mutate(distCode = ifelse(distCode < 10, paste("0", distCode, sep = ""), as.character(distCode))) %>% ##creating the district ids with preceding "0" for single digit
+        mutate(distt_id55 = paste(stateCode, distCode, sep = ""))
+        
+```
+
+## PART 1: Checking to see if the district codes match across different sources
+Here I create a list of unique ids from the 4 different sources. Note that that both the urban and rural LF datasets are used to create the unique list of district ids.
+```{r}
+newConcordanceIds <- sort(unique(newConcordance$distt_id55))
+lf99DataIds <- sort(unique(c(lf99Urban$distt_id55, lf99Rural$distt_id55)))
+oldConcordance99Ids <- sort(unique(oldConcordance99$distt_id55))
+NSSpdfIds <- sort(unique(pdfTable99$distt_id55))
+```
+Each of these vectors are of different lengths. There are 505 ids from the data, 508 ids in the old concordance file, 496 in the NSS reference table and 497 ids in the new concordance table.
+
+In the next section I compare the district ids in the two concordance table (old and new) to the NSS reference table and the LF data. And then I compare the NSS reference table to the LF data.
+
+###Old Concordance 
+####vs NSS reference table
+There are only three districts that are missing. The same ones that we picked out manually! Surprising coincidence. 
+```{r}
+pdfTable99 %>% 
+        filter(!(distt_id55 %in% oldConcordance99Ids)) %>% 
+        group_by(distt_id55) %>% 
+        filter(row_number() == 1) ## the pdf table repeats observations, so I am only keeping unique rows
+```
+
+There are 15 observations in the old concordance table that are missing in the reference table
+```{r}
+oldConcordance99 %>% 
+        filter(!(distt_id55 %in% NSSpdfIds)) %>% 
+        select(8:11, 13)
+```
+
+####vs LF data
+There are three districts (the same as the ones in the NSS reference table) in the LF data that are missing from the old concordance table. 
+```{r}
+oldConcordance99 %>% 
+        filter(!(distt_id55 %in% lf99DataIds)) %>% 
+        select(8:11, 13)
+```
+
+There are 6 districts in the old concordance file that are missing in the data.
+```{r}
+lf99DataIds[!(lf99DataIds %in% oldConcordance99Ids)]
+```
+
+###New Concordance 
+####vs NSS reference table
+There are 15 districts in the reference table that do not match with the new concordance table. 
+```{r}
+
+pdfTable99 %>% 
+        filter(!(distt_id55 %in% newConcordanceIds)) %>% 
+        group_by(distt_id55) %>% 
+        filter(row_number() == 1) ## the pdf table repeats observations, so I am only keeping unique rows
+```
+
+While there are 20 other districts that are present in the new concordance table that do not match with the 
+```{r}
+newConcordance %>% 
+        filter(!(distt_id55 %in% NSSpdfIds)) %>% 
+        select(4, 3, 9)
+```
+
+####vs LF data
+There are 13 district ids in the LF data that do not have a corresponding id in the new correspondence file. 
+```{r}
+newConcordance %>% 
+        filter(!(distt_id55 %in% lf99DataIds)) %>% 
+        select(4, 3, 9)
+```
+
+There are 5 ids in the new concordance file that do not appear in the data.
+```{r}
+lf99DataIds[!(lf99DataIds %in% newConcordanceIds)]
+```
+
+###LF Data vs NSS reference table
+There are 6 districts that are in the reference table but missing in the data. 
+```{r}
+pdfTable99 %>% 
+        filter(!(distt_id55 %in% lf99DataIds)) %>% 
+        group_by(distt_id55) %>% 
+        filter(row_number() == 1) ## the pdf table repeats observations, so I am only keeping unique rows
+```
+
+Similarly there are 15 districts in the LF data that are missing in the reference table, these probably are the 15 additional districts in the old concordance file that was probably manually added.
+```{r}
+lf99DataIds[!(lf99DataIds %in% NSSpdfIds)]
+```
+
+Here I match the ids in the datasets that do not match with the NSS reference table with those in the old concordance file.
+
+```{r}
+oldConcordanceNonMatches <- oldConcordance99 %>% 
+        filter(!(distt_id55 %in% NSSpdfIds)) %>% 
+        select(8:11, 13)
+lf99DataIdsNonMatches <- lf99DataIds[!(lf99DataIds %in% NSSpdfIds)]
+
+lf99DataIdsNonMatches %in% oldConcordanceNonMatches$distt_id55
+```
+
+Based on this it looks like the old concordance file is the best starting point for creating the spatial concordance file at the 1999 level. Before doing this however, I need to add the three district ids that are missing in the old concordance file.
+
+```{r}
+missingDistricts <- pdfTable99 %>% 
+        filter(!(distt_id55 %in% oldConcordance99Ids)) %>% 
+        group_by(distt_id55) %>% 
+        filter(row_number() == 1) %>%  ## the pdf table repeats observations, so I am only keeping unique rows
+        select(1, 3, 7) %>% 
+        mutate(state = "Tamil Nadu") %>% 
+        ungroup()
+
+correspondenceFinal99 <- oldConcordance99 %>% 
+        select(state = 8, district = 10, distt_id55 = 13) %>% 
+        rbind(., missingDistricts) %>% 
+        arrange(state, district)
+
+rm(list = setdiff(ls(), "correspondenceFinal99"))
+```
+
+Now we have the Final LF Concordance file for 1999.
+
+## PART 2: Create the Final Spatial Concordance file for 1999
+I follow a three step process to create the final correspondence file at the 1999 NSS level.
+
+1. The 2011 spatial id is the entire universe of spatial ids (for our analysis). In the first step I map each LF district ID to a unique spatial id.
+2. I use the spatial id variable to merge the file from step 1 to the complete list of spatial ids in 2011. This list would have NA values since the number of districts in 1999 is smaller than 2011. I identify the districts that were split, merged etc, and assign a final spatial id variable. The number of distinct values in each column would follow this order: spatial_id_2011 > LF_dist_id > final id (since some districts in 1999 will also have to be merged to accomodate mega districts).
+3. The file created above is merged with the LF data. This file would have unique number of LF_dist_ids and a non unique number of final ids (due to mega districts). The observations in the dataset are then summed (if levels) to create a final 1999 dataset that contains unique final ids.
+
+### Step 1: Creating a temporary file that maps each LF id to a spatial id
+Here I load the 2001 spatial correspondence file and join it to the final LF correspondence file using the 2001 NSS state and district names. The 99 unmatched rows are manually mapped back to the district ids along with a final set of spatial ids.
+
+```{r}
+load("../../data/1 Cleaned files for analysis/districtCorrespondence2001.RDA")
+correspondenceFinal99 %>% 
+        left_join(., districtCorrespondence2001, by = c("state" = "nss2001State", "district" = "nss2001District"))%>% 
+        select(distt_id55, spatialId, state, district) %>% 
+        write_csv(., "../../data/labor force surveys/99 concordance/tempStep1.csv")
+```
+
+### Step 2: Create the final concordance file
+I merge manually matched file from the previous step to the complete list of spatial ids. As a starting point, I assign FInal ids  = spatial id for all non NA distt_id55 values. There are 136 (out of 647) districts that are missing a final id variable. I manually fill these.
+```{r, message=FALSE}
+step1 <- read_csv("../../data/labor force surveys/99 concordance/tempStep1Clean.csv")
+
+districtCorrespondence2001 %>% 
+        left_join(., read_csv("../../data/labor force surveys/99 concordance/tempStep1Clean.csv"), by = "spatialId") %>% 
+        select(spatialId, distt_id55, spatialState, spatialDistrict, state, district) %>% 
+        mutate(finalId = ifelse(is.na(distt_id55), NA, spatialId)) %>% 
+        write_csv(., "../../data/labor force surveys/99 concordance/tempStep2.csv")
+```
+
+The district names were manually matched. This is the new correspondence file that maps spatial district ids and LF district ids to the NSS 1999 list of districts (based on the old concordance file and LF data). I can also map these to the ASI datasets using the 2001 correspondence file (since they can be uniquely identified using spatial ids).
+```{r, message=FALSE}
+districtCorrespondence99 <- read_csv("../../data/labor force surveys/99 concordance/spatialNSSCorrespondence1999.csv")
+head(districtCorrespondence99, n = 10)
+```
+
+I also add the ASI 2001 and 2010 state and district names from the 2001 district correspondence file to the 1999 correspondence file.
+```{r}
+districtCorrespondenceNames <- districtCorrespondence2001 %>% 
+        select(1:7)
+districtCorrespondence99 <- left_join(districtCorrespondence99, districtCorrespondenceNames, by = "spatialId")%>% 
+        mutate(distt_id55 = as.character(distt_id55)) %>% 
+        left_join(., correspondenceFinal99, by = "distt_id55") %>% 
+        select(1:3, 5:12, 4) 
+
+save(districtCorrespondence99, file = "../../data/1 Cleaned files for analysis/districtCorrespondence99.RDA")
+```
+
+The third step of merging spatial ids using the 99 concordance file will be done separately in a data preparation file.

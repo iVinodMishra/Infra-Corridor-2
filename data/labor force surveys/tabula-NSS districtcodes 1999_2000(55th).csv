@@ -1,0 +1,942 @@
+NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode"
+A&N,A&N,Andaman,27,1,1
+A&N,A&N,Nicobar,27,1,2
+APR,Costal,Srikakulam,2,1,1
+APR,Costal,Vizianagaram,2,1,2
+APR,Costal,Vishakhapatnam,2,1,3
+APR,Costal,East Godavari,2,1,4
+APR,Costal,West Godawari,2,1,5
+APR,Costal,Krishna,2,1,6
+APR,Costal,Guntur,2,1,7
+APR,Costal,Prakasam,2,1,8
+APR,Costal,Nellore,2,1,9
+APR,Inland Northern,Mahbubnagar,2,2,14
+APR,Inland Northern,Rangareddy,2,2,15
+APR,Inland Northern,Hyderabad,2,2,16
+APR,Inland Northern,Medak,2,2,17
+APR,Inland Northern,Nizamabad,2,2,18
+APR,Inland Northern,Adilabad,2,2,19
+APR,Inland Northern,Karimnagar,2,2,20
+APR,Inland Northern,Warangal,2,2,21
+APR,Inland Northern,Khammam,2,2,22
+APR,Inland Northern,Nalgonda,2,2,23
+APR,Inland Southern,Chittoor,2,4,10
+APR,Inland Southern,Cuddapah,2,4,11
+APR,South - Western,Anantpur,2,3,12
+APR,South - Western,Kurnool,2,3,13
+ARP,ARP,Tawang,3,1,1
+ARP,ARP,West kameng,3,1,2
+ARP,ARP,West Kameng,3,1,3
+ARP,ARP,Lower Subansiri,3,1,4
+ARP,ARP,Upper Subansiri,3,1,5
+ARP,ARP,West Siang,3,1,6
+ARP,ARP,Dibang,3,1,8
+ARP,ARP,Lohit,3,1,9
+ARP,ARP,Tirap,3,1,10
+ARP,ARP,Changlong,3,1,11
+ASS,Plains Western,Kokrajhar,4,3,2
+ASS,Hills,Karbiaglong,4,3,19
+ASS,Hills,North Cachar,4,3,20
+ASS,Plains Western,Bongaigaon,4,2,3
+ASS,Plains Western,Barpeta,4,2,5
+ASS,Plains Western,Nalbari,4,2,6
+ASS,Plains Western,Sonitpur,4,2,9
+ASS,Plains Eastern,Lakhimpur,4,1,10
+ASS,Plains Western,Morigaon,4,2,12
+ASS,Plains Eastern,Sibsagar,4,1,16
+ASS,Plains Eastern,Dibrugarh,4,1,17
+ASS,Plains Eastern,Tinsukia,4,1,18
+ASS,Plains Eastern,Cachar,4,1,23
+ASS,Plains Western,Dhubri,4,2,1
+ASS,Plains Western,Goalpara,4,2,4
+ASS,Plains Western,Kamrup,4,2,7
+ASS,Plains Western,Darrang,4,2,8
+ASS,Plains Eastern,Dhemaji,4,1,11
+ASS,Plains Western,Nowgong,4,2,13
+ASS,Plains Eastern,Golaghat,4,1,14
+ASS,Plains Eastern,Jorhat,4,1,15
+ASS,Plains Eastern,Karimgang,4,1,21
+ASS,Plains Eastern,Hailakandi,4,1,22
+BIH,Central,Patna,5,3,1
+BIH,Central,Nalanda,5,3,2
+BIH,Central,Bhojpur,5,3,3
+BIH,Central,Rohtas,5,3,4
+ARP,ARP,Dibang,3,1,8
+ARP,ARP,Lohit,3,1,9
+ARP,ARP,Tirap,3,1,10
+ARP,ARP,Changlong,3,1,11
+ASS,Plains Western,Kokrajhar,4,3,2
+ASS,Hills,Karbiaglong,4,3,19
+ASS,Hills,North Cachar,4,3,20
+ASS,Plains Western,Bongaigaon,4,2,3
+ASS,Plains Western,Barpeta,4,2,5
+ASS,Plains Western,Nalbari,4,2,6
+ASS,Plains Western,Sonitpur,4,2,9
+ASS,Plains Eastern,Lakhimpur,4,1,10
+ASS,Plains Western,Morigaon,4,2,12
+ASS,Plains Eastern,Sibsagar,4,1,16
+ASS,Plains Eastern,Dibrugarh,4,1,17
+ASS,Plains Eastern,Tinsukia,4,1,18
+ASS,Plains Eastern,Cachar,4,1,23
+ASS,Plains Western,Dhubri,4,2,1
+ASS,Plains Western,Goalpara,4,2,4
+ASS,Plains Western,Kamrup,4,2,7
+ASS,Plains Western,Darrang,4,2,8
+ASS,Plains Eastern,Dhemaji,4,1,11
+ASS,Plains Western,Nowgong,4,2,13
+ASS,Plains Eastern,Golaghat,4,1,14
+ASS,Plains Eastern,Jorhat,4,1,15
+ASS,Plains Eastern,Karimgang,4,1,21
+ASS,Plains Eastern,Hailakandi,4,1,22
+BIH,Central,Patna,5,3,1
+BIH,Central,Nalanda,5,3,2
+BIH,Central,Bhojpur,5,3,3
+BIH,Central,Rohtas,5,3,4
+BIH,Central,Jehanabad,5,3,6
+BIH,Central,Gaya,5,3,7
+BIH,Central,Nawada,5,3,8
+BIH,Central,Begusarai,5,3,17
+BIH,Central,Khagaria,5,3,25
+BIH,Central,Munger,5,3,26
+BIH,Central,Bhagalpur,5,3,27
+BIH,Central,Buxar,5,3,43
+BIH,Central,Bhabua,5,3,44
+BIH,Central,Jamui,5,3,46
+BIH,Central,Banka,5,3,47
+BIH,Northern,Saran,5,2,9
+BIH,Northern,Siwan,5,2,10
+BIH,Northern,Gopalganj,5,2,11
+BIH,Northern,West Champaran,5,2,12
+BIH,Northern,East Champaran,5,2,13
+BIH,Northern,Sitamari,5,2,14
+BIH,Northern,Muzaffarpur,5,2,15
+BIH,Northern,Vaishali,5,2,16
+BIH,Northern,Samastipur,5,2,18
+BIH,Northern,Darbhanga,5,2,19
+BIH,Northern,Madhubani,5,2,20
+BIH,Northern,Saharsa,5,2,21
+BIH,Northern,Madhepura,5,2,22
+BIH,Northern,Purnea,5,2,23
+BIH,Northern,Katihar,5,2,24
+BIH,Northern,Araria,5,2,41
+BIH,Northern,Kishanganj,5,2,42
+BIH,Northern,Supaul,5,2,45
+BIH,Southern,Godda,5,1,28
+BIH,Southern,Sahibaganj,5,1,29
+BIH,Central,Jehanabad,5,3,6
+BIH,Central,Gaya,5,3,7
+BIH,Central,Nawada,5,3,8
+BIH,Central,Begusarai,5,3,17
+BIH,Central,Khagaria,5,3,25
+BIH,Central,Munger,5,3,26
+BIH,Central,Bhagalpur,5,3,27
+BIH,Central,Buxar,5,3,43
+BIH,Central,Bhabua,5,3,44
+BIH,Central,Jamui,5,3,46
+BIH,Central,Banka,5,3,47
+BIH,Northern,Saran,5,2,9
+BIH,Northern,Siwan,5,2,10
+BIH,Northern,Gopalganj,5,2,11
+BIH,Northern,West Champaran,5,2,12
+BIH,Northern,East Champaran,5,2,13
+BIH,Northern,Sitamari,5,2,14
+BIH,Northern,Muzaffarpur,5,2,15
+BIH,Northern,Vaishali,5,2,16
+BIH,Northern,Samastipur,5,2,18
+BIH,Northern,Darbhanga,5,2,19
+BIH,Northern,Madhubani,5,2,20
+BIH,Northern,Saharsa,5,2,21
+BIH,Northern,Madhepura,5,2,22
+BIH,Northern,Purnea,5,2,23
+BIH,Northern,Katihar,5,2,24
+BIH,Northern,Araria,5,2,41
+BIH,Northern,Kishanganj,5,2,42
+BIH,Northern,Supaul,5,2,45
+BIH,Southern,Godda,5,1,28
+BIH,Southern,Sahibaganj,5,1,29
+BIH,Southern,Deoghar,5,1,31
+BIH,Southern,Dhanbad,5,1,32
+BIH,Southern,Giridih,5,1,33
+BIH,Southern,Hazaribagh,5,1,34
+BIH,Southern,Palamu,5,1,35
+BIH,Southern,Lohardaga,5,1,36
+BIH,Southern,Gumla,5,1,37
+BIH,Southern,Ranchi,5,1,38
+BIH,Southern,Purbi Singhbhum,5,1,39
+BIH,Southern,Paschim Singhbhum,5,1,40
+BIH,Southern,Pakur,5,1,48
+BIH,Southern,Bokaro,5,1,49
+BIH,Southern,Kodarma,5,1,50
+BIH,Southern,Chatra,5,1,51
+BIH,Southern,Garhwa,5,1,52
+GOA,GOA,North,6,1,1
+GOA,GOA,South,6,1,2
+GUJ,Dry areas,Surendranagar,7,4,3
+GUJ,Dry areas,Kachchh,7,4,7
+GUJ,Dry areas,Bans Kantha,7,4,8
+GUJ,Dry areas,Mahesana,7,4,10
+GUJ,Eastern,Sabar Kantha,7,1,9
+GUJ,Eastern,Panch Mahals,7,1,14
+GUJ,Eastern,Vadodara,7,1,15
+GUJ,Eastern,Bharuch,7,1,16
+GUJ,Eastern,Surat,7,1,17
+GUJ,Eastern,Valsad,7,1,18
+GUJ,Eastern,The Dangs,7,1,19
+BIH,Southern,Deoghar,5,1,31
+BIH,Southern,Dhanbad,5,1,32
+BIH,Southern,Giridih,5,1,33
+BIH,Southern,Hazaribagh,5,1,34
+BIH,Southern,Palamu,5,1,35
+BIH,Southern,Lohardaga,5,1,36
+BIH,Southern,Gumla,5,1,37
+BIH,Southern,Ranchi,5,1,38
+BIH,Southern,Purbi Singhbhum,5,1,39
+BIH,Southern,Paschim Singhbhum,5,1,40
+BIH,Southern,Pakur,5,1,48
+BIH,Southern,Bokaro,5,1,49
+BIH,Southern,Kodarma,5,1,50
+BIH,Southern,Chatra,5,1,51
+BIH,Southern,Garhwa,5,1,52
+GOA,GOA,North,6,1,1
+GOA,GOA,South,6,1,2
+GUJ,Dry areas,Surendranagar,7,4,3
+GUJ,Dry areas,Kachchh,7,4,7
+GUJ,Dry areas,Bans Kantha,7,4,8
+GUJ,Dry areas,Mahesana,7,4,10
+GUJ,Eastern,Sabar Kantha,7,1,9
+GUJ,Eastern,Panch Mahals,7,1,14
+GUJ,Eastern,Vadodara,7,1,15
+GUJ,Eastern,Bharuch,7,1,16
+GUJ,Eastern,Surat,7,1,17
+GUJ,Eastern,Valsad,7,1,18
+GUJ,Eastern,The Dangs,7,1,19
+GUJ,Plains Northern,Mahesana,7,2,10
+GUJ,Plains Northern,Gandhinagar,7,2,11
+GUJ,Plains Northern,Ahmedabad,7,2,12
+GUJ,Plains Northern,Kheda,7,2,13
+GUJ,Plains Southern,Panch Mahals,7,3,14
+GUJ,Plains Southern,Vadodara,7,3,15
+GUJ,Plains Southern,Bharuch,7,3,16
+GUJ,Plains Southern,Surat,7,3,17
+GUJ,Plains Southern,Valsad,7,3,18
+GUJ,Saurashtra,Jamnagar,7,5,1
+GUJ,Saurashtra,Rajkot,7,5,2
+GUJ,Saurashtra,Bhavnagar,7,5,4
+GUJ,Saurashtra,Amreli,7,5,5
+GUJ,Saurashtra,Junagadh,7,5,6
+HAR,Eastern,Ambala,8,1,1
+HAR,Eastern,Yamuna Nagar,8,1,2
+HAR,Eastern,Kurukshetra,8,1,3
+HAR,Eastern,Kaithal,8,1,4
+HAR,Eastern,Karnal,8,1,5
+HAR,Eastern,Panipat,8,1,6
+HAR,Eastern,Sonipat,8,1,7
+HAR,Eastern,Rohtak,8,1,8
+HAR,Eastern,Faridabad,8,1,9
+HAR,Eastern,Gurgaon,8,1,10
+HAR,Western,Rewari,8,2,11
+HAR,Western,Mahendragarh,8,2,12
+HAR,Western,Bhilwani,8,2,13
+GUJ,Plains Northern,Mahesana,7,2,10
+GUJ,Plains Northern,Gandhinagar,7,2,11
+GUJ,Plains Northern,Ahmedabad,7,2,12
+GUJ,Plains Northern,Kheda,7,2,13
+GUJ,Plains Southern,Panch Mahals,7,3,14
+GUJ,Plains Southern,Vadodara,7,3,15
+GUJ,Plains Southern,Bharuch,7,3,16
+GUJ,Plains Southern,Surat,7,3,17
+GUJ,Plains Southern,Valsad,7,3,18
+GUJ,Saurashtra,Jamnagar,7,5,1
+GUJ,Saurashtra,Rajkot,7,5,2
+GUJ,Saurashtra,Bhavnagar,7,5,4
+GUJ,Saurashtra,Amreli,7,5,5
+GUJ,Saurashtra,Junagadh,7,5,6
+HAR,Eastern,Ambala,8,1,1
+HAR,Eastern,Yamuna Nagar,8,1,2
+HAR,Eastern,Kurukshetra,8,1,3
+HAR,Eastern,Kaithal,8,1,4
+HAR,Eastern,Karnal,8,1,5
+HAR,Eastern,Panipat,8,1,6
+HAR,Eastern,Sonipat,8,1,7
+HAR,Eastern,Rohtak,8,1,8
+HAR,Eastern,Faridabad,8,1,9
+HAR,Eastern,Gurgaon,8,1,10
+HAR,Western,Rewari,8,2,11
+HAR,Western,Mahendragarh,8,2,12
+HAR,Western,Bhilwani,8,2,13
+HAR,Western,Hisar,8,2,15
+HAR,Western,Sirsa,8,2,16
+HPR,HPR,Chamba,9,1,1
+HPR,HPR,Kangra,9,1,2
+HPR,HPR,Hamirpur,9,1,3
+HPR,HPR,Una,9,1,4
+HPR,HPR,Bilaspur,9,1,5
+HPR,HPR,Mandi,9,1,6
+HPR,HPR,Kullu,9,1,7
+HPR,HPR,Lahul & Spiti,9,1,8
+HPR,HPR,Shimla,9,1,9
+HPR,HPR,Solan,9,1,10
+HPR,HPR,Sirampur,9,1,11
+HPR,HPR,Kinnaur,9,1,12
+KAR,Coastal & Ghats,Dakshin Kannad,11,1,9
+KAR,Coastal & Ghats,Uttar Kannad,11,1,20
+KAR,Inland Eastern,Chikmagalur,11,2,7
+KAR,Inland Eastern,Hassan,11,2,12
+KAR,Inland Eastern,Kodagu,11,2,13
+KAR,Inland Eastern,Shimoga,11,2,18
+KAR,Inland Northern,Belgaum,11,4,3
+KAR,Inland Northern,Bellary,11,4,4
+KAR,Inland Northern,Bidar,11,4,5
+KAR,Inland Northern,Bijapur,11,4,6
+KAR,Inland Northern,Chitradurga,11,4,8
+KAR,Inland Northern,Dharwad,11,4,10
+KAR,Inland Northern,Gulbarga,11,4,11
+KAR,Inland Northern,Raichur,11,4,17
+KAR,Inland Southern,Bangalore (Urban),11,3,1
+KAR,Inland Southern,Bangalore (Rural),11,3,2
+KAR,Inland Southern,Kolar,11,3,14
+HAR,Western,Hisar,8,2,15
+HAR,Western,Sirsa,8,2,16
+HPR,HPR,Chamba,9,1,1
+HPR,HPR,Kangra,9,1,2
+HPR,HPR,Hamirpur,9,1,3
+HPR,HPR,Una,9,1,4
+HPR,HPR,Bilaspur,9,1,5
+HPR,HPR,Mandi,9,1,6
+HPR,HPR,Kullu,9,1,7
+HPR,HPR,Lahul & Spiti,9,1,8
+HPR,HPR,Shimla,9,1,9
+HPR,HPR,Solan,9,1,10
+HPR,HPR,Sirampur,9,1,11
+HPR,HPR,Kinnaur,9,1,12
+KAR,Coastal & Ghats,Dakshin Kannad,11,1,9
+KAR,Coastal & Ghats,Uttar Kannad,11,1,20
+KAR,Inland Eastern,Chikmagalur,11,2,7
+KAR,Inland Eastern,Hassan,11,2,12
+KAR,Inland Eastern,Kodagu,11,2,13
+KAR,Inland Eastern,Shimoga,11,2,18
+KAR,Inland Northern,Belgaum,11,4,3
+KAR,Inland Northern,Bellary,11,4,4
+KAR,Inland Northern,Bidar,11,4,5
+KAR,Inland Northern,Bijapur,11,4,6
+KAR,Inland Northern,Chitradurga,11,4,8
+KAR,Inland Northern,Dharwad,11,4,10
+KAR,Inland Northern,Gulbarga,11,4,11
+KAR,Inland Northern,Raichur,11,4,17
+KAR,Inland Southern,Bangalore (Urban),11,3,1
+KAR,Inland Southern,Bangalore (Rural),11,3,2
+KAR,Inland Southern,Kolar,11,3,14
+KAR,Inland Southern,Mysore,11,3,16
+KAR,Inland Southern,Tumkur,11,3,19
+KER,Northern,Kasargod,12,1,1
+KER,Northern,Kannur,12,1,2
+KER,Northern,Wayanad,12,1,3
+KER,Northern,Kozhikode,12,1,4
+KER,Northern,Malapuram,12,1,5
+KER,Northern,Palakkad,12,1,6
+KER,Southern,Trichur,12,2,7
+KER,Southern,Ernakulam,12,2,8
+KER,Southern,Idukki,12,2,9
+KER,Southern,Alappuzm,12,2,11
+KER,Southern,Pathanamthitta,12,2,12
+KER,Southern,Kollam,12,2,13
+KER,Southern,Kottayam,12,2,10
+KER,Southern,Thiruvananthapuram,12,2,14
+LAK,LAK,Lakshadweep,32,1,1
+MAH,Coastal,Greater Bombay,14,1,1
+MAH,Coastal,Thane,14,1,2
+MAH,Coastal,Raigarh (Kulaba),14,1,3
+MAH,Coastal,Ratnagiri,14,1,4
+MAH,Coastal,Sindhudurg,14,1,5
+MAH,Eastern,Bhandara,14,6,28
+MAH,Eastern,Chandrapur,14,6,29
+MAH,Eastern,Gadchiroli,14,6,30
+MAH,Inland Central,Aurangabad,14,4,15
+MAH,Inland Central,Jalna,14,4,16
+MAH,Inland Central,Parbhani,14,4,17
+MAH,Inland Central,Bid,14,4,18
+MAH,Inland Central,Nanded,14,4,19
+MAH,Inland Central,Osmanabad,14,4,20
+KAR,Inland Southern,Mysore,11,3,16
+KAR,Inland Southern,Tumkur,11,3,19
+KER,Northern,Kasargod,12,1,1
+KER,Northern,Kannur,12,1,2
+KER,Northern,Wayanad,12,1,3
+KER,Northern,Kozhikode,12,1,4
+KER,Northern,Malapuram,12,1,5
+KER,Northern,Palakkad,12,1,6
+KER,Southern,Trichur,12,2,7
+KER,Southern,Ernakulam,12,2,8
+KER,Southern,Idukki,12,2,9
+KER,Southern,Alappuzm,12,2,11
+KER,Southern,Pathanamthitta,12,2,12
+KER,Southern,Kollam,12,2,13
+KER,Southern,Kottayam,12,2,10
+KER,Southern,Thiruvananthapuram,12,2,14
+LAK,LAK,Lakshadweep,32,1,1
+MAH,Coastal,Greater Bombay,14,1,1
+MAH,Coastal,Thane,14,1,2
+MAH,Coastal,Raigarh (Kulaba),14,1,3
+MAH,Coastal,Ratnagiri,14,1,4
+MAH,Coastal,Sindhudurg,14,1,5
+MAH,Eastern,Bhandara,14,6,28
+MAH,Eastern,Chandrapur,14,6,29
+MAH,Eastern,Gadchiroli,14,6,30
+MAH,Inland Central,Aurangabad,14,4,15
+MAH,Inland Central,Jalna,14,4,16
+MAH,Inland Central,Parbhani,14,4,17
+MAH,Inland Central,Bid,14,4,18
+MAH,Inland Central,Nanded,14,4,19
+MAH,Inland Central,Osmanabad,14,4,20
+MAH,Inland East,Buldana,14,5,22
+MAH,Inland East,Akola,14,5,23
+MAH,Inland East,Amravati,14,5,24
+MAH,Inland East,Yavatmal,14,5,25
+MAH,Inland East,Wardha,14,5,26
+MAH,Inland East,Nagpur,14,5,27
+MAH,Inland North,Nasik,14,3,6
+MAH,Inland North,Dhule,14,3,7
+MAH,Inland North,Jalgaon,14,3,8
+MAH,Inland West,Ahmadnagar,14,2,9
+MAH,Inland West,Pune,14,2,10
+MAH,Inland West,Satara,14,2,11
+MAH,Inland West,Sangli,14,2,12
+MAH,Inland West,Solapur,14,2,13
+MAH,Inland West,Kolhapur,14,2,14
+MAN,Hills,Senapati,15,2,1
+MAN,Hills,Tamenglong,15,2,2
+MAN,Hills,Churachandpur,15,2,3
+MAN,Hills,Chandel,15,2,4
+MAN,Hills,Ukhrul,15,2,8
+MAN,Plains,Thoubal,15,1,5
+MAN,Plains,Bishnupur,15,1,6
+MAN,Plains,Imphal,15,1,7
+MEG,MEG,Jaintia Hills,16,1,1
+MEG,MEG,East Khasi Hills,16,1,2
+MEG,MEG,West Khasi Hills,16,1,3
+MEG,MEG,East Garo Hills,16,1,4
+MEG,MEG,West Garo Hills,16,1,5
+MEG,MEG,Ri-bhoi,16,1,6
+MEG,MEG,Bhagmara,16,1,7
+MIZ,MIZ,Aizwal,17,1,1
+MAH,Inland East,Buldana,14,5,22
+MAH,Inland East,Akola,14,5,23
+MAH,Inland East,Amravati,14,5,24
+MAH,Inland East,Yavatmal,14,5,25
+MAH,Inland East,Wardha,14,5,26
+MAH,Inland East,Nagpur,14,5,27
+MAH,Inland North,Nasik,14,3,6
+MAH,Inland North,Dhule,14,3,7
+MAH,Inland North,Jalgaon,14,3,8
+MAH,Inland West,Ahmadnagar,14,2,9
+MAH,Inland West,Pune,14,2,10
+MAH,Inland West,Satara,14,2,11
+MAH,Inland West,Sangli,14,2,12
+MAH,Inland West,Solapur,14,2,13
+MAH,Inland West,Kolhapur,14,2,14
+MAN,Hills,Senapati,15,2,1
+MAN,Hills,Tamenglong,15,2,2
+MAN,Hills,Churachandpur,15,2,3
+MAN,Hills,Chandel,15,2,4
+MAN,Hills,Ukhrul,15,2,8
+MAN,Plains,Thoubal,15,1,5
+MAN,Plains,Bishnupur,15,1,6
+MAN,Plains,Imphal,15,1,7
+MEG,MEG,Jaintia Hills,16,1,1
+MEG,MEG,East Khasi Hills,16,1,2
+MEG,MEG,West Khasi Hills,16,1,3
+MEG,MEG,East Garo Hills,16,1,4
+MEG,MEG,West Garo Hills,16,1,5
+MEG,MEG,Ri-bhoi,16,1,6
+MEG,MEG,Bhagmara,16,1,7
+MIZ,MIZ,Aizwal,17,1,1
+MIZ,MIZ,Chhimtuipui,17,1,3
+MPR,Central,Sagar,13,3,10
+MPR,Central,Damoh,13,3,11
+MPR,Central,Vidisha,13,3,27
+MPR,Central,Bhopal,13,3,28
+MPR,Central,Sehore,13,3,29
+MPR,Central,Raisen,13,3,30
+MPR,Chattisgarh,Surguja,13,1,39
+MPR,Chattisgarh,Bilaspur,13,1,40
+MPR,Chattisgarh,Raigarh,13,1,41
+MPR,Chattisgarh,Raj Nandgaon,13,1,42
+MPR,Chattisgarh,Durg,13,1,43
+MPR,Chattisgarh,Raipur,13,1,44
+MPR,Chattisgarh,Bastar,13,1,45
+MPR,Malwa,Mandsaur,13,4,16
+MPR,Malwa,Ratlam,13,4,17
+MPR,Malwa,Ujjain,13,4,18
+MPR,Malwa,Shajapur,13,4,19
+MPR,Malwa,Dewas,13,4,20
+MPR,Malwa,Jhabua,13,4,21
+MPR,Malwa,Dhar,13,4,22
+MPR,Malwa,Indore,13,4,23
+MPR,Malwa,Rajgarh,13,4,26
+MPR,Northern,Morena,13,7,1
+MPR,Northern,Bhind,13,7,2
+MPR,Northern,Gwalior,13,7,3
+MPR,Northern,Datia,13,7,4
+MPR,Northern,Shivpuri,13,7,5
+MPR,Northern,Guna,13,7,6
+MPR,South,Jabalpur,13,5,33
+MPR,South,Narsimhapur,13,5,34
+MIZ,MIZ,Chhimtuipui,17,1,3
+MPR,Central,Sagar,13,3,10
+MPR,Central,Damoh,13,3,11
+MPR,Central,Vidisha,13,3,27
+MPR,Central,Bhopal,13,3,28
+MPR,Central,Sehore,13,3,29
+MPR,Central,Raisen,13,3,30
+MPR,Chattisgarh,Surguja,13,1,39
+MPR,Chattisgarh,Bilaspur,13,1,40
+MPR,Chattisgarh,Raigarh,13,1,41
+MPR,Chattisgarh,Raj Nandgaon,13,1,42
+MPR,Chattisgarh,Durg,13,1,43
+MPR,Chattisgarh,Raipur,13,1,44
+MPR,Chattisgarh,Bastar,13,1,45
+MPR,Malwa,Mandsaur,13,4,16
+MPR,Malwa,Ratlam,13,4,17
+MPR,Malwa,Ujjain,13,4,18
+MPR,Malwa,Shajapur,13,4,19
+MPR,Malwa,Dewas,13,4,20
+MPR,Malwa,Jhabua,13,4,21
+MPR,Malwa,Dhar,13,4,22
+MPR,Malwa,Indore,13,4,23
+MPR,Malwa,Rajgarh,13,4,26
+MPR,Northern,Morena,13,7,1
+MPR,Northern,Bhind,13,7,2
+MPR,Northern,Gwalior,13,7,3
+MPR,Northern,Datia,13,7,4
+MPR,Northern,Shivpuri,13,7,5
+MPR,Northern,Guna,13,7,6
+MPR,South,Jabalpur,13,5,33
+MPR,South,Narsimhapur,13,5,34
+MPR,South,Chhindwara,13,5,36
+MPR,South,Seoni,13,5,37
+MPR,South,Balaghat,13,5,38
+MPR,South West,Khargone (W. Nimar,13,6,24
+MPR,South West,Khandwa (E. Nimar),13,6,25
+MPR,South West,Betul,13,6,31
+MPR,South West,Hoshangabad,13,6,32
+MPR,Vindhya,Tikamgarh,13,2,7
+MPR,Vindhya,Chhatarpur,13,2,8
+MPR,Vindhya,Panna,13,2,9
+MPR,Vindhya,Satna,13,2,12
+MPR,Vindhya,Rewa,13,2,13
+MPR,Vindhya,Shadol,13,2,14
+MPR,Vindhya,Sidhi,13,2,15
+NAG,NAG,Kohima,18,1,1
+NAG,NAG,Phek,18,1,2
+NAG,NAG,Zunhehoto,18,1,3
+NAG,NAG,Wokha,18,1,4
+NAG,NAG,Mukokchung,18,1,5
+NAG,NAG,Tuensang,18,1,6
+NAG,NAG,Mon,18,1,7
+ORI,Coastal,Baleshwar,19,1,5
+ORI,Coastal,Cuttack,19,1,6
+ORI,Coastal,Ganjam,19,1,12
+ORI,Coastal,Puri,19,1,13
+ORI,Coastal,Bhadrak,19,1,14
+ORI,Coastal,Jagatsinghpura,19,1,15
+ORI,Coastal,Jajpur,19,1,16
+ORI,Coastal,Kendrapara,19,1,17
+ORI,Coastal,Nayagarh,19,1,18
+ORI,Coastal,Khurda,19,1,19
+MPR,South,Chhindwara,13,5,36
+MPR,South,Seoni,13,5,37
+MPR,South,Balaghat,13,5,38
+MPR,South West,Khargone (W. Nimar,13,6,24
+MPR,South West,Khandwa (E. Nimar),13,6,25
+MPR,South West,Betul,13,6,31
+MPR,South West,Hoshangabad,13,6,32
+MPR,Vindhya,Tikamgarh,13,2,7
+MPR,Vindhya,Chhatarpur,13,2,8
+MPR,Vindhya,Panna,13,2,9
+MPR,Vindhya,Satna,13,2,12
+MPR,Vindhya,Rewa,13,2,13
+MPR,Vindhya,Shadol,13,2,14
+MPR,Vindhya,Sidhi,13,2,15
+NAG,NAG,Kohima,18,1,1
+NAG,NAG,Phek,18,1,2
+NAG,NAG,Zunhehoto,18,1,3
+NAG,NAG,Wokha,18,1,4
+NAG,NAG,Mukokchung,18,1,5
+NAG,NAG,Tuensang,18,1,6
+NAG,NAG,Mon,18,1,7
+ORI,Coastal,Baleshwar,19,1,5
+ORI,Coastal,Cuttack,19,1,6
+ORI,Coastal,Ganjam,19,1,12
+ORI,Coastal,Puri,19,1,13
+ORI,Coastal,Bhadrak,19,1,14
+ORI,Coastal,Jagatsinghpura,19,1,15
+ORI,Coastal,Jajpur,19,1,16
+ORI,Coastal,Kendrapara,19,1,17
+ORI,Coastal,Nayagarh,19,1,18
+ORI,Coastal,Khurda,19,1,19
+ORI,Northern,Sambalpur,19,3,1
+ORI,Northern,Sundargarh,19,3,2
+ORI,Northern,Keonjhar,19,3,3
+ORI,Northern,Mayurbhanj,19,3,4
+ORI,Northern,Dhenkanal,19,3,7
+ORI,Northern,Bolangir,19,3,9
+ORI,Northern,Jharsuguda,19,3,26
+ORI,Northern,Deogarh,19,3,27
+ORI,Northern,Sonepur,19,3,29
+ORI,Northern,Angul,19,3,30
+ORI,Northern,Baragarh,19,3,28
+ORI,Southern,Phulbani,19,2,8
+ORI,Southern,Kalahandi,19,2,10
+ORI,Southern,Koraput,19,2,11
+ORI,Southern,Boudh,19,2,21
+ORI,Southern,Nuapara,19,2,22
+ORI,Southern,Malkangiri,19,2,23
+ORI,Southern,Nowarangpur,19,2,24
+ORI,Southern,Rayagarh,19,2,25
+PON,PON,Pondicherry,33,1,1
+PON,PON,Karaikal,33,1,2
+PON,PON,Mahe,33,1,3
+PON,PON,Yanam,33,1,4
+PUN,Northern,Gurdaspur,20,1,1
+PUN,Northern,Amritsar,20,1,2
+PUN,Northern,Ludhiana,20,1,4
+PUN,Northern,Jalandhar,20,1,5
+PUN,Northern,Kapurthala,20,1,6
+PUN,Northern,Hoshiarpur,20,1,7
+PUN,Northern,Rupnagar  (Ropar),20,1,8
+PUN,Southern,Firozpur,20,2,3
+ORI,Northern,Sambalpur,19,3,1
+ORI,Northern,Sundargarh,19,3,2
+ORI,Northern,Keonjhar,19,3,3
+ORI,Northern,Mayurbhanj,19,3,4
+ORI,Northern,Dhenkanal,19,3,7
+ORI,Northern,Bolangir,19,3,9
+ORI,Northern,Jharsuguda,19,3,26
+ORI,Northern,Deogarh,19,3,27
+ORI,Northern,Sonepur,19,3,29
+ORI,Northern,Angul,19,3,30
+ORI,Northern,Baragarh,19,3,28
+ORI,Southern,Phulbani,19,2,8
+ORI,Southern,Kalahandi,19,2,10
+ORI,Southern,Koraput,19,2,11
+ORI,Southern,Boudh,19,2,21
+ORI,Southern,Nuapara,19,2,22
+ORI,Southern,Malkangiri,19,2,23
+ORI,Southern,Nowarangpur,19,2,24
+ORI,Southern,Rayagarh,19,2,25
+PON,PON,Pondicherry,33,1,1
+PON,PON,Karaikal,33,1,2
+PON,PON,Mahe,33,1,3
+PON,PON,Yanam,33,1,4
+PUN,Northern,Gurdaspur,20,1,1
+PUN,Northern,Amritsar,20,1,2
+PUN,Northern,Ludhiana,20,1,4
+PUN,Northern,Jalandhar,20,1,5
+PUN,Northern,Kapurthala,20,1,6
+PUN,Northern,Hoshiarpur,20,1,7
+PUN,Northern,Rupnagar  (Ropar),20,1,8
+PUN,Southern,Firozpur,20,2,3
+PUN,Southern,Sangrur,20,2,10
+PUN,Southern,Bhatinda,20,2,11
+PUN,Southern,Faridkot,20,2,12
+PUN,Southern,Fatehgarh Sahib,20,2,13
+PUN,Southern,Mansa,20,2,14
+RAJ,North-East,Jhunjhuna,21,2,4
+RAJ,North-East,Alwar,21,2,5
+RAJ,North-East,Bharatpur,21,2,6
+RAJ,North-East,Dholpur,21,2,7
+RAJ,North-East,Sawai Madhopur,21,2,8
+RAJ,North-East,Jaipur,21,2,9
+RAJ,North-East,Sikar,21,2,10
+RAJ,North-East,Ajmer,21,2,11
+RAJ,North-East,Tonk,21,2,12
+RAJ,North-East,Bhilwara,21,2,20
+RAJ,North-East,Dausa,21,2,28
+RAJ,South-East,Chittaurgarh,21,4,22
+RAJ,South-East,Bundi,21,4,25
+RAJ,South-East,Kota,21,4,26
+RAJ,South-East,Jhalawar,21,4,27
+RAJ,South-East,Baran,21,4,29
+RAJ,Southern,Udaipur,21,3,21
+RAJ,Southern,Dungarpur,21,3,23
+RAJ,Southern,Banswara,21,3,24
+RAJ,Southern,Rajsamand,21,3,30
+RAJ,Western,Ganganagar,21,1,1
+RAJ,Western,Bikaner,21,1,2
+RAJ,Western,Churu,21,1,3
+RAJ,Western,Jaisalmer,21,1,13
+RAJ,Western,Jodhpur,21,1,14
+RAJ,Western,Nagaur,21,1,15
+RAJ,Western,Barmer,21,1,17
+RAJ,Western,Jalor,21,1,18
+RAJ,Western,Sirohi,21,1,19
+SIK,SIK,North (Mongam),22,1,1
+SIK,SIK,East (Gangtok),22,1,2
+SIK,SIK,South (Nimachai),22,1,3
+SIK,SIK,West (Gyalshing),22,1,4
+TNA,Coastal,Tiruchirapalli,23,2,12
+TNA,Coastal,Thanjavur,23,2,13
+TNA,Coastal,Pudukkottai,23,2,14
+TNA,Coastal,Nagapattinam-Quaie,23,2,23
+TNA,Coastal Northern,Madras,23,1,1
+TNA,Coastal Northern,Chengai Anna (Chen,23,1,2
+TNA,Coastal Northern,North Arcot Ambedh,23,1,3
+TNA,Coastal Northern,Thiruvannamalai Sa,23,1,5
+TNA,Coastal Northern,South Arcot,23,1,6
+TNA,Coastal Northern,Villupuram,23,1,22
+TNA,Inland,Dharampuri,23,4,4
+TNA,Inland,Salem,23,4,7
+TNA,Inland,Periyar,23,4,8
+TNA,Inland,Nilgiri,23,4,9
+TNA,Inland,Coimbatore,23,4,10
+TNA,Southern,Dindigul-Quide Millet,23,3,11
+TNA,Southern,Pasupomthevar Thir,23,3,15
+TNA,Southern,Madurai,23,3,16
+TNA,Southern,Ramnathapuram,23,3,17
+TNA,Southern,Kamarajar,23,3,18
+TNA,Southern,V.O.  Chiudambara,23,3,19
+TNA,Southern,Tirunelveli Kottabom,23,3,20
+TNA,Southern,KannyaiKumari,23,3,21
+TRI,TRI,West Tripura,24,1,1
+RAJ,Western,Barmer,21,1,17
+RAJ,Western,Jalor,21,1,18
+RAJ,Western,Sirohi,21,1,19
+SIK,SIK,North (Mongam),22,1,1
+SIK,SIK,East (Gangtok),22,1,2
+SIK,SIK,South (Nimachai),22,1,3
+SIK,SIK,West (Gyalshing),22,1,4
+TNA,Coastal,Tiruchirapalli,23,2,12
+TNA,Coastal,Thanjavur,23,2,13
+TNA,Coastal,Pudukkottai,23,2,14
+TNA,Coastal,Nagapattinam-Quaie,23,2,23
+TNA,Coastal Northern,Madras,23,1,1
+TNA,Coastal Northern,Chengai Anna (Chen,23,1,2
+TNA,Coastal Northern,North Arcot Ambedh,23,1,3
+TNA,Coastal Northern,Thiruvannamalai Sa,23,1,5
+TNA,Coastal Northern,South Arcot,23,1,6
+TNA,Coastal Northern,Villupuram,23,1,22
+TNA,Inland,Dharampuri,23,4,4
+TNA,Inland,Salem,23,4,7
+TNA,Inland,Periyar,23,4,8
+TNA,Inland,Nilgiri,23,4,9
+TNA,Inland,Coimbatore,23,4,10
+TNA,Southern,Dindigul-Quide Millet,23,3,11
+TNA,Southern,Pasupomthevar Thir,23,3,15
+TNA,Southern,Madurai,23,3,16
+TNA,Southern,Ramnathapuram,23,3,17
+TNA,Southern,Kamarajar,23,3,18
+TNA,Southern,V.O.  Chiudambara,23,3,19
+TNA,Southern,Tirunelveli Kottabom,23,3,20
+TNA,Southern,KannyaiKumari,23,3,21
+TRI,TRI,West Tripura,24,1,1
+TRI,TRI,South Tripura,24,1,3
+UPR,Central,Kheri,25,3,28
+UPR,Central,Sitapur,25,3,29
+UPR,Central,Hardoi,25,3,30
+UPR,Central,Unnao,25,3,31
+UPR,Central,Lucknow,25,3,32
+UPR,Central,Rai Bareli,25,3,33
+UPR,Central,Kanpur Dehat,25,3,36
+UPR,Central,Kanpur Nagar,25,3,37
+UPR,Central,Fatepur,25,3,43
+UPR,Central,Bara Banki,25,3,48
+UPR,Eastern,Pratapgarh,25,4,44
+UPR,Eastern,Allahabad,25,4,45
+UPR,Eastern,Bahraich,25,4,46
+UPR,Eastern,Gonda,25,4,47
+UPR,Eastern,Faizabad,25,4,49
+UPR,Eastern,Sultanpur,25,4,50
+UPR,Eastern,Sidhartha nagar,25,4,51
+UPR,Eastern,Maharajganj,25,4,52
+UPR,Eastern,Basti,25,4,53
+UPR,Eastern,Gorakhpur,25,4,54
+UPR,Eastern,Deeria,25,4,55
+UPR,Eastern,Maunath Bhanjan,25,4,56
+UPR,Eastern,Azamgarh,25,4,57
+UPR,Eastern,Jaunpur,25,4,58
+UPR,Eastern,Ballia,25,4,59
+UPR,Eastern,Ghazipur,25,4,60
+UPR,Eastern,Varanashi,25,4,61
+UPR,Eastern,Mirzapur,25,4,62
+UPR,Eastern,Balrampur,25,4,66
+UPR,Eastern,Chandauli,25,4,72
+TRI,TRI,South Tripura,24,1,3
+UPR,Central,Kheri,25,3,28
+UPR,Central,Sitapur,25,3,29
+UPR,Central,Hardoi,25,3,30
+UPR,Central,Unnao,25,3,31
+UPR,Central,Lucknow,25,3,32
+UPR,Central,Rai Bareli,25,3,33
+UPR,Central,Kanpur Dehat,25,3,36
+UPR,Central,Kanpur Nagar,25,3,37
+UPR,Central,Fatepur,25,3,43
+UPR,Central,Bara Banki,25,3,48
+UPR,Eastern,Pratapgarh,25,4,44
+UPR,Eastern,Allahabad,25,4,45
+UPR,Eastern,Bahraich,25,4,46
+UPR,Eastern,Gonda,25,4,47
+UPR,Eastern,Faizabad,25,4,49
+UPR,Eastern,Sultanpur,25,4,50
+UPR,Eastern,Sidhartha nagar,25,4,51
+UPR,Eastern,Maharajganj,25,4,52
+UPR,Eastern,Basti,25,4,53
+UPR,Eastern,Gorakhpur,25,4,54
+UPR,Eastern,Deeria,25,4,55
+UPR,Eastern,Maunath Bhanjan,25,4,56
+UPR,Eastern,Azamgarh,25,4,57
+UPR,Eastern,Jaunpur,25,4,58
+UPR,Eastern,Ballia,25,4,59
+UPR,Eastern,Ghazipur,25,4,60
+UPR,Eastern,Varanashi,25,4,61
+UPR,Eastern,Mirzapur,25,4,62
+UPR,Eastern,Balrampur,25,4,66
+UPR,Eastern,Chandauli,25,4,72
+UPR,Himalayan,Chamoli,25,1,2
+UPR,Himalayan,Tehri Garhwal,25,1,3
+UPR,Himalayan,Dehra Dun,25,1,4
+UPR,Himalayan,Garhwal,25,1,5
+UPR,Himalayan,Pithoragarh,25,1,6
+UPR,Himalayan,Almora,25,1,7
+UPR,Himalayan,Nainital,25,1,8
+UPR,Himalayan,Bareilly,25,1,25
+UPR,Himalayan,Champaran,25,1,68
+UPR,Southern,Jalan,25,5,38
+UPR,Southern,Jhansi,25,5,39
+UPR,Southern,Lalitpur,25,5,40
+UPR,Southern,Hamirpur,25,5,41
+UPR,Southern,Banda,25,5,42
+UPR,Southern,Chitrakut,25,5,69
+UPR,Western,Bijnor,25,2,9
+UPR,Western,Moradabad,25,2,10
+UPR,Western,Rampur,25,2,11
+UPR,Western,Saharanpur,25,2,12
+UPR,Western,Hardwar,25,2,13
+UPR,Western,Muzaffarnagar,25,2,14
+UPR,Western,Meerut,25,2,15
+UPR,Western,Ghaziabad,25,2,16
+UPR,Western,Bulandshahr,25,2,17
+UPR,Western,Aligarh,25,2,18
+UPR,Western,Mathura,25,2,19
+UPR,Western,Agra,25,2,20
+UPR,Western,Firozabad,25,2,21
+UPR,Western,Etah,25,2,22
+UPR,Western,Mainpuri,25,2,23
+UPR,Western,Budaun,25,2,24
+UPR,Himalayan,Chamoli,25,1,2
+UPR,Himalayan,Tehri Garhwal,25,1,3
+UPR,Himalayan,Dehra Dun,25,1,4
+UPR,Himalayan,Garhwal,25,1,5
+UPR,Himalayan,Pithoragarh,25,1,6
+UPR,Himalayan,Almora,25,1,7
+UPR,Himalayan,Nainital,25,1,8
+UPR,Himalayan,Bareilly,25,1,25
+UPR,Himalayan,Champaran,25,1,68
+UPR,Southern,Jalan,25,5,38
+UPR,Southern,Jhansi,25,5,39
+UPR,Southern,Lalitpur,25,5,40
+UPR,Southern,Hamirpur,25,5,41
+UPR,Southern,Banda,25,5,42
+UPR,Southern,Chitrakut,25,5,69
+UPR,Western,Bijnor,25,2,9
+UPR,Western,Moradabad,25,2,10
+UPR,Western,Rampur,25,2,11
+UPR,Western,Saharanpur,25,2,12
+UPR,Western,Hardwar,25,2,13
+UPR,Western,Muzaffarnagar,25,2,14
+UPR,Western,Meerut,25,2,15
+UPR,Western,Ghaziabad,25,2,16
+UPR,Western,Bulandshahr,25,2,17
+UPR,Western,Aligarh,25,2,18
+UPR,Western,Mathura,25,2,19
+UPR,Western,Agra,25,2,20
+UPR,Western,Firozabad,25,2,21
+UPR,Western,Etah,25,2,22
+UPR,Western,Mainpuri,25,2,23
+UPR,Western,Budaun,25,2,24
+UPR,Western,Shahjahanpur,25,2,27
+UPR,Western,Farrukhabad,25,2,34
+UPR,Western,Etawah,25,2,35
+UPR,Western,Sonbadra,25,2,63
+UPR,Western,Bagpet,25,2,71
+UPR,Western,Jyotiba Phule Nagar,25,2,67
+UPR,Western,Oreiya,25,2,64
+UPR,Western,Mahamayanagar,25,2,65
+UPR,Western,Kannauj,25,2,70
+WBE,Central Plains,24-Parganas (North),26,3,8
+WBE,Central Plains,24-Parganas (South),26,3,9
+WBE,Central Plains,Calcutta,26,3,10
+WBE,Central Plains,Howrah,26,3,11
+WBE,Central Plains,Hooghly,26,3,12
+WBE,Central Plains,Burdwan,26,3,16
+WBE,East Plains,West Dinajpur,26,2,4
+WBE,East Plains,Maldah,26,2,5
+WBE,East Plains,Murshidabad,26,2,6
+WBE,East Plains,Nandia,26,2,7
+WBE,East Plains,Birbhum,26,2,17
+WBE,Himalayan,Jalpaiguri,26,1,2
+WBE,Himalayan,Darjiling,26,1,3
+WBE,Himalayan,Kochbihar,26,1,1
+WBE,Western Plains,Midnapur,26,4,13
+WBE,Western Plains,Bankura,26,4,14
+WBE,Western Plains,Puruliya,26,4,15
+CHA,Chandigarh,Chandigarh,28,1,1
+D&N,D&N,D&N,29,1,1
+D&D,D&D,Daman,30,1,1
+D&D,D&D,Diu,30,1,2
+J&K,Mountainous,Kathua,10,1,11
+UPR,Western,Shahjahanpur,25,2,27
+UPR,Western,Farrukhabad,25,2,34
+UPR,Western,Etawah,25,2,35
+UPR,Western,Sonbadra,25,2,63
+UPR,Western,Bagpet,25,2,71
+UPR,Western,Jyotiba Phule Nagar,25,2,67
+UPR,Western,Oreiya,25,2,64
+UPR,Western,Mahamayanagar,25,2,65
+UPR,Western,Kannauj,25,2,70
+WBE,Central Plains,24-Parganas (North),26,3,8
+WBE,Central Plains,24-Parganas (South),26,3,9
+WBE,Central Plains,Calcutta,26,3,10
+WBE,Central Plains,Howrah,26,3,11
+WBE,Central Plains,Hooghly,26,3,12
+WBE,Central Plains,Burdwan,26,3,16
+WBE,East Plains,West Dinajpur,26,2,4
+WBE,East Plains,Maldah,26,2,5
+WBE,East Plains,Murshidabad,26,2,6
+WBE,East Plains,Nandia,26,2,7
+WBE,East Plains,Birbhum,26,2,17
+WBE,Himalayan,Jalpaiguri,26,1,2
+WBE,Himalayan,Darjiling,26,1,3
+WBE,Himalayan,Kochbihar,26,1,1
+WBE,Western Plains,Midnapur,26,4,13
+WBE,Western Plains,Bankura,26,4,14
+WBE,Western Plains,Puruliya,26,4,15
+CHA,Chandigarh,Chandigarh,28,1,1
+D&N,D&N,D&N,29,1,1
+D&D,D&D,Daman,30,1,1
+D&D,D&D,Diu,30,1,2
+J&K,Mountainous,Kathua,10,1,11
+J&K,Outer Hills,Doda,10,2,9
+J&K,Outer Hills,Udhampur,10,2,10
+J&K,Outer Hills,Rajouri,10,2,13
+J&K,Outer Hills,Poonch,10,2,14
+J&K,Jhelum Valley,Anantnag,10,3,1
+J&K,Jhelum Valley,Pulwama,10,3,2
+J&K,Jhelum Valley,Srinagar,10,3,3
+J&K,Jhelum Valley,Badgam,10,3,4
+J&K,Jhelum Valley,Baramula,10,3,5
+J&K,Jhelum Valley,Kupwara,10,3,6
+J&K,Jhelum Valley,Kargil,10,3,7
+J&K,Jhelum Valley,Ladakh,10,3,8
+DEL,Delhi,Delhi,31,1,1
+J&K,Outer Hills,Doda,10,2,9
+J&K,Outer Hills,Udhampur,10,2,10
+J&K,Outer Hills,Rajouri,10,2,13
+J&K,Outer Hills,Poonch,10,2,14
+J&K,Jhelum Valley,Anantnag,10,3,1
+J&K,Jhelum Valley,Pulwama,10,3,2
+J&K,Jhelum Valley,Srinagar,10,3,3
+J&K,Jhelum Valley,Badgam,10,3,4
+J&K,Jhelum Valley,Baramula,10,3,5
+J&K,Jhelum Valley,Kupwara,10,3,6
+J&K,Jhelum Valley,Kargil,10,3,7
+J&K,Jhelum Valley,Ladakh,10,3,8

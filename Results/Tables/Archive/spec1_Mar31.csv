@@ -1,0 +1,954 @@
+variable,term,estimate,std.error,statistic,p.value,significance
+poverty rate (rural),postGQ,-12.0,0.98,-12.22,0.0,***
+poverty rate (rural),postNSEW,-11.29,1.06,-10.62,0.0,***
+poverty rate (rural),gqDistTypenodal:postGQ,6.72,7.05,0.95,0.34,
+poverty rate (rural),gqDistType0-40:postGQ,0.66,1.85,0.36,0.72,
+poverty rate (rural),gqDistType40-100:postGQ,0.94,1.83,0.51,0.61,
+poverty rate (rural),nsewDistTypenodal:postNSEW,-4.56,8.13,-0.56,0.58,
+poverty rate (rural),nsewDistType0-40:postNSEW,0.15,2.7,0.06,0.95,
+poverty rate (rural),nsewDistType40-100:postNSEW,-0.73,2.22,-0.33,0.74,
+poverty rate (rural),postGQ,-12.0,0.98,-12.22,0.0,***
+poverty rate (rural),postNSEW,-11.29,1.06,-10.62,0.0,***
+poverty rate (rural),gqDistTypenodal:postGQ,6.72,7.05,0.95,0.34,
+poverty rate (rural),gqDistType0-40:postGQ,0.66,1.85,0.36,0.72,
+poverty rate (rural),gqDistType40-100:postGQ,0.94,1.83,0.51,0.61,
+poverty rate (rural),nsewDistTypenodal:postNSEW,-4.56,8.13,-0.56,0.58,
+poverty rate (rural),nsewDistType0-40:postNSEW,0.15,2.7,0.06,0.95,
+poverty rate (rural),nsewDistType40-100:postNSEW,-0.73,2.22,-0.33,0.74,
+poverty rate (urban),postGQ,-2.74,1.0,-2.73,0.01,**
+poverty rate (urban),postNSEW,-9.21,1.08,-8.56,0.0,***
+poverty rate (urban),gqDistTypenodal:postGQ,1.73,7.11,0.24,0.81,
+poverty rate (urban),gqDistType0-40:postGQ,-2.73,1.87,-1.46,0.14,
+poverty rate (urban),gqDistType40-100:postGQ,0.08,1.88,0.04,0.97,
+poverty rate (urban),nsewDistTypenodal:postNSEW,-7.4,8.19,-0.9,0.37,
+poverty rate (urban),nsewDistType0-40:postNSEW,-5.85,2.73,-2.14,0.03,**
+poverty rate (urban),nsewDistType40-100:postNSEW,-4.35,2.24,-1.94,0.05,
+poverty rate (total),postGQ,-9.57,0.85,-11.3,0.0,***
+poverty rate (total),postNSEW,-10.81,0.92,-11.78,0.0,***
+poverty rate (total),gqDistTypenodal:postGQ,3.5,6.08,0.58,0.56,
+poverty rate (total),gqDistType0-40:postGQ,0.22,1.59,0.14,0.89,
+poverty rate (total),gqDistType40-100:postGQ,0.99,1.58,0.62,0.53,
+poverty rate (total),nsewDistTypenodal:postNSEW,-4.12,7.01,-0.59,0.56,
+poverty rate (total),nsewDistType0-40:postNSEW,-0.53,2.33,-0.23,0.82,
+poverty rate (total),nsewDistType40-100:postNSEW,-1.6,1.91,-0.84,0.4,
+mean hh consumption,postGQ,86.58,6.78,12.77,0.0,***
+mean hh consumption,postNSEW,80.93,7.34,11.03,0.0,***
+mean hh consumption,gqDistTypenodal:postGQ,75.29,48.69,1.55,0.12,
+mean hh consumption,gqDistType0-40:postGQ,-3.18,12.75,-0.25,0.8,
+mean hh consumption,gqDistType40-100:postGQ,-20.46,12.63,-1.62,0.11,
+mean hh consumption,nsewDistTypenodal:postNSEW,19.55,56.12,0.35,0.73,
+mean hh consumption,nsewDistType0-40:postNSEW,33.28,18.66,1.78,0.07,
+mean hh consumption,nsewDistType40-100:postNSEW,10.34,15.32,0.68,0.5,
+mean hh consumption,postGQ,75.92,8.84,8.59,0.0,***
+mean hh consumption,postNSEW,25.1,9.48,2.65,0.01,**
+mean hh consumption,gqDistTypenodal:postGQ,37.69,62.6,0.6,0.55,
+mean hh consumption,gqDistType0-40:postGQ,12.77,16.45,0.78,0.44,
+mean hh consumption,gqDistType40-100:postGQ,-24.03,16.59,-1.45,0.15,
+mean hh consumption,nsewDistTypenodal:postNSEW,97.44,72.14,1.35,0.18,
+mean hh consumption,nsewDistType0-40:postNSEW,29.15,24.05,1.21,0.23,
+mean hh consumption,nsewDistType40-100:postNSEW,17.48,19.75,0.89,0.38,
+mean hh consumption,postGQ,80.73,6.17,13.09,0.0,***
+mean hh consumption,postNSEW,67.64,6.68,10.13,0.0,***
+mean hh consumption,gqDistTypenodal:postGQ,79.88,44.31,1.8,0.07,
+mean hh consumption,gqDistType0-40:postGQ,1.52,11.6,0.13,0.9,
+mean hh consumption,gqDistType40-100:postGQ,-26.36,11.5,-2.29,0.02,**
+mean hh consumption,nsewDistTypenodal:postNSEW,35.37,51.08,0.69,0.49,
+mean hh consumption,nsewDistType0-40:postNSEW,16.35,16.99,0.96,0.34,
+mean hh consumption,nsewDistType40-100:postNSEW,11.28,13.94,0.81,0.42,
+N rural females employed/female rural population,postGQ,0.02,0.01,2.79,0.01,**
+N rural females employed/female rural population,postNSEW,-0.09,0.01,-10.83,0.0,***
+N rural females employed/female rural population,gqDistTypenodal:postGQ,0.0,0.06,0.07,0.94,
+N rural females employed/female rural population,gqDistType0-40:postGQ,0.02,0.02,1.43,0.15,
+N rural females employed/female rural population,gqDistType40-100:postGQ,-0.02,0.02,-1.02,0.31,
+N rural females employed/female rural population,nsewDistTypenodal:postNSEW,0.02,0.07,0.23,0.82,
+N rural females employed/female rural population,nsewDistType0-40:postNSEW,0.0,0.02,-0.1,0.92,
+N rural females employed/female rural population,nsewDistType40-100:postNSEW,0.02,0.02,1.16,0.25,
+N rural  males employed/male rural population,postGQ,-0.01,0.0,-1.89,0.06,
+N rural  males employed/male rural population,postNSEW,-0.02,0.0,-3.99,0.0,***
+N rural  males employed/male rural population,gqDistTypenodal:postGQ,0.0,0.03,-0.03,0.97,
+N rural  males employed/male rural population,gqDistType0-40:postGQ,0.0,0.01,0.46,0.64,
+N rural  males employed/male rural population,gqDistType40-100:postGQ,0.0,0.01,-0.21,0.84,
+N rural  males employed/male rural population,nsewDistTypenodal:postNSEW,-0.01,0.03,-0.35,0.73,
+N rural  males employed/male rural population,nsewDistType0-40:postNSEW,-0.02,0.01,-2.01,0.05,
+N rural  males employed/male rural population,nsewDistType40-100:postNSEW,0.01,0.01,1.56,0.12,
+N rural  employed/Total rural population,postGQ,0.01,0.0,1.11,0.27,
+N rural  employed/Total rural population,postNSEW,-0.05,0.01,-10.42,0.0,***
+N rural  employed/Total rural population,gqDistTypenodal:postGQ,0.0,0.03,0.13,0.89,
+N rural  employed/Total rural population,gqDistType0-40:postGQ,0.01,0.01,1.19,0.24,
+N rural  employed/Total rural population,gqDistType40-100:postGQ,-0.01,0.01,-1.02,0.31,
+N rural  employed/Total rural population,nsewDistTypenodal:postNSEW,-0.01,0.04,-0.13,0.89,
+N rural  employed/Total rural population,nsewDistType0-40:postNSEW,-0.01,0.01,-1.12,0.26,
+N rural  employed/Total rural population,nsewDistType40-100:postNSEW,0.02,0.01,1.52,0.13,
+N urban females employed/female urban population,postGQ,0.02,0.01,3.46,0.0,***
+N urban females employed/female urban population,postNSEW,-0.03,0.01,-5.14,0.0,***
+N urban females employed/female urban population,gqDistTypenodal:postGQ,-0.03,0.04,-0.74,0.46,
+N urban females employed/female urban population,gqDistType0-40:postGQ,-0.02,0.01,-1.56,0.12,
+N urban females employed/female urban population,gqDistType40-100:postGQ,-0.01,0.01,-1.35,0.18,
+N urban females employed/female urban population,nsewDistTypenodal:postNSEW,0.01,0.04,0.3,0.77,
+N urban females employed/female urban population,nsewDistType0-40:postNSEW,-0.02,0.01,-1.38,0.17,
+N urban females employed/female urban population,nsewDistType40-100:postNSEW,-0.01,0.01,-0.49,0.63,
+N urban  males employed/male urban population,postGQ,0.01,0.0,2.47,0.01,**
+N urban  males employed/male urban population,postNSEW,-0.01,0.01,-2.09,0.04,**
+N urban  males employed/male urban population,gqDistTypenodal:postGQ,-0.03,0.03,-0.8,0.43,
+N urban  males employed/male urban population,gqDistType0-40:postGQ,-0.01,0.01,-1.12,0.26,
+N urban  males employed/male urban population,gqDistType40-100:postGQ,-0.02,0.01,-2.26,0.02,**
+N urban  males employed/male urban population,nsewDistTypenodal:postNSEW,0.01,0.04,0.19,0.85,
+N urban  males employed/male urban population,nsewDistType0-40:postNSEW,-0.02,0.01,-1.51,0.13,
+N urban  males employed/male urban population,nsewDistType40-100:postNSEW,-0.01,0.01,-0.95,0.34,
+N urban  employed/Total urban population,postGQ,0.01,0.0,3.19,0.0,***
+N urban  employed/Total urban population,postNSEW,-0.02,0.0,-5.56,0.0,***
+N urban  employed/Total urban population,gqDistTypenodal:postGQ,-0.03,0.03,-0.91,0.36,
+N urban  employed/Total urban population,gqDistType0-40:postGQ,-0.01,0.01,-1.83,0.07,
+N urban  employed/Total urban population,gqDistType40-100:postGQ,-0.02,0.01,-2.47,0.01,**
+N urban  employed/Total urban population,nsewDistTypenodal:postNSEW,0.03,0.03,0.83,0.41,
+N urban  employed/Total urban population,nsewDistType0-40:postNSEW,-0.02,0.01,-1.78,0.08,
+N urban  employed/Total urban population,nsewDistType40-100:postNSEW,-0.01,0.01,-0.65,0.52,
+N females employed/female total population,postGQ,0.04,0.01,6.44,0.0,***
+N females employed/female total population,postNSEW,-0.08,0.01,-11.55,0.0,***
+N females employed/female total population,gqDistTypenodal:postGQ,-0.04,0.05,-0.73,0.46,
+N females employed/female total population,gqDistType0-40:postGQ,0.0,0.01,-0.14,0.89,
+N females employed/female total population,gqDistType40-100:postGQ,-0.01,0.01,-0.65,0.51,
+N females employed/female total population,nsewDistTypenodal:postNSEW,0.02,0.06,0.44,0.66,
+N females employed/female total population,nsewDistType0-40:postNSEW,-0.01,0.02,-0.31,0.76,
+N females employed/female total population,nsewDistType40-100:postNSEW,0.01,0.02,0.86,0.39,
+N males employed/male total population,postGQ,0.01,0.0,1.57,0.12,
+N males employed/male total population,postNSEW,-0.01,0.0,-4.28,0.0,***
+N males employed/male total population,gqDistTypenodal:postGQ,0.0,0.02,-0.16,0.87,
+N males employed/male total population,gqDistType0-40:postGQ,0.0,0.01,-0.37,0.72,
+N males employed/male total population,gqDistType40-100:postGQ,0.0,0.01,-0.48,0.63,
+N males employed/male total population,nsewDistTypenodal:postNSEW,-0.02,0.03,-0.94,0.35,
+N males employed/male total population,nsewDistType0-40:postNSEW,-0.02,0.01,-2.22,0.03,**
+N males employed/male total population,nsewDistType40-100:postNSEW,0.0,0.01,0.24,0.81,
+N employed/Total total population,postGQ,0.02,0.0,5.59,0.0,***
+N employed/Total total population,postNSEW,-0.05,0.0,-11.46,0.0,***
+N employed/Total total population,gqDistTypenodal:postGQ,-0.01,0.03,-0.41,0.68,
+N employed/Total total population,gqDistType0-40:postGQ,0.0,0.01,-0.48,0.63,
+N employed/Total total population,gqDistType40-100:postGQ,-0.01,0.01,-1.09,0.28,
+N employed/Total total population,nsewDistTypenodal:postNSEW,0.01,0.03,0.23,0.82,
+N employed/Total total population,nsewDistType0-40:postNSEW,-0.01,0.01,-1.24,0.21,
+N employed/Total total population,nsewDistType40-100:postNSEW,0.01,0.01,0.71,0.48,
+N rural females inactive/female rural population,postGQ,-0.03,0.01,-3.4,0.0,***
+N rural females inactive/female rural population,postNSEW,0.1,0.01,11.28,0.0,***
+N rural females inactive/female rural population,gqDistTypenodal:postGQ,0.0,0.06,-0.0,1.0,
+N rural females inactive/female rural population,gqDistType0-40:postGQ,-0.02,0.02,-1.46,0.14,
+N rural females inactive/female rural population,gqDistType40-100:postGQ,0.02,0.02,1.15,0.25,
+N rural females inactive/female rural population,nsewDistTypenodal:postNSEW,-0.01,0.07,-0.22,0.83,
+N rural females inactive/female rural population,nsewDistType0-40:postNSEW,0.0,0.02,-0.2,0.84,
+N rural females inactive/female rural population,nsewDistType40-100:postNSEW,-0.02,0.02,-1.27,0.21,
+N rural  males inactive/male rural population,postGQ,0.0,0.0,0.47,0.64,
+N rural  males inactive/male rural population,postNSEW,0.02,0.0,6.24,0.0,***
+N rural  males inactive/male rural population,gqDistTypenodal:postGQ,0.01,0.02,0.44,0.66,
+N rural  males inactive/male rural population,gqDistType0-40:postGQ,0.0,0.01,-0.22,0.83,
+N rural  males inactive/male rural population,gqDistType40-100:postGQ,0.0,0.01,-0.18,0.86,
+N rural  males inactive/male rural population,nsewDistTypenodal:postNSEW,0.01,0.03,0.28,0.78,
+N rural  males inactive/male rural population,nsewDistType0-40:postNSEW,0.02,0.01,1.85,0.06,
+N rural  males inactive/male rural population,nsewDistType40-100:postNSEW,-0.01,0.01,-1.39,0.16,
+N rural  inactive/Total rural population,postGQ,-0.01,0.0,-2.27,0.02,**
+N rural  inactive/Total rural population,postNSEW,0.06,0.0,11.8,0.0,***
+N rural  inactive/Total rural population,gqDistTypenodal:postGQ,0.0,0.03,0.15,0.88,
+N rural  inactive/Total rural population,gqDistType0-40:postGQ,-0.01,0.01,-1.09,0.27,
+N rural  inactive/Total rural population,gqDistType40-100:postGQ,0.01,0.01,0.98,0.33,
+N rural  inactive/Total rural population,nsewDistTypenodal:postNSEW,0.0,0.04,0.12,0.9,
+N rural  inactive/Total rural population,nsewDistType0-40:postNSEW,0.01,0.01,0.7,0.48,
+N rural  inactive/Total rural population,nsewDistType40-100:postNSEW,-0.02,0.01,-1.53,0.13,
+N urban  females inactive/female urban population,postGQ,-0.03,0.01,-4.73,0.0,***
+N urban  females inactive/female urban population,postNSEW,0.04,0.01,6.71,0.0,***
+N urban  females inactive/female urban population,gqDistTypenodal:postGQ,0.03,0.04,0.8,0.42,
+N urban  females inactive/female urban population,gqDistType0-40:postGQ,0.01,0.01,1.31,0.19,
+N urban  females inactive/female urban population,gqDistType40-100:postGQ,0.02,0.01,1.5,0.13,
+N urban  females inactive/female urban population,nsewDistTypenodal:postNSEW,-0.01,0.05,-0.33,0.74,
+N urban  females inactive/female urban population,nsewDistType0-40:postNSEW,0.02,0.02,1.03,0.3,
+N urban  females inactive/female urban population,nsewDistType40-100:postNSEW,0.0,0.01,-0.01,0.99,
+N urban  males inactive/male urban population,postGQ,-0.01,0.0,-2.57,0.01,**
+N urban  males inactive/male urban population,postNSEW,0.03,0.0,5.2,0.0,***
+N urban  males inactive/male urban population,gqDistTypenodal:postGQ,0.03,0.03,0.92,0.36,
+N urban  males inactive/male urban population,gqDistType0-40:postGQ,0.0,0.01,0.41,0.68,
+N urban  males inactive/male urban population,gqDistType40-100:postGQ,0.01,0.01,1.54,0.12,
+N urban  males inactive/male urban population,nsewDistTypenodal:postNSEW,-0.02,0.04,-0.41,0.68,
+N urban  males inactive/male urban population,nsewDistType0-40:postNSEW,0.02,0.01,1.29,0.2,
+N urban  males inactive/male urban population,nsewDistType40-100:postNSEW,0.01,0.01,0.55,0.58,
+N urban  inactive/Total urban population,postGQ,-0.02,0.0,-4.08,0.0,***
+N urban  inactive/Total urban population,postNSEW,0.04,0.0,8.67,0.0,***
+N urban  inactive/Total urban population,gqDistTypenodal:postGQ,0.03,0.03,1.06,0.29,
+N urban  inactive/Total urban population,gqDistType0-40:postGQ,0.01,0.01,1.37,0.17,
+N urban  inactive/Total urban population,gqDistType40-100:postGQ,0.02,0.01,2.23,0.03,**
+N urban  inactive/Total urban population,nsewDistTypenodal:postNSEW,-0.03,0.03,-1.03,0.3,
+N urban  inactive/Total urban population,nsewDistType0-40:postNSEW,0.01,0.01,1.36,0.17,
+N urban  inactive/Total urban population,nsewDistType40-100:postNSEW,0.0,0.01,0.11,0.91,
+N females inactive/female total population,postGQ,-0.05,0.01,-7.07,0.0,***
+N females inactive/female total population,postNSEW,0.09,0.01,12.21,0.0,***
+N females inactive/female total population,gqDistTypenodal:postGQ,0.04,0.05,0.8,0.43,
+N females inactive/female total population,gqDistType0-40:postGQ,0.0,0.01,0.05,0.96,
+N females inactive/female total population,gqDistType40-100:postGQ,0.01,0.01,0.78,0.43,
+N females inactive/female total population,nsewDistTypenodal:postNSEW,-0.02,0.06,-0.45,0.66,
+N females inactive/female total population,nsewDistType0-40:postNSEW,0.0,0.02,0.15,0.88,
+N females inactive/female total population,nsewDistType40-100:postNSEW,-0.02,0.02,-1.04,0.3,
+N males inactive/male total population,postGQ,-0.01,0.0,-2.47,0.01,**
+N males inactive/male total population,postNSEW,0.02,0.0,7.38,0.0,***
+N males inactive/male total population,gqDistTypenodal:postGQ,0.01,0.02,0.69,0.49,
+N males inactive/male total population,gqDistType0-40:postGQ,0.0,0.01,0.31,0.75,
+N males inactive/male total population,gqDistType40-100:postGQ,0.0,0.01,-0.01,0.99,
+N males inactive/male total population,nsewDistTypenodal:postNSEW,0.02,0.02,0.68,0.5,
+N males inactive/male total population,nsewDistType0-40:postNSEW,0.02,0.01,2.04,0.04,**
+N males inactive/male total population,nsewDistType40-100:postNSEW,0.0,0.01,-0.23,0.82,
+N inactive/Total total population,postGQ,-0.03,0.0,-6.62,0.0,***
+N inactive/Total total population,postNSEW,0.05,0.0,13.43,0.0,***
+N inactive/Total total population,gqDistTypenodal:postGQ,0.02,0.03,0.69,0.49,
+N inactive/Total total population,gqDistType0-40:postGQ,0.0,0.01,0.42,0.68,
+N inactive/Total total population,gqDistType40-100:postGQ,0.01,0.01,1.01,0.31,
+N inactive/Total total population,nsewDistTypenodal:postNSEW,-0.01,0.03,-0.39,0.7,
+N inactive/Total total population,nsewDistType0-40:postNSEW,0.01,0.01,0.96,0.34,
+N inactive/Total total population,nsewDistType40-100:postNSEW,-0.01,0.01,-0.91,0.36,
+N rural females wage employed/N female rural employed,postGQ,-0.06,0.01,-5.73,0.0,***
+N rural females wage employed/N female rural employed,postNSEW,0.06,0.01,5.1,0.0,***
+N rural females wage employed/N female rural employed,gqDistTypenodal:postGQ,-0.02,0.08,-0.23,0.82,
+N rural females wage employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.02,-0.14,0.89,
+N rural females wage employed/N female rural employed,gqDistType40-100:postGQ,0.01,0.02,0.59,0.55,
+N rural females wage employed/N female rural employed,nsewDistTypenodal:postNSEW,0.23,0.09,2.42,0.02,**
+N rural females wage employed/N female rural employed,nsewDistType0-40:postNSEW,0.05,0.03,1.51,0.13,
+N rural females wage employed/N female rural employed,nsewDistType40-100:postNSEW,0.04,0.03,1.5,0.13,
+N rural males wage employed/N male rural employed,postGQ,-0.02,0.01,-2.64,0.01,**
+N rural males wage employed/N male rural employed,postNSEW,0.06,0.01,7.81,0.0,***
+N rural males wage employed/N male rural employed,gqDistTypenodal:postGQ,0.05,0.05,1.04,0.3,
+N rural males wage employed/N male rural employed,gqDistType0-40:postGQ,-0.01,0.01,-0.63,0.53,
+N rural males wage employed/N male rural employed,gqDistType40-100:postGQ,0.02,0.01,1.3,0.19,
+N rural males wage employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.01,0.06,-0.14,0.89,
+N rural males wage employed/N male rural employed,nsewDistType0-40:postNSEW,0.04,0.02,1.91,0.06,
+N rural males wage employed/N male rural employed,nsewDistType40-100:postNSEW,-0.01,0.02,-0.48,0.63,
+N rural wage employed/Total rural employed,postGQ,-0.03,0.01,-4.65,0.0,***
+N rural wage employed/Total rural employed,postNSEW,0.06,0.01,8.61,0.0,***
+N rural wage employed/Total rural employed,gqDistTypenodal:postGQ,0.03,0.05,0.6,0.55,
+N rural wage employed/Total rural employed,gqDistType0-40:postGQ,-0.01,0.01,-0.72,0.47,
+N rural wage employed/Total rural employed,gqDistType40-100:postGQ,0.02,0.01,1.26,0.21,
+N rural wage employed/Total rural employed,nsewDistTypenodal:postNSEW,0.04,0.06,0.63,0.53,
+N rural wage employed/Total rural employed,nsewDistType0-40:postNSEW,0.04,0.02,2.36,0.02,**
+N rural wage employed/Total rural employed,nsewDistType40-100:postNSEW,0.01,0.02,0.6,0.55,
+N urban females wage employed/N female urban employed,postGQ,-0.04,0.02,-2.54,0.01,**
+N urban females wage employed/N female urban employed,postNSEW,0.05,0.02,2.91,0.0,***
+N urban females wage employed/N female urban employed,gqDistTypenodal:postGQ,-0.07,0.11,-0.63,0.53,
+N urban females wage employed/N female urban employed,gqDistType0-40:postGQ,0.01,0.03,0.38,0.71,
+N urban females wage employed/N female urban employed,gqDistType40-100:postGQ,0.05,0.03,1.67,0.1,
+N urban females wage employed/N female urban employed,nsewDistTypenodal:postNSEW,0.15,0.13,1.22,0.22,
+N urban females wage employed/N female urban employed,nsewDistType0-40:postNSEW,0.01,0.04,0.21,0.83,
+N urban females wage employed/N female urban employed,nsewDistType40-100:postNSEW,0.02,0.04,0.49,0.62,
+N urban males wage employed/N male urban employed,postGQ,-0.05,0.01,-6.89,0.0,***
+N urban males wage employed/N male urban employed,postNSEW,0.03,0.01,3.58,0.0,***
+N urban males wage employed/N male urban employed,gqDistTypenodal:postGQ,0.07,0.06,1.32,0.19,
+N urban males wage employed/N male urban employed,gqDistType0-40:postGQ,0.02,0.01,1.29,0.2,
+N urban males wage employed/N male urban employed,gqDistType40-100:postGQ,0.01,0.01,0.67,0.5,
+N urban males wage employed/N male urban employed,nsewDistTypenodal:postNSEW,0.0,0.06,0.06,0.95,
+N urban males wage employed/N male urban employed,nsewDistType0-40:postNSEW,0.0,0.02,0.03,0.97,
+N urban males wage employed/N male urban employed,nsewDistType40-100:postNSEW,0.0,0.02,0.15,0.88,
+N urban wage employed/Total urban employed,postGQ,-0.05,0.01,-6.62,0.0,***
+N urban wage employed/Total urban employed,postNSEW,0.03,0.01,3.65,0.0,***
+N urban wage employed/Total urban employed,gqDistTypenodal:postGQ,0.06,0.06,1.01,0.31,
+N urban wage employed/Total urban employed,gqDistType0-40:postGQ,0.02,0.01,1.28,0.2,
+N urban wage employed/Total urban employed,gqDistType40-100:postGQ,0.01,0.01,0.93,0.35,
+N urban wage employed/Total urban employed,nsewDistTypenodal:postNSEW,0.02,0.06,0.37,0.71,
+N urban wage employed/Total urban employed,nsewDistType0-40:postNSEW,0.01,0.02,0.23,0.82,
+N urban wage employed/Total urban employed,nsewDistType40-100:postNSEW,0.01,0.02,0.4,0.69,
+N total females wage employed/N female employed,postGQ,-0.07,0.01,-7.09,0.0,***
+N total females wage employed/N female employed,postNSEW,0.07,0.01,6.07,0.0,***
+N total females wage employed/N female employed,gqDistTypenodal:postGQ,-0.07,0.07,-0.99,0.32,
+N total females wage employed/N female employed,gqDistType0-40:postGQ,-0.01,0.02,-0.37,0.71,
+N total females wage employed/N female employed,gqDistType40-100:postGQ,0.01,0.02,0.63,0.53,
+N total females wage employed/N female employed,nsewDistTypenodal:postNSEW,0.13,0.08,1.52,0.13,
+N total females wage employed/N female employed,nsewDistType0-40:postNSEW,0.04,0.03,1.44,0.15,
+N total females wage employed/N female employed,nsewDistType40-100:postNSEW,0.03,0.02,1.38,0.17,
+N total males wage employed/N male employed,postGQ,-0.04,0.01,-6.85,0.0,***
+N total males wage employed/N male employed,postNSEW,0.06,0.01,8.82,0.0,***
+N total males wage employed/N male employed,gqDistTypenodal:postGQ,0.1,0.04,2.26,0.02,**
+N total males wage employed/N male employed,gqDistType0-40:postGQ,0.0,0.01,0.0,1.0,
+N total males wage employed/N male employed,gqDistType40-100:postGQ,0.01,0.01,0.66,0.51,
+N total males wage employed/N male employed,nsewDistTypenodal:postNSEW,-0.04,0.05,-0.88,0.38,
+N total males wage employed/N male employed,nsewDistType0-40:postNSEW,0.03,0.02,1.6,0.11,
+N total males wage employed/N male employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.31,0.76,
+N total wage employed/Total employed,postGQ,-0.05,0.01,-8.07,0.0,***
+N total wage employed/Total employed,postNSEW,0.06,0.01,9.56,0.0,***
+N total wage employed/Total employed,gqDistTypenodal:postGQ,0.07,0.04,1.71,0.09,
+N total wage employed/Total employed,gqDistType0-40:postGQ,0.0,0.01,-0.41,0.68,
+N total wage employed/Total employed,gqDistType40-100:postGQ,0.01,0.01,0.45,0.65,
+N total wage employed/Total employed,nsewDistTypenodal:postNSEW,-0.01,0.05,-0.2,0.84,
+N total wage employed/Total employed,nsewDistType0-40:postNSEW,0.03,0.02,1.98,0.05,
+N total wage employed/Total employed,nsewDistType40-100:postNSEW,0.01,0.01,0.78,0.43,
+N rural females regular wage employed/N female rural employed,postGQ,0.01,0.0,1.76,0.08,
+N rural females regular wage employed/N female rural employed,postNSEW,0.01,0.0,3.13,0.0,***
+N rural females regular wage employed/N female rural employed,gqDistTypenodal:postGQ,-0.06,0.03,-2.03,0.04,**
+N rural females regular wage employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.01,0.09,0.93,
+N rural females regular wage employed/N female rural employed,gqDistType40-100:postGQ,0.0,0.01,0.33,0.74,
+N rural females regular wage employed/N female rural employed,nsewDistTypenodal:postNSEW,0.1,0.04,2.78,0.01,**
+N rural females regular wage employed/N female rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-0.49,0.62,
+N rural females regular wage employed/N female rural employed,nsewDistType40-100:postNSEW,0.0,0.01,0.11,0.91,
+N rural males regular wage employed/N male rural employed,postGQ,0.01,0.0,2.58,0.01,**
+N rural males regular wage employed/N male rural employed,postNSEW,0.0,0.0,-1.26,0.21,
+N rural males regular wage employed/N male rural employed,gqDistTypenodal:postGQ,0.08,0.02,3.56,0.0,***
+N rural males regular wage employed/N male rural employed,gqDistType0-40:postGQ,-0.01,0.01,-0.96,0.34,
+N rural males regular wage employed/N male rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.66,0.51,
+N rural males regular wage employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.02,0.03,-0.61,0.55,
+N rural males regular wage employed/N male rural employed,nsewDistType0-40:postNSEW,0.01,0.01,0.71,0.48,
+N rural males regular wage employed/N male rural employed,nsewDistType40-100:postNSEW,0.01,0.01,1.5,0.13,
+N rural regular wage employed/Total rural employed,postGQ,0.01,0.0,2.41,0.02,**
+N rural regular wage employed/Total rural employed,postNSEW,0.0,0.0,0.25,0.8,
+N rural regular wage employed/Total rural employed,gqDistTypenodal:postGQ,0.05,0.02,2.27,0.02,**
+N rural regular wage employed/Total rural employed,gqDistType0-40:postGQ,0.0,0.01,-0.9,0.37,
+N rural regular wage employed/Total rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.58,0.56,
+N rural regular wage employed/Total rural employed,nsewDistTypenodal:postNSEW,0.02,0.02,0.99,0.32,
+N rural regular wage employed/Total rural employed,nsewDistType0-40:postNSEW,0.01,0.01,0.78,0.44,
+N rural regular wage employed/Total rural employed,nsewDistType40-100:postNSEW,0.01,0.01,1.72,0.09,
+N urban females regular wage employed/N female urban employed,postGQ,0.02,0.01,1.33,0.18,
+N urban females regular wage employed/N female urban employed,postNSEW,0.03,0.02,1.98,0.05,
+N urban females regular wage employed/N female urban employed,gqDistTypenodal:postGQ,-0.04,0.11,-0.42,0.68,
+N urban females regular wage employed/N female urban employed,gqDistType0-40:postGQ,-0.01,0.03,-0.18,0.85,
+N urban females regular wage employed/N female urban employed,gqDistType40-100:postGQ,0.04,0.03,1.41,0.16,
+N urban females regular wage employed/N female urban employed,nsewDistTypenodal:postNSEW,0.26,0.12,2.13,0.03,**
+N urban females regular wage employed/N female urban employed,nsewDistType0-40:postNSEW,0.03,0.04,0.69,0.49,
+N urban females regular wage employed/N female urban employed,nsewDistType40-100:postNSEW,-0.01,0.03,-0.33,0.74,
+N urban males regular wage employed/N male urban employed,postGQ,-0.05,0.01,-6.13,0.0,***
+N urban males regular wage employed/N male urban employed,postNSEW,-0.01,0.01,-0.97,0.33,
+N urban males regular wage employed/N male urban employed,gqDistTypenodal:postGQ,0.13,0.06,2.33,0.02,**
+N urban males regular wage employed/N male urban employed,gqDistType0-40:postGQ,0.01,0.01,0.92,0.36,
+N urban males regular wage employed/N male urban employed,gqDistType40-100:postGQ,0.0,0.01,0.17,0.86,
+N urban males regular wage employed/N male urban employed,nsewDistTypenodal:postNSEW,0.04,0.06,0.67,0.5,
+N urban males regular wage employed/N male urban employed,nsewDistType0-40:postNSEW,0.02,0.02,0.75,0.45,
+N urban males regular wage employed/N male urban employed,nsewDistType40-100:postNSEW,0.01,0.02,0.43,0.66,
+N urban regular wage employed/Total urban employed,postGQ,-0.04,0.01,-4.58,0.0,***
+N urban regular wage employed/Total urban employed,postNSEW,-0.01,0.01,-0.61,0.54,
+N urban regular wage employed/Total urban employed,gqDistTypenodal:postGQ,0.11,0.06,1.9,0.06,
+N urban regular wage employed/Total urban employed,gqDistType0-40:postGQ,0.01,0.01,0.88,0.38,
+N urban regular wage employed/Total urban employed,gqDistType40-100:postGQ,0.0,0.01,0.28,0.78,
+N urban regular wage employed/Total urban employed,nsewDistTypenodal:postNSEW,0.07,0.06,1.13,0.26,
+N urban regular wage employed/Total urban employed,nsewDistType0-40:postNSEW,0.02,0.02,0.92,0.36,
+N urban regular wage employed/Total urban employed,nsewDistType40-100:postNSEW,0.01,0.02,0.33,0.74,
+N total females regular wage employed/N female employed,postGQ,-0.01,0.01,-1.63,0.1,
+N total females regular wage employed/N female employed,postNSEW,0.02,0.01,3.76,0.0,***
+N total females regular wage employed/N female employed,gqDistTypenodal:postGQ,-0.04,0.04,-1.02,0.31,
+N total females regular wage employed/N female employed,gqDistType0-40:postGQ,0.0,0.01,-0.41,0.68,
+N total females regular wage employed/N female employed,gqDistType40-100:postGQ,0.0,0.01,0.38,0.71,
+N total females regular wage employed/N female employed,nsewDistTypenodal:postNSEW,0.15,0.04,3.29,0.0,***
+N total females regular wage employed/N female employed,nsewDistType0-40:postNSEW,0.0,0.01,-0.11,0.91,
+N total females regular wage employed/N female employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.41,0.68,
+N total males regular wage employed/N male employed,postGQ,-0.03,0.0,-6.62,0.0,***
+N total males regular wage employed/N male employed,postNSEW,0.0,0.0,-0.56,0.57,
+N total males regular wage employed/N male employed,gqDistTypenodal:postGQ,0.1,0.03,3.19,0.0,***
+N total males regular wage employed/N male employed,gqDistType0-40:postGQ,0.01,0.01,0.79,0.43,
+N total males regular wage employed/N male employed,gqDistType40-100:postGQ,-0.01,0.01,-1.11,0.27,
+N total males regular wage employed/N male employed,nsewDistTypenodal:postNSEW,0.03,0.04,0.77,0.44,
+N total males regular wage employed/N male employed,nsewDistType0-40:postNSEW,0.02,0.01,1.5,0.13,
+N total males regular wage employed/N male employed,nsewDistType40-100:postNSEW,0.01,0.01,1.3,0.2,
+N total regular wage employed/Total employed,postGQ,-0.03,0.0,-6.03,0.0,***
+N total regular wage employed/Total employed,postNSEW,0.0,0.0,0.75,0.45,
+N total regular wage employed/Total employed,gqDistTypenodal:postGQ,0.08,0.03,2.77,0.01,**
+N total regular wage employed/Total employed,gqDistType0-40:postGQ,0.0,0.01,0.47,0.64,
+N total regular wage employed/Total employed,gqDistType40-100:postGQ,-0.01,0.01,-1.09,0.28,
+N total regular wage employed/Total employed,nsewDistTypenodal:postNSEW,0.05,0.03,1.44,0.15,
+N total regular wage employed/Total employed,nsewDistType0-40:postNSEW,0.02,0.01,1.74,0.08,
+N total regular wage employed/Total employed,nsewDistType40-100:postNSEW,0.01,0.01,1.24,0.22,
+N rural females formal employed/N female rural employed,postGQ,0.01,0.0,3.86,0.0,***
+N rural females formal employed/N female rural employed,postNSEW,0.01,0.0,4.49,0.0,***
+N rural females formal employed/N female rural employed,gqDistTypenodal:postGQ,-0.01,0.02,-0.68,0.5,
+N rural females formal employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.01,0.72,0.47,
+N rural females formal employed/N female rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.35,0.73,
+N rural females formal employed/N female rural employed,nsewDistTypenodal:postNSEW,0.02,0.02,0.91,0.36,
+N rural females formal employed/N female rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-1.06,0.29,
+N rural females formal employed/N female rural employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.52,0.61,
+N rural males formal employed/N male rural employed,postGQ,0.02,0.0,6.23,0.0,***
+N rural males formal employed/N male rural employed,postNSEW,0.0,0.0,0.8,0.42,
+N rural males formal employed/N male rural employed,gqDistTypenodal:postGQ,0.04,0.02,2.32,0.02,**
+N rural males formal employed/N male rural employed,gqDistType0-40:postGQ,0.0,0.01,-0.77,0.44,
+N rural males formal employed/N male rural employed,gqDistType40-100:postGQ,-0.01,0.0,-1.37,0.17,
+N rural males formal employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.02,0.02,-0.73,0.46,
+N rural males formal employed/N male rural employed,nsewDistType0-40:postNSEW,0.01,0.01,1.8,0.07,
+N rural males formal employed/N male rural employed,nsewDistType40-100:postNSEW,0.0,0.01,0.32,0.75,
+N rural formal employed/Total rural employed,postGQ,0.01,0.0,6.01,0.0,***
+N rural formal employed/Total rural employed,postNSEW,0.01,0.0,2.42,0.02,**
+N rural formal employed/Total rural employed,gqDistTypenodal:postGQ,0.03,0.02,2.05,0.04,**
+N rural formal employed/Total rural employed,gqDistType0-40:postGQ,0.0,0.0,-0.4,0.69,
+N rural formal employed/Total rural employed,gqDistType40-100:postGQ,-0.01,0.0,-1.26,0.21,
+N rural formal employed/Total rural employed,nsewDistTypenodal:postNSEW,-0.01,0.02,-0.38,0.71,
+N rural formal employed/Total rural employed,nsewDistType0-40:postNSEW,0.01,0.01,1.74,0.08,
+N rural formal employed/Total rural employed,nsewDistType40-100:postNSEW,0.0,0.01,0.41,0.68,
+N urban females formal employed/N female urban employed,postGQ,0.03,0.01,2.05,0.04,**
+N urban females formal employed/N female urban employed,postNSEW,0.06,0.02,3.58,0.0,***
+N urban females formal employed/N female urban employed,gqDistTypenodal:postGQ,0.04,0.1,0.35,0.72,
+N urban females formal employed/N female urban employed,gqDistType0-40:postGQ,-0.02,0.03,-0.89,0.37,
+N urban females formal employed/N female urban employed,gqDistType40-100:postGQ,0.06,0.03,2.22,0.03,**
+N urban females formal employed/N female urban employed,nsewDistTypenodal:postNSEW,0.19,0.12,1.64,0.1,
+N urban females formal employed/N female urban employed,nsewDistType0-40:postNSEW,0.04,0.04,1.0,0.32,
+N urban females formal employed/N female urban employed,nsewDistType40-100:postNSEW,0.0,0.03,-0.1,0.92,
+N urban males formal employed/N male urban employed,postGQ,0.02,0.01,1.76,0.08,
+N urban males formal employed/N male urban employed,postNSEW,0.0,0.01,-0.13,0.9,
+N urban males formal employed/N male urban employed,gqDistTypenodal:postGQ,0.12,0.07,1.9,0.06,
+N urban males formal employed/N male urban employed,gqDistType0-40:postGQ,0.01,0.02,0.85,0.39,
+N urban males formal employed/N male urban employed,gqDistType40-100:postGQ,0.03,0.02,1.66,0.1,
+N urban males formal employed/N male urban employed,nsewDistTypenodal:postNSEW,0.04,0.08,0.5,0.62,
+N urban males formal employed/N male urban employed,nsewDistType0-40:postNSEW,0.03,0.03,1.31,0.19,
+N urban males formal employed/N male urban employed,nsewDistType40-100:postNSEW,0.0,0.02,-0.23,0.82,
+N urban formal employed/Total urban employed,postGQ,0.02,0.01,2.03,0.04,**
+N urban formal employed/Total urban employed,postNSEW,0.01,0.01,0.54,0.59,
+N urban formal employed/Total urban employed,gqDistTypenodal:postGQ,0.11,0.06,1.78,0.08,
+N urban formal employed/Total urban employed,gqDistType0-40:postGQ,0.01,0.02,0.57,0.57,
+N urban formal employed/Total urban employed,gqDistType40-100:postGQ,0.03,0.02,1.84,0.07,
+N urban formal employed/Total urban employed,nsewDistTypenodal:postNSEW,0.06,0.07,0.75,0.45,
+N urban formal employed/Total urban employed,nsewDistType0-40:postNSEW,0.03,0.02,1.31,0.19,
+N urban formal employed/Total urban employed,nsewDistType40-100:postNSEW,0.0,0.02,-0.11,0.92,
+N total females formal employed/N female employed,postGQ,0.0,0.0,1.0,0.32,
+N total females formal employed/N female employed,postNSEW,0.02,0.0,5.17,0.0,***
+N total females formal employed/N female employed,gqDistTypenodal:postGQ,0.0,0.03,0.09,0.93,
+N total females formal employed/N female employed,gqDistType0-40:postGQ,0.0,0.01,0.04,0.97,
+N total females formal employed/N female employed,gqDistType40-100:postGQ,0.01,0.01,0.97,0.33,
+N total females formal employed/N female employed,nsewDistTypenodal:postNSEW,0.1,0.03,3.03,0.0,***
+N total females formal employed/N female employed,nsewDistType0-40:postNSEW,0.01,0.01,1.0,0.32,
+N total females formal employed/N female employed,nsewDistType40-100:postNSEW,-0.01,0.01,-0.66,0.51,
+N total males formal employed/N male employed,postGQ,0.0,0.0,-1.05,0.3,
+N total males formal employed/N male employed,postNSEW,0.0,0.0,0.83,0.4,
+N total males formal employed/N male employed,gqDistTypenodal:postGQ,0.11,0.03,4.33,0.0,***
+N total males formal employed/N male employed,gqDistType0-40:postGQ,0.02,0.01,2.23,0.03,**
+N total males formal employed/N male employed,gqDistType40-100:postGQ,0.0,0.01,0.44,0.66,
+N total males formal employed/N male employed,nsewDistTypenodal:postNSEW,0.0,0.03,-0.05,0.96,
+N total males formal employed/N male employed,nsewDistType0-40:postNSEW,0.03,0.01,2.95,0.0,***
+N total males formal employed/N male employed,nsewDistType40-100:postNSEW,0.01,0.01,0.96,0.34,
+N total formal employed/Total employed,postGQ,0.0,0.0,-1.2,0.23,
+N total formal employed/Total employed,postNSEW,0.01,0.0,2.47,0.01,**
+N total formal employed/Total employed,gqDistTypenodal:postGQ,0.1,0.02,4.2,0.0,***
+N total formal employed/Total employed,gqDistType0-40:postGQ,0.01,0.01,1.88,0.06,
+N total formal employed/Total employed,gqDistType40-100:postGQ,0.0,0.01,0.56,0.57,
+N total formal employed/Total employed,nsewDistTypenodal:postNSEW,0.01,0.03,0.51,0.61,
+N total formal employed/Total employed,nsewDistType0-40:postNSEW,0.03,0.01,3.13,0.0,***
+N total formal employed/Total employed,nsewDistType40-100:postNSEW,0.01,0.01,0.98,0.33,
+N rural females self employed/N female rural employed,postGQ,0.0,0.01,-0.29,0.77,
+N rural females self employed/N female rural employed,postNSEW,0.02,0.01,2.6,0.01,**
+N rural females self employed/N female rural employed,gqDistTypenodal:postGQ,-0.17,0.06,-2.6,0.01,**
+N rural females self employed/N female rural employed,gqDistType0-40:postGQ,0.01,0.02,0.32,0.75,
+N rural females self employed/N female rural employed,gqDistType40-100:postGQ,0.01,0.02,0.53,0.6,
+N rural females self employed/N female rural employed,nsewDistTypenodal:postNSEW,-0.03,0.07,-0.42,0.67,
+N rural females self employed/N female rural employed,nsewDistType0-40:postNSEW,-0.03,0.02,-1.41,0.16,
+N rural females self employed/N female rural employed,nsewDistType40-100:postNSEW,-0.02,0.02,-1.2,0.23,
+N rural males self employed/N male rural employed,postGQ,0.02,0.01,3.74,0.0,***
+N rural males self employed/N male rural employed,postNSEW,-0.02,0.01,-2.7,0.01,**
+N rural males self employed/N male rural employed,gqDistTypenodal:postGQ,-0.05,0.04,-1.36,0.18,
+N rural males self employed/N male rural employed,gqDistType0-40:postGQ,0.01,0.01,0.67,0.5,
+N rural males self employed/N male rural employed,gqDistType40-100:postGQ,-0.01,0.01,-0.76,0.45,
+N rural males self employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.01,0.04,-0.13,0.9,
+N rural males self employed/N male rural employed,nsewDistType0-40:postNSEW,-0.03,0.01,-2.26,0.02,**
+N rural males self employed/N male rural employed,nsewDistType40-100:postNSEW,-0.01,0.01,-0.51,0.61,
+N rural self employed/Total rural employed,postGQ,0.01,0.0,2.82,0.0,***
+N rural self employed/Total rural employed,postNSEW,0.0,0.01,0.76,0.45,
+N rural self employed/Total rural employed,gqDistTypenodal:postGQ,-0.07,0.03,-2.03,0.04,**
+N rural self employed/Total rural employed,gqDistType0-40:postGQ,0.0,0.01,0.06,0.96,
+N rural self employed/Total rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.25,0.81,
+N rural self employed/Total rural employed,nsewDistTypenodal:postNSEW,-0.02,0.04,-0.5,0.62,
+N rural self employed/Total rural employed,nsewDistType0-40:postNSEW,-0.03,0.01,-2.54,0.01,**
+N rural self employed/Total rural employed,nsewDistType40-100:postNSEW,-0.01,0.01,-1.33,0.18,
+N urban females self employed/N female urban employed,postGQ,0.01,0.01,0.97,0.33,
+N urban females self employed/N female urban employed,postNSEW,0.0,0.01,-0.04,0.96,
+N urban females self employed/N female urban employed,gqDistTypenodal:postGQ,0.08,0.09,0.91,0.36,
+N urban females self employed/N female urban employed,gqDistType0-40:postGQ,-0.01,0.02,-0.45,0.66,
+N urban females self employed/N female urban employed,gqDistType40-100:postGQ,-0.04,0.02,-1.79,0.07,
+N urban females self employed/N female urban employed,nsewDistTypenodal:postNSEW,-0.15,0.11,-1.38,0.17,
+N urban females self employed/N female urban employed,nsewDistType0-40:postNSEW,0.01,0.04,0.19,0.85,
+N urban females self employed/N female urban employed,nsewDistType40-100:postNSEW,0.01,0.03,0.2,0.84,
+N urban males self employed/N male urban employed,postGQ,0.05,0.01,6.97,0.0,***
+N urban males self employed/N male urban employed,postNSEW,-0.01,0.01,-1.0,0.32,
+N urban males self employed/N male urban employed,gqDistTypenodal:postGQ,-0.07,0.05,-1.54,0.12,
+N urban males self employed/N male urban employed,gqDistType0-40:postGQ,-0.02,0.01,-1.3,0.19,
+N urban males self employed/N male urban employed,gqDistType40-100:postGQ,-0.01,0.01,-1.08,0.28,
+N urban males self employed/N male urban employed,nsewDistTypenodal:postNSEW,-0.01,0.05,-0.23,0.82,
+N urban males self employed/N male urban employed,nsewDistType0-40:postNSEW,-0.01,0.02,-0.62,0.53,
+N urban males self employed/N male urban employed,nsewDistType40-100:postNSEW,-0.02,0.01,-1.46,0.14,
+N urban self employed/Total urban employed,postGQ,0.04,0.01,6.38,0.0,***
+N urban self employed/Total urban employed,postNSEW,0.0,0.01,-0.35,0.73,
+N urban self employed/Total urban employed,gqDistTypenodal:postGQ,-0.05,0.04,-1.16,0.25,
+N urban self employed/Total urban employed,gqDistType0-40:postGQ,-0.01,0.01,-1.21,0.23,
+N urban self employed/Total urban employed,gqDistType40-100:postGQ,-0.02,0.01,-1.45,0.15,
+N urban self employed/Total urban employed,nsewDistTypenodal:postNSEW,-0.03,0.05,-0.62,0.53,
+N urban self employed/Total urban employed,nsewDistType0-40:postNSEW,-0.01,0.02,-0.33,0.74,
+N urban self employed/Total urban employed,nsewDistType40-100:postNSEW,-0.01,0.01,-0.87,0.38,
+N total females self employed/N female employed,postGQ,0.0,0.01,-0.35,0.72,
+N total females self employed/N female employed,postNSEW,0.02,0.01,2.51,0.01,**
+N total females self employed/N female employed,gqDistTypenodal:postGQ,-0.01,0.05,-0.15,0.88,
+N total females self employed/N female employed,gqDistType0-40:postGQ,0.01,0.01,0.57,0.57,
+N total females self employed/N female employed,gqDistType40-100:postGQ,0.0,0.01,-0.16,0.88,
+N total females self employed/N female employed,nsewDistTypenodal:postNSEW,-0.08,0.06,-1.26,0.21,
+N total females self employed/N female employed,nsewDistType0-40:postNSEW,-0.02,0.02,-1.18,0.24,
+N total females self employed/N female employed,nsewDistType40-100:postNSEW,-0.02,0.02,-1.12,0.26,
+N total males self employed/N male employed,postGQ,0.03,0.0,7.02,0.0,***
+N total males self employed/N male employed,postNSEW,-0.02,0.01,-3.28,0.0,***
+N total males self employed/N male employed,gqDistTypenodal:postGQ,-0.09,0.03,-2.6,0.01,**
+N total males self employed/N male employed,gqDistType0-40:postGQ,0.0,0.01,0.09,0.93,
+N total males self employed/N male employed,gqDistType40-100:postGQ,0.0,0.01,-0.49,0.62,
+N total males self employed/N male employed,nsewDistTypenodal:postNSEW,0.02,0.04,0.52,0.6,
+N total males self employed/N male employed,nsewDistType0-40:postNSEW,-0.03,0.01,-1.98,0.05,
+N total males self employed/N male employed,nsewDistType40-100:postNSEW,-0.01,0.01,-0.88,0.38,
+N total self employed/Total employed,postGQ,0.02,0.0,4.66,0.0,***
+N total self employed/Total employed,postNSEW,0.0,0.0,0.29,0.77,
+N total self employed/Total employed,gqDistTypenodal:postGQ,-0.07,0.03,-2.42,0.02,**
+N total self employed/Total employed,gqDistType0-40:postGQ,0.0,0.01,0.07,0.94,
+N total self employed/Total employed,gqDistType40-100:postGQ,0.0,0.01,-0.33,0.74,
+N total self employed/Total employed,nsewDistTypenodal:postNSEW,0.0,0.04,-0.02,0.99,
+N total self employed/Total employed,nsewDistType0-40:postNSEW,-0.03,0.01,-2.15,0.03,**
+N total self employed/Total employed,nsewDistType40-100:postNSEW,-0.01,0.01,-1.28,0.2,
+N rural females household employed/N female rural employed,postGQ,0.07,0.01,5.9,0.0,***
+N rural females household employed/N female rural employed,postNSEW,-0.09,0.01,-7.36,0.0,***
+N rural females household employed/N female rural employed,gqDistTypenodal:postGQ,0.2,0.09,2.32,0.02,**
+N rural females household employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.02,-0.14,0.89,
+N rural females household employed/N female rural employed,gqDistType40-100:postGQ,-0.02,0.02,-1.09,0.28,
+N rural females household employed/N female rural employed,nsewDistTypenodal:postNSEW,-0.2,0.1,-2.03,0.04,**
+N rural females household employed/N female rural employed,nsewDistType0-40:postNSEW,0.0,0.03,-0.16,0.88,
+N rural females household employed/N female rural employed,nsewDistType40-100:postNSEW,-0.01,0.03,-0.39,0.7,
+N rural males household employed/N male rural employed,postGQ,0.0,0.0,0.76,0.45,
+N rural males household employed/N male rural employed,postNSEW,-0.04,0.0,-9.35,0.0,***
+N rural males household employed/N male rural employed,gqDistTypenodal:postGQ,-0.01,0.03,-0.35,0.73,
+N rural males household employed/N male rural employed,gqDistType0-40:postGQ,0.0,0.01,0.16,0.87,
+N rural males household employed/N male rural employed,gqDistType40-100:postGQ,-0.01,0.01,-0.91,0.36,
+N rural males household employed/N male rural employed,nsewDistTypenodal:postNSEW,0.0,0.03,0.13,0.9,
+N rural males household employed/N male rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-0.58,0.56,
+N rural males household employed/N male rural employed,nsewDistType40-100:postNSEW,0.01,0.01,0.96,0.34,
+N rural household employed/Total rural employed,postGQ,0.02,0.01,4.56,0.0,***
+N rural household employed/Total rural employed,postNSEW,-0.07,0.01,-12.11,0.0,***
+N rural household employed/Total rural employed,gqDistTypenodal:postGQ,0.03,0.04,0.82,0.41,
+N rural household employed/Total rural employed,gqDistType0-40:postGQ,0.01,0.01,0.68,0.49,
+N rural household employed/Total rural employed,gqDistType40-100:postGQ,-0.01,0.01,-1.47,0.14,
+N rural household employed/Total rural employed,nsewDistTypenodal:postNSEW,-0.02,0.04,-0.52,0.6,
+N rural household employed/Total rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-0.74,0.46,
+N rural household employed/Total rural employed,nsewDistType40-100:postNSEW,0.01,0.01,0.5,0.62,
+N urban females household employed/N female urban employed,postGQ,0.03,0.01,2.14,0.03,**
+N urban females household employed/N female urban employed,postNSEW,-0.05,0.01,-3.65,0.0,***
+N urban females household employed/N female urban employed,gqDistTypenodal:postGQ,-0.01,0.09,-0.15,0.88,
+N urban females household employed/N female urban employed,gqDistType0-40:postGQ,0.0,0.02,0.04,0.97,
+N urban females household employed/N female urban employed,gqDistType40-100:postGQ,0.0,0.02,-0.13,0.9,
+N urban females household employed/N female urban employed,nsewDistTypenodal:postNSEW,-0.01,0.1,-0.12,0.9,
+N urban females household employed/N female urban employed,nsewDistType0-40:postNSEW,-0.01,0.03,-0.37,0.71,
+N urban females household employed/N female urban employed,nsewDistType40-100:postNSEW,-0.02,0.03,-0.74,0.46,
+N urban males household employed/N male urban employed,postGQ,0.01,0.0,2.76,0.01,**
+N urban males household employed/N male urban employed,postNSEW,-0.02,0.0,-5.45,0.0,***
+N urban males household employed/N male urban employed,gqDistTypenodal:postGQ,-0.01,0.03,-0.3,0.77,
+N urban males household employed/N male urban employed,gqDistType0-40:postGQ,0.0,0.01,-0.32,0.75,
+N urban males household employed/N male urban employed,gqDistType40-100:postGQ,0.01,0.01,0.75,0.45,
+N urban males household employed/N male urban employed,nsewDistTypenodal:postNSEW,0.0,0.03,0.03,0.98,
+N urban males household employed/N male urban employed,nsewDistType0-40:postNSEW,0.02,0.01,1.41,0.16,
+N urban males household employed/N male urban employed,nsewDistType40-100:postNSEW,0.01,0.01,1.57,0.12,
+N urban household employed/Total urban employed,postGQ,0.02,0.0,3.44,0.0,***
+N urban household employed/Total urban employed,postNSEW,-0.03,0.0,-6.26,0.0,***
+N urban household employed/Total urban employed,gqDistTypenodal:postGQ,-0.01,0.03,-0.37,0.71,
+N urban household employed/Total urban employed,gqDistType0-40:postGQ,0.0,0.01,-0.55,0.58,
+N urban household employed/Total urban employed,gqDistType40-100:postGQ,0.0,0.01,0.41,0.68,
+N urban household employed/Total urban employed,nsewDistTypenodal:postNSEW,0.0,0.04,0.04,0.97,
+N urban household employed/Total urban employed,nsewDistType0-40:postNSEW,0.01,0.01,0.5,0.62,
+N urban household employed/Total urban employed,nsewDistType40-100:postNSEW,0.0,0.01,0.31,0.75,
+N total females household employed/N female employed,postGQ,0.08,0.01,7.31,0.0,***
+N total females household employed/N female employed,postNSEW,-0.09,0.01,-8.37,0.0,***
+N total females household employed/N female employed,gqDistTypenodal:postGQ,0.08,0.07,1.14,0.26,
+N total females household employed/N female employed,gqDistType0-40:postGQ,0.0,0.02,-0.05,0.96,
+N total females household employed/N female employed,gqDistType40-100:postGQ,-0.01,0.02,-0.5,0.61,
+N total females household employed/N female employed,nsewDistTypenodal:postNSEW,-0.05,0.08,-0.58,0.56,
+N total females household employed/N female employed,nsewDistType0-40:postNSEW,-0.01,0.03,-0.27,0.79,
+N total females household employed/N female employed,nsewDistType40-100:postNSEW,-0.01,0.02,-0.49,0.63,
+N total males household employed/N male employed,postGQ,0.01,0.0,3.48,0.0,***
+N total males household employed/N male employed,postNSEW,-0.04,0.0,-10.63,0.0,***
+N total males household employed/N male employed,gqDistTypenodal:postGQ,-0.02,0.02,-0.86,0.39,
+N total males household employed/N male employed,gqDistType0-40:postGQ,0.0,0.01,-0.04,0.97,
+N total males household employed/N male employed,gqDistType40-100:postGQ,0.0,0.01,-0.11,0.91,
+N total males household employed/N male employed,nsewDistTypenodal:postNSEW,0.01,0.03,0.48,0.63,
+N total males household employed/N male employed,nsewDistType0-40:postNSEW,0.0,0.01,0.06,0.95,
+N total males household employed/N male employed,nsewDistType40-100:postNSEW,0.01,0.01,1.21,0.23,
+N total household employed/Total employed,postGQ,0.03,0.0,7.32,0.0,***
+N total household employed/Total employed,postNSEW,-0.06,0.0,-13.15,0.0,***
+N total household employed/Total employed,gqDistTypenodal:postGQ,-0.01,0.03,-0.34,0.73,
+N total household employed/Total employed,gqDistType0-40:postGQ,0.0,0.01,0.29,0.77,
+N total household employed/Total employed,gqDistType40-100:postGQ,0.0,0.01,-0.23,0.82,
+N total household employed/Total employed,nsewDistTypenodal:postNSEW,0.0,0.04,0.07,0.94,
+N total household employed/Total employed,nsewDistType0-40:postNSEW,0.0,0.01,-0.36,0.72,
+N total household employed/Total employed,nsewDistType40-100:postNSEW,0.0,0.01,0.4,0.69,
+N rural females agriculture employed/N female rural employed,postGQ,-0.01,0.01,-1.23,0.22,
+N rural females agriculture employed/N female rural employed,postNSEW,-0.07,0.01,-6.58,0.0,***
+N rural females agriculture employed/N female rural employed,gqDistTypenodal:postGQ,0.05,0.07,0.68,0.49,
+N rural females agriculture employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.02,0.04,0.97,
+N rural females agriculture employed/N female rural employed,gqDistType40-100:postGQ,0.01,0.02,0.32,0.75,
+N rural females agriculture employed/N female rural employed,nsewDistTypenodal:postNSEW,-0.12,0.08,-1.62,0.11,
+N rural females agriculture employed/N female rural employed,nsewDistType0-40:postNSEW,0.0,0.03,0.2,0.85,
+N rural females agriculture employed/N female rural employed,nsewDistType40-100:postNSEW,0.01,0.02,0.44,0.66,
+N rural males agriculture employed/N male rural employed,postGQ,-0.07,0.01,-10.61,0.0,***
+N rural males agriculture employed/N male rural employed,postNSEW,-0.04,0.01,-5.18,0.0,***
+N rural males agriculture employed/N male rural employed,gqDistTypenodal:postGQ,-0.07,0.05,-1.62,0.11,
+N rural males agriculture employed/N male rural employed,gqDistType0-40:postGQ,0.01,0.01,0.88,0.38,
+N rural males agriculture employed/N male rural employed,gqDistType40-100:postGQ,0.0,0.01,0.07,0.94,
+N rural males agriculture employed/N male rural employed,nsewDistTypenodal:postNSEW,0.03,0.05,0.52,0.6,
+N rural males agriculture employed/N male rural employed,nsewDistType0-40:postNSEW,0.01,0.02,0.45,0.65,
+N rural males agriculture employed/N male rural employed,nsewDistType40-100:postNSEW,0.01,0.01,0.64,0.52,
+N rural agriculture employed/Total rural employed,postGQ,-0.05,0.01,-8.09,0.0,***
+N rural agriculture employed/Total rural employed,postNSEW,-0.05,0.01,-7.42,0.0,***
+N rural agriculture employed/Total rural employed,gqDistTypenodal:postGQ,-0.04,0.04,-0.91,0.36,
+N rural agriculture employed/Total rural employed,gqDistType0-40:postGQ,0.01,0.01,0.61,0.54,
+N rural agriculture employed/Total rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.13,0.9,
+N rural agriculture employed/Total rural employed,nsewDistTypenodal:postNSEW,0.01,0.05,0.19,0.85,
+N rural agriculture employed/Total rural employed,nsewDistType0-40:postNSEW,0.0,0.02,-0.21,0.84,
+N rural agriculture employed/Total rural employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.02,0.98,
+N urban females agriculture employed/N female urban employed,postGQ,-0.01,0.01,-0.65,0.52,
+N urban females agriculture employed/N female urban employed,postNSEW,-0.03,0.02,-2.02,0.04,**
+N urban females agriculture employed/N female urban employed,gqDistTypenodal:postGQ,0.07,0.1,0.72,0.47,
+N urban females agriculture employed/N female urban employed,gqDistType0-40:postGQ,0.0,0.03,0.03,0.98,
+N urban females agriculture employed/N female urban employed,gqDistType40-100:postGQ,0.02,0.03,0.67,0.5,
+N urban females agriculture employed/N female urban employed,nsewDistTypenodal:postNSEW,-0.08,0.12,-0.69,0.49,
+N urban females agriculture employed/N female urban employed,nsewDistType0-40:postNSEW,-0.01,0.04,-0.19,0.85,
+N urban females agriculture employed/N female urban employed,nsewDistType40-100:postNSEW,-0.01,0.03,-0.19,0.85,
+N urban males agriculture employed/N male urban employed,postGQ,0.0,0.01,-0.55,0.58,
+N urban males agriculture employed/N male urban employed,postNSEW,-0.01,0.01,-1.14,0.25,
+N urban males agriculture employed/N male urban employed,gqDistTypenodal:postGQ,0.0,0.04,-0.11,0.92,
+N urban males agriculture employed/N male urban employed,gqDistType0-40:postGQ,0.0,0.01,0.19,0.85,
+N urban males agriculture employed/N male urban employed,gqDistType40-100:postGQ,0.0,0.01,0.0,1.0,
+N urban males agriculture employed/N male urban employed,nsewDistTypenodal:postNSEW,-0.01,0.05,-0.28,0.78,
+N urban males agriculture employed/N male urban employed,nsewDistType0-40:postNSEW,0.02,0.02,1.04,0.3,
+N urban males agriculture employed/N male urban employed,nsewDistType40-100:postNSEW,0.01,0.01,0.52,0.61,
+N urban agriculture employed/Total urban employed,postGQ,0.0,0.01,-0.57,0.57,
+N urban agriculture employed/Total urban employed,postNSEW,-0.01,0.01,-1.67,0.09,
+N urban agriculture employed/Total urban employed,gqDistTypenodal:postGQ,0.0,0.05,0.1,0.92,
+N urban agriculture employed/Total urban employed,gqDistType0-40:postGQ,0.0,0.01,-0.21,0.83,
+N urban agriculture employed/Total urban employed,gqDistType40-100:postGQ,0.0,0.01,0.14,0.89,
+N urban agriculture employed/Total urban employed,nsewDistTypenodal:postNSEW,-0.02,0.05,-0.4,0.69,
+N urban agriculture employed/Total urban employed,nsewDistType0-40:postNSEW,0.01,0.02,0.48,0.63,
+N urban agriculture employed/Total urban employed,nsewDistType40-100:postNSEW,0.0,0.01,0.2,0.84,
+N total females agriculture employed/N female employed,postGQ,0.03,0.01,2.87,0.0,***
+N total females agriculture employed/N female employed,postNSEW,-0.08,0.01,-7.32,0.0,***
+N total females agriculture employed/N female employed,gqDistTypenodal:postGQ,0.06,0.07,0.78,0.43,
+N total females agriculture employed/N female employed,gqDistType0-40:postGQ,0.0,0.02,0.2,0.84,
+N total females agriculture employed/N female employed,gqDistType40-100:postGQ,0.02,0.02,0.88,0.38,
+N total females agriculture employed/N female employed,nsewDistTypenodal:postNSEW,-0.03,0.09,-0.39,0.7,
+N total females agriculture employed/N female employed,nsewDistType0-40:postNSEW,0.02,0.03,0.74,0.46,
+N total females agriculture employed/N female employed,nsewDistType40-100:postNSEW,0.04,0.02,1.51,0.13,
+N total males agriculture employed/N male employed,postGQ,0.0,0.01,0.46,0.65,
+N total males agriculture employed/N male employed,postNSEW,-0.03,0.01,-4.15,0.0,***
+N total males agriculture employed/N male employed,gqDistTypenodal:postGQ,-0.08,0.05,-1.55,0.12,
+N total males agriculture employed/N male employed,gqDistType0-40:postGQ,-0.01,0.01,-0.84,0.4,
+N total males agriculture employed/N male employed,gqDistType40-100:postGQ,0.01,0.01,0.74,0.46,
+N total males agriculture employed/N male employed,nsewDistTypenodal:postNSEW,0.01,0.06,0.11,0.91,
+N total males agriculture employed/N male employed,nsewDistType0-40:postNSEW,0.0,0.02,-0.06,0.95,
+N total males agriculture employed/N male employed,nsewDistType40-100:postNSEW,0.0,0.02,0.25,0.81,
+N total agriculture employed/Total employed,postGQ,0.02,0.01,1.99,0.05,
+N total agriculture employed/Total employed,postNSEW,-0.05,0.01,-5.99,0.0,***
+N total agriculture employed/Total employed,gqDistTypenodal:postGQ,-0.07,0.05,-1.3,0.19,
+N total agriculture employed/Total employed,gqDistType0-40:postGQ,-0.01,0.01,-0.74,0.46,
+N total agriculture employed/Total employed,gqDistType40-100:postGQ,0.01,0.01,0.8,0.42,
+N total agriculture employed/Total employed,nsewDistTypenodal:postNSEW,-0.01,0.06,-0.09,0.93,
+N total agriculture employed/Total employed,nsewDistType0-40:postNSEW,-0.01,0.02,-0.49,0.62,
+N total agriculture employed/Total employed,nsewDistType40-100:postNSEW,0.0,0.02,0.05,0.96,
+N rural females manufacturing employed/N female rural employed,postGQ,0.01,0.01,2.25,0.02,**
+N rural females manufacturing employed/N female rural employed,postNSEW,0.0,0.01,-0.79,0.43,
+N rural females manufacturing employed/N female rural employed,gqDistTypenodal:postGQ,-0.06,0.04,-1.4,0.16,
+N rural females manufacturing employed/N female rural employed,gqDistType0-40:postGQ,0.02,0.01,1.52,0.13,
+N rural females manufacturing employed/N female rural employed,gqDistType40-100:postGQ,0.0,0.01,-0.24,0.81,
+N rural females manufacturing employed/N female rural employed,nsewDistTypenodal:postNSEW,-0.04,0.05,-0.79,0.43,
+N rural females manufacturing employed/N female rural employed,nsewDistType0-40:postNSEW,0.02,0.02,1.05,0.29,
+N rural females manufacturing employed/N female rural employed,nsewDistType40-100:postNSEW,-0.02,0.01,-1.59,0.11,
+N rural males manufacturing employed/N male rural employed,postGQ,0.01,0.0,4.16,0.0,***
+N rural males manufacturing employed/N male rural employed,postNSEW,-0.01,0.0,-2.9,0.0,***
+N rural males manufacturing employed/N male rural employed,gqDistTypenodal:postGQ,0.05,0.02,2.44,0.01,**
+N rural males manufacturing employed/N male rural employed,gqDistType0-40:postGQ,0.0,0.01,0.89,0.37,
+N rural males manufacturing employed/N male rural employed,gqDistType40-100:postGQ,0.0,0.01,0.19,0.85,
+N rural males manufacturing employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.03,0.02,-1.31,0.19,
+N rural males manufacturing employed/N male rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-0.77,0.44,
+N rural males manufacturing employed/N male rural employed,nsewDistType40-100:postNSEW,-0.01,0.01,-1.05,0.29,
+N rural manufacturing employed/Total rural employed,postGQ,0.01,0.0,4.05,0.0,***
+N rural manufacturing employed/Total rural employed,postNSEW,-0.01,0.0,-2.79,0.01,**
+N rural manufacturing employed/Total rural employed,gqDistTypenodal:postGQ,0.02,0.02,1.06,0.29,
+N rural manufacturing employed/Total rural employed,gqDistType0-40:postGQ,0.01,0.01,1.31,0.19,
+N rural manufacturing employed/Total rural employed,gqDistType40-100:postGQ,0.0,0.01,0.27,0.79,
+N rural manufacturing employed/Total rural employed,nsewDistTypenodal:postNSEW,-0.03,0.02,-1.17,0.24,
+N rural manufacturing employed/Total rural employed,nsewDistType0-40:postNSEW,0.0,0.01,0.26,0.79,
+N rural manufacturing employed/Total rural employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.74,0.46,
+N urban females manufacturing employed/N female urban employed,postGQ,0.02,0.01,1.27,0.2,
+N urban females manufacturing employed/N female urban employed,postNSEW,0.0,0.01,0.18,0.86,
+N urban females manufacturing employed/N female urban employed,gqDistTypenodal:postGQ,0.06,0.09,0.71,0.48,
+N urban females manufacturing employed/N female urban employed,gqDistType0-40:postGQ,0.0,0.02,-0.14,0.88,
+N urban females manufacturing employed/N female urban employed,gqDistType40-100:postGQ,-0.03,0.02,-1.18,0.24,
+N urban females manufacturing employed/N female urban employed,nsewDistTypenodal:postNSEW,-0.05,0.1,-0.5,0.61,
+N urban females manufacturing employed/N female urban employed,nsewDistType0-40:postNSEW,0.02,0.03,0.47,0.64,
+N urban females manufacturing employed/N female urban employed,nsewDistType40-100:postNSEW,-0.03,0.03,-0.97,0.33,
+N urban males manufacturing employed/N male urban employed,postGQ,-0.01,0.01,-1.43,0.15,
+N urban males manufacturing employed/N male urban employed,postNSEW,-0.01,0.01,-1.1,0.27,
+N urban males manufacturing employed/N male urban employed,gqDistTypenodal:postGQ,0.07,0.04,1.51,0.13,
+N urban males manufacturing employed/N male urban employed,gqDistType0-40:postGQ,0.01,0.01,0.78,0.43,
+N urban males manufacturing employed/N male urban employed,gqDistType40-100:postGQ,-0.02,0.01,-1.92,0.06,
+N urban males manufacturing employed/N male urban employed,nsewDistTypenodal:postNSEW,0.01,0.05,0.21,0.83,
+N urban males manufacturing employed/N male urban employed,nsewDistType0-40:postNSEW,-0.03,0.02,-1.64,0.1,
+N urban males manufacturing employed/N male urban employed,nsewDistType40-100:postNSEW,0.01,0.01,0.47,0.64,
+N urban manufacturing employed/Total urban employed,postGQ,0.0,0.01,-0.11,0.91,
+N urban manufacturing employed/Total urban employed,postNSEW,-0.01,0.01,-1.22,0.22,
+N urban manufacturing employed/Total urban employed,gqDistTypenodal:postGQ,0.06,0.04,1.43,0.15,
+N urban manufacturing employed/Total urban employed,gqDistType0-40:postGQ,0.01,0.01,0.59,0.56,
+N urban manufacturing employed/Total urban employed,gqDistType40-100:postGQ,-0.02,0.01,-2.06,0.04,**
+N urban manufacturing employed/Total urban employed,nsewDistTypenodal:postNSEW,0.0,0.05,0.07,0.94,
+N urban manufacturing employed/Total urban employed,nsewDistType0-40:postNSEW,-0.02,0.02,-1.1,0.27,
+N urban manufacturing employed/Total urban employed,nsewDistType40-100:postNSEW,0.0,0.01,0.35,0.73,
+N total females manufacturing employed/N female employed,postGQ,0.0,0.01,0.66,0.51,
+N total females manufacturing employed/N female employed,postNSEW,0.0,0.01,0.62,0.54,
+N total females manufacturing employed/N female employed,gqDistTypenodal:postGQ,0.05,0.04,1.18,0.24,
+N total females manufacturing employed/N female employed,gqDistType0-40:postGQ,0.01,0.01,1.3,0.19,
+N total females manufacturing employed/N female employed,gqDistType40-100:postGQ,-0.01,0.01,-1.05,0.29,
+N total females manufacturing employed/N female employed,nsewDistTypenodal:postNSEW,-0.04,0.05,-0.84,0.4,
+N total females manufacturing employed/N female employed,nsewDistType0-40:postNSEW,0.01,0.02,0.74,0.46,
+N total females manufacturing employed/N female employed,nsewDistType40-100:postNSEW,-0.03,0.01,-2.68,0.01,**
+N total males manufacturing employed/N male employed,postGQ,0.0,0.0,-1.22,0.22,
+N total males manufacturing employed/N male employed,postNSEW,-0.01,0.0,-2.27,0.02,**
+N total males manufacturing employed/N male employed,gqDistTypenodal:postGQ,0.07,0.02,3.16,0.0,***
+N total males manufacturing employed/N male employed,gqDistType0-40:postGQ,0.01,0.01,1.69,0.09,
+N total males manufacturing employed/N male employed,gqDistType40-100:postGQ,-0.01,0.01,-1.11,0.27,
+N total males manufacturing employed/N male employed,nsewDistTypenodal:postNSEW,0.0,0.02,0.12,0.9,
+N total males manufacturing employed/N male employed,nsewDistType0-40:postNSEW,-0.01,0.01,-1.07,0.29,
+N total males manufacturing employed/N male employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.53,0.59,
+N total manufacturing employed/Total employed,postGQ,0.0,0.0,-0.56,0.58,
+N total manufacturing employed/Total employed,postNSEW,-0.01,0.0,-2.12,0.03,**
+N total manufacturing employed/Total employed,gqDistTypenodal:postGQ,0.06,0.02,2.95,0.0,***
+N total manufacturing employed/Total employed,gqDistType0-40:postGQ,0.01,0.01,2.08,0.04,**
+N total manufacturing employed/Total employed,gqDistType40-100:postGQ,-0.01,0.01,-1.09,0.28,
+N total manufacturing employed/Total employed,nsewDistTypenodal:postNSEW,0.01,0.03,0.27,0.78,
+N total manufacturing employed/Total employed,nsewDistType0-40:postNSEW,0.0,0.01,0.02,0.98,
+N total manufacturing employed/Total employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.66,0.51,
+N rural females transportation employed/N female rural employed,postGQ,0.0,0.0,3.26,0.0,***
+N rural females transportation employed/N female rural employed,postNSEW,0.0,0.0,-1.82,0.07,
+N rural females transportation employed/N female rural employed,gqDistTypenodal:postGQ,0.0,0.0,-0.32,0.75,
+N rural females transportation employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.0,-2.21,0.03,**
+N rural females transportation employed/N female rural employed,gqDistType40-100:postGQ,0.0,0.0,-0.33,0.74,
+N rural females transportation employed/N female rural employed,nsewDistTypenodal:postNSEW,0.0,0.0,0.98,0.33,
+N rural females transportation employed/N female rural employed,nsewDistType0-40:postNSEW,0.0,0.0,-0.18,0.86,
+N rural females transportation employed/N female rural employed,nsewDistType40-100:postNSEW,0.0,0.0,0.51,0.61,
+N rural males transportation employed/N male rural employed,postGQ,0.01,0.0,8.75,0.0,***
+N rural males transportation employed/N male rural employed,postNSEW,0.0,0.0,1.23,0.22,
+N rural males transportation employed/N male rural employed,gqDistTypenodal:postGQ,0.0,0.01,0.28,0.78,
+N rural males transportation employed/N male rural employed,gqDistType0-40:postGQ,0.0,0.0,-0.77,0.44,
+N rural males transportation employed/N male rural employed,gqDistType40-100:postGQ,0.0,0.0,-0.12,0.9,
+N rural males transportation employed/N male rural employed,nsewDistTypenodal:postNSEW,0.01,0.01,0.5,0.62,
+N rural males transportation employed/N male rural employed,nsewDistType0-40:postNSEW,0.0,0.0,-1.06,0.29,
+N rural males transportation employed/N male rural employed,nsewDistType40-100:postNSEW,0.0,0.0,-1.3,0.2,
+N rural transportation employed/Total rural employed,postGQ,0.01,0.0,7.77,0.0,***
+N rural transportation employed/Total rural employed,postNSEW,0.0,0.0,2.75,0.01,**
+N rural transportation employed/Total rural employed,gqDistTypenodal:postGQ,0.0,0.01,0.42,0.68,
+N rural transportation employed/Total rural employed,gqDistType0-40:postGQ,0.0,0.0,-1.23,0.22,
+N rural transportation employed/Total rural employed,gqDistType40-100:postGQ,0.0,0.0,0.19,0.85,
+N rural transportation employed/Total rural employed,nsewDistTypenodal:postNSEW,0.01,0.01,0.65,0.52,
+N rural transportation employed/Total rural employed,nsewDistType0-40:postNSEW,0.0,0.0,-1.32,0.19,
+N rural transportation employed/Total rural employed,nsewDistType40-100:postNSEW,-0.01,0.0,-2.13,0.03,**
+N urban females transportation employed/N female urban employed,postGQ,0.0,0.0,-0.59,0.56,
+N urban females transportation employed/N female urban employed,postNSEW,0.0,0.0,0.63,0.53,
+N urban females transportation employed/N female urban employed,gqDistTypenodal:postGQ,0.0,0.01,0.05,0.96,
+N urban females transportation employed/N female urban employed,gqDistType0-40:postGQ,0.0,0.0,-1.46,0.14,
+N urban females transportation employed/N female urban employed,gqDistType40-100:postGQ,0.0,0.0,-0.6,0.55,
+N urban females transportation employed/N female urban employed,nsewDistTypenodal:postNSEW,0.0,0.01,0.17,0.86,
+N urban females transportation employed/N female urban employed,nsewDistType0-40:postNSEW,-0.01,0.0,-2.23,0.03,**
+N urban females transportation employed/N female urban employed,nsewDistType40-100:postNSEW,0.0,0.0,-0.45,0.65,
+N urban males transportation employed/N male urban employed,postGQ,0.01,0.0,2.84,0.0,***
+N urban males transportation employed/N male urban employed,postNSEW,-0.01,0.0,-1.68,0.09,
+N urban males transportation employed/N male urban employed,gqDistTypenodal:postGQ,-0.01,0.03,-0.33,0.74,
+N urban males transportation employed/N male urban employed,gqDistType0-40:postGQ,-0.01,0.01,-0.96,0.34,
+N urban males transportation employed/N male urban employed,gqDistType40-100:postGQ,-0.01,0.01,-1.27,0.2,
+N urban males transportation employed/N male urban employed,nsewDistTypenodal:postNSEW,-0.01,0.03,-0.27,0.79,
+N urban males transportation employed/N male urban employed,nsewDistType0-40:postNSEW,-0.02,0.01,-1.72,0.09,
+N urban males transportation employed/N male urban employed,nsewDistType40-100:postNSEW,0.01,0.01,0.92,0.36,
+N urban transportation employed/Total urban employed,postGQ,0.01,0.0,2.2,0.03,**
+N urban transportation employed/Total urban employed,postNSEW,0.0,0.0,-0.76,0.45,
+N urban transportation employed/Total urban employed,gqDistTypenodal:postGQ,-0.01,0.02,-0.21,0.83,
+N urban transportation employed/Total urban employed,gqDistType0-40:postGQ,-0.01,0.01,-0.98,0.33,
+N urban transportation employed/Total urban employed,gqDistType40-100:postGQ,-0.01,0.01,-1.22,0.22,
+N urban transportation employed/Total urban employed,nsewDistTypenodal:postNSEW,-0.01,0.03,-0.34,0.73,
+N urban transportation employed/Total urban employed,nsewDistType0-40:postNSEW,-0.02,0.01,-1.8,0.07,
+N urban transportation employed/Total urban employed,nsewDistType40-100:postNSEW,0.0,0.01,0.6,0.55,
+N total females transportation employed/N female employed,postGQ,0.0,0.0,1.54,0.12,
+N total females transportation employed/N female employed,postNSEW,0.0,0.0,-0.15,0.88,
+N total females transportation employed/N female employed,gqDistTypenodal:postGQ,0.0,0.0,-0.77,0.44,
+N total females transportation employed/N female employed,gqDistType0-40:postGQ,0.0,0.0,-3.03,0.0,***
+N total females transportation employed/N female employed,gqDistType40-100:postGQ,0.0,0.0,-1.91,0.06,
+N total females transportation employed/N female employed,nsewDistTypenodal:postNSEW,0.01,0.0,2.38,0.02,**
+N total females transportation employed/N female employed,nsewDistType0-40:postNSEW,0.0,0.0,-1.55,0.12,
+N total females transportation employed/N female employed,nsewDistType40-100:postNSEW,0.0,0.0,0.63,0.53,
+N total males transportation employed/N male employed,postGQ,0.01,0.0,4.08,0.0,***
+N total males transportation employed/N male employed,postNSEW,0.0,0.0,0.99,0.32,
+N total males transportation employed/N male employed,gqDistTypenodal:postGQ,0.0,0.01,-0.36,0.72,
+N total males transportation employed/N male employed,gqDistType0-40:postGQ,0.0,0.0,-1.24,0.22,
+N total males transportation employed/N male employed,gqDistType40-100:postGQ,0.0,0.0,-1.2,0.23,
+N total males transportation employed/N male employed,nsewDistTypenodal:postNSEW,0.01,0.01,0.74,0.46,
+N total males transportation employed/N male employed,nsewDistType0-40:postNSEW,-0.01,0.0,-1.43,0.15,
+N total males transportation employed/N male employed,nsewDistType40-100:postNSEW,0.0,0.0,-0.68,0.49,
+N total transportation employed/Total employed,postGQ,0.0,0.0,2.85,0.0,***
+N total transportation employed/Total employed,postNSEW,0.0,0.0,2.75,0.01,**
+N total transportation employed/Total employed,gqDistTypenodal:postGQ,0.0,0.01,-0.15,0.88,
+N total transportation employed/Total employed,gqDistType0-40:postGQ,0.0,0.0,-1.81,0.07,
+N total transportation employed/Total employed,gqDistType40-100:postGQ,0.0,0.0,-1.3,0.19,
+N total transportation employed/Total employed,nsewDistTypenodal:postNSEW,0.01,0.01,0.91,0.37,
+N total transportation employed/Total employed,nsewDistType0-40:postNSEW,-0.01,0.0,-1.53,0.13,
+N total transportation employed/Total employed,nsewDistType40-100:postNSEW,0.0,0.0,-1.48,0.14,
+N rural females commerce employed/N female rural employed,postGQ,0.01,0.0,2.93,0.0,***
+N rural females commerce employed/N female rural employed,postNSEW,0.0,0.0,0.57,0.57,
+N rural females commerce employed/N female rural employed,gqDistTypenodal:postGQ,0.05,0.02,2.65,0.01,**
+N rural females commerce employed/N female rural employed,gqDistType0-40:postGQ,0.0,0.01,-0.29,0.77,
+N rural females commerce employed/N female rural employed,gqDistType40-100:postGQ,-0.01,0.01,-2.32,0.02,**
+N rural females commerce employed/N female rural employed,nsewDistTypenodal:postNSEW,-0.05,0.02,-2.28,0.02,**
+N rural females commerce employed/N female rural employed,nsewDistType0-40:postNSEW,0.0,0.01,-0.41,0.68,
+N rural females commerce employed/N female rural employed,nsewDistType40-100:postNSEW,0.0,0.01,0.47,0.64,
+N rural males commerce employed/N male rural employed,postGQ,0.03,0.0,10.33,0.0,***
+N rural males commerce employed/N male rural employed,postNSEW,-0.01,0.0,-2.29,0.02,**
+N rural males commerce employed/N male rural employed,gqDistTypenodal:postGQ,0.02,0.02,0.98,0.33,
+N rural males commerce employed/N male rural employed,gqDistType0-40:postGQ,0.0,0.0,-0.36,0.72,
+N rural males commerce employed/N male rural employed,gqDistType40-100:postGQ,-0.01,0.0,-1.96,0.05,
+N rural males commerce employed/N male rural employed,nsewDistTypenodal:postNSEW,-0.02,0.02,-0.73,0.47,
+N rural males commerce employed/N male rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-1.72,0.09,
+N rural males commerce employed/N male rural employed,nsewDistType40-100:postNSEW,0.01,0.01,1.84,0.07,
+N rural commerce employed/Total rural employed,postGQ,0.02,0.0,9.3,0.0,***
+N rural commerce employed/Total rural employed,postNSEW,0.0,0.0,-0.88,0.38,
+N rural commerce employed/Total rural employed,gqDistTypenodal:postGQ,0.02,0.02,1.09,0.28,
+N rural commerce employed/Total rural employed,gqDistType0-40:postGQ,0.0,0.0,-0.7,0.48,
+N rural commerce employed/Total rural employed,gqDistType40-100:postGQ,-0.01,0.0,-2.23,0.03,**
+N rural commerce employed/Total rural employed,nsewDistTypenodal:postNSEW,-0.01,0.02,-0.78,0.43,
+N rural commerce employed/Total rural employed,nsewDistType0-40:postNSEW,-0.01,0.01,-1.52,0.13,
+N rural commerce employed/Total rural employed,nsewDistType40-100:postNSEW,0.01,0.0,1.69,0.09,
+N urban females commerce employed/N female urban employed,postGQ,0.01,0.01,1.14,0.26,
+N urban females commerce employed/N female urban employed,postNSEW,-0.01,0.01,-0.39,0.69,
+N urban females commerce employed/N female urban employed,gqDistTypenodal:postGQ,-0.11,0.08,-1.28,0.2,
+N urban females commerce employed/N female urban employed,gqDistType0-40:postGQ,0.0,0.02,-0.16,0.87,
+N urban females commerce employed/N female urban employed,gqDistType40-100:postGQ,-0.05,0.02,-2.2,0.03,**
+N urban females commerce employed/N female urban employed,nsewDistTypenodal:postNSEW,-0.03,0.1,-0.26,0.8,
+N urban females commerce employed/N female urban employed,nsewDistType0-40:postNSEW,-0.03,0.03,-0.84,0.4,
+N urban females commerce employed/N female urban employed,nsewDistType40-100:postNSEW,0.0,0.03,0.09,0.93,
+N urban males commerce employed/N male urban employed,postGQ,0.04,0.01,4.5,0.0,***
+N urban males commerce employed/N male urban employed,postNSEW,-0.01,0.01,-0.94,0.35,
+N urban males commerce employed/N male urban employed,gqDistTypenodal:postGQ,-0.09,0.06,-1.68,0.09,
+N urban males commerce employed/N male urban employed,gqDistType0-40:postGQ,-0.01,0.01,-0.76,0.45,
+N urban males commerce employed/N male urban employed,gqDistType40-100:postGQ,0.01,0.01,0.42,0.67,
+N urban males commerce employed/N male urban employed,nsewDistTypenodal:postNSEW,-0.01,0.06,-0.22,0.82,
+N urban males commerce employed/N male urban employed,nsewDistType0-40:postNSEW,-0.01,0.02,-0.37,0.71,
+N urban males commerce employed/N male urban employed,nsewDistType40-100:postNSEW,0.0,0.02,0.24,0.81,
+N urban commerce employed/Total urban employed,postGQ,0.03,0.01,3.55,0.0,***
+N urban commerce employed/Total urban employed,postNSEW,0.0,0.01,-0.44,0.66,
+N urban commerce employed/Total urban employed,gqDistTypenodal:postGQ,-0.09,0.05,-1.66,0.1,
+N urban commerce employed/Total urban employed,gqDistType0-40:postGQ,-0.01,0.01,-0.4,0.69,
+N urban commerce employed/Total urban employed,gqDistType40-100:postGQ,0.0,0.01,0.04,0.97,
+N urban commerce employed/Total urban employed,nsewDistTypenodal:postNSEW,-0.02,0.06,-0.26,0.79,
+N urban commerce employed/Total urban employed,nsewDistType0-40:postNSEW,-0.01,0.02,-0.46,0.65,
+N urban commerce employed/Total urban employed,nsewDistType40-100:postNSEW,0.01,0.02,0.52,0.61,
+N total females commerce employed/N female employed,postGQ,0.0,0.0,0.15,0.88,
+N total females commerce employed/N female employed,postNSEW,0.0,0.0,1.39,0.16,
+N total females commerce employed/N female employed,gqDistTypenodal:postGQ,-0.03,0.02,-1.35,0.18,
+N total females commerce employed/N female employed,gqDistType0-40:postGQ,0.0,0.01,0.05,0.96,
+N total females commerce employed/N female employed,gqDistType40-100:postGQ,-0.01,0.01,-1.95,0.05,
+N total females commerce employed/N female employed,nsewDistTypenodal:postNSEW,-0.03,0.03,-0.99,0.32,
+N total females commerce employed/N female employed,nsewDistType0-40:postNSEW,-0.01,0.01,-0.82,0.41,
+N total females commerce employed/N female employed,nsewDistType40-100:postNSEW,0.0,0.01,-0.62,0.53,
+N total males commerce employed/N male employed,postGQ,0.01,0.0,3.42,0.0,***
+N total males commerce employed/N male employed,postNSEW,-0.01,0.0,-1.95,0.05,
+N total males commerce employed/N male employed,gqDistTypenodal:postGQ,-0.02,0.02,-1.04,0.3,
+N total males commerce employed/N male employed,gqDistType0-40:postGQ,0.0,0.01,0.49,0.63,
+N total males commerce employed/N male employed,gqDistType40-100:postGQ,-0.01,0.01,-1.46,0.15,
+N total males commerce employed/N male employed,nsewDistTypenodal:postNSEW,0.0,0.02,-0.14,0.89,
+N total males commerce employed/N male employed,nsewDistType0-40:postNSEW,0.0,0.01,-0.3,0.77,
+N total males commerce employed/N male employed,nsewDistType40-100:postNSEW,0.01,0.01,1.74,0.08,
+N total commerce employed/Total employed,postGQ,0.01,0.0,1.96,0.05,
+N total commerce employed/Total employed,postNSEW,0.0,0.0,-0.06,0.95,
+N total commerce employed/Total employed,gqDistTypenodal:postGQ,-0.01,0.02,-0.68,0.5,
+N total commerce employed/Total employed,gqDistType0-40:postGQ,0.0,0.0,0.31,0.76,
+N total commerce employed/Total employed,gqDistType40-100:postGQ,-0.01,0.0,-1.81,0.07,
+N total commerce employed/Total employed,nsewDistTypenodal:postNSEW,-0.01,0.02,-0.38,0.7,
+N total commerce employed/Total employed,nsewDistType0-40:postNSEW,0.0,0.01,-0.35,0.73,
+N total commerce employed/Total employed,nsewDistType40-100:postNSEW,0.01,0.01,1.35,0.18,
+Aerosol particle radius (percent of small particles),postGQ,9.7,0.52,18.6,0.0,***
+Aerosol particle radius (percent of small particles),gqDistTypenodal:postGQ,-2.13,3.32,-0.64,0.52,
+Aerosol particle radius (percent of small particles),gqDistType0-40:postGQ,-0.77,1.01,-0.77,0.44,
+Aerosol particle radius (percent of small particles),gqDistType40-100:postGQ,0.13,0.99,0.13,0.89,
+Aerosol particle radius (percent of small particles),nsewDistTypenodal:postNSEW,-4.56,3.81,-1.2,0.23,
+Aerosol particle radius (percent of small particles),nsewDistType0-40:postNSEW,-2.48,1.28,-1.93,0.05,
+Aerosol particle radius (percent of small particles),nsewDistType40-100:postNSEW,-1.48,1.05,-1.41,0.16,
+Aerosol optical thickness (thickness scale  0–1 ),postGQ,0.06,0.0,16.86,0.0,***
+Aerosol optical thickness (thickness scale  0–1 ),gqDistTypenodal:postGQ,0.02,0.02,0.9,0.37,
+Aerosol optical thickness (thickness scale  0–1 ),gqDistType0-40:postGQ,0.03,0.01,3.74,0.0,***
+Aerosol optical thickness (thickness scale  0–1 ),gqDistType40-100:postGQ,0.02,0.01,3.42,0.0,***
+Aerosol optical thickness (thickness scale  0–1 ),nsewDistTypenodal:postNSEW,-0.02,0.03,-0.58,0.56,
+Aerosol optical thickness (thickness scale  0–1 ),nsewDistType0-40:postNSEW,-0.01,0.01,-1.55,0.12,
+Aerosol optical thickness (thickness scale  0–1 ),nsewDistType40-100:postNSEW,-0.03,0.01,-3.43,0.0,***
+Carbon monoxide levels (parts per billion by volume),postGQ,-2.32,0.27,-8.55,0.0,***
+Carbon monoxide levels (parts per billion by volume),gqDistTypenodal:postGQ,-3.13,1.72,-1.81,0.07,
+Carbon monoxide levels (parts per billion by volume),gqDistType0-40:postGQ,0.12,0.52,0.23,0.82,
+Carbon monoxide levels (parts per billion by volume),gqDistType40-100:postGQ,0.26,0.51,0.51,0.61,
+Carbon monoxide levels (parts per billion by volume),nsewDistTypenodal:postNSEW,-0.23,1.98,-0.12,0.91,
+Carbon monoxide levels (parts per billion by volume),nsewDistType0-40:postNSEW,-1.73,0.67,-2.6,0.01,**
+Carbon monoxide levels (parts per billion by volume),nsewDistType40-100:postNSEW,-2.36,0.54,-4.32,0.0,***
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",postGQ,-0.54,0.35,-1.53,0.13,
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",gqDistTypenodal:postGQ,0.01,2.25,0.0,1.0,
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",gqDistType0-40:postGQ,0.28,0.68,0.41,0.68,
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",gqDistType40-100:postGQ,-1.48,0.67,-2.21,0.03,**
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",nsewDistTypenodal:postNSEW,-1.87,2.58,-0.72,0.47,
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",nsewDistType0-40:postNSEW,-2.32,0.87,-2.67,0.01,**
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",nsewDistType40-100:postNSEW,-1.95,0.71,-2.74,0.01,**
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",postGQ,-0.22,0.22,-0.98,0.33,
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",gqDistTypenodal:postGQ,-0.58,1.41,-0.41,0.68,
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",gqDistType0-40:postGQ,0.37,0.43,0.86,0.39,
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",gqDistType40-100:postGQ,-1.04,0.42,-2.48,0.01,**
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",nsewDistTypenodal:postNSEW,-0.68,1.61,-0.42,0.67,
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",nsewDistType0-40:postNSEW,-1.28,0.54,-2.35,0.02,**
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",nsewDistType40-100:postNSEW,-0.91,0.44,-2.03,0.04,**
+"Regular wage earners, Female (percent of total empl)",postGQ,6.2,0.41,15.28,0.0,***
+"Regular wage earners, Female (percent of total empl)",gqDistTypenodal:postGQ,0.19,2.58,0.08,0.94,
+"Regular wage earners, Female (percent of total empl)",gqDistType0-40:postGQ,2.25,0.79,2.86,0.0,***
+"Regular wage earners, Female (percent of total empl)",gqDistType40-100:postGQ,1.5,0.77,1.95,0.05,
+"Regular wage earners, Female (percent of total empl)",nsewDistTypenodal:postNSEW,-0.28,2.96,-0.1,0.92,
+"Regular wage earners, Female (percent of total empl)",nsewDistType0-40:postNSEW,0.47,1.0,0.47,0.64,
+"Regular wage earners, Female (percent of total empl)",nsewDistType40-100:postNSEW,0.36,0.82,0.44,0.66,
+"Regular wage earners, Total (percent of total emplt)",postGQ,2.84,0.31,9.3,0.0,***
+"Regular wage earners, Total (percent of total emplt)",gqDistTypenodal:postGQ,-0.21,1.94,-0.11,0.91,
+"Regular wage earners, Total (percent of total emplt)",gqDistType0-40:postGQ,1.44,0.59,2.44,0.02,**
+"Regular wage earners, Total (percent of total emplt)",gqDistType40-100:postGQ,0.93,0.58,1.61,0.11,
+"Regular wage earners, Total (percent of total emplt)",nsewDistTypenodal:postNSEW,-0.07,2.23,-0.03,0.98,
+"Regular wage earners, Total (percent of total emplt)",nsewDistType0-40:postNSEW,2.17,0.75,2.88,0.0,***
+"Regular wage earners, Total (percent of total emplt)",nsewDistType40-100:postNSEW,0.75,0.61,1.22,0.22,
+Forest (percent of area),postGQ,-0.55,0.27,-2.04,0.04,**
+Forest (percent of area),gqDistTypenodal:postGQ,-0.52,1.71,-0.3,0.76,
+Forest (percent of area),gqDistType0-40:postGQ,0.59,0.52,1.14,0.26,
+Forest (percent of area),gqDistType40-100:postGQ,0.67,0.51,1.32,0.19,
+Forest (percent of area),nsewDistTypenodal:postNSEW,0.79,1.97,0.4,0.69,
+Forest (percent of area),nsewDistType0-40:postNSEW,0.13,0.66,0.19,0.85,
+Forest (percent of area),nsewDistType40-100:postNSEW,-1.32,0.54,-2.43,0.02,**
+"GDP  (current USD, in millions)",postGQ,281.15,26.01,10.81,0.0,***
+"GDP  (current USD, in millions)",gqDistTypenodal:postGQ,332.72,165.54,2.01,0.05,
+"GDP  (current USD, in millions)",gqDistType0-40:postGQ,180.32,50.35,3.58,0.0,***
+"GDP  (current USD, in millions)",gqDistType40-100:postGQ,-27.67,49.26,-0.56,0.57,
+"GDP  (current USD, in millions)",nsewDistTypenodal:postNSEW,678.6,189.77,3.58,0.0,***
+"GDP  (current USD, in millions)",nsewDistType0-40:postNSEW,230.39,64.03,3.6,0.0,***
+"GDP  (current USD, in millions)",nsewDistType40-100:postNSEW,39.67,52.31,0.76,0.45,
+GDP per capita (current USD),postGQ,111.9,6.79,16.47,0.0,***
+GDP per capita (current USD),gqDistTypenodal:postGQ,80.2,43.24,1.85,0.06,
+GDP per capita (current USD),gqDistType0-40:postGQ,9.36,13.15,0.71,0.48,
+GDP per capita (current USD),gqDistType40-100:postGQ,-34.89,12.87,-2.71,0.01,**
+GDP per capita (current USD),nsewDistTypenodal:postNSEW,77.12,49.57,1.56,0.12,
+GDP per capita (current USD),nsewDistType0-40:postNSEW,49.44,16.73,2.96,0.0,***
+GDP per capita (current USD),nsewDistType40-100:postNSEW,26.28,13.66,1.92,0.06,
+Nitrogen dioxide levels (billion molecules/mm2),postGQ,19.49,1.21,16.13,0.0,***
+Nitrogen dioxide levels (billion molecules/mm2),gqDistTypenodal:postGQ,12.76,7.69,1.66,0.1,
+Nitrogen dioxide levels (billion molecules/mm2),gqDistType0-40:postGQ,2.08,2.34,0.89,0.37,
+Nitrogen dioxide levels (billion molecules/mm2),gqDistType40-100:postGQ,1.07,2.29,0.47,0.64,
+Nitrogen dioxide levels (billion molecules/mm2),nsewDistTypenodal:postNSEW,-2.04,8.81,-0.23,0.82,
+Nitrogen dioxide levels (billion molecules/mm2),nsewDistType0-40:postNSEW,1.05,2.97,0.35,0.72,
+Nitrogen dioxide levels (billion molecules/mm2),nsewDistType40-100:postNSEW,-0.47,2.43,-0.19,0.85,
+Light intensity per area,postGQ,3.08,0.37,8.3,0.0,***
+Light intensity per area,gqDistTypenodal:postGQ,-2.61,2.36,-1.1,0.27,
+Light intensity per area,gqDistType0-40:postGQ,3.58,0.72,4.98,0.0,***
+Light intensity per area,gqDistType40-100:postGQ,0.94,0.7,1.34,0.18,
+Light intensity per area,nsewDistTypenodal:postNSEW,20.43,2.71,7.54,0.0,***
+Light intensity per area,nsewDistType0-40:postNSEW,3.7,0.91,4.05,0.0,***
+Light intensity per area,nsewDistType40-100:postNSEW,1.58,0.75,2.12,0.03,**
+Light intensity per 1000 people,postGQ,6.52,0.63,10.44,0.0,***
+Light intensity per 1000 people,gqDistTypenodal:postGQ,-2.32,3.98,-0.58,0.56,
+Light intensity per 1000 people,gqDistType0-40:postGQ,0.24,1.21,0.2,0.84,
+Light intensity per 1000 people,gqDistType40-100:postGQ,0.74,1.18,0.63,0.53,
+Light intensity per 1000 people,nsewDistTypenodal:postNSEW,5.16,4.56,1.13,0.26,
+Light intensity per 1000 people,nsewDistType0-40:postNSEW,3.09,1.54,2.01,0.05,
+Light intensity per 1000 people,nsewDistType40-100:postNSEW,3.91,1.26,3.11,0.0,***
+Population density (people per sq. km.),postGQ,93.75,11.38,8.24,0.0,***
+Population density (people per sq. km.),gqDistTypenodal:postGQ,-76.13,72.43,-1.05,0.29,
+Population density (people per sq. km.),gqDistType0-40:postGQ,55.96,22.03,2.54,0.01,**
+Population density (people per sq. km.),gqDistType40-100:postGQ,23.79,21.55,1.1,0.27,
+Population density (people per sq. km.),nsewDistTypenodal:postNSEW,533.02,83.03,6.42,0.0,***
+Population density (people per sq. km.),nsewDistType0-40:postNSEW,13.0,28.01,0.46,0.64,
+Population density (people per sq. km.),nsewDistType40-100:postNSEW,-45.14,22.89,-1.97,0.05,
+Share of urban population,postGQ,0.02,0.0,5.14,0.0,***
+Share of urban population,gqDistTypenodal:postGQ,0.01,0.03,0.49,0.62,
+Share of urban population,gqDistType0-40:postGQ,0.03,0.01,2.94,0.0,***
+Share of urban population,gqDistType40-100:postGQ,0.0,0.01,0.39,0.7,
+Share of urban population,nsewDistTypenodal:postNSEW,0.03,0.03,0.84,0.4,
+Share of urban population,nsewDistType0-40:postNSEW,0.02,0.01,1.98,0.05,
+Share of urban population,nsewDistType40-100:postNSEW,0.02,0.01,1.86,0.06,

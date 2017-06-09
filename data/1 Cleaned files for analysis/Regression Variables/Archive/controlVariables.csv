@@ -1,0 +1,9 @@
+varNames,varDescription,logs,summaryType
+dens,Population density (people per sq. km.),0,area weighted mean
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)",0,mean
+elev,Elevation (meters),1,mean
+hh_elec_t,"Households' access to electricity,total(percent of households)",0,pop weighted mean
+pop,Population (thousands),1,sum
+sc,Scheduled Caste (SC) population (percent),0,pop weighted mean
+bank_t,"Households' access to banking services, total (percent of households)",0,pop weighted mean
+urbanPopShare,Share of urban population,0,pop weighted mean

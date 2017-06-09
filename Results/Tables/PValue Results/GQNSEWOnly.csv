@@ -1,0 +1,18 @@
+yVar,yType,description,postGQ,postNSEW,GQ,NSEW,adjRSq
+ap,environment,Aerosol particle radius (percent of small particles) in logs,13.1732***,NA,-0.7238,-0.4047,0.529000827534179
+at,environment,Aerosol optical thickness (thickness scale  0–1 ),0.0746***,NA,0.0259***,0.0095,0.582347767685487
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2) in logs,25.2989***,NA,1.0056,-1.5397,0.5577445043711431
+povrate_rur,equality,Reduction in poverty rate (rural),0.1922***,0.082**,-0.0051,0.0146,0.3728319649634967
+povrate_tot,equality,Reduction in poverty rate (total),0.1883***,0.1092***,-0.0027,0.0064,0.31899756472707586
+povrate_urb,equality,Reduction in poverty rate (urban),0.0699*,0.1986***,0.0151,0.0366,-0.05179839239217432
+pct_hhemp_both_tot,inclusion,N total household employed/Total employed,0.0129,-0.0731***,0.0072,-2e-04,-0.049070199365620404
+pct_hhemp_f_tot,inclusion,N total females household employed/N female employed,0.024,-0.1102***,0.0096,0.0157,-0.13201885795745993
+pct_regWage_both_tot,inclusion,N total regular wage employed/Total employed,-0.0352**,0.0132,0.0013,0.0122,-0.07730211772245821
+pct_regWage_f_tot,inclusion,N total females regular wage employed/N female employed,0.0165,0.0141,-0.0075,-0.0063,-0.22188359262221713
+pct_selfemp_both_tot,inclusion,N total self employed/Total employed,0.0184,-0.0107,0.0036,-0.0013,-0.2697708313159677
+pct_selfemp_f_tot,inclusion,N total females self employed/N female employed,0.0049,0.0051,0.0035,-0.0108,-0.2830378185151583
+consumptGr,welfare,logCons_pc_mean_tot(t) - logCons_pc_mean_tot(t-1),0.0868,0.0542,-0.0368,-0.0973**,-0.3621379058507004
+logCons_pc_mean_tot,welfare,Log of mean hh consumption (total),0.2266***,0.1791***,4e-04,-0.0127,0.29628605785552375
+logGdp,welfare,"Log of GDP (current USD, in millions)",0.4594***,NA,0.0252*,0.0056,0.8555509256523208
+logNtl_a,welfare,Light intensity per area in logs,0.6606***,NA,-0.0443,-0.0485,0.684068864859789
+logNtl_pc,welfare,Light intensity per 1000 people in logs,0.6082***,NA,-0.0694,-0.0913,0.5065330390859926

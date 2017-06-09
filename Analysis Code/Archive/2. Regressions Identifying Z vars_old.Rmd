@@ -1,0 +1,273 @@
+---
+title: "Running Regressions: Identifying the Z vars"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+
+Not using this file to identify z vars anymore. Instead we are iterating through all the possible combinations of z variables to identify the ones that work best.
+
+
+
+
+
+##Summary and Methodology
+This file uses the second specification (with State * Year) to identify the set of Z variables to use for the final regressions. The iterative process is as follows.
+
+In the first iteration for each y variable, I loop through the z variables that belong to the capital category. The Z var for capital for GQ (and NSEW) is selected as the one that has the most significant coefficient for the term $Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{capital}_{i,t}$. Once the Z variable for Capital is identified, I fix it and iterate through all the Land variables and pick the Z variable the has the most significant coefficient for the term $Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{Land}_{i,t}$. We now have, capital and land terms fixed and these steps are repeated for labour and product categories.
+
+The entire set of loops is repeated four times, by varying the starting category: capital, labour, land and product. This file contains the iterations with capital as the starting point.
+
+##Loading the datasets
+I have separately made a new table with the shortlisted set of y variables by removing urban/rural, male and sector splits. I also remove the population density and share of urban population variables (as marked by Martin). These are marked based on their type (i.e. welfare, equality, environment, and inclusion. We don't have any on resilience yet.)
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(plm); library(broom); library(stringr)
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+##The list of variables
+yVarsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, description) %>% 
+        arrange(yType, varNames)
+```
+
+Next I load the Z variables. We will be running regressions with misallocation variables separately, so I store them in a different table
+```{r, message=FALSE}
+zVarsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(varType == "z", !str_detect(varNames, "mis_")) %>%  ##the current data does not have the ASI variables.
+        select(varNames, zType, description) %>% 
+        arrange(zType, varNames)
+zVarsMis <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(varType == "z", str_detect(varNames, "mis_")) %>%  ##the current data does not have the ASI variables.
+        select(varNames, zType, description) %>% 
+        arrange(zType, varNames)
+```
+
+##Getting the data ready
+For this set of regressions we are only interested in the y, z, the treatment and post variables. <span style="background-color:#FFD701">The variable hous_slm only has data at the urban level and is therefore NA at the total geography level. So I remove this variable from our analysis.</span>
+```{r}
+allData <- allData %>% 
+        select(finalId, year, spatialState, gqDistType, nsewDistType, postGQ, postNSEW, one_of(yVarsOfInterest$varNames, 
+                                                                                               zVarsOfInterest$varNames, zVarsMis$varNames)) %>% 
+        select(-hous_slm)
+zVarsOfInterest <- zVarsOfInterest %>% 
+        filter(varNames != "hous_slm")
+```
+
+##Running the regressions for Capital
+###Identifying the capital market variables
+First I identify the variables that I need to loop through. For the first iteration we need all the z variables for capital markets and the list of y variables.
+```{r}
+zVarList <- zVarsOfInterest %>% 
+        filter(zType == "Capital market") %>%
+        select(varNames) %>% 
+        unlist(use.names = F)
+yVarsList <- yVarsOfInterest$varNames
+```
+
+regressFunc is a custom function that loops through all the y variables and within each loop it runs the following specification for each of the capital z variables. 
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{NSEW}_{i} + Z^{capital}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} +\\ Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{capital}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{capital}_{i,t} + District_{i} + State * Year$$
+```{r}
+regressFunc <- function(y) { ## y is a character
+        depVar <- unlist(allData[y], use.names = F) ##select the dependent variable vector for each iteration
+        resultsFunc <- function(x){ ## function to create a tidy results dataframe for each iteration of z
+                zVar <- unlist(allData[x], use.names = F) ##select the z variable vector for each iteration
+                
+                ##Tidy results and output a data frame
+                tidy(plm(depVar ~ gqDistType + nsewDistType + zVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * zVar + nsewDistType * postNSEW * zVar + spatialState * year, data = allData)) %>% 
+                        filter(str_detect(term, "(?=.*DistType0-40)(?=.*zVar)(?=.*post)")) %>% 
+                        mutate(capitalVariable = x) %>% 
+                        select(term, capitalVariable, estimate, p.value)
+        }
+        ##Loop through the list of z vars for each iteration of the y var
+        lapply(zVarList, resultsFunc)
+}
+regressionResults <- lapply(yVarsList, regressFunc) ##loop through all the y vars
+```
+
+I then create a table with the names of the y variables and the corresponding pick for the z variable (capital) for both GQ and NSEW. The z variables are picked based on the p value. For each y variable we now have a corresponding z variable pick for GQ and NSEW. The tables are shown below.
+
+```{r}
+createTable <- function(x){
+        bind_rows(x) %>% 
+                mutate(highway = ifelse(str_detect(term, "GQ"), "GQ", "NSEW")) %>% 
+                group_by(term) %>% 
+                filter(p.value == min(p.value, na.rm = T)) %>% 
+                mutate(estimate = ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4)))))) %>%
+                ungroup() %>% 
+                select(5, 2, 3)
+}
+
+fullTable <- bind_rows(lapply(regressionResults, createTable)) ## create a data frame with all the terms
+
+gqTable <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "GQ") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 1:3)
+
+nsewTable <- fullTable %>% 
+        filter(highway == "NSEW") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 1:3)
+gqTable
+nsewTable
+```
+
+###Identifying the Labour Market variables
+The next step is to fix the capital variable and identify the corresponding labour variables. First I update the list of z variables that we need to loop through to those that correspond to labour markets.
+```{r}
+zVarList <- zVarsOfInterest %>% 
+        filter(zType == "Labor market") %>%
+        select(varNames) %>% 
+        unlist(use.names = F)
+```
+
+Next I update the regression function to add the additional fixed z variables. The updated specification is as follows.
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{NSEW}_{i} + Z^{capital}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{capital}_{t} \\+ Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{capital}_{t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{labour}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{labour}_{i,t} + District_{i} + State * Year$$
+
+The changes from the previous specification is that $Z^{capital}_{i, t}$ is now $Z^{capital}_{t}$ (no `i` since its fixed) and the additional terms for iterating through the labour terms.
+```{r}
+regressFunc <- function(y) { ## y is a character
+        depVar <- unlist(allData[y], use.names = F) ##select the dependent variable vector for each iteration
+        fixVarGQ1 <- unlist(allData[gqTable[gqTable$yVar == y,]$capitalVariable], use.names = F)
+        fixVarNSEW1 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$capitalVariable], use.names = F)
+        
+        resultsFunc <- function(x){ ## function to create a tidy results dataframe for each iteration of z
+                zVar <- unlist(allData[x], use.names = F) ##select the z variable vector for each iteration
+                
+                ##Tidy results and output a data frame
+                tidy(plm(depVar ~ gqDistType + nsewDistType + fixVarGQ1 + fixVarNSEW1 + zVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * fixVarGQ1  + nsewDistType * postNSEW * fixVarNSEW1 + gqDistType * postGQ * zVar + nsewDistType * postNSEW * zVar + spatialState * year, data = allData)) %>% 
+                        filter(str_detect(term, "(?=.*DistType0-40)(?=.*zVar)(?=.*post)")) %>% 
+                        mutate(labourVariable = x) %>% 
+                        select(term, labourVariable, estimate, p.value)
+        }
+        
+        ##Loop through the list of z vars for each iteration of the y var
+        lapply(zVarList, resultsFunc)
+}
+regressionResults <- lapply(yVarsList, regressFunc) ##loop through all the y vars
+```
+
+Here I update the results tables with the list of labour variables selected based on p values.
+```{r}
+fullTable <- bind_rows(lapply(regressionResults, createTable)) ## create a data frame with all the terms
+gqTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "GQ") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+nsewTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "NSEW") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+gqTable <- left_join(gqTable, gqTemp, by = "yVar")
+nsewTable <- left_join(nsewTable, nsewTemp, by = "yVar")
+```
+
+###Identifying the Land Market variables
+I follow the same steps as before.
+
+1. Update the z vars to loop through (this time to land market)
+2. Update the regression function to add the new fixed terms for labour
+3. Update the results tables
+
+```{r}
+zVarList <- zVarsOfInterest %>% 
+        filter(zType == "Land market") %>%
+        select(varNames) %>% 
+        unlist(use.names = F)
+```
+
+```{r}
+regressFunc <- function(y) { ## y is a character
+        depVar <- unlist(allData[y], use.names = F) ##select the dependent variable vector for each iteration
+        fixVarGQ1 <- unlist(allData[gqTable[gqTable$yVar == y,]$capitalVariable], use.names = F)
+        fixVarNSEW1 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$capitalVariable], use.names = F)
+        fixVarGQ2 <- unlist(allData[gqTable[gqTable$yVar == y,]$labourVariable], use.names = F)
+        fixVarNSEW2 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$labourVariable], use.names = F)
+        
+        resultsFunc <- function(x){ ## function to create a tidy results dataframe for each iteration of z
+                zVar <- unlist(allData[x], use.names = F) ##select the z variable vector for each iteration
+                
+                ##Tidy results and output a data frame
+                tidy(plm(depVar ~ gqDistType + nsewDistType + fixVarGQ1 + fixVarNSEW1 + fixVarGQ2 + fixVarNSEW2 + zVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * fixVarGQ1  + nsewDistType * postNSEW * fixVarNSEW1 + gqDistType * postGQ * fixVarGQ2  + nsewDistType * postNSEW * fixVarNSEW2 + gqDistType * postGQ * zVar + nsewDistType * postNSEW * zVar + spatialState * year, data = allData)) %>% 
+                        filter(str_detect(term, "(?=.*DistType0-40)(?=.*zVar)(?=.*post)")) %>% 
+                        mutate(landVariable = x) %>% 
+                        select(term, landVariable, estimate, p.value)
+        }
+        
+        ##Loop through the list of z vars for each iteration of the y var
+        lapply(zVarList, resultsFunc)
+}
+regressionResults <- lapply(yVarsList, regressFunc) ##loop through all the y vars
+```
+
+```{r}
+fullTable <- bind_rows(lapply(regressionResults, createTable)) ## create a data frame with all the terms
+gqTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "GQ") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+nsewTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "NSEW") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+gqTable <- left_join(gqTable, gqTemp, by = "yVar")
+nsewTable <- left_join(nsewTable, nsewTemp, by = "yVar")
+```
+
+###Identifying the Product Market variables
+```{r}
+zVarList <- zVarsOfInterest %>% 
+        filter(zType == "Product market") %>%
+        select(varNames) %>% 
+        unlist(use.names = F)
+```
+
+```{r}
+regressFunc <- function(y) { ## y is a character
+        depVar <- unlist(allData[y], use.names = F) ##select the dependent variable vector for each iteration
+        fixVarGQ1 <- unlist(allData[gqTable[gqTable$yVar == y,]$capitalVariable], use.names = F)
+        fixVarNSEW1 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$capitalVariable], use.names = F)
+        fixVarGQ2 <- unlist(allData[gqTable[gqTable$yVar == y,]$labourVariable], use.names = F)
+        fixVarNSEW2 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$labourVariable], use.names = F)
+        fixVarGQ3 <- unlist(allData[gqTable[gqTable$yVar == y,]$landVariable], use.names = F)
+        fixVarNSEW3 <- unlist(allData[nsewTable[nsewTable$yVar == y,]$landVariable], use.names = F)
+        
+        resultsFunc <- function(x){ ## function to create a tidy results dataframe for each iteration of z
+                zVar <- unlist(allData[x], use.names = F) ##select the z variable vector for each iteration
+                
+                ##Tidy results and output a data frame
+                tidy(plm(depVar ~ gqDistType + nsewDistType + fixVarGQ1 + fixVarNSEW1 + fixVarGQ2 + fixVarNSEW2 + fixVarGQ3 + fixVarNSEW3 + zVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * fixVarGQ1  + nsewDistType * postNSEW * fixVarNSEW1 + gqDistType * postGQ * fixVarGQ2  + nsewDistType * postNSEW * fixVarNSEW2 + gqDistType * postGQ * fixVarGQ3  + nsewDistType * postNSEW * fixVarNSEW3 + gqDistType * postGQ * zVar + nsewDistType * postNSEW * zVar + spatialState * year, data = allData)) %>% 
+                        filter(str_detect(term, "(?=.*DistType0-40)(?=.*zVar)(?=.*post)")) %>% 
+                        mutate(productVariable = x) %>% 
+                        select(term, productVariable, estimate, p.value)
+        }
+        
+        ##Loop through the list of z vars for each iteration of the y var
+        lapply(zVarList, resultsFunc)
+}
+regressionResults <- lapply(yVarsList, regressFunc) ##loop through all the y vars
+```
+
+
+```{r}
+fullTable <- bind_rows(lapply(regressionResults, createTable)) ## create a data frame with all the terms
+gqTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "GQ") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+nsewTemp <- fullTable %>% ##create a table only for gq and add corresponding y var
+        filter(highway == "NSEW") %>% 
+        mutate(yVar = yVarsList) %>% 
+        select(4, 2:3)
+gqTable <- left_join(gqTable, gqTemp, by = "yVar")
+nsewTable <- left_join(nsewTable, nsewTemp, by = "yVar")
+write_csv(gqTable, "../Results/Tables/gqTable.csv")
+write_csv(nsewTable, "../Results/Tables/nsewTable.csv")
+# write_csv(zVarsOfInterest, "../Results/Tables/zVars.csv")
+# nsewTable <- left_join(nsewTable, yVarsOfInterest, by = c("yVar" = "varNames"))
+```

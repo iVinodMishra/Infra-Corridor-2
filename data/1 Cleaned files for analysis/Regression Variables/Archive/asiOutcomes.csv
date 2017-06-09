@@ -1,0 +1,4 @@
+varNames,varDescription,logs,title
+nFactories,Log difference in number of factories (sum of the x1 in asi),1,Number of Factories
+totPersonsEngaged,Log difference in persons engaged (Sum of the x8),1,Total Persons Engaged
+totValOutput,Log difference in total value of output (Sum of the x19),1,Total Output Value

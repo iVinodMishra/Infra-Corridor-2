@@ -1,0 +1,132 @@
+---
+title: "Running Regressions: basic specifications"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+
+##Summary
+This file runs basic specifications on the list of Y vars. I use the package 'plm' to run the panel regression. You can read more about the package [here](http://ftp.uni-bayreuth.de/math/statlib/R/CRAN/doc/vignettes/plm/plmEN.pdf).
+
+##Loading the datasets
+I identify the y variables that we are interested in (by removing urban/rural and sector splits)
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(plm); library(broom); library(stringr)
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+##The list of variables
+varsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(varType == "y" & source != "ASI" & !str_detect(varNames, "_rur|_urb|agrEmp|mfgEmp|comEmp|trspEmp")) %>%  ##the current data does not have the ASI variables.
+        select(varNames, description)
+
+```
+
+##Getting the data ready
+For this set of regressions we are only interested in the y, the treatment and post variables.
+
+```{r}
+allData <- allData %>% 
+        select(finalId, year, spatialState, gqDistType, nsewDistType, postGQ, postNSEW, one_of(varsOfInterest$varNames)) 
+```
+
+
+##Running the regression
+
+###The specifications
+<span style="background-color:#FFD701">A few things to note:</span>
+
+1. `*` indicates an interaction so `State * Year` is the interaction of states with the year variable.
+2. Both the specification have district fixed effects and not year effects (this can be changed easily).
+3. Also, not sure if I need to include the distance bands in the specification since they would be swallowed by the district fixed effects. Right?
+4. I haven't done any sort of data transformations (logs etc) other than winsorizing all the outcome variables (in the file I sent out yesterday).
+
+The current specifications are as follows, (I have included examples of the specification so that you can see the model characteristics):
+
+**Spec 1:** $$Y_{i,t} = Distance^{GQ}_{i} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + District_{i}$$
+```{r}
+spec1 <- plm(povrate_tot ~ gqDistType + gqDistType * postGQ + nsewDistType + nsewDistType * postNSEW, data = allData)
+summary(spec1)
+rm("spec1")
+```
+
+**Spec 2:** 
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + District_{i} + State * Year$$
+
+I haven't included a sample of the output here to save space since the list of coefficients is long with state * year
+
+###Looping through y variables
+The code below loops through all the y values to run the two specifications
+```{r}
+varList <- varsOfInterest$varNames
+results1 <- lapply(allData[, varList], function(x) plm(x ~ gqDistType + gqDistType * postGQ + nsewDistType + nsewDistType * postNSEW, data = allData)) ##looping through all the y variables
+results2 <- lapply(allData[, varList], function(x) plm(x ~ gqDistType + gqDistType * postGQ + nsewDistType + nsewDistType * postNSEW + spatialState * year, data = allData))
+```
+
+###Tidying the results to create a table
+Specification 1
+```{r}
+tidyResults1 <- NULL
+for(i in 1:length(varList)) {
+        varDesc <- varsOfInterest[i, ]$description
+        if(i == 1){
+                tidyResults1 <- tidy(results1[[1]]) %>% 
+                        mutate(variable = varDesc)
+        } else {
+                tempResults <- tidy(results1[[i]]) %>% 
+                        mutate(variable = varDesc)
+                tidyResults1 <- rbind(tidyResults1, tempResults)      
+        }
+}
+commonTerms <- unique(tidyResults1$term)
+tidyResults1 <- tidyResults1 %>% 
+        mutate(estimate = ifelse(p.value <= 0.01, paste(round(estimate, 2), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 2), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 2), "*", sep=""), as.character(round(estimate, 2)))))) %>% 
+        select(variable, 1, 2) %>% 
+        spread(term, estimate)
+        
+names(tidyResults1) <- c("variable", "GQ(0-40) * Post", "GQ(40-100) * Post", "GQ(Nodal) * Post", "NSEW(0-40) * Post", "NSEW(40-100) * Post", "NSEW(Nodal) * Post", "Post(GQ)", "Post(NSEW)")
+        # mutate_at(2:5, .funs = funs(round(., 2))) %>% 
+        # select(variable, 1:5) %>%
+        # mutate(significance = ifelse(p.value < 0.01, "***", ifelse(p.value < 0.05, "**", "")))
+
+rm("results1")
+```
+
+Specification 2
+```{r}
+tidyResults2 <- NULL
+for(i in 1:length(varList)) {
+        varDesc <- varsOfInterest[i, ]$description
+        if(i == 1){
+                tidyResults2 <- tidy(results2[[1]]) %>% 
+                        filter(term %in% unique(commonTerms)) %>% 
+                        mutate(variable = varDesc)
+        } else {
+                tempResults <- tidy(results2[[i]]) %>% 
+                        filter(term %in% unique(commonTerms)) %>% 
+                        mutate(variable = varDesc)
+                tidyResults2 <- rbind(tidyResults2, tempResults)        
+        }
+}
+tidyResults2 <- tidyResults2 %>%
+        mutate(estimate = ifelse(p.value <= 0.01, paste(round(estimate, 2), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 2), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 2), "*", sep=""), as.character(round(estimate, 2)))))) %>% 
+        select(variable, 1, 2) %>% 
+        spread(term, estimate)
+        # mutate_at(2:5, .funs = funs(round(., 2))) %>% 
+        # select(variable, 1:5) %>% 
+        # mutate(significance = ifelse(p.value < 0.01, "***", ifelse(p.value < 0.05, "**", "")))
+names(tidyResults2) <- c("variable", "GQ(0-40) * Post", "GQ(40-100) * Post", "GQ(Nodal) * Post", "NSEW(0-40) * Post", "NSEW(40-100) * Post", "NSEW(Nodal) * Post", "Post(GQ)", "Post(NSEW)")
+rm(list = setdiff(ls(), c("tidyResults1", "tidyResults2")))
+head(tidyResults2, n = 8)
+```
+
+Saving the 'tidied' results
+```{r}
+write_csv(tidyResults1, "../Results/Tables/spec1_Apr5.csv")
+write_csv(tidyResults2, "../Results/Tables/spec2_Apr5.csv")
+```
+

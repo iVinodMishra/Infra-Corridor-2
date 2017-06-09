@@ -1,0 +1,4 @@
+District concordance constructed information found at http://www.statoids.com/yin.html but supplemented 
+with various GOI sources relating administrative changes over time.
+
+The file popcensus district indicators are district traits from the 2001 population census data

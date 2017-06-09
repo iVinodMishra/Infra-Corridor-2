@@ -1,0 +1,53 @@
+description,zType,var,year,totalObs,obsWithData,min,q25,median,q75,max,mean,sd
+"Households' access to banking services, total (percent of households)",Capital market,bank_t,1993,427,427,7.2,24.26,32.6,44.05,76,34.86,14.09
+"Households' access to banking services, total (percent of households)",Capital market,bank_t,2001,427,427,7.2,24.26,32.6,44.05,76,34.86,14.09
+"Households' access to banking services, total (percent of households)",Capital market,bank_t,2004,427,427,13.75,36.45,46.35,55.6,84.1,46.87,14.03
+"Households' access to banking services, total (percent of households)",Capital market,bank_t,2011,427,427,20.3,47.45,59.5,70.25,93.9,58.88,15.41
+Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_fin3,1993,427,427,0.1,1.52,2.8,4.65,20,3.71,3.27
+Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_fin3,2001,427,427,0.1,1.52,2.8,4.65,20,3.71,3.27
+Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_fin3,2004,427,427,0.1,1.52,2.8,4.65,20,3.71,3.27
+Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_fin3,2011,427,427,0.1,1.52,2.8,4.65,20,3.71,3.27
+Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_pr_fin3,1993,427,427,0.1,1.5,2.75,4.5,19.8,3.61,3.21
+Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_pr_fin3,2001,427,427,0.1,1.5,2.75,4.5,19.8,3.61,3.21
+Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_pr_fin3,2004,427,427,0.1,1.5,2.75,4.5,19.8,3.61,3.21
+Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_pr_fin3,2011,427,427,0.1,1.5,2.75,4.5,19.8,3.61,3.21
+"Literacy rate,15+ years,total(percent of population group)",Labor market,edu_lit_15_t,1993,427,427,18.7,58.75,68.9,78.3,97.5,68.66,13.7
+"Literacy rate,15+ years,total(percent of population group)",Labor market,edu_lit_15_t,2001,427,427,18.7,58.75,68.9,78.3,97.5,68.66,13.7
+"Literacy rate,15+ years,total(percent of population group)",Labor market,edu_lit_15_t,2004,427,427,18.7,58.75,68.9,78.3,97.5,68.66,13.7
+"Literacy rate,15+ years,total(percent of population group)",Labor market,edu_lit_15_t,2011,427,427,18.7,58.75,68.9,78.3,97.5,68.66,13.7
+"Literacy rate,7+ years,total(percent of population group)",Labor market,edu_lit_7_t,1993,427,427,30.5,55.7,63.6,72.3,95.8,63.5,12.66
+"Literacy rate,7+ years,total(percent of population group)",Labor market,edu_lit_7_t,2001,427,427,30.5,55.7,63.6,72.3,95.8,63.5,12.66
+"Literacy rate,7+ years,total(percent of population group)",Labor market,edu_lit_7_t,2004,427,427,37.98,60.55,67.55,75.72,96.8,67.86,11.26
+"Literacy rate,7+ years,total(percent of population group)",Labor market,edu_lit_7_t,2011,427,427,39.7,65.33,72.05,79.2,97.9,72.21,10.1
+"Secondary education completion rate,15+ years,total(percent of population group)",Labor market,edu_sec_15_t,1993,427,427,3.4,17,22.8,28.95,47.4,23.2,8.46
+"Secondary education completion rate,15+ years,total(percent of population group)",Labor market,edu_sec_15_t,2001,427,427,3.4,17,22.8,28.95,47.4,23.2,8.46
+"Secondary education completion rate,15+ years,total(percent of population group)",Labor market,edu_sec_15_t,2004,427,427,3.4,17,22.8,28.95,47.4,23.2,8.46
+"Secondary education completion rate,15+ years,total(percent of population group)",Labor market,edu_sec_15_t,2011,427,427,3.4,17,22.8,28.95,47.4,23.2,8.46
+"Tertiary education completion rate,15+ years,total(percent of population group)",Labor market,edu_ter_15_t,1993,427,427,0.9,4,6.6,9.6,33.7,7.56,5.03
+"Tertiary education completion rate,15+ years,total(percent of population group)",Labor market,edu_ter_15_t,2001,427,427,0.9,4,6.6,9.6,33.7,7.56,5.03
+"Tertiary education completion rate,15+ years,total(percent of population group)",Labor market,edu_ter_15_t,2004,427,427,0.9,4,6.6,9.6,33.7,7.56,5.03
+"Tertiary education completion rate,15+ years,total(percent of population group)",Labor market,edu_ter_15_t,2011,427,427,0.9,4,6.6,9.6,33.7,7.56,5.03
+"Gross primary enrollment, total (percent of population group)",Labor market,ger_t,1993,427,373,10.3,78.3,87.1,93.1,136.9,85.39,14.32
+"Gross primary enrollment, total (percent of population group)",Labor market,ger_t,2001,427,373,10.3,78.3,87.1,93.1,136.9,85.39,14.32
+"Gross primary enrollment, total (percent of population group)",Labor market,ger_t,2004,427,373,10.3,78.3,87.1,93.1,136.9,85.39,14.32
+"Gross primary enrollment, total (percent of population group)",Labor market,ger_t,2011,427,373,10.3,78.3,87.1,93.1,136.9,85.39,14.32
+Cropland (percent of area),Land market,cr_s,1993,427,427,0,29.05,60.1,88.3,99.2,56.79,32.25
+Cropland (percent of area),Land market,cr_s,2001,427,427,0,29.05,60.1,88.3,99.2,56.79,32.25
+Cropland (percent of area),Land market,cr_s,2004,427,427,0.2,30.62,65.2,90.03,99.35,59.36,32.08
+Cropland (percent of area),Land market,cr_s,2011,427,427,0.1,33.46,70.9,92.7,99.6,61.92,32.36
+"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Product market,di_e_2,1993,427,427,2.3,3.6,4.7,5.87,9.7,4.83,1.5
+"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Product market,di_e_2,2001,427,427,2.3,3.6,4.7,5.87,9.7,4.83,1.5
+"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Product market,di_e_2,2004,427,427,2.3,3.6,4.7,5.87,9.7,4.83,1.5
+"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Product market,di_e_2,2011,427,427,2.3,3.6,4.7,5.87,9.7,4.83,1.5
+Non-agr. enterprises by ownership -Private(percent of establishments),Product market,e_own1,1993,427,427,62.3,90.7,93.6,95.8,99.3,92.5,4.79
+Non-agr. enterprises by ownership -Private(percent of establishments),Product market,e_own1,2001,427,427,62.3,90.7,93.6,95.8,99.3,92.5,4.79
+Non-agr. enterprises by ownership -Private(percent of establishments),Product market,e_own1,2004,427,427,62.3,90.7,93.6,95.8,99.3,92.5,4.79
+Non-agr. enterprises by ownership -Private(percent of establishments),Product market,e_own1,2011,427,427,62.3,90.7,93.6,95.8,99.3,92.5,4.79
+Non-agr. enterprises by ownership -Public(percent of establishments),Product market,e_own2,1993,427,427,0.7,4.2,6.4,9.3,37.7,7.5,4.79
+Non-agr. enterprises by ownership -Public(percent of establishments),Product market,e_own2,2001,427,427,0.7,4.2,6.4,9.3,37.7,7.5,4.79
+Non-agr. enterprises by ownership -Public(percent of establishments),Product market,e_own2,2004,427,427,0.7,4.2,6.4,9.3,37.7,7.5,4.79
+Non-agr. enterprises by ownership -Public(percent of establishments),Product market,e_own2,2011,427,427,0.7,4.2,6.4,9.3,37.7,7.5,4.79
+"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Product market,est_sh_1,1993,427,427,1.6,13.2,20.8,32.25,94.1,25.31,17.34
+"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Product market,est_sh_1,2001,427,427,1.6,13.2,20.8,32.25,94.1,25.31,17.34
+"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Product market,est_sh_1,2004,427,427,1.6,13.2,20.8,32.25,94.1,25.31,17.34
+"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Product market,est_sh_1,2011,427,427,1.6,13.2,20.8,32.25,94.1,25.31,17.34

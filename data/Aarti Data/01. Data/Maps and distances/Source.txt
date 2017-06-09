@@ -1,0 +1,2 @@
+Source: Shapefile kindly provided by World Bank Urban Development Unit. 
+Output from Shape files: Distance calculations were done from district edge (and as robustness check from the centroid).

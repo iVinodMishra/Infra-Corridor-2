@@ -1,0 +1,1004 @@
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+2,A&N,A&N,Andaman,27,1,1,
+3,A&N,A&N,Nicobar,27,1,2,
+4,APR,Costal,Srikakulam,2,1,1,
+5,APR,Costal,Vizianagaram,2,1,2,
+6,APR,Costal,Vishakhapatnam,2,1,3,
+7,APR,Costal,East Godavari,2,1,4,
+8,APR,Costal,West Godawari,2,1,5,
+9,APR,Costal,Krishna,2,1,6,
+10,APR,Costal,Guntur,2,1,7,
+11,APR,Costal,Prakasam,2,1,8,
+12,APR,Costal,Nellore,2,1,9,
+13,APR,Inland Northern,Mahbubnagar,2,2,14,
+14,APR,Inland Northern,Rangareddy,2,2,15,
+15,APR,Inland Northern,Hyderabad,2,2,16,
+16,APR,Inland Northern,Medak,2,2,17,
+17,APR,Inland Northern,Nizamabad,2,2,18,
+18,APR,Inland Northern,Adilabad,2,2,19,
+19,APR,Inland Northern,Karimnagar,2,2,20,
+20,APR,Inland Northern,Warangal,2,2,21,
+21,APR,Inland Northern,Khammam,2,2,22,
+22,APR,Inland Northern,Nalgonda,2,2,23,
+23,APR,Inland Southern,Chittoor,2,4,10,
+24,APR,Inland Southern,Cuddapah,2,4,11,
+25,APR,South - Western,Anantpur,2,3,12,
+26,APR,South - Western,Kurnool,2,3,13,
+27,ARP,ARP,Tawang,3,1,1,
+28,ARP,ARP,West kameng,3,1,2,
+29,ARP,ARP,West Kameng,3,1,3,
+30,ARP,ARP,Lower Subansiri,3,1,4,
+31,ARP,ARP,Upper Subansiri,3,1,5,
+32,ARP,ARP,West Siang,3,1,6,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+34,ARP,ARP,Dibang,3,1,8,
+35,ARP,ARP,Lohit,3,1,9,
+36,ARP,ARP,Tirap,3,1,10,
+37,ARP,ARP,Changlong,3,1,11,
+38,ASS,Plains Western,Kokrajhar,4,3,2,
+39,ASS,Hills,Karbiaglong,4,3,19,
+40,ASS,Hills,North Cachar,4,3,20,
+41,ASS,Plains Western,Bongaigaon,4,2,3,
+42,ASS,Plains Western,Barpeta,4,2,5,
+43,ASS,Plains Western,Nalbari,4,2,6,
+44,ASS,Plains Western,Sonitpur,4,2,9,
+45,ASS,Plains Eastern,Lakhimpur,4,1,10,
+46,ASS,Plains Western,Morigaon,4,2,12,
+47,ASS,Plains Eastern,Sibsagar,4,1,16,
+48,ASS,Plains Eastern,Dibrugarh,4,1,17,
+49,ASS,Plains Eastern,Tinsukia,4,1,18,
+50,ASS,Plains Eastern,Cachar,4,1,23,
+51,ASS,Plains Western,Dhubri,4,2,1,
+52,ASS,Plains Western,Goalpara,4,2,4,
+53,ASS,Plains Western,Kamrup,4,2,7,
+54,ASS,Plains Western,Darrang,4,2,8,
+55,ASS,Plains Eastern,Dhemaji,4,1,11,
+56,ASS,Plains Western,Nowgong,4,2,13,
+57,ASS,Plains Eastern,Golaghat,4,1,14,
+58,ASS,Plains Eastern,Jorhat,4,1,15,
+59,ASS,Plains Eastern,Karimgang,4,1,21,
+60,ASS,Plains Eastern,Hailakandi,4,1,22,
+61,BIH,Central,Patna,5,3,1,
+62,BIH,Central,Nalanda,5,3,2,
+63,BIH,Central,Bhojpur,5,3,3,
+64,BIH,Central,Rohtas,5,3,4,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+34,ARP,ARP,Dibang,3,1,8,
+35,ARP,ARP,Lohit,3,1,9,
+36,ARP,ARP,Tirap,3,1,10,
+37,ARP,ARP,Changlong,3,1,11,
+38,ASS,Plains Western,Kokrajhar,4,3,2,
+39,ASS,Hills,Karbiaglong,4,3,19,
+40,ASS,Hills,North Cachar,4,3,20,
+41,ASS,Plains Western,Bongaigaon,4,2,3,
+42,ASS,Plains Western,Barpeta,4,2,5,
+43,ASS,Plains Western,Nalbari,4,2,6,
+44,ASS,Plains Western,Sonitpur,4,2,9,
+45,ASS,Plains Eastern,Lakhimpur,4,1,10,
+46,ASS,Plains Western,Morigaon,4,2,12,
+47,ASS,Plains Eastern,Sibsagar,4,1,16,
+48,ASS,Plains Eastern,Dibrugarh,4,1,17,
+49,ASS,Plains Eastern,Tinsukia,4,1,18,
+50,ASS,Plains Eastern,Cachar,4,1,23,
+51,ASS,Plains Western,Dhubri,4,2,1,
+52,ASS,Plains Western,Goalpara,4,2,4,
+53,ASS,Plains Western,Kamrup,4,2,7,
+54,ASS,Plains Western,Darrang,4,2,8,
+55,ASS,Plains Eastern,Dhemaji,4,1,11,
+56,ASS,Plains Western,Nowgong,4,2,13,
+57,ASS,Plains Eastern,Golaghat,4,1,14,
+58,ASS,Plains Eastern,Jorhat,4,1,15,
+59,ASS,Plains Eastern,Karimgang,4,1,21,
+60,ASS,Plains Eastern,Hailakandi,4,1,22,
+61,BIH,Central,Patna,5,3,1,
+62,BIH,Central,Nalanda,5,3,2,
+63,BIH,Central,Bhojpur,5,3,3,
+64,BIH,Central,Rohtas,5,3,4,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+66,BIH,Central,Jehanabad,5,3,6,
+67,BIH,Central,Gaya,5,3,7,
+68,BIH,Central,Nawada,5,3,8,
+69,BIH,Central,Begusarai,5,3,17,
+70,BIH,Central,Khagaria,5,3,25,
+71,BIH,Central,Munger,5,3,26,
+72,BIH,Central,Bhagalpur,5,3,27,
+73,BIH,Central,Buxar,5,3,43,
+74,BIH,Central,Bhabua,5,3,44,
+75,BIH,Central,Jamui,5,3,46,
+76,BIH,Central,Banka,5,3,47,
+77,BIH,Northern,Saran,5,2,9,
+78,BIH,Northern,Siwan,5,2,10,
+79,BIH,Northern,Gopalganj,5,2,11,
+80,BIH,Northern,West Champaran,5,2,12,
+81,BIH,Northern,East Champaran,5,2,13,
+82,BIH,Northern,Sitamari,5,2,14,
+83,BIH,Northern,Muzaffarpur,5,2,15,
+84,BIH,Northern,Vaishali,5,2,16,
+85,BIH,Northern,Samastipur,5,2,18,
+86,BIH,Northern,Darbhanga,5,2,19,
+87,BIH,Northern,Madhubani,5,2,20,
+88,BIH,Northern,Saharsa,5,2,21,
+89,BIH,Northern,Madhepura,5,2,22,
+90,BIH,Northern,Purnea,5,2,23,
+91,BIH,Northern,Katihar,5,2,24,
+92,BIH,Northern,Araria,5,2,41,
+93,BIH,Northern,Kishanganj,5,2,42,
+94,BIH,Northern,Supaul,5,2,45,
+95,BIH,Southern,Godda,5,1,28,
+96,BIH,Southern,Sahibaganj,5,1,29,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+66,BIH,Central,Jehanabad,5,3,6,
+67,BIH,Central,Gaya,5,3,7,
+68,BIH,Central,Nawada,5,3,8,
+69,BIH,Central,Begusarai,5,3,17,
+70,BIH,Central,Khagaria,5,3,25,
+71,BIH,Central,Munger,5,3,26,
+72,BIH,Central,Bhagalpur,5,3,27,
+73,BIH,Central,Buxar,5,3,43,
+74,BIH,Central,Bhabua,5,3,44,
+75,BIH,Central,Jamui,5,3,46,
+76,BIH,Central,Banka,5,3,47,
+77,BIH,Northern,Saran,5,2,9,
+78,BIH,Northern,Siwan,5,2,10,
+79,BIH,Northern,Gopalganj,5,2,11,
+80,BIH,Northern,West Champaran,5,2,12,
+81,BIH,Northern,East Champaran,5,2,13,
+82,BIH,Northern,Sitamari,5,2,14,
+83,BIH,Northern,Muzaffarpur,5,2,15,
+84,BIH,Northern,Vaishali,5,2,16,
+85,BIH,Northern,Samastipur,5,2,18,
+86,BIH,Northern,Darbhanga,5,2,19,
+87,BIH,Northern,Madhubani,5,2,20,
+88,BIH,Northern,Saharsa,5,2,21,
+89,BIH,Northern,Madhepura,5,2,22,
+90,BIH,Northern,Purnea,5,2,23,
+91,BIH,Northern,Katihar,5,2,24,
+92,BIH,Northern,Araria,5,2,41,
+93,BIH,Northern,Kishanganj,5,2,42,
+94,BIH,Northern,Supaul,5,2,45,
+95,BIH,Southern,Godda,5,1,28,
+96,BIH,Southern,Sahibaganj,5,1,29,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+98,BIH,Southern,Deoghar,5,1,31,
+99,BIH,Southern,Dhanbad,5,1,32,
+100,BIH,Southern,Giridih,5,1,33,
+101,BIH,Southern,Hazaribagh,5,1,34,
+102,BIH,Southern,Palamu,5,1,35,
+103,BIH,Southern,Lohardaga,5,1,36,
+104,BIH,Southern,Gumla,5,1,37,
+105,BIH,Southern,Ranchi,5,1,38,
+106,BIH,Southern,Purbi Singhbhum,5,1,39,
+107,BIH,Southern,Paschim Singhbhum,5,1,40,
+108,BIH,Southern,Pakur,5,1,48,
+109,BIH,Southern,Bokaro,5,1,49,
+110,BIH,Southern,Kodarma,5,1,50,
+111,BIH,Southern,Chatra,5,1,51,
+112,BIH,Southern,Garhwa,5,1,52,
+113,GOA,GOA,North,6,1,1,
+114,GOA,GOA,South,6,1,2,
+115,GUJ,Dry areas,Surendranagar,7,4,3,Whole district
+116,GUJ,Dry areas,Kachchh,7,4,7,Whole district
+117,GUJ,Dry areas,Bans Kantha,7,4,8,Whole district
+118,GUJ,Dry areas,Mahesana,7,4,10,"Chanasma, SamiHarij"
+119,GUJ,Eastern,Sabar Kantha,7,1,9,"Khedbarhma, Vijaynagar, Bhiloda, Meghraj"
+120,GUJ,Eastern,Panch Mahals,7,1,14,"Limkheda, Dohad, Jhalod, Santrampur"
+121,GUJ,Eastern,Vadodara,7,1,15,"Nasvadi,Tilakwada, Chhota Udaipur, Jetpur Pavi"
+122,GUJ,Eastern,Bharuch,7,1,16,"Anklesvar, Valia, Dediapada, Sagbara, Nandod"
+123,GUJ,Eastern,Surat,7,1,17,"Vyara, Mahuva, Valod, Nizar,Songadh, Mandvi, Uchchhal,Mangrol, Bardoli, Palsana"
+124,GUJ,Eastern,Valsad,7,1,18,"Chikhli Dharampur, Bansda,Umbergaon, Pardi,Valsad"
+125,GUJ,Eastern,The Dangs,7,1,19,Whole District
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+98,BIH,Southern,Deoghar,5,1,31,
+99,BIH,Southern,Dhanbad,5,1,32,
+100,BIH,Southern,Giridih,5,1,33,
+101,BIH,Southern,Hazaribagh,5,1,34,
+102,BIH,Southern,Palamu,5,1,35,
+103,BIH,Southern,Lohardaga,5,1,36,
+104,BIH,Southern,Gumla,5,1,37,
+105,BIH,Southern,Ranchi,5,1,38,
+106,BIH,Southern,Purbi Singhbhum,5,1,39,
+107,BIH,Southern,Paschim Singhbhum,5,1,40,
+108,BIH,Southern,Pakur,5,1,48,
+109,BIH,Southern,Bokaro,5,1,49,
+110,BIH,Southern,Kodarma,5,1,50,
+111,BIH,Southern,Chatra,5,1,51,
+112,BIH,Southern,Garhwa,5,1,52,
+113,GOA,GOA,North,6,1,1,
+114,GOA,GOA,South,6,1,2,
+115,GUJ,Dry areas,Surendranagar,7,4,3,Whole district
+116,GUJ,Dry areas,Kachchh,7,4,7,Whole district
+117,GUJ,Dry areas,Bans Kantha,7,4,8,Whole district
+118,GUJ,Dry areas,Mahesana,7,4,10,"Chanasma, SamiHarij"
+119,GUJ,Eastern,Sabar Kantha,7,1,9,"Khedbarhma, Vijaynagar, Bhiloda, Meghraj"
+120,GUJ,Eastern,Panch Mahals,7,1,14,"Limkheda, Dohad, Jhalod, Santrampur"
+121,GUJ,Eastern,Vadodara,7,1,15,"Nasvadi,Tilakwada, Chhota Udaipur, Jetpur Pavi"
+122,GUJ,Eastern,Bharuch,7,1,16,"Anklesvar, Valia, Dediapada, Sagbara, Nandod"
+123,GUJ,Eastern,Surat,7,1,17,"Vyara, Mahuva, Valod, Nizar,Songadh, Mandvi, Uchchhal,Mangrol, Bardoli, Palsana"
+124,GUJ,Eastern,Valsad,7,1,18,"Chikhli Dharampur, Bansda,Umbergaon, Pardi,Valsad"
+125,GUJ,Eastern,The Dangs,7,1,19,Whole District
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+127,GUJ,Plains Northern,Mahesana,7,2,10,"Mahesana, Kadi, Patan,Sidhpur, Kheralu,Kalol Visnagar, Vijapur"
+128,GUJ,Plains Northern,Gandhinagar,7,2,11,Whole District
+129,GUJ,Plains Northern,Ahmedabad,7,2,12,Whole District
+130,GUJ,Plains Northern,Kheda,7,2,13,Whole District
+131,GUJ,Plains Southern,Panch Mahals,7,3,14,"Halol, Kalol,Godhra, Shehera,Lunawada,Devgadbaria,Jambughoda"
+132,GUJ,Plains Southern,Vadodara,7,3,15,"Vadodara, Savli,Dabhoi, Karjan,Padra,Sinor,Vaghodia, Sankheda"
+133,GUJ,Plains Southern,Bharuch,7,3,16,"Hansot, Vagra,Amod, Jambusar,Bharuch, Jhagadia"
+134,GUJ,Plains Southern,Surat,7,3,17,"Chorasi, Kamrej, Olpad"
+135,GUJ,Plains Southern,Valsad,7,3,18,"Navsari, Gandevi"
+136,GUJ,Saurashtra,Jamnagar,7,5,1,
+137,GUJ,Saurashtra,Rajkot,7,5,2,
+138,GUJ,Saurashtra,Bhavnagar,7,5,4,
+139,GUJ,Saurashtra,Amreli,7,5,5,
+140,GUJ,Saurashtra,Junagadh,7,5,6,
+141,HAR,Eastern,Ambala,8,1,1,
+142,HAR,Eastern,Yamuna Nagar,8,1,2,
+143,HAR,Eastern,Kurukshetra,8,1,3,
+144,HAR,Eastern,Kaithal,8,1,4,
+145,HAR,Eastern,Karnal,8,1,5,
+146,HAR,Eastern,Panipat,8,1,6,
+147,HAR,Eastern,Sonipat,8,1,7,
+148,HAR,Eastern,Rohtak,8,1,8,
+149,HAR,Eastern,Faridabad,8,1,9,
+150,HAR,Eastern,Gurgaon,8,1,10,
+151,HAR,Western,Rewari,8,2,11,
+152,HAR,Western,Mahendragarh,8,2,12,
+153,HAR,Western,Bhilwani,8,2,13,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+127,GUJ,Plains Northern,Mahesana,7,2,10,"Mahesana, Kadi, Patan,Sidhpur, Kheralu,Kalol Visnagar, Vijapur"
+128,GUJ,Plains Northern,Gandhinagar,7,2,11,Whole District
+129,GUJ,Plains Northern,Ahmedabad,7,2,12,Whole District
+130,GUJ,Plains Northern,Kheda,7,2,13,Whole District
+131,GUJ,Plains Southern,Panch Mahals,7,3,14,"Halol, Kalol,Godhra, Shehera,Lunawada,Devgadbaria,Jambughoda"
+132,GUJ,Plains Southern,Vadodara,7,3,15,"Vadodara, Savli,Dabhoi, Karjan,Padra,Sinor,Vaghodia, Sankheda"
+133,GUJ,Plains Southern,Bharuch,7,3,16,"Hansot, Vagra,Amod, Jambusar,Bharuch, Jhagadia"
+134,GUJ,Plains Southern,Surat,7,3,17,"Chorasi, Kamrej, Olpad"
+135,GUJ,Plains Southern,Valsad,7,3,18,"Navsari, Gandevi"
+136,GUJ,Saurashtra,Jamnagar,7,5,1,
+137,GUJ,Saurashtra,Rajkot,7,5,2,
+138,GUJ,Saurashtra,Bhavnagar,7,5,4,
+139,GUJ,Saurashtra,Amreli,7,5,5,
+140,GUJ,Saurashtra,Junagadh,7,5,6,
+141,HAR,Eastern,Ambala,8,1,1,
+142,HAR,Eastern,Yamuna Nagar,8,1,2,
+143,HAR,Eastern,Kurukshetra,8,1,3,
+144,HAR,Eastern,Kaithal,8,1,4,
+145,HAR,Eastern,Karnal,8,1,5,
+146,HAR,Eastern,Panipat,8,1,6,
+147,HAR,Eastern,Sonipat,8,1,7,
+148,HAR,Eastern,Rohtak,8,1,8,
+149,HAR,Eastern,Faridabad,8,1,9,
+150,HAR,Eastern,Gurgaon,8,1,10,
+151,HAR,Western,Rewari,8,2,11,
+152,HAR,Western,Mahendragarh,8,2,12,
+153,HAR,Western,Bhilwani,8,2,13,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+155,HAR,Western,Hisar,8,2,15,
+156,HAR,Western,Sirsa,8,2,16,
+157,HPR,HPR,Chamba,9,1,1,
+158,HPR,HPR,Kangra,9,1,2,
+159,HPR,HPR,Hamirpur,9,1,3,
+160,HPR,HPR,Una,9,1,4,
+161,HPR,HPR,Bilaspur,9,1,5,
+162,HPR,HPR,Mandi,9,1,6,
+163,HPR,HPR,Kullu,9,1,7,
+164,HPR,HPR,Lahul & Spiti,9,1,8,
+165,HPR,HPR,Shimla,9,1,9,
+166,HPR,HPR,Solan,9,1,10,
+167,HPR,HPR,Sirampur,9,1,11,
+168,HPR,HPR,Kinnaur,9,1,12,
+169,KAR,Coastal & Ghats,Dakshin Kannad,11,1,9,
+170,KAR,Coastal & Ghats,Uttar Kannad,11,1,20,
+171,KAR,Inland Eastern,Chikmagalur,11,2,7,
+172,KAR,Inland Eastern,Hassan,11,2,12,
+173,KAR,Inland Eastern,Kodagu,11,2,13,
+174,KAR,Inland Eastern,Shimoga,11,2,18,
+175,KAR,Inland Northern,Belgaum,11,4,3,
+176,KAR,Inland Northern,Bellary,11,4,4,
+177,KAR,Inland Northern,Bidar,11,4,5,
+178,KAR,Inland Northern,Bijapur,11,4,6,
+179,KAR,Inland Northern,Chitradurga,11,4,8,
+180,KAR,Inland Northern,Dharwad,11,4,10,
+181,KAR,Inland Northern,Gulbarga,11,4,11,
+182,KAR,Inland Northern,Raichur,11,4,17,
+183,KAR,Inland Southern,Bangalore (Urban),11,3,1,
+184,KAR,Inland Southern,Bangalore (Rural),11,3,2,
+185,KAR,Inland Southern,Kolar,11,3,14,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+155,HAR,Western,Hisar,8,2,15,
+156,HAR,Western,Sirsa,8,2,16,
+157,HPR,HPR,Chamba,9,1,1,
+158,HPR,HPR,Kangra,9,1,2,
+159,HPR,HPR,Hamirpur,9,1,3,
+160,HPR,HPR,Una,9,1,4,
+161,HPR,HPR,Bilaspur,9,1,5,
+162,HPR,HPR,Mandi,9,1,6,
+163,HPR,HPR,Kullu,9,1,7,
+164,HPR,HPR,Lahul & Spiti,9,1,8,
+165,HPR,HPR,Shimla,9,1,9,
+166,HPR,HPR,Solan,9,1,10,
+167,HPR,HPR,Sirampur,9,1,11,
+168,HPR,HPR,Kinnaur,9,1,12,
+169,KAR,Coastal & Ghats,Dakshin Kannad,11,1,9,
+170,KAR,Coastal & Ghats,Uttar Kannad,11,1,20,
+171,KAR,Inland Eastern,Chikmagalur,11,2,7,
+172,KAR,Inland Eastern,Hassan,11,2,12,
+173,KAR,Inland Eastern,Kodagu,11,2,13,
+174,KAR,Inland Eastern,Shimoga,11,2,18,
+175,KAR,Inland Northern,Belgaum,11,4,3,
+176,KAR,Inland Northern,Bellary,11,4,4,
+177,KAR,Inland Northern,Bidar,11,4,5,
+178,KAR,Inland Northern,Bijapur,11,4,6,
+179,KAR,Inland Northern,Chitradurga,11,4,8,
+180,KAR,Inland Northern,Dharwad,11,4,10,
+181,KAR,Inland Northern,Gulbarga,11,4,11,
+182,KAR,Inland Northern,Raichur,11,4,17,
+183,KAR,Inland Southern,Bangalore (Urban),11,3,1,
+184,KAR,Inland Southern,Bangalore (Rural),11,3,2,
+185,KAR,Inland Southern,Kolar,11,3,14,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+187,KAR,Inland Southern,Mysore,11,3,16,
+188,KAR,Inland Southern,Tumkur,11,3,19,
+189,KER,Northern,Kasargod,12,1,1,
+190,KER,Northern,Kannur,12,1,2,
+191,KER,Northern,Wayanad,12,1,3,
+192,KER,Northern,Kozhikode,12,1,4,
+193,KER,Northern,Malapuram,12,1,5,
+194,KER,Northern,Palakkad,12,1,6,
+195,KER,Southern,Trichur,12,2,7,
+196,KER,Southern,Ernakulam,12,2,8,
+197,KER,Southern,Idukki,12,2,9,
+198,KER,Southern,Alappuzm,12,2,11,
+199,KER,Southern,Pathanamthitta,12,2,12,
+200,KER,Southern,Kollam,12,2,13,
+201,KER,Southern,Kottayam,12,2,10,
+202,KER,Southern,Thiruvananthapuram,12,2,14,
+203,LAK,LAK,Lakshadweep,32,1,1,
+204,MAH,Coastal,Greater Bombay,14,1,1,
+205,MAH,Coastal,Thane,14,1,2,
+206,MAH,Coastal,Raigarh (Kulaba),14,1,3,
+207,MAH,Coastal,Ratnagiri,14,1,4,
+208,MAH,Coastal,Sindhudurg,14,1,5,
+209,MAH,Eastern,Bhandara,14,6,28,
+210,MAH,Eastern,Chandrapur,14,6,29,
+211,MAH,Eastern,Gadchiroli,14,6,30,
+212,MAH,Inland Central,Aurangabad,14,4,15,
+213,MAH,Inland Central,Jalna,14,4,16,
+214,MAH,Inland Central,Parbhani,14,4,17,
+215,MAH,Inland Central,Bid,14,4,18,
+216,MAH,Inland Central,Nanded,14,4,19,
+217,MAH,Inland Central,Osmanabad,14,4,20,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+187,KAR,Inland Southern,Mysore,11,3,16,
+188,KAR,Inland Southern,Tumkur,11,3,19,
+189,KER,Northern,Kasargod,12,1,1,
+190,KER,Northern,Kannur,12,1,2,
+191,KER,Northern,Wayanad,12,1,3,
+192,KER,Northern,Kozhikode,12,1,4,
+193,KER,Northern,Malapuram,12,1,5,
+194,KER,Northern,Palakkad,12,1,6,
+195,KER,Southern,Trichur,12,2,7,
+196,KER,Southern,Ernakulam,12,2,8,
+197,KER,Southern,Idukki,12,2,9,
+198,KER,Southern,Alappuzm,12,2,11,
+199,KER,Southern,Pathanamthitta,12,2,12,
+200,KER,Southern,Kollam,12,2,13,
+201,KER,Southern,Kottayam,12,2,10,
+202,KER,Southern,Thiruvananthapuram,12,2,14,
+203,LAK,LAK,Lakshadweep,32,1,1,
+204,MAH,Coastal,Greater Bombay,14,1,1,
+205,MAH,Coastal,Thane,14,1,2,
+206,MAH,Coastal,Raigarh (Kulaba),14,1,3,
+207,MAH,Coastal,Ratnagiri,14,1,4,
+208,MAH,Coastal,Sindhudurg,14,1,5,
+209,MAH,Eastern,Bhandara,14,6,28,
+210,MAH,Eastern,Chandrapur,14,6,29,
+211,MAH,Eastern,Gadchiroli,14,6,30,
+212,MAH,Inland Central,Aurangabad,14,4,15,
+213,MAH,Inland Central,Jalna,14,4,16,
+214,MAH,Inland Central,Parbhani,14,4,17,
+215,MAH,Inland Central,Bid,14,4,18,
+216,MAH,Inland Central,Nanded,14,4,19,
+217,MAH,Inland Central,Osmanabad,14,4,20,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+219,MAH,Inland East,Buldana,14,5,22,
+220,MAH,Inland East,Akola,14,5,23,
+221,MAH,Inland East,Amravati,14,5,24,
+222,MAH,Inland East,Yavatmal,14,5,25,
+223,MAH,Inland East,Wardha,14,5,26,
+224,MAH,Inland East,Nagpur,14,5,27,
+225,MAH,Inland North,Nasik,14,3,6,
+226,MAH,Inland North,Dhule,14,3,7,
+227,MAH,Inland North,Jalgaon,14,3,8,
+228,MAH,Inland West,Ahmadnagar,14,2,9,
+229,MAH,Inland West,Pune,14,2,10,
+230,MAH,Inland West,Satara,14,2,11,
+231,MAH,Inland West,Sangli,14,2,12,
+232,MAH,Inland West,Solapur,14,2,13,
+233,MAH,Inland West,Kolhapur,14,2,14,
+234,MAN,Hills,Senapati,15,2,1,
+235,MAN,Hills,Tamenglong,15,2,2,
+236,MAN,Hills,Churachandpur,15,2,3,
+237,MAN,Hills,Chandel,15,2,4,
+238,MAN,Hills,Ukhrul,15,2,8,
+239,MAN,Plains,Thoubal,15,1,5,
+240,MAN,Plains,Bishnupur,15,1,6,
+241,MAN,Plains,Imphal,15,1,7,
+242,MEG,MEG,Jaintia Hills,16,1,1,
+243,MEG,MEG,East Khasi Hills,16,1,2,
+244,MEG,MEG,West Khasi Hills,16,1,3,
+245,MEG,MEG,East Garo Hills,16,1,4,
+246,MEG,MEG,West Garo Hills,16,1,5,
+247,MEG,MEG,Ri-bhoi,16,1,6,
+248,MEG,MEG,Bhagmara,16,1,7,
+249,MIZ,MIZ,Aizwal,17,1,1,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+219,MAH,Inland East,Buldana,14,5,22,
+220,MAH,Inland East,Akola,14,5,23,
+221,MAH,Inland East,Amravati,14,5,24,
+222,MAH,Inland East,Yavatmal,14,5,25,
+223,MAH,Inland East,Wardha,14,5,26,
+224,MAH,Inland East,Nagpur,14,5,27,
+225,MAH,Inland North,Nasik,14,3,6,
+226,MAH,Inland North,Dhule,14,3,7,
+227,MAH,Inland North,Jalgaon,14,3,8,
+228,MAH,Inland West,Ahmadnagar,14,2,9,
+229,MAH,Inland West,Pune,14,2,10,
+230,MAH,Inland West,Satara,14,2,11,
+231,MAH,Inland West,Sangli,14,2,12,
+232,MAH,Inland West,Solapur,14,2,13,
+233,MAH,Inland West,Kolhapur,14,2,14,
+234,MAN,Hills,Senapati,15,2,1,
+235,MAN,Hills,Tamenglong,15,2,2,
+236,MAN,Hills,Churachandpur,15,2,3,
+237,MAN,Hills,Chandel,15,2,4,
+238,MAN,Hills,Ukhrul,15,2,8,
+239,MAN,Plains,Thoubal,15,1,5,
+240,MAN,Plains,Bishnupur,15,1,6,
+241,MAN,Plains,Imphal,15,1,7,
+242,MEG,MEG,Jaintia Hills,16,1,1,
+243,MEG,MEG,East Khasi Hills,16,1,2,
+244,MEG,MEG,West Khasi Hills,16,1,3,
+245,MEG,MEG,East Garo Hills,16,1,4,
+246,MEG,MEG,West Garo Hills,16,1,5,
+247,MEG,MEG,Ri-bhoi,16,1,6,
+248,MEG,MEG,Bhagmara,16,1,7,
+249,MIZ,MIZ,Aizwal,17,1,1,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+251,MIZ,MIZ,Chhimtuipui,17,1,3,
+252,MPR,Central,Sagar,13,3,10,
+253,MPR,Central,Damoh,13,3,11,
+254,MPR,Central,Vidisha,13,3,27,
+255,MPR,Central,Bhopal,13,3,28,
+256,MPR,Central,Sehore,13,3,29,
+257,MPR,Central,Raisen,13,3,30,
+258,MPR,Chattisgarh,Surguja,13,1,39,
+259,MPR,Chattisgarh,Bilaspur,13,1,40,
+260,MPR,Chattisgarh,Raigarh,13,1,41,
+261,MPR,Chattisgarh,Raj Nandgaon,13,1,42,
+262,MPR,Chattisgarh,Durg,13,1,43,
+263,MPR,Chattisgarh,Raipur,13,1,44,
+264,MPR,Chattisgarh,Bastar,13,1,45,
+265,MPR,Malwa,Mandsaur,13,4,16,
+266,MPR,Malwa,Ratlam,13,4,17,
+267,MPR,Malwa,Ujjain,13,4,18,
+268,MPR,Malwa,Shajapur,13,4,19,
+269,MPR,Malwa,Dewas,13,4,20,
+270,MPR,Malwa,Jhabua,13,4,21,
+271,MPR,Malwa,Dhar,13,4,22,
+272,MPR,Malwa,Indore,13,4,23,
+273,MPR,Malwa,Rajgarh,13,4,26,
+274,MPR,Northern,Morena,13,7,1,
+275,MPR,Northern,Bhind,13,7,2,
+276,MPR,Northern,Gwalior,13,7,3,
+277,MPR,Northern,Datia,13,7,4,
+278,MPR,Northern,Shivpuri,13,7,5,
+279,MPR,Northern,Guna,13,7,6,
+280,MPR,South,Jabalpur,13,5,33,
+281,MPR,South,Narsimhapur,13,5,34,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+251,MIZ,MIZ,Chhimtuipui,17,1,3,
+252,MPR,Central,Sagar,13,3,10,
+253,MPR,Central,Damoh,13,3,11,
+254,MPR,Central,Vidisha,13,3,27,
+255,MPR,Central,Bhopal,13,3,28,
+256,MPR,Central,Sehore,13,3,29,
+257,MPR,Central,Raisen,13,3,30,
+258,MPR,Chattisgarh,Surguja,13,1,39,
+259,MPR,Chattisgarh,Bilaspur,13,1,40,
+260,MPR,Chattisgarh,Raigarh,13,1,41,
+261,MPR,Chattisgarh,Raj Nandgaon,13,1,42,
+262,MPR,Chattisgarh,Durg,13,1,43,
+263,MPR,Chattisgarh,Raipur,13,1,44,
+264,MPR,Chattisgarh,Bastar,13,1,45,
+265,MPR,Malwa,Mandsaur,13,4,16,
+266,MPR,Malwa,Ratlam,13,4,17,
+267,MPR,Malwa,Ujjain,13,4,18,
+268,MPR,Malwa,Shajapur,13,4,19,
+269,MPR,Malwa,Dewas,13,4,20,
+270,MPR,Malwa,Jhabua,13,4,21,
+271,MPR,Malwa,Dhar,13,4,22,
+272,MPR,Malwa,Indore,13,4,23,
+273,MPR,Malwa,Rajgarh,13,4,26,
+274,MPR,Northern,Morena,13,7,1,
+275,MPR,Northern,Bhind,13,7,2,
+276,MPR,Northern,Gwalior,13,7,3,
+277,MPR,Northern,Datia,13,7,4,
+278,MPR,Northern,Shivpuri,13,7,5,
+279,MPR,Northern,Guna,13,7,6,
+280,MPR,South,Jabalpur,13,5,33,
+281,MPR,South,Narsimhapur,13,5,34,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+283,MPR,South,Chhindwara,13,5,36,
+284,MPR,South,Seoni,13,5,37,
+285,MPR,South,Balaghat,13,5,38,
+286,MPR,South West,Khargone (W. Nimar,13,6,24,
+287,MPR,South West,Khandwa (E. Nimar),13,6,25,
+288,MPR,South West,Betul,13,6,31,
+289,MPR,South West,Hoshangabad,13,6,32,
+290,MPR,Vindhya,Tikamgarh,13,2,7,
+291,MPR,Vindhya,Chhatarpur,13,2,8,
+292,MPR,Vindhya,Panna,13,2,9,
+293,MPR,Vindhya,Satna,13,2,12,
+294,MPR,Vindhya,Rewa,13,2,13,
+295,MPR,Vindhya,Shadol,13,2,14,
+296,MPR,Vindhya,Sidhi,13,2,15,
+297,NAG,NAG,Kohima,18,1,1,
+298,NAG,NAG,Phek,18,1,2,
+299,NAG,NAG,Zunhehoto,18,1,3,
+300,NAG,NAG,Wokha,18,1,4,
+301,NAG,NAG,Mukokchung,18,1,5,
+302,NAG,NAG,Tuensang,18,1,6,
+303,NAG,NAG,Mon,18,1,7,
+304,ORI,Coastal,Baleshwar,19,1,5,
+305,ORI,Coastal,Cuttack,19,1,6,
+306,ORI,Coastal,Ganjam,19,1,12,
+307,ORI,Coastal,Puri,19,1,13,
+308,ORI,Coastal,Bhadrak,19,1,14,
+309,ORI,Coastal,Jagatsinghpura,19,1,15,
+310,ORI,Coastal,Jajpur,19,1,16,
+311,ORI,Coastal,Kendrapara,19,1,17,
+312,ORI,Coastal,Nayagarh,19,1,18,
+313,ORI,Coastal,Khurda,19,1,19,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+283,MPR,South,Chhindwara,13,5,36,
+284,MPR,South,Seoni,13,5,37,
+285,MPR,South,Balaghat,13,5,38,
+286,MPR,South West,Khargone (W. Nimar,13,6,24,
+287,MPR,South West,Khandwa (E. Nimar),13,6,25,
+288,MPR,South West,Betul,13,6,31,
+289,MPR,South West,Hoshangabad,13,6,32,
+290,MPR,Vindhya,Tikamgarh,13,2,7,
+291,MPR,Vindhya,Chhatarpur,13,2,8,
+292,MPR,Vindhya,Panna,13,2,9,
+293,MPR,Vindhya,Satna,13,2,12,
+294,MPR,Vindhya,Rewa,13,2,13,
+295,MPR,Vindhya,Shadol,13,2,14,
+296,MPR,Vindhya,Sidhi,13,2,15,
+297,NAG,NAG,Kohima,18,1,1,
+298,NAG,NAG,Phek,18,1,2,
+299,NAG,NAG,Zunhehoto,18,1,3,
+300,NAG,NAG,Wokha,18,1,4,
+301,NAG,NAG,Mukokchung,18,1,5,
+302,NAG,NAG,Tuensang,18,1,6,
+303,NAG,NAG,Mon,18,1,7,
+304,ORI,Coastal,Baleshwar,19,1,5,
+305,ORI,Coastal,Cuttack,19,1,6,
+306,ORI,Coastal,Ganjam,19,1,12,
+307,ORI,Coastal,Puri,19,1,13,
+308,ORI,Coastal,Bhadrak,19,1,14,
+309,ORI,Coastal,Jagatsinghpura,19,1,15,
+310,ORI,Coastal,Jajpur,19,1,16,
+311,ORI,Coastal,Kendrapara,19,1,17,
+312,ORI,Coastal,Nayagarh,19,1,18,
+313,ORI,Coastal,Khurda,19,1,19,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+315,ORI,Northern,Sambalpur,19,3,1,
+316,ORI,Northern,Sundargarh,19,3,2,
+317,ORI,Northern,Keonjhar,19,3,3,
+318,ORI,Northern,Mayurbhanj,19,3,4,
+319,ORI,Northern,Dhenkanal,19,3,7,
+320,ORI,Northern,Bolangir,19,3,9,
+321,ORI,Northern,Jharsuguda,19,3,26,
+322,ORI,Northern,Deogarh,19,3,27,
+323,ORI,Northern,Sonepur,19,3,29,
+324,ORI,Northern,Angul,19,3,30,
+325,ORI,Northern,Baragarh,19,3,28,
+326,ORI,Southern,Phulbani,19,2,8,
+327,ORI,Southern,Kalahandi,19,2,10,
+328,ORI,Southern,Koraput,19,2,11,
+329,ORI,Southern,Boudh,19,2,21,
+330,ORI,Southern,Nuapara,19,2,22,
+331,ORI,Southern,Malkangiri,19,2,23,
+332,ORI,Southern,Nowarangpur,19,2,24,
+333,ORI,Southern,Rayagarh,19,2,25,
+334,PON,PON,Pondicherry,33,1,1,
+335,PON,PON,Karaikal,33,1,2,
+336,PON,PON,Mahe,33,1,3,
+337,PON,PON,Yanam,33,1,4,
+338,PUN,Northern,Gurdaspur,20,1,1,
+339,PUN,Northern,Amritsar,20,1,2,
+340,PUN,Northern,Ludhiana,20,1,4,
+341,PUN,Northern,Jalandhar,20,1,5,
+342,PUN,Northern,Kapurthala,20,1,6,
+343,PUN,Northern,Hoshiarpur,20,1,7,
+344,PUN,Northern,Rupnagar  (Ropar),20,1,8,
+345,PUN,Southern,Firozpur,20,2,3,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+315,ORI,Northern,Sambalpur,19,3,1,
+316,ORI,Northern,Sundargarh,19,3,2,
+317,ORI,Northern,Keonjhar,19,3,3,
+318,ORI,Northern,Mayurbhanj,19,3,4,
+319,ORI,Northern,Dhenkanal,19,3,7,
+320,ORI,Northern,Bolangir,19,3,9,
+321,ORI,Northern,Jharsuguda,19,3,26,
+322,ORI,Northern,Deogarh,19,3,27,
+323,ORI,Northern,Sonepur,19,3,29,
+324,ORI,Northern,Angul,19,3,30,
+325,ORI,Northern,Baragarh,19,3,28,
+326,ORI,Southern,Phulbani,19,2,8,
+327,ORI,Southern,Kalahandi,19,2,10,
+328,ORI,Southern,Koraput,19,2,11,
+329,ORI,Southern,Boudh,19,2,21,
+330,ORI,Southern,Nuapara,19,2,22,
+331,ORI,Southern,Malkangiri,19,2,23,
+332,ORI,Southern,Nowarangpur,19,2,24,
+333,ORI,Southern,Rayagarh,19,2,25,
+334,PON,PON,Pondicherry,33,1,1,
+335,PON,PON,Karaikal,33,1,2,
+336,PON,PON,Mahe,33,1,3,
+337,PON,PON,Yanam,33,1,4,
+338,PUN,Northern,Gurdaspur,20,1,1,
+339,PUN,Northern,Amritsar,20,1,2,
+340,PUN,Northern,Ludhiana,20,1,4,
+341,PUN,Northern,Jalandhar,20,1,5,
+342,PUN,Northern,Kapurthala,20,1,6,
+343,PUN,Northern,Hoshiarpur,20,1,7,
+344,PUN,Northern,Rupnagar  (Ropar),20,1,8,
+345,PUN,Southern,Firozpur,20,2,3,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+347,PUN,Southern,Sangrur,20,2,10,
+348,PUN,Southern,Bhatinda,20,2,11,
+349,PUN,Southern,Faridkot,20,2,12,
+350,PUN,Southern,Fatehgarh Sahib,20,2,13,
+351,PUN,Southern,Mansa,20,2,14,
+352,RAJ,North-East,Jhunjhuna,21,2,4,
+353,RAJ,North-East,Alwar,21,2,5,
+354,RAJ,North-East,Bharatpur,21,2,6,
+355,RAJ,North-East,Dholpur,21,2,7,
+356,RAJ,North-East,Sawai Madhopur,21,2,8,
+357,RAJ,North-East,Jaipur,21,2,9,
+358,RAJ,North-East,Sikar,21,2,10,
+359,RAJ,North-East,Ajmer,21,2,11,
+360,RAJ,North-East,Tonk,21,2,12,
+361,RAJ,North-East,Bhilwara,21,2,20,
+362,RAJ,North-East,Dausa,21,2,28,
+363,RAJ,South-East,Chittaurgarh,21,4,22,
+364,RAJ,South-East,Bundi,21,4,25,
+365,RAJ,South-East,Kota,21,4,26,
+366,RAJ,South-East,Jhalawar,21,4,27,
+367,RAJ,South-East,Baran,21,4,29,
+368,RAJ,Southern,Udaipur,21,3,21,
+369,RAJ,Southern,Dungarpur,21,3,23,
+370,RAJ,Southern,Banswara,21,3,24,
+371,RAJ,Southern,Rajsamand,21,3,30,
+372,RAJ,Western,Ganganagar,21,1,1,
+373,RAJ,Western,Bikaner,21,1,2,
+374,RAJ,Western,Churu,21,1,3,
+375,RAJ,Western,Jaisalmer,21,1,13,
+376,RAJ,Western,Jodhpur,21,1,14,
+377,RAJ,Western,Nagaur,21,1,15,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+379,RAJ,Western,Barmer,21,1,17,
+380,RAJ,Western,Jalor,21,1,18,
+381,RAJ,Western,Sirohi,21,1,19,
+382,SIK,SIK,North (Mongam),22,1,1,
+383,SIK,SIK,East (Gangtok),22,1,2,
+384,SIK,SIK,South (Nimachai),22,1,3,
+385,SIK,SIK,West (Gyalshing),22,1,4,
+386,TNA,Coastal,Tiruchirapalli,23,2,12,
+387,TNA,Coastal,Thanjavur,23,2,13,
+388,TNA,Coastal,Pudukkottai,23,2,14,
+389,TNA,Coastal,Nagapattinam-Quaie,23,2,23,
+390,TNA,Coastal Northern,Madras,23,1,1,
+391,TNA,Coastal Northern,Chengai Anna (Chen,23,1,2,
+392,TNA,Coastal Northern,North Arcot Ambedh,23,1,3,
+393,TNA,Coastal Northern,Thiruvannamalai Sa,23,1,5,
+394,TNA,Coastal Northern,South Arcot,23,1,6,
+395,TNA,Coastal Northern,Villupuram,23,1,22,
+396,TNA,Inland,Dharampuri,23,4,4,
+397,TNA,Inland,Salem,23,4,7,
+398,TNA,Inland,Periyar,23,4,8,
+399,TNA,Inland,Nilgiri,23,4,9,
+400,TNA,Inland,Coimbatore,23,4,10,
+401,TNA,Southern,Dindigul-Quide Millet,23,3,11,
+402,TNA,Southern,Pasupomthevar Thir,23,3,15,
+403,TNA,Southern,Madurai,23,3,16,
+404,TNA,Southern,Ramnathapuram,23,3,17,
+405,TNA,Southern,Kamarajar,23,3,18,
+406,TNA,Southern,V.O.  Chiudambara,23,3,19,
+407,TNA,Southern,Tirunelveli Kottabom,23,3,20,
+408,TNA,Southern,KannyaiKumari,23,3,21,
+409,TRI,TRI,West Tripura,24,1,1,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+379,RAJ,Western,Barmer,21,1,17,
+380,RAJ,Western,Jalor,21,1,18,
+381,RAJ,Western,Sirohi,21,1,19,
+382,SIK,SIK,North (Mongam),22,1,1,
+383,SIK,SIK,East (Gangtok),22,1,2,
+384,SIK,SIK,South (Nimachai),22,1,3,
+385,SIK,SIK,West (Gyalshing),22,1,4,
+386,TNA,Coastal,Tiruchirapalli,23,2,12,
+387,TNA,Coastal,Thanjavur,23,2,13,
+388,TNA,Coastal,Pudukkottai,23,2,14,
+389,TNA,Coastal,Nagapattinam-Quaie,23,2,23,
+390,TNA,Coastal Northern,Madras,23,1,1,
+391,TNA,Coastal Northern,Chengai Anna (Chen,23,1,2,
+392,TNA,Coastal Northern,North Arcot Ambedh,23,1,3,
+393,TNA,Coastal Northern,Thiruvannamalai Sa,23,1,5,
+394,TNA,Coastal Northern,South Arcot,23,1,6,
+395,TNA,Coastal Northern,Villupuram,23,1,22,
+396,TNA,Inland,Dharampuri,23,4,4,
+397,TNA,Inland,Salem,23,4,7,
+398,TNA,Inland,Periyar,23,4,8,
+399,TNA,Inland,Nilgiri,23,4,9,
+400,TNA,Inland,Coimbatore,23,4,10,
+401,TNA,Southern,Dindigul-Quide Millet,23,3,11,
+402,TNA,Southern,Pasupomthevar Thir,23,3,15,
+403,TNA,Southern,Madurai,23,3,16,
+404,TNA,Southern,Ramnathapuram,23,3,17,
+405,TNA,Southern,Kamarajar,23,3,18,
+406,TNA,Southern,V.O.  Chiudambara,23,3,19,
+407,TNA,Southern,Tirunelveli Kottabom,23,3,20,
+408,TNA,Southern,KannyaiKumari,23,3,21,
+409,TRI,TRI,West Tripura,24,1,1,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+411,TRI,TRI,South Tripura,24,1,3,
+412,UPR,Central,Kheri,25,3,28,
+413,UPR,Central,Sitapur,25,3,29,
+414,UPR,Central,Hardoi,25,3,30,
+415,UPR,Central,Unnao,25,3,31,
+416,UPR,Central,Lucknow,25,3,32,
+417,UPR,Central,Rai Bareli,25,3,33,
+418,UPR,Central,Kanpur Dehat,25,3,36,
+419,UPR,Central,Kanpur Nagar,25,3,37,
+420,UPR,Central,Fatepur,25,3,43,
+421,UPR,Central,Bara Banki,25,3,48,
+422,UPR,Eastern,Pratapgarh,25,4,44,
+423,UPR,Eastern,Allahabad,25,4,45,
+424,UPR,Eastern,Bahraich,25,4,46,
+425,UPR,Eastern,Gonda,25,4,47,
+426,UPR,Eastern,Faizabad,25,4,49,
+427,UPR,Eastern,Sultanpur,25,4,50,
+428,UPR,Eastern,Sidhartha nagar,25,4,51,
+429,UPR,Eastern,Maharajganj,25,4,52,
+430,UPR,Eastern,Basti,25,4,53,
+431,UPR,Eastern,Gorakhpur,25,4,54,
+432,UPR,Eastern,Deeria,25,4,55,
+433,UPR,Eastern,Maunath Bhanjan,25,4,56,
+434,UPR,Eastern,Azamgarh,25,4,57,
+435,UPR,Eastern,Jaunpur,25,4,58,
+436,UPR,Eastern,Ballia,25,4,59,
+437,UPR,Eastern,Ghazipur,25,4,60,
+438,UPR,Eastern,Varanashi,25,4,61,
+439,UPR,Eastern,Mirzapur,25,4,62,
+440,UPR,Eastern,Balrampur,25,4,66,
+441,UPR,Eastern,Chandauli,25,4,72,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+411,TRI,TRI,South Tripura,24,1,3,
+412,UPR,Central,Kheri,25,3,28,
+413,UPR,Central,Sitapur,25,3,29,
+414,UPR,Central,Hardoi,25,3,30,
+415,UPR,Central,Unnao,25,3,31,
+416,UPR,Central,Lucknow,25,3,32,
+417,UPR,Central,Rai Bareli,25,3,33,
+418,UPR,Central,Kanpur Dehat,25,3,36,
+419,UPR,Central,Kanpur Nagar,25,3,37,
+420,UPR,Central,Fatepur,25,3,43,
+421,UPR,Central,Bara Banki,25,3,48,
+422,UPR,Eastern,Pratapgarh,25,4,44,
+423,UPR,Eastern,Allahabad,25,4,45,
+424,UPR,Eastern,Bahraich,25,4,46,
+425,UPR,Eastern,Gonda,25,4,47,
+426,UPR,Eastern,Faizabad,25,4,49,
+427,UPR,Eastern,Sultanpur,25,4,50,
+428,UPR,Eastern,Sidhartha nagar,25,4,51,
+429,UPR,Eastern,Maharajganj,25,4,52,
+430,UPR,Eastern,Basti,25,4,53,
+431,UPR,Eastern,Gorakhpur,25,4,54,
+432,UPR,Eastern,Deeria,25,4,55,
+433,UPR,Eastern,Maunath Bhanjan,25,4,56,
+434,UPR,Eastern,Azamgarh,25,4,57,
+435,UPR,Eastern,Jaunpur,25,4,58,
+436,UPR,Eastern,Ballia,25,4,59,
+437,UPR,Eastern,Ghazipur,25,4,60,
+438,UPR,Eastern,Varanashi,25,4,61,
+439,UPR,Eastern,Mirzapur,25,4,62,
+440,UPR,Eastern,Balrampur,25,4,66,
+441,UPR,Eastern,Chandauli,25,4,72,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+443,UPR,Himalayan,Chamoli,25,1,2,
+444,UPR,Himalayan,Tehri Garhwal,25,1,3,
+445,UPR,Himalayan,Dehra Dun,25,1,4,
+446,UPR,Himalayan,Garhwal,25,1,5,
+447,UPR,Himalayan,Pithoragarh,25,1,6,
+448,UPR,Himalayan,Almora,25,1,7,
+449,UPR,Himalayan,Nainital,25,1,8,
+450,UPR,Himalayan,Bareilly,25,1,25,
+451,UPR,Himalayan,Champaran,25,1,68,
+452,UPR,Southern,Jalan,25,5,38,
+453,UPR,Southern,Jhansi,25,5,39,
+454,UPR,Southern,Lalitpur,25,5,40,
+455,UPR,Southern,Hamirpur,25,5,41,
+456,UPR,Southern,Banda,25,5,42,
+457,UPR,Southern,Chitrakut,25,5,69,
+458,UPR,Western,Bijnor,25,2,9,
+459,UPR,Western,Moradabad,25,2,10,
+460,UPR,Western,Rampur,25,2,11,
+461,UPR,Western,Saharanpur,25,2,12,
+462,UPR,Western,Hardwar,25,2,13,
+463,UPR,Western,Muzaffarnagar,25,2,14,
+464,UPR,Western,Meerut,25,2,15,
+465,UPR,Western,Ghaziabad,25,2,16,
+466,UPR,Western,Bulandshahr,25,2,17,
+467,UPR,Western,Aligarh,25,2,18,
+468,UPR,Western,Mathura,25,2,19,
+469,UPR,Western,Agra,25,2,20,
+470,UPR,Western,Firozabad,25,2,21,
+471,UPR,Western,Etah,25,2,22,
+472,UPR,Western,Mainpuri,25,2,23,
+473,UPR,Western,Budaun,25,2,24,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+443,UPR,Himalayan,Chamoli,25,1,2,
+444,UPR,Himalayan,Tehri Garhwal,25,1,3,
+445,UPR,Himalayan,Dehra Dun,25,1,4,
+446,UPR,Himalayan,Garhwal,25,1,5,
+447,UPR,Himalayan,Pithoragarh,25,1,6,
+448,UPR,Himalayan,Almora,25,1,7,
+449,UPR,Himalayan,Nainital,25,1,8,
+450,UPR,Himalayan,Bareilly,25,1,25,
+451,UPR,Himalayan,Champaran,25,1,68,
+452,UPR,Southern,Jalan,25,5,38,
+453,UPR,Southern,Jhansi,25,5,39,
+454,UPR,Southern,Lalitpur,25,5,40,
+455,UPR,Southern,Hamirpur,25,5,41,
+456,UPR,Southern,Banda,25,5,42,
+457,UPR,Southern,Chitrakut,25,5,69,
+458,UPR,Western,Bijnor,25,2,9,
+459,UPR,Western,Moradabad,25,2,10,
+460,UPR,Western,Rampur,25,2,11,
+461,UPR,Western,Saharanpur,25,2,12,
+462,UPR,Western,Hardwar,25,2,13,
+463,UPR,Western,Muzaffarnagar,25,2,14,
+464,UPR,Western,Meerut,25,2,15,
+465,UPR,Western,Ghaziabad,25,2,16,
+466,UPR,Western,Bulandshahr,25,2,17,
+467,UPR,Western,Aligarh,25,2,18,
+468,UPR,Western,Mathura,25,2,19,
+469,UPR,Western,Agra,25,2,20,
+470,UPR,Western,Firozabad,25,2,21,
+471,UPR,Western,Etah,25,2,22,
+472,UPR,Western,Mainpuri,25,2,23,
+473,UPR,Western,Budaun,25,2,24,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+475,UPR,Western,Shahjahanpur,25,2,27,
+476,UPR,Western,Farrukhabad,25,2,34,
+477,UPR,Western,Etawah,25,2,35,
+478,UPR,Western,Sonbadra,25,2,63,
+479,UPR,Western,Bagpet,25,2,71,
+480,UPR,Western,Jyotiba Phule Nagar,25,2,67,
+481,UPR,Western,Oreiya,25,2,64,
+482,UPR,Western,Mahamayanagar,25,2,65,
+483,UPR,Western,Kannauj,25,2,70,
+484,WBE,Central Plains,24-Parganas (North),26,3,8,
+485,WBE,Central Plains,24-Parganas (South),26,3,9,
+486,WBE,Central Plains,Calcutta,26,3,10,
+487,WBE,Central Plains,Howrah,26,3,11,
+488,WBE,Central Plains,Hooghly,26,3,12,
+489,WBE,Central Plains,Burdwan,26,3,16,
+490,WBE,East Plains,West Dinajpur,26,2,4,
+491,WBE,East Plains,Maldah,26,2,5,
+492,WBE,East Plains,Murshidabad,26,2,6,
+493,WBE,East Plains,Nandia,26,2,7,
+494,WBE,East Plains,Birbhum,26,2,17,
+495,WBE,Himalayan,Jalpaiguri,26,1,2,
+496,WBE,Himalayan,Darjiling,26,1,3,
+497,WBE,Himalayan,Kochbihar,26,1,1,
+498,WBE,Western Plains,Midnapur,26,4,13,
+499,WBE,Western Plains,Bankura,26,4,14,
+500,WBE,Western Plains,Puruliya,26,4,15,
+501,CHA,Chandigarh,Chandigarh,28,1,1,
+502,D&N,D&N,D&N,29,1,1,
+503,D&D,D&D,Daman,30,1,1,
+504,D&D,D&D,Diu,30,1,2,
+505,J&K,Mountainous,Kathua,10,1,11,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+475,UPR,Western,Shahjahanpur,25,2,27,
+476,UPR,Western,Farrukhabad,25,2,34,
+477,UPR,Western,Etawah,25,2,35,
+478,UPR,Western,Sonbadra,25,2,63,
+479,UPR,Western,Bagpet,25,2,71,
+480,UPR,Western,Jyotiba Phule Nagar,25,2,67,
+481,UPR,Western,Oreiya,25,2,64,
+482,UPR,Western,Mahamayanagar,25,2,65,
+483,UPR,Western,Kannauj,25,2,70,
+484,WBE,Central Plains,24-Parganas (North),26,3,8,
+485,WBE,Central Plains,24-Parganas (South),26,3,9,
+486,WBE,Central Plains,Calcutta,26,3,10,
+487,WBE,Central Plains,Howrah,26,3,11,
+488,WBE,Central Plains,Hooghly,26,3,12,
+489,WBE,Central Plains,Burdwan,26,3,16,
+490,WBE,East Plains,West Dinajpur,26,2,4,
+491,WBE,East Plains,Maldah,26,2,5,
+492,WBE,East Plains,Murshidabad,26,2,6,
+493,WBE,East Plains,Nandia,26,2,7,
+494,WBE,East Plains,Birbhum,26,2,17,
+495,WBE,Himalayan,Jalpaiguri,26,1,2,
+496,WBE,Himalayan,Darjiling,26,1,3,
+497,WBE,Himalayan,Kochbihar,26,1,1,
+498,WBE,Western Plains,Midnapur,26,4,13,
+499,WBE,Western Plains,Bankura,26,4,14,
+500,WBE,Western Plains,Puruliya,26,4,15,
+501,CHA,Chandigarh,Chandigarh,28,1,1,
+502,D&N,D&N,D&N,29,1,1,
+503,D&D,D&D,Daman,30,1,1,
+504,D&D,D&D,Diu,30,1,2,
+505,J&K,Mountainous,Kathua,10,1,11,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+507,J&K,Outer Hills,Doda,10,2,9,
+508,J&K,Outer Hills,Udhampur,10,2,10,
+509,J&K,Outer Hills,Rajouri,10,2,13,
+510,J&K,Outer Hills,Poonch,10,2,14,
+511,J&K,Jhelum Valley,Anantnag,10,3,1,
+512,J&K,Jhelum Valley,Pulwama,10,3,2,
+513,J&K,Jhelum Valley,Srinagar,10,3,3,
+514,J&K,Jhelum Valley,Badgam,10,3,4,
+515,J&K,Jhelum Valley,Baramula,10,3,5,
+516,J&K,Jhelum Valley,Kupwara,10,3,6,
+517,J&K,Jhelum Valley,Kargil,10,3,7,
+518,J&K,Jhelum Valley,Ladakh,10,3,8,
+519,DEL,Delhi,Delhi,31,1,1,
+,A,B,C,D,E,F,G
+1,NSS State,"NSSSub region",NSS District,"NSSStatecode","NSSSub_regcode","NSS_Distcode","NSSTehsil"
+507,J&K,Outer Hills,Doda,10,2,9,
+508,J&K,Outer Hills,Udhampur,10,2,10,
+509,J&K,Outer Hills,Rajouri,10,2,13,
+510,J&K,Outer Hills,Poonch,10,2,14,
+511,J&K,Jhelum Valley,Anantnag,10,3,1,
+512,J&K,Jhelum Valley,Pulwama,10,3,2,
+513,J&K,Jhelum Valley,Srinagar,10,3,3,
+514,J&K,Jhelum Valley,Badgam,10,3,4,
+515,J&K,Jhelum Valley,Baramula,10,3,5,
+516,J&K,Jhelum Valley,Kupwara,10,3,6,
+517,J&K,Jhelum Valley,Kargil,10,3,7,
+518,J&K,Jhelum Valley,Ladakh,10,3,8,

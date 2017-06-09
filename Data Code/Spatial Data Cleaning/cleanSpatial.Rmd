@@ -1,0 +1,191 @@
+---
+title: "Create the spatial datasets with 1999 as base year"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file recreates the spatial file from the raw csv files that were downloaded from the spatial database. The files are cleaned, merged and brought to a based year of 1999.
+
+##Loading the raw csv files
+This section of the code loops through the csv files and merges them to create a separate file for the years 2001 and 2011. There are 20 csv files in 2001 and 40 in 2010. Some of the data (particularly in 2001) have incomplete district coverage, while some others are only present at the "total" geography and not the rural or urban.
+
+Each file is uniquely identified by the variables<span style="background-color:#FFD701"> id </span>and<span style="background-color:#FFD701"> geography</span>.
+
+```{r, message=FALSE, warning=FALSE}
+rm(list = ls())
+library(tidyverse); library(stringr); library(readxl)
+
+##Create the list of files in the directory
+allFiles2001 <- list.files(path = "../../data/Spatial Database/All Files/2001/")
+allFiles2011 <- list.files(path = "../../data/Spatial Database/All Files/2011/")
+
+##Load the first file in each directory
+dataString2001 <- str_c("../../data/Spatial Database/All Files/2001/", allFiles2001[1])
+dataString2011 <- str_c("../../data/Spatial Database/All Files/2011/", allFiles2011[1])
+
+data2001 <- read_csv(dataString2001)
+data2011 <- read_csv(dataString2011)
+
+## Note: There are a few files that have incomplete coverage (one which only has a subset of the district. While 7 others have only totals and urban/rural)
+##2001
+for (i in 2:length(allFiles2001)){
+        dataString2001 <- str_c("../../data/Spatial Database/All Files/2001/", allFiles2001[i])
+        temp <- read_csv(dataString2001) %>% 
+                select(-spatial_data_yr, -L0_code, -L0_name, -L1_name, -L1_code, -L2_code, -L2_name)
+        
+        ##Add to the data from previous iteration
+        data2001 <- left_join(data2001, temp, by = c("id", "geography"))
+}
+
+##2010
+for (i in 2:length(allFiles2011)){
+        dataString2011 <- str_c("../../data/Spatial Database/All Files/2011/", allFiles2011[i])
+        temp <- read_csv(dataString2011) %>% 
+                select(-spatial_data_yr, -L0_code, -L0_name, -L1_name, -L1_code, -L2_code, -L2_name)
+        
+        ##Add to the data from previous iteration
+        data2011 <- left_join(data2011, temp, by = c("id", "geography"))
+}
+```
+
+##Match column names and combine the years
+2011 has<span style="background-color:#FFD701"> 450 </span>variables while 2001 only has<span style="background-color:#FFD701"> 210</span>. In the initial iterations we were only using variables that were available for both years, however, in the current iteration we are using several variables that only have values in 2011. So I would need to add these missing variables to the 2001 dataset before combining it with 2011. These variable values will be recorded as NA.
+
+```{r}
+##identify the missing columns in 2001
+missingNames <- names(data2011)[!(names(data2011) %in% names(data2001))]
+missingColumns <- data2011 %>% 
+        select(id, geography, one_of(missingNames))
+missingColumns[,-(1:2)] <- NA #set the data to be missing
+
+data2001 <- left_join(data2001, missingColumns, by = c("id", "geography")) #join with the 2001 data
+
+##The variables in each dataset are not arranged in the same order, so i set 2011 to be the same order as 2001
+colNums2011 <- match(names(data2001),names(data2011)) ##gives the posiion of the column in the data frame
+data2011 <- data2011 %>% 
+        select(colNums2011) ## selects and orders columns based on the varNamesCommon order
+
+paste("Names are identical: ", identical(names(data2011), names(data2001))) ##check if names are identical
+
+##Combine the data
+spatialAll <- rbind(data2001, data2011)
+```
+
+So now we have the combined spatial dataset that has<span style="background-color:#FFD701"> 647 districts </span> and <span style="background-color:#FFD701"> 450 variables </span>. 
+
+##Bring the data to 1999
+The 1999 correspondence file maps district ids to the NSS district list in 1999. I merge this information into the spatial dataset. The variables that are<span style="background-color:#FFD701"> levels are summed </span> while<span style="background-color:#FFD701"> rates are averaged (weighted with either area or population when appropriate)</span>.
+
+###Select Variables of Interest
+Before summarising the data based on the final id variable we need to identify the ones that are used in the analysis. I maintain separate files with the names of the outcome and control variables. The variables that we need for the analysis are listed below.
+<span style="background-color:#FFD701">**Note:** The variable size which is present in the master list of spatial variables is not recorded for either year. I am guessing this would be added to the data at some later point. However, until then, we won't be able to use it. The variable logGdp is created in a later file so I filter that out for now.</span>
+
+```{r, message=FALSE}
+varsOfInterest <- read_csv("../../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(source == "spatial", varNames != "logGdp") %>% 
+        filter(!duplicated(varNames)) %>% 
+        arrange(varNames)
+varsOfInterest
+```
+
+One of the control variables, share of urban population,<span style="background-color:#FFD701"> needs to constructed,</span> since it does not exist in the dataset. So I create this variable.
+```{r}
+spatialAll <- spatialAll %>% 
+        arrange(id, spatial_data_yr, geography) %>% #imp. for later steps that used indexes
+        group_by(id, spatial_data_yr) %>% #three obs. in the order rural, total, urban (since geo is sorted)
+        mutate(urbanPopShare = pop[3]/pop[2]) %>% # urban/total
+        ungroup()
+
+##Saving the file before the correspondence
+spatialBeforeCorresp <- spatialAll %>% 
+        select(id, geography, year = spatial_data_yr, area, one_of(varsOfInterest$varNames)) %>% 
+        filter(geography == "Total") %>% 
+        select(-geography) %>% 
+        arrange(id, year)
+save(spatialBeforeCorresp, file = "../../data/1 Cleaned files for analysis/Spatial Database/spatialBeforeCorresp.RDA")
+```
+
+The variables that are to be summed are as follows.
+```{r}
+sumVars <- varsOfInterest %>% 
+        filter(summaryType == "sum")
+sumVars
+```
+The variables that are to averaged (simple mean) are,
+```{r}
+simpleMeanVars <- varsOfInterest %>% 
+        filter(summaryType == "mean")
+simpleMeanVars
+```
+
+The variables that will be averaged using population weights are as follows.
+```{r}
+popMeanVars <- varsOfInterest %>% 
+        filter(summaryType == "pop weighted mean")
+popMeanVars
+```
+
+The variables that will averaged using area weights are as follows.
+```{r}
+areaMeanVars <- varsOfInterest %>% 
+        filter(summaryType == "area weighted mean")
+areaMeanVars
+```
+
+###Load and merge the final ids (1999)
+Now I add the ids ('finalId') that are based on the 1999 base year.
+```{r}
+load("../../data/1 Cleaned files for analysis/Correspondence Files/districtCorrespondence99.RDA")
+
+spatialAll <- left_join(spatialAll, districtCorrespondence99, by = c("id" = "spatialId"))
+```
+
+###Summarise the variables to the base year of 1999
+Some of the variables are recorded as characters when they should be numeric. These are converted to their appropriate type.
+```{r}
+spatialAll <- spatialAll %>% 
+        select(finalId, geography, year = spatial_data_yr, area, one_of(varsOfInterest$varNames)) 
+spatialAll <- spatialAll %>% 
+        mutate(ac_irr = as.numeric(ac_irr), c_oper_t = as.numeric(c_oper_t), irr_all = as.numeric(irr_all), lcrt = as.numeric(lcrt))
+```
+
+In this step, I group the data by the final id, year and geography and summarise variables based on their summary type (i.e. sum, simple mean or pop/area weighted mean).
+```{r}
+spatialAll <- spatialAll %>% 
+        group_by(finalId, geography, year) %>% 
+        mutate_at(areaMeanVars$varNames, .funs = funs(sum(. * area, na.rm = T)/sum(area, na.rm = T))) %>%
+        mutate_at(popMeanVars$varNames, .funs = funs(sum(. * pop, na.rm = T)/sum(pop, na.rm = T))) %>% 
+        mutate_at(simpleMeanVars$varNames, .funs = funs(mean(., na.rm = T))) %>% 
+        mutate_at(sumVars$varNames, .funs = funs(sum(., na.rm = T))) %>% 
+        filter(row_number() == 1) %>% 
+        ungroup() %>% 
+        select(-area)
+```
+
+Now we have the data summarised at the 1999 id. The next step is to separate out the different geographies and save the data for later use.
+```{r}
+spatialTotal <- spatialAll %>% 
+        filter(geography == "Total") %>% 
+        select(-geography) %>% 
+        arrange(finalId, year) 
+
+save(spatialTotal, file = "../../data/1 Cleaned files for analysis/Spatial Database/spatialTotal.RDA")
+
+spatialUrban <- spatialAll %>% 
+        filter(geography == "Urban") %>% 
+        select(-geography) %>% 
+        arrange(finalId, year) 
+save(spatialUrban, file = "../../data/1 Cleaned files for analysis/Spatial Database/spatialUrban.RDA")
+
+spatialRural <- spatialAll %>% 
+        filter(geography == "Rural") %>% 
+        select(-geography) %>% 
+        arrange(finalId, year) 
+save(spatialRural, file = "../../data/1 Cleaned files for analysis/Spatial Database/spatialRural.RDA")
+spatialTotal
+```
+

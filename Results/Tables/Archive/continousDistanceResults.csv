@@ -1,0 +1,20 @@
+yVar,yType,description,adjRSq,nobs,postGQ,postNSEW,gqDistance:postGQ,nsewDistance:postNSEW
+ap,environment,Aerosol particle radius (percent of small particles) in logs,0.24698840262699773,854,6.6065***,NA,0.0025,0.0665***
+at,environment,Aerosol optical thickness (thickness scale  0–1 ),0.3154762765856617,854,0.0618***,NA,-0.001***,6e-04***
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2) in logs,0.1681610376587912,854,20.9404***,NA,-0.1734***,0.0697***
+povrate_rur,equality,Reduction in poverty rate (rural),0.18948242549966854,1661,0.0879***,0.1173***,0.0015***,-1e-04
+povrate_tot,equality,Reduction in poverty rate (total),0.20042158514819775,1661,0.0719***,0.1178***,0.0012***,-2e-04
+povrate_urb,equality,Reduction in poverty rate (urban),-0.10528761107621332,1626,0.0304**,0.1218***,1e-04,-5e-04**
+emp_rwg_f,inclusion,"Regular wage earners, Female (percent of total empl)",0.16212103416937285,854,7.5519***,NA,-0.0429**,0.0051
+emp_rwg_t,inclusion,"Regular wage earners, Total (percent of total emplt)",-0.21550217896356672,854,4.3195***,NA,-0.0225,-0.0096
+pct_emp_both_tot,inclusion,N employed/Total total population,-0.18639970231616831,1626,0.0161***,-0.0493***,2e-04,0
+pct_emp_f_tot,inclusion,N females employed/female total population,-0.19375568687534783,1626,0.0357***,-0.0798***,3e-04,-1e-04
+pct_emp_m_tot,inclusion,N males employed/male total population,-0.3113816927169264,1626,0.0014,-0.022***,1e-04,1e-04**
+pct_regWage_both_tot,inclusion,N total regular wage employed/Total employed,-0.279336602173051,1626,-0.0223***,0.0188***,-1e-04,-3e-04***
+pct_regWage_f_tot,inclusion,N total females regular wage employed/N female employed,-0.3234271014522989,1626,-4e-04,0.0296***,-5e-04**,-2e-04
+consumptGr,welfare,logCons_pc_mean_tot(t) - logCons_pc_mean_tot(t-1),-0.47315593894204744,1236,0.0363*,0.0205,0.001,-2e-04
+logCons_pc_mean_tot,welfare,Log of mean hh consumption (total),0.21902266798911363,1661,0.0964***,0.1303***,0.0013***,-5e-04**
+logGdp,welfare,"Log of GDP (current USD, in millions)",0.6595878683772163,854,0.3053***,NA,9e-04*,6e-04***
+logGdpPc,welfare,"Log of GDP per capita (current USD, in millions)",0.5275691317664435,854,0.2374***,NA,7e-04,5e-04**
+logNtl_a,welfare,Light intensity per area in logs,0.4221307216939847,854,0.5856***,NA,-0.0039***,0.0037***
+logNtl_pc,welfare,Light intensity per 1000 people in logs,0.15465574785832925,854,0.4457***,NA,-0.0032**,0.0037***

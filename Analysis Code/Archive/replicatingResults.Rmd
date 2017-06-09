@@ -1,0 +1,294 @@
+---
+title: 'Replicating the results from Ghani et. al (2015)'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+##Files used for replication
+This file replicates the steps taken in Ghani et. al (2015) to preprocess the data. The steps are outlined in the files
+
+1. 01. creating the dataset.do
+2. 03. Tables 2 3 4 5 6 8 Appendix tables 2 3 4 5 6 Figure 2.do
+
+The replication steps will be woven into the existing steps that we have to create the dataset used for the regressions.
+I will highlight/emphasize the parts were we add additional steps or modify existing ones to match Ghani et al. (2015)
+
+##Load the datasets used for the regressions
+We use the following datasets for the regressions
+
+1. District Correspondence file: This file contains the mapping from ASI 2001 district names to everything else.
+2. Spatial Dataset: The entire cleaned spatial dataset with all the geographies (total, urban and rural)
+3. ASI dataset: The asi dataset with id variables that map to the spatial dataset
+4. District Distance data: The dataset containing the distance from GQ and NSEW to all the districts
+5. The misallocation dataset: I am using this dataset to identify the districts used in Ghani et. al (2015).
+6. The outcome and control variables: Contains all the outcomes and control variables of interest
+
+
+```{r, message = F, results='hide', warning=FALSE, echo = T}
+rm(list = ls())
+library(tidyverse); library(haven)
+
+## Load the data
+load("../data/1 Cleaned files for analysis/districtCorrespondence.RDA")
+load("../data/1 Cleaned files for analysis/spatialAll.RDA")
+load("../data/1 Cleaned files for analysis/asiData.RDA")
+load("../data/1 Cleaned files for analysis/districtDistances.RDA")
+load("../data/1 Cleaned files for analysis/misAllocation.RDA")
+
+outcomeVariables <- read_csv("../data/1 Cleaned files for analysis/asiOutcomes.csv")
+controlVars <- read_csv("../data/1 Cleaned files for analysis/controlVariables.csv")
+```
+
+## Getting the data ready for regressions
+
+Here are the steps I take each time for the regressions
+
+1. Create the urbanization variable
+2. Keep only observations that we need for the regressions
+3. Summarise the spatial data to the final id bases on asi correspondence
+4. Create the ASI variables and merge with spatial data
+5. Keep only full panel (don't change zero to min value) and Winsorize all outcome variables in 2001 and 2011
+6. Calc. the y var (either log(2011) - log(2001) or 2011 - 2001)
+7 Add the district distance to highways for each district and recreate the district categories as in summary file (this will eventually be consolidated in identifyNodalDistrict.R)
+
+###Create the urbanization variable
+The spatial dataset does not have a variable that measures the degree of urbanization in a district. I do this by calculating the proportion of urban/total for population. Here is the summary of the variable.
+```{r}
+spatialData <- spatialAll %>% 
+        arrange(id, spatial_data_yr, geography) %>% #imp. for later steps that used indexes
+        group_by(id, spatial_data_yr) %>% #three obs. in the order rural, total, urban (since geo is sorted)
+        mutate(urbanPopShare = pop[3]/pop[2]) %>% # urban/total
+        ungroup()
+summary(spatialData$urbanPopShare)
+```
+
+###Keep only observations that we need for the regressions
+In this step I select all the variables that we are interested and filter out the observations that we don't need.
+
+1. drop all geographies other than "Total" since we don't need them.
+2. remove the districts that are marked to India/China and the islands. 
+3. filter out all the districts that are not present in the misallocation dataset.
+4. **filter out all the states taken out in the Ghani paper**
+
+Drop small states / UTs, conflict-prone places
+g state_out_drop=(state_CONSISTENT=="A & N ISLANDS") |(state_CONSISTENT=="DADRA & NAGAR HAVELI") |(state_CONSISTENT=="DAMAN & DIU") |(state_CONSISTENT=="JAMMU & KASHMIR") |(state_CONSISTENT=="TRIPURA") |(state_CONSISTENT=="MANIPUR") |(state_CONSISTENT=="MEGHALAYA") |(state_CONSISTENT=="MIZORAM") |(state_CONSISTENT=="NAGALAND") |(state_CONSISTENT=="ASSAM")
+
+**Note1:** Removing Assam is a bit strange, since it does not fit the bill for conflict prone or small.
+
+In addition to removing small and UT states, the do file also marks out states and districts based on population and number of factories. However, they don't seem to use these flags to filter the data. So those flags are not used for our data.
+
+```{r}
+##Keeping only the variables that we need
+spatialData <- spatialData %>% 
+        dplyr::select(one_of(c("id", "L1_name", "L2_name","geography", "spatial_data_yr", controlVars$varNames))) %>% 
+        filter(geography == "Total")
+
+## Removing islands and India/China districts
+spatialData <- spatialData %>% 
+        filter(!str_detect(L1_name, "India/China|Andaman & Nicobar|Lakshadweep"))
+
+##Filtering districts that are not in the misallocation dataset
+spatialData <- left_join(spatialData, districtCorrespondence, by = c("id" = "spatialId")) %>% ## join in the final id from the correspondence dataset
+        filter(finalId %in% c(misAllocation$finalId, "3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0"))
+
+##Filtering out the states in the ghani paper that were taken out
+spatialData <- spatialData %>% 
+        filter(!(L1_name %in% c("Dadra & Nagar Haveli", "Daman & Diu", "Jammu and Kashmir", "Tripura", "Manipur", "Nagaland", "Meghalaya", "Mizoram", "Assam")))
+head(spatialData, n = 5)
+```
+
+The total number of districts drops from **596 to 381.**
+
+###Summarise the spatial data to the final id based on asi correspondence
+All the variables in the spatial dataset are summarised (by taking the mean) based on the final id variable (the variable maps districts to 2001).
+
+```{r}
+#4 Summarise the spatial data to the final id based on asi correspondence
+spatialData <- spatialData %>% 
+        group_by(finalId, spatial_data_yr, L1_name) %>% ## L1_name is a irrelavant grouping var since final id is more disaggregated. But i keep it for future use in the regressions
+        summarise_if(is.numeric, mean) %>%  #checked for na values and there are none
+        ungroup()
+```
+
+### Create the ASI variables and merge with spatial data
+The ASI variables are calculated by multiplying each observation using the 'mult' variable and then summing them at the district level for each year. The ASI variables are then to the spatial dataset using the final id variable as the key (along with the year). I also change the year in the ASI dataset from 2010 to 2011 (to match the year in the spatial dataset)
+
+```{r}
+##Create the ASI variables
+asiData <- asiData %>% 
+        group_by(finalId, year) %>% ##summarising by the final id var
+        summarise(nFactories = sum(mult * x1, na.rm = T), totPersonsEngaged = sum(mult * x8, na.rm = T), totValOutput = sum(mult * x19, na.rm = T)) %>% 
+        mutate(year = ifelse(year == 2010, 2011, year)) %>%  # to match the year on the spatial dataset
+        ungroup()
+
+## join the asi data to the spatial dataset
+spatialData <- left_join(spatialData, asiData, by = c("finalId", "spatial_data_yr" = "year"))
+```
+
+###Keep only full panel (don't change zero to min value) and Winsorize all outcome variables in 2001 and 2011
+Districts without observations for both years are removed from the panel. I also winsorize the data after creating the balanced panel.
+```{r}
+winsorize <- function(x){
+        lim <- quantile(x, probs = c(0.01, 0.99), na.rm = T) ##calc. the bound [1%, 99%]
+        x[ x < lim[1] ] <- lim[1] #replace with lower bound if below bound
+        x[ x > lim[2] ] <- lim[2] #replace with upper bound if above bound
+        x
+}
+
+spatialData <- spatialData %>% 
+        group_by(finalId) %>% 
+        filter(min(nFactories, na.rm = T) != 0) %>% 
+        filter(min(totPersonsEngaged, na.rm = T) != 0) %>% 
+        filter(min(totValOutput, na.rm = T) != 0) %>% 
+        ungroup() %>% 
+        mutate_at(outcomeVariables$varNames, winsorize) # winsorize all outcome variables
+
+```
+After this step we are left with 331 districts.
+
+**Note2:** All the districts in Delhi barring one have an unbalanced panel. Not sure if this is because ASi was surveying Delhi as a single unit in 2001 or if these are the actual numbers. Since the dataset from ASI contains all the districts I would assume it is the latter.
+
+###Calc. the y var (either log(2011) - log(2001) or 2011 - 2001)
+For the outcome variables that are marked log I calculate log(2011) - log(2001) for the rest its a simple difference.
+The final dataset contains only one set of observation for each district.
+```{r}
+logFunction <- function(x) {
+        log(x[2]) - log(x[1]) #each distr only has two values 2011 and 2001
+}
+nonLog <- function(x){
+        x[2] - x[1]
+}
+
+spatialDataOutcomes <- spatialData[,1] #create an empty dataframe for joining y vars
+
+for(i in 1:length(outcomeVariables$varNames)){ #loop through outcomes
+        varName <- outcomeVariables$varNames[i] #pull outcome var name
+        
+        if(outcomeVariables$logs[i] == 1){ # check if its logs or regular
+                tempColumn <- spatialData %>% 
+                        group_by(finalId) %>% #nObs 2 = 2001, 2011
+                        mutate_at(varName, logFunction) %>% #use logs
+                        ungroup() %>% 
+                        dplyr::select(one_of(varName))
+                names(tempColumn) <- paste(varName, "LogDiff", sep = "")
+        } else{
+                finalVarName <- paste(varName, "Diff", sep = "")
+                tempColumn <- spatialData %>% 
+                        group_by(finalId) %>% 
+                        mutate_at(varName, nonLog) %>% #use non logs
+                        ungroup() %>% 
+                        dplyr::select(one_of(varName))
+                names(tempColumn) <- paste(varName, "Diff", sep = "")
+        }
+        spatialDataOutcomes <- cbind(spatialDataOutcomes, tempColumn) #join together
+}
+
+spatialDataOutcomes <- dplyr::select(spatialDataOutcomes, -finalId) #remove the id column
+
+spatialData <- cbind(spatialData, spatialDataOutcomes)
+yVarNames <- names(spatialDataOutcomes) # for use in the regression loop
+
+rm("spatialDataOutcomes")
+
+spatialData <- spatialData %>% 
+        filter(spatial_data_yr == 2001) #keep only 2001 year (since we finshed calc for diff between 2001 and 2011)
+```
+
+###Add the district distance to highways for each district and create the district categories
+The district distances are summarised using the final id. I also categorize the districts based on the distance from the highways. The list of districts marked as nodal in the do file is different from those mentioned in the paper. 
+
+replace nodal_GQ = 1 if districtname == "Delhi" | districtname == "Mumbai" | districtname == "Bulandshahr" | districtname == "Gurgaon" | districtname == "Faridabad" | districtname == "Thane" |   districtname == "Kolkata" | districtname == "Chennai" | districtname == "Ghaziabad" 
+
+g nodal_NS_EW = 0
+replace nodal_NS_EW = 1 if districtname == "Delhi" | districtname == "Chandigarh" | districtname == "Bulandshahr" | districtname == "Gurgaon" | districtname == "Faridabad" | districtname == "Ghaziabad" | districtname == "Hyderabad" | districtname == "Bangalore" | districtname == "Kochi" | districtname == "Kanniyakumari" | districtname == "Kanpur Nagar" | districtname == "Lucknow"
+
+ 
+
+```{r}
+districtDistances <- districtDistances %>% 
+        mutate(id = as.character(id), state = as.character(state), district = as.character(district))
+
+districtDistances <- left_join(districtCorrespondence, districtDistances, by = c("spatialId" = "id")) %>% 
+        group_by(finalId) %>% ##summarising by the final id vars mapped to 2001
+        summarise(state = state[1], district = district[1], gqDistance = mean(gqDistance), nsewDistance = mean(nsewDistance), gqStraightDistance = mean(gqStraightDistance), nsewStraightDistance = mean(nsewStraightDistance))
+
+gqNodalDistrictFinalIds <- c("3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0", "3_27_519_0", "3_27_518_0", "3_9_142_0", "3_6_86_0", "3_6_88_0", "3_27_517_0", "3_19_342_0", "3_33_603_0", "3_9_140_0")
+
+nsewNodalDistrictFinalIds <- c("3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0", "3_4_55_0", "3_9_142_0", "3_6_86_0", "3_6_88_0", "3_9_140_0", "3_28_536_0", "3_29_572_0", "3_32_595_0", "3_33_629_0", "3_9_164_0", "3_9_157_0")
+
+districtDistances <- districtDistances %>% 
+        mutate(gqDistType = ifelse(finalId %in% gqNodalDistrictFinalIds, "nodal", ifelse(gqDistance > 0 & gqDistance <= 40, "0-40", ifelse(gqDistance > 40 & gqDistance <= 100, "40-100", "> 100")))) %>% 
+        mutate(nsewDistType = ifelse(finalId %in% nsewNodalDistrictFinalIds, "nodal", ifelse(nsewDistance > 0 & nsewDistance <= 40, "0-40", ifelse(nsewDistance > 40 & nsewDistance <= 100, "40-100", "> 100")))) %>% 
+        dplyr::select(finalId, gqDistType, nsewDistType)
+
+spatialData <- left_join(spatialData, districtDistances, by = "finalId")
+rm(list = setdiff(ls(), c("spatialData", "outcomeVariables", "controlVars", "yVarNames")))
+head(spatialData, n = 5)
+```
+##Regressions
+The data now mirrors the pre-processing steps that the Ghani et. al. (2015) paper uses. Now the next step is to run regresssions. We use three types of specifications
+
+1. Using our start and end point years i.e. 2001 and 2011
+2. Using the start and end point in Ghani et. al. i.e using their data
+3. Using the start point in Ghani and end point in our data.
+```{r, message=F, results="hide", echo=TRUE}
+for(i in 1:length(outcomeVariables$varNames)){
+        #1. Identify the variables used for the regression
+        yControl <- outcomeVariables$varNames[i]
+        yVar <- yVarNames[i]
+        
+        #2. Get the data ready
+        yControlPosition <- match(yControl, names(spatialData))
+        yColumnPosition <- match(yVar, names(spatialData))
+        
+        regressData <- spatialData %>% 
+                filter(is.finite(.[[yColumnPosition]])) %>% #[[]]notation to reference var based on position
+                mutate(L1_name = gsub("&", "and", L1_name)) # special chars interfere with formatting on stargazer
+        
+        gqDistance <- factor(regressData$gqDistType, levels = c("> 100", "nodal", "0-40", "40-100"))
+        nsewDistance <- factor(regressData$nsewDistType, levels = c("> 100", "nodal", "0-40", "40-100"))
+        
+        yValues <- regressData[, yColumnPosition]
+        yControlValues <- regressData[, yControlPosition]
+        
+        #3. Create variables for the tables
+        stateLabels <- levels(as.factor(regressData$L1_name))[2:length(levels(as.factor(regressData$L1_name)))] #names of states
+        depVarLabel <- outcomeVariables[outcomeVariables$varNames == yControl,]$varDescription
+        title <- outcomeVariables$title[i]
+        outString <- paste("../Results/Tables/ASI Regressions Mar 6th/", title, ".html", sep = "")
+        
+        #4. Specify the models
+        model0 <- lm(yValues ~ gqDistance + nsewDistance)
+        cov0 <- vcovHC(model0, type = "HC1")
+        robust_se0 <- sqrt(diag(cov0))
+        
+        model1 <- lm(yValues ~ gqDistance + nsewDistance + yControlValues)
+        cov1 <- vcovHC(model1, type = "HC1")
+        robust_se1 <- sqrt(diag(cov1))
+        
+        model2 <- lm(yValues ~ gqDistance + nsewDistance + yControlValues + as.factor(regressData$L1_name)) 
+        cov2 <- vcovHC(model2, type = "HC1")
+        robust_se2 <- sqrt(diag(cov2))
+        
+        model3 <- lm(yValues ~ gqDistance)
+        cov3 <- vcovHC(model3, type = "HC1")
+        robust_se3 <- sqrt(diag(cov3))
+        
+        model4 <- lm(yValues ~ gqDistance + yControlValues)
+        cov4 <- vcovHC(model4, type = "HC1")
+        robust_se4 <- sqrt(diag(cov4))
+        
+        model5 <- lm(yValues ~ gqDistance + yControlValues + as.factor(regressData$L1_name)) 
+        cov5 <- vcovHC(model5, type = "HC1")
+        robust_se5 <- sqrt(diag(cov5))
+        
+        stargazer(model0, model1, model2, model3, model4, model5, se = list(robust_se0, robust_se1, robust_se2, robust_se3, robust_se4, robust_se5),  dep.var.labels = depVarLabel, omit = "L1", type = "html", out = outString)
+}
+```
+
+
+
+
+

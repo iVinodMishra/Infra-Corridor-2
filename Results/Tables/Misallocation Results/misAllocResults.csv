@@ -1,0 +1,19 @@
+yVar,yType,description,adjRSq,nobs,GQ,NSEW,misCapitalGQ,misCapitalNSEW,misLabourGQ,misLabourNSEW,misLandGQ,misLandNSEW,misOutputGQ,misOutputNSEW
+ap,environment,Aerosol particle radius (percent of small particles) in logs,0.4518861639034156,716,-0.4183,1.1983,2.4872,1.8864,-8.2926,-9.5728,-1.9321,2.2566,1.3935,1.3176
+at,environment,Aerosol optical thickness (thickness scale  0–1 ),0.5806249689978256,716,0.0352**,0.0056,0.0213,6e-04,0.0156,0.0165,-0.0103,0.0539,-0.011,-0.0344
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2) in logs,0.6594067129550347,716,-0.317,1.536,13.13*,2.2961,15.0787,7.0813,-5.146,2.9429,-11.413,-0.2086
+povrate_rur,equality,Reduction in poverty rate (rural),-0.023837797436138564,705,0.0595,0.0757,0.0084,-0.1367,0.1312,0.319,-0.2134,-0.1618,0.1148,0.0668
+povrate_tot,equality,Reduction in poverty rate (total),0.03581393381944964,705,0.0871,0.0436,-0.0396,-0.1166,0.0657,0.1749,-0.1246,-0.0432,0.1726,0.0368
+povrate_urb,equality,Reduction in poverty rate (urban),-0.3706637376624271,686,0.0983,-0.0328,-0.1888,-0.1957,0.0464,-0.1448,0.2394,0.28,0.168,-0.0481
+pct_hhemp_both_tot,inclusion,N total household employed/Total employed,-0.6107023155545539,686,-0.0338,-0.0103,0.0657,-0.0229,0.0456,0.1364,-0.0199,-0.099,-0.0635,0.0201
+pct_hhemp_f_tot,inclusion,N total females household employed/N female employed,-0.8858826918802529,686,-0.1173,-0.0491,0.0877,-0.1363,-0.0018,0.4359,-0.1456,-0.3558,-0.0791,0.0367
+pct_regWage_both_tot,inclusion,N total regular wage employed/Total employed,-0.8966954241123104,686,-0.0333,0.0207,-0.0579,-0.0506,-0.0189,0.2868***,0.1221,-0.0421,-0.0582,-0.0495
+pct_regWage_f_tot,inclusion,N total females regular wage employed/N female employed,-0.8509766146236062,686,-0.0541,0.06,0.025,0.2787***,0.1697,0.2082,-0.0203,-0.2556,-0.116,-0.0534
+pct_selfemp_both_tot,inclusion,N total self employed/Total employed,-0.7973581156103982,686,0.0452,-0.0281,0.0315,0.0919,-0.1121,-0.206,0.0428,0.1323,0.0652,-0.0468
+pct_selfemp_f_tot,inclusion,N total females self employed/N female employed,-0.9955232340417832,686,0.0112,-0.0411,-0.0321,6e-04,-0.2134,-0.2178,0.3354*,0.2327,-0.0349,-0.0673
+consumptGr,welfare,logCons_pc_mean_tot(t) - logCons_pc_mean_tot(t-1),-0.7955862863521381,696,0.1225,-0.0369,-0.2403,-0.0957,-0.0862,-0.2198,-0.0096,0.0292,0.2766,0.0616
+logCons_pc_mean_tot,welfare,Log of mean hh consumption (total),0.194015913403071,705,0.0713,0.0487,-0.0882,-0.1607,-0.0618,0.0782,-0.1195,0.1029,0.2118*,0.0536
+logGdp,welfare,"Log of GDP (current USD, in millions)",0.8804088625566122,716,8e-04,0.0174,-0.0295,-0.0029,0.0013,0.0397,0.1177,0.0541,-0.0309,-0.0065
+logGdpPc,welfare,"Log of GDP per capita (current USD, in millions)",0.8179655409959576,716,0.0058,0.0071,-0.0317,-0.0138,-0.0045,0.0318,0.1184,0.11,-0.0325,-0.0207
+logNtl_a,welfare,Light intensity per area in logs,0.7309628334852106,716,-0.0484,-0.1817,-0.1351,0.1584,-0.1033,-0.0983,0.2003,0.1188,0.0308,-0.2405
+logNtl_pc,welfare,Light intensity per 1000 people in logs,0.5965213373226153,716,-0.0202,-0.1802,-0.2003,0.1963,-0.1502,-0.2501,0.2372,0.4063,0.0476,-0.2898

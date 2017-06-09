@@ -1,0 +1,121 @@
+---
+title: "Final Regression Sepcifications for the report"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+Started this file on May 27th, 2017 to consolidate all the regressions for the final analysis. 
+
+##Loading the data
+First we load the following datasets.
+
+1. The cleaned regression data
+2. The outcome variables
+3. The market variables
+4. Regression formula for each outcome variable
+
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(plm); library(broom); library(stringr); library(readxl)
+
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+##The list of variables
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, description) %>% 
+        arrange(yType, varNames)
+
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv") %>% 
+        arrange(zType, varNames)
+
+##The regression formulas
+regressionFormulaFinal <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/finalSpecs.csv") %>% 
+        mutate(spec = paste(yVar, terms, sep = " ~ "))
+```
+
+##Setting up for the regressions
+This code chunk creates the names for the columns in the results tables.
+```{r, message=FALSE}
+namesList <- as.tibble(expand.grid(highway = c("GQ", "NSEW"), zVars = zVars$varNames)) %>% 
+        mutate(termNames = paste(highway, zVars, sep = ":")) %>% 
+        select(termNames)
+
+namesList <- bind_rows(tibble(termNames = c("GQ", "NSEW")), namesList) %>% 
+        arrange(termNames)
+```
+
+##Running the regressions
+This section of the code loops through all the specs identified from the step wise process and extracts the terms we are interested in.
+
+The final set of specs includes STATE * YEAR FE, I am dropping these for the current iteration.
+```{r}
+regressionFormulaFinal <- regressionFormulaFinal %>% 
+        mutate(spec = str_replace(spec, "\\ spatialState \\*", "")) ## replace the state * year terms
+
+```
+
+Next, I add the terms with the governance index.
+
+```{r}
+regressionFormulaFinal <- regressionFormulaFinal %>% 
+        mutate(spec = paste(spec, "+ gqDistType * postGQ * governanceIndex + nsewDistType * postNSEW * governanceIndex"))
+```
+
+We also need to add it to the names list for the final results.
+```{r}
+governanceNames <- paste(c("GQ:", "NSEW:"), "governanceIndex", sep = "")
+namesList <- bind_rows(namesList, tibble(termNames = governanceNames)) %>% 
+        arrange(termNames)
+```
+
+
+```{r, message=FALSE}
+pattern <- "(?=.*DistType0-40)(?=.*post)" ##detect all double and triple interaction terms
+
+runFinal <- function(y){
+        yVar <- regressionFormulaFinal[regressionFormulaFinal$spec == y,]$yVar
+        model <- plm(as.formula(y), data = allData)
+        
+        modelDF <- tidy(model) %>% 
+                filter(str_detect(term, pattern)) %>%
+                mutate(adjRSq = glance(model)$adj.r.squared, nobs = nobs(model)) %>%
+                select(term, estimate, p.value, adjRSq, nobs) %>% 
+                mutate(term = str_replace_all(term, c("gqDistType0-40:postGQ" = "GQ", "nsewDistType0-40:postNSEW" = "NSEW")))
+        
+        left_join(namesList, modelDF, by = c("termNames" = "term")) %>% ##join to the namesList
+                mutate(yVar = yVar)
+}
+
+finalResults <- lapply(regressionFormulaFinal$spec, runFinal)
+```
+
+
+
+```{r}
+finalResultsDF <- bind_rows(lapply(finalResults, bind_rows)) %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) 
+
+finalResultsModelChars <- finalResultsDF %>% 
+        select(yVar, nobs, adjRSq) %>% 
+        group_by(yVar) %>% 
+        summarise(nobs = unique(nobs[!is.na(nobs)]), adjRSq = unique(adjRSq[!is.na(adjRSq)])) %>% 
+        ungroup()
+
+finalResultsDF <- finalResultsDF %>% 
+        select(yVar, term = termNames, estimate) %>% 
+        spread(term, estimate) %>% 
+        left_join(., finalResultsModelChars, by = "yVar") %>% 
+        select(yVar, nobs, adjRSq, one_of(namesList$termNames)) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) %>% 
+        select(1, 24, 25, 2:23) %>% 
+        arrange(yType, yVar) %>% 
+        mutate(adjRSq = round(adjRSq, 1)) %>%
+        write_csv(., "../Results/Tables/resultsMay30thwithGovernanceIndex.csv")
+
+```
+

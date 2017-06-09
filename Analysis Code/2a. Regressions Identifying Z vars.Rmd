@@ -1,0 +1,117 @@
+---
+title: "Running Regressions: Identifying the Z vars"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary and Methodology
+This file iterates through all the combinations of the z variables to identify the best combination of z vars for each outcome of interest. The z vars themselves are categorize into 4 markets (capital, labour, land and product) and the final configuration for each outcome requires one z var for each of these categories.
+
+Each regression has the same specification structure(only the z vars are changed):
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{NSEW}_{i} + Z^{capital}_{i,t} + Z^{labour}_{i,t} + Z^{land}_{i,t} + Z^{product}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + \\Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{capital}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{labour}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{land}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{product}_{i,t} \\+ Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{capital}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{labour}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{land}_{i,t} +\\ Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{product}_{i,t} + State * Year$$
+
+
+##Loading the datasets
+```{r, message=FALSE, echo=FALSE}
+rm(list = ls())
+library(tidyverse); library(plm); library(broom); library(stringr)
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+##The list of variables
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, description) %>% 
+        arrange(yType, varNames)
+
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv") %>% 
+        arrange(zType, varNames)
+
+```
+
+##Getting the data ready
+For this set of regressions we are only interested in the y, z, the treatment and post variables. <span style="background-color:#FFD701">The variable hous_slm only has data at the urban level and is therefore NA at the total geography level. So I remove this variable from our analysis.</span>
+```{r}
+allData <- allData %>% 
+        select(finalId, year, spatialState, gqDistType, nsewDistType, postGQ, postNSEW, one_of(yVars$varNames, zVars$varNames))
+```
+
+Next I create the entire set of combinations (300 = 3 x 5 x 5 x 4) of z variables to be used for the regressions. Each Y variable will be iterated through these combinations.
+
+```{r}
+##Split the z variables based on their market categgories
+capitalVars <- zVars %>% 
+        filter(zType == "Capital market") %>% 
+        select(varNames) %>% 
+        unlist(use.names = F)
+labourVars <- zVars %>% 
+        filter(zType == "Labor market") %>% 
+        select(varNames) %>% 
+        unlist(use.names = F)
+landVars <- zVars %>% 
+        filter(zType == "Land market") %>% 
+        select(varNames) %>% 
+        unlist(use.names = F)
+productVars <- zVars %>% 
+        filter(zType == "Product market") %>% 
+        select(varNames) %>% 
+        unlist(use.names = F)
+
+##Create a data frame with the different combinations
+allCombinations <- expand.grid(capitalVar = capitalVars, labourVar = labourVars, landVar = landVars, productVar = productVars)
+
+# model <- (plm(pct_selfemp_both_tot ~ gqDistType + nsewDistType + bank_t + edu_ter_15_t+ cr_s + e_own1 + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * bank_t + gqDistType * postGQ * edu_ter_15_t + gqDistType * postGQ * cr_s + gqDistType * postGQ * e_own1 + nsewDistType * postNSEW * bank_t + nsewDistType * postNSEW * edu_ter_15_t + nsewDistType * postNSEW * cr_s + nsewDistType * postNSEW * e_own1 + gqDistType*postGQ*nsewDistType*postNSEW + spatialState * year, data = allData))
+
+
+
+
+```
+
+
+##Running the regressions
+We are interested in the terms on the 8 z variable $Distance^{GQ/NSEW}_{i, 0-40}*Post^{GQ/NSEW}_{i,t}*Z^{J}_{i,t}$ (for both GQ and NSEW) and the two $Distance^{GQ/NSEW}_{i, 0-40}*Post^{GQ/NSEW}_{i,t}$ terms. In the code chunk below, I loop through all the 300 combinations of the four z variables (one from each product market) for each of the outcomes. I store these results as a data frame.
+
+```{r}
+pattern <- "(?=.*DistType0-40)(?=.*post)"
+yLoop <- function(y){
+        ##select the y variable
+        depVar <- unlist(allData[y], use.names = F)
+        
+        regressionFunction <- function(x){ ##selects the variables and runs regression
+                result <- list()
+                ##Select all the z variables
+                capitalVar <- unlist(allData[x[1]], use.names = F)
+                labourVar <- unlist(allData[x[2]], use.names = F)
+                landVar <- unlist(allData[x[3]], use.names = F)
+                productVar <- unlist(allData[x[4]], use.names = F)
+                zVarCombo <- paste(x[1], x[2], x[3], x[4], sep = ",")
+                ##Regression
+                model <- plm(depVar ~ gqDistType + nsewDistType + capitalVar + labourVar+ landVar + productVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * capitalVar + gqDistType * postGQ * labourVar + gqDistType * postGQ * landVar + gqDistType * postGQ * productVar + nsewDistType * postNSEW * capitalVar + nsewDistType * postNSEW * labourVar + nsewDistType * postNSEW * landVar + nsewDistType * postNSEW * productVar + spatialState * year, data = allData)
+                
+                ##extracting model characteristics
+                tidy(model) %>%
+                        filter(str_detect(term, pattern)) %>%
+                        mutate(zVarCombo = zVarCombo, yVar = y, adjRSq = glance(model)$adj.r.squared) %>%
+                        select(yVar, zVarCombo, term, estimate, p.value, adjRSq)
+        }
+        
+        ##loop through all the combinations and store the results
+        apply(allCombinations, 1, regressionFunction)
+}
+
+yVarList <- yVars$varNames
+resultsList <- lapply(yVarList, function(y) yLoop(y)) ## run the loop on the outcome variables
+
+resultsListDF <- bind_rows(lapply(resultsList, bind_rows)) ##convert to data frame
+        
+write_csv(resultsListDF, "regressionResultsZVarsApr20NoQuad.csv") ##save
+```
+
+
+
+
+
+
+

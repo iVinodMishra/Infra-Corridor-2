@@ -1,0 +1,4 @@
+yVar,yType,description,capitalVar,labourVar,landVar,productVar,Intercept,GQ,NSEW,capitalGQ,capitalNSEW,labourGQ,labourNSEW,landGQ,landNSEW,productGQ,productNSEW
+povrate_rur,equality,Reduction in poverty rate (rural),e_fin3,ger_t,cr_s,e_own2,45.7376***,10.235,25.4808,0.5776,-1.5805,0.0103,-0.1856,-0.1164,-0.0439,-1.0905,-0.1658
+povrate_tot,equality,Reduction in poverty rate (total),e_fin3,edu_ter_15_t,lcrt,di_e_2,46.7633***,6.1428,11.9803,0.3932,-1.8023,-0.5414,-0.3838,NA,-0.3426**,-0.5446,-0.4862
+povrate_urb,equality,Reduction in poverty rate (urban),e_fin3,edu_ter_15_t,cr_s,di_e_2,56.0263***,15.2997,29.7274,-0.4654,-1.5016,-0.3148,-0.8609,-0.1212,-0.0196,-0.8082,-2.3625

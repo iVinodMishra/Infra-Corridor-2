@@ -1,0 +1,469 @@
+---
+title: 'Cleaning and preparing the labour force surveys'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file merges the spatial database district ids (SD) with district ids from labor force surveys (LF) and then creates a urban and rural panel LF dataset. The datasets used in this file are as follows,
+
+1. The district correspondence file: This file is a previosly created correpondence file that maps SD ids to the NSS 2001 master list of districts. 
+2. Labor force surveys: There are 4 years that are split into urban and rural.
+3. Distict Names: Each year has a corresponding file that lists the district and state names. These are used to create initial matches
+
+The general steps followed,
+
+1. Programmatically match the district and state names in the LF survey round with the names in the district correspondence file
+2. Manually reconcile the names that were not matched to create a final correspondence between LF and SD at the 2001 NSS district master list
+3. Join the data: In the case of years before 2001 the master list in 2001 should contain all the districts in 1993 and 1999 (except those that were part of a 'mega' district, see below). So for these years, we would expect to see duplicated LF ids, since some of these might have been split. In the case of the years, 2004 and 2010, the LF ids should include all of the SD final ids, so the sequence of steps would be to sum the data in 2004 based on the non-unique SD ids. We would expect to see a unique list of LF id variables after this.
+
+A few things to note:
+
+1. Some districts in the years 1993 and 1999 were split into new ones by 2001. These splits are handled by splitting the data equally between the new districts. For instance, say district A in 1993 was split into A, B, C by 2001, then, the data for A in 1993 is split into three and applied to A, B, C.
+2. When looking forward from 2001, there are instances were multiple districts were used to create a new district. We handle this by combining all the districts that were part of a split into one 'mega district'. For instance, if between the year 2001 and 2011 if district A was split into A + B, then district A, B are both mapped to a single district A in 2011 i.e. the values of A + B are combined and attributed to A. Similarly if A was split into A + B and then A and C were used to create a new district D, then A, B, C, D are combined. This is a problem that could affect LF data for years before 2001 too, since some of the districts that exist in 1993/99 could have been artificially joined to create these new mega districts.
+
+A few unresolved data issues
+
+1. Since our base year is 2001 an not the earliest year in the dataset which is 1999, managing splits when multiple districts are involved is tricky. Because we cannot create new mega districts that are based on the 1993 master list, I need to pick one district out of the several that were used for creating a new district. Suppose two districts A, B that exist in 1993 and 2001 were used to create a third district C between 1993-01. Since our base year for the correspondence file is 2001, I need to pick one of A or B to split into C, because unlike when we map back to 2001, we cannot combine A, B, C into a new mega district (since A and B also exist in 2001 our base year). For these cases I have looked at additional information (where available) on the number of taluks from each original district that were used to carve out the new district and I have picked the one with the most taluks used. Additionally, even in the case of a simple split, where A is split into A + B, we assume that it is an even split i.e. all the data are split in half (unless its a rate, in which case both are assumed to have the same value).
+2. The LF ids follow the patter XXYY where XX is the state and YY is the district. Using this I noticed that the district Barmer is allotted to the wrong state in 1993. It shoudl belong to Rajasthan but is allotted to UP (code 20). Not sure how many such mistakes exist (since it could require a individual check for each)
+3. Several big cities are missing from the 1993 survey dataset. Hyderabad, Mumbai, Kolkatta, Chennai
+4. The district names for TN in 1999 are a bit all over the place. For instance, South Arcot was split in 1993 in the Cuddalore and Villipuram (the names South Arcot does not exist after this) but the dataset contains, South Arcot and Villipuram but not Cuddalore. In general, the different states in this dataset seem to be mapped to different years i.e. some seem to reflect a district list from 1997 instead of 1999 while others seem to be even further back.
+5. The number of districts in the urban and rural sample are different for the 1999 and 2004 survey data.
+
+
+##Creating the 1993-94 survery dataset
+**Note** The urban dataset is not representative at the district level.
+This section matches the district names in the 1993-94 survey to the names in the spatial correspondence file. The final dataset should contain a unique list of final id variables (the same as the final id variable in the spatial correspondence file) and variable values.
+
+###Load the data and the packages
+The NSS codes for mapping district ids to names and the district correpondence file that maps to the SD is also loaded along with the survey datasets. The district id var (`distt_id50`) is loaded in the character format, which I convert to integer.
+```{r}
+rm(list = ls())
+library(tidyverse); library(haven)
+##loading the datasets
+rural93 <- read_dta("../../data/labor force surveys/lfs9394_rural.dta") %>% 
+        mutate(distt_id50 = as.integer(distt_id50))
+urban93 <- read_dta("../../data/labor force surveys/lfs9394_urban.dta") %>% 
+        mutate(distt_id50 = as.integer(distt_id50))
+NSSCodes <- read_dta("../../data/labor force surveys/50_1.2_str.dta")
+load("../../data/1 Cleaned files for analysis/districtCorrespondence.RDA")
+```
+
+###Matching names
+**Note:** The 1993-94 survey for some reason does not have information on the names of the states. 
+The urban dataset contains the district ids and names from 1993. I separate these two variables. These are then programmatically matched with the district names in our master list from 2001. There are **350 rows** that are unmatched. I use a unique list of final id variables to match the district names. Retrospectively, this is not the best way to do this, since while the district list in 2001 likely contains all those in 1991, the mega districts which were created would need to be added back. Ideally I should have added based on the unfiltered list. However, I work around this in a later step by mapping the unmatched district ids to the final id variable.
+
+Additionally, because the match is made on district names instead of a combination of state and district names, there are a few cases were the wrong names are matched (since there are districts with the same names in different states.). These were resolved manually
+```{r}
+##Create the district list from the 1993 survey data
+distNames93 <- urban93 %>% 
+        select(39:38) %>% 
+        arrange(distt_id50)
+
+##programmatically match with the spatial correspondence file and save as a raw correspondence file
+districtCorrespondence %>% 
+        mutate(nss2001District = toupper(nss2001District)) %>% 
+        select(8, 2, 3, 4, 5, 9) %>% 
+        group_by(finalId) %>% 
+        filter(!duplicated(finalId)) %>% ##only keeping the 2001 level of districts
+        left_join(., distNames93, by = c("nss2001District" = "dist91stratum")) %>% 
+        write_csv(., "../../data/labor force surveys/Correspondence Files/rawCorrespondence93.csv")
+```
+Unlike other datasets where we map back to 2001, in this case we need to map forward since our starting point is 1993. It is likely that some districts that existed in 1993 were split into multiple districts by 2001, so the approach for creating the correspondence is the reverse of the steps for datasets wih the years after 2001. I use a starting list of districts and final ids from 2001 (from the districtCorrespondence file). These are then mapped to the district ids in the 1993 survey dataset. Those that are unmatched will then be manually mapped. 
+
+###Unmatched Data
+There were 32 districts in the 2001 correspondence file that were not present in the survey data. This could be because they were not surveyed or the names are completely different (i.e. statoids/internet did not have answers). The data is printed below.
+
+```{r, message=FALSE, warning=FALSE}
+##Load the manually matched distirct names
+correspondence93 <- read_csv("../../data/labor force surveys/Correspondence Files/cleanCorrespondence93.csv") %>% 
+        mutate(distt_id50 = as.integer(distt_id50)) %>% 
+        filter(!is.na(distt_id50)) ## remove the unmatched ids
+
+##print districts in the 2001 list that were not matched with the 1993 list
+districtCorrespondence %>%
+        filter(finalId == spatialId) %>% 
+        filter(!(finalId %in% correspondence93$finalId)) %>% 
+        select(1:3) %>% 
+        ungroup()
+
+```
+
+More importantly there are 11 ids in the 1993 LF survey dataset that were not matched. Most of these are because they are part of a mega district i.e. they were combined together in the spatial correspondence file to account for complicated splits. I save these and manually match them to a final id (from the spatial correspondence file.). These are then added to the table that matches the suvey names to the spatial ids.
+
+**Note:** Three districts remain unmatched even after the manual match because I couldn't find their names.
+
+Since I am using a master list with only the aggregated final id variables (that are mapped to 2001) some of the districts in the LF survey were unmatched. This is because they don't exist anymore in the final correspondence file (i.e. there are cases were districts A, B, C were merged into district C, while districts A, B continue to exist in practice, they don't do so in our correspondence file.). I separate these out and then assigne them the correct final id variables wherever possible. The values for these variables are then added up to create a new aggregated LF survey.
+
+```{r, message=FALSE, warning=FALSE}
+##identify the districts in the 1993 survey that were not matched (mainly mega districts)
+unmatchedUrban93 <- urban93 %>% 
+        filter(!(distt_id50 %in% correspondence93$distt_id50)) %>% 
+        select(38, 39)
+unmatchedUrban93
+
+write_csv(unmatchedUrban93, "../../data/labor force surveys/Correspondence Files/unMatched93.csv")
+
+correspondence93 <- rbind(correspondence93, read_csv("../../data/labor force surveys/Correspondence Files/unMatched93matched.csv"))
+```
+
+So now we have a list of ids with non-unique final ids and district ids from the laour force survey.
+
+##Merging the spatial ids with the 1993 survey data
+After the observations with missing LF ids are removed, we have a file with 569 rows, 436 unique LF ids and 560 spatial ids. So in the first step I join in the LF survey data using the LF ids. This would mean that there are multiple rows with the same values. These are then split (by dividing by the number of common ids). Once this is done, we need to combine the final ids that are common (to account for the mega districts). These values are summed to create a final file that has a unique set of final ids (i.e. 560 rows). Note the variables that are a rate are expressed as is (so no splitting or summing, just a mean in the latter case).
+
+```{r}
+urbanFinal93 <- correspondence93 %>% 
+        filter(!is.na(distt_id50)) %>% 
+        left_join(., urban93, by = "distt_id50") %>% 
+        group_by(distt_id50) %>% 
+        mutate_at(c(4:36), .funs = funs(./n())) %>% 
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(4:36, sum) %>% 
+        mutate_at(37, mean) %>% 
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+
+ruralFinal93 <- correspondence93 %>% 
+        filter(!is.na(distt_id50)) %>% 
+        left_join(., rural93, by = "distt_id50") %>% 
+        group_by(distt_id50) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% 
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% 
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+```
+
+The urban and rural datasets for 1993 are ready and mapped to the SD ids (at the 2001 NSS master list).
+
+##1999-00 survey
+###Load the datasets
+```{r}
+##loading the datasets
+rural99 <- read_dta("../../data/labor force surveys/lfs199900_rural.dta") %>% 
+        mutate(distt_id55 = as.integer(distt_id55))
+urban99 <- read_dta("../../data/labor force surveys/lfs199900_urban.dta")%>% 
+        mutate(distt_id55 = as.integer(distt_id55))
+NSSCodes <- read_dta("../../data/labor force surveys/Final_2000-1989(55th).dta")
+```
+
+###Matching Names
+This district names and ids are in the NSS code file. Single digit district codes need to have a zero added to the front (1 become "01") so that the codes match with the survey dataset codes. 
+
+I first create a raw correpondence file that matches the names programmatically and then match the rest manually. There were **251 rows** that were not matched.
+```{r}
+distNames99 <- NSSCodes %>% 
+        mutate(NSS2000_dist_code = ifelse(NSS2000_dist_code < 10, paste("0", NSS2000_dist_code, sep = ""), as.character(NSS2000_dist_code))) %>% 
+        mutate(distt_id55 = paste(NSS2000_state_id, NSS2000_dist_code, sep = "")) %>%
+        arrange(NSS2000_state, NSS2000_dist_code) %>% 
+        select(distt_id55, NSS2000_state_id, NSS2000_state, NSS2000_dist_code, NSS2000_dist)
+
+districtCorrespondence %>% 
+        select(1, 8, 2, 3, 4, 5, 9) %>% 
+        filter(finalId == spatialId) %>% ##only keeping the 2001 level of districts
+        left_join(., distNames99, by = c("nss2001State" = "NSS2000_state", "nss2001District" = "NSS2000_dist")) %>% 
+        write_csv(., "../../data/labor force surveys/Correspondence Files/rawCorrespondence99.csv")
+```
+
+
+###Unmatched observations
+As far as possible, splits into multiple districts have been managed so that the final allocation (i.e. LF id) is the same as in the 1993 dataset. There are 19 districts in the master list from 2001 that are unmatched.
+```{r, message=FALSE, warning=FALSE}
+correspondence99 <- read_csv("../../data/labor force surveys/Correspondence Files/cleanCorrespondence99.csv") %>% 
+        mutate(distt_id55 = as.integer(distt_id55))%>%
+        filter(!is.na(distt_id55)) ## remove the unmatched ids
+
+districtCorrespondence %>% 
+        group_by(finalId) %>% 
+        filter(finalId == spatialId) %>% 
+        filter(!(finalId %in% correspondence99$finalId)) %>% 
+        select(1:3) %>% 
+        ungroup()
+```
+
+There are 16 ids from the LF survey dataset that were not matched. Some of these are because multiple districts that were part of a split were merged in the 2001 master list (so some districts were removed from the list), while the other non matches are odd cases were districts that were from a previous time period persist in the LF dataset. I match these separately and add them to our LF correspondence file.
+
+```{r, message=FALSE, warning=FALSE}
+unmatchedNames99 <- distNames99 %>% 
+        filter(!(distt_id55 %in% correspondence99$distt_id55))
+unmatchedNames99
+write_csv(unmatchedNames99, "../../data/labor force surveys/Correspondence Files/unMatched99.csv")
+
+correspondence99 <- rbind(correspondence99, read_csv("../../data/labor force surveys/Correspondence Files/unMatched99matched.csv"))
+```
+
+###Merging the SD ids with the 1999 LF surveys 
+The same steps as for 1993 are followed.
+```{r}
+urbanFinal99 <- correspondence99 %>% 
+        filter(!is.na(distt_id55)) %>% ##remove unmatched districts
+        left_join(., urban99, by = "distt_id55")%>% ##join the urban survey
+        group_by(distt_id55) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% 
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+
+ruralFinal99 <- correspondence99 %>% 
+        filter(!is.na(distt_id55)) %>% ##remove unmatched districts
+        left_join(., rural99, by = "distt_id55")%>% ##join the urban survey
+        group_by(distt_id55) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% 
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+
+```
+
+
+##2004-05 survey
+###Load the datasets
+```{r}
+##loading the datasets
+rural04 <- read_dta("../../data/labor force surveys/lfs200405_rural.dta")%>% 
+        mutate(distt_id61 = as.integer(distt_id61)) 
+urban04 <- read_dta("../../data/labor force surveys/lfs200405_urban.dta")%>% 
+        mutate(distt_id61 = as.integer(distt_id61))
+NSSCodes <- read_dta("../../data/labor force surveys/Final_2004-1989(60th).dta")
+```
+
+##Match observations
+The matching for this year is far more straight forward than the previous two years. There were **114** unmatched names. And a lot of them were due to mismatched state names and therefore easier to fix.
+**Note:** I am not filtering a unique set of final spatial id variables. This helps avoid the extra step needed to account for the mega districts.
+
+```{r}
+distNames04 <- NSSCodes %>% 
+        select(9, 8, 12, 11) %>% 
+        mutate(NSS2004_dist_code = ifelse(NSS2004_dist_code < 10, paste("0", NSS2004_dist_code, sep = ""), as.character(NSS2004_dist_code))) %>% 
+        mutate(distt_id61 = paste(NSS2004_state_id, NSS2004_dist_code, sep = "")) %>%
+        arrange(NSS2004_state, NSS2004_dist_code) %>% 
+        select(distt_id61, NSS2004_state_id, NSS2004_state, NSS2004_dist_code, NSS2004_dist)
+
+districtCorrespondence %>% 
+        select(1, 8, 2, 3, 6, 7, 9) %>% 
+        left_join(., distNames04, by = c("nss2010State" = "NSS2004_state", "nss2010District" = "NSS2004_dist")) %>% 
+        write_csv(., "../../data/labor force surveys/Correspondence Files/rawCorrespondence04.csv")
+```
+
+###Unmatched observations
+THere are 3 unmatched districts in our master list. They are shown below. Two of them in J&K is a small mistake in the district correspondence file but since we take J&K out of the analysis I havent fixed them yet. 
+
+All the districts in the 2004-05 LF survey are accounted for i.e. merging on the entire district correspondence file takes care of the mega districts problem.
+```{r, message=FALSE, warning=FALSE}
+correspondence04 <- read_csv("../../data/labor force surveys/Correspondence Files/cleanCorrespondence04.csv") %>% 
+        mutate(distt_id61 = as.integer(distt_id61))%>% 
+        filter(!is.na(distt_id61))
+
+districtCorrespondence %>% 
+        group_by(finalId) %>% 
+        filter(finalId == spatialId) %>% 
+        filter(!(finalId %in% correspondence04$finalId)) %>% 
+        select(1:3) %>% 
+        ungroup()
+
+```
+
+###Merging the spatial ids to the 2004 survey datasets
+There are 643 observations in the correspondence file. There are 596 unique LF ids and 589 final spatial ids. 
+**Note:** We need to reverse the order of steps followed here. Since we are mapping back to the 2001 level, the universe of unique LF ids should be bigger than SD ids. However, since we mapped on the unfiltered correspondence we have multiple
+We follow the same steps as before to create a final file that has a unique set of final ids.
+```{r, warning=FALSE, message=FALSE}
+nrow(urbanFinal04)
+n_distinct(urbanFinal04$distt_id61)
+
+testRows <- urbanFinal04 %>% 
+        group_by(distt_id61) %>% 
+        filter(n() > 1) %>% 
+        arrange(distt_id61)
+distNames04 %>% 
+        filter(distt_id61 %in% testRows$distt_id61)
+urbanFinal04 <- correspondence04 %>% 
+        left_join(., urban04, by = "distt_id61") %>% ##join the urban survey
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% ## this is a rate variable
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup() 
+
+%>% 
+        group_by(distt_id61) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        
+
+ruralFinal04 <- correspondence04 %>% 
+        filter(!is.na(distt_id61)) %>% ##remove unmatched districts
+        left_join(., rural04, by = "distt_id61")%>% ##join the urban survey
+        group_by(distt_id61) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% ## this is a rate variable
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+```
+
+
+##2009-10 survey
+###Load the datasets
+```{r}
+##loading the datasets
+rural10 <- read_dta("../../data/labor force surveys/lfs200910_rural.dta")%>% 
+        mutate(distt_id66 = as.integer(distt_id66)) 
+urban10 <- read_dta("../../data/labor force surveys/lfs200910_urban.dta")%>% 
+        mutate(distt_id66 = as.integer(distt_id66))
+NSSCodes <- read_dta("../../data/labor force surveys/Final_2010-1989(67th).dta")
+```
+
+###Matching
+For this match I use the NSS 2010 names that are there in the correspondence file (instead of the 2001 names).
+The matching for this was done based on the NSS 2010 state and district names in the master list. As for 2004, I don't filter out unique final id names, so we don't have to worry about the mega districts.
+
+```{r}
+distNames09 <- NSSCodes %>% 
+        select(9, 8, 12, 11) %>% 
+        mutate(NSS2010_dist_code = ifelse(NSS2010_dist_code < 10, paste("0", NSS2010_dist_code, sep = ""), as.character(NSS2010_dist_code))) %>% 
+        mutate(distt_id66 = paste(NSS2010_state_id, NSS2010_dist_code, sep = "")) %>%
+        arrange(NSS2010_state, NSS2010_dist_code) %>% 
+        select(distt_id66, NSS2010_state_id, NSS2010_state, NSS2010_dist_code, NSS2010_dist)
+
+districtCorrespondence %>% 
+        select(1, 8, 2, 3, 6, 7, 9) %>% 
+        left_join(., distNames09, by = c("nss2010State" = "NSS2010_state", "nss2010District" = "NSS2010_dist")) %>%
+        write_csv(., "../../data/labor force surveys/Correspondence Files/rawCorrespondence10.csv")
+```
+
+
+###Unmatched Observations
+The LF survey does not have districts from Arunachal Pradesh and Mizoram, but the rest were matched perfectly  (Two districts in J and K, Reasi and Ramban do not match, this seems to be a small mistake in the district correposndence file since these were formed after 2010).
+
+```{r}
+correspondence10 <- read_csv("../../data/labor force surveys/Correspondence Files/cleanCorrespondence10.csv") %>% 
+        mutate(distt_id66 = as.integer(distt_id66)) %>% 
+        filter(!is.na(distt_id66)) ##remove unmatched districts
+
+districtCorrespondence %>% 
+        group_by(finalId) %>% 
+        filter(finalId == spatialId) %>% 
+        filter(!(finalId %in% correspondence10$finalId)) %>% 
+        select(1:3) %>% 
+        ungroup()
+```
+
+There also re two districts in the LF that could not be matched. These couldn't be found in our master correspondence file. There was a Nainital (P) and Dehradun (P) which were matched. Not sure what the H stands for.
+```{r}
+distNames09 %>% 
+        filter(!(distt_id66 %in% correspondence10$distt_id66))
+```
+
+###Merging the spatial ids to the 2010 survey datasets
+I follow the same steps as earlier
+```{r, warning=FALSE, message=FALSE}
+
+urbanFinal10 <- correspondence10 %>% 
+        left_join(., urban10, by = "distt_id66")%>% ##join the urban survey
+        group_by(distt_id66) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% ## this is a rate variable
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+
+ruralFinal10 <- correspondence10 %>% 
+        left_join(., rural10, by = "distt_id66")%>% ##join the urban survey
+        group_by(distt_id66) %>% 
+        mutate_at(c(2:34), .funs = funs(./n())) %>% ##divide values by count of obs within each group
+        ungroup() %>% 
+        group_by(finalId) %>% 
+        mutate_at(2:34, sum) %>% 
+        mutate_at(35, mean) %>% ## this is a rate variable
+        filter(row_number() == 1) %>% ## keep only the first row
+        ungroup()
+
+rm(list = setdiff(ls(), c("districtCorrespondence", "urbanFinal93", "ruralFinal93", "urbanFinal99", "ruralFinal99", "urbanFinal04", "ruralFinal04", "urbanFinal10", "ruralFinal10")))
+```
+
+
+##All Together Now
+In this section I create a urban and rural panel that includes data from the 4 rounds of surveys.
+
+##Making sure that all the datasets have the same names
+
+```{r}
+##urban final 93
+urbanFinal93 <- urbanFinal93 %>% 
+        select(-(2:3), -(38:41)) %>% 
+        mutate(year = 1993)
+urbanFinal99 <- urbanFinal99 %>% 
+        select(-2) %>% 
+        mutate(year = 1999)
+urbanFinal04 <- urbanFinal04 %>% 
+        select(-2) %>% 
+        mutate(year = 2004)
+urbanFinal10 <- urbanFinal10 %>% 
+        select(-2) %>% 
+        mutate(year = 2010)
+names(urbanFinal10)[names(urbanFinal10) != names(urbanFinal04)] <- c("UNEMPLOYED_female_urb", "UNEMPLOYED_male_urb") ## two names don't match these are manually changed
+
+if(identical(names(urbanFinal93), names(urbanFinal99)) & identical(names(urbanFinal99), names(urbanFinal04)) & identical(names(urbanFinal04), names(urbanFinal10))){
+        print("All names are identical")
+}
+```
+###Creating the combined panel dataset
+Here I merge all the years together. Note that this is an unbalanced panel.
+```{r}
+urbanFinal <- rbind(urbanFinal93, urbanFinal99, urbanFinal04, urbanFinal10)
+urbanFinal <- urbanFinal %>% 
+        arrange(finalId, year) %>% 
+        select(1, 36, 2:35)
+urbanFinal
+```
+
+###Repeating the same steps for rural
+```{r}
+ruralFinal93 <- ruralFinal93 %>% 
+        select(-2)%>% 
+        mutate(year = 1993)
+
+ruralFinal99 <- ruralFinal99 %>% 
+        select(-2)%>% 
+        mutate(year = 1999)
+
+ruralFinal04 <- ruralFinal04 %>% 
+        select(-2)%>% 
+        mutate(year = 2004)
+
+ruralFinal10 <- ruralFinal10 %>% 
+        select(-2)%>% 
+        mutate(year = 2010)
+
+names(ruralFinal10)[names(ruralFinal10) != names(ruralFinal04)]<- c("UNEMPLOYED_female_rur", "UNEMPLOYED_male_rur") ## two names don't match these are manually changed
+
+if(identical(names(ruralFinal93), names(ruralFinal99)) & identical(names(ruralFinal99), names(ruralFinal04)) & identical(names(ruralFinal04), names(ruralFinal10))){
+        print("All names are identical")
+}
+```
+
+```{r}
+ruralFinal <- rbind(ruralFinal93, ruralFinal99, ruralFinal04, ruralFinal10)
+ruralFinal <- ruralFinal %>% 
+        arrange(finalId, year) %>% 
+        select(1, 36, 2:35)
+ruralFinal
+```
+

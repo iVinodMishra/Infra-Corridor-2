@@ -1,0 +1,389 @@
+---
+title: "Model Selection: Identifying the Z vars"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+
+From all the combination of Z variables for a particular outcome I use the following methods for model selection
+
+1. Filter those results for which the sign of the double interaction terms for GQ and NSEW ($Distance^{GQ/NSEW}_{i, 0-40}*Post^{GQ/NSEW}_{i,t}$) is positive.
+    a. From all the specifications with positive terms, I pick the spec that minimizes the combined p value of all the terms of interest.
+    b. The second method picks the specification that maximizes the
+2. Maximizes the adjusted R square
+    a. Maximize without checking for the signs on the double interaction terms for GQ and NSEW
+    b. Filter out those that have positive GQ and NSEW and then maximize R-Square
+3. ~~Minimizes the  Bayesian information criterion (BIC)~~
+4. ~~Minimizes the  Akaike information criterion (AIC).~~
+
+The current specification for selecting z variables is as follows:
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{NSEW}_{i} + Z^{capital}_{i,t} + Z^{labour}_{i,t} + Z^{land}_{i,t} + Z^{product}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + \\Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{capital}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{labour}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{land}_{i,t} + Distance^{GQ}_{i}*Post^{GQ}_{i,t}*Z^{product}_{i,t} \\+ Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{capital}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{labour}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{land}_{i,t} +\\ Distance^{NSEW}_{i}*Post^{NSEW}_{i,t}*Z^{product}_{i,t} + State * Year$$
+
+```{r, message=FALSE, echo=FALSE}
+rm(list = ls())
+library(tidyverse)
+regressionResults <- read_csv("regressionResultsZVarsApr20NoQuad.csv")
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, description) %>% 
+        arrange(yType, varNames)
+tableNames <- read_csv("tableNames.csv")
+
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+```
+
+
+```{r, echo=FALSE}
+# ##Model Selection
+# In this part I select the models based on either p value or the adjusted R square, format and save the results.
+# ##Using P value
+# The first condition for the model selection process using p values is to filter out only those combination for which the the signs of the interaction terms between the treatment and the post variables are positive.
+# 
+# **Step 1: Filter out the regressions with negative GQ/NSEW estimates**
+pValueSelection <- regressionResults %>% 
+        group_by(yVar, zVarCombo) %>%
+        filter(estimate[term == "gqDistType0-40:postGQ"] > 0 & estimate[term == "nsewDistType0-40:postNSEW"] > 0 ) %>% 
+        ungroup()
+```
+**NOTE**
+<span style="background-color:#FFD701">The outcome log of GDP per capita has no combinations of z variables for which both the NSEW and GQ double interaction terms ($Distance^{GQ}_{i}*Post^{GQ}_{i,t}$) are both positive.</span>. The only change in the specification was that the Z variables for land were reduced to only cr_s.
+```{r}
+unique(regressionResults$yVar)[!(unique(regressionResults$yVar) %in% unique(pValueSelection$yVar))]
+```
+
+
+```{r, echo=FALSE}
+# **Step 1a: Minimizing the p value of all terms**
+allMinimum <- pValueSelection %>% 
+        group_by(yVar, zVarCombo) %>% 
+        mutate(pSum = sum(p.value)) %>% 
+        ungroup() %>% 
+        group_by(yVar) %>% 
+        filter(pSum == min(pSum, na.rm = T)) %>% 
+        ungroup() %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, zVarCombo, term, estimate) %>% 
+        spread(term, estimate) %>% 
+        separate(zVarCombo, into = c("capitalVar", "labourVar", "landVar", "productVar"), sep = "\\,") %>% 
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(one_of(tableNames$rawNames)) ##order based on final names lists
+
+names(allMinimum) <- tableNames$finalNames ##change names
+
+#write_csv(finalList1, "../Results/Tables/allMinimum1poverty.csv")
+```
+
+
+```{r, echo=FALSE}
+# **Step 1b: Minimizing the p value for GQ and NSEW terms**
+gqnsewMinimum <- pValueSelection %>% 
+        group_by(yVar, zVarCombo) %>% 
+        mutate(pSum = sum(p.value[term == "gqDistType0-40:postGQ"], p.value[term == "nsewDistType0-40:postNSEW"], na.rm = T)) %>% 
+        ungroup() %>% 
+        group_by(yVar) %>% 
+        filter(pSum == min(pSum, na.rm = T)) %>%
+        ungroup() %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, zVarCombo, term, estimate) %>% 
+        spread(term, estimate) %>% 
+        separate(zVarCombo, into = c("capitalVar", "labourVar", "landVar", "productVar"), sep = "\\,") %>% 
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(one_of(tableNames$rawNames)) ##order based on final names lists
+
+names(gqnsewMinimum) <- tableNames$finalNames ##change names
+
+#write_csv(finalList2, "../Results/Tables/GQNSEWMinimum1poverty.csv")
+```
+
+
+```{r, echo=FALSE}
+# ##Selecting based on the Adjusted R-Square
+# For this section the criterion is maximizing the R-Square.
+# 
+# **Step 2a: Filter based on max(R-Square)**
+# Some of the outcome variables have multiple specifications with the same R-Square value. So the final table has multiple specs for some of the outcomes.
+rSquareSelection <- regressionResults %>% 
+        group_by(yVar) %>%
+        filter(adjRSq == max(adjRSq)) %>% 
+        ungroup() %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, zVarCombo, term, estimate) %>% 
+        spread(term, estimate) %>% 
+        separate(zVarCombo, into = c("capitalVar", "labourVar", "landVar", "productVar"), sep = "\\,") %>% 
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(one_of(tableNames$rawNames)) ##order based on final names lists
+
+names(rSquareSelection) <- tableNames$finalNames ##change names
+```
+
+
+
+```{r, echo=FALSE}
+# **Step 2b: Filter Positive GQ NSEW before max(R-Square)**
+# In this case I first select the specs that have positive GQ and NSEW terms before applying the max(R-Square) criterion.
+rSquarePositive <- regressionResults %>% 
+        group_by(yVar, zVarCombo) %>%
+        filter(estimate[term == "gqDistType0-40:postGQ"] > 0 & estimate[term == "nsewDistType0-40:postNSEW"] > 0 ) %>% 
+        ungroup() %>% 
+        group_by(yVar) %>%
+        filter(adjRSq == max(adjRSq)) %>% 
+        ungroup() %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, zVarCombo, term, estimate) %>% 
+        spread(term, estimate) %>% 
+        separate(zVarCombo, into = c("capitalVar", "labourVar", "landVar", "productVar"), sep = "\\,") %>% 
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(one_of(tableNames$rawNames)) ##order based on final names lists
+
+names(rSquarePositive) <- tableNames$finalNames ##change names
+```
+
+
+```{r, echo=FALSE}
+##Saving the datasets
+xlsx::write.xlsx(allMinimum, file = "../Results/Tables/allResults.xlsx", sheetName = "allMinimum")
+xlsx::write.xlsx(gqnsewMinimum, file = "../Results/Tables/allResults.xlsx", sheetName = "gqnsewMinimum", append=TRUE)
+xlsx::write.xlsx(rSquareSelection, file = "../Results/Tables/allResults.xlsx", sheetName = "rSquareSelection", append=TRUE)
+xlsx::write.xlsx(rSquarePositive, file = "../Results/Tables/allResults.xlsx", sheetName = "rSquarePositive", append=TRUE)
+```
+
+
+##Making all the charts
+The code for creating the results is hidden to make this report concise. The section below loops through all the results for each model selection process and creates charts for each.
+
+All the charts in reference to the terms that are relevant for GQ
+```{r, message=FALSE, echo=FALSE}
+##Convert to numeric
+chartData <- allMinimum %>% 
+        mutate_at(8:17, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) %>% 
+        select(yVar, 8, 10, 12, 14, 16) ##select only the GQ terms
+
+##The dataframe of names to iterate through
+zVars <- allMinimum %>% 
+        select(1, 4:7)
+
+##Outcome variables
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, title) %>% 
+        arrange(yType, varNames)
+```
+
+
+```{r, echo=FALSE}
+#I use a custom function to calculate  Gamma x Z(@10th percentile) and Gamma x Z(@90th percentile).
+calculatePercentiles <- function(x){
+        ##calculate the 0.1 and 0.9 percentile values
+        capitalVar <- quantile(unlist(allData[x[2]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T)
+        labourVar <- quantile(unlist(allData[x[3]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T)
+        landVar <- quantile(unlist(allData[x[4]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T)
+        productVar <- quantile(unlist(allData[x[5]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T)
+        
+        ##output a data frame with the values
+        tibble(yVar = x[1], zVarCombo = paste(x[2], x[3], x[4], x[5], sep = ", "),capital10 = capitalVar[1], capital90 = capitalVar[2], labour10 = labourVar[1], labour90 = labourVar[2], land10 = landVar[1], land90 = landVar[2], product10 = productVar[1], product90 = productVar[2])
+}
+```
+
+
+```{r, echo=FALSE}
+##Calculate the values
+percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles))%>% ##apply function to list of zVars
+        gather(key = type, value = marketEffect, 3:10) %>% 
+        separate(type, into = c("market", "percentile"), sep = -3) %>% 
+        arrange(yVar) %>% 
+        left_join(., chartData, by = "yVar") %>%
+        ungroup() %>% 
+        mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>% 
+        select(1:5) %>% 
+        mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) 
+```
+
+
+```{r, echo=FALSE}
+##Function to create the plots
+createCharts <- function(chartData, titleName, subTitleName){
+        ggplot(chartData, aes(x = percentile, y = marketEffect, fill = fillVar)) +
+        geom_bar(stat = "identity", width = .9) +
+        scale_fill_manual(name= "", values=c("Reduced Impact"="firebrick3","Improved Impact" = "blue")) +
+        facet_wrap(~market, drop = T, strip.position = "bottom", nrow = 1) +
+        labs(title = titleName, subtitle = subTitleName, y = "Complementary effects") +
+        theme_tufte() +
+        guides(fill=guide_legend(nrow=1, byrow = TRUE)) +
+        theme(title = element_text(size = 14, margin = (t = 1), face = "bold"),axis.title.x = element_blank(), 
+              strip.text = element_text(size = 14), 
+              axis.text.x = element_text(size = 16), 
+              axis.text.y = element_text(size = 12), 
+              axis.title.y = element_text(size = 18),
+              legend.text = element_text(size = 18), 
+              legend.position = "top",
+              panel.spacing = unit(0, "lines"), 
+              strip.background = element_blank(), 
+              strip.placement = "outside")
+        
+}
+
+```
+
+#1. All minimum P Value
+```{r, message=FALSE}
+varList <- zVars %>% 
+        mutate(zVarCombo = paste(capitalVar, labourVar, landVar, productVar, sep = ", ")) %>% 
+        select(yVar, zVarCombo)
+
+for(i in 1:length(varList$yVar)){
+        yvarTemp <- varList[i, ]$yVar
+        zVarComboTemp <- varList[i, ]$zVarCombo
+        
+        chartData <- percentileValues %>% 
+                filter(yVar ==  yvarTemp & zVarCombo == zVarComboTemp)
+        
+        titleName <- unique(chartData$title)
+        subTitleName <- unique(chartData$zVarCombo)
+        print(createCharts(chartData, titleName, subTitleName))
+}
+```
+
+#2. GQ/NSEW minimum P Value
+```{r, echo=FALSE}
+##Convert to numeric
+chartData <- gqnsewMinimum %>% 
+        mutate_at(8:17, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) %>% 
+        select(yVar, 8, 10, 12, 14, 16) ##select only the GQ terms
+
+##The dataframe of names to iterate through
+zVars <- gqnsewMinimum %>% 
+        select(1, 4:7)
+
+##Calculate the values
+percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles))%>% ##apply function to list of zVars
+        gather(key = type, value = marketEffect, 3:10) %>% 
+        separate(type, into = c("market", "percentile"), sep = -3) %>% 
+        arrange(yVar) %>% 
+        left_join(., chartData, by = "yVar") %>%
+        ungroup() %>% 
+        mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>% 
+        select(1:5) %>% 
+        mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) 
+```
+
+```{r, message=FALSE}
+varList <- zVars %>% 
+        mutate(zVarCombo = paste(capitalVar, labourVar, landVar, productVar, sep = ", ")) %>% 
+        select(yVar, zVarCombo)
+
+for(i in 1:length(varList$yVar)){
+        yvarTemp <- varList[i, ]$yVar
+        zVarComboTemp <- varList[i, ]$zVarCombo
+        
+        chartData <- percentileValues %>% 
+                filter(yVar ==  yvarTemp & zVarCombo == zVarComboTemp)
+        
+        titleName <- unique(chartData$title)
+        subTitleName <- unique(chartData$zVarCombo)
+        print(createCharts(chartData, titleName, subTitleName))
+}
+```
+
+
+#3. Maximizing R-SQUARE
+```{r, echo=FALSE}
+##Convert to numeric
+chartData <- rSquareSelection %>% 
+        mutate_at(8:17, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) %>% 
+        select(yVar, 8, 10, 12, 14, 16) ##select only the GQ terms
+
+##The dataframe of names to iterate through
+zVars <- rSquareSelection %>% 
+        select(1, 4:7)
+
+##Calculate the values
+percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles))%>% ##apply function to list of zVars
+        gather(key = type, value = marketEffect, 3:10) %>% 
+        separate(type, into = c("market", "percentile"), sep = -3) %>% 
+        arrange(yVar) %>% 
+        left_join(., chartData, by = "yVar") %>%
+        ungroup() %>% 
+        mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>% 
+        select(1:5) %>% 
+        mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) 
+```
+
+```{r, message=FALSE}
+varList <- zVars %>% 
+        mutate(zVarCombo = paste(capitalVar, labourVar, landVar, productVar, sep = ", ")) %>% 
+        select(yVar, zVarCombo)
+
+for(i in 1:length(varList$yVar)){
+        yvarTemp <- varList[i, ]$yVar
+        zVarComboTemp <- varList[i, ]$zVarCombo
+        
+        chartData <- percentileValues %>% 
+                filter(yVar ==  yvarTemp & zVarCombo == zVarComboTemp)
+        
+        titleName <- unique(chartData$title)
+        subTitleName <- unique(chartData$zVarCombo)
+        print(createCharts(chartData, titleName, subTitleName))
+}
+```
+
+#3. Maximizing R-SQUARE After filtering positive GQ/NSEW
+```{r, echo=FALSE}
+##Convert to numeric
+chartData <- rSquarePositive %>% 
+        mutate_at(8:17, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) %>% 
+        select(yVar, 8, 10, 12, 14, 16) ##select only the GQ terms
+
+##The dataframe of names to iterate through
+zVars <- rSquarePositive %>% 
+        select(1, 4:7)
+
+##Calculate the values
+percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles))%>% ##apply function to list of zVars
+        gather(key = type, value = marketEffect, 3:10) %>% 
+        separate(type, into = c("market", "percentile"), sep = -3) %>% 
+        arrange(yVar) %>% 
+        left_join(., chartData, by = "yVar") %>%
+        ungroup() %>% 
+        mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>% 
+        select(1:5) %>% 
+        mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) 
+```
+
+```{r, message=FALSE}
+varList <- zVars %>% 
+        mutate(zVarCombo = paste(capitalVar, labourVar, landVar, productVar, sep = ", ")) %>% 
+        select(yVar, zVarCombo)
+
+for(i in 1:length(varList$yVar)){
+        yvarTemp <- varList[i, ]$yVar
+        zVarComboTemp <- varList[i, ]$zVarCombo
+        
+        chartData <- percentileValues %>% 
+                filter(yVar ==  yvarTemp & zVarCombo == zVarComboTemp)
+        
+        titleName <- unique(chartData$title)
+        subTitleName <- unique(chartData$zVarCombo)
+        print(createCharts(chartData, titleName, subTitleName))
+}
+```
+
+
+##Temporary section for checks
+```{r}
+step(plm(logGdpPc ~ gqDistType + nsewDistType + e_pr_fin3 + edu_ter_15_t+ cr_s + est_sh_1 + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * e_pr_fin3 + gqDistType * postGQ * edu_ter_15_t + gqDistType * postGQ * cr_s + gqDistType * postGQ * est_sh_1 + nsewDistType * postNSEW * e_pr_fin3 + nsewDistType * postNSEW * edu_ter_15_t + nsewDistType * postNSEW * cr_s + nsewDistType * postNSEW * est_sh_1 + gqDistType*postGQ*nsewDistType*postNSEW + spatialState * year, data = allData), direction = "both")
+summary(model)
+
+ggplot(filter(allData, logGdpPc > 5), aes(x = cr_s, y = logGdpPc)) + geom_point() + geom_smooth(method = "lm")
+```
+

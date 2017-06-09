@@ -1,0 +1,384 @@
+distCode,spatialId,finalId,distName,spatialState,spatialDistrict,nss2001State,nss2001District,nss2010State,nss2010District,Note
+102,3_1_8_0,3_1_8_0,Baramula,Jammu and Kashmir,Baramula,Jammu  & Kashmir,Baramula,Jammu  & Kashmir,Baramula,Bandipore district split from Baramula
+103,3_1_10_0,3_1_10_0,Srinagar,Jammu and Kashmir,Srinagar,Jammu  & Kashmir,Srinagar,Jammu  & Kashmir,Srinagar,Ganderbal district split from Srinagar
+105,3_1_12_0,3_1_12_0,Pulwama,Jammu and Kashmir,Pulwama,Jammu  & Kashmir,Pulwama,Jammu  & Kashmir,Pulwama,Shupiyan district split from Pulwama
+112,3_1_6_0,3_1_6_0,Rajauri,Jammu and Kashmir,Rajouri,Jammu  & Kashmir,Rajauri,Jammu  & Kashmir,Rajauri,NA
+113,3_1_21_0,3_1_21_0,Jammu,Jammu and Kashmir,Jammu,Jammu  & Kashmir,Jammu,Jammu  & Kashmir,Jammu,Samba district formed from parts of Jammu and Kathua
+201,3_2_23_0,3_2_23_0,Chamba,Himachal Pradesh,Chamba,Himachal Pradesh,Chamba,Himachal Pradesh,Chamba,NA
+202,3_2_24_0,3_2_24_0,Kangra,Himachal Pradesh,Kangra,Himachal Pradesh,Kangra,Himachal Pradesh,Kangra,NA
+204,3_2_26_0,3_2_26_0,Kullu,Himachal Pradesh,Kullu,Himachal Pradesh,Kullu,Himachal Pradesh,Kullu,NA
+205,3_2_27_0,3_2_27_0,Mandi,Himachal Pradesh,Mandi,Himachal Pradesh,Mandi,Himachal Pradesh,Mandi,NA
+206,3_2_28_0,3_2_28_0,Hamirpur,Himachal Pradesh,Hamirpur,Himachal Pradesh,Hamirpur,Himachal Pradesh,Hamirpur,NA
+208,3_2_30_0,3_2_30_0,Bilaspur,Himachal Pradesh,Bilaspur,Himachal Pradesh,Bilaspur,Himachal Pradesh,Bilaspur,NA
+209,3_2_31_0,3_2_31_0,Solan,Himachal Pradesh,Solan,Himachal Pradesh,Solan,Himachal Pradesh,Solan,NA
+210,3_2_32_0,3_2_32_0,Sirmaur,Himachal Pradesh,Sirmaur,Himachal Pradesh,Sirmaur,Himachal Pradesh,Sirmaur,NA
+211,3_2_33_0,3_2_33_0,Shimla,Himachal Pradesh,Shimla,Himachal Pradesh,Shimla,Himachal Pradesh,Shimla,NA
+301,3_3_35_0,3_3_35_0,Gurdaspur,Punjab,Gurdaspur,Punjab,Gurdaspur,Punjab,Gurdaspur,NA
+302,3_3_49_0,3_3_49_0,Amritsar,Punjab,Amritsar,Punjab,Amritsar,Punjab,Amritsar,Tarn Taran district split from Amritsar
+303,3_3_36_0,3_3_36_0,Kapurthala,Punjab,Kapurthala,Punjab,Kapurthala,Punjab,Kapurthala,NA
+304,3_3_37_0,3_3_37_0,Jalandhar,Punjab,Jalandhar,Punjab,Jalandhar,Punjab,Jalandhar,NA
+305,3_3_38_0,3_3_38_0,Hoshiarpur,Punjab,Hoshiarpur,Punjab,Hoshiarpur,Punjab,Hoshiarpur,NA
+306,3_3_39_0,3_3_39_0,Nawanshahr,Punjab,Shahid Bhagat Singh Nagar,Punjab,Nawanshahr,Punjab,Nawanshahr,NA
+307,3_3_51_0,3_3_48_0,Rupnagar,Punjab,Rupnagar,Punjab,Rupnagar,Punjab,Rupnagar,Mohali district formed from parts of Patiala and Rupnagar
+308,3_3_40_0,3_3_40_0,Fatehgarh,Punjab,Fatehgarh Sahib,Punjab,Fatehgarh Sahib,Punjab,Fatehgarh Sahib,NA
+309,3_3_41_0,3_3_41_0,Ludhiana,Punjab,Ludhiana,Punjab,Ludhiana,Punjab,Ludhiana,NA
+310,3_3_42_0,3_3_42_0,Moga,Punjab,Moga,Punjab,Moga,Punjab,Moga,NA
+311,3_3_43_0,3_3_43_0,Firozpur,Punjab,Firozpur,Punjab,Firozpur,Punjab,Firozpur,NA
+316,3_3_53_0,3_3_53_0,Sangrur,Punjab,Sangrur,Punjab,Sangrur,Punjab,Sangrur,Barnala district split from Sangrur
+317,3_3_48_0,3_3_48_0,Patiala,Punjab,Patiala,Punjab,Patiala,Punjab,Patiala,Mohali district formed from parts of Patiala and Rupnagar
+404,3_4_55_0,3_4_55_0,Chandigarh,Chandigarh,Chandigarh,Chandigarh,Chandigarh,Chandigarh,Chandigarh,NA
+505,3_5_60_0,3_5_60_0,Dehradun,Uttarakhand,Dehradun,Uttaranchal,Dehradun,Uttarakhand,Dehradun (P),NA
+508,3_5_63_0,3_5_63_0,Bageshwar,Uttarakhand,Bageshwar,Uttaranchal,Bageshwar,Uttarakhand,Bageshwar,NA
+509,3_5_64_0,3_5_64_0,Almora,Uttarakhand,Almora,Uttaranchal,Almora,Uttarakhand,Almora,NA
+511,3_5_66_0,3_5_66_0,Nainital,Uttarakhand,Nainital,Uttaranchal,Nainital,Uttarakhand,Nainital (P),NA
+512,3_5_67_0,3_5_67_0,Udham Singh Nagar,Uttarakhand,Udham Singh Nagar,Uttaranchal,Udhamsingh Singh Nagar,Uttarakhand,U. Singh Nagar,NA
+513,3_5_68_0,3_5_68_0,Hardwar,Uttarakhand,Hardwar,Uttaranchal,Hardwar,Uttarakhand,Hardwar,NA
+601,3_6_69_0,3_6_69_0,Panchkula,Haryana,Panchkula,Haryana,Panchkula,Haryana,Panchkula,NA
+602,3_6_70_0,3_6_70_0,Ambala,Haryana,Ambala,Haryana,Ambala,Haryana,Ambala,NA
+603,3_6_71_0,3_6_71_0,Yamunanagar,Haryana,Yamunanagar,Haryana,Yamunanagar,Haryana,Yamunanagar,NA
+604,3_6_72_0,3_6_72_0,Kurukshetra,Haryana,Kurukshetra,Haryana,Kurukshetra,Haryana,Kurukshetra,NA
+605,3_6_73_0,3_6_73_0,Kaithal,Haryana,Kaithal,Haryana,Kaithal,Haryana,Kaithal,NA
+606,3_6_74_0,3_6_74_0,Karnal,Haryana,Karnal,Haryana,Karnal,Haryana,Karnal,NA
+608,3_6_76_0,3_6_76_0,Sonipat,Haryana,Sonipat,Haryana,Sonipat,Haryana,Sonipat,NA
+609,3_6_77_0,3_6_77_0,Jind,Haryana,Jind,Haryana,Jind,Haryana,Jind,NA
+610,3_6_78_0,3_6_78_0,Fatehabad,Haryana,Fatehabad,Haryana,Fatehabad,Haryana,Fatehabad,NA
+612,3_6_80_0,3_6_80_0,Hissar,Haryana,Hisar,Haryana,Hisar,Haryana,Hisar,NA
+613,3_6_81_0,3_6_81_0,Bhiwani,Haryana,Bhiwani,Haryana,Bhiwani,Haryana,Bhiwani,NA
+617,3_6_85_0,3_6_85_0,Rewari,Haryana,Rewari,Haryana,Rewari,Haryana,Rewari,NA
+618,3_6_86_0,3_6_86_0,Gurgaon,Haryana,Gurgaon,Haryana,Gurgaon,Haryana,Gurgaon,Mewat district split from Gurgaon
+619,3_6_88_0,3_6_88_0,Faridabad,Haryana,Faridabad,Haryana,Faridabad,Haryana,Faridabad,Palwal district split from Faridabad
+701,3_7_90_0,3_7_90_0,North West,NCT Of Delhi,North West,Delhi,North West,Delhi,North West,NA
+702,3_7_91_0,3_7_91_0,North,NCT Of Delhi,North,Delhi,North,Delhi,North,NA
+703,3_7_92_0,3_7_92_0,North East,NCT Of Delhi,North East,Delhi,North East,Delhi,North East,NA
+704,3_7_93_0,3_7_93_0,East,NCT Of Delhi,East,Delhi,East,Delhi,East,NA
+707,3_7_96_0,3_7_96_0,West,NCT Of Delhi,West,Delhi,West,Delhi,West,NA
+708,3_7_97_0,3_7_97_0,South West,NCT Of Delhi,South West,Delhi,South West,Delhi,South West,NA
+709,3_7_98_0,3_7_98_0,South,NCT Of Delhi,South,Delhi,South,Delhi,South,NA
+710,NA,NA,Delhi Municipal Corp,NA,NA,NA,NA,NA,NA,NA
+711,NA,NA,New Delhi Municipal C,NA,NA,NA,NA,NA,NA,NA
+712,NA,NA,Kirari Suleman Nagar,NA,NA,NA,NA,NA,NA,NA
+803,3_8_101_0,3_8_101_0,Bikaner,Rajasthan,Bikaner,Rajasthan,Bikaner,Rajasthan,Bikaner,NA
+804,3_8_102_0,3_8_102_0,Churu,Rajasthan,Churu,Rajasthan,Churu,Rajasthan,Churu,NA
+805,3_8_103_0,3_8_103_0,Jhunjhunu,Rajasthan,Jhunjhunun,Rajasthan,Jhunjhunun,Rajasthan,Jhunjhunun,NA
+806,3_8_104_0,3_8_104_0,Alwar,Rajasthan,Alwar,Rajasthan,Alwar,Rajasthan,Alwar,NA
+807,3_8_105_0,3_8_105_0,Bharatpur,Rajasthan,Bharatpur,Rajasthan,Bharatpur,Rajasthan,Bharatpur,NA
+808,3_8_106_0,3_8_106_0,Dhaulpur,Rajasthan,Dhaulpur,Rajasthan,Dhaulpur,Rajasthan,Dhaulpur,NA
+809,3_8_107_0,3_8_107_0,Karauli,Rajasthan,Karauli,Rajasthan,Karauli,Rajasthan,Karauli,NA
+810,3_8_108_0,3_8_108_0,Sawai Madhopur,Rajasthan,Sawai Madhopur,Rajasthan,Sawai Madhopur,Rajasthan,Sawai Madhopur,NA
+811,3_8_109_0,3_8_109_0,Dausa,Rajasthan,Dausa,Rajasthan,Dausa,Rajasthan,Dausa,NA
+812,3_8_110_0,3_8_110_0,Jaipur,Rajasthan,Jaipur,Rajasthan,Jaipur,Rajasthan,Jaipur,NA
+813,3_8_111_0,3_8_111_0,Sikar,Rajasthan,Sikar,Rajasthan,Sikar,Rajasthan,Sikar,NA
+814,3_8_112_0,3_8_112_0,Nagaur,Rajasthan,Nagaur,Rajasthan,Nagaur,Rajasthan,Nagaur,NA
+815,3_8_113_0,3_8_113_0,Jodhpur,Rajasthan,Jodhpur,Rajasthan,Jodhpur,Rajasthan,Jodhpur,NA
+818,3_8_116_0,3_8_116_0,Jalor,Rajasthan,Jalor,Rajasthan,Jalor,Rajasthan,Jalor,NA
+820,3_8_118_0,3_8_118_0,Pali,Rajasthan,Pali,Rajasthan,Pali,Rajasthan,Pali,NA
+821,3_8_119_0,3_8_119_0,Ajmer,Rajasthan,Ajmer,Rajasthan,Ajmer,Rajasthan,Ajmer,NA
+824,3_8_122_0,3_8_122_0,Bhilwara,Rajasthan,Bhilwara,Rajasthan,Bhilwara,Rajasthan,Bhilwara,NA
+825,3_8_123_0,3_8_123_0,Rajsamand,Rajasthan,Rajsamand,Rajasthan,Rajsamand,Rajasthan,Rajsamand,NA
+826,3_8_130_0,3_8_125_0,Udaipur,Rajasthan,Udaipur,Rajasthan,Udaipur,Rajasthan,Udaipur,"Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur"
+829,3_8_126_0,3_8_125_0,Chittaurgarh,Rajasthan,Chittaurgarh,Rajasthan,Chittaurgarh,Rajasthan,Chittaurgarh,"Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur"
+830,3_8_127_0,3_8_127_0,Kota,Rajasthan,Kota,Rajasthan,Kota,Rajasthan,Kota,NA
+831,3_8_128_0,3_8_128_0,Baran,Rajasthan,Baran,Rajasthan,Baran,Rajasthan,Baran,NA
+832,3_8_129_0,3_8_129_0,Jhalawar,Rajasthan,Jhalawar,Rajasthan,Jhalawar,Rajasthan,Jhalawar,NA
+901,3_9_132_0,3_9_132_0,Saharanpur,Uttar Pradesh,Saharanpur,Uttar Pradesh,Saharanpur,Uttar Pradesh,Saharanpur,NA
+902,3_9_133_0,3_9_133_0,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,NA
+903,3_9_134_0,3_9_134_0,Bijnor,Uttar Pradesh,Bijnor,Uttar Pradesh,Bijnor,Uttar Pradesh,Bijnor,NA
+904,3_9_135_0,3_9_135_0,Moradabad,Uttar Pradesh,Moradabad,Uttar Pradesh,Moradabad,Uttar Pradesh,Moradabad,NA
+905,3_9_136_0,3_9_136_0,Rampur,Uttar Pradesh,Rampur,Uttar Pradesh,Raopur,Uttar Pradesh,Rampur,NA
+906,3_9_137_0,3_9_137_0,Jyotiva Phule Nagar,Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,J. Phule Nagar,NA
+907,3_9_138_0,3_9_138_0,Meerut,Uttar Pradesh,Meerut,Uttar Pradesh,Meerut,Uttar Pradesh,Meerut,NA
+909,3_9_140_0,3_9_140_0,Ghaziabad,Uttar Pradesh,Ghaziabad,Uttar Pradesh,Ghaziabad,Uttar Pradesh,Ghaziabad,NA
+910,3_9_141_0,3_9_141_0,Gautam Buddha Nagar,Uttar Pradesh,Gautam Buddha Nagar,Uttar Pradesh,Gautam Budh Nagar,Uttar Pradesh,G. Buddha Nagar,NA
+913,3_9_144_0,3_9_144_0,Hathras,Uttar Pradesh,Mahamaya Nagar,Uttar Pradesh,Hathras,Uttar Pradesh,Hathras,NA
+914,3_9_145_0,3_9_145_0,Mathura,Uttar Pradesh,Mathura,Uttar Pradesh,Mathura,Uttar Pradesh,Mathura,NA
+915,3_9_146_0,3_9_146_0,Agra,Uttar Pradesh,Agra,Uttar Pradesh,Agra,Uttar Pradesh,Agra,NA
+919,3_9_149_0,3_9_149_0,Budaun,Uttar Pradesh,Budaun,Uttar Pradesh,Budaun,Uttar Pradesh,Budaun,NA
+920,3_9_150_0,3_9_150_0,Bareilly,Uttar Pradesh,Bareilly,Uttar Pradesh,Bareilly,Uttar Pradesh,Bareilly,NA
+923,3_9_153_0,3_9_153_0,Kheri,Uttar Pradesh,Kheri,Uttar Pradesh,Khiri,Uttar Pradesh,Kheri,NA
+924,3_9_154_0,3_9_154_0,Sitapur,Uttar Pradesh,Sitapur,Uttar Pradesh,Sitapur,Uttar Pradesh,Sitapur,NA
+928,3_9_157_0,3_9_157_0,Lucknow,Uttar Pradesh,Lucknow,Uttar Pradesh,Lucknow,Uttar Pradesh,Lucknow,NA
+929,3_9_159_0,3_9_159_0,Farrukabad,Uttar Pradesh,Farrukhabad,Uttar Pradesh,Farrukhabad,Uttar Pradesh,Farrukhabad,NA
+930,3_9_160_0,3_9_160_0,Kannauj,Uttar Pradesh,Kannauj,Uttar Pradesh,Kannauj,Uttar Pradesh,Kannauj,NA
+933,3_9_163_0,3_9_163_0,Kanpur Dehat,Uttar Pradesh,Kanpur Dehat,Uttar Pradesh,Kanpur Dehat,Uttar Pradesh,Kanpur Dehat,NA
+934,3_9_164_0,3_9_164_0,Kanpur Nagar,Uttar Pradesh,Kanpur Nagar,Uttar Pradesh,Kanpur Nagar,Uttar Pradesh,Kanpur Nagar,NA
+936,3_9_166_0,3_9_166_0,Jhansi,Uttar Pradesh,Jhansi,Uttar Pradesh,Jhansi,Uttar Pradesh,Jhansi,NA
+940,3_9_170_0,3_9_170_0,Banda,Uttar Pradesh,Banda,Uttar Pradesh,Banda,Uttar Pradesh,Banda,NA
+941,3_9_171_0,3_9_171_0,Chitrakoot,Uttar Pradesh,Chitrakoot,Uttar Pradesh,Chitrakoot,Uttar Pradesh,Chitrakoot,NA
+944,3_9_174_0,3_9_174_0,Kaushambi,Uttar Pradesh,Kaushambi,Uttar Pradesh,Kaushambi,Uttar Pradesh,Kaushambi,NA
+945,3_9_175_0,3_9_175_0,Allahabad,Uttar Pradesh,Allahabad,Uttar Pradesh,Allahabad,Uttar Pradesh,Allahabad,NA
+946,3_9_176_0,3_9_176_0,Barabanki,Uttar Pradesh,Bara Banki,Uttar Pradesh,Barabanki,Uttar Pradesh,Barabanki,NA
+947,3_9_177_0,3_9_177_0,Faizabad,Uttar Pradesh,Faizabad,Uttar Pradesh,Faizabad,Uttar Pradesh,Faizabad,NA
+948,3_9_178_0,3_9_178_0,Ambedkar Nagar,Uttar Pradesh,Ambedkar Nagar,Uttar Pradesh,Ambedkar Nagar,Uttar Pradesh,Ambedkar Nagar,NA
+949,3_9_179_0,3_9_179_0,Sultanpur,Uttar Pradesh,Sultanpur,Uttar Pradesh,Sultanpur,Uttar Pradesh,Sultanpur,NA
+950,3_9_180_0,3_9_180_0,Bahraich,Uttar Pradesh,Bahraich,Uttar Pradesh,Bahraich,Uttar Pradesh,Bahraich,NA
+951,3_9_181_0,3_9_181_0,Sharawasti,Uttar Pradesh,Shrawasti,Uttar Pradesh,Shrawasti,Uttar Pradesh,Shrawasti,NA
+954,3_9_184_0,3_9_184_0,Siddharathnagar,Uttar Pradesh,Siddharthnagar,Uttar Pradesh,Siddarthnagar,Uttar Pradesh,Siddharthnagar,NA
+958,3_9_188_0,3_9_188_0,Gorakhpur,Uttar Pradesh,Gorakhpur,Uttar Pradesh,Gorakhpur,Uttar Pradesh,Gorakhpur,NA
+959,3_9_189_0,3_9_189_0,Kushinagar,Uttar Pradesh,Kushinagar,Uttar Pradesh,Kushinagar,Uttar Pradesh,Kushinagar,NA
+960,3_9_190_0,3_9_190_0,Deoria,Uttar Pradesh,Deoria,Uttar Pradesh,Deoria,Uttar Pradesh,Deoria,NA
+962,3_9_192_0,3_9_192_0,Mau,Uttar Pradesh,Mau,Uttar Pradesh,Mau,Uttar Pradesh,Mau,NA
+963,3_9_193_0,3_9_193_0,Baliya,Uttar Pradesh,Ballia,Uttar Pradesh,Ballia,Uttar Pradesh,Ballia,NA
+965,3_9_195_0,3_9_195_0,Ghazipur,Uttar Pradesh,Ghazipur,Uttar Pradesh,Ghazipur,Uttar Pradesh,Ghazipur,NA
+966,3_9_196_0,3_9_196_0,Chandauli,Uttar Pradesh,Chandauli,Uttar Pradesh,Chandauli,Uttar Pradesh,Chandauli,NA
+967,3_9_197_0,3_9_197_0,Varanasi,Uttar Pradesh,Varanasi,Uttar Pradesh,Varanasi,Uttar Pradesh,Varanasi,NA
+968,3_9_198_0,3_9_198_0,Sant Ravidas Nagar,Uttar Pradesh,Sant Ravidas Nagar (Bhadohi),Uttar Pradesh,Sant Ravidas Nagar,Uttar Pradesh,S. R. Nagar Bhadohi,NA
+1002,3_10_204_0,3_10_204_0,Purbi Champaran,Bihar,Purba Champaran,Bihar,Purba Champaran,Bihar,Champaran(E),NA
+1005,3_10_207_0,3_10_207_0,Madhubani,Bihar,Madhubani,Bihar,Madhubani,Bihar,Madhubani,NA
+1006,3_10_208_0,3_10_208_0,Supaul,Bihar,Supaul,Bihar,Supaul,Bihar,Supaul,NA
+1009,3_10_211_0,3_10_211_0,Purnia,Bihar,Purnia,Bihar,Purnia,Bihar,Purnia,NA
+1012,3_10_214_0,3_10_214_0,Saharsa,Bihar,Saharsa,Bihar,Saharsa,Bihar,Saharsa,NA
+1014,3_10_216_0,3_10_216_0,Muzaffar Pur,Bihar,Muzaffarpur,Bihar,Muzaffarpur,Bihar,Muzaffarpur,NA
+1016,3_10_218_0,3_10_218_0,Siwan,Bihar,Siwan,Bihar,Siwan,Bihar,Siwan,NA
+1017,3_10_219_0,3_10_219_0,Saran,Bihar,Saran,Bihar,Saran,Bihar,Saran,NA
+1022,3_10_224_0,3_10_224_0,Bhagal Pur,Bihar,Bhagalpur,Bihar,Bhagalpur,Bihar,Bhagalpur,NA
+1023,3_10_225_0,3_10_225_0,Banka,Bihar,Banka,Bihar,Banka,Bihar,Banka,NA
+1026,3_10_228_0,3_10_228_0,Sheikhpura,Bihar,Sheikhpura,Bihar,Sheikhpura,Bihar,Sheikhpura,NA
+1027,3_10_229_0,3_10_229_0,Nalanda,Bihar,Nalanda,Bihar,Nalanda,Bihar,Nalanda,NA
+1028,3_10_230_0,3_10_230_0,Patna,Bihar,Patna,Bihar,Patna,Bihar,Patna,NA
+1030,3_10_232_0,3_10_232_0,Buxar,Bihar,Buxar,Bihar,Buxar,Bihar,Buxar,NA
+1031,3_10_233_0,3_10_233_0,Kaimur (Bhabua),Bihar,Kaimur (Bhabua),Bihar,Kaimur (Bhabua),Bihar,Kaimur (Bhabua),NA
+1032,3_10_234_0,3_10_234_0,Rohtas,Bihar,Rohtas,Bihar,Rohtas,Bihar,Rohtas,NA
+1035,3_10_236_0,3_10_236_0,Gaya,Bihar,Gaya,Bihar,Gaya,Bihar,Gaya,NA
+1104,3_11_244_0,3_11_244_0,East Sikkim,Sikkim,East District,Sikkim,East (Gangtok),Sikkim,East (Gangtok),NA
+1204,3_12_248_0,3_12_248_0,Papujm Prae,Arunachal Pradesh,Papum Pare,Arunachal Pradesh,Papum Pare,NA,NA,NA
+1303,3_13_262_0,3_13_262_0,Mokochung,Nagaland,Mokokchung,Nagaland,Mokokchung,Nagaland,Mokokchung,NA
+1305,3_13_264_0,3_13_264_0,Wokkha,Nagaland,Wokha,Nagaland,Wokha,Nagaland,Wokha,NA
+1306,3_13_265_0,3_13_265_0,Dimapur,Nagaland,Dimapur,Nagaland,Dimapur,Nagaland,Dimapur,NA
+1307,3_13_270_0,3_13_270_0,Kohima,Nagaland,Kohima,Nagaland,Kohima,Nagaland,Kohima,Peren district split from Kohima
+1405,3_14_273_0,3_14_273_0,Tamenglong,Manipur,Tamenglong,Manipur,Tamenglong,Manipur,Tamenglong,NA
+1406,3_14_277_0,3_14_277_0,Imphal West,Manipur,Imphal West,Manipur,Imphal West,Manipur,Imphal West,NA
+1407,3_14_278_0,3_14_278_0,Imphal East,Manipur,Imphal East,Manipur,Imphal East,Manipur,Imphal East,NA
+1503,3_15_283_0,3_15_283_0,Aizawl,Mizoram,Aizawl,Mizoram,Aizwal,NA,NA,NA
+1601,3_16_289_0,3_16_289_0,West Tripura,Tripura,West Tripura,Tripura,West Tripura,Tripura,West Tripura,NA
+1602,3_16_290_0,3_16_290_0,South Tripura,Tripura,South Tripura,Tripura,South Tripura,Tripura,South Tripura,NA
+1705,3_17_297_0,3_17_297_0,RBHOI,Meghalaya,Ribhoi,Meghalaya,Ri Bhoi,Meghalaya,Ri Bhoi,NA
+1706,3_17_298_0,3_17_298_0,East Khasi Hills,Meghalaya,East Khasi Hills,Meghalaya,East Khasi Hills,Meghalaya,East Khasi Hills,NA
+1707,3_17_299_0,3_17_299_0,Jaintia Hills,Meghalaya,Jaintia Hills,Meghalaya,Jaintia Hills,Meghalaya,Jaintia Hills,NA
+1802,3_18_301_0,3_18_301_0,Dhubri,Assam,Dhubri,Assam,Dhubri,Assam,Dhubri,NA
+1803,3_18_302_0,3_18_302_0,Goalpara,Assam,Goalpara,Assam,Goalpara,Assam,Goalpara,NA
+1806,3_18_321_0,3_18_303_0,Kamrup,Assam,Kamrup,Assam,Kamrup,Assam,Kamrup rural,"Kamrup Metropolitan district split from Kamrup; Baksa district formed from parts of Barpeta, Nalbari, and Kamrup; Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar."
+1809,3_18_304_0,3_18_304_0,Marigaon,Assam,Morigaon,Assam,Marigaon,Assam,Marigaon,NA
+1814,3_18_309_0,3_18_309_0,Tinsukia,Assam,Tinsukia,Assam,Tinsukia,Assam,Tinsukia,NA
+1817,3_18_312_0,3_18_312_0,Jorhat,Assam,Jorhat,Assam,Jorhat,Assam,Jorhat,NA
+1819,3_18_314_0,3_18_314_0,Karbi Amglong,Assam,Karbi Anglong,Assam,Karbi Anglong,Assam,Karbi Anglong,NA
+1821,3_18_316_0,3_18_316_0,Cachar,Assam,Cachar,Assam,Cachar,Assam,Cachar,NA
+1901,3_19_327_0,3_19_327_0,Darjiling,West Bengal,Darjiling,West Bengal,Darjiling,West Bengal,Darjiling,NA
+1902,3_19_328_0,3_19_328_0,Jalapiguri,West Bengal,Jalpaiguri,West Bengal,Jalpaiguri,West Bengal,Jalpaiguri,NA
+1904,3_19_330_0,3_19_330_0,Uttar Dinajpur,West Bengal,Uttar Dinajpur,West Bengal,Uttar Dinajpur,West Bengal,Uttar Dinajpur,NA
+1906,3_19_332_0,3_19_332_0,Maldah,West Bengal,Maldah,West Bengal,Maldah,West Bengal,Maldah,NA
+1907,3_19_333_0,3_19_333_0,Murshidabad,West Bengal,Murshidabad,West Bengal,Murshidabad,West Bengal,Murshidabad,NA
+1908,3_19_334_0,3_19_334_0,Birbhum,West Bengal,Birbhum,West Bengal,Birbhum,West Bengal,Birbhum,NA
+1909,3_19_335_0,3_19_335_0,Barddhaman,West Bengal,Barddhaman,West Bengal,Barddhaman,West Bengal,Barddhaman,NA
+1910,3_19_336_0,3_19_336_0,Nadia,West Bengal,Nadia,West Bengal,Nadia,West Bengal,Nadia,NA
+1911,3_19_337_0,3_19_337_0,North 24 Parganas,West Bengal,North Twenty Four Parganas,West Bengal,North 24-Parganas,West Bengal,North 24-Parganas,NA
+1912,3_19_338_0,3_19_338_0,Hugli,West Bengal,Hugli,West Bengal,Hugli,West Bengal,Hugli,NA
+1913,3_19_339_0,3_19_339_0,Bankura,West Bengal,Bankura,West Bengal,Bankura,West Bengal,Bankura,NA
+1916,3_19_341_0,3_19_341_0,Haora,West Bengal,Haora,West Bengal,Haora,West Bengal,Howrah,NA
+1917,3_19_342_0,3_19_342_0,Kolkata,West Bengal,Kolkata,West Bengal,Culcutta,West Bengal,Kolkata,NA
+1918,3_19_343_0,3_19_343_0,South 24 Parganas,West Bengal,South Twenty Four Parganas,West Bengal,South 24-Parganas,West Bengal,South 24-Parganas,NA
+2002,3_20_358_0,3_20_359_0,Palamu,Jharkhand,Palamu,Jharkhand,Palamu,Jharkhand,Palamu,Latehar district split from Palamu
+2012,3_20_354_0,3_20_354_0,Dhanbad,Jharkhand,Dhanbad,Jharkhand,Dhanbad,Jharkhand,Dhanbad,NA
+2013,3_20_355_0,3_20_355_0,Bokaro,Jharkhand,Bokaro,Jharkhand,Bokaro,Jharkhand,Bokaro,NA
+2014,3_20_364_0,3_20_364_0,Ranchi,Jharkhand,Ranchi,Jharkhand,Ranchi,Jharkhand,Ranchi,Khunti district split from Ranchi;
+2017,3_20_368_0,3_20_368_0,Pashchimi Singbhum,Jharkhand,Pashchimi Singhbhum,Jharkhand,Pashchimi singhbhum,Jharkhand,Singhbhum(W),Seraikela district split from Pashchim Singhbhum
+2018,3_20_357_0,3_20_357_0,Purbi Singhbhum,Jharkhand,Purbi Singhbhum,Jharkhand,Purbi Singhbhum,Jharkhand,Singhbhum (E),NA
+2101,3_21_370_0,3_21_370_0,Bargarh,Odisha,Bargarh,Orissa,Bargarh,Orissa,Bargarh,NA
+2102,3_21_371_0,3_21_371_0,Jharsuguda,Odisha,Jharsuguda,Orissa,Jharsuguda,Orissa,Jharsuguda,NA
+2103,3_21_372_0,3_21_372_0,Sambalpur,Odisha,Sambalpur,Orissa,Sambalpur,Orissa,Sambalpur,NA
+2105,3_21_374_0,3_21_374_0,Sundargarh,Odisha,Sundargarh,Orissa,Sundargarh,Orissa,Sundargarh,NA
+2106,3_21_375_0,3_21_375_0,Kendujhar,Odisha,Kendujhar,Orissa,Kendujhar,Orissa,Kendujhar,NA
+2107,3_21_376_0,3_21_376_0,Mayurbhanj,Odisha,Mayurbhanj,Orissa,Mayurbhanj,Orissa,Mayurbhanj,NA
+2108,3_21_377_0,3_21_377_0,Baleshwar,Odisha,Baleshwar,Orissa,Baleshwar,Orissa,Baleshwar,NA
+2109,3_21_378_0,3_21_378_0,Bhadrak,Odisha,Bhadrak,Orissa,Bhadrak,Orissa,Bhadrak,NA
+2112,3_21_381_0,3_21_381_0,Cuttack,Odisha,Cuttack,Orissa,Cuttack,Orissa,Cuttack,NA
+2113,3_21_382_0,3_21_382_0,Jajapur,Odisha,Jajapur,Orissa,Jajapur,Orissa,Jajapur,NA
+2114,3_21_383_0,3_21_383_0,Dhenkanal,Odisha,Dhenkanal,Orissa,Dhenkanal,Orissa,Dhenkanal,NA
+2115,3_21_384_0,3_21_384_0,Anugul,Odisha,Anugul,Orissa,Anugul,Orissa,Anugul,NA
+2116,3_21_385_0,3_21_385_0,Nayagarh,Odisha,Nayagarh,Orissa,Nauagarh,Orissa,Nayagarh,NA
+2117,3_21_386_0,3_21_386_0,Khordha,Odisha,Khordha,Orissa,Khordha,Orissa,Khordha,NA
+2118,3_21_387_0,3_21_387_0,Puri,Odisha,Puri,Orissa,Puri,Orissa,Puri,NA
+2119,3_21_388_0,3_21_388_0,Ganjam,Odisha,Ganjam,Orissa,Ganjam,Orissa,Ganjam,NA
+2120,3_21_389_0,3_21_389_0,Gajapati,Odisha,Gajapati,Orissa,Gajapati,Orissa,Gajapati,NA
+2121,3_21_390_0,3_21_390_0,Kandhamal,Odisha,Kandhamal,Orissa,Kandhamal,Orissa,Kandhamal,NA
+2122,3_21_391_0,3_21_391_0,Baudh,Odisha,Baudh,Orissa,Baudh,Orissa,Baudh,NA
+2123,3_21_392_0,3_21_392_0,Sonapur,Odisha,Subarnapur,Orissa,Sonapur,Orissa,Sonapur,NA
+2124,3_21_393_0,3_21_393_0,Balangir,Odisha,Balangir,Orissa,Balangir,Orissa,Balangir,NA
+2126,3_21_395_0,3_21_395_0,Kalahandi,Odisha,Kalahandi,Orissa,Kalahandi,Orissa,Kalahandi,NA
+2127,3_21_396_0,3_21_396_0,Rayagada,Odisha,Rayagada,Orissa,Rayagada,Orissa,Rayagada,NA
+2128,3_21_397_0,3_21_397_0,Nabarangapur,Odisha,Nabarangapur,Orissa,Nabarangapur,Orissa,Nabarangapur,NA
+2129,3_21_398_0,3_21_398_0,Koraput,Odisha,Koraput,Orissa,Koraput,Orissa,Koraput,NA
+2130,3_21_399_0,3_21_399_0,Malkangiri,Odisha,Malkangiri,Orissa,Malkangiri,Orissa,Malkangiri,NA
+2201,3_22_400_0,3_22_400_0,Koriya,Chhattisgarh,Koriya,Chhatisgarh,Koria,Chhattisgarh,Koriya,NA
+2202,3_22_401_0,3_22_401_0,Sarguja,Chhattisgarh,Surguja,Chhatisgarh,Surguja,Chhattisgarh,Surguja,NA
+2203,3_22_402_0,3_22_402_0,Jashpur,Chhattisgarh,Jashpur,Chhatisgarh,Jashpur,Chhattisgarh,Jashpur,NA
+2204,3_22_403_0,3_22_403_0,Raigarh,Chhattisgarh,Raigarh,Chhatisgarh,Raigarh,Chhattisgarh,Raigarh,NA
+2205,3_22_404_0,3_22_404_0,Korba,Chhattisgarh,Korba,Chhatisgarh,Korba,Chhattisgarh,Korba,NA
+2206,3_22_405_0,3_22_405_0,Janjgir,Chhattisgarh,Janjgir - Champa,Chhatisgarh,Janjgir-Champa,Chhattisgarh,Janjgir-Champa,NA
+2207,3_22_406_0,3_22_406_0,Bilas Pur,Chhattisgarh,Bilaspur,Chhatisgarh,Bilaspur,Chhattisgarh,Bilaspur,NA
+2208,3_22_407_0,3_22_407_0,Kawardha,Chhattisgarh,Kabeerdham,Chhatisgarh,Kawardha,Chhattisgarh,Kawardha,NA
+2209,3_22_408_0,3_22_408_0,Rajnandgaon,Chhattisgarh,Rajnandgaon,Chhatisgarh,Rajnandgaon,Chhattisgarh,Rajnandgaon,NA
+2210,3_22_409_0,3_22_409_0,Durg,Chhattisgarh,Durg,Chhatisgarh,Durg,Chhattisgarh,Durg,NA
+2211,3_22_410_0,3_22_410_0,Raipur,Chhattisgarh,Raipur,Chhatisgarh,Raipur,Chhattisgarh,Raipur,NA
+2212,3_22_411_0,3_22_411_0,Mahasamund,Chhattisgarh,Mahasamund,Chhatisgarh,Mahasamund,Chhattisgarh,Mahasamund,NA
+2213,3_22_412_0,3_22_412_0,Dhamtari,Chhattisgarh,Dhamtari,Chhatisgarh,Dhamtari,Chhattisgarh,Dhamtari,NA
+2214,3_22_413_0,3_22_413_0,Kanker,Chhattisgarh,Uttar Bastar Kanker,Chhatisgarh,Kanker,Chhattisgarh,Kanker,NA
+2215,3_22_414_0,3_22_414_0,Bastar,Chhattisgarh,Bastar,Chhatisgarh,Bastar,Chhattisgarh,Bastar,Narayanpur district split from Bastar.
+2301,3_23_418_0,3_23_418_0,Sheopur,Madhya Pradesh,Sheopur,Madhya Pradesh,Sheopur,Madhya Pradesh,Sheopur,NA
+2302,3_23_419_0,3_23_419_0,Morena,Madhya Pradesh,Morena,Madhya Pradesh,Morena,Madhya Pradesh,Morena,NA
+2304,3_23_421_0,3_23_421_0,Gwalior,Madhya Pradesh,Gwalior,Madhya Pradesh,Gwalior,Madhya Pradesh,Gwalior,NA
+2305,3_23_422_0,3_23_422_0,Datia,Madhya Pradesh,Datia,Madhya Pradesh,Datia,Madhya Pradesh,Datia,NA
+2308,3_23_424_0,3_23_424_0,Tikamgarh,Madhya Pradesh,Tikamgarh,Madhya Pradesh,Tikamgarh,Madhya Pradesh,Tikamgarh,NA
+2309,3_23_425_0,3_23_425_0,Chhatarpur,Madhya Pradesh,Chhatarpur,Madhya Pradesh,Chhatarpur,Madhya Pradesh,Chhatarpur,NA
+2310,3_23_426_0,3_23_426_0,Panna,Madhya Pradesh,Panna,Madhya Pradesh,Panna,Madhya Pradesh,Panna,NA
+2312,3_23_428_0,3_23_428_0,Damoh,Madhya Pradesh,Damoh,Madhya Pradesh,Damoh,Madhya Pradesh,Damoh,NA
+2313,3_23_429_0,3_23_429_0,Satna,Madhya Pradesh,Satna,Madhya Pradesh,Satna,Madhya Pradesh,Satna,NA
+2315,3_23_431_0,3_23_431_0,Umaria,Madhya Pradesh,Umaria,Madhya Pradesh,Umaria,Madhya Pradesh,Umaria,NA
+2316,3_23_460_0,3_23_460_0,Shahdol,Madhya Pradesh,Shahdol,Madhya Pradesh,Shahdol,Madhya Pradesh,Shahdol,Anuppur district split from Shahdol
+2317,3_23_462_0,3_23_462_0,Sidhi,Madhya Pradesh,Sidhi,Madhya Pradesh,Sidhi,Madhya Pradesh,Sidhi,Singrauli district split from Sidhi
+2320,3_23_434_0,3_23_434_0,Ratlam,Madhya Pradesh,Ratlam,Madhya Pradesh,Ratlam,Madhya Pradesh,Ratlam,NA
+2321,3_23_435_0,3_23_435_0,Ujjain,Madhya Pradesh,Ujjain,Madhya Pradesh,Ujjain,Madhya Pradesh,Ujjain,NA
+2322,3_23_436_0,3_23_436_0,Shajapur,Madhya Pradesh,Shajapur,Madhya Pradesh,Shajapur,Madhya Pradesh,Shajapur,NA
+2323,3_23_437_0,3_23_437_0,Dewas,Madhya Pradesh,Dewas,Madhya Pradesh,Dewas,Madhya Pradesh,Dewas,NA
+2325,3_23_438_0,3_23_438_0,Dhar,Madhya Pradesh,Dhar,Madhya Pradesh,Dhar,Madhya Pradesh,Dhar,NA
+2326,3_23_439_0,3_23_439_0,Indore,Madhya Pradesh,Indore,Madhya Pradesh,Indore,Madhya Pradesh,Indore,NA
+2327,3_23_440_0,3_23_440_0,West Nimar,Madhya Pradesh,Khargone (West Nimar),Madhya Pradesh,West Nimar,Madhya Pradesh,W. Nimar,NA
+2328,3_23_441_0,3_23_441_0,Barwani,Madhya Pradesh,Barwani,Madhya Pradesh,Barwani,Madhya Pradesh,(Khargoan) Barwani,NA
+2329,3_23_466_0,3_23_466_0,East Nimar,Madhya Pradesh,Khandwa (East Nimar),Madhya Pradesh,East Nimar,Madhya Pradesh,E. Nimar,Burhanpur district split from Khandwa (East Nimar)
+2330,3_23_442_0,3_23_442_0,Rajgarh,Madhya Pradesh,Rajgarh,Madhya Pradesh,Rajgarh,Madhya Pradesh,Rajgarh,NA
+2332,3_23_444_0,3_23_444_0,Bhopal,Madhya Pradesh,Bhopal,Madhya Pradesh,Bhopal,Madhya Pradesh,Bhopal,NA
+2335,3_23_447_0,3_23_447_0,Betul,Madhya Pradesh,Betul,Madhya Pradesh,Betul,Madhya Pradesh,Betul,NA
+2336,3_23_448_0,3_23_448_0,Harda,Madhya Pradesh,Harda,Madhya Pradesh,Harda,Madhya Pradesh,Harda,NA
+2337,3_23_449_0,3_23_449_0,Hoshangabad,Madhya Pradesh,Hoshangabad,Madhya Pradesh,Hoshangabad,Madhya Pradesh,Hoshangabad,NA
+2338,3_23_450_0,3_23_450_0,Katni,Madhya Pradesh,Katni,Madhya Pradesh,Katni,Madhya Pradesh,Katni,NA
+2339,3_23_451_0,3_23_451_0,Jabalpur,Madhya Pradesh,Jabalpur,Madhya Pradesh,Jabalpur,Madhya Pradesh,Jabalpur,NA
+2341,3_23_453_0,3_23_453_0,Dindori,Madhya Pradesh,Dindori,Madhya Pradesh,Dindori,Madhya Pradesh,Dindori,NA
+2342,3_23_454_0,3_23_454_0,Mandla,Madhya Pradesh,Mandla,Madhya Pradesh,Mandla,Madhya Pradesh,Mandla,NA
+2344,3_23_456_0,3_23_456_0,Seoni,Madhya Pradesh,Seoni,Madhya Pradesh,Seoni,Madhya Pradesh,Seoni,NA
+2401,3_24_468_0,3_24_468_0,Kachchh,Gujarat,Kachchh,Gujarat,Kachchh,Gujarat,Kachchh,NA
+2403,3_24_470_0,3_24_470_0,Patan,Gujarat,Patan,Gujarat,Patan,Gujarat,Patan,NA
+2404,3_24_471_0,3_24_471_0,Mahesana,Gujarat,Mahesana,Gujarat,Mahesana,Gujarat,Mahesana,NA
+2406,3_24_473_0,3_24_473_0,Gandhinagar,Gujarat,Gandhinagar,Gujarat,Gandhinagar,Gujarat,Gandhinagar,NA
+2407,3_24_474_0,3_24_474_0,Ahmedabad,Gujarat,Ahmadabad,Gujarat,Ahmadabad,Gujarat,Ahmedabad,NA
+2408,3_24_475_0,3_24_475_0,Surendranagar,Gujarat,Surendranagar,Gujarat,Surendranagar,Gujarat,Surendranagar,NA
+2409,3_24_476_0,3_24_476_0,Rajkot,Gujarat,Rajkot,Gujarat,Rajkot,Gujarat,Rajkot,NA
+2410,3_24_477_0,3_24_477_0,Jamnagar,Gujarat,Jamnagar,Gujarat,Jamnagar,Gujarat,Jamnagar,NA
+2412,3_24_479_0,3_24_479_0,Junagadh,Gujarat,Junagadh,Gujarat,Junagadh,Gujarat,Junagadh,NA
+2413,3_24_480_0,3_24_480_0,Amreli,Gujarat,Amreli,Gujarat,Amreli,Gujarat,Amreli,NA
+2414,3_24_481_0,3_24_481_0,Bhavnagar,Gujarat,Bhavnagar,Gujarat,Bhavnagar,Gujarat,Bhavnagar,NA
+2415,3_24_482_0,3_24_482_0,Anand,Gujarat,Anand,Gujarat,Anand,Gujarat,Anand,NA
+2416,3_24_483_0,3_24_483_0,Kheda,Gujarat,Kheda,Gujarat,Kheda,Gujarat,Kheda,NA
+2419,3_24_486_0,3_24_486_0,Vadodara,Gujarat,Vadodara,Gujarat,Vadodara,Gujarat,Vadodara,NA
+2420,3_24_487_0,3_24_487_0,Narmada,Gujarat,Narmada,Gujarat,Narmada,Gujarat,Narmada,NA
+2421,3_24_488_0,3_24_488_0,Bharuch,Gujarat,Bharuch,Gujarat,Bharuch,Gujarat,Bharuch,NA
+2422,3_24_492_0,3_24_492_0,Surat,Gujarat,Surat,Gujarat,Surat,Gujarat,Surat,Tapi district split from Surat
+2501,3_25_494_0,3_25_494_0,Diu,Daman & Diu,Diu,Daman & Diu,Diu,Daman & Diu,Diu,NA
+2502,3_25_495_0,3_25_495_0,Daman,Daman & Diu,Daman,Daman & Diu,Daman,Daman & Diu,Daman,NA
+2601,3_26_496_0,3_26_496_0,Dadra & Nagar Haveli,Dadra & Nagar Haveli,Dadra & Nagar Haveli,Dadra & Nagar Haveli,Dadra & Nagar Haveli,D & N Haveli,D & N  Haveli,NA
+2701,3_27_497_0,3_27_497_0,Nandurbar,Maharashtra,Nandurbar,Maharashtra,Nandurbar,Maharashtra,Nandurbar,NA
+2702,3_27_498_0,3_27_498_0,Dhule,Maharashtra,Dhule,Maharashtra,Dhule,Maharashtra,Dhule,NA
+2703,3_27_499_0,3_27_499_0,Jalgaon,Maharashtra,Jalgaon,Maharashtra,Jalgaon,Maharashtra,Jalgaon,NA
+2705,3_27_501_0,3_27_501_0,Akola,Maharashtra,Akola,Maharashtra,Akola,Maharashtra,Akola,NA
+2706,3_27_502_0,3_27_502_0,Washim,Maharashtra,Washim,Maharashtra,Washim,Maharashtra,Washim,NA
+2707,3_27_503_0,3_27_503_0,Amarawti,Maharashtra,Amravati,Maharashtra,Amaravati,Maharashtra,Amravati,NA
+2708,3_27_504_0,3_27_504_0,Wardha,Maharashtra,Wardha,Maharashtra,Wardha,Maharashtra,Wardha,NA
+2709,3_27_505_0,3_27_505_0,Nagpur,Maharashtra,Nagpur,Maharashtra,Nagpur,Maharashtra,Nagpur,NA
+2710,3_27_506_0,3_27_506_0,Bhandara,Maharashtra,Bhandara,Maharashtra,Bhandara,Maharashtra,Bhandara,NA
+2711,3_27_507_0,3_27_507_0,Gondiya,Maharashtra,Gondiya,Maharashtra,Gondiya,Maharashtra,Gondiya,NA
+2713,3_27_509_0,3_27_509_0,Chandrapur,Maharashtra,Chandrapur,Maharashtra,Chandrapur,Maharashtra,Chandrapur,NA
+2714,3_27_510_0,3_27_510_0,Yavatmal,Maharashtra,Yavatmal,Maharashtra,Yavatmal,Maharashtra,Yavatmal,NA
+2715,3_27_511_0,3_27_511_0,Nanded,Maharashtra,Nanded,Maharashtra,Nanded,Maharashtra,Nanded,NA
+2716,3_27_512_0,3_27_512_0,Hingoli,Maharashtra,Hingoli,Maharashtra,Hingoli,Maharashtra,Hingoli,NA
+2717,3_27_513_0,3_27_513_0,Parbhani,Maharashtra,Parbhani,Maharashtra,Parbhani,Maharashtra,Parbhani,NA
+2718,3_27_514_0,3_27_514_0,Jalna,Maharashtra,Jalna,Maharashtra,Jalna,Maharashtra,Jalna,NA
+2720,3_27_516_0,3_27_516_0,Nasik,Maharashtra,Nashik,Maharashtra,Nashik,Maharashtra,Nashik,NA
+2721,3_27_517_0,3_27_517_0,Thane,Maharashtra,Thane,Maharashtra,Thane,Maharashtra,Thane,NA
+2723,3_27_519_0,3_27_519_0,Mumbai,Maharashtra,Mumbai,Maharashtra,Mumbai,Maharashtra,Mumbai,NA
+2725,3_27_521_0,3_27_521_0,Pune,Maharashtra,Pune,Maharashtra,Pune,Maharashtra,Pune,NA
+2726,3_27_522_0,3_27_522_0,Ahmadnagar,Maharashtra,Ahmadnagar,Maharashtra,Ahmadnagar,Maharashtra,Ahmadnagar,NA
+2727,3_27_523_0,3_27_523_0,Bid,Maharashtra,Bid,Maharashtra,Bid,Maharashtra,Bid,NA
+2729,3_27_525_0,3_27_525_0,Osmanabad,Maharashtra,Osmanabad,Maharashtra,Osamanabad,Maharashtra,Osmanabad,NA
+2730,3_27_526_0,3_27_526_0,Solapur,Maharashtra,Solapur,Maharashtra,Solapur,Maharashtra,Solapur,NA
+2731,3_27_527_0,3_27_527_0,Satara,Maharashtra,Satara,Maharashtra,Satara,Maharashtra,Satara,NA
+2732,3_27_528_0,3_27_528_0,Ratnagiri,Maharashtra,Ratnagiri,Maharashtra,Ratnagiri,Maharashtra,Ratnagiri,NA
+2734,3_27_530_0,3_27_530_0,Kolhapur,Maharashtra,Kolhapur,Maharashtra,Kolhapur,Maharashtra,Kolhapur,NA
+2801,3_28_532_0,3_28_532_0,Adilabad,Andhra Pradesh,Adilabad,Andhra Pradesh,Adilabad,Andhra Pradesh,Adilabad,NA
+2802,3_28_533_0,3_28_533_0,Nizamabad,Andhra Pradesh,Nizamabad,Andhra Pradesh,Nizamabad,Andhra Pradesh,Nizamabad,NA
+2803,3_28_534_0,3_28_534_0,Karimnagar,Andhra Pradesh,Karimnagar,Andhra Pradesh,Karimnagar,Andhra Pradesh,Karimnagar,NA
+2804,3_28_535_0,3_28_535_0,Medak,Andhra Pradesh,Medak,Andhra Pradesh,Medak,Andhra Pradesh,Medak,NA
+2805,3_28_536_0,3_28_536_0,Hyderabad,Andhra Pradesh,Hyderabad,Andhra Pradesh,Hyderabad,Andhra Pradesh,Hyderabad,NA
+2806,3_28_537_0,3_28_537_0,Rangareddi,Andhra Pradesh,Rangareddy,Andhra Pradesh,Rangareddi,Andhra Pradesh,Rangareddi,NA
+2807,3_28_538_0,3_28_538_0,Mahbubnagar,Andhra Pradesh,Mahbubnagar,Andhra Pradesh,Mahbubnagar,Andhra Pradesh,Mahbubnagar,NA
+2810,3_28_541_0,3_28_541_0,Khammam,Andhra Pradesh,Khammam,Andhra Pradesh,Khammam,Andhra Pradesh,Khammam,NA
+2813,3_28_544_0,3_28_544_0,Visakhapatnam,Andhra Pradesh,Visakhapatnam,Andhra Pradesh,Visakhapatnam,Andhra Pradesh,Visakhapatnam,NA
+2814,3_28_545_0,3_28_545_0,East Godavari,Andhra Pradesh,East Godavari,Andhra Pradesh,East Godavari,Andhra Pradesh,East Godavari,NA
+2815,3_28_546_0,3_28_546_0,West Godavari,Andhra Pradesh,West Godavari,Andhra Pradesh,West Godavari,Andhra Pradesh,West Godavari,NA
+2816,3_28_547_0,3_28_547_0,Krishna,Andhra Pradesh,Krishna,Andhra Pradesh,Krishna,Andhra Pradesh,Krishna,NA
+2817,3_28_548_0,3_28_548_0,Guntur,Andhra Pradesh,Guntur,Andhra Pradesh,Guntur,Andhra Pradesh,Guntur,NA
+2818,3_28_549_0,3_28_549_0,Prakasam,Andhra Pradesh,Prakasam,Andhra Pradesh,Prakasam,Andhra Pradesh,Prakasam,NA
+2819,3_28_550_0,3_28_550_0,Nellore,Andhra Pradesh,Sri Potti Sriramulu Nellore,Andhra Pradesh,Nellore,Andhra Pradesh,Nellore,NA
+2820,3_28_551_0,3_28_551_0,Cuddapah,Andhra Pradesh,Y.S.R.,Andhra Pradesh,Cuddapah,Andhra Pradesh,Cuddapah,NA
+2821,3_28_552_0,3_28_552_0,Kurnool,Andhra Pradesh,Kurnool,Andhra Pradesh,Kurnool,Andhra Pradesh,Kurnool,NA
+2822,3_28_553_0,3_28_553_0,Anantapur,Andhra Pradesh,Anantapur,Andhra Pradesh,Anantapur,Andhra Pradesh,Anantapur,NA
+2823,3_28_554_0,3_28_554_0,Chittoor,Andhra Pradesh,Chittoor,Andhra Pradesh,Chittoor,Andhra Pradesh,Chittoor,NA
+2901,3_29_555_0,3_29_555_0,Belgaum,Karnataka,Belgaum,Karnataka,Belgaum,Karnataka,Belgaum,NA
+2902,3_29_556_0,3_29_556_0,Bagalkot,Karnataka,Bagalkot,Karnataka,Bagalkot,Karnataka,Bagalkot,NA
+2903,3_29_557_0,3_29_557_0,Bijapur,Karnataka,Bijapur,Karnataka,Bijapur,Karnataka,Bijapur,NA
+2905,3_29_558_0,3_29_558_0,Bidar,Karnataka,Bidar,Karnataka,Bidar,Karnataka,Bidar,NA
+2906,3_29_559_0,3_29_559_0,Raichur,Karnataka,Raichur,Karnataka,Raichur,Karnataka,Raichur,NA
+2907,3_29_560_0,3_29_560_0,Koppal,Karnataka,Koppal,Karnataka,Koppal,Karnataka,Koppal,NA
+2908,3_29_561_0,3_29_561_0,Gadag,Karnataka,Gadag,Karnataka,Gadag,Karnataka,Gadag,NA
+2909,3_29_562_0,3_29_562_0,Dharwad,Karnataka,Dharwad,Karnataka,Dharwad,Karnataka,Dharwad,NA
+2910,3_29_563_0,3_29_563_0,Uttar Kannad,Karnataka,Uttara Kannada,Karnataka,Uttara Kannada,Karnataka,Uttara Kannada,NA
+2911,3_29_564_0,3_29_564_0,Haveri,Karnataka,Haveri,Karnataka,Haveri,Karnataka,Haveri,NA
+2912,3_29_565_0,3_29_565_0,Bellary,Karnataka,Bellary,Karnataka,Bellary,Karnataka,Bellary,NA
+2913,3_29_566_0,3_29_566_0,Chitradurga,Karnataka,Chitradurga,Karnataka,Chitradurga,Karnataka,Chitradurga,NA
+2914,3_29_567_0,3_29_567_0,Davanagere,Karnataka,Davanagere,Karnataka,Davanagere,Karnataka,Davanagere,NA
+2915,3_29_568_0,3_29_568_0,Shimoga,Karnataka,Shimoga,Karnataka,Shimoga,Karnataka,Shimoga,NA
+2916,3_29_569_0,3_29_569_0,Udupi,Karnataka,Udupi,Karnataka,Udupi,Karnataka,Udupi,NA
+2917,3_29_570_0,3_29_570_0,Chikmagalur,Karnataka,Chikmagalur,Karnataka,Chikmagalur,Karnataka,Chikmagalur,NA
+2918,3_29_571_0,3_29_571_0,Tumkur,Karnataka,Tumkur,Karnataka,Tumkur,Karnataka,Tumkur,NA
+2919,3_29_581_0,3_29_581_0,Kolar,Karnataka,Kolar,Karnataka,Kolar,Karnataka,Kolar,Chikkaballapur district split from Kolar
+2920,3_29_572_0,3_29_572_0,Bangalore,Karnataka,Bangalore,Karnataka,Bangalore,Karnataka,Bangalore,NA
+2921,3_29_583_0,3_29_583_0,Bangalore Rural,Karnataka,Bangalore Rural,Karnataka,Bangalore (Rural),Karnataka,Bangalore (Rural),Ramanagara district split from Bangalore Rural
+2922,3_29_573_0,3_29_573_0,Mandya,Karnataka,Mandya,Karnataka,Mandya,Karnataka,Mandya,NA
+2924,3_29_575_0,3_29_575_0,Dakshin Kannada,Karnataka,Dakshina Kannada,Karnataka,Dakshina Kannada,Karnataka,Dakshina Kannada,NA
+2925,3_29_576_0,3_29_576_0,Kodagu,Karnataka,Kodagu,Karnataka,Kodagu,Karnataka,Kodagu,NA
+2926,3_29_577_0,3_29_577_0,Mysore,Karnataka,Mysore,Karnataka,Mysore,Karnataka,Mysore,NA
+2927,3_29_578_0,3_29_578_0,Chamarajanagar,Karnataka,Chamarajanagar,Karnataka,Chamarajanagar,Karnataka,Chamarajanagar,NA
+3001,3_30_585_0,3_30_585_0,North Goa,Goa,North Goa,Goa,North Goa,Goa,North Goa,NA
+3002,3_30_586_0,3_30_586_0,South Goa,Goa,South Goa,Goa,South Goa,Goa,South Goa,NA
+3202,3_32_589_0,3_32_589_0,Kannur,Kerala,Kannur,Kerala,Kannur,Kerala,Kannur,NA
+3204,3_32_591_0,3_32_591_0,Kozhikode,Kerala,Kozhikode,Kerala,Kozhikode,Kerala,Kozhikode,NA
+3205,3_32_592_0,3_32_592_0,Malappuram,Kerala,Malappuram,Kerala,Malappuram,Kerala,Malappuram,NA
+3206,3_32_593_0,3_32_593_0,Palakkad,Kerala,Palakkad,Kerala,Palakkad,Kerala,Palakkad,NA
+3207,3_32_594_0,3_32_594_0,Thrissur,Kerala,Thrissur,Kerala,Thrissur,Kerala,Thrissur,NA
+3208,3_32_595_0,3_32_595_0,Ernakulam,Kerala,Ernakulam,Kerala,Ernakulam,Kerala,Ernakulam,NA
+3209,3_32_596_0,3_32_596_0,Idukki,Kerala,Idukki,Kerala,Idukki,Kerala,Idukki,NA
+3210,3_32_597_0,3_32_597_0,Kottayam,Kerala,Kottayam,Kerala,Kottayam,Kerala,Kottayam,NA
+3211,3_32_598_0,3_32_598_0,Alappuzha,Kerala,Alappuzha,Kerala,Alappuzha,Kerala,Alappuzha,NA
+3212,3_32_599_0,3_32_599_0,Pathanamthitta,Kerala,Pathanamthitta,Kerala,Pathanamthitta,Kerala,Pathanamthitta,NA
+3213,3_32_600_0,3_32_600_0,Kollam,Kerala,Kollam,Kerala,Kollam,Kerala,Kollam,NA
+3214,3_32_601_0,3_32_601_0,Thiruvananthapuram,Kerala,Thiruvananthapuram,Kerala,Thiruvanantha- puram,Kerala,Thiruvanantha- puram,NA
+3301,3_33_602_0,3_33_602_0,Thiruvallur,Tamil Nadu,Thiruvallur,Tamil Nadu,Tiruvallur,Tamil Nadu,Thiruvallur,NA
+3302,3_33_603_0,3_33_603_0,Chennai,Tamil Nadu,Chennai,Tamil Nadu,Chennai,Tamil Nadu,Chennai,NA
+3303,3_33_604_0,3_33_604_0,Kancheepuram,Tamil Nadu,Kancheepuram,Tamil Nadu,Kanchipuram,Tamil Nadu,Kancheepuram,NA
+3304,3_33_605_0,3_33_605_0,Vellore,Tamil Nadu,Vellore,Tamil Nadu,Vellore,Tamil Nadu,Vellore,NA
+3305,3_33_630_0,3_33_630_0,Dharampuri,Tamil Nadu,Dharmapuri,Tamil Nadu,Dharmapuri,Tamil Nadu,Dharmapuri,Krishnagiri district split from Dharmapuri
+3306,3_33_606_0,3_33_606_0,Tiruvannamalai,Tamil Nadu,Tiruvannamalai,Tamil Nadu,Tiruvannamalai,Tamil Nadu,Tiruvanamalai,NA
+3309,3_33_609_0,3_33_609_0,Namakkal,Tamil Nadu,Namakkal,Tamil Nadu,Namakkal,Tamil Nadu,Namakkal,NA
+3310,3_33_610_0,3_33_632_0,Erode,Tamil Nadu,Erode,Tamil Nadu,Erode,Tamil Nadu,Erode,Tiruppur district formed from parts of Coimbatore and Erode
+3312,3_33_632_0,3_33_632_0,Coimbatore,Tamil Nadu,Coimbatore,Tamil Nadu,Coimbatore,Tamil Nadu,Coimbatore,Tiruppur district formed from parts of Coimbatore and Erode
+3313,3_33_612_0,3_33_612_0,Dindigul,Tamil Nadu,Dindigul,Tamil Nadu,Dindigul,Tamil Nadu,Dindigul,NA
+3314,3_33_613_0,3_33_613_0,Karur,Tamil Nadu,Karur,Tamil Nadu,Karur,Tamil Nadu,Karur,NA
+3315,3_33_614_0,3_33_614_0,Tiruchchirappalli,Tamil Nadu,Tiruchirappalli,Tamil Nadu,Tiruchirappalli,Tamil Nadu,Tiruchirappalli,NA
+3316,3_33_615_0,3_33_615_0,Perambalur,Tamil Nadu,Perambalur,Tamil Nadu,Perambalur,Tamil Nadu,Perambalur,NA
+3317,3_33_616_0,3_33_616_0,Ariyalur,Tamil Nadu,Ariyalur,Tamil Nadu,Ariyalur,Tamil Nadu,Ariyalur,NA
+3323,3_33_622_0,3_33_622_0,Sivaganga,Tamil Nadu,Sivaganga,Tamil Nadu,Sivaganga,Tamil Nadu,Sivaganga,NA
+3324,3_33_623_0,3_33_623_0,Madurai,Tamil Nadu,Madurai,Tamil Nadu,Madurai,Tamil Nadu,Madurai,NA
+3325,3_33_624_0,3_33_624_0,Theni,Tamil Nadu,Theni,Tamil Nadu,Theni,Tamil Nadu,Theni,NA
+3327,3_33_626_0,3_33_626_0,Ramanathapuram,Tamil Nadu,Ramanathapuram,Tamil Nadu,Ramanathapuram,Tamil Nadu,Ramanathapuram,NA
+3328,3_33_627_0,3_33_627_0,Thoothukkudi,Tamil Nadu,Thoothukkudi,Tamil Nadu,Thoothukudi,Tamil Nadu,Toothukudi,NA
+3329,3_33_628_0,3_33_628_0,Tirunelveli,Tamil Nadu,Tirunelveli,Tamil Nadu,Tirunelveli,Tamil Nadu,Tirunelveli,NA
+3330,3_33_629_0,3_33_629_0,Kanniyakumari,Tamil Nadu,Kanniyakumari,Tamil Nadu,Kanniyakumari,Tamil Nadu,Kanniyakumari,NA
+3402,3_34_635_0,3_34_635_0,Pondicherry,Puducherry,Puducherry,Pondicherry,Pondicherry,Puducherry,Pondicherry,NA
+4902,3_9_172_0,3_9_172_0,Fatehpur,Uttar Pradesh,Fatehpur,Uttar Pradesh,Fatehpur,Uttar Pradesh,Fatehpur,NA

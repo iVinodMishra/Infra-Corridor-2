@@ -1,0 +1,523 @@
+---
+title: "Charts for the ppt from regression results"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+
+##Summary
+<div style="background-color:#FFD701">The current file is setup for the results with governance index. Some of the hard coded column selections in the chart 2 section will need to be changed to revert back to the primary results charts.</div>
+
+##Load packages and setup the data
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(stringr); library(viridis); library(ggthemes);
+
+basicSpec <- read_csv("../Results/Tables/baseSpecApr25.csv")
+basicSpecFE <- read_csv("../Results/Tables/baseSpecFEApr25.csv")
+
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, title) %>% 
+        arrange(yType, varNames)
+```
+
+##Chart Group 1
+This set of charts uses the basic specification results with and without State * Year fixed effects. The post term from the first specification captures the performance of the control group (districts that are greater than 100 kms away) while the double interaction term (GQDistBand x PostGQ) captures the effect of the GQ (the same for the NSEW).
+
+Our results indicate that the highways have aggregate impact on GDP and employment, while it has a negative effect on environment. The first group of charts will compare the additional impact that GQ (over the control group) on the variable for log(GDP per capita), female and total regular wage earners and the aerosole particle thickness.
+
+So first let's isolate the terms that we are interested in and create a new dataset.
+
+```{r}
+termsOfInterest <- c("totFarmEmp_f", "totFarmEmp_tot", "totNonFarmEmp_f", "totNonFarmEmp_tot","logGdpPc", "at")
+basicSpec <- basicSpec %>% 
+        filter(yVar %in% termsOfInterest) %>% 
+        select(yVar, postGQ)
+
+basicSpecFE <- basicSpecFE %>% 
+        filter(yVar %in% termsOfInterest) %>% 
+        select(yVar, 8)
+
+names(basicSpecFE)[2] <- "gqEffect"
+
+chart1Data <- tibble(yVar = termsOfInterest) %>% 
+        left_join(., basicSpec, by = "yVar") %>% 
+        left_join(., basicSpecFE, by = "yVar") %>% 
+        mutate_at(2:3, .funs = funs(as.numeric(str_replace_all(., "\\*", ""))))
+```
+
+Next we want a chart that shows the structural changes at the aggregate level. So in this case, the shift from farm to non-farm labour
+
+```{r}
+empChart1 <- chart1Data %>% 
+        filter(yVar %in% c("totFarmEmp_f", "totFarmEmp_tot", "totNonFarmEmp_f", "totNonFarmEmp_tot")) %>% 
+        gather(key = type, value = effect, 2:3) %>% 
+        arrange(yVar) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) %>% 
+        mutate(title = factor(title, levels = c("Total Farm Employed", "Female Farm Employed", "Total Non-Farm Employed", "Female Non-Farm Employed"), ordered = T))
+                          
+ 
+```
+
+
+```{r, message = FALSE}
+plot1 <- ggplot(empChart1, aes(x = title, y = effect, fill = type)) + 
+        geom_bar(stat = "identity", width = 0.4) +
+        scale_fill_manual(name = "", values = c("postGQ" = "grey60", "gqEffect" = "lightblue"), labels = c("Effect of GQ", "Control Districts")) +
+        scale_x_discrete(labels = function(title) str_wrap(title, width = 12)) +
+        labs(y = "Percentage Change") +
+        theme_tufte() +
+        theme(
+                axis.text.x = element_text(size = 14),
+                axis.title.x = element_blank(),
+                axis.title.y = element_text(size = 16),
+                legend.text = element_text(size = 14),
+                legend.position = "top"
+        )
+png(file = "../Results/figures/highwayImpactApr25.png", height = 1350, width = 1800, res = 300)
+plot1
+dev.off()
+plot1
+```
+
+
+Next we want a similar plot that compares the aggregate positive effects on gdp vs those on the environment.
+
+```{r}
+gdpEnvData <- chart1Data %>% 
+        filter(yVar %in% c("logGdpPc", "at")) %>% 
+        gather(key = type, value = effect, 2:3) %>% 
+        arrange(yVar) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        mutate(title = factor(title, levels = c("Log GDP per capita", "Aerosole Optical thickness"), ordered = T))
+        
+```
+
+```{r}
+plot2 <- ggplot(gdpEnvData, aes(x = title, y = effect, fill = type)) + 
+        geom_bar(stat = "identity", width = 0.4) +
+        scale_fill_manual(name = "", values = c("postGQ" = "grey60", "gqEffect" = "lightblue"), labels = c("Effect of GQ", "Control Districts")) +
+        scale_x_discrete(labels = function(title) str_wrap(title, width = 12)) +
+        labs(y = "Change") +
+        theme_tufte() +
+        theme(
+                axis.text.x = element_text(size = 14),
+                axis.title.x = element_blank(),
+                axis.title.y = element_text(size = 16),
+                legend.text = element_text(size = 14),
+                legend.position = "top"
+        )
+png(file = "../Results/figures/gdpVsEnvirApr25.png", height = 1350, width = 1200, res = 300)
+plot2
+dev.off()
+plot2
+```
+
+
+##Chart Group 2
+This set of charts show the effects of different market variables on the outcoems. ~~The charts will be categorized into 4 market groups for each highway and show the effects at the 90th and 10th percentiles of the market (Z) variable.~~ Charts show the gap between the 90th and 10th percentile values times the estimated coefficient for the particular market variable for each of the selected outcomes.
+
+First lets load all the data needed for the visualization.
+
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(stringr); library(viridis); library(ggthemes);
+
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, title) %>% 
+        arrange(yType, varNames)
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv") %>% 
+        select(varNames, zType, subTitle) %>% 
+        arrange(zType, varNames)
+
+chart3Data <- read_csv("../Results/Tables/resultsMay30thwithGovernanceIndex.csv") %>% 
+        select(-GQ, -NSEW)
+        
+        # read_csv("../Results/Tables/resultsPVal20Apr26OnlyInitial.csv") %>% 
+        # select(-GQ, -NSEW)
+```
+
+Next I want to create separate data for GQ and NSEW and select the variables that we are interested in for each.
+
+First lets pick out the variables that we are interested in based on the inputs from Siddharth and Martin.
+```{r}
+yVarsOfInterest <- c("totNonFarmEmp_tot", "totFarmEmp_tot", "totNonFarmEmp_f", "totFarmEmp_f","logGdpPc", "logCons_pc_mean_tot", "povrate_rur", "pct_regWage_both_tot", "at")
+gqZ <- c("bank_t", "edu_sec_15_t", "cr_s", "est_sh_1", "governanceIndex")
+nsewZ <- c("e_pr_fin3", "edu_lit_7_t", "cr_s", "est_sh_1", "governanceIndex")
+```
+
+
+Next lets get the data for each highway ready. First I select the rows of outcomes that we are interested in, followed by the market variables for each highway.
+```{r}
+gqChart3Data <- chart3Data %>% 
+        select(yVar, contains("GQ")) %>% 
+        filter(yVar %in% yVarsOfInterest)
+
+names(gqChart3Data) <- str_replace(names(gqChart3Data), "GQ:", "")
+
+gqChart3Data <- gqChart3Data %>% 
+        select(yVar, one_of(gqZ))
+
+nsewChart3Data <- chart3Data %>% 
+        select(yVar, contains("NSEW")) %>% 
+        filter(yVar %in% yVarsOfInterest)
+names(nsewChart3Data) <- str_replace(names(nsewChart3Data), "NSEW:", "")
+
+nsewChart3Data <- nsewChart3Data %>% 
+        select(yVar, one_of(nsewZ))
+
+```
+
+
+Next we replace estimates that are below 5% significance with zero. The values are also converted to numeric since they are currently in character form.
+```{r}
+replaceEstimates <- function(x){
+        ifelse(is.na(x), 0, ifelse(str_detect(x, "\\*\\*"), as.numeric(str_replace_all(x, "\\*", "")), 0))
+}
+#gqChart3Data <- 
+        
+gqChart3Data <- gqChart3Data %>%
+        mutate_at(2:6, replaceEstimates)
+
+nsewChart3Data <- nsewChart3Data %>%
+        mutate_at(2:6, replaceEstimates)
+
+
+```
+
+The next task is to identify the 90th and 10th percentile values of the Z variables that we are interested in for both NSEW and GQ.
+First I load the regression data. We need only one year of values since the z variables are all at their baseline levels across the panel.
+
+```{r}
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+allData10 <- allData %>% 
+        filter(year == 2001) %>% 
+        select(year, one_of(gqZ, nsewZ)) %>% 
+        group_by(year) %>% 
+        summarise_all(.funs = funs(quantile(., probs = 0.1, names = F, na.rm = T))) %>% 
+        ungroup() %>% 
+        select(-year) %>% 
+        mutate(percentile = 10)
+
+allData90 <- allData %>% 
+        filter(year == 2001) %>% 
+        select(year, one_of(gqZ, nsewZ)) %>% 
+        group_by(year) %>% 
+        summarise_all(.funs = funs(quantile(., probs = 0.9, names = F, na.rm = T))) %>% 
+        ungroup() %>% 
+        select(-year) %>% 
+        mutate(percentile = 90)
+
+percentileData <- bind_rows(allData10, allData90) %>% 
+        gather(key = zVar, value = value, 1:6)
+```
+
+
+Now lets combine the percentile values with the estimates and calculate the gap between the two. I also scale the variables that so that they are more visible on the chart (since all the bars are plotted on the same y scale). The actual values themselves are reported above the bars to avoid confusion.
+```{r}
+gqChart3Data <- gqChart3Data %>% 
+        gather(key = zVar, value = estimate, 2:6) %>% 
+        left_join(percentileData, by = "zVar") %>% 
+        group_by(yVar, zVar) %>% 
+        mutate(value = estimate * (value[2] - value[1])) %>% 
+        filter(row_number() == 1) %>% 
+        mutate(minValue = min(abs(value))) %>% 
+        ungroup()%>% 
+        mutate(plotValue = ifelse(minValue < 0.009, value * 1000, ifelse(minValue < 0.09, value * 100, ifelse(minValue < 0.9, value * 10, value)))) %>% 
+        ungroup() %>% 
+        mutate(fillVar = ifelse(value < 0,"Reduced Impact", "Increased Impact"), percentile = as.character(percentile)) %>% 
+        select(-estimate, -percentile) 
+        
+
+nsewChart3Data <- nsewChart3Data %>% 
+        gather(key = zVar, value = estimate, 2:6) %>% 
+        left_join(percentileData, by = "zVar") %>% 
+        group_by(yVar, zVar) %>% 
+        mutate(value = estimate * (value[2] - value[1])) %>% 
+        filter(row_number() == 1) %>% 
+        mutate(minValue = min(abs(value))) %>% 
+        ungroup()%>% 
+        mutate(plotValue = ifelse(minValue < 0.009, value * 1000, ifelse(minValue < 0.09, value * 100, ifelse(minValue < 0.9, value * 10, value)))) %>% 
+        ungroup() %>% 
+        mutate(fillVar = ifelse(value < 0,"Reduced Impact", "Increased Impact"), percentile = as.character(percentile)) %>% 
+        select(-estimate, -percentile) 
+
+
+```
+I also want to order the y variables according to discussion with Siddharth and add titles to the charts from Z variable descriptions
+```{r}
+titleOrder <- yVars[match(yVarsOfInterest, yVars$varNames), ]$title
+
+gqChart3Data <- left_join(gqChart3Data, yVars, by = c("yVar" = "varNames")) %>% 
+        mutate(title = factor(title, levels = titleOrder, ordered = T)) %>% 
+        left_join(., zVars, by = c("zVar" = "varNames")) %>% 
+        mutate(zType = ifelse(zVar == "governanceIndex", "Governance", zType),
+               subTitle = ifelse(zVar == "governanceIndex", "Governance Index Value", zType))
+        
+
+ 
+nsewChart3Data <- left_join(nsewChart3Data, yVars, by = c("yVar" = "varNames")) %>% 
+        mutate(title = factor(title, levels = titleOrder, ordered = T)) %>% 
+        left_join(., zVars, by = c("zVar" = "varNames")) %>% 
+        mutate(zType = ifelse(zVar == "governanceIndex", "Governance", zType),
+               subTitle = ifelse(zVar == "governanceIndex", "Governance Index Value", zType))
+```
+
+Charting function
+```{r}
+chartFunction <- function(z, highway){
+        if(highway == "GQ"){
+                tempChartData <- gqChart3Data %>% 
+                        filter(zVar == z)
+                chartFile <- "GQ"
+        } else {
+                tempChartData <- nsewChart3Data %>% 
+                        filter(zVar == z)
+                chartFile <- "NSEW"
+        }
+        
+        chartTitle <- paste("Interaction Term: ", unique(tempChartData$zType))
+        subTitle <- unique(tempChartData$subTitle)
+        fileName <- paste("../Results/figures/chart 2 with governance/", chartFile, unique(tempChartData$zType),".png", sep = "")
+        
+        tempPlot <- ggplot(tempChartData, aes(x = title, y = plotValue, fill = fillVar)) +
+        geom_bar(stat = "identity", width = .7) +
+        scale_x_discrete(labels = function(title) str_wrap(title, width = 6)) +
+        scale_fill_manual(name= "", values=c("Reduced Impact"="firebrick3","Increased Impact" = "blue")) +
+        geom_text(aes(label = ifelse(value == 0, "", round(value, 2)), vjust= ifelse(value < 0, 1, -0.25)), position=position_dodge(width=0.9), size = 3) +
+        geom_hline(yintercept = 0, linetype = 2, alpha = 0.8) +
+        labs(y = "Impact", title = chartTitle, subtitle = subTitle) +
+        theme_tufte() +
+        theme(title = element_text(size = 14, margin = (t = 1)),
+              axis.title.x = element_blank(),
+              strip.text = element_text(size = 12),
+              axis.text.x = element_text(size = 9),
+              #axis.text.y = element_blank(),
+              axis.title.y = element_blank(),
+              axis.ticks.y = element_blank(),
+              axis.line.y = element_blank(),
+              legend.position = "none",
+              panel.spacing = unit(1.5, "lines"),
+              strip.background = element_blank(),
+              strip.placement = "outside")
+        
+        
+        png(file = fileName, height = 1200, width = 1600, res = 300)
+        print(tempPlot)
+        dev.off()
+        
+        
+}
+
+
+
+plotList <- lapply(unique(gqChart3Data$zVar), function(z) chartFunction(z, "GQ"))
+
+plotListNSEW <- lapply(unique(nsewChart3Data$zVar), function(z) chartFunction(z, "NSEW"))
+
+
+```
+
+
+
+
+<!-- ```{r} -->
+<!-- ##identify the z variables of interest based on the short listed y variables -->
+<!-- yVarsList <- yVarsOfInterest$varNames -->
+
+<!-- chart3Data <- withZvars %>%  -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(yVar, 9, 11, 13, 15, 17)  -->
+
+<!-- zVars <- withZvars %>%  -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(1, 4:7) -->
+
+<!-- calculatePercentiles <- function(x){ -->
+<!--         capitalVar <- quantile(unlist(allData[x[2]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         labourVar <- quantile(unlist(allData[x[3]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         landVar <- quantile(unlist(allData[x[4]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         productVar <- quantile(unlist(allData[x[5]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+
+<!--         tibble(yVar = x[1], capital10 = capitalVar[1], capital90 = capitalVar[2], labour10 = labourVar[1], labour90 = labourVar[2], land10 = landVar[1], land90 = landVar[2], product10 = productVar[1], product90 = productVar[2]) -->
+<!-- } -->
+<!-- percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles)) %>%  -->
+<!--         gather(key = type, value = marketEffect, 2:9) %>%  -->
+<!--         separate(type, into = c("market", "percentile"), sep = -3) %>%  -->
+<!--         arrange(yVar) %>%  -->
+<!--         left_join(., chart3Data, by = "yVar") %>%  -->
+<!--         mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>%  -->
+<!--         select(1:4) %>%  -->
+<!--         mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>%  -->
+<!--         left_join(., yVarsOfInterest, by = c("yVar" = "varNames"))  -->
+<!-- ``` -->
+
+
+
+
+
+
+<!-- ##Summary -->
+<!-- We need threee sets of charts.  -->
+
+<!-- 1. A panel that shows the impact of the GQ or NSEW for each of the outcomes within each category (like environment, equality etc). -->
+<!-- 2. Selected negative and positive effects of the highways -->
+<!-- 3. Complementary policies. Use selected outcomes to show the additional benefits that could be earned from investing in complementary policies. -->
+
+
+<!-- ```{r, message = FALSE, echo=FALSE} -->
+<!-- rm(list = ls()) -->
+<!-- library(tidyverse); library(stringr); library(viridis); library(ggthemes); -->
+<!-- #library(broom); library(stringr); library(maptools); library(viridis); library(ggthemes); library(gridExtra); library(Hmisc);library(GGally) -->
+
+<!-- ##The regression data -->
+<!-- load("../data/1 Cleaned files for analysis/allData.RDA") -->
+
+<!-- ##Regression results -->
+<!-- GQNSEWOnly <- read_csv("../Results/Tables/GQNSEWOnly.csv") %>%  -->
+<!--         mutate_at(4:6, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) -->
+
+<!-- withZvars <- read_csv("../Results/Tables/GQNSEWMinimum1.csv") %>%  -->
+<!--         mutate_at(8:18, .funs = funs(as.numeric(str_replace_all(., "\\*", "")))) -->
+
+<!-- ##The list of variables -->
+<!-- yVarsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") -->
+<!-- zVarsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>%  -->
+<!--         filter(varType == "z", !str_detect(varNames, "mis_")) %>%  ##the current data does not have the ASI variables. -->
+<!--         select(varNames, zType, description) %>%  -->
+<!--         arrange(zType, varNames) -->
+<!-- ``` -->
+
+
+
+
+<!-- ##Chart Group 1: Impact of GQ/NSEW -->
+<!-- First I get the data ready for the visualizations -->
+<!-- ```{r} -->
+<!-- yVarsList <- c("at", "povrate_urb", "pct_hhemp_f_tot") -->
+<!-- chart1Data <- GQNSEWOnly %>% -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(yVar, yType, GQ, NSEW, Intercept) %>%  -->
+<!--         gather(key = type, value = Effect, 3:5) %>%  -->
+<!--         group_by(yVar) %>%  -->
+<!--         mutate(Baseline = Effect[type == "Intercept"], Effect = ifelse(type == "Intercept", 0, Effect)) %>%  -->
+<!--         ungroup() %>%  -->
+<!--         gather(key = effectType, value = value, c(4, 5)) %>%  -->
+<!--         mutate(effectType = factor(effectType, levels = c("Effect", "Baseline"), labels = c("Effect" = "Highway Effect", "Baseline"), ordered = TRUE)) %>%  -->
+<!--         ungroup() %>%  -->
+<!--         arrange(yVar) %>% -->
+<!--         filter(type != "Intercept") %>%  -->
+<!--         left_join(., yVarsOfInterest, by = c("yVar" = "varNames")) %>%  -->
+<!--         mutate(fillColour = ifelse(effectType == "Baseline", "Baseline", ifelse(yVar == "at", "Negative Effect", "Positive Effect"))) -->
+<!-- ``` -->
+
+
+<!-- ```{r, message=FALSE} -->
+<!-- chart1 <- ggplot(chart1Data, aes(x = type, y = value, fill = effectType)) + -->
+<!--         geom_bar(stat = "identity", width = 0.5) + -->
+<!--         scale_fill_manual(name= "", values=c("Baseline"="grey40","Highway Effect" = "blue")) +  -->
+<!--         facet_wrap(~title, scales = "free_y", labeller = labeller(title = label_wrap_gen(20))) + -->
+<!--         ylab("Effect of the Highways") + -->
+<!--         theme_tufte() + -->
+<!--         guides(fill=guide_legend(nrow=1, byrow = TRUE)) + -->
+<!--         theme(axis.title.x = element_blank(), strip.text = element_text(size = 14), axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 12), axis.title.y = element_text(size = 18), legend.text = element_text(size = 18), legend.position = "top") -->
+<!-- png(file = "../Results/figures/highwayImpact.png", height = 1350, width = 2200, res = 300) -->
+<!-- chart1 -->
+<!-- dev.off() -->
+<!-- chart1 -->
+<!-- ``` -->
+
+
+
+<!-- ##Chart group 2 -->
+
+<!-- ```{r} -->
+<!-- yVarsList <- c("at", "pct_regWage_both_tot", "pct_regWage_f_tot", "logNtl_a") -->
+<!-- chart2Data <- withZvars %>%  -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(yVar, 8:9) %>% -->
+<!--         mutate(varOrder = c("a", "b", "c", "d"), impactType = ifelse(yVar == "at", "negative", "positive")) %>%  -->
+<!--         gather(key = type, value = Effect, 2:3) %>%  -->
+<!--         arrange(varOrder) %>%  -->
+<!--         mutate(colorVar = ifelse(type == "Baseline", "grey40", ifelse(impactType == "negative", "firebrick3", "blue"))) -->
+
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- chart2 <- ggplot(chart2Data, aes(x = varOrder, y = Effect)) + -->
+<!--         geom_bar(stat = "identity", width = 0.4, fill = c("grey40", "firebrick3", "grey40", "blue", "grey40", "blue", "grey40", "blue")) + -->
+<!--         scale_x_discrete(labels = str_wrap(c("Aerosol optical thickness", "Proportion of total regular wage earners", "Proportion of female regular wage earners", "Log of Night Lights Intensity (by area)"), width = 12)) +  -->
+<!--         ylab("Impact of GQ") + -->
+<!--         theme_tufte() + -->
+<!--         theme( -->
+<!--                 axis.title.x = element_blank(),  -->
+<!--                 axis.text.x = element_text(size = 16),  -->
+<!--                 axis.text.y = element_text(size = 14),  -->
+<!--                 axis.title.y = element_text(size = 16)) -->
+<!-- png(file = "../Results/figures/tradeOff.png", height = 1350, width = 2200, res = 300) -->
+<!-- chart2 -->
+<!-- dev.off() -->
+<!-- chart2 -->
+<!-- ``` -->
+
+
+<!-- ##Chart group 3 -->
+<!-- For this we are comparing Beta + Gamma x Z(@10th percentile) versus Beta + Gamma x Z(@90th percentile): where Beta is the estimated coefficient on the double interaction, and Gamma is the estimated coefficient on the triple interaction; Z(@10th percentile) is the value of Z at the 10th percentile of Z. -->
+<!-- ```{r} -->
+<!-- ##identify the z variables of interest based on the short listed y variables -->
+<!-- yVarsList <- yVarsOfInterest$varNames -->
+
+<!-- chart3Data <- withZvars %>%  -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(yVar, 9, 11, 13, 15, 17)  -->
+
+<!-- zVars <- withZvars %>%  -->
+<!--         filter(yVar %in% yVarsList) %>%  -->
+<!--         select(1, 4:7) -->
+
+<!-- calculatePercentiles <- function(x){ -->
+<!--         capitalVar <- quantile(unlist(allData[x[2]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         labourVar <- quantile(unlist(allData[x[3]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         landVar <- quantile(unlist(allData[x[4]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+<!--         productVar <- quantile(unlist(allData[x[5]], use.names = F), probs = c(0.1, 0.9), names = F, na.rm = T) -->
+
+<!--         tibble(yVar = x[1], capital10 = capitalVar[1], capital90 = capitalVar[2], labour10 = labourVar[1], labour90 = labourVar[2], land10 = landVar[1], land90 = landVar[2], product10 = productVar[1], product90 = productVar[2]) -->
+<!-- } -->
+<!-- percentileValues <- bind_rows(apply(zVars, 1, calculatePercentiles)) %>%  -->
+<!--         gather(key = type, value = marketEffect, 2:9) %>%  -->
+<!--         separate(type, into = c("market", "percentile"), sep = -3) %>%  -->
+<!--         arrange(yVar) %>%  -->
+<!--         left_join(., chart3Data, by = "yVar") %>%  -->
+<!--         mutate(marketEffect = ifelse(market == "capital", marketEffect * capitalGQ, ifelse(market == "labour", marketEffect * labourGQ, ifelse(market == "land", marketEffect * landGQ, marketEffect * productGQ)))) %>%  -->
+<!--         select(1:4) %>%  -->
+<!--         mutate(fillVar = ifelse(marketEffect < 0, "Reduced Impact", "Improved Impact")) %>%  -->
+<!--         left_join(., yVarsOfInterest, by = c("yVar" = "varNames"))  -->
+
+<!-- ggplot(filter(percentileValues, yVar == "at"), aes(x = percentile, y = marketEffect, fill = fillVar)) + -->
+<!--         geom_bar(stat = "identity", width = .9) + -->
+<!--         scale_fill_manual(name= "", values=c("Reduced Impact"="firebrick3","Improved Impact" = "blue")) + -->
+<!--         facet_wrap(~market, drop = T, strip.position = "bottom", nrow = 1) + -->
+<!--         ylab("Complementary effects") + -->
+<!--         theme_tufte() + -->
+<!--         guides(fill=guide_legend(nrow=1, byrow = TRUE)) + -->
+<!--         theme(axis.title.x = element_blank(),  -->
+<!--               strip.text = element_text(size = 14),  -->
+<!--               axis.text.x = element_text(size = 16),  -->
+<!--               axis.text.y = element_text(size = 12),  -->
+<!--               axis.title.y = element_text(size = 18), -->
+<!--               legend.text = element_text(size = 18),  -->
+<!--               legend.position = "top", -->
+<!--               panel.spacing = unit(0, "lines"),  -->
+<!--               strip.background = element_blank(),  -->
+<!--               strip.placement = "outside") -->
+
+
+<!-- ggplot(allData, aes(povrate_tot)) + geom_density() + facet_wrap(~year, ncol = 1) -->
+<!-- ``` -->
+
+<!-- http://stackoverflow.com/questions/18165863/multirow-axis-labels-with-nested-grouping-variables -->
+

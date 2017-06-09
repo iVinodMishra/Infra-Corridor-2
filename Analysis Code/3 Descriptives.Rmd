@@ -1,0 +1,449 @@
+---
+title: "Descriptives of Y and Z variables"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file creates descriptive statistics for the outcome and market variables.
+
+
+```{r, message = FALSE, echo=FALSE}
+rm(list = ls())
+library(tidyverse); library(broom); library(stringr); library(maptools); library(viridis); library(ggthemes); library(gridExtra); library(Hmisc);library(GGally); library(xtable); library(rgeos);
+
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+#load("../data/1 Cleaned files for analysis/Spatial Database/spatialBeforeCorresp.RDA")
+
+##The list of variables
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, title) %>% 
+        arrange(yType, varNames)
+
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv") %>% 
+        arrange(zType, varNames)
+```
+
+##Summary statistics by distance bands and post variables
+This table shows the mean values for each outcome variable across the different distance bands and post variable
+
+###For BOTH GQ AND NSEW
+This set of tables show the average values for outcomes in districts that are greater than 100 kms from both GQ and NSEW
+```{r}
+
+greaterThan100 <- allData %>% 
+        filter(gqDistType == "> 100" & nsewDistType == "> 100") 
+
+createTable <- function(y){
+        yNames <- yVars[yVars$varNames == y, ]$title
+        
+        tableData <- tibble(postGQ = greaterThan100$postGQ, postNSEW = greaterThan100$postNSEW, yVariable = unlist(greaterThan100[y], use.names = F)) 
+        
+        summaryTable <- tableData %>% 
+                group_by(postGQ) %>%
+                summarise(averageValue = round(mean(yVariable, na.rm = T), 2))
+        
+        #print(xtable(summaryTable, caption = yNames, auto = T), type = "html")
+        print(knitr::kable(summaryTable, format = "html",  caption = yNames))
+
+}
+
+for(i in 1:length(yVars$varNames)){
+        y <- yVars$varNames[i]
+        createTable(y)
+}
+```
+
+
+###FOR GQ
+```{r, results = 'asis'}
+
+
+createTable <- function(y){
+        tableData <- tibble(distanceBand = allData$gqDistType, post = allData$postGQ, yVariable = unlist(allData[y], use.names = F))
+        yNames <- yVars[yVars$varNames == y, ]$title
+        summaryTable <- tableData %>% 
+                group_by(distanceBand, post) %>% 
+                summarise(averageValue = round(mean(yVariable, na.rm = T), 2)) %>% 
+                spread(distanceBand, averageValue)
+        
+        print(xtable(summaryTable, caption = yNames, auto = T), type = "html")
+                
+}
+for(i in 1:length(yVars$varNames)){
+        y <- yVars$varNames[i]
+        createTable(y)
+}
+```
+
+###FOR NSEW
+```{r}
+createTable <- function(y){
+        tableData <- tibble(distanceBand = allData$nsewDistType, post = allData$postNSEW, yVariable = unlist(allData[y], use.names = F))
+        yNames <- yVars[yVars$varNames == y, ]$title
+        summaryTable <- tableData %>% 
+                group_by(distanceBand, post) %>% 
+                summarise(averageValue = round(mean(yVariable, na.rm = T), 2)) %>% 
+                spread(distanceBand, averageValue)
+        
+        print(xtable(summaryTable, caption = yNames, auto = T), type = "html")
+        
+                
+}
+for(i in 1:length(yVars$varNames)){
+        y <- yVars$varNames[i]
+        createTable(y)
+}
+```
+
+##Joint Distribution table
+Shows the split of districts across distance bands for both GQ and NSEW
+```{r}
+allData %>% 
+        group_by(gqDistType, nsewDistType) %>% 
+        summarise(count = n()/4) %>% 
+        spread(nsewDistType, count)
+```
+
+#Density plot for all outcome variables
+```{r, echo=FALSE}
+yChartingFunction <- function(y){
+        yNames <- yVars[yVars$varNames == y, ]$title
+        chartData <- tibble(year = allData$year, yVariable = unlist(allData[y], use.names = F)) %>% 
+                group_by(year) %>% 
+                mutate(meanValue = mean(yVariable, na.rm = T)) %>% 
+                ungroup()
+        
+        print(ggplot(chartData, aes(yVariable)) + 
+                geom_density() +
+                geom_vline(aes(xintercept = meanValue), colour = "red", linetype = "dotdash") +
+                labs(title = yNames) +
+                facet_wrap(~year) +
+                theme_tufte() +
+                theme(title = element_text(size = 14, margin = (t = 1), face = "bold"),axis.title.x = element_blank(), 
+                      strip.text = element_text(size = 14), 
+                      axis.text.x = element_text(size = 16), 
+                      axis.text.y = element_text(size = 12), 
+                      axis.title.y = element_text(size = 18),
+                      legend.text = element_text(size = 18), 
+                      legend.position = "top",
+                      panel.spacing = unit(0, "lines"), 
+                      strip.background = element_blank(), 
+                      strip.placement = "outside"))
+}
+for(i in 1:length(yVars$varNames)){
+        y <- yVars$varNames[i]
+        yChartingFunction(y)
+}
+```
+
+
+#Density plot for all Z variables
+```{r, echo=FALSE}
+zChartingFunction <- function(z){
+        zNames <- zVars[zVars$varNames == z, ]$description
+        chartData <- tibble(year = allData$year, zVariable = unlist(allData[z], use.names = F)) %>% 
+                group_by(year) %>% 
+                mutate(meanValue = mean(zVariable, na.rm = T)) %>% 
+                ungroup()
+        
+        print(ggplot(chartData, aes(zVariable)) + 
+                geom_density() +
+                geom_vline(aes(xintercept = meanValue), colour = "red", linetype = "dotdash") +
+                labs(title = zNames) +
+                facet_wrap(~year) +
+                theme_tufte() +
+                theme(title = element_text(size = 12, margin = (t = 1), face = "bold"),axis.title.x = element_blank(), 
+                      strip.text = element_text(size = 14), 
+                      axis.text.x = element_text(size = 16), 
+                      axis.text.y = element_text(size = 12), 
+                      axis.title.y = element_text(size = 18),
+                      legend.text = element_text(size = 18), 
+                      legend.position = "top",
+                      panel.spacing = unit(0, "lines"), 
+                      strip.background = element_blank(), 
+                      strip.placement = "outside"))
+}
+for(i in 1:length(zVars$varNames)){
+        z <- zVars$varNames[i]
+        zChartingFunction(z)
+}
+```
+
+##Create the correlation tables
+We are interested in the correlation between Z variables within each market categories and those across markets.
+
+```{r, fig.height=7, fig.width=12, fig.align='center', echo=FALSE}
+correlationData <- allData %>% 
+        select(one_of(zVars$varNames))
+
+ggcorr(correlationData, palette = "RdGy", label = TRUE, label_size = 3, label_color = "black", hjust = 0.9, size = 5, color = "grey50", layout.exp = 1)
+```
+
+```{r}
+knitr::kable(zVars, format = "html",  caption = 'Z Variables')
+```
+
+```{r, fig.height=12, fig.width=12, fig.align='center', echo=FALSE}
+correlationData <- allData %>% 
+        select(one_of(yVars$varNames))
+
+ggcorr(correlationData, palette = "RdGy", label = TRUE, label_size = 2, label_color = "black", hjust = 0.9, size = 4, color = "grey50", layout.exp = 1)
+```
+
+##Summary Tables
+
+**Summary Stats for Y Vars (Entire Panel)**
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+ySummaryTable <- allData %>% 
+        select(one_of(yVars$varNames)) %>% 
+        summarise_each(funs(totalObs = n(), obsWithData = sum(. != 0 | !is.na(.), na.rm = T), min = min(., na.rm = T), q25 = quantile(., 0.25, na.rm = T), median = median(., na.rm = T), q75 = quantile(., 0.75, na.rm = T), max = max(., na.rm = T), mean = mean(., na.rm = T), sd = sd(., na.rm = T)))
+
+ySummaryTable <- ySummaryTable %>% 
+        gather(stat, value) %>% 
+        separate(stat, into = c("var", "stat"), sep = "(_)(?!.*_)")%>% 
+        spread(stat, value) %>% 
+        left_join(., yVars, by = c("var" = "varNames")) %>% 
+        select(12, 11, 1, 10, 6, 5, 7, 4, 8, 2, 3, 9) %>% 
+        arrange(yType, var) %>% 
+        mutate_at(6:12, .funs = funs(round(., 2)))
+
+ySummaryTable
+
+write_csv(ySummaryTable, "../Results/Tables/Summary Tables/Summary of Y vars (entire Panel).csv")
+```
+**Summary Stats for Z Vars (Entire Panel)**
+```{r, echo=FALSE, warning=FALSE}
+zSummaryTable <- allData %>% 
+        filter(year == 2001) %>% 
+        select(one_of(zVars$varNames)) %>% 
+        summarise_each(funs(totalObs = n(), obsWithData = sum(. != 0 | !is.na(.), na.rm = T), min = min(., na.rm = T), q25 = quantile(., 0.25, na.rm = T), median = median(., na.rm = T), q75 = quantile(., 0.75, na.rm = T), max = max(., na.rm = T), mean = mean(., na.rm = T), sd = sd(., na.rm = T)))
+
+zSummaryTable <- zSummaryTable %>% 
+        gather(stat, value) %>% 
+        separate(stat, into = c("var", "stat"), sep = "(_)(?!.*_)")%>% 
+        spread(stat, value) %>% 
+        left_join(., zVars, by = c("var" = "varNames")) %>% 
+        select(12, 11, 1, 10, 6, 5, 7, 4, 8, 2, 3, 9) %>% 
+        arrange(zType, var) %>% 
+        mutate_at(6:12, .funs = funs(round(., 2)))
+zSummaryTable
+write_csv(zSummaryTable, "../Results/Tables/Summary Tables/Summary of Z vars (entire Panel).csv")
+```
+
+
+**Summary Stats for Y Vars (By Year)**
+```{r, echo=FALSE}
+ySummaryTableByYear <- allData %>% 
+        select(year, one_of(yVars$varNames)) %>% 
+        group_by(year) %>% 
+        summarise_each(funs(totalObs = n(), obsWithData = sum(. != 0 | !is.na(.), na.rm = T), min = min(., na.rm = T), q25 = quantile(., 0.25, na.rm = T), median = median(., na.rm = T), q75 = quantile(., 0.75, na.rm = T), max = max(., na.rm = T), mean = mean(., na.rm = T), sd = sd(., na.rm = T)))
+
+ySummaryTableByYear <- ySummaryTableByYear %>% 
+        gather(stat, value, -year) %>% 
+        separate(stat, into = c("var", "stat"), sep = "(_)(?!.*_)") %>% 
+        spread(stat, value) %>% 
+        left_join(., yVars, by = c("var" = "varNames")) %>% 
+        select(13, 12, 2, 1, 11, 7, 6, 8, 5, 9, 3, 4, 10) %>% 
+        arrange(yType, var, year) %>% 
+        mutate_at(7:13, .funs = funs(round(., 2)))
+ySummaryTableByYear
+
+
+write_csv(ySummaryTableByYear, "../Results/Tables/Summary of Y vars (by Year).csv")
+```
+**Summary Stats for Z Vars (By Year)**
+```{r, echo=FALSE}
+zSummaryTableByYear <- allData %>% 
+        select(year, one_of(zVars$varNames)) %>% 
+        group_by(year) %>% 
+        summarise_each(funs(totalObs = n(), obsWithData = sum(. != 0 | !is.na(.), na.rm = T), min = min(., na.rm = T), q25 = quantile(., 0.25, na.rm = T), median = median(., na.rm = T), q75 = quantile(., 0.75, na.rm = T), max = max(., na.rm = T), mean = mean(., na.rm = T), sd = sd(., na.rm = T)))
+
+zSummaryTableByYear <- zSummaryTableByYear %>% 
+        gather(stat, value, -year) %>% 
+        separate(stat, into = c("var", "stat"), sep = "(_)(?!.*_)") %>% 
+        spread(stat, value) %>% 
+        left_join(., zVars, by = c("var" = "varNames")) %>% 
+        select(13, 12, 2, 1, 11, 7, 6, 8, 5, 9, 3, 4, 10) %>% 
+        arrange(zType, var, year) %>% 
+        mutate_at(7:13, .funs = funs(round(., 2)))
+zSummaryTableByYear
+
+write_csv(zSummaryTableByYear, "../Results/Tables/Summary of Z vars (by Year).csv")
+```
+
+
+##Creating Maps
+In this section I create maps for one Y variable from each of the four categories. <span style="background-color:#FFD701">Note that I am using the raw data that is from before the consolidation to the district list from 1999, so that all the districts in the map have data (unless it is missing in the spatial database). We don't have a measure for equality that is from the spatial database, so that topic is not represented</span>
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+indiaShape <- readShapeSpatial("../data/Shape Files/SouthAsiaBoundaries/All/India_L2_Administrative_Boundaries.shp", proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs "))
+gqShape <- readShapeLines("../data/Shape Files/GQ/GQ_Highway.shp", proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs "))
+load("../data/Shape Files/nsewComplete.RDA")
+#nsewComplete <- spTransform(nsewComplete, CRS(proj4string(gqShape)))
+
+
+```
+
+Simplifying the polygons to reduce plotting time, based on the steps [here](https://gis.stackexchange.com/questions/62292/how-to-speed-up-the-plotting-of-polygons-in-r)
+
+```{r}
+# # Get the main polygons, will determine by area.
+# getSmallPolys <- function(poly, minarea=0.01) {
+#   # Get the areas
+#   areas <- lapply(poly@polygons,
+#                   function(x) sapply(x@Polygons, function(y) y@area))
+# 
+#   # Quick summary of the areas
+#   print(quantile(unlist(areas)))
+# 
+#   # Which are the big polygons?
+#   bigpolys <- lapply(areas, function(x) which(x > minarea))
+#   length(unlist(bigpolys))
+# 
+#   # Get only the big polygons
+#   for(i in 1:length(bigpolys)){
+#           bigpolys[[i]]>= 1
+#     if(length(bigpolys[[i]]) >= 1 && bigpolys[[i]][4] >= 1){
+#       poly@polygons[[i]]@Polygons <- poly@polygons[[i]]@Polygons[bigpolys[[i]]]
+#       poly@polygons[[i]]@plotOrder <- 1:length(poly@polygons[[i]]@Polygons)
+#     }
+#   }
+#   return(poly)
+# }
+
+#head(indiaShape@data$ID)
+#indiaShapeNoSmall <- getSmallPolys(indiaShape, minarea=.01)
+
+indiaShapeSimple <- rgeos::gSimplify(indiaShape, tol=0.01, topologyPreserve=TRUE)
+
+indiaShapeFinal <-  SpatialPolygonsDataFrame(indiaShapeSimple, data = indiaShape@data)
+
+indiaShape <- fortify(indiaShapeFinal, region = "ID")
+
+indiaShape <- rgdal::spTransform(indiaShape, CRS(proj4string(gqShape)))
+gqShape <- tidy(gqShape)
+##Selecting the data to show on the maps
+yMapData2001 <- spatialBeforeCorresp %>%
+        select(id, at, emp_rwg_f, gdp_pc) %>%
+        group_by(id) %>%
+        summarise(atChange = at[2] - at[1], rwgFemChange = emp_rwg_f[2] - emp_rwg_f[1], gdpPcChange = gdp_pc[2] - gdp_pc[1]) %>%
+        ungroup() %>%
+        mutate_at(2:4, .funs = funs(cut2(., g = 5)))
+
+indiaShape <- left_join(indiaShape, yMapData2001, by = "id")
+```
+
+
+
+The plot files are too big to place in a grid. So I am ouputting each separately.
+
+**Change in Aerosol Thickness (2011 - 2001)**
+```{r, out.width=12, echo=FALSE}
+ggplot() +
+        geom_polygon(data = indiaShape, aes(fill = atChange, x = long, y = lat, group = group)) +
+        geom_path(data = gqShape, aes(x = long, y = lat, group = group), color = "white", size = 1, alpha = 0.8) +
+        coord_equal() +
+        scale_fill_viridis(alpha = 0.9, discrete = T, na.value = "grey60") +
+        theme_tufte() +
+        labs(x = NULL,
+             y = NULL,
+             title = "Change in aerosol thickness") +
+        theme_tufte() +
+        theme(
+                plot.title = element_text(hjust = 0),
+                plot.subtitle = element_text(hjust = 0),
+                legend.text = element_text(size = 10),
+                legend.title = element_blank(),
+                legend.justification = c(0,0),
+                legend.position = c(0.5, 0),
+                legend.background = element_rect(fill="transparent", linetype = 0),
+                axis.line = element_blank(),
+                axis.text.x = element_blank(),
+                axis.text.y = element_blank(),
+                axis.ticks = element_blank(),
+                axis.title.x = element_blank(),
+                axis.title.y = element_blank(),
+                panel.grid.major = element_blank(),
+                panel.grid.minor = element_blank(),
+                panel.border = element_blank()
+        )
+
+```
+
+
+**Change in Female regular wage earners**
+```{r}
+
+ggplot() +
+        geom_polygon(data = indiaShape, aes(fill = rwgFemChange, x = long, y = lat, group = group)) +
+        geom_path(data = gqShape, aes(x = long, y = lat, group = group), color = "white", size = 1, alpha = 0.8) +
+        coord_equal() +
+        scale_fill_viridis(alpha = 0.9, discrete = T, na.value = "grey60") +
+        theme_tufte() +
+        labs(x = NULL,
+             y = NULL,
+             title = "Change in female regular wage earners") +
+        theme_tufte() +
+        theme(
+                plot.title = element_text(hjust = 0),
+                plot.subtitle = element_text(hjust = 0),
+                legend.text = element_text(size = 10),
+                legend.title = element_blank(),
+                legend.justification = c(0,0),
+                legend.position = c(0.5, 0),
+                legend.background = element_rect(fill="transparent", linetype = 0),
+                axis.line = element_blank(),
+                axis.text.x = element_blank(),
+                axis.text.y = element_blank(),
+                axis.ticks = element_blank(),
+                axis.title.x = element_blank(),
+                axis.title.y = element_blank(),
+                panel.grid.major = element_blank(),
+                panel.grid.minor = element_blank(),
+                panel.border = element_blank()
+        )
+
+```
+
+**Change in GDP per capita**
+```{r}
+ggplot() +
+        geom_polygon(data = indiaShape, aes(fill = gdpPcChange, x = long, y = lat, group = group)) +
+        geom_path(data = gqShape, aes(x = long, y = lat, group = group), color = "white", size = 1, alpha = 0.8) +
+        coord_equal() +
+        scale_fill_viridis(alpha = 0.9, discrete = T, na.value = "grey60") +
+        theme_tufte() +
+        labs(x = NULL,
+             y = NULL,
+             title = "Change in GDP per capita") +
+        theme_tufte() +
+        theme(
+                plot.title = element_text(hjust = 0),
+                plot.subtitle = element_text(hjust = 0),
+                legend.text = element_text(size = 10),
+                legend.title = element_blank(),
+                legend.justification = c(0,0),
+                legend.position = c(0.5, 0),
+                legend.background = element_rect(fill="transparent", linetype = 0),
+                axis.line = element_blank(),
+                axis.text.x = element_blank(),
+                axis.text.y = element_blank(),
+                axis.ticks = element_blank(),
+                axis.title.x = element_blank(),
+                axis.title.y = element_blank(),
+                panel.grid.major = element_blank(),
+                panel.grid.minor = element_blank(),
+                panel.border = element_blank()
+        )
+source("multiplot.R")
+
+png(file = "../Results/figures/combinedChartsY.png", height = 1200, width = 1500, res = 300)
+multiplot(plotlist = plots, cols = 2)
+dev.off()
+```
+

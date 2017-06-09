@@ -1,0 +1,228 @@
+---
+title: "Regressions without Z variables"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file runs different sets of regressions.
+
+1. Base specification: With only GQ and NSEW terms and no z variables.
+2. Market specification: With triple interaction terms with Z variables
+3. Misallocation specification: With triple interaction terms with misallocation variables.
+4. Base specification with continous distance instead of bands (as the treatement).
+
+##Loading the datasets
+```{r, message=FALSE}
+rm(list = ls())
+library(tidyverse); library(plm); library(broom); library(stringr); library(readxl)
+
+##The regression data
+load("../data/1 Cleaned files for analysis/allData.RDA")
+
+resultsData <- read_excel("../Results/Tables/allResults.xlsx", sheet = 2) %>% 
+        select(2, 5:8)
+
+yVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/yVarsFinal.csv") %>% 
+        select(varNames, yType, description) %>% 
+        arrange(yType, varNames)
+
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv") %>% 
+        arrange(zType, varNames)
+
+zVarsMis <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        select(varNames, zType, description) %>% 
+        filter(varNames %in% c("mis_Y_3b", "mis_L_3b", "mis_T_3b", "mis_K_3b")) %>% 
+        arrange(zType, varNames)
+
+allDataMis <- allData %>%
+        select(finalId, year, spatialState, gqDistType, nsewDistType, postGQ, postNSEW, one_of(zVarsMis$varNames, yVars$varNames))
+
+```
+
+
+##Running Regressions without Z vars using the same sample
+
+The simplest specification include only the effects of the highways. It uses the following specification (no state year effects):
+$$Y_{i,t} = Distance^{GQ}_{i} + Distance^{NSEW}_{i} + Distance^{GQ}_{i}*Post^{GQ}_{i,t} + Distance^{NSEW}_{i}*Post^{NSEW}_{i,t} + District_{i}$$
+
+```{r}
+regressionFunction <- function(x){
+        depVar <- unlist(allData[x[1]], use.names = F)
+        ##Select all the z variables
+        capitalVar <- unlist(allData[x[2]], use.names = F)
+        labourVar <- unlist(allData[x[3]], use.names = F)
+        landVar <- unlist(allData[x[4]], use.names = F)
+        productVar <- unlist(allData[x[5]], use.names = F)
+        
+        modelZ <- plm(depVar ~ gqDistType + nsewDistType + capitalVar + labourVar+ landVar + productVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * capitalVar + gqDistType * postGQ * labourVar + gqDistType * postGQ * landVar + gqDistType * postGQ * productVar + nsewDistType * postNSEW * capitalVar + nsewDistType * postNSEW * labourVar + nsewDistType * postNSEW * landVar + nsewDistType * postNSEW * productVar + spatialState * year, data = allData)
+        
+        modelNames <- rownames(modelZ$model)
+        sampleData <- allData[rownames(allData) %in% modelNames,]
+        depVar <- unlist(sampleData[x[1]], use.names = F) ##update the y variable
+        
+        model <- plm(depVar ~ gqDistType + nsewDistType + gqDistType * postGQ + nsewDistType * postNSEW + spatialState * year, data = sampleData)
+        
+        tidy(model) %>% 
+                filter(str_detect(term, "(?=.*DistType0-40)(?=.*post)|(^postGQ$)|(^postNSEW$)")) %>% 
+                mutate(yVar = x[1], adjRSq = glance(model)$adj.r.squared) %>% 
+                select(yVar, term, estimate, p.value, adjRSq)
+}
+
+GQNSEWOnly <- apply(resultsData, 1, regressionFunction)
+
+GQNSEWOnlyDF <- bind_rows(GQNSEWOnly) %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(-p.value) %>% 
+        spread(term, estimate) %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) %>% 
+        select(1, 7, 8, 5, 6, 3, 4, 2) %>% 
+        arrange(yType, yVar)
+
+names(GQNSEWOnlyDF)[6:7] <- c("GQ", "NSEW")
+
+GQNSEWOnlyDF %>% 
+        write_csv(., "../Results/Tables/GQNSEWOnly.csv")
+
+```
+
+
+```{r}
+regressionFunctionAll <- function(x){
+        depVar <- unlist(allData[x[1]], use.names = F)
+        ##Select all the z variables
+        capitalVar <- unlist(allData[x[2]], use.names = F)
+        labourVar <- unlist(allData[x[3]], use.names = F)
+        landVar <- unlist(allData[x[4]], use.names = F)
+        productVar <- unlist(allData[x[5]], use.names = F)
+        zVarCombo <- paste(x[1], x[2], x[3], x[4], sep = ",")
+        
+        modelZ <- plm(depVar ~ gqDistType + nsewDistType + capitalVar + labourVar+ landVar + productVar + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * capitalVar + gqDistType * postGQ * labourVar + gqDistType * postGQ * landVar + gqDistType * postGQ * productVar + nsewDistType * postNSEW * capitalVar + nsewDistType * postNSEW * labourVar + nsewDistType * postNSEW * landVar + nsewDistType * postNSEW * productVar + spatialState * year, data = allData)
+        
+        interceptRow <- tibble(yVar = x[1], zVars = zVarCombo, term = "Intercept", estimate = mean(fixef(modelZ)), p.value = 0.0001)
+        
+        tidy(modelZ) %>% 
+                filter(str_detect(term, "(?=.*DistType0-40)(?=.*post)")) %>% 
+                mutate(zVars = zVarCombo, yVar = x[1]) %>% 
+                select(yVar, zVars, term, estimate, p.value) %>% 
+                bind_rows(., interceptRow)
+}
+
+allVars <- apply(resultsData, 1, regressionFunctionAll)
+
+allVars <- bind_rows(allVars) %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, zVars, term, estimate) %>% 
+        spread(term, estimate) %>% 
+        separate(zVars, into = c("capitalVar", "labourVar", "landVar", "productVar"), sep = "\\,") %>% 
+        left_join(., yVars, by = c("yVar" = "varNames")) %>% 
+        select(1, 17, 18, 2:5, 11, 9, 15, 6, 12, 7, 13, 8, 14, 10, 16) %>% 
+        arrange(yType, yVar)
+
+namesComparison <- tibble(term = names(allVars))
+names(allVars) <- c("yVar", "yType", "description","capitalVar", "labourVar", "landVar", "productVar", "Intercept", "GQ", "NSEW", "capitalGQ", "capitalNSEW", "labourGQ", "labourNSEW", "landGQ", "landNSEW", "productGQ", "productNSEW")
+namesComparison$replacement <- names(allVars)
+namesComparison
+
+withZvars <- read_csv("../Results/Tables/GQNSEWMinimum1.csv")
+
+identical(withZvars$capitalGQ, allVars$capitalGQ)
+withZvars[withZvars$landGQ != allVars$landGQ, ]
+```
+
+##Misallocation regressions
+```{r}
+pattern <- "(?=.*DistType0-40)(?=.*post)"
+regressionFunctionMis <- function(y){
+        depVar <- unlist(allDataMis[y], use.names = F)
+
+        modelZ <- plm(depVar ~ gqDistType + nsewDistType + mis_K_3b + mis_L_3b+ mis_T_3b + mis_Y_3b + gqDistType * postGQ + nsewDistType * postNSEW + gqDistType * postGQ * mis_K_3b + gqDistType * postGQ * mis_L_3b + gqDistType * postGQ * mis_T_3b + gqDistType * postGQ * mis_Y_3b + nsewDistType * postNSEW * mis_K_3b + nsewDistType * postNSEW * mis_L_3b + nsewDistType * postNSEW * mis_T_3b + nsewDistType * postNSEW * mis_Y_3b + spatialState * year, data = allDataMis)
+        
+        tidy(modelZ) %>% 
+                filter(str_detect(term, pattern)) %>%
+                        mutate(yVar = y, adjRSq = glance(modelZ)$adj.r.squared, nobs = nobs(modelZ)) %>%
+                        select(yVar, term, estimate, p.value, adjRSq, nobs)
+}
+
+misResults <- lapply(yVars$varNames, regressionFunctionMis)
+
+misResultsDF <- bind_rows(misResults) %>% 
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, term, estimate, adjRSq, nobs) %>% 
+        spread(term, estimate) %>%
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(1, 14, 15, 2, 3, 8, 13, 4, 9, 5, 10, 6, 11, 7, 12)
+
+
+names(misResultsDF)[6:15]<- c("GQ", "NSEW","misCapitalGQ", "misCapitalNSEW", "misLabourGQ", "misLabourNSEW", "misLandGQ", "misLandNSEW", "misOutputGQ", "misOutputNSEW")
+
+write_csv(misResultsDF, "../Results/Tables/misAllocResults.csv")
+```
+
+
+##Continous treatment
+```{r}
+pattern <- "(?=.*Distance)(?=.*post)|(^postGQ$)|(^postNSEW$)"
+
+allData <- allData %>%
+        mutate(gqDistance = gqDistance/10, nsewDistance = nsewDistance/10)
+
+continousRegressions <- function(y){
+        depVar <- unlist(allData[y], use.names = F)
+        
+        model <- plm(depVar ~ gqDistance + nsewDistance + gqDistance * postGQ + nsewDistance * postNSEW, data = allData)
+        
+        tidy(model) %>% 
+                filter(str_detect(term, pattern)) %>% 
+                mutate(yVar = y, adjRSq = glance(model)$adj.r.squared, nobs = nobs(model)) %>% 
+                select(yVar, term, estimate, p.value, adjRSq, nobs)
+}
+
+continousResults <- lapply(yVars$varNames, continousRegressions)
+
+continousResultsDF <- bind_rows(continousResults) %>%
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, term, estimate, adjRSq, nobs) %>% 
+        spread(term, estimate) %>%
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar) %>% 
+        select(1, 8, 9, 2, 3, 6, 7, 4, 5) %>% 
+        write_csv(., "../Results/Tables/continousDistanceResults.csv")
+        
+
+```
+
+
+##Base Regressions
+
+```{r}
+pattern <- "(?=.*DistType0-40)(?=.*post)|(^postGQ$)|(^postNSEW$)"
+
+baseRegressions <- function(y){
+        depVar <- unlist(allData[y], use.names = F)
+        
+        model <- plm(depVar ~ gqDistType + nsewDistType + gqDistType * postGQ + nsewDistType * postNSEW + spatialState * year, data = allData)
+        
+        tidy(model) %>% 
+                filter(str_detect(term, pattern)) %>% 
+                mutate(yVar = y, adjRSq = glance(model)$adj.r.squared, nobs = nobs(model)) %>% 
+                select(yVar, term, estimate, p.value, adjRSq, nobs)
+}
+
+baseResults <- lapply(yVars$varNames,baseRegressions)
+
+baseResultsDF <- bind_rows(baseResults) %>%
+        mutate(estimate = ifelse(is.na(estimate), NA, ifelse(p.value <= 0.01, paste(round(estimate, 4), "***", sep=""), ifelse(p.value <= 0.05, paste(round(estimate, 4), "**", sep=""), ifelse(p.value <= 0.1, paste(round(estimate, 4), "*", sep=""), as.character(round(estimate, 4))))))) %>% 
+        select(yVar, term, estimate, adjRSq, nobs) %>% 
+        spread(term, estimate) %>%
+        left_join(., yVars, by = c("yVar" = "varNames"))%>% 
+        arrange(yType, yVar)%>% 
+        select(1, 8, 9, 2, 3, 6, 7, 4, 5) %>% 
+        write_csv(., "../Results/Tables/baseSpecFEApr25.csv")
+        
+```
+

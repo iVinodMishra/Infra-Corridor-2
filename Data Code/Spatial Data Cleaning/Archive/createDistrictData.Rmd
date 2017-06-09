@@ -1,0 +1,113 @@
+---
+title: 'R Notebook: Create a district level dataset'
+output:
+  pdf_document: default
+  html_document: default
+  html_notebook: default
+  github_document: default
+date: '`r Sys.Date()`'
+---
+## Maps and raw files used for the different datasets
+
+1. District Distance Data
+        + Shape file for GQ highway (from Aarti Grover)
+        + Shape file for the NSEW highway (from Aarti Grover)
+        + Excel File with data on the completion dates for NSEW highway (from Aarti Grover)
+        + Shape file with district map of India (from the spatial database)
+2. Spatial Database
+        + Downloaded data from the spatial database (the entire database as of Dec 5th, 2016)
+3. ASI Database
+        + Asi data for the years 2001 and 2011 (from Siddharth)
+        
+
+##1.0 Creating the district distance data
+
+Highway Maps of GQ and NSEW
+
+```{r, out.width = '50%', fig.show = "hold", echo=FALSE, message=FALSE}
+knitr::include_graphics("../../Results/figures/map_GQ.png")
+knitr::include_graphics("../../Results/figures/map_NSEW.png")
+```
+
+###1.1 Steps
+1. Use the completion dates to create a new NSEW spatial lines dataset that reflects highway completion as of 2011
+2. Use the district map of India to find the centre of districts. This dataset already had the spatial database ids mapped to it, saving us the trouble of having to do it ourselves.^[The centres were manually cross checked with the boundaries and they fall within the boundaries of all the districts that were checked. One issue with this step was that the boundaries of districts are usually much larger than the urbanized parts of the district. As a result, the district centres which are at the geographic centre of the district geometries might not reflect the actual centre of mass of the district based on the population. Ideally we want a population weighted district centre.]
+3. Calculate the distance of the district centres from the actual highways as of 2011
+4. Identify nodal cities in GQ and NSEW to create a spatial lines dataset that links the nodes.
+5. Calculate the distance of the districts from the straight lines between nodes for GQ and NSEW.
+6. Mark districts that are less than 40 kilometers from a nodal district as being a nodal district ^[As noted earlier the district centres are sometimes further away from the population weighted centre of mass. This has implications for this step. For instance, Thane City is located about 25 kms from Mumbai and should be considered to be a nodal 'area'. However, Thane district (of which Thane City is a smaller part of) is a much larger area. As a result the distance calculation from its centre to that of Mumbai comes out to be about 75 kms.]
+7. Identify abnormal districts (islands, India/China etc.)
+
+###1.2 The final data set description
+Here is a description of all the variables in the dataset
+
+1. id: This is the same id variable that is used in the south asia spatial dataset and ties the districts to all the other variables (i.e economic, demographic etc).
+2. state: Name of the state
+3. district: Name of the district
+4. long: The longitude coordinate of the district centre
+5. lat: The latitude coordinate of the district centre
+6. gqDistance: The distance from the district centre to the GQ highway
+7. nsewDistance: The distance from the district centre to the NSEW highway
+8. gqStraightDistance: The distance from the district centres to the straight lines between GQ nodes
+9. nsewStraightDistance: The distance from the district centres to the straight lines between NSEW nodes
+10. districtType: The type of district (nodal, not nodal, island, India/China)
+
+###1.3 Descriptives
+####1.3.1 Distance from district to highway
+The plots below shows the straight line distances from district centroids to GQ and NSEW highways as of 2011.^[Note that the NSEW shows only segments that were completed by 2011.]
+
+```{r, out.width = '50%', fig.show = "hold", echo=FALSE, message=FALSE}
+knitr::include_graphics("../../Results/figures/gqToDistric.png")
+knitr::include_graphics("../../Results/figures/nsewToDistric.png")
+```
+
+####1.3.2 Distance from the straight lines between nodes
+This replicates the same calculation from district centroid but this time it to straight lines between nodal points in the highways rather than the actual highways themselves.
+
+```{r, out.width = '50%', fig.show = "hold", echo=FALSE, message=FALSE}
+knitr::include_graphics("../../Results/figures/gqToDistrictStraightLine.png")
+knitr::include_graphics("../../Results/figures/nsewToDistrictStraightLine.png")
+```
+
+####1.3.3 Nodal districts
+The list of nodal districts were extended further by adding a buffer of 40 kms. All districts with centroids that fell within the 40 km buffer are considered to be nodal. The table below shows the full list of nodal districts.
+
+```{r show nodal districts, warning=FALSE, message=FALSE, echo=FALSE}
+library(knitr); library(tidyverse)
+rm(list = ls()) 
+load('../../data/1 Cleaned files for analysis/districtDistances.RDA')
+kable(filter(districtDistances, districtType == "nodal") %>% 
+              dplyr::select(state, district, districtType, gqDistance, nsewDistance, gqStraightDistance, nsewStraightDistance))
+```
+
+####1.3.4 Abnormal Districts
+Some districts are islands, while others are disputed (classified as India/China). These have been marked out for the analysis.
+
+```{r show island and india/china districts, warning=FALSE, message=FALSE, echo=FALSE}
+kable(filter(districtDistances, !(districtType %in% c("not nodal", "nodal"))) %>% 
+              dplyr::select(state, district, districtType, gqDistance, nsewDistance, gqStraightDistance, nsewStraightDistance))
+```
+
+##2.0 Creating the Spatial Dataset
+The spatial dataset was created from the datasets that were downloaded from the online [South Asia Database](https://spatialdatabase-southasia.herokuapp.com/explore#) ^[Requires login credentials] on December 5th, 2016. The dataset is still in the process of being completed and the final version with the full list of variables is expected to be ready by Feb, 2017.
+
+###2.1 Steps
+
+1. The individual .csv files were programatically merged
+2. Only those observations with values for both years were preserved in the final dataset.
+3. The spatial dataset contains three 'geography' levels called rural, urban and total. These were split into individual datasets for each year.
+4. In addition, a district file with meta data on districts (mapped to their spatial ids) was created.
+
+###2.2 Descriptives
+Nothing yet for this section.
+
+##3.0 Creating the ASI data
+
+###3.1 Steps
+
+1. Manually created a correspondence table between district names in ASI data and the spatial data district ids.
+2. The spatial ids from the spatial dataset and the district names from 2010 were merged back into the 2001 district names to handle the creation of new districts between 2001 and 2010.^[The data for the creation of new districts was taken from [here](http://www.statoids.com/yin.html).]
+3. Two separate ASI datasets were created for 2010 and 2001. Both these datasets are mapped to a common list of spatial ids and contain the entire survey data (only variables common to both years were kept). The variables can be easily summarised to the district level using the spatial id variables.
+
+###3.2 Descriptives
+Nothing yet for this section.

@@ -1,0 +1,9 @@
+description,zType,var,totalObs,obsWithData,min,q25,median,q75,max,mean,sd
+"Households' access to banking services, total (percent of households)",Capital market,bank_t,427,427,7.2,24.26,32.6,44.05,76,34.86,14.09
+Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),Capital market,e_pr_fin3,427,427,0.1,1.5,2.75,4.5,19.8,3.61,3.21
+"Literacy rate,7+ years,total(percent of population group)",Labor market,edu_lit_7_t,427,427,30.5,55.7,63.6,72.3,95.8,63.5,12.66
+"Secondary education completion rate,15+ years,total(percent of population group)",Labor market,edu_sec_15_t,427,427,3.4,17,22.8,28.95,47.4,23.2,8.46
+Cropland (percent of area),Land market,cr_s,427,427,0,29.05,60.1,88.3,99.2,56.79,32.25
+"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",Product market,di_e_2,427,427,2.3,3.6,4.7,5.87,9.7,4.83,1.5
+Non-agr. enterprises by ownership -Private(percent of establishments),Product market,e_own1,427,427,62.3,90.7,93.6,95.8,99.3,92.5,4.79
+"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",Product market,est_sh_1,427,427,1.6,13.2,20.8,32.25,94.1,25.31,17.34

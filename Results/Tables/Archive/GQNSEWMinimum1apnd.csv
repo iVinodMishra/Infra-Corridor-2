@@ -1,0 +1,4 @@
+yVar,yType,description,capitalVar,labourVar,landVar,productVar,Intercept,GQ,NSEW,capitalGQ,capitalNSEW,labourGQ,labourNSEW,landGQ,landNSEW,productGQ,productNSEW
+ap,environment,Aerosol particle radius (percent of small particles) in logs,bank_t,edu_sec_15_t,cr_s,est_sh_1,13.692***,5.6779,16.3392**,-0.0638,0.004,0.0048,-0.0547,-0.0272,-0.1647***,-0.0557,-0.116*
+at,environment,Aerosol optical thickness (thickness scale  0–1 ),e_fin3,edu_lit_15_t,lcrt,est_sh_1,0.3611***,0.095***,0.0751*,-5e-04,0.004,-0.0011**,-0.001**,NA,NA,3e-04,-1e-04
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2) in logs,bank_t,edu_lit_7_t,cr_s,est_sh_1,151.4344***,49.3446*,51.1959*,0.1609,0.2409,-0.4388,-0.7161**,-0.0487,-0.1202,-0.0369,-0.1537

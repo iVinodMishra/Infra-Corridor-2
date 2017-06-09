@@ -1,0 +1,15 @@
+************************************************************************
+***************Ghani - Goswami- Kerr -		 ***********************
+***************Golden Quadrilateral Highways*******
+***************Economic Journal, 2014 ******************
+************************************************************************
+
+
+
+These deflators were sent by Karl Jandoc to the World Bank
+ South Asia Labor Flagship team in 2010. They are from the paper by 
+ Gupta, Hasan and Kumar and contain wholesale price deflators by
+ 3-digit NIC-98 industry from 1970 to 2005.
+
+
+The more recent reflators are from the Office of the Economic Adviser, Ministry of commerce & Industry, GoI

@@ -1,0 +1,6 @@
+variable,variableOrder,impactType,Baseline,Effect
+GDP per capita,a,positive,4.37,0.48
+Proportion of female regular wage earners,b,positive,4.184,2.423
+Proportion of total regular wage earners,c,positive,3.389,2.017
+Aerosol optical thickness,d,negative,3.6,0.37
+Decrease in Forest cover,e,negative,0.689,0.471

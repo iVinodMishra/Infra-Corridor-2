@@ -1,0 +1,68 @@
+Variable,Description,forAnalysis
+ap,Aerosol particle radius (percent of small particles),1.0
+area,Area (sq. km.),1.0
+area_bu,Area (sq. km.),1.0
+area_lit,Area (sq. km.),1.0
+at,Aerosol optical thickness (thickness scale  0–1 ),1.0
+bank_t,"Households' access to banking services, total (percent of households)",1.0
+cm,Carbon monoxide levels (parts per billion by volume),1.0
+cr_s,Cropland (percent of area),1.0
+dens,Population density (people per sq. km.),1.0
+dens_bu,Population density (people per sq. km.),1.0
+dens_lit,Population density (people per sq. km.),1.0
+edu_lit_7_f,"Literacy rate,7+ years,female(percent of population group)",1.0
+edu_lit_7_m,"Literacy rate,7+ years,male(percent of population group)",1.0
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)",1.0
+emp_7_f,"Employment rate, 7+ years, main + marginal,       Female(percent of age group)",1.0
+emp_7_m,"Employment rate, 7+ years, main + marginal,          Male(percent of age group)",1.0
+emp_7_t,"Employment rate, 7+ years, main + marginal,          Total(percent of age group)",1.0
+emp_cwg_f,"Casual wage earners,       Female(percent of total employment)",1.0
+emp_cwg_m,"Casual wage earners,          Male(percent of total employment)",1.0
+emp_cwg_t,"Casual wage earners,          Total(percent of total employment)",1.0
+emp_fmr_f,"Farmers,       Female(percent of total employment)",1.0
+emp_fmr_m,"Farmers,          Male(percent of total employment)",1.0
+emp_fmr_t,"Farmers,          Total(percent of total employment)",1.0
+emp_rwg_f,"Regular wage earners,       Female(percent of total employment)",1.0
+emp_rwg_m,"Regular wage earners,          Male(percent of total employment)",1.0
+emp_rwg_t,"Regular wage earners,          Total(percent of total employment)",1.0
+emp_slf_f,"Self-employed,       Female(percent of total employment)",1.0
+emp_slf_m,"Self-employed,          Male(percent of total employment)",1.0
+emp_slf_t,"Self-employed,          Total(percent of total employment)",1.0
+fo_s,Forest (percent of area),1.0
+gdp,"GDP  (current USD, in millions)",1.0
+gdp_pc,GDP per capita (current USD),1.0
+nd,Nitrogen dioxide levels (billion molecules/mm2),1.0
+ntl_a,Light intensity per area (Digital Numbers of light per sq. km.),1.0
+ntl_pc,Light intensity per 1000 people(Digital Numbers of light per 1000 people),1.0
+pop,Population (thousands),1.0
+pop_bu,Population (thousands),1.0
+pop_lit,Population (thousands),1.0
+ppl_room_t,"People per room,total(people)",1.0
+sgdp_s1,"GVA by sector,ISIC 3.1-Agriculture,fishing,hunting,forestry(A,B)(percent of GDP)",1.0
+sgdp_s10,"GVA by sector,ISIC 3.1-Public administration(L)(percent of GDP)",1.0
+sgdp_s11,"GVA by sector,ISIC 3.1-Other(M, N, O, P, Q)(percent of GDP)",1.0
+sgdp_s2,"GVA by sector,ISIC 3.1-Mining and quarrying(C)(percent of GDP)",1.0
+sgdp_s3,"GVA by sector,ISIC 3.1-Manufacturing(D)(percent of GDP)",1.0
+sgdp_s4,"GVA by sector,ISIC 3.1-Electricity, gas and water supply(E)(percent of GDP)",1.0
+sgdp_s5,"GVA by sector,ISIC 3.1-Construction(F)(percent of GDP)",1.0
+sgdp_s6,"GVA by sector,ISIC 3.1-Trade, hotels and restaurants(G, H)(percent of GDP)",1.0
+sgdp_s7,"GVA by sector,ISIC 3.1-Transportation,storage,communications(I)(percent of GDP)",1.0
+sgdp_s8,"GVA by sector,ISIC 3.1-Financial intermediation(J)(percent of GDP)",1.0
+sgdp_s9,"GVA by sector,ISIC 3.1-Real estate & business activities(K)(percent of GDP)",1.0
+wkp_7_f,"Working-age population, 7+ years,       Female(percent)",1.0
+wkp_7_m,"Working-age population, 7+ years,          Male(percent)",1.0
+wkp_7_t,"Working-age population, 7+ years,          Total(percent)",1.0
+yieldp_sel1,"Crop yield,  quantity - Millets(tonnes per ha.)",1.0
+yieldp_sel2,"Crop yield,  quantity - Pulses(tonnes per ha.)",1.0
+yieldp_sel3,"Crop yield,  quantity - Rice(tonnes per ha.)",1.0
+yieldp_sel4,"Crop yield,  quantity - Sugar cane(tonnes per ha.)",1.0
+yieldp_sel5,"Crop yield,  quantity - Wheat(tonnes per ha.)",1.0
+yieldp_sel6,"Crop yield,  quantity - Maize(tonnes per ha.)",1.0
+yieldp_sel7,"Crop yield,  quantity - Groundnut(tonnes per ha.)",1.0
+yieldvus_sel1,"Crop yield,  monetary - Millets (2011 USD per ha., in thousands)",1.0
+yieldvus_sel2,"Crop yield,  monetary - Pulses (2011 USD per ha., in thousands)",1.0
+yieldvus_sel3,"Crop yield,  monetary - Rice(2011 USD per ha., in thousands)",1.0
+yieldvus_sel4,"Crop yield,  monetary - Sugar cane (2011 USD per ha., in thousands)",1.0
+yieldvus_sel5,"Crop yield,  monetary - Wheat (2011 USD per ha., in thousands)",1.0
+yieldvus_sel6,"Crop yield,  monetary - Maize(2011 USD per ha., in thousands)",1.0
+yieldvus_sel7,"Crop yield,  monetary - Groundnut (2011 USD per ha., in thousands)",1.0

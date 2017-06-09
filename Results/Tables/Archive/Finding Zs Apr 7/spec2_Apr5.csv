@@ -1,0 +1,41 @@
+variable,GQ(0-40) * Post,GQ(40-100) * Post,GQ(Nodal) * Post,NSEW(0-40) * Post,NSEW(40-100) * Post,NSEW(Nodal) * Post,Post(GQ),Post(NSEW)
+Aerosol optical thickness (thickness scale  0–1 ),0.03***,0.02***,0.02,0.01,0,0.02,0.07***,NA
+Aerosol particle radius (percent of small particles),-0.72,0.77,-0.17,-0.4,0.55,-2.94,13.17***,NA
+Carbon monoxide levels (parts per billion by volume),0.06,0.36,-3.9***,-1.27**,-1.74***,2.07,-1.61**,NA
+"Empl rate, 7+ years, main + marginal, Female (percent of age group)",0.15,-1.83***,1.98,-0.94,-1.13,-0.02,0.41,NA
+"Empl rate, 7+ years, main + marginal, Total (percent of age group)",0.57,-0.83**,0.27,-0.38,-0.48,1.06,-0.66,NA
+Forest (percent of area),-0.45,-0.24,-1.2,-0.29,-1.05**,0.19,-0.65,NA
+"GDP (current USD, in millions)",190.69***,26.45,238.39*,95.39,-16.74,852.45***,665.75***,NA
+GDP per capita (current USD),33.35***,2.64,63.91**,20.97,-5.39,85**,181.65***,NA
+Light intensity per 1000 people,-1.51,-0.08,-1.84,-0.6,0.68,-0.16,16.88***,NA
+Light intensity per area,3.33***,0.91,-2.44,1.96**,0.96,21.48***,3.16***,NA
+"Log of GDP (current USD, in millions)",0.03,0.01,-0.08*,0.01,0,0.11*,0.46***,NA
+Log of mean hh consumption (total),0,-0.02,0.09,-0.01,-0.01,0.01,0.23***,0.18***
+mean hh consumption (total),9.17,-11.85,89.33*,-12.3,-10.65,14.6,153.76***,150.41***
+N employed/Total total population,0,-0.01,-0.02,-0.01,0,0,0.03*,-0.04**
+N females employed/female total population,0,-0.01,-0.07,-0.02,0,0.01,0.07**,-0.05
+N females inactive/female total population,0,0.01,0.07,0.02,-0.01,-0.01,-0.07**,0.05*
+N inactive/Total total population,0,0.01,0.03,0.01,-0.01,-0.01,-0.03**,0.05***
+N males employed/male total population,0,0,0.01,-0.01,0.01,-0.02,-0.01,-0.03**
+N males inactive/male total population,0,0,0.01,0.01,-0.01,0.01,0,0.04***
+N total females formal employed/N female employed,0.01,0.01,0.05*,0.01,-0.01,0.07**,0.02,0
+N total females household employed/N female employed,0.01,0,0.09,0.02,0.01,-0.03,0.02,-0.11***
+N total females regular wage employed/N female employed,-0.01,0,0.02,-0.01,-0.02,0.1**,0.02,0.01
+N total females self employed/N female employed,0,-0.01,-0.1,-0.01,-0.01,-0.04,0,0.01
+N total females wage employed/N female employed,-0.01,0.01,0.01,0,-0.01,0.07,-0.03,0.1**
+N total formal employed/Total employed,0.01**,0.01,0.11***,0.03***,0,0.02,0,0.01
+N total household employed/Total employed,0.01,0,-0.02,0,0.01,0,0.01,-0.07***
+N total males formal employed/N male employed,0.02**,0.01,0.12***,0.03***,0,0.01,-0.01,0.02
+N total males household employed/N male employed,0,0,-0.03,0,0.01,0.01,-0.01,-0.05***
+N total males regular wage employed/N male employed,0,-0.01,0.1***,0.01,0,0.02,-0.06***,0.01
+N total males self employed/N male employed,0,0,-0.07*,-0.01,0.01,0.04,0.04**,-0.02
+N total males wage employed/N male employed,-0.01,0,0.08*,0.01,-0.02,-0.04,-0.02,0.07***
+N total regular wage employed/Total employed,0,-0.01,0.09***,0.01,0,0.04,-0.03**,0.01
+N total self employed/Total employed,0,0,-0.07**,0,0,0.02,0.02,-0.01
+N total wage employed/Total employed,-0.01,0,0.08*,0.01,-0.01,-0.01,-0.02,0.08***
+Nitrogen dioxide levels (billion molecules/mm2),1.01,1.49,9.89*,-1.54,2.87,-1.77,25.3***,NA
+Population density (people per sq. km.),58.1***,21.44,-94.15*,14.55,-8.35,507.81***,-5.96,NA
+poverty rate (total),0.27,0.55,2.08,-0.64,-2.29,-8.24,-18.83***,-10.92***
+"Regular wage earners, Female (percent of total empl)",2.05***,0.69,1.01,2.25**,0.76,0.83,3.04**,NA
+"Regular wage earners, Total (percent of total emplt)",1.22**,0.64,0.03,2.16***,0.23,-0.45,1.72*,NA
+Share of urban population,0.02***,0.01,0.02,0.01,0.01,0.03,0.06***,NA

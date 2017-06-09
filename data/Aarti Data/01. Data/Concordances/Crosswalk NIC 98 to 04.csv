@@ -1,0 +1,160 @@
+nic498,nic404,nic304,Description
+140,140,14,"Agricultural and animal husbandry service activities, except veterinary activities.[This class includes specialized activities, on a fee or contract basis, mostly performed on the farm.]"
+1422,1422,142,"Extraction of salt. [Includes salt mining, crushing and screening and salt production by solar evaporation of  sea water, lake brine or other natural brines.]"
+1511,1511,151,"Production, processing and preserving of meat and meat products."
+1512,1512,151,Processing and preserving of fish and fish products [fishing and processing of the catch aboard the fisher boats are classified in class 0500 whereas activities of vessels engaged only processing and preserving are classified under this class]
+1513,1513,151,"Processing and preserving of fruit, vegetables and edible nuts"
+1514,1514,151,Manufacture of vegetable and animal oils and fats [Wet corn milling and production of corn oil is classified in Class 1532 and treatment of oils and fats by chemical processing is classified in Class 2429]
+1520,1520,152,Manufacture of dairy product [production of raw milk is classified in class 0121]
+1531,1531,153,Manufacture of grain mill products [Manufacture of  potato flour and meal is classified in class 1513. Production of corn oil is classified in Class 1532 ]
+1532,1532,153,Manufacture of starches and starch products
+1533,1533,153,Manufacture of prepared animal feeds
+1541,1541,154,Manufacture of bakery products
+1542,1542,154,Manufacture of sugar [manufacture of glucose and other sugars made from starches is classified in class 1532]
+1543,1543,154,"Manufacture of cocoa, chocolate and sugar confectionery"
+1544,1544,154,"Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+1549,1549,154,Manufacture of other food products n.e.c.
+1551,1551,155,"Distilling, rectifying and blending of spirits; ethyl alcohol production from fermented materials"
+1552,1552,155,Manufacture of wines
+1553,1553,155,Manufacture of malt liquors and malt
+1554,1554,155,Manufacture of soft drinks; production of mineral waters
+1600,1600,160,Manufacture of tobacco products [ tobacco related products are also included while preliminary processing of tobacco leaves is classified in class 0111]
+1711,1711,171,Preparation and spinning of textile fiber including  weaving of textiles (excluding khadi/handloom)
+1712,1712,171,"Finishing of textile excluding khadi/handloom (This class includes finishing of textiles of Class 1711 by operations such as bleaching, dyeing, calendering, napping, shrinking or printing. No distinction is to be made between these activities carried out on a fee or contract basis or by purchasing the material and selling the finished products)."
+1711,1713,171,Preparation and spinning of textile fiber including  weaving of textiles (khadi/handloom)
+1712,1714,171,Finishing of textiles (khadi/handloom)
+1721,1721,172,"Manufacture of made-up textile articles, except apparel"
+1722,1722,172,Manufacture of carpet and rugs other than by hand [manufacture of linoleum and other hard surface floor coverings is classified in class 3699]
+1723,1723,172,"Manufacture of cordage, rope, twine and netting"
+1729,1724,172,"Embroidery work, zari work and making of ornamental trimmings by hand"
+1722,1725,172,"Manufacture of blankets, shawls, carpets, rugs and other similar textile products by hand"
+1729,1729,172,Manufacture of other textiles n.e.c.
+1730,1730,173,Manufacture of knitted and crocheted fabrics and articles
+1810,1810,181,"Manufacture of wearing apparel, except fur apparel [this class includes manufacture of wearing apparel made of material not made in the same unit. Both regular and contract activities are included]"
+1820,1820,182,Dressing and dyeing of fur; manufacture of articles of fur
+1911,1911,191,Tanning and dressing of leather
+1912,1912,191,"Manufacture of luggage, handbags, and the like, saddlery and harness"
+1920,1920,192,Manufacture of footwear.
+2010,2010,201,Saw milling and planing of wood
+2021,2021,202,"Manufacture of veneer sheets; manufacture of plywood, laminboard, particle board and other panels and boards"
+2022,2022,202,Manufacture of builders' carpentry and joinery
+2023,2023,202,Manufacturing of wooden containers
+2029,2029,202,"Manufacture of other products of wood, manufacture of articles of cork, straw and plaiting materials"
+2101,2101,210,"Manufacture of pulp, paper and paper board"
+2102,2102,210,Manufacture of corrugated paper and paperboard and of containers of paper and paperboard
+2109,2109,210,Manufacture of other articles of paper and paperboard
+2211,2211,221,"Publishing of books, brochures, musical books and other publications."
+2212,2212,221,"Publishing of newspapers, journals and periodicals [includes periodicals of technical or general contents, trade journals, comics etc.]"
+2211,2213,221,"Publishing of recorded media [includes publishing of records and other recorded audio media, publishing of sheet music etc]"
+2219,2219,221,"Other publishing [includes publishing of photos and postcards, greeting cards, time-tables, forms, posters or other printed matters.]"
+2221,2221,222,"Printing [Includes printing of newspapers, magazines, periodicals, journals and other material for others on a fee or contract basis]"
+2222,2222,222,Service activities related to printing
+2230,2230,223,"Reproduction of recorded media [This class includes reproduction of records, audio, video and computer tapes from master copies, reproduction of floppy, hard or compact disks, reproduction of non-customised software and film duplicating]"
+2310,2310,231,"Manufacture of coke oven products [This class includes the operation of coke ovens chiefly for the production of coke or semi-coke from hard coal and lignite, retort carbon and residual products such as coal tar or pitch. Agglomeration of coke. Distillation of coal tar is classified in class 2411.]"
+2320,2320,232,Manufacture of refined petroleum products
+2330,2330,233,"Processing of nuclear fuel [includes extraction of uranium metal from pitchblende or other uranium bearing ores; manufacture of alloys, dispersions or mixtures of natural uranium or its compounds; manufacture of enriched uranium and its compounds; plutonium and its compounds; uranium depleted in U 235 and its compounds; other radioactive elements, isotopes or compounds; and, non-irradiated fuel elements for use in nuclear reactors]"
+2411,2411,241,Manufacture of basic chemicals except fertilizers and nitrogen compounds
+2412,2412,241,Manufacture of fertilizers and nitrogen compounds
+2413,2413,241,Manufacture of plastics in primary forms and of synthetic rubber.
+2421,2421,242,Manufacture of pesticides and other agro chemical products
+2422,2422,242,"Manufacture of paints, varnishes and similar coatings,printing ink and mastics"
+2423,2423,242,"Manufacture of pharmaceuticals, medicinal chemicals and botanical products"
+2424,2424,242,"Manufacture of  soap  and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+2429,2429,242,Manufacture of other chemical product n.e.c.
+2430,2430,243,Manufacture of man-made fibers [This class includes manufacture of artificial or synthetic filament and non-filament fibers.]
+2511,2511,251,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres
+2519,2519,251,Manufacture of other rubber products
+2520,2520,252,Manufacture of plastic products
+2610,2610,261,Manufacture of glass and glass products
+2691,2691,269,Manufacture of non-structural non-refractory ceramic ware
+2692,2692,269,Manufacture of refractory ceramic products
+2693,2693,269,Manufacture of structural non-refractory clay and ceramic products
+2694,2694,269,"Manufacture of cement, lime and plaster"
+2695,2695,269,"Manufacture of articles of concrete, cement and plaster"
+2696,2696,269,"Cutting, shaping and finishing of stone[ includes cutting, shaping and finishing stone for use in construction, in cemeteries, on roads, as roofing and in other applications]"
+2699,2699,269,Manufacture of other non-metallic mineral products n.e.c.
+2710,2711,271,Manufacture of ferro alloys.
+2710,2712,271,Manufacture of Direct Reduced Iron (DRI)/ Sponge Iron and other spongy ferrous products.
+2710,2713,271,Manufacture of Pig Iron (hot metal).
+2710,2714,271,Manufacture of semi-finished products (ingots/ billets/ blooms/ slabs)
+2710,2715,271,"Manufacture of non-flat steel products (bars, rods, structurals, rails)"
+2710,2716,271,Manufacture of flat steel products not coated
+2710,2717,271,"Manufacture of flat products, coated with zinc, tin, chromium or other materials"
+2710,2718,271,Manufacture of steel wires made in wire drawing mills
+2710,2719,271,Manufacture of other basic iron and steel n.e.c.
+2720,2720,272,Manufacture of basic precious and non-ferrous metals
+2731,2731,273,Casting of iron and steel
+2732,2732,273,Casting of non-ferrous metals
+2811,2811,281,Manufacture of structural metal products
+2812,2812,281,"Manufacture of tanks, reservoirs and containers of metal [ includes manufacture of containers of metal for compressed or liquified gas. Also includes manufacture of central heating boilers and radiators. Manufacture of reservoirs, tanks and similar containers of types normally installed as fixtures for storage or manufacturing use of metal, whether or not fitted with tops, closures, or lined with materials other than iron, steel or aluminium]"
+2813,2813,281,"Manufacture of steam generators, except central heating hot water boilers"
+2891,2891,289,"Forging, pressing , stamping and roll-forming of metal; powder metallurgy"
+2892,2892,289,Treatment and coating of metals; general mechanical engineering on a fee or contract basis
+2893,2893,289,"Manufacture of cutlery, hand tools and general hardware"
+2899,2899,289,Manufacture of other fabricated metal products n.e.c.
+2911,2911,291,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"
+2912,2912,291,"Manufacture of pumps, compressors, taps and valves [hydraulic power engines and motors; pumps for liquids whether or not fitted with measuring devices, including hand pumps and pumps designed for fitting to internal-combustion piston engines etc.; air or vaccum pumps, air or other gas compressors; taps, cocks, valves and similar appliances for pipes, boilers shells, tanks, vats or the like including pressure reducing valves and thermostatically controlled valves]"
+2913,2913,291,"Manufacture of bearings, gears, gearing and driving elements [ball and roller bearings including their parts; mechanical power transmission equipment of any material (shafts, and cranks; bearings housings; gears and gearing including friction gears; gear boxes and other variable speed drivers; clutches, including automatic centrifugal clutches and compressed air clutches; fly wheels and shaft couplings); and articulated link chain]"
+2914,2914,291,"Manufacture of ovens, furnaces and furnace burners"
+2915,2915,291,"Manufacture of lifting and handling equipment [machines for mechanical handling of materials, gods of people other than over-the-road vehicles; pulley tackle and hoists; winches and capstans; jacks; derricks; cranes, including cable cranes, mobile lifting frames, straddle carriers; works tucks whether or not fitted with a crane or other lifting or handling equipment, such as are found in the factories, warehouses, dock areas, station platforms etc.; lifts, elevators, liquid elevators, conveyors, teleferics; and parts of these equipment]"
+2919,2919,291,Manufacture of other general purpose machinery
+2921,2921,292,Manufacture of agricultural and forestry machinery
+2922,2922,292,Manufacture of machine-tools
+2923,2923,292,"Manufacture of machinery for metallurgy: converters, ingot moulds, ladles and casting machines; metal rolling mills and rolls for such mills."
+2924,2924,292,"Manufacture of machinery for mining, quarrying and construction"
+2925,2925,292,"Manufacture of machinery for food, beverage and tobacco processing"
+2926,2926,292,"Manufacture of machinery for textile, apparel and leather production [This class includes manufacture of machines for preparing textile fibers, spinning machines, weaving machines (looms) auxiliary machinery, machinery for washing, bleaching, dyeing, dressing, finishing, sewing machines, machinery for preparing tanning, hides, skin or leather and machinery for making or repairing of foot wears etc.]"
+2927,2927,292,"Manufacture of weapons and ammunition [includes tanks and other fighting vehicles; heavy weapons, artillery, mobile guns; small arms such as light machine guns, rifles; air or gas guns and pistols; firearms which fire blank cartridges, signal flares, captive bolts and other non-projected firing pistols etc.]"
+2929,2929,292,Manufacture of other special purpose machinery
+2930,2930,293,"Manufacture of domestic appliances, n.e.c."
+3000,3000,300,"Manufacture of office, accounting and computing machinery"
+3110,3110,311,"Manufacture of electric motors, generators and transformers"
+3120,3120,312,"Manufacture of electricity distribution and control apparatus [electrical apparatus for switching or protecting electrical circuits (e.g. switches, fuses, voltage limiters, surge suppressors, junction boxes etc.)  for a voltage exceeding 1000 volts; similar apparatus (including relays, sockets etc.) for a voltage not exceeding 1000 volts; boards, panels, consoles, cabinets and other bases equipped with two or more of the above apparatus for electricity control or distribution of electricity   including power capacitors.]"
+3130,3130,313,"Manufacture of insulated wire and cable [insulated (including enamelled or anodized) wire, cable (including coaxial cable) and other insulated conductors; insulated strip as is used in large capacity machines or control equipment; and optical fibre cables]"
+3140,3140,314,"Manufacture of accumulators, primary cells and primary batteries"
+3150,3150,315,Manufacture of electric lamps and lighting equipment
+3190,3190,319,Manufacture of other electrical equipment n.e.c.
+3210,3210,321,Manufacture of electronic valves and tubes and other electronic components
+3220,3220,322,Manufacture of television and radio transmitters and apparatus for line telephony and line telegraphy
+3230,3230,323,"Manufacture of television and radio receivers, sound or video recording or reproducing apparatus, and associated goods"
+3311,3311,331,Manufacture of medical and surgical equipment and orthopedic appliances
+3312,3312,331,"Manufacture of instruments and appliances for measuring, checking, testing, navigating and other purposes except industrial process control equipment"
+3313,3313,331,"Manufacture of industrial process control equipment [apparatus used for automatic continuous measurement and control of variables such as temperature, pressure, viscosity and the like of materials or products as they are being manufactured or otherwise processed]"
+3320,3320,332,Manufacture of optical instruments and photographic equipment
+3330,3330,333,Manufacture of watches and clocks
+3410,3410,341,Manufacture of motor vehicles
+3420,3420,342,Manufacture of bodies (coach work) for motor vehicles; manufacture of  trailers and semi-trailers
+3430,3430,343,"Manufacture of parts and accessories for motor vehicles and their engines [brakes, gear boxes, axles, road wheels, suspension shock absorbers, radiators, silencers, exhaust pipes, steering wheels, steering columns and steering boxes and other parts and accessories n.e.c.]"
+3511,3511,351,"Building and repairing of ships [This class includes ship building and repairing (other than yachts and other vessels for pleasure or sports) and the construction and repair of floating structures, whether or not used in freight/passenger carriage]"
+3512,3512,351,Building and repairing of pleasure and sporting boats
+3520,3520,352,Manufacture of railway and tramway locomotives and rolling stock
+3530,3530,353,Manufacture of aircraft and spacecraft
+3591,3591,359,Manufacture of motorcycles [Repair and maintenance is covered under sub-class 50404]
+3592,3592,359,Manufacture of bicycles and invalid carriages
+3599,3599,359,Manufacture of other transport equipment n.e.c.
+3610,3610,361,Manufacture of furniture
+3691,3691,369,Manufacture of jewellery and related articles
+3692,3692,369,"Manufacture of musical instruments  [this class includes manufacture of keyboard stringed instruments, including automatic pianos, and other stringed instruments, keyboard pipe organs and harmoniums and similar keyboard instruments with free metal reeds, accordions and similar instruments including mouth organs]"
+3693,3693,369,Manufacture of sports goods
+3694,3694,369,Manufacture of games and toys
+3699,3699,369,Other manufacturing n.e.c.
+3710,3710,371,"Recycling of metal waste and scrap [from rejected aluminum, utensil, containers and other used metallic items etc. Collection of metal waste and scrap for recycling is included in 51498.]"
+3720,3720,372,"Recycling of non-metal waste and scrap [from old new papers, rejected glass articles and used non-metallic items etc. Collection of non-metal waste and scrap for recycling is included in 51498.]"
+4010,4010,401,"Production , collection and distribution of   electricity"
+4020,4020,402,Manufacture of gas; distribution of gaseous fuels through mains
+4030,4030,403,Steam  and hot water supply
+4100,4100,410,"Collection, Purification and distribution of water"
+5020,5020,502,Maintenance and repair of motor vehicles [including washing and polishing etc.]
+5040,5040,504,"Sale, maintenance and repair of motorcycles and related parts and accessories"
+1712,5260,526,Repair of personal and household goods [Includes repair of personal and household goods when not done in combination with manufacture or wholesale or retail sale of these goods]
+6302,6302,630,Storage and warehousing
+7250,7250,725,"Maintenance and repair of office, accounting and computing machinery"
+7494,7494,749,"Photographic activities. [Includes microfilming, processing motion picture film related to the motion picture and television industries is classified in class 9211]."
+7495,7495,749,Packaging activities. [Packing activities incidental to transport are classified in class 6309].
+9000,9000,900,"Sewage and refuse disposal, sanitation and similar activities"
+9211,9211,921,Motion picture and video production and distribution  [including documentaries and  animated films or cartoons (Also includes  distribution of motion pictures and video tapes to other industries) ]
+9301,9301,930,Washing and (dry-) cleaning of textile and fur products [including  laundry collection and delivery; repair and minor alteration of garments when done in connection with cleaning and carpet and rug shampooing and drapery and curtain cleaning in clients' premises.]
+140,9309,930,"Other service  activities n.e.c. [Includes sauna and steam baths, reducing  and slandering salons, massage salons, rest rooms etc. Also included are astrological and spiritualists' activities;  activities of the marriage bureaus; pet boarding; shoe shiners; porters, valet car  parkers, coin operated photo machines etc. (Note: Custom tailoring is included under class 1810: manufacture of wearing apparel)]"
+5260,5260,526,Repair of personal and household goods [Includes repair of personal and household goods when not done in combination with manufacture or wholesale or retail sale of these goods]
+9999,9999,999,Other Services
+2213,2212,221,"Publishing of newspapers, journals and periodicals [includes periodicals of technical or general contents, trade journals, comics etc.]"

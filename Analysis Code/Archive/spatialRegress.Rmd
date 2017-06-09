@@ -1,0 +1,43 @@
+---
+title: "Spatial Regressions with 1999 base year"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+
+##Summary
+This file reruns the initial set of regressions. The changes to the data are as follows.
+1. The base year is now 1999 instead of 2001
+2. In the earlier version the variables had been summarised (to the 2001 level) using simple means. In this version, levels are summed, and averages/rates are averaged (using weights were appropriate).
+
+##Setting the data up for regressions
+```{r}
+rm(list = ls())
+library(tidyverse); library(haven); library(stringr); library(sandwich); library(lmtest); library(stargazer); library(broom)
+
+load("../data/1 Cleaned files for analysis/allData.RDA")
+```
+
+The cleaned dataset contains variables and years that are not from the spatial dataset. So I select these out.
+
+```{r, message=FALSE}
+varsOfInterest <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(source == "spatial") %>% 
+        filter(!duplicated(varNames)) %>%
+        arrange(varNames)
+
+allData <- allData %>% 
+        filter(year == 2001 | year == 2011) %>% 
+        select(finalId, year, one_of(varsOfInterest$varNames))
+        
+```
+
+The next step I calculate the 2011 - 2001 for each variable (some are log(2011) - log(2011))
+```{r}
+
+
+```
+

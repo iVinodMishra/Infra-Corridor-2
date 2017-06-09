@@ -1,0 +1,244 @@
+---
+title: 'Comparing Ghani data with ours'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+
+```{r, echo = F, message = F, warning=FALSE, results='hide'}
+rm(list = ls())
+library(tidyverse); library(haven); library(ggthemes); library(stringr)
+
+## Load the data
+load("../data/1 Cleaned files for analysis/districtCorrespondence.RDA")
+load("../data/1 Cleaned files for analysis/spatialAll.RDA")
+load("../data/1 Cleaned files for analysis/asiData.RDA")
+load("../data/1 Cleaned files for analysis/districtDistances.RDA")
+load("../data/1 Cleaned files for analysis/misAllocation.RDA")
+
+outcomeVariables <- read_csv("../data/1 Cleaned files for analysis/asiOutcomes.csv")
+controlVars <- read_csv("../data/1 Cleaned files for analysis/controlVariables.csv")
+
+spatialData <- spatialAll %>% 
+        arrange(id, spatial_data_yr, geography) %>% #imp. for later steps that used indexes
+        group_by(id, spatial_data_yr) %>% #three obs. in the order rural, total, urban (since geo is sorted)
+        mutate(urbanPopShare = pop[3]/pop[2]) %>% # urban/total
+        ungroup()
+
+##Keeping only the variables that we need
+spatialData <- spatialData %>% 
+        dplyr::select(one_of(c("id", "L1_name", "L2_name","geography", "spatial_data_yr", controlVars$varNames))) %>% 
+        filter(geography == "Total")
+
+## Removing islands and India/China districts
+spatialData <- spatialData %>% 
+        filter(!str_detect(L1_name, "India/China|Andaman & Nicobar|Lakshadweep"))
+
+##Filtering districts that are not in the misallocation dataset
+spatialData <- left_join(spatialData, districtCorrespondence, by = c("id" = "spatialId")) %>% ## join in the final id from the correspondence dataset
+        filter(finalId %in% c(misAllocation$finalId, "3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0"))
+
+##Filtering out the states in the ghani paper that were taken out
+spatialData <- spatialData %>% 
+        filter(!(L1_name %in% c("Dadra & Nagar Haveli", "Daman & Diu", "Jammu and Kashmir", "Tripura", "Manipur", "Nagaland", "Meghalaya", "Mizoram", "Assam")))
+
+#4 Summarise the spatial data to the final id based on asi correspondence
+spatialData <- spatialData %>% 
+        group_by(finalId, spatial_data_yr, L1_name) %>% ## L1_name is a irrelavant grouping var since final id is more disaggregated. But i keep it for future use in the regressions
+        summarise_if(is.numeric, mean) %>%  #checked for na values and there are none
+        ungroup()
+
+##Create the ASI variables
+asiData <- asiData %>% 
+        group_by(finalId, year) %>% ##summarising by the final id var
+        summarise(nFactories = sum(mult * x1, na.rm = T), totPersonsEngaged = sum(mult * x8, na.rm = T), totValOutput = sum(mult * x19, na.rm = T)) %>% 
+        mutate(year = ifelse(year == 2010, 2011, year)) %>%  # to match the year on the spatial dataset
+        ungroup()
+
+## join the asi data to the spatial dataset
+spatialData <- left_join(spatialData, asiData, by = c("finalId", "spatial_data_yr" = "year"))
+
+winsorize <- function(x){
+        lim <- quantile(x, probs = c(0.01, 0.99), na.rm = T) ##calc. the bound [1%, 99%]
+        x[ x < lim[1] ] <- lim[1] #replace with lower bound if below bound
+        x[ x > lim[2] ] <- lim[2] #replace with upper bound if above bound
+        x
+}
+
+spatialData <- spatialData %>% 
+        group_by(finalId) %>% 
+        filter(min(nFactories, na.rm = T) != 0) %>% 
+        filter(min(totPersonsEngaged, na.rm = T) != 0) %>% 
+        filter(min(totValOutput, na.rm = T) != 0) %>% 
+        ungroup() %>% 
+        mutate_at(outcomeVariables$varNames, winsorize) # winsorize all outcome variables
+logFunction <- function(x) {
+        log(x[2]) - log(x[1]) #each distr only has two values 2011 and 2001
+}
+nonLog <- function(x){
+        x[2] - x[1]
+}
+
+spatialDataOutcomes <- spatialData[,1] #create an empty dataframe for joining y vars
+
+for(i in 1:length(outcomeVariables$varNames)){ #loop through outcomes
+        varName <- outcomeVariables$varNames[i] #pull outcome var name
+        
+        if(outcomeVariables$logs[i] == 1){ # check if its logs or regular
+                tempColumn <- spatialData %>% 
+                        group_by(finalId) %>% #nObs 2 = 2001, 2011
+                        mutate_at(varName, logFunction) %>% #use logs
+                        ungroup() %>% 
+                        dplyr::select(one_of(varName))
+                names(tempColumn) <- paste(varName, "LogDiff", sep = "")
+        } else{
+                finalVarName <- paste(varName, "Diff", sep = "")
+                tempColumn <- spatialData %>% 
+                        group_by(finalId) %>% 
+                        mutate_at(varName, nonLog) %>% #use non logs
+                        ungroup() %>% 
+                        dplyr::select(one_of(varName))
+                names(tempColumn) <- paste(varName, "Diff", sep = "")
+        }
+        spatialDataOutcomes <- cbind(spatialDataOutcomes, tempColumn) #join together
+}
+
+spatialDataOutcomes <- dplyr::select(spatialDataOutcomes, -finalId) #remove the id column
+
+spatialData <- cbind(spatialData, spatialDataOutcomes)
+yVarNames <- names(spatialDataOutcomes) # for use in the regression loop
+
+rm("spatialDataOutcomes")
+
+# spatialData <- spatialData %>% 
+#         filter(spatial_data_yr == 2001) #keep only 2001 year (since we finshed calc for diff between 2001 and 2011)
+districtDistances <- districtDistances %>% 
+        mutate(id = as.character(id), state = as.character(state), district = as.character(district))
+
+districtDistances <- left_join(districtCorrespondence, districtDistances, by = c("spatialId" = "id")) %>% 
+        group_by(finalId) %>% ##summarising by the final id vars mapped to 2001
+        summarise(state = state[1], district = district[1], gqDistance = mean(gqDistance), nsewDistance = mean(nsewDistance), gqStraightDistance = mean(gqStraightDistance), nsewStraightDistance = mean(nsewStraightDistance))
+
+gqNodalDistrictFinalIds <- c("3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0", "3_27_519_0", "3_27_518_0", "3_9_142_0", "3_6_86_0", "3_6_88_0", "3_27_517_0", "3_19_342_0", "3_33_603_0", "3_9_140_0")
+
+nsewNodalDistrictFinalIds <- c("3_7_95_0", "3_7_93_0", "3_7_94_0", "3_7_91_0", "3_7_92_0", "3_7_90_0", "3_7_98_0", "3_7_97_0", "3_7_96_0", "3_4_55_0", "3_9_142_0", "3_6_86_0", "3_6_88_0", "3_9_140_0", "3_28_536_0", "3_29_572_0", "3_32_595_0", "3_33_629_0", "3_9_164_0", "3_9_157_0")
+
+districtDistances <- districtDistances %>% 
+        mutate(gqDistType = ifelse(finalId %in% gqNodalDistrictFinalIds, "nodal", ifelse(gqDistance > 0 & gqDistance <= 40, "0-40", ifelse(gqDistance > 40 & gqDistance <= 100, "40-100", "> 100")))) %>% 
+        mutate(nsewDistType = ifelse(finalId %in% nsewNodalDistrictFinalIds, "nodal", ifelse(nsewDistance > 0 & nsewDistance <= 40, "0-40", ifelse(nsewDistance > 40 & nsewDistance <= 100, "40-100", "> 100")))) %>% 
+        dplyr::select(finalId, gqDistType, nsewDistType)
+
+spatialData <- left_join(spatialData, districtDistances, by = "finalId")
+
+rm(list = setdiff(ls(), c("spatialData", "districtCorrespondence", "misAllocation")))
+
+# ghaniData <- read_dta("../data/Aarti Data/03. Final district level datasets/130730-arti-data-working_3.dta") %>% 
+#         select(state_CONSISTENT, districtname, contains("plant"), contains("empt"), contains("output")) %>% 
+#         write_csv(., "../data/Aarti Data/preCorrespondence.csv")
+
+
+misAllocation <- misAllocation %>% 
+        filter(year == 2000) %>% 
+        select(state, district, finalId)
+
+ghaniData <- read_csv("../data/Aarti Data/postCorrespondence.csv") %>% 
+        mutate_at(3:22, as.numeric) %>% 
+        gather(variable, value, 3:22) %>% 
+        separate(variable, into = c("variable", "year"), "(?<=[a-z]) ?(?=[0-9])") %>% 
+        spread(variable, value) %>% 
+        mutate(year = as.integer(year)) %>% 
+        select(-plant_size) %>% 
+        left_join(., misAllocation, by = c("state_CONSISTENT" = "state", "districtname" = "district")) %>% 
+        select(7, 3, 6, 4, 5) %>% 
+        group_by(finalId, year) %>% 
+        mutate_if(is.numeric, mean) %>% 
+        ungroup()
+
+spatialASIData <- spatialData %>%
+        select(1:2, 12:14)
+names(spatialASIData) <- names(ghaniData)
+
+spatialDistance <- spatialData %>% 
+        filter(spatial_data_yr == 2001) %>% 
+        select(1, 18:19)
+
+ allData <- rbind(ghaniData, spatialASIData) %>% 
+         arrange(finalId, year) %>% 
+         left_join(., spatialDistance, by = "finalId") %>% 
+         left_join(., districtCorrespondence, by = "finalId") %>% 
+         select(1, 9:10, 6:7, 2, 3:5)
+ 
+ 
+rm(list = setdiff(ls(), ("allData")))
+```
+##Data steps
+The data from Ghani et. al (2015) was converted into a long format panel dataset that now contains the years 2001 and 2011 for the variables on number of factories, employees and output.
+
+The variables were added 
+
+## Seeing trends across years
+First I plot the mean values of the variables across the years.
+```{r}
+allData %>% 
+        group_by(year) %>% 
+        summarise_at(7:9, mean) %>% 
+        gather(variable, value, 2:4) %>%
+        mutate(variable = toupper(variable)) %>% 
+        ggplot(aes(x = year, y = value)) +
+        geom_line() +
+        geom_point(colour = "blue", size = 2, alpha = 0.5) +
+        geom_vline(xintercept = c(2001, 2011), colour = "red", size = 0.2, alpha = 0.8) +
+        facet_wrap(~ variable, ncol = 1, scales = "free_y") +
+        scale_x_continuous(breaks = c(1994, 2000, 2001, 2005, 2007, 2009, 2011)) +
+        labs(y = "Variable Value (in respective units)", x = "Year") +
+        theme_tufte() +
+        theme(strip.text = element_text(size = 14), axis.title = element_text(size = 12), panel.grid.major.x = element_line(colour="darkgrey", size=0.1), panel.grid.major.y = element_line(colour="darkgrey", size=0.1))
+```
+
+There seems to be a kink in the 2001 data that we have, which probable is driving the results that we are seeing. Also, the value of output seems to have a spike in 2011 (along with 2001) in our data, not sure why that is. I wonder if they are using the same variable as we are. Theirs, seems pretty flat in comparison.
+
+###Plots by the distance
+The first plot shows the mean of the different variable across the distance categories for GQ.
+```{r, fig.width=14}
+allData %>% 
+        filter(!is.na(gqDistType)) %>% 
+        group_by(gqDistType, year) %>% 
+        summarise_at(7:9, mean) %>% 
+        gather(variable, value, 3:5) %>% 
+        mutate(variable = toupper(variable)) %>% 
+        ggplot(aes(x = year, y = value)) +
+        geom_line() +
+        geom_point(colour = "blue", size = 2, alpha = 0.5) +
+        geom_vline(xintercept = c(2001, 2011), colour = "red", size = 0.2, alpha = 0.8, linetype = 1) +
+        facet_grid(variable ~ gqDistType, scales = "free_y") +
+        scale_x_continuous(breaks = c(1994, 2000, 2001, 2005, 2007, 2009, 2011)) +
+        labs(y = "Variable Value (in respective units)", x = "Year") +
+        theme_tufte() +
+        theme(strip.text = element_text(size = 18), axis.title = element_text(size = 12), panel.grid.major.x = element_line(colour="darkgrey", size=0.1), panel.grid.major.y = element_line(colour="darkgrey", size=0.1))
+
+
+```
+
+The next chart is the same as the above, but for NSEW.
+```{r, fig.width=14}
+allData %>% 
+        filter(!is.na(nsewDistType)) %>% 
+        group_by(nsewDistType, year) %>% 
+        summarise_at(7:9, mean) %>% 
+        gather(variable, value, 3:5) %>% 
+        mutate(variable = toupper(variable)) %>% 
+        ggplot(aes(x = year, y = value)) +
+        geom_line() +
+        geom_point(colour = "blue", size = 2, alpha = 0.5) +
+        geom_vline(xintercept = c(2001, 2011), colour = "red", size = 0.2, alpha = 0.8, linetype = 1) +
+        facet_grid(variable ~ nsewDistType, scales = "free_y") +
+        scale_x_continuous(breaks = c(1994, 2000, 2001, 2005, 2007, 2009, 2011)) +
+        labs(y = "Variable Value (in respective units)", x = "Year") +
+        theme_tufte() +
+        theme(strip.text = element_text(size = 18), axis.title = element_text(size = 12), panel.grid.major.x = element_line(colour="darkgrey", size=0.1), panel.grid.major.y = element_line(colour="darkgrey", size=0.1))
+```
+
+
+It seems that the data that we have is inflating the values for both 2001 and 2011 for output, while for the rest of the variables there seems to be kinks around 2001. Employment in nodal cities weirdly drop a bit in nodal districts while the other two variables seem to be higher than the trend.

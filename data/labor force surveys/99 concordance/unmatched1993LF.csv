@@ -1,0 +1,652 @@
+spatialId,finalId,spatialState,spatialDistrict,state,district,note,distt_id50
+3_35_639_0,3_35_638_0,Andaman & Nicobar Islands,North  & Middle Andaman,NA,NA,2006-08-18: Andaman Islands district divided into North and Middle Andaman district and South Andaman district.,NA
+3_35_640_0,3_35_640_0,Andaman & Nicobar Islands,South Andaman,A  & N Islands,ANDAMAN,2006-08-18: Andaman Islands district divided into North and Middle Andaman district and South Andaman district.,NA
+3_35_638_0,3_35_638_0,Andaman & Nicobar Islands,Nicobars,A  & N Islands,NICOBAR,NA,2702
+3_28_532_0,3_28_532_0,Andhra Pradesh,Adilabad,Andhra Pradesh,ADILABAD,NA,219
+3_28_553_0,3_28_553_0,Andhra Pradesh,Anantapur,Andhra Pradesh,ANANTPUR,NA,NA
+3_28_554_0,3_28_554_0,Andhra Pradesh,Chittoor,Andhra Pradesh,CHITTOOR,NA,NA
+3_28_545_0,3_28_545_0,Andhra Pradesh,East Godavari,Andhra Pradesh,EAST GODAVARI,NA,NA
+3_28_548_0,3_28_548_0,Andhra Pradesh,Guntur,Andhra Pradesh,GUNTUR,NA,207
+3_28_536_0,3_28_536_0,Andhra Pradesh,Hyderabad,Andhra Pradesh,HYDERABAD,NA,NA
+3_28_534_0,3_28_534_0,Andhra Pradesh,Karimnagar,Andhra Pradesh,KARIMNAGAR,NA,220
+3_28_541_0,3_28_541_0,Andhra Pradesh,Khammam,Andhra Pradesh,KHAMMAM,NA,222
+3_28_547_0,3_28_547_0,Andhra Pradesh,Krishna,Andhra Pradesh,KRISHNA,NA,206
+3_28_552_0,3_28_552_0,Andhra Pradesh,Kurnool,Andhra Pradesh,KURNOOL,NA,213
+3_28_538_0,3_28_538_0,Andhra Pradesh,Mahbubnagar,Andhra Pradesh,MAHBUBNAGAR,NA,214
+3_28_535_0,3_28_535_0,Andhra Pradesh,Medak,Andhra Pradesh,MEDAK,NA,217
+3_28_539_0,3_28_539_0,Andhra Pradesh,Nalgonda,Andhra Pradesh,NALGONDA,NA,223
+3_28_533_0,3_28_533_0,Andhra Pradesh,Nizamabad,Andhra Pradesh,NIZAMABAD,NA,218
+3_28_549_0,3_28_549_0,Andhra Pradesh,Prakasam,Andhra Pradesh,PRAKASAM,NA,NA
+3_28_537_0,3_28_537_0,Andhra Pradesh,Rangareddy,Andhra Pradesh,RANGAREDDY,NA,215
+3_28_550_0,3_28_550_0,Andhra Pradesh,Sri Potti Sriramulu Nellore,Andhra Pradesh,NELLORE,NA,209
+3_28_542_0,3_28_542_0,Andhra Pradesh,Srikakulam,Andhra Pradesh,SRIKAKULAM,NA,NA
+3_28_544_0,3_28_544_0,Andhra Pradesh,Visakhapatnam,Andhra Pradesh,VISHAKHAPATNAM,NA,NA
+3_28_543_0,3_28_543_0,Andhra Pradesh,Vizianagaram,Andhra Pradesh,VIZIANAGARAM,NA,NA
+3_28_540_0,3_28_540_0,Andhra Pradesh,Warangal,Andhra Pradesh,WARANGAL,NA,NA
+3_28_546_0,3_28_546_0,Andhra Pradesh,West Godavari,Andhra Pradesh,WEST GODAVARI,NA,NA
+3_28_551_0,3_28_551_0,Andhra Pradesh,Y.S.R.,Andhra Pradesh,CUDDAPAH,NA,211
+3_12_251_0,3_12_251_0,Arunachal Pradesh,East Siang,Arunachal Pradesh,EAST SIANG,~1999:  Upper Siang district split from East Siang.,307
+3_12_248_0,3_12_255_1,Arunachal Pradesh,Papum Pare,NA,NA,~1999: Papum Pare district split from Lower Subansiri; 2000-04-01: Kurung Kumey district split from Lower Subansiri.,NA
+3_12_258_0,3_12_258_0,Arunachal Pradesh,Lower Dibang Valley,Arunachal Pradesh,DIBANG VALLEY,2001-12-16: Dibang Valley district split into Lower Dibang Valley and Upper Dibang Valley.,308
+3_12_260_0,3_12_259_0,Arunachal Pradesh,Anjaw,NA,NA,2004-02-16: Anjaw district split from Lohit.,NA
+3_12_259_0,3_12_259_0,Arunachal Pradesh,Lohit,Arunachal Pradesh,LOHIT,2004-02-16: Anjaw district split from Lohit.,309
+3_12_253_0,3_12_253_0,Arunachal Pradesh,Changlang,Arunachal Pradesh,CHANGLONG,NA,NA
+3_12_254_0,3_12_254_0,Arunachal Pradesh,Tirap,Arunachal Pradesh,TIRAP,NA,NA
+3_12_250_0,3_12_250_0,Arunachal Pradesh,West Siang,Arunachal Pradesh,WEST SIANG,NA,306
+3_18_324_0,3_18_303_0,Assam,Baksa,NA,NA,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",NA
+3_18_303_0,3_18_303_0,Assam,Barpeta,Assam,BARPETA,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",NA
+3_18_319_0,3_18_303_0,Assam,Bongaigaon,Assam,BANGAIGAON,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",NA
+3_18_320_0,3_18_303_0,Assam,Chirang,NA,NA,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",NA
+3_18_321_0,3_18_303_0,Assam,Kamrup,Assam,KAMRUP,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",407
+3_18_322_0,3_18_303_0,Assam,Kamrup Metropolitan,NA,NA,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",NA
+3_18_300_0,3_18_303_0,Assam,Kokrajhar,Assam,KOKRAJHAR,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",402
+3_18_323_0,3_18_303_0,Assam,Nalbari,Assam,NALBARI,"2003-02-03: Kamrup Metropolitan district split from Kamrup; 2004-06-01: Baksa district formed from parts of Barpeta, Nalbari, and Kamrup.;2004-06-04: Chirang district formed from parts of Barpeta, Bongaigaon, and Kokrajhar.",406
+3_18_325_0,3_18_325_0,Assam,Darrang,Assam,DARRANG,2004-06-14: Udalguri district formed from parts of Darrang and Sonitpur.,NA
+3_18_306_0,3_18_325_0,Assam,Sonitpur,Assam,SONITPUR,2004-06-14: Udalguri district formed from parts of Darrang and Sonitpur.,409
+3_18_326_0,3_18_325_0,Assam,Udalguri,NA,NA,2004-06-14: Udalguri district formed from parts of Darrang and Sonitpur.,NA
+3_18_316_0,3_18_316_0,Assam,Cachar,Assam,CACHAR,NA,423
+3_18_308_0,3_18_308_0,Assam,Dhemaji,Assam,DHEMAJI,NA,411
+3_18_301_0,3_18_301_0,Assam,Dhubri,Assam,DHUBRI,NA,401
+3_18_310_0,3_18_310_0,Assam,Dibrugarh,Assam,DIBRUGARH,NA,417
+3_18_315_0,3_18_315_0,Assam,Dima Hasao,Assam,NORTH CACHAR HILLS,NA,NA
+3_18_302_0,3_18_302_0,Assam,Goalpara,Assam,GOALPARA,NA,404
+3_18_313_0,3_18_313_0,Assam,Golaghat,Assam,GOLAGHAT,NA,414
+3_18_318_0,3_18_318_0,Assam,Hailakandi,Assam,HAILAKANDI,NA,NA
+3_18_312_0,3_18_312_0,Assam,Jorhat,Assam,JORHAT,NA,415
+3_18_314_0,3_18_314_0,Assam,Karbi Anglong,Assam,KARBIAGLONG,NA,NA
+3_18_317_0,3_18_317_0,Assam,Karimganj,Assam,KARIMGANJ,NA,421
+3_18_307_0,3_18_307_0,Assam,Lakhimpur,Assam,LAKHIMPUR,NA,410
+3_18_304_0,3_18_304_0,Assam,Morigaon,Assam,MORIGAON,NA,NA
+3_18_305_0,3_18_305_0,Assam,Nagaon,Assam,NOWGONG,NA,NA
+3_18_311_0,3_18_311_0,Assam,Sivasagar,Assam,SIBSAGAR,NA,416
+3_18_309_0,3_18_309_0,Assam,Tinsukia,Assam,TINSUKIA,NA,418
+3_10_238_0,3_10_238_0,Bihar,Jamui,Bihar,JAMUI,"~1999: Jamui, Lakhisarai, and Sheikhpura districts split from Munger;",NA
+3_10_227_0,3_10_238_0,Bihar,Lakhisarai,NA,NA,"~1999: Jamui, Lakhisarai, and Sheikhpura districts split from Munger;",NA
+3_10_228_0,3_10_238_0,Bihar,Sheikhpura,NA,NA,"~1999: Jamui, Lakhisarai, and Sheikhpura districts split from Munger;",NA
+3_10_205_0,3_10_206_0,Bihar,Sheohar,NA,NA,1994: Sheohar district split from Sitamarhi.,NA
+3_10_206_0,3_10_206_0,Bihar,Sitamarhi,Bihar,SITAMARHI,1994: Sheohar district split from Sitamarhi.,514
+3_10_240_0,3_10_239_0,Bihar,Arwal,NA,NA,2001-08-20: Arwal district split from Jehanabad.,NA
+3_10_239_0,3_10_239_0,Bihar,Jehanabad,Bihar,JEHANABAD,2001-08-20: Arwal district split from Jehanabad.,506
+3_10_209_0,3_10_209_0,Bihar,Araria,Bihar,ARARIA,NA,NA
+3_10_235_0,3_10_235_0,Bihar,Aurangabad,Bihar,AURANGABAD,NA,505
+3_10_225_0,3_10_225_0,Bihar,Banka,Bihar,BANKA,NA,NA
+3_10_222_0,3_10_222_0,Bihar,Begusarai,Bihar,BEGUSARAI,NA,517
+3_10_224_0,3_10_224_0,Bihar,Bhagalpur,Bihar,BHAGALPUR,NA,527
+3_10_231_0,3_10_231_0,Bihar,Bhojpur,Bihar,BHOJPUR,NA,503
+3_10_232_0,3_10_232_0,Bihar,Buxar,Bihar,BUXAR,NA,NA
+3_10_215_0,3_10_215_0,Bihar,Darbhanga,Bihar,DARBHANGA,NA,519
+3_10_236_0,3_10_236_0,Bihar,Gaya,Bihar,GAYA,NA,507
+3_10_217_0,3_10_217_0,Bihar,Gopalganj,Bihar,GOPALGANJ,NA,511
+3_10_233_0,3_10_233_0,Bihar,Kaimur (Bhabua),Bihar,KAIMUR (BHABUA),NA,NA
+3_10_212_0,3_10_212_0,Bihar,Katihar,Bihar,KATIHAR,NA,NA
+3_10_223_0,3_10_223_0,Bihar,Khagaria,Bihar,KHAGARIA,NA,525
+3_10_210_0,3_10_210_0,Bihar,Kishanganj,Bihar,KISHANGANJ,NA,542
+3_10_213_0,3_10_213_0,Bihar,Madhepura,Bihar,MADHEPURA,NA,522
+3_10_207_0,3_10_207_0,Bihar,Madhubani,Bihar,MADHUBANI,NA,520
+3_10_226_0,3_10_226_0,Bihar,Munger,Bihar,MUNGER,NA,526
+3_10_216_0,3_10_216_0,Bihar,Muzaffarpur,Bihar,MUZAFFARPUR,NA,NA
+3_10_229_0,3_10_229_0,Bihar,Nalanda,Bihar,NALANDA,NA,502
+3_10_237_0,3_10_237_0,Bihar,Nawada,Bihar,NAWADA,NA,508
+3_10_203_0,3_10_203_0,Bihar,Pashchim Champaran,Bihar,WEST CHAMPARAN,NA,NA
+3_10_230_0,3_10_230_0,Bihar,Patna,Bihar,PATNA,NA,501
+3_10_204_0,3_10_204_0,Bihar,Purba Champaran,Bihar,EAST CHAMPARAN,NA,NA
+3_10_211_0,3_10_211_0,Bihar,Purnia,Bihar,PURNEA,NA,NA
+3_10_234_0,3_10_234_0,Bihar,Rohtas,Bihar,ROHTAS,NA,504
+3_10_214_0,3_10_214_0,Bihar,Saharsa,Bihar,SAHARSA,NA,NA
+3_10_221_0,3_10_221_0,Bihar,Samastipur,Bihar,SAMASTIPUR,NA,518
+3_10_219_0,3_10_219_0,Bihar,Saran,Bihar,SARAN,NA,509
+3_10_218_0,3_10_218_0,Bihar,Siwan,Bihar,SIWAN,NA,510
+3_10_208_0,3_10_208_0,Bihar,Supaul,Bihar,SUPAUL,NA,NA
+3_10_220_0,3_10_220_0,Bihar,Vaishali,Bihar,VAISHALI,NA,516
+3_4_55_0,3_4_55_0,Chandigarh,Chandigarh,Chandigarh,CHANDIGARH,NA,2801
+3_22_412_0,3_22_410_0,Chhattisgarh,Dhamtari,NA,NA,Dhamtari and Mahasamund districts split from Raipur;,NA
+3_22_411_0,3_22_410_0,Chhattisgarh,Mahasamund,NA,NA,Dhamtari and Mahasamund districts split from Raipur;,NA
+3_22_410_0,3_22_410_0,Chhattisgarh,Raipur,Madhya Pradesh,RAIPUR,Dhamtari and Mahasamund districts split from Raipur;,1344
+3_22_414_0,3_22_414_0,Chhattisgarh,Bastar,Madhya Pradesh,BASTAR,1998:  Dantewada and Kanker districts split from Bastar; 2007-05-11: Dantewada district split into Bijapur and Dakshin Bastar Dantewada; Narayanpur district split from Bastar.,1345
+3_22_417_0,3_22_414_0,Chhattisgarh,Bijapur,NA,NA,1998:  Dantewada and Kanker districts split from Bastar; 2007-05-11: Dantewada district split into Bijapur and Dakshin Bastar Dantewada; Narayanpur district split from Bastar.,NA
+3_22_416_0,3_22_414_0,Chhattisgarh,Dakshin Bastar Dantewada,NA,NA,1998:  Dantewada and Kanker districts split from Bastar; 2007-05-11: Dantewada district split into Bijapur and Dakshin Bastar Dantewada; Narayanpur district split from Bastar.,NA
+3_22_415_0,3_22_414_0,Chhattisgarh,Narayanpur,NA,NA,1998:  Dantewada and Kanker districts split from Bastar; 2007-05-11: Dantewada district split into Bijapur and Dakshin Bastar Dantewada; Narayanpur district split from Bastar.,NA
+3_22_413_0,3_22_414_0,Chhattisgarh,Uttar Bastar Kanker,NA,NA,1998:  Dantewada and Kanker districts split from Bastar; 2007-05-11: Dantewada district split into Bijapur and Dakshin Bastar Dantewada; Narayanpur district split from Bastar.,NA
+3_22_406_0,3_22_406_0,Chhattisgarh,Bilaspur,Madhya Pradesh,BILASPUR,Janjgir-Champa and Korba districts split from Bilaspur;,905
+3_22_406_0,3_22_406_0,Chhattisgarh,Bilaspur,Madhya Pradesh,BILASPUR,Janjgir-Champa and Korba districts split from Bilaspur;,1305
+3_22_405_0,3_22_406_0,Chhattisgarh,Janjgir - Champa,NA,NA,Janjgir-Champa and Korba districts split from Bilaspur;,NA
+3_22_404_0,3_22_406_0,Chhattisgarh,Korba,NA,NA,Janjgir-Champa and Korba districts split from Bilaspur;,NA
+3_22_402_0,3_22_403_0,Chhattisgarh,Jashpur,NA,NA,Jashpur district split from Raigarh;,NA
+3_22_403_0,3_22_403_0,Chhattisgarh,Raigarh,Madhya Pradesh,RAIGARH,Jashpur district split from Raigarh;,1341
+3_22_403_0,3_22_403_0,Chhattisgarh,Raigarh,Madhya Pradesh,RAIGARH,Jashpur district split from Raigarh;,1403
+3_22_407_0,3_22_401_0,Chhattisgarh,Kabeerdham,NA,NA,Kawardha district formed from parts of Bilaspur and Rajnandgaon,NA
+3_22_400_0,3_22_401_0,Chhattisgarh,Koriya,NA,NA,Koriya district split from Surguja.,NA
+3_22_401_0,3_22_401_0,Chhattisgarh,Surguja,Madhya Pradesh,SURGUJA,Koriya district split from Surguja.,1339
+3_22_409_0,3_22_409_0,Chhattisgarh,Durg,Madhya Pradesh,DURG,NA,1343
+3_22_408_0,3_22_408_0,Chhattisgarh,Rajnandgaon,Madhya Pradesh,RAJNANDGAON,NA,1342
+3_26_496_0,3_26_496_0,Dadra & Nagar Haveli,Dadra & Nagar Haveli,Dadra & Nagar Haveli,DADRA & NAGAR HAVELI,NA,NA
+3_25_495_0,3_25_495_0,Daman & Diu,Daman,Daman & Diu,DAMAN,NA,3001
+3_25_494_0,3_25_494_0,Daman & Diu,Diu,Daman & Diu,DIU,NA,3002
+3_30_585_0,3_30_585_0,Goa,North Goa,Goa,NORTH GOA,NA,601
+3_30_586_0,3_30_586_0,Goa,South Goa,Goa,SOUTH GOA,NA,602
+3_24_485_0,3_24_484_0,Gujarat,Dohad,NA,NA,1997-10-02:  Dahod district split from Panch Mahals,NA
+3_24_484_0,3_24_484_0,Gujarat,Panch Mahals,Gujarat,PANCH MAHALS,1997-10-02:  Dahod district split from Panch Mahals,NA
+3_24_482_0,3_24_483_0,Gujarat,Anand,NA,NA,1997-10-02: Anand district split from Kheda;,NA
+3_24_483_0,3_24_483_0,Gujarat,Kheda,Gujarat,KHEDA,1997-10-02: Anand district split from Kheda;,713
+3_24_488_0,3_24_488_0,Gujarat,Bharuch,Gujarat,BHARUCH,1997-10-02: Narmada district formed from Bharuch and a small part of Vadodara,716
+3_24_487_0,3_24_486_0,Gujarat,Narmada,NA,NA,1997-10-02: Narmada district formed from Bharuch and a small part of Vadodara,NA
+3_24_486_0,3_24_486_0,Gujarat,Vadodara,Gujarat,VADODARA,1997-10-02: Narmada district formed from Bharuch and a small part of Vadodara,715
+3_24_490_0,3_24_491_0,Gujarat,Navsari,NA,NA,1997-10-02: Navsari district split from Valsad;,NA
+3_24_491_0,3_24_491_0,Gujarat,Valsad,Gujarat,VALSAD,1997-10-02: Navsari district split from Valsad;,718
+3_24_479_0,3_24_479_0,Gujarat,Junagadh,Gujarat,JUNAGADH,1997-10-02: Porbandar district split from Junagadh.,706
+3_24_478_0,3_24_479_0,Gujarat,Porbandar,NA,NA,1997-10-02: Porbandar district split from Junagadh.,NA
+3_24_469_0,3_24_469_0,Gujarat,Banas Kantha,Gujarat,BANAS KANTHA,2000: Patan district formed from parts of Banas Kantha and Mahesana.,NA
+3_24_471_0,3_24_469_0,Gujarat,Mahesana,Gujarat,MAHESANA,2000: Patan district formed from parts of Banas Kantha and Mahesana.,NA
+3_24_470_0,3_24_469_0,Gujarat,Patan,NA,NA,2000: Patan district formed from parts of Banas Kantha and Mahesana.,NA
+3_24_492_0,3_24_492_0,Gujarat,Surat,Gujarat,SURAT,2007-10-02: Tapi district split from Surat.,717
+3_24_493_0,3_24_492_0,Gujarat,Tapi,NA,NA,2007-10-02: Tapi district split from Surat.,NA
+3_24_474_0,3_24_474_0,Gujarat,Ahmadabad,Gujarat,AHMEDABAD,NA,712
+3_24_480_0,3_24_480_0,Gujarat,Amreli,Gujarat,AMRELI,NA,705
+3_24_481_0,3_24_481_0,Gujarat,Bhavnagar,Gujarat,BHAVNAGAR,NA,704
+3_24_473_0,3_24_473_0,Gujarat,Gandhinagar,Gujarat,GANDHINAGAR,NA,711
+3_24_477_0,3_24_477_0,Gujarat,Jamnagar,Gujarat,JAMNAGAR,NA,701
+3_24_468_0,3_24_468_0,Gujarat,Kachchh,Gujarat,KACHCHH,NA,NA
+3_24_476_0,3_24_476_0,Gujarat,Rajkot,Gujarat,RAJKOT,NA,702
+3_24_472_0,3_24_472_0,Gujarat,Sabar Kantha,Gujarat,SABAR KANTHA,NA,NA
+3_24_475_0,3_24_475_0,Gujarat,Surendranagar,Gujarat,SURENDRANAGAR,NA,703
+3_24_489_0,3_24_489_0,Gujarat,The Dangs,Gujarat,THE DANGS,NA,719
+3_6_70_0,3_6_70_0,Haryana,Ambala,Haryana,AMBALA,~1994: Panchkula district split from Ambala.,801
+3_6_69_0,3_6_70_0,Haryana,Panchkula,NA,NA,~1994: Panchkula district split from Ambala.,NA
+3_6_74_0,3_6_74_0,Haryana,Karnal,Haryana,KARNAL,~1996: Part of Panipat district transferred to Karnal;,805
+3_6_75_0,3_6_74_0,Haryana,Panipat,Haryana,PANIPAT,~1996: Part of Panipat district transferred to Karnal;,806
+3_6_78_0,3_6_80_0,Haryana,Fatehabad,NA,NA,1997-07-15: Fatehabad district split from Hissar;,NA
+3_6_80_0,3_6_80_0,Haryana,Hisar,Haryana,HISAR,1997-07-15: Fatehabad district split from Hissar;,NA
+3_6_86_0,3_6_86_0,Haryana,Gurgaon,Haryana,GURGAON,2005-04-04: Mewat district split from Gurgaon.,810
+3_6_87_0,3_6_86_0,Haryana,Mewat,NA,NA,2005-04-04: Mewat district split from Gurgaon.,NA
+3_6_88_0,3_6_88_0,Haryana,Faridabad,Haryana,FARIDABAD,2008-08-15: Palwal district split from Faridabad.,809
+3_6_89_0,3_6_88_0,Haryana,Palwal,NA,NA,2008-08-15: Palwal district split from Faridabad.,NA
+3_6_83_0,3_6_82_0,Haryana,Jhajjar,NA,NA,part of Rohtak district transferred to Sonepat. Jhajjar district split from Rohtak.,NA
+3_6_82_0,3_6_82_0,Haryana,Rohtak,Haryana,ROHTAK,part of Rohtak district transferred to Sonepat. Jhajjar district split from Rohtak.,808
+3_6_76_0,3_6_82_0,Haryana,Sonipat,Haryana,SONIPAT,part of Rohtak district transferred to Sonepat. Jhajjar district split from Rohtak.,NA
+3_6_81_0,3_6_81_0,Haryana,Bhiwani,Haryana,BHIWANI,NA,NA
+3_6_77_0,3_6_77_0,Haryana,Jind,Haryana,JIND,NA,814
+3_6_73_0,3_6_73_0,Haryana,Kaithal,Haryana,KAITHAL,NA,NA
+3_6_72_0,3_6_72_0,Haryana,Kurukshetra,Haryana,KURUKSHETRA,NA,803
+3_6_84_0,3_6_84_0,Haryana,Mahendragarh,Haryana,MAHENDRAGARH,NA,NA
+3_6_85_0,3_6_85_0,Haryana,Rewari,Haryana,REWARI,NA,811
+3_6_79_0,3_6_79_0,Haryana,Sirsa,Haryana,SIRSA,NA,816
+3_6_71_0,3_6_71_0,Haryana,Yamunanagar,Haryana,YAMUNANAGAR,NA,NA
+3_2_30_0,3_2_30_0,Himachal Pradesh,Bilaspur,Himachal Pradesh,BILASPUR,NA,905
+3_2_30_0,3_2_30_0,Himachal Pradesh,Bilaspur,Himachal Pradesh,BILASPUR,NA,1305
+3_2_23_0,3_2_23_0,Himachal Pradesh,Chamba,Himachal Pradesh,CHAMBA,NA,901
+3_2_28_0,3_2_28_0,Himachal Pradesh,Hamirpur,Himachal Pradesh,HAMIRPUR,NA,903
+3_2_24_0,3_2_24_0,Himachal Pradesh,Kangra,Himachal Pradesh,KANGRA,NA,902
+3_2_34_0,3_2_34_0,Himachal Pradesh,Kinnaur,Himachal Pradesh,KINNAUR,NA,NA
+3_2_26_0,3_2_26_0,Himachal Pradesh,Kullu,Himachal Pradesh,KULLU,NA,NA
+3_2_25_0,3_2_25_0,Himachal Pradesh,Lahul & Spiti,Himachal Pradesh,LAHUL & SPITI,NA,NA
+3_2_27_0,3_2_27_0,Himachal Pradesh,Mandi,Himachal Pradesh,MANDI,NA,906
+3_2_33_0,3_2_33_0,Himachal Pradesh,Shimla,Himachal Pradesh,SHIMLA,NA,NA
+3_2_32_0,3_2_32_0,Himachal Pradesh,Sirmaur,Himachal Pradesh,SIRMAUR,NA,NA
+3_2_31_0,3_2_31_0,Himachal Pradesh,Solan,Himachal Pradesh,SOLAN,NA,910
+3_2_29_0,3_2_29_0,Himachal Pradesh,Una,Himachal Pradesh,UNA,NA,904
+3_12_251_1,3_12_251_0,India/China  1,East Siang,NA,NA,~1999:  Upper Siang district split from East Siang.,NA
+3_12_252_1,3_12_251_0,India/China  1,Upper Siang,NA,NA,~1999:  Upper Siang district split from East Siang.,NA
+3_12_256_1,3_12_255_1,India/China  1,Kurung Kumey,NA,NA,~1999: Papum Pare district split from Lower Subansiri; 2000-04-01: Kurung Kumey district split from Lower Subansiri.,NA
+3_12_255_1,3_12_255_1,India/China  1,Lower Subansiri,Arunachal Pradesh,LOWER SUBANSIRI,~1999: Papum Pare district split from Lower Subansiri; 2000-04-01: Kurung Kumey district split from Lower Subansiri.,NA
+3_12_248_1,3_12_255_1,India/China  1,Papum Pare,NA,NA,~1999: Papum Pare district split from Lower Subansiri; 2000-04-01: Kurung Kumey district split from Lower Subansiri.,NA
+3_12_257_1,3_12_258_0,India/China  1,Dibang Valley,NA,NA,2001-12-16: Dibang Valley district split into Lower Dibang Valley and Upper Dibang Valley.,NA
+3_12_258_1,3_12_258_0,India/China  1,Lower Dibang Valley,NA,NA,2001-12-16: Dibang Valley district split into Lower Dibang Valley and Upper Dibang Valley.,NA
+3_12_260_1,3_12_259_0,India/China  1,Anjaw,NA,NA,2004-02-16: Anjaw district split from Lohit.,NA
+3_12_259_1,3_12_259_0,India/China  1,Lohit,NA,NA,2004-02-16: Anjaw district split from Lohit.,NA
+3_12_247_1,3_12_247_1,India/China  1,East Kameng,Arunachal Pradesh,EAST KAMENG,NA,303
+3_12_245_1,3_12_245_1,India/China  1,Tawang,Arunachal Pradesh,TAWANG,NA,301
+3_12_249_1,3_12_249_1,India/China  1,Upper Subansiri,Arunachal Pradesh,UPPER SUBANSIRI,NA,NA
+3_12_246_1,3_12_246_1,India/China  1,West Kameng,Arunachal Pradesh,WEST KAMENG,NA,NA
+3_12_250_1,3_12_250_1,India/China  1,West Siang,NA,NA,NA,NA
+3_1_3_1,3_1_3_0,India/China  2,Leh(Ladakh),NA,NA,NA,NA
+3_1_9_0,3_1_8_0,Jammu and Kashmir,Bandipore,NA,NA,2006-07-06: Bandipore district split from Baramula;,NA
+3_1_8_0,3_1_8_0,Jammu and Kashmir,Baramula,Jammu  & Kashmir,BARAMULA,2006-07-06: Bandipore district split from Baramula;,NA
+3_1_11_0,3_1_10_0,Jammu and Kashmir,Ganderbal,NA,NA,Ganderbal district split from Srinagar;,NA
+3_1_10_0,3_1_10_0,Jammu and Kashmir,Srinagar,Jammu  & Kashmir,SRINAGAR,Ganderbal district split from Srinagar;,NA
+3_1_16_0,3_1_16_0,Jammu and Kashmir,Doda,Jammu  & Kashmir,DODA,Kishtwar district split from Doda Ramban district formed from parts of Doda and Udhampur; Reasi district split from Udhampur;,NA
+3_1_18_0,3_1_16_0,Jammu and Kashmir,Kishtwar,NA,NA,Kishtwar district split from Doda Ramban district formed from parts of Doda and Udhampur; Reasi district split from Udhampur;,NA
+3_1_17_0,3_1_16_0,Jammu and Kashmir,Ramban,NA,NA,Kishtwar district split from Doda Ramban district formed from parts of Doda and Udhampur; Reasi district split from Udhampur;,NA
+3_1_20_0,3_1_16_0,Jammu and Kashmir,Reasi,NA,NA,Kishtwar district split from Doda Ramban district formed from parts of Doda and Udhampur; Reasi district split from Udhampur;,NA
+3_1_19_0,3_1_16_0,Jammu and Kashmir,Udhampur,Jammu  & Kashmir,UDHAMPUR,Kishtwar district split from Doda Ramban district formed from parts of Doda and Udhampur; Reasi district split from Udhampur;,1010
+3_1_14_0,3_1_14_0,Jammu and Kashmir,Anantnag,Jammu  & Kashmir,ANANTNAG,Kulgam district split from Anantnag;,NA
+3_1_15_0,3_1_14_0,Jammu and Kashmir,Kulgam,NA,NA,Kulgam district split from Anantnag;,NA
+3_1_21_0,3_1_21_0,Jammu and Kashmir,Jammu,Jammu  & Kashmir,JAMMU,Samba district formed from parts of Jammu and Kathua,1012
+3_1_7_0,3_1_21_0,Jammu and Kashmir,Kathua,Jammu  & Kashmir,KATHUA,Samba district formed from parts of Jammu and Kathua,NA
+3_1_22_0,3_1_21_0,Jammu and Kashmir,Samba,NA,NA,Samba district formed from parts of Jammu and Kathua,NA
+3_1_12_0,3_1_12_0,Jammu and Kashmir,Pulwama,Jammu  & Kashmir,PULWAMA,Shupiyan district split from Pulwama.,NA
+3_1_13_0,3_1_12_0,Jammu and Kashmir,Shupiyan,NA,NA,Shupiyan district split from Pulwama.,NA
+3_1_2_0,3_1_2_0,Jammu and Kashmir,Badgam,Jammu  & Kashmir,BADGAM,NA,NA
+3_1_4_0,3_1_4_0,Jammu and Kashmir,Kargil,Jammu  & Kashmir,KARGIL,NA,NA
+3_1_1_0,3_1_1_0,Jammu and Kashmir,Kupwara,Jammu  & Kashmir,KUPWARA,NA,NA
+3_1_3_0,3_1_3_0,Jammu and Kashmir,Leh(Ladakh),Jammu  & Kashmir,LEH (LADAKH),NA,NA
+3_1_5_0,3_1_5_0,Jammu and Kashmir,Punch,Jammu  & Kashmir,PUNCH,NA,NA
+3_1_6_0,3_1_6_0,Jammu and Kashmir,Rajouri,Jammu  & Kashmir,RAJOURI,NA,NA
+3_20_366_0,3_20_366_0,Jharkhand,Gumla,Bihar,GUMLA,Simdega district split from Gumla.,537
+3_20_367_0,3_20_366_0,Jharkhand,Simdega,NA,NA,Simdega district split from Gumla.,NA
+3_20_362_0,3_20_362_0,Jharkhand,Dumka,Bihar,DUMKA,2001-04-01: Jamtara district split from Dumka;,530
+3_20_363_0,3_20_362_0,Jharkhand,Jamtara,NA,NA,2001-04-01: Jamtara district split from Dumka;,NA
+3_20_365_0,3_20_364_0,Jharkhand,Khunti,NA,NA,2007-09-12: Khunti district split from Ranchi;,NA
+3_20_364_0,3_20_364_0,Jharkhand,Ranchi,Bihar,RANCHI,2007-09-12: Khunti district split from Ranchi;,NA
+3_20_359_0,3_20_358_0,Jharkhand,Latehar,NA,NA,Latehar district split from Palamu,NA
+3_20_358_0,3_20_358_0,Jharkhand,Palamu,Bihar,PALAMU,Latehar district split from Palamu,535
+3_20_360_0,3_20_360_0,Jharkhand,Hazaribagh,Bihar,HAZARIBAGH,Ramgarh district split from Hazaribagh,534
+3_20_361_0,3_20_360_0,Jharkhand,Ramgarh,NA,NA,Ramgarh district split from Hazaribagh,NA
+3_20_368_0,3_20_368_0,Jharkhand,Pashchimi Singhbhum,Bihar,PASHCHIMI SINGHBHUM,Seraikela district split from Pashchim Singhbhum;,NA
+3_20_369_0,3_20_368_0,Jharkhand,Saraikela-Kharsawan,NA,NA,Seraikela district split from Pashchim Singhbhum;,NA
+3_20_355_0,3_20_355_0,Jharkhand,Bokaro,Bihar,BOKARO,NA,NA
+3_20_347_0,3_20_347_0,Jharkhand,Chatra,Bihar,CHATRA,NA,NA
+3_20_350_0,3_20_350_0,Jharkhand,Deoghar,Bihar,DEOGHAR,NA,NA
+3_20_354_0,3_20_354_0,Jharkhand,Dhanbad,Bihar,DHANBAD,NA,532
+3_20_346_0,3_20_346_0,Jharkhand,Garhwa,Bihar,GARHWA,NA,NA
+3_20_349_0,3_20_349_0,Jharkhand,Giridih,Bihar,GIRIDIH,NA,NA
+3_20_351_0,3_20_351_0,Jharkhand,Godda,Bihar,GODDA,NA,NA
+3_20_348_0,3_20_348_0,Jharkhand,Kodarma,Bihar,KODARMA,NA,NA
+3_20_356_0,3_20_356_0,Jharkhand,Lohardaga,Bihar,LOHARDAGA,NA,536
+3_20_353_0,3_20_353_0,Jharkhand,Pakur,Bihar,PAKUR,NA,NA
+3_20_357_0,3_20_357_0,Jharkhand,Purbi Singhbhum,Bihar,PURBI SINGHBHUM,NA,539
+3_20_352_0,3_20_352_0,Jharkhand,Sahibganj,Bihar,SAHIBAGANJ,NA,NA
+3_29_556_0,3_29_557_0,Karnataka,Bagalkot,NA,NA,1997-08-15: Bagalkot district split from Bijapur;,NA
+3_29_557_0,3_29_557_0,Karnataka,Bijapur,Karnataka,BIJAPUR,1997-08-15: Bagalkot district split from Bijapur;,1106
+3_29_579_0,3_29_579_0,Karnataka,Gulbarga,Karnataka,GULBARGA,2010-04-10: Yadgir district split from Gulbarga.,1111
+3_29_580_0,3_29_579_0,Karnataka,Yadgir,NA,NA,2010-04-10: Yadgir district split from Gulbarga.,NA
+3_29_578_0,3_29_577_0,Karnataka,Chamarajanagar,NA,NA,Chamrajnagar district split from Mysore;,NA
+3_29_577_0,3_29_577_0,Karnataka,Mysore,Karnataka,MYSORE,Chamrajnagar district split from Mysore;,1116
+3_29_582_0,3_29_581_0,Karnataka,Chikkaballapura,NA,NA,Chikkaballapur district split from Kolar,NA
+3_29_581_0,3_29_581_0,Karnataka,Kolar,Karnataka,KOLAR,Chikkaballapur district split from Kolar,1114
+3_29_565_0,3_29_565_0,Karnataka,Bellary,Karnataka,BELLARY,"Davanagere district formed from parts of Bellary, Chitradurga, and Shimoga.",1104
+3_29_566_0,3_29_565_0,Karnataka,Chitradurga,Karnataka,CHITRADURGA,"Davanagere district formed from parts of Bellary, Chitradurga, and Shimoga.",1108
+3_29_567_0,3_29_565_0,Karnataka,Davanagere,NA,NA,"Davanagere district formed from parts of Bellary, Chitradurga, and Shimoga.",NA
+3_29_568_0,3_29_565_0,Karnataka,Shimoga,Karnataka,SHIMOGA,"Davanagere district formed from parts of Bellary, Chitradurga, and Shimoga.",1118
+3_29_562_0,3_29_562_0,Karnataka,Dharwad,Karnataka,DHARWAD,Gadag and Haveri districts split from Dharwad;,1110
+3_29_561_0,3_29_562_0,Karnataka,Gadag,NA,NA,Gadag and Haveri districts split from Dharwad;,NA
+3_29_564_0,3_29_562_0,Karnataka,Haveri,NA,NA,Gadag and Haveri districts split from Dharwad;,NA
+3_29_560_0,3_29_559_0,Karnataka,Koppal,NA,NA,Koppal district split from Raichur;,NA
+3_29_559_0,3_29_559_0,Karnataka,Raichur,Karnataka,RAICHUR,Koppal district split from Raichur;,1117
+3_29_583_0,3_29_559_0,Karnataka,Bangalore Rural,Karnataka,BANGALORE (RURAL),Ramanagara district split from Bangalore Rural.,NA
+3_29_584_0,3_29_559_0,Karnataka,Ramanagara,NA,NA,Ramanagara district split from Bangalore Rural.,NA
+3_29_575_0,3_29_575_0,Karnataka,Dakshina Kannada,Karnataka,DAKSHIN KANNAD,Udupi district split from Dakshina Kannada.,NA
+3_29_569_0,3_29_575_0,Karnataka,Udupi,NA,NA,Udupi district split from Dakshina Kannada.,NA
+3_29_572_0,3_29_572_0,Karnataka,Bangalore,Karnataka,BANGALORE (URBAN),NA,NA
+3_29_555_0,3_29_555_0,Karnataka,Belgaum,Karnataka,BELGAUM,NA,1103
+3_29_558_0,3_29_558_0,Karnataka,Bidar,Karnataka,BIDAR,NA,1105
+3_29_570_0,3_29_570_0,Karnataka,Chikmagalur,Karnataka,CHIKMAGALUR,NA,1107
+3_29_574_0,3_29_574_0,Karnataka,Hassan,Karnataka,HASSAN,NA,1112
+3_29_576_0,3_29_576_0,Karnataka,Kodagu,Karnataka,KODAGU,NA,1113
+3_29_573_0,3_29_573_0,Karnataka,Mandya,Karnataka,MANDYA,NA,NA
+3_29_571_0,3_29_571_0,Karnataka,Tumkur,Karnataka,TUMKUR,NA,1119
+3_29_563_0,3_29_563_0,Karnataka,Uttara Kannada,Karnataka,UTTAR KANNAD,NA,NA
+3_32_598_0,3_32_598_0,Kerala,Alappuzha,Kerala,ALAPPUZHA,NA,NA
+3_32_595_0,3_32_595_0,Kerala,Ernakulam,Kerala,ERNAKULAM,NA,NA
+3_32_596_0,3_32_596_0,Kerala,Idukki,Kerala,IDUKKI,NA,NA
+3_32_589_0,3_32_589_0,Kerala,Kannur,Kerala,KANNUR,NA,1202
+3_32_588_0,3_32_588_0,Kerala,Kasaragod,Kerala,KASARGOD,NA,NA
+3_32_600_0,3_32_600_0,Kerala,Kollam,Kerala,KOLLAM,NA,NA
+3_32_597_0,3_32_597_0,Kerala,Kottayam,Kerala,KOTTAYAM,NA,1210
+3_32_591_0,3_32_591_0,Kerala,Kozhikode,Kerala,KOZHIKODE,NA,NA
+3_32_592_0,3_32_592_0,Kerala,Malappuram,Kerala,MALAPURAM,NA,1205
+3_32_593_0,3_32_593_0,Kerala,Palakkad,Kerala,PALAKKAD,NA,NA
+3_32_599_0,3_32_599_0,Kerala,Pathanamthitta,Kerala,PATHANAMTHITTA,NA,NA
+3_32_601_0,3_32_601_0,Kerala,Thiruvananthapuram,Kerala,THIRUVANANTHA- PURAM,NA,NA
+3_32_594_0,3_32_594_0,Kerala,Thrissur,Kerala,THRISSUR,NA,1207
+3_32_590_0,3_32_590_0,Kerala,Wayanad,Kerala,WAYANAD,NA,NA
+3_31_587_0,3_31_587_0,Lakshadweep,Lakshadweep,Lakshadweep,LAKSHADWEEP,NA,NA
+3_23_465_0,3_23_464_0,Madhya Pradesh,Alirajpur,NA,NA,2008-05-17: Alirajpur district split from Jhabua.,NA
+3_23_464_0,3_23_464_0,Madhya Pradesh,Jhabua,Madhya Pradesh,JHABUA,2008-05-17: Alirajpur district split from Jhabua.,NA
+3_23_462_0,3_23_462_0,Madhya Pradesh,Sidhi,Madhya Pradesh,SIDHI,2008-05-24: Singrauli district split from Sidhi.,1315
+3_23_463_0,3_23_462_0,Madhya Pradesh,Singrauli,NA,NA,2008-05-24: Singrauli district split from Sidhi.,NA
+3_23_459_0,3_23_458_0,Madhya Pradesh,Ashoknagar,NA,NA,Ashoknagar district split from Guna,NA
+3_23_458_0,3_23_458_0,Madhya Pradesh,Guna,Madhya Pradesh,GUNA,Ashoknagar district split from Guna,1306
+3_23_441_0,3_23_440_0,Madhya Pradesh,Barwani,NA,NA,Barwani district split from West Nimar,NA
+3_23_440_0,3_23_440_0,Madhya Pradesh,Khargone (West Nimar),Madhya Pradesh,WEST NIMAR,Barwani district split from West Nimar,NA
+3_23_467_0,3_23_466_0,Madhya Pradesh,Burhanpur,NA,NA,Burhanpur district split from Khandwa (East Nimar).,NA
+3_23_466_0,3_23_466_0,Madhya Pradesh,Khandwa (East Nimar),Madhya Pradesh,EAST NIMAR,Burhanpur district split from Khandwa (East Nimar).,1325
+3_23_453_0,3_23_454_0,Madhya Pradesh,Dindori,NA,NA,Dindori district split from Mandla,NA
+3_23_454_0,3_23_454_0,Madhya Pradesh,Mandla,Madhya Pradesh,MANDLA,Dindori district split from Mandla,1335
+3_23_448_0,3_23_449_0,Madhya Pradesh,Harda,NA,NA,Harda district split from Hoshangabad;,NA
+3_23_449_0,3_23_449_0,Madhya Pradesh,Hoshangabad,Madhya Pradesh,HOSHANGABAD,Harda district split from Hoshangabad;,NA
+3_23_451_0,3_23_451_0,Madhya Pradesh,Jabalpur,Madhya Pradesh,JABALPUR,Katni district split from Jabalpur;,1333
+3_23_450_0,3_23_451_0,Madhya Pradesh,Katni,NA,NA,Katni district split from Jabalpur;,NA
+3_23_433_0,3_23_433_0,Madhya Pradesh,Mandsaur,Madhya Pradesh,MANDSAUR,Neemuch district split from Mandsaur;,NA
+3_23_432_0,3_23_433_0,Madhya Pradesh,Neemuch,NA,NA,Neemuch district split from Mandsaur;,NA
+3_23_419_0,3_23_419_0,Madhya Pradesh,Morena,Madhya Pradesh,MORENA,Sheopur district split from Morena,1301
+3_23_418_0,3_23_419_0,Madhya Pradesh,Sheopur,NA,NA,Sheopur district split from Morena,NA
+3_23_461_0,3_23_460_0,Madhya Pradesh,Anuppur,NA,NA,Umaria district split from Shahdol Anuppur district split from Shahdol;,NA
+3_23_460_0,3_23_460_0,Madhya Pradesh,Shahdol,Madhya Pradesh,SHADOL,Umaria district split from Shahdol Anuppur district split from Shahdol;,NA
+3_23_431_0,3_23_460_0,Madhya Pradesh,Umaria,NA,NA,Umaria district split from Shahdol Anuppur district split from Shahdol;,NA
+3_23_457_0,3_23_457_0,Madhya Pradesh,Balaghat,Madhya Pradesh,BALAGHAT,NA,1338
+3_23_447_0,3_23_447_0,Madhya Pradesh,Betul,Madhya Pradesh,BETUL,NA,1331
+3_23_420_0,3_23_420_0,Madhya Pradesh,Bhind,Madhya Pradesh,BHIND,NA,1302
+3_23_444_0,3_23_444_0,Madhya Pradesh,Bhopal,Madhya Pradesh,BHOPAL,NA,1328
+3_23_425_0,3_23_425_0,Madhya Pradesh,Chhatarpur,Madhya Pradesh,CHHATARPUR,NA,1308
+3_23_455_0,3_23_455_0,Madhya Pradesh,Chhindwara,Madhya Pradesh,CHHINDWARA,NA,NA
+3_23_428_0,3_23_428_0,Madhya Pradesh,Damoh,Madhya Pradesh,DAMOH,NA,NA
+3_23_422_0,3_23_422_0,Madhya Pradesh,Datia,Madhya Pradesh,DATIA,NA,1304
+3_23_437_0,3_23_437_0,Madhya Pradesh,Dewas,Madhya Pradesh,DEWAS,NA,1320
+3_23_438_0,3_23_438_0,Madhya Pradesh,Dhar,Madhya Pradesh,DHAR,NA,1322
+3_23_421_0,3_23_421_0,Madhya Pradesh,Gwalior,Madhya Pradesh,GWALIOR,NA,1303
+3_23_439_0,3_23_439_0,Madhya Pradesh,Indore,Madhya Pradesh,INDORE,NA,1323
+3_23_452_0,3_23_452_0,Madhya Pradesh,Narsimhapur,Madhya Pradesh,NARSIMHAPUR,NA,1334
+3_23_426_0,3_23_426_0,Madhya Pradesh,Panna,Madhya Pradesh,PANNA,NA,1309
+3_23_446_0,3_23_446_0,Madhya Pradesh,Raisen,Madhya Pradesh,RAISEN,NA,1330
+3_23_442_0,3_23_442_0,Madhya Pradesh,Rajgarh,Madhya Pradesh,RAJGARH,NA,1326
+3_23_434_0,3_23_434_0,Madhya Pradesh,Ratlam,Madhya Pradesh,RATLAM,NA,1317
+3_23_430_0,3_23_430_0,Madhya Pradesh,Rewa,Madhya Pradesh,REWA,NA,1313
+3_23_427_0,3_23_427_0,Madhya Pradesh,Sagar,Madhya Pradesh,SAGAR,NA,1310
+3_23_429_0,3_23_429_0,Madhya Pradesh,Satna,Madhya Pradesh,SATNA,NA,1312
+3_23_445_0,3_23_445_0,Madhya Pradesh,Sehore,Madhya Pradesh,SEHORE,NA,1329
+3_23_456_0,3_23_456_0,Madhya Pradesh,Seoni,Madhya Pradesh,SEONI,NA,1337
+3_23_436_0,3_23_436_0,Madhya Pradesh,Shajapur,Madhya Pradesh,SHAJAPUR,NA,1319
+3_23_423_0,3_23_423_0,Madhya Pradesh,Shivpuri,Madhya Pradesh,SHIVPURI,NA,NA
+3_23_424_0,3_23_424_0,Madhya Pradesh,Tikamgarh,Madhya Pradesh,TIKAMGARH,NA,1307
+3_23_435_0,3_23_435_0,Madhya Pradesh,Ujjain,Madhya Pradesh,UJJAIN,NA,1318
+3_23_443_0,3_23_443_0,Madhya Pradesh,Vidisha,Madhya Pradesh,VIDISHA,NA,1327
+3_27_519_0,3_27_519_0,Maharashtra,Mumbai,Maharashtra,GREATER BOMBAY,~1997: Greater Mumbai district split into Mumbai City and Mumbai Suburban,NA
+3_27_518_0,3_27_519_0,Maharashtra,Mumbai Suburban,NA,NA,~1997: Greater Mumbai district split into Mumbai City and Mumbai Suburban,NA
+3_27_498_0,3_27_498_0,Maharashtra,Dhule,Maharashtra,DHULE,~1998: Nandurbar district split from Dhule.,1407
+3_27_497_0,3_27_498_0,Maharashtra,Nandurbar,NA,NA,~1998: Nandurbar district split from Dhule.,NA
+3_27_506_0,3_27_506_0,Maharashtra,Bhandara,Maharashtra,BHANDARA,1999-05-01: Gondiya district split from Bhandara;,NA
+3_27_507_0,3_27_506_0,Maharashtra,Gondiya,NA,NA,1999-05-01: Gondiya district split from Bhandara;,NA
+3_27_512_0,3_27_513_0,Maharashtra,Hingoli,NA,NA,Hingoli district split from Parbhani.,NA
+3_27_513_0,3_27_513_0,Maharashtra,Parbhani,Maharashtra,PARBHANI,Hingoli district split from Parbhani.,1417
+3_27_501_0,3_27_501_0,Maharashtra,Akola,Maharashtra,AKOLA,Washim district split from Akola.,1423
+3_27_502_0,3_27_501_0,Maharashtra,Washim,NA,NA,Washim district split from Akola.,NA
+3_27_522_0,3_27_522_0,Maharashtra,Ahmadnagar,Maharashtra,AHMADNAGAR,NA,NA
+3_27_503_0,3_27_503_0,Maharashtra,Amravati,Maharashtra,AMRAVATI,NA,1424
+3_27_515_0,3_27_515_0,Maharashtra,Aurangabad,Maharashtra,AURANGABAD,NA,505
+3_27_523_0,3_27_523_0,Maharashtra,Bid,Maharashtra,BID,NA,1418
+3_27_500_0,3_27_500_0,Maharashtra,Buldana,Maharashtra,BULDANA,NA,1422
+3_27_509_0,3_27_509_0,Maharashtra,Chandrapur,Maharashtra,CHANDRAPUR,NA,1429
+3_27_508_0,3_27_508_0,Maharashtra,Gadchiroli,Maharashtra,GADCHIROLI,NA,NA
+3_27_499_0,3_27_499_0,Maharashtra,Jalgaon,Maharashtra,JALGAON,NA,NA
+3_27_514_0,3_27_514_0,Maharashtra,Jalna,Maharashtra,JALNA,NA,1416
+3_27_530_0,3_27_530_0,Maharashtra,Kolhapur,Maharashtra,KOLHAPUR,NA,NA
+3_27_524_0,3_27_524_0,Maharashtra,Latur,Maharashtra,LATUR,NA,1421
+3_27_505_0,3_27_505_0,Maharashtra,Nagpur,Maharashtra,NAGPUR,NA,1427
+3_27_511_0,3_27_511_0,Maharashtra,Nanded,Maharashtra,NANDED,NA,1419
+3_27_516_0,3_27_516_0,Maharashtra,Nashik,Maharashtra,NASIK,NA,1406
+3_27_525_0,3_27_525_0,Maharashtra,Osmanabad,Maharashtra,OSMANABAD,NA,1420
+3_27_521_0,3_27_521_0,Maharashtra,Pune,Maharashtra,PUNE,NA,1410
+3_27_520_0,3_27_520_0,Maharashtra,Raigarh,Maharashtra,RAIGARH,NA,1341
+3_27_520_0,3_27_520_0,Maharashtra,Raigarh,Maharashtra,RAIGARH,NA,1403
+3_27_528_0,3_27_528_0,Maharashtra,Ratnagiri,Maharashtra,RATNAGIRI,NA,1404
+3_27_531_0,3_27_531_0,Maharashtra,Sangli,Maharashtra,SANGLI,NA,1412
+3_27_527_0,3_27_527_0,Maharashtra,Satara,Maharashtra,SATARA,NA,1411
+3_27_529_0,3_27_529_0,Maharashtra,Sindhudurg,Maharashtra,SINDHUDURG,NA,NA
+3_27_526_0,3_27_526_0,Maharashtra,Solapur,Maharashtra,SOLAPUR,NA,1413
+3_27_517_0,3_27_517_0,Maharashtra,Thane,Maharashtra,THANE,NA,1402
+3_27_504_0,3_27_504_0,Maharashtra,Wardha,Maharashtra,WARDHA,NA,1426
+3_27_510_0,3_27_510_0,Maharashtra,Yavatmal,Maharashtra,YAVATMAL,NA,1425
+3_14_278_0,3_14_278_0,Manipur,Imphal East,Manipur,IMPHAL,1997-06-18: Imphal district split into East Imphal and West Imphal.,1507
+3_14_277_0,3_14_278_0,Manipur,Imphal West,NA,NA,1997-06-18: Imphal district split into East Imphal and West Imphal.,NA
+3_14_275_0,3_14_275_0,Manipur,Bishnupur,Manipur,BISHNUPUR,NA,1506
+3_14_280_0,3_14_280_0,Manipur,Chandel,Manipur,CHANDEL,NA,1504
+3_14_274_0,3_14_274_0,Manipur,Churachandpur,Manipur,CHURACHANDPUR,NA,NA
+3_14_272_0,3_14_272_0,Manipur,Senapati,Manipur,SENAPATI,NA,1501
+3_14_273_0,3_14_273_0,Manipur,Tamenglong,Manipur,TAMENGLONG,NA,1502
+3_14_276_0,3_14_276_0,Manipur,Thoubal,Manipur,THOUBAL,NA,NA
+3_14_279_0,3_14_279_0,Manipur,Ukhrul,Manipur,UKHRUL,NA,1508
+3_17_294_0,3_17_294_0,Meghalaya,East Garo Hills,Meghalaya,EAST GARO HILLS,NA,NA
+3_17_298_0,3_17_298_0,Meghalaya,East Khasi Hills,Meghalaya,EAST KHASI HILLS,NA,1602
+3_17_299_0,3_17_299_0,Meghalaya,Jaintia Hills,Meghalaya,JAINTIA HILLS,NA,1601
+3_17_297_0,3_17_297_0,Meghalaya,Ribhoi,Meghalaya,RI BHOI,NA,NA
+3_17_295_0,3_17_295_0,Meghalaya,South Garo Hills,Meghalaya,BAGHMARA,NA,NA
+3_17_293_0,3_17_293_0,Meghalaya,West Garo Hills,Meghalaya,WEST GARO HILLS,NA,NA
+3_17_296_0,3_17_296_0,Meghalaya,West Khasi Hills,Meghalaya,WEST KHASI HILLS,NA,NA
+3_15_283_0,3_15_283_0,Mizoram,Aizawl,Mizoram,AIZWAL,"~1999: Champhai, Kolasib, Mamit, and Serchhip districts split from Aizawl;",1701
+3_15_284_0,3_15_283_0,Mizoram,Champhai,NA,NA,"~1999: Champhai, Kolasib, Mamit, and Serchhip districts split from Aizawl;",NA
+3_15_282_0,3_15_283_0,Mizoram,Kolasib,NA,NA,"~1999: Champhai, Kolasib, Mamit, and Serchhip districts split from Aizawl;",NA
+3_15_281_0,3_15_283_0,Mizoram,Mamit,NA,NA,"~1999: Champhai, Kolasib, Mamit, and Serchhip districts split from Aizawl;",NA
+3_15_285_0,3_15_283_0,Mizoram,Serchhip,NA,NA,"~1999: Champhai, Kolasib, Mamit, and Serchhip districts split from Aizawl;",NA
+3_15_287_0,3_15_288_0,Mizoram,Lawngtlai,NA,NA,Chhimtuipui district split into Lawngtlai and Saiha.,NA
+3_15_288_0,3_15_288_0,Mizoram,Saiha,Mizoram,CHHIMTUIPUI,Chhimtuipui district split into Lawngtlai and Saiha.,NA
+3_15_286_0,3_15_286_0,Mizoram,Lunglei,Mizoram,LUNGLEI,NA,1702
+3_13_269_0,3_13_267_0,Nagaland,Kiphire,NA,NA,~2007: Kiphire and Longleng districts split from Tuensang.,NA
+3_13_268_0,3_13_267_0,Nagaland,Longleng,NA,NA,~2007: Kiphire and Longleng districts split from Tuensang.,NA
+3_13_267_0,3_13_267_0,Nagaland,Tuensang,Nagaland,TUENSANG,~2007: Kiphire and Longleng districts split from Tuensang.,NA
+3_13_265_0,3_13_270_0,Nagaland,Dimapur,NA,NA,1998: Dimapur district split from Kohima. 2003: Peren district split from Kohima.,NA
+3_13_270_0,3_13_270_0,Nagaland,Kohima,Nagaland,KOHIMA,1998: Dimapur district split from Kohima. 2003: Peren district split from Kohima.,1801
+3_13_271_0,3_13_270_0,Nagaland,Peren,NA,NA,1998: Dimapur district split from Kohima. 2003: Peren district split from Kohima.,NA
+3_13_262_0,3_13_262_0,Nagaland,Mokokchung,Nagaland,MOKOKCHUNG,NA,NA
+3_13_261_0,3_13_261_0,Nagaland,Mon,Nagaland,MON,NA,NA
+3_13_266_0,3_13_266_0,Nagaland,Phek,Nagaland,PHEK,NA,1802
+3_13_264_0,3_13_264_0,Nagaland,Wokha,Nagaland,WOKHA,NA,NA
+3_13_263_0,3_13_263_0,Nagaland,Zunheboto,Nagaland,ZUNHEBOTO,NA,NA
+3_7_95_0,3_7_94_0,NCT Of Delhi,Central,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_93_0,3_7_94_0,NCT Of Delhi,East,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_94_0,3_7_94_0,NCT Of Delhi,New Delhi,Delhi,DELHI,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",3101
+3_7_91_0,3_7_94_0,NCT Of Delhi,North,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_92_0,3_7_94_0,NCT Of Delhi,North East,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_90_0,3_7_94_0,NCT Of Delhi,North West,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_98_0,3_7_94_0,NCT Of Delhi,South,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_97_0,3_7_94_0,NCT Of Delhi,South West,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_7_96_0,3_7_94_0,NCT Of Delhi,West,NA,NA,"~1996: Delhi subdivided into Central, East, New Delhi, North, North East, North West, South, South West, and West districts.",NA
+3_21_384_0,3_21_384_0,Odisha,Anugul,Orissa,ANGUL,NA,NA
+3_21_393_0,3_21_393_0,Odisha,Balangir,Orissa,BOLANGIR,NA,NA
+3_21_377_0,3_21_377_0,Odisha,Baleshwar,Orissa,BALESHWAR,NA,NA
+3_21_370_0,3_21_370_0,Odisha,Bargarh,Orissa,BARGARH,NA,NA
+3_21_391_0,3_21_391_0,Odisha,Baudh,Orissa,BOUDH,NA,NA
+3_21_378_0,3_21_378_0,Odisha,Bhadrak,Orissa,BHADRAK,NA,NA
+3_21_381_0,3_21_381_0,Odisha,Cuttack,Orissa,CUTTACK,NA,1906
+3_21_373_0,3_21_373_0,Odisha,Debagarh,Orissa,DEBAGARH,NA,NA
+3_21_383_0,3_21_383_0,Odisha,Dhenkanal,Orissa,DHENKANAL,NA,NA
+3_21_389_0,3_21_389_0,Odisha,Gajapati,Orissa,GAJAPATI,NA,NA
+3_21_388_0,3_21_388_0,Odisha,Ganjam,Orissa,GANJAM,NA,1912
+3_21_380_0,3_21_380_0,Odisha,Jagatsinghapur,Orissa,JAGATSINGHAPUR,NA,NA
+3_21_382_0,3_21_382_0,Odisha,Jajapur,Orissa,JAJPUR,NA,NA
+3_21_371_0,3_21_371_0,Odisha,Jharsuguda,Orissa,JHARSUGUDA,NA,NA
+3_21_395_0,3_21_395_0,Odisha,Kalahandi,Orissa,KALAHANDI,NA,1910
+3_21_390_0,3_21_390_0,Odisha,Kandhamal,Orissa,PHULBANI,NA,1908
+3_21_379_0,3_21_379_0,Odisha,Kendrapara,Orissa,KENDRAPARA,NA,NA
+3_21_375_0,3_21_375_0,Odisha,Kendujhar,Orissa,KEONJHAR,NA,NA
+3_21_386_0,3_21_386_0,Odisha,Khordha,Orissa,KHURDA,NA,NA
+3_21_398_0,3_21_398_0,Odisha,Koraput,Orissa,KORAPUT,NA,1911
+3_21_399_0,3_21_399_0,Odisha,Malkangiri,Orissa,MALKANGIRI,NA,NA
+3_21_376_0,3_21_376_0,Odisha,Mayurbhanj,Orissa,MAYURBHANJ,NA,1904
+3_21_397_0,3_21_397_0,Odisha,Nabarangapur,Orissa,NABARANGAPUR,NA,NA
+3_21_385_0,3_21_385_0,Odisha,Nayagarh,Orissa,NAYAGARH,NA,NA
+3_21_394_0,3_21_394_0,Odisha,Nuapada,Orissa,NUAPADA,NA,NA
+3_21_387_0,3_21_387_0,Odisha,Puri,Orissa,PURI,NA,1913
+3_21_396_0,3_21_396_0,Odisha,Rayagada,Orissa,RAYAGADA,NA,NA
+3_21_372_0,3_21_372_0,Odisha,Sambalpur,Orissa,SAMBALPUR,NA,1901
+3_21_392_0,3_21_392_0,Odisha,Subarnapur,Orissa,SONAPUR,NA,NA
+3_21_374_0,3_21_374_0,Odisha,Sundargarh,Orissa,SUNDARGARH,NA,NA
+3_34_637_0,3_34_637_0,Puducherry,Karaikal,Pondicherry,KARAIKAL,NA,3302
+3_34_636_0,3_34_636_0,Puducherry,Mahe,Pondicherry,MAHE,NA,NA
+3_34_635_0,3_34_635_0,Puducherry,Puducherry,Pondicherry,PONDICHERRY,NA,3301
+3_34_634_0,3_34_634_0,Puducherry,Yanam,Pondicherry,YANAM,NA,NA
+3_3_45_0,3_3_45_0,Punjab,Faridkot,Punjab,FARIDKOT,Muktsar district split from Faridkot. 1995-11-24: Moga district formed from parts of Faridkot and Firozpur.,2012
+3_3_43_0,3_3_45_0,Punjab,Firozpur,Punjab,FIROZPUR,Muktsar district split from Faridkot. 1995-11-24: Moga district formed from parts of Faridkot and Firozpur.,NA
+3_3_42_0,3_3_45_0,Punjab,Moga,NA,NA,Muktsar district split from Faridkot. 1995-11-24: Moga district formed from parts of Faridkot and Firozpur.,NA
+3_3_44_0,3_3_45_0,Punjab,Muktsar,NA,NA,Muktsar district split from Faridkot. 1995-11-24: Moga district formed from parts of Faridkot and Firozpur.,NA
+3_3_38_0,3_3_38_0,Punjab,Hoshiarpur,Punjab,HOSHIARPUR,1995-11-07; Nawan Shehar district formed from parts of Hoshiarpur and Jalandhar. Name of Nawan Shehar district changed to Shahid Bhagat Singh Nagar.,2007
+3_3_37_0,3_3_38_0,Punjab,Jalandhar,Punjab,JALANDHAR,1995-11-07; Nawan Shehar district formed from parts of Hoshiarpur and Jalandhar. Name of Nawan Shehar district changed to Shahid Bhagat Singh Nagar.,2005
+3_3_39_0,3_3_38_0,Punjab,Shahid Bhagat Singh Nagar,NA,NA,1995-11-07; Nawan Shehar district formed from parts of Hoshiarpur and Jalandhar. Name of Nawan Shehar district changed to Shahid Bhagat Singh Nagar.,NA
+3_3_54_0,3_3_53_0,Punjab,Barnala,NA,NA,2006-11-19: Barnala district split from Sangrur,NA
+3_3_53_0,3_3_53_0,Punjab,Sangrur,Punjab,SANGRUR,2006-11-19: Barnala district split from Sangrur,2010
+3_3_48_0,3_3_48_0,Punjab,Patiala,Punjab,PATIALA,2006: Mohali district formed from parts of Patiala and Rupnagar;,2009
+3_3_51_0,3_3_48_0,Punjab,Rupnagar,Punjab,RUPNAGAR,2006: Mohali district formed from parts of Patiala and Rupnagar;,NA
+3_3_52_0,3_3_48_0,Punjab,Sahibzada Ajit Singh Nagar,NA,NA,2006: Mohali district formed from parts of Patiala and Rupnagar;,NA
+3_3_49_0,3_3_49_0,Punjab,Amritsar,Punjab,AMRITSAR,Tarn Taran district split from Amritsar.,2002
+3_3_50_0,3_3_49_0,Punjab,Tarn Taran,NA,NA,Tarn Taran district split from Amritsar.,NA
+3_3_46_0,3_3_46_0,Punjab,Bathinda,Punjab,BATHINDA,NA,NA
+3_3_40_0,3_3_40_0,Punjab,Fatehgarh Sahib,Punjab,FATEHGARH SAHIB,NA,NA
+3_3_35_0,3_3_35_0,Punjab,Gurdaspur,Punjab,GURDASPUR,NA,2001
+3_3_36_0,3_3_36_0,Punjab,Kapurthala,Punjab,KAPURTHALA,NA,2006
+3_3_41_0,3_3_41_0,Punjab,Ludhiana,Punjab,LUDHIANA,NA,2004
+3_3_47_0,3_3_47_0,Punjab,Mansa,Punjab,MANSA,NA,NA
+3_8_107_0,3_8_108_0,Rajasthan,Karauli,NA,NA,~1997: Karauli district split from Sawai Madhopur.,NA
+3_8_108_0,3_8_108_0,Rajasthan,Sawai Madhopur,Rajasthan,SAWAI MADHOPUR,~1997: Karauli district split from Sawai Madhopur.,NA
+3_8_99_0,3_8_99_0,Rajasthan,Ganganagar,Rajasthan,GANGANAGAR,~1998: Hanumangarh district split from Ganganagar.,2101
+3_8_100_0,3_8_99_0,Rajasthan,Hanumangarh,NA,NA,~1998: Hanumangarh district split from Ganganagar.,NA
+3_8_125_0,3_8_125_0,Rajasthan,Banswara,Rajasthan,BANSWARA,"2008-01-26: Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur.",2124
+3_8_126_0,3_8_125_0,Rajasthan,Chittaurgarh,Rajasthan,CHITTAURGARH,"2008-01-26: Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur.",NA
+3_8_131_0,3_8_125_0,Rajasthan,Pratapgarh,NA,NA,"2008-01-26: Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur.",NA
+3_8_130_0,3_8_125_0,Rajasthan,Udaipur,Rajasthan,UDAIPUR,"2008-01-26: Pratapgarh formed from parts of Banswara, Chittorgarh, and Udaipur.",2121
+3_8_119_0,3_8_119_0,Rajasthan,Ajmer,Rajasthan,AJMER,NA,2111
+3_8_104_0,3_8_104_0,Rajasthan,Alwar,Rajasthan,ALWAR,NA,2105
+3_8_128_0,3_8_128_0,Rajasthan,Baran,Rajasthan,BARAN,NA,NA
+3_8_115_0,3_8_115_0,Rajasthan,Barmer,Rajasthan,BARMER,NA,2117
+3_8_105_0,3_8_105_0,Rajasthan,Bharatpur,Rajasthan,BHARATPUR,NA,2106
+3_8_122_0,3_8_122_0,Rajasthan,Bhilwara,Rajasthan,BHILWARA,NA,2120
+3_8_101_0,3_8_101_0,Rajasthan,Bikaner,Rajasthan,BIKANER,NA,2102
+3_8_121_0,3_8_121_0,Rajasthan,Bundi,Rajasthan,BUNDI,NA,2125
+3_8_102_0,3_8_102_0,Rajasthan,Churu,Rajasthan,CHURU,NA,2103
+3_8_109_0,3_8_109_0,Rajasthan,Dausa,Rajasthan,DAUSA,NA,NA
+3_8_106_0,3_8_106_0,Rajasthan,Dhaulpur,Rajasthan,DHOLPUR,NA,2107
+3_8_124_0,3_8_124_0,Rajasthan,Dungarpur,Rajasthan,DUNGARPUR,NA,2123
+3_8_110_0,3_8_110_0,Rajasthan,Jaipur,Rajasthan,JAIPUR,NA,2109
+3_8_114_0,3_8_114_0,Rajasthan,Jaisalmer,Rajasthan,JAISALMER,NA,2113
+3_8_116_0,3_8_116_0,Rajasthan,Jalor,Rajasthan,JALOR,NA,NA
+3_8_129_0,3_8_129_0,Rajasthan,Jhalawar,Rajasthan,JHALAWAR,NA,NA
+3_8_103_0,3_8_103_0,Rajasthan,Jhunjhunun,Rajasthan,JHUNJHUNU,NA,NA
+3_8_113_0,3_8_113_0,Rajasthan,Jodhpur,Rajasthan,JODHPUR,NA,2114
+3_8_127_0,3_8_127_0,Rajasthan,Kota,Rajasthan,KOTA,NA,2126
+3_8_112_0,3_8_112_0,Rajasthan,Nagaur,Rajasthan,NAGAUR,NA,2115
+3_8_118_0,3_8_118_0,Rajasthan,Pali,Rajasthan,PALI,NA,2116
+3_8_123_0,3_8_123_0,Rajasthan,Rajsamand,Rajasthan,RAJSAMAND,NA,NA
+3_8_111_0,3_8_111_0,Rajasthan,Sikar,Rajasthan,SIKAR,NA,2110
+3_8_117_0,3_8_117_0,Rajasthan,Sirohi,Rajasthan,SIROHI,NA,2119
+3_8_120_0,3_8_120_0,Rajasthan,Tonk,Rajasthan,TONK,NA,2112
+3_11_244_0,3_11_244_0,Sikkim,East District,Sikkim,EAST (GANGTOK),NA,NA
+3_11_241_0,3_11_241_0,Sikkim,North  District,Sikkim,NORTH (MONGAM),NA,NA
+3_11_243_0,3_11_243_0,Sikkim,South District,Sikkim,SOUTH (NIMACHAI),NA,NA
+3_11_242_0,3_11_242_0,Sikkim,West District,Sikkim,WEST (GYALSHING),NA,NA
+3_33_618_0,3_33_618_0,Tamil Nadu,Nagapattinam,Tamil Nadu,NAGAPATTINAM,Nagapattinam and Thiruvarur districts split from Thanjavur.,NA
+3_33_620_0,3_33_618_0,Tamil Nadu,Thanjavur,Tamil Nadu,THANJAVUR,Nagapattinam and Thiruvarur districts split from Thanjavur.,2313
+3_33_619_0,3_33_618_0,Tamil Nadu,Thiruvarur,NA,NA,Nagapattinam and Thiruvarur districts split from Thanjavur.,NA
+3_33_604_0,3_33_604_0,Tamil Nadu,Kancheepuram,Tamil Nadu,CHENGAI ANNA (CHEN,~1999: Chengalpattu district split into Kancheepuram and Thiruvallur.,NA
+3_33_602_0,3_33_604_0,Tamil Nadu,Thiruvallur,NA,NA,~1999: Chengalpattu district split into Kancheepuram and Thiruvallur.,NA
+3_33_609_0,3_33_608_0,Tamil Nadu,Namakkal,NA,NA,1997-01-01: Namakkal district split from Salem,NA
+3_33_608_0,3_33_608_0,Tamil Nadu,Salem,Tamil Nadu,SALEM,1997-01-01: Namakkal district split from Salem,2307
+3_33_630_0,3_33_630_0,Tamil Nadu,Dharmapuri,Tamil Nadu,DHARMAPURI,2004: Krishnagiri district split from Dharmapuri.,2304
+3_33_631_0,3_33_630_0,Tamil Nadu,Krishnagiri,NA,NA,2004: Krishnagiri district split from Dharmapuri.,NA
+3_33_616_0,3_33_614_0,Tamil Nadu,Ariyalur,NA,NA,2007-11-23: Ariyalur district split from Perambalur. 1995-11-01: Karur and Perambalur districts split from Tiruchirappalli.,NA
+3_33_613_0,3_33_614_0,Tamil Nadu,Karur,NA,NA,2007-11-23: Ariyalur district split from Perambalur. 1995-11-01: Karur and Perambalur districts split from Tiruchirappalli.,NA
+3_33_615_0,3_33_614_0,Tamil Nadu,Perambalur,NA,NA,2007-11-23: Ariyalur district split from Perambalur. 1995-11-01: Karur and Perambalur districts split from Tiruchirappalli.,NA
+3_33_614_0,3_33_614_0,Tamil Nadu,Tiruchirappalli,Tamil Nadu,TIRUCHIRAPPALLI,2007-11-23: Ariyalur district split from Perambalur. 1995-11-01: Karur and Perambalur districts split from Tiruchirappalli.,NA
+3_33_632_0,3_33_632_0,Tamil Nadu,Coimbatore,Tamil Nadu,COIMBATORE,2008-10: Tiruppur district formed from parts of Coimbatore and Erode.,2310
+3_33_610_0,3_33_632_0,Tamil Nadu,Erode,Tamil Nadu,PERIYAR,2008-10: Tiruppur district formed from parts of Coimbatore and Erode.,2308
+3_33_633_0,3_33_632_0,Tamil Nadu,Tiruppur,NA,NA,2008-10: Tiruppur district formed from parts of Coimbatore and Erode.,NA
+3_33_623_0,3_33_623_0,Tamil Nadu,Madurai,Tamil Nadu,MADURAI,Theni district split from Madurai;,2316
+3_33_624_0,3_33_623_0,Tamil Nadu,Theni,NA,NA,Theni district split from Madurai;,NA
+3_33_603_0,3_33_603_0,Tamil Nadu,Chennai,Tamil Nadu,MADRAS,NA,NA
+3_33_617_0,3_33_617_0,Tamil Nadu,Cuddalore,Tamil Nadu,SOUTH ARCOT,NA,NA
+3_33_612_0,3_33_612_0,Tamil Nadu,Dindigul,Tamil Nadu,DINDIGUL,NA,NA
+3_33_629_0,3_33_629_0,Tamil Nadu,Kanniyakumari,Tamil Nadu,KANYAKUMARI,NA,2321
+3_33_621_0,3_33_621_0,Tamil Nadu,Pudukkottai,Tamil Nadu,PUDUKKOTTAI,NA,NA
+3_33_626_0,3_33_626_0,Tamil Nadu,Ramanathapuram,Tamil Nadu,RAMANATHAPURAM,NA,NA
+3_33_622_0,3_33_622_0,Tamil Nadu,Sivaganga,Tamil Nadu,PASUPOMTHEVAR THIR,NA,NA
+3_33_611_0,3_33_611_0,Tamil Nadu,The Nilgiris,Tamil Nadu,NILGIRIS,NA,NA
+3_33_627_0,3_33_627_0,Tamil Nadu,Thoothukkudi,Tamil Nadu,V.O.  CHIUDAMBARA,NA,NA
+3_33_628_0,3_33_628_0,Tamil Nadu,Tirunelveli,Tamil Nadu,TIRUNELVELI,NA,NA
+3_33_606_0,3_33_606_0,Tamil Nadu,Tiruvannamalai,Tamil Nadu,TIRUVANNAMALAI SA,NA,NA
+3_33_605_0,3_33_605_0,Tamil Nadu,Vellore,Tamil Nadu,NORTH ARCOT,NA,NA
+3_33_607_0,3_33_607_0,Tamil Nadu,Viluppuram,Tamil Nadu,VILLUPURAM,NA,NA
+3_33_625_0,3_33_625_0,Tamil Nadu,Virudhunagar,Tamil Nadu,KAMARAJAR,NA,NA
+3_16_291_0,3_16_292_0,Tripura,Dhalai,NA,NA,1995: Dhalai district formed from parts of North Tripura and South Tripura.,NA
+3_16_292_0,3_16_292_0,Tripura,North Tripura,Tripura,NORTH TRIPURA,1995: Dhalai district formed from parts of North Tripura and South Tripura.,2402
+3_16_290_0,3_16_292_0,Tripura,South Tripura,Tripura,SOUTH TRIPURA,1995: Dhalai district formed from parts of North Tripura and South Tripura.,2403
+3_16_289_0,3_16_289_0,Tripura,West Tripura,Tripura,WEST TRIPURA,NA,2401
+3_9_178_0,3_9_176_0,Uttar Pradesh,Ambedkar Nagar,NA,NA,~1996: Ambedkar Nagar district split from Faizabad;  part of Barabanki district transferred to Faizabad,NA
+3_9_176_0,3_9_176_0,Uttar Pradesh,Bara Banki,Uttar Pradesh,BARABANKI,~1996: Ambedkar Nagar district split from Faizabad;  part of Barabanki district transferred to Faizabad,2548
+3_9_177_0,3_9_176_0,Uttar Pradesh,Faizabad,Uttar Pradesh,FAIZABAD,~1996: Ambedkar Nagar district split from Faizabad;  part of Barabanki district transferred to Faizabad,2549
+3_9_190_0,3_9_190_0,Uttar Pradesh,Deoria,Uttar Pradesh,DEORIA,1994-05: Kushinagar district split from Deoria.,2555
+3_9_189_0,3_9_190_0,Uttar Pradesh,Kushinagar,NA,NA,1994-05: Kushinagar district split from Deoria.,NA
+3_9_168_0,3_9_168_0,Uttar Pradesh,Hamirpur,Uttar Pradesh,HAMIRPUR,1995-02-11: Mahoba district split from Hamirpur.,903
+3_9_169_0,3_9_168_0,Uttar Pradesh,Mahoba,NA,NA,1995-02-11: Mahoba district split from Hamirpur.,NA
+3_9_175_0,3_9_175_0,Uttar Pradesh,Allahabad,Uttar Pradesh,ALLAHABAD,1997-04-24: Kaushambi district split from Allahabad,2545
+3_9_174_0,3_9_175_0,Uttar Pradesh,Kaushambi,NA,NA,1997-04-24: Kaushambi district split from Allahabad,NA
+3_9_185_0,3_9_185_0,Uttar Pradesh,Basti,Uttar Pradesh,BASTI,1997-09-05: Sant Kabir Nagar district formed from Basti and a small part of Siddharth Nagar.,2553
+3_9_186_0,3_9_185_0,Uttar Pradesh,Sant Kabir Nagar,NA,NA,1997-09-05: Sant Kabir Nagar district formed from Basti and a small part of Siddharth Nagar.,NA
+3_9_184_0,3_9_184_0,Uttar Pradesh,Siddharthnagar,Uttar Pradesh,SIDDHARTHA NAGAR,1997-09-05: Sant Kabir Nagar district formed from Basti and a small part of Siddharth Nagar.,NA
+3_9_142_0,3_9_185_0,Uttar Pradesh,Bulandshahr,Uttar Pradesh,BULANDSHAHAR,1997-09-06: Gautam Buddha Nagar district formed from parts of Bulandshahr and Ghaziabad.,2517
+3_9_141_0,3_9_185_0,Uttar Pradesh,Gautam Buddha Nagar,NA,NA,1997-09-06: Gautam Buddha Nagar district formed from parts of Bulandshahr and Ghaziabad.,NA
+3_9_140_0,3_9_185_0,Uttar Pradesh,Ghaziabad,Uttar Pradesh,GHAZIABAD,1997-09-06: Gautam Buddha Nagar district formed from parts of Bulandshahr and Ghaziabad.,2516
+3_9_201_0,3_9_201_0,Uttar Pradesh,Etah,Uttar Pradesh,ETAH,2008-04-15: Kanshi Ram Nagar split from Etah.,2522
+3_9_202_0,3_9_201_0,Uttar Pradesh,Kanshiram Nagar,NA,NA,2008-04-15: Kanshi Ram Nagar split from Etah.,NA
+3_9_163_0,3_9_163_0,Uttar Pradesh,Kanpur Dehat,Uttar Pradesh,KANPUR DEHAT,part of Kanpur Dehat district transferred to Kanpur Nagar.,2536
+3_9_164_0,3_9_163_0,Uttar Pradesh,Kanpur Nagar,Uttar Pradesh,KANPUR NAGAR,part of Kanpur Dehat district transferred to Kanpur Nagar.,NA
+3_9_198_0,3_9_197_0,Uttar Pradesh,Sant Ravidas Nagar (Bhadohi),NA,NA,Sant Ravi Das Nagar district split from Varanasi;,NA
+3_9_197_0,3_9_197_0,Uttar Pradesh,Varanasi,Uttar Pradesh,VARANASI,Sant Ravi Das Nagar district split from Varanasi;,2561
+3_9_180_0,3_9_180_0,Uttar Pradesh,Bahraich,Uttar Pradesh,BAHRAICH,Shravasti district split from Bahraich,NA
+3_9_181_0,3_9_180_0,Uttar Pradesh,Shrawasti,NA,NA,Shravasti district split from Bahraich,NA
+3_9_146_0,3_9_146_0,Uttar Pradesh,Agra,Uttar Pradesh,AGRA,NA,2520
+3_9_143_0,3_9_143_0,Uttar Pradesh,Aligarh,Uttar Pradesh,ALIGARH,NA,2518
+3_9_162_0,3_9_162_0,Uttar Pradesh,Auraiya,Uttar Pradesh,AURAIYA,NA,NA
+3_9_191_0,3_9_191_0,Uttar Pradesh,Azamgarh,Uttar Pradesh,AZAMGARH,NA,2557
+3_9_139_0,3_9_139_0,Uttar Pradesh,Baghpat,Uttar Pradesh,BAGHPAT,NA,NA
+3_9_193_0,3_9_193_0,Uttar Pradesh,Ballia,Uttar Pradesh,BALLIA,NA,NA
+3_9_182_0,3_9_182_0,Uttar Pradesh,Balrampur,Uttar Pradesh,BALRAMPUR,NA,NA
+3_9_170_0,3_9_170_0,Uttar Pradesh,Banda,Uttar Pradesh,BANDA,NA,2542
+3_9_150_0,3_9_150_0,Uttar Pradesh,Bareilly,Uttar Pradesh,BAREILLY,NA,NA
+3_9_134_0,3_9_134_0,Uttar Pradesh,Bijnor,Uttar Pradesh,BIJNOR,NA,NA
+3_9_149_0,3_9_149_0,Uttar Pradesh,Budaun,Uttar Pradesh,BUDAUN,NA,2524
+3_9_196_0,3_9_196_0,Uttar Pradesh,Chandauli,Uttar Pradesh,CHANDAULI,NA,NA
+3_9_171_0,3_9_171_0,Uttar Pradesh,Chitrakoot,Uttar Pradesh,CHITRAKOOT,NA,NA
+3_9_161_0,3_9_161_0,Uttar Pradesh,Etawah,Uttar Pradesh,ETAWAH,NA,2535
+3_9_159_0,3_9_159_0,Uttar Pradesh,Farrukhabad,Uttar Pradesh,FARRUKHABAD,NA,NA
+3_9_172_0,3_9_172_0,Uttar Pradesh,Fatehpur,Uttar Pradesh,FATEHPUR,NA,2543
+3_9_147_0,3_9_147_0,Uttar Pradesh,Firozabad,Uttar Pradesh,FIROZABAD,NA,2521
+3_9_195_0,3_9_195_0,Uttar Pradesh,Ghazipur,Uttar Pradesh,GHAZIPUR,NA,2560
+3_9_183_0,3_9_183_0,Uttar Pradesh,Gonda,Uttar Pradesh,GONDA,NA,2547
+3_9_188_0,3_9_188_0,Uttar Pradesh,Gorakhpur,Uttar Pradesh,GORAKHPUR,NA,2554
+3_9_155_0,3_9_155_0,Uttar Pradesh,Hardoi,Uttar Pradesh,HARDOI,NA,2530
+3_9_165_0,3_9_165_0,Uttar Pradesh,Jalaun,Uttar Pradesh,JALAUN,NA,2538
+3_9_194_0,3_9_194_0,Uttar Pradesh,Jaunpur,Uttar Pradesh,JAUNPUR,NA,2558
+3_9_166_0,3_9_166_0,Uttar Pradesh,Jhansi,Uttar Pradesh,JHANSI,NA,2539
+3_9_137_0,3_9_137_0,Uttar Pradesh,Jyotiba Phule Nagar,Uttar Pradesh,JYOTIBA PHULE NAGAR,NA,NA
+3_9_160_0,3_9_160_0,Uttar Pradesh,Kannauj,Uttar Pradesh,KANNAUJ,NA,NA
+3_9_153_0,3_9_153_0,Uttar Pradesh,Kheri,Uttar Pradesh,KHERI,NA,2528
+3_9_167_0,3_9_167_0,Uttar Pradesh,Lalitpur,Uttar Pradesh,LALITPUR,NA,2540
+3_9_157_0,3_9_157_0,Uttar Pradesh,Lucknow,Uttar Pradesh,LUCKNOW,NA,2532
+3_9_144_0,3_9_144_0,Uttar Pradesh,Mahamaya Nagar,Uttar Pradesh,MAHAMAYA NAGAR,NA,NA
+3_9_187_0,3_9_187_0,Uttar Pradesh,Mahrajganj,Uttar Pradesh,MAHARAJGANJ,NA,NA
+3_9_148_0,3_9_148_0,Uttar Pradesh,Mainpuri,Uttar Pradesh,MAINPURI,NA,2523
+3_9_145_0,3_9_145_0,Uttar Pradesh,Mathura,Uttar Pradesh,MATHURA,NA,2519
+3_9_192_0,3_9_192_0,Uttar Pradesh,Mau,Uttar Pradesh,MAUNATH BHANJAN (MAU),NA,NA
+3_9_138_0,3_9_138_0,Uttar Pradesh,Meerut,Uttar Pradesh,MEERUT,NA,2515
+3_9_199_0,3_9_199_0,Uttar Pradesh,Mirzapur,Uttar Pradesh,MIRZAPUR,NA,2562
+3_9_135_0,3_9_135_0,Uttar Pradesh,Moradabad,Uttar Pradesh,MORADABAD,NA,2510
+3_9_133_0,3_9_133_0,Uttar Pradesh,Muzaffarnagar,Uttar Pradesh,MUZAFFARNAGAR,NA,2514
+3_9_151_0,3_9_151_0,Uttar Pradesh,Pilibhit,Uttar Pradesh,PILIBHIT,NA,2526
+3_9_173_0,3_9_173_0,Uttar Pradesh,Pratapgarh,Uttar Pradesh,PRATAPGARH,NA,2544
+3_9_158_0,3_9_158_0,Uttar Pradesh,Rae Bareli,Uttar Pradesh,RAE BARELI,NA,NA
+3_9_136_0,3_9_136_0,Uttar Pradesh,Rampur,Uttar Pradesh,RAMPUR,NA,2511
+3_9_132_0,3_9_132_0,Uttar Pradesh,Saharanpur,Uttar Pradesh,SAHARANPUR,NA,NA
+3_9_152_0,3_9_152_0,Uttar Pradesh,Shahjahanpur,Uttar Pradesh,SHAHJAHANPUR,NA,2527
+3_9_154_0,3_9_154_0,Uttar Pradesh,Sitapur,Uttar Pradesh,SITAPUR,NA,2529
+3_9_200_0,3_9_200_0,Uttar Pradesh,Sonbhadra,Uttar Pradesh,SONBHADRA,NA,NA
+3_9_179_0,3_9_179_0,Uttar Pradesh,Sultanpur,Uttar Pradesh,SULTANPUR,NA,2550
+3_9_156_0,3_9_156_0,Uttar Pradesh,Unnao,Uttar Pradesh,UNNAO,NA,2531
+3_5_64_0,3_5_64_0,Uttarakhand,Almora,Uttar Pradesh,ALMORA,~1998: Bageshwar district split from Almora.,2507
+3_5_63_0,3_5_64_0,Uttarakhand,Bageshwar,NA,NA,~1998: Bageshwar district split from Almora.,NA
+3_5_66_0,3_5_66_0,Uttarakhand,Nainital,Uttar Pradesh,NAINITAL,1995-09-30: Udham Singh Nagar district split from Nainital.,2508
+3_5_67_0,3_5_66_0,Uttarakhand,Udham Singh Nagar,NA,NA,1995-09-30: Udham Singh Nagar district split from Nainital.,NA
+3_5_57_0,3_5_57_0,Uttarakhand,Chamoli,Uttar Pradesh,CHAMOLI,"1997-09-16: Rudra Prayag district formed from parts of Chamoli, Pauri Garhwal, and Tehri Garhwal.",2502
+3_5_61_0,3_5_57_0,Uttarakhand,Garhwal,Uttar Pradesh,GARHWAL,"1997-09-16: Rudra Prayag district formed from parts of Chamoli, Pauri Garhwal, and Tehri Garhwal.",NA
+3_5_58_0,3_5_57_0,Uttarakhand,Rudraprayag,NA,NA,"1997-09-16: Rudra Prayag district formed from parts of Chamoli, Pauri Garhwal, and Tehri Garhwal.",NA
+3_5_59_0,3_5_57_0,Uttarakhand,Tehri Garhwal,Uttar Pradesh,TEHRI GARHWAL,"1997-09-16: Rudra Prayag district formed from parts of Chamoli, Pauri Garhwal, and Tehri Garhwal.",2503
+3_5_65_0,3_5_65_0,Uttarakhand,Champawat,Uttar Pradesh,CHAMPAWAT,NA,NA
+3_5_60_0,3_5_60_0,Uttarakhand,Dehradun,Uttar Pradesh,DEHRADUN,NA,2504
+3_5_68_0,3_5_68_0,Uttarakhand,Hardwar,Uttar Pradesh,HARDWAR,NA,2513
+3_5_62_0,3_5_62_0,Uttarakhand,Pithoragarh,Uttar Pradesh,PITHORAGARH,NA,2506
+3_5_56_0,3_5_56_0,Uttarakhand,Uttarkashi,Uttar Pradesh,UTTARKASHI,NA,2501
+3_19_331_0,3_19_330_0,West Bengal,Dakshin Dinajpur,NA,NA,1992-04-01: West Dinajpur district split into Dakshin Dinajpur (Dinajpur South) and Uttar Dinajpur (Dinajpur North).,NA
+3_19_330_0,3_19_330_0,West Bengal,Uttar Dinajpur,West Bengal,WEST DINAJPUR,1992-04-01: West Dinajpur district split into Dakshin Dinajpur (Dinajpur South) and Uttar Dinajpur (Dinajpur North).,NA
+3_19_344_0,3_19_344_0,West Bengal,Paschim Medinipur,West Bengal,MIDNAPUR,2002-01-01: Midnapore district split into East Midnapore and West Midnapore.,2613
+3_19_345_0,3_19_344_0,West Bengal,Purba Medinipur,NA,NA,2002-01-01: Midnapore district split into East Midnapore and West Midnapore.,NA
+3_19_339_0,3_19_339_0,West Bengal,Bankura,West Bengal,BANKURA,NA,2614
+3_19_335_0,3_19_335_0,West Bengal,Barddhaman,West Bengal,BURDWAN,NA,NA
+3_19_334_0,3_19_334_0,West Bengal,Birbhum,West Bengal,BIRBHUM,NA,2617
+3_19_327_0,3_19_327_0,West Bengal,Darjiling,West Bengal,DARJILING,NA,NA
+3_19_341_0,3_19_341_0,West Bengal,Haora,West Bengal,HOWRAH,NA,2611
+3_19_338_0,3_19_338_0,West Bengal,Hugli,West Bengal,HOOGHLY,NA,2612
+3_19_328_0,3_19_328_0,West Bengal,Jalpaiguri,West Bengal,JALPAIGURI,NA,2602
+3_19_329_0,3_19_329_0,West Bengal,Koch Bihar,West Bengal,KOCH BIHAR,NA,NA
+3_19_342_0,3_19_342_0,West Bengal,Kolkata,West Bengal,CALCUTTA,NA,NA
+3_19_332_0,3_19_332_0,West Bengal,Maldah,West Bengal,MALDAH,NA,NA
+3_19_333_0,3_19_333_0,West Bengal,Murshidabad,West Bengal,MURSHIDABAD,NA,2606
+3_19_336_0,3_19_336_0,West Bengal,Nadia,West Bengal,NADIA,NA,2607
+3_19_337_0,3_19_337_0,West Bengal,North Twenty Four Parganas,West Bengal,NORTH 24-PARGANAS,NA,NA
+3_19_340_0,3_19_340_0,West Bengal,Puruliya,West Bengal,PURULIYA,NA,NA
+3_19_343_0,3_19_343_0,West Bengal,South Twenty Four Parganas,West Bengal,SOUTH 24-PARGANAS,NA,NA

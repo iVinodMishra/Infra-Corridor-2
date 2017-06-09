@@ -1,0 +1,27 @@
+varNames,description,source,varType,yType,title
+povrate_rur,Reduction in poverty rate (rural),LF,y,equality,Rural HH Poverty Rate
+povrate_urb,Reduction in poverty rate (urban),LF,y,equality,Urban HH Poverty Rate
+povrate_tot,Reduction in poverty rate (total),LF,y,equality,Rural + Urban HH Poverty Rate
+ap,Aerosol particle radius (percent of small particles) in logs,spatial,y,environment,Aerosole Radius
+at,Aerosol optical thickness (thickness scale  0–1 ),spatial,y,environment,Aerosole Optical thickness
+nd,Nitrogen dioxide levels (billion molecules/mm2) in logs,spatial,y,environment,Nitrogen Dioxide
+pct_regWage_f_tot,N total females regular wage employed/N female employed,LF,y,inclusion,Percent females regular wage employed (total)
+pct_regWage_both_tot,N total regular wage employed/Total employed,LF,y,inclusion,Percent regular wage employed (total)
+pct_emp_f_tot,N females employed/female total population,LF,y,inclusion,Percent females employed (total)
+pct_emp_both_tot,N employed/Total total population,LF,y,inclusion,Percent employed (total)
+emp_rwg_f,"Regular wage earners, Female (percent of total empl)",spatial,y,inclusion,Female wage earners
+emp_rwg_t,"Regular wage earners, Total (percent of total emplt)",spatial,y,inclusion,Total wage earners
+emp_slf_f,"Self-employed, Female(percent of total employment)",spatial,y,inclusion,Female Self Employed
+emp_slf_t,"Self-employed,Total(percent of total employment)",spatial,y,inclusion,Total Self Employed
+totNonFarmEmp_f,emp_rwg_f + emp_slf_f,spatial,y,inclusion,Female Non-Farm Employed
+totNonFarmEmp_tot,emp_rwg_t + emp_slf_t,spatial,y,inclusion,Total Non-Farm Employed
+totFarmEmp_f,emp_fmr_f + emp_cwg_f,spatial,y,inclusion,Female Farm Employed
+totFarmEmp_tot,emp_fmr_t + emp_cwg_t,spatial,y,inclusion,Total Farm Employed
+emp_7_f,"Employment rate, 7+ years, main + marginal, Female(percent of age group)",spatial,y,inclusion,Female Employment Rate
+emp_7_t,"Employment rate, 7+ years, main + marginal, Total(percent of age group)",spatial,y,inclusion,Total Employment Rate
+logGdp,"Log of GDP (current USD, in millions)",spatial,y,welfare,Log GDP
+logCons_pc_mean_tot,Log of mean hh consumption (total),LF,y,welfare,Log of Rural + Urban HH Consumption
+logGdpPc,"Log of GDP per capita (current USD, in millions)",spatial,y,welfare,Log GDP per capita
+logNtl_a,Light intensity per area in logs,spatial,y,welfare,Light Intensity (area)
+logNtl_pc,Light intensity per 1000 people in logs,spatial,y,welfare,Light Intensity per 1000 ppl
+consumptGr,logCons_pc_mean_tot(t) - logCons_pc_mean_tot(t-1),LF,y,welfare,Growth Rate of Consumption

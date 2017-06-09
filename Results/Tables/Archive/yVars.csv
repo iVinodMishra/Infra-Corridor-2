@@ -1,0 +1,32 @@
+varNames,yType,description
+ap,environment,Aerosol particle radius (percent of small particles)
+at,environment,Aerosol optical thickness (thickness scale  0–1 )
+cm,environment,Carbon monoxide levels (parts per billion by volume)
+fo_s,environment,Forest (percent of area)
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2)
+povrate_tot,equality,poverty rate (total)
+emp_7_f,inclusion,"Empl rate, 7+ years, main + marginal, Female (percent of age group)"
+emp_7_t,inclusion,"Empl rate, 7+ years, main + marginal, Total (percent of age group)"
+emp_rwg_f,inclusion,"Regular wage earners, Female (percent of total empl)"
+emp_rwg_t,inclusion,"Regular wage earners, Total (percent of total emplt)"
+pct_emp_both_tot,inclusion,N employed/Total total population
+pct_emp_f_tot,inclusion,N females employed/female total population
+pct_formal_both_tot,inclusion,N total formal employed/Total employed
+pct_formal_f_tot,inclusion,N total females formal employed/N female employed
+pct_hhemp_both_tot,inclusion,N total household employed/Total employed
+pct_hhemp_f_tot,inclusion,N total females household employed/N female employed
+pct_inactive_both_tot,inclusion,N inactive/Total total population
+pct_inactive_f_tot,inclusion,N females inactive/female total population
+pct_regWage_both_tot,inclusion,N total regular wage employed/Total employed
+pct_regWage_f_tot,inclusion,N total females regular wage employed/N female employed
+pct_selfemp_both_tot,inclusion,N total self employed/Total employed
+pct_selfemp_f_tot,inclusion,N total females self employed/N female employed
+pct_wage_both_tot,inclusion,N total wage employed/Total employed
+pct_wage_f_tot,inclusion,N total females wage employed/N female employed
+cons_pc_mean_tot,welfare,mean hh consumption (total)
+gdp,welfare,"GDP  (current USD, in millions)"
+gdp_pc,welfare,GDP per capita (current USD)
+logCons_pc_mean_tot,welfare,Log of mean hh consumption (total)
+logGdp,welfare,"Log of GDP (current USD, in millions)"
+ntl_a,welfare,Light intensity per area
+ntl_pc,welfare,Light intensity per 1000 people

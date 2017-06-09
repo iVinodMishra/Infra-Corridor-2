@@ -1,0 +1,4 @@
+distanceType,group,Baseline,Effect
+> 100 Km from GQ and NSEW,Control,4.37,0
+0 to 40 Km from GQ,Treatment,4.37,0.48
+0 to 40 Km from NSEW,Treatment,4.37,0.32

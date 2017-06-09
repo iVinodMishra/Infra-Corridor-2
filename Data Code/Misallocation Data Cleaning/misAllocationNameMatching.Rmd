@@ -1,0 +1,63 @@
+---
+title: 'Creating the misallocation dataset'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file uses the misallocation dataset from Ghani et al. (2015) and matches it with the 1999 base year ids.
+
+##Some issues with the misallocation data
+1. <span style="background-color:#FFD701">**Unclear base year:** The base year for the districts is not clear. The data seems to have names frorm a time span ranging from 1989 to 1999 (i.e. some districts which disappeared in 1989 still persists along with those that appeared around 1999). For now, I have done a match that assumes the district list is from 1999.</span>
+1. **Merged district names.** There were several instances were the names of multiple districts had been joined together into single names (ex: BellaryChitradurgaDharwadShimoga). I have addresed this by creating a new excel file that separates out these names (so that each row only reports a single district). The values for misallocation were copied for each of these rows from the original misallocation data for the merged names (so a single value gets repeated across districts that were originally merged into a single name).
+
+## Load the datasets
+The misallocation data was pre-processed to split the merged district names. The values for the merged district was copied to the split districts.
+```{r}
+rm(list = ls())
+library(tidyverse); library(readxl)
+load("../../data/1 Cleaned files for analysis/Misallocation Data/misAllocation.RDA")
+misAllocation <- read_excel("../../data/Misallocation data/misAllocation Names seperate.xlsx", sheet = 1)
+load("../../data/1 Cleaned files for analysis/Correspondence Files/districtCorrespondence99.RDA")
+```
+
+As a first check I compare the district names in 2000 and 2010.
+```{r}
+misAllocation %>% 
+        arrange(state, district, year) %>% 
+        group_by(state, district) %>% 
+        filter(n() < 2)
+```
+The two districts Mahe and Yanam were added to the data in 2010 but are not present in 2000. All the other districts match. I remove these two observations from the dataset to keep the panel balanced.
+```{r}
+misAllocation <- misAllocation %>% 
+        group_by(state, district) %>% 
+        filter(n() == 2)
+```
+
+##Matching district names with the ASI district correspondence file
+I match observations using the state and district names. Unmatched rows are manually reconciled.
+```{r}
+districtCorrespondenceCaps <- districtCorrespondence99 %>% 
+        mutate(nss2001State = toupper(nss2001State)) # the states in misallocation is in caps so i change the
+
+misAllocation %>%
+        filter(year == 2000) %>% 
+        select(state, district) %>% 
+        left_join(., districtCorrespondenceCaps, by = c("state" = "nss2001State" , "district" = "nss2001District")) %>% 
+        write_csv(., "../../data/Misallocation data/rawCorrespondence.csv")
+```
+
+Now I add the final id variables to the misallocation dataset. I then summarise the data based on the final id (there are 18 final ids that repeat (mega districts)).
+```{r, message=FALSE}
+#Add the id data to the misAllocation data
+misAllocation <- left_join(misAllocation, read_csv("../../data/Misallocation data/misAllocationCleanCorrespondence.csv"), by = c("state", "district")) %>% 
+        group_by(finalId, year) %>% 
+        summarise_at(4:9, mean) %>% 
+        ungroup()
+
+save(misAllocation, file = "../../data/1 Cleaned files for analysis/Misallocation Data/misAllocation.RDA")
+```
+

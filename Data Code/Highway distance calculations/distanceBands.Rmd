@@ -1,0 +1,52 @@
+---
+title: 'Create the distance to highway dataset'
+output:
+  html_notebook: 
+    number_sections: yes
+  html_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This file categorizes districts into distance bands using the distance data that was calcluated separately.
+
+##Load the datasets
+
+```{r}
+rm(list = ls())
+library(tidyverse);
+load("../../data/1 Cleaned files for analysis/Distance data/districtDistances.RDA")
+load("../../data/1 Cleaned files for analysis/Correspondence Files/districtCorrespondence99.RDA")
+```
+
+##Merge the final id variables
+In this step I merge the final id variables and summarise the distances by taking their means to bring them to 1999.
+```{r}
+##get the data ready for the merge (ungroup and convert from factor id to character)
+districtDistances <- districtDistances %>% 
+        mutate(id = as.character(id)) %>% 
+        ungroup()
+##merge the data
+districtDistances <- left_join(districtDistances, districtCorrespondence99, by = c("id" = "spatialId")) %>% 
+        group_by(finalId) %>% 
+        summarise_at(6:9, mean)
+```
+
+##Creating the distance bands
+The first step is to mark the nodal districts. The list of districts is based on Ghani et al. (2015). For GQ the following districts are considered to be nodal: Delhi (all nine districts), Mumbai, Chennai, and Kolkata, Gurgaon, Faridabad, Ghaziabad, and NOIDA (gautam budh nagar), Thane, Mumbai Suburban. We use the final id variables, so several of these districts were merged in 1999. The nodal districts for NSEW (extended from Arti paper) Delhi(all nine districts), NOIDA, Gurgaon, Faridabad, Ghaziabad, Hyderabad, and Bangalore
+```{r}
+gqNodalDistrictFinalIds <- c("3_7_94_0", "3_27_519_0",  "3_33_603_0", "3_19_342_0", "3_6_86_0", "3_6_88_0", "3_9_185_0", "3_27_517_0")
+
+nsewNodalDistrictFinalIds <- c("3_7_94_0", "3_9_185_0", "3_6_86_0", "3_6_88_0", "3_28_536_0", "3_29_572_0")
+
+districtDistanceBands <- districtDistances %>% 
+        mutate(gqDistType = ifelse(finalId %in% gqNodalDistrictFinalIds, "nodal", ifelse(gqDistance > 0 & gqDistance <= 40, "0-40", ifelse(gqDistance > 40 & gqDistance <= 100, "40-100", "> 100")))) %>% 
+        mutate(nsewDistType = ifelse(finalId %in% nsewNodalDistrictFinalIds, "nodal", ifelse(nsewDistance > 0 & nsewDistance <= 40, "0-40", ifelse(nsewDistance > 40 & nsewDistance <= 100, "40-100", "> 100")))) %>%
+        select(finalId, gqDistType, nsewDistType, gqDistance, nsewDistance) %>% 
+        mutate(gqDistType = factor(gqDistType, levels = c("> 100", "nodal", "0-40", "40-100")), nsewDistType = factor(nsewDistType, levels = c("> 100", "nodal", "0-40", "40-100"))) ##convert to ordered factors
+```
+
+##Save the dataset
+```{r}
+save(districtDistanceBands, file = "../../data/1 Cleaned files for analysis/Distance data/districtDistanceBands.RDA")
+```
+

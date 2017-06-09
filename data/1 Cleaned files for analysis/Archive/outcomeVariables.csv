@@ -1,0 +1,16 @@
+varNames,varDescription,logs,title
+ap,Aerosol particle radius (percent of small particles),0,Aerosole Radius
+at,Aerosol optical thickness (thickness scale  0–1 ),1,Aerosole Optical thickness
+cm,Carbon monoxide levels (parts per billion by volume),1,CO
+emp_7_f,"Employment rate, 7+ years, main + marginal,       Female(percent of age group)",0,Female Emp Rate
+emp_7_t,"Employment rate, 7+ years, main + marginal,          Total(percent of age group)",0,Total Emp Rate
+emp_rwg_f,"Regular wage earners,       Female(percent of total employment)",0,Female wage earners
+emp_rwg_t,"Regular wage earners,          Total(percent of total employment)",0,Total wage earners
+fo_s,Forest (percent of area),0,Forest Cover
+gdp,"GDP  (current USD, in millions)",1,GDP
+gdp_pc,GDP per capita (current USD),1,GDPperCap
+nd,Nitrogen dioxide levels (billion molecules/mm2),1,Nitrogen Dioxide
+ntl_a,Light intensity per area (Digital Numbers of light per sq. km.),1,Light Intensity (area)
+ntl_pc,Light intensity per 1000 people(Digital Numbers of light per 1000 people),1,Light Intensity per 1000 ppl
+dens,Population density (people per sq. km.),1,Pop Density
+urbanPopShare,Share of urban population,0,Share of Urban Pop

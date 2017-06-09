@@ -1,0 +1,218 @@
+---
+title: "Getting the data ready for regressions"
+output:
+  html_notebook:
+    number_sections: yes
+  html_document: default
+  pdf_document: default
+date: '`r Sys.Date()`'
+---
+##Summary
+This notebook does the following things:
+
+1. Merges the spatial, labour force, misallocation and distance datasets to create a balanced panel dataset. 
+2. Drops observations from the certain states and islands.
+3. Winsorizes outcome variables
+4. Create the Post variable and fill out the Z variables (so that all the years have values)
+
+##Loading all the datasets
+<span style="background-color:#FFD701">**Note:** All the datasets used in this file were processed separately to bring them to the 1999 NSS district list, and to select the variables that we are interested in.</span>
+```{r}
+rm(list = ls())
+library(tidyverse)
+load("../data/1 Cleaned files for analysis/Spatial Database/spatialTotal.RDA")
+load("../data/1 Cleaned files for analysis/LF/lfAll.RDA")
+load("../data/1 Cleaned files for analysis/Distance data/districtDistanceBands.RDA")
+load("../data/1 Cleaned files for analysis/Misallocation Data/misAllocation.RDA")
+load("../data/1 Cleaned files for analysis/Correspondence Files/districtCorrespondence99.RDA")
+load("../data/1 Cleaned files for analysis/state governance indicators/governanceIndex.RDA")
+
+```
+
+##Merging them together
+The first step is to create a balanced panel template so that each id is repeated for the 4 years (irrespective of whether we have data). I then merge the data to this balanced panel.
+```{r}
+allData <- tibble(finalId = rep(unique(districtCorrespondence99$finalId), 4), year = rep(c(1993, 2001, 2004, 2011), n_distinct(districtCorrespondence99$finalId))) %>%
+        arrange(finalId, year)
+```
+
+Each observation in the dataset is identified by its final id variable (based on the 1999 NSS district list) and the year. However, the years in the dataset are not all the same, the spatial database has the years 2001 and 2011, while the LF has 1999 and 2010.<span style="background-color:#FFD701"> For the purpose of the analysis I change the years 1999 and 2010 in the LF and 2000 and 2010 in misallocation datasets to 2001 and 2011.</span>
+```{r}
+##Changing the years for misallocation
+misAllocation <- misAllocation %>% 
+        mutate(year = ifelse(year == 2010, 2011, ifelse(year == 2000, 2001, year))) #3changing years for the misallocation variables.
+##changing years for LF
+lfAll <- lfAll %>%
+        mutate(year = ifelse(year == 2010, 2011, ifelse(year == 1999, 2001, year)))
+
+##combining all the datasets
+allData <- left_join(allData, lfAll, by = c("finalId", "year")) %>% 
+        left_join(., spatialTotal, by = c("finalId", "year")) %>% 
+        left_join(., misAllocation, by = c("finalId", "year")) %>% 
+        left_join(., districtDistanceBands, by = "finalId")
+```
+
+We also need the names of the states. So I add these from the correspondence file.
+```{r}
+stateNames <- districtCorrespondence99 %>% 
+        filter(finalId == spatialId) %>% 
+        select(finalId, spatialState)
+allData <- left_join(allData, stateNames, by = "finalId")
+
+```
+
+Now that we have the state names, we can use those to join in the governance indicators.
+```{r}
+allData <- left_join(allData, governanceIndex, by = c("spatialState" = "state", "year"))
+```
+
+##Drop Observations
+The dropped observations are as follows.
+
+1. Those marked as India/China
+2. Islands (Lakshwadweep and Andamans and Nicobars)
+3. States in the North East (barring Assam)
+4. Jammu and Kashmir
+
+```{r}
+##identify ids of districts that need to be dropped
+allData <- allData %>% 
+        filter(!str_detect(spatialState, "India/China|Andaman & Nicobar|Lakshadweep|Jammu and Kashmir|Tripura|Manipur|Nagaland|Meghalaya|Mizoram|Sikkim|Arunachal"))
+```
+
+##Winsorize outcome variables
+So far we have explored two ways to winsorize the data. The first replaces zeroes with a non-zero minimum value, while the other does not.
+
+```{r, message=FALSE}
+outcomeVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/allVarsFinal.csv") %>% 
+        filter(varType == "y") %>% 
+        filter(!duplicated(varNames)) %>%
+        filter(varNames %in% names(allData)) %>% ##keeping only those that are currently in the dataset
+        arrange(varNames)
+
+winsorize1 <- function(x){
+        lim <- quantile(x, probs = c(0.01, 0.99), na.rm = T) ##calc. the bound [1%, 99%]
+        x[ x < lim[1] ] <- lim[1] #replace with lower bound if below bound
+        x[ x > lim[2] ] <- lim[2] #replace with upper bound if above bound
+        x
+}
+
+winsorize2 <- function(x){
+        minValue <- min(x[x != 0]) #calc. min non-zero value
+        x[x == 0] <- minValue #set to min value if zero
+        lim <- quantile(x, probs = c(0.01, 0.99), na.rm = T) ##calc. the bound [1%, 99%]
+        x[ x < lim[1] ] <- lim[1] #replace with lower bound if below bound
+        x[ x > lim[2] ] <- lim[2] #replace with upper bound if above bound
+        x
+}
+
+allData <- allData %>% 
+        mutate_at(outcomeVars$varNames, winsorize1)
+```
+
+##Prepping z vars and creating post
+First I create the post var for gq and nsew. For GQ post = 0 for years 1993, 2001 and 1 for 2004 and 2011. While for NSEW it is 1 for 2011 and zero for the rest.
+```{r}
+allData <- allData %>% 
+        mutate(postGQ = ifelse(year == 2004 | year == 2011, 1, 0), postNSEW = ifelse(year == 2011, 1, 0))
+```
+
+Next I fill in the z variables using a custom function.
+```{r, message=FALSE}
+##load all the z variables
+zVars <- read_csv("../data/1 Cleaned files for analysis/Regression Variables/zVars.csv")
+zVars
+```
+
+~~In the case that a value is missing, then we want to populate it by the most proximate value. In case there are two proximate non-missing values i.e. 2001 and 2011 are proximate to 2004, we want the average of the two. Since all the z vars are spatial variables I haven made a specific function that cannot be applied to a generic vector of length 4 (i.e. were the years with data are 1993 and 2004 instead of 2001 and 2011 as is the case in the spatial database).~~
+
+Instead of filling out the values as we were doing earlier, now we replace with value from the most recent year
+```{r}
+fillZ <- function(x){
+        ##how many non missing values?
+        n <- sum(!is.na(x))
+        if(n == 1){ ##if only one non missing value then replace all with that value
+                val <- x[!is.na(x)]
+                x[1] <- val
+                x[2] <- val
+                x[3] <- val
+                x[4] <- val
+        } else if(n > 1){ ##if both 2001 and 2011 are present, replace everything with 2001
+                x[1] <- x[2]
+                x[3] <- x[2]
+                x[4] <- x[2]
+        }
+        x
+}
+
+allData <- ungroup(allData) %>% 
+        group_by(finalId) %>% 
+        mutate_at(zVars$varNames, fillZ) %>% 
+        ungroup()
+```
+
+applying the same for the governance index. I haven't added this to the final list of z variables, since it is not clear whether we would be using it in the final set of equations
+```{r}
+allData <- allData %>% 
+        group_by(finalId) %>% 
+        mutate_at("governanceIndex", fillZ) %>% 
+        ungroup()
+```
+
+##Preparing the Y (outcome) variables
+This step was added after the first few runs of regressions. These are the changes being made
+
+1. log transformation of GDP, consumption, light intensity and ~~nitrogen dioxide and aerosole particle variables~~
+2. The forest cover and poverty rate variables are flipped so that the expected sign of the treatment is positive (consistent with that for all other variables).
+3. I add a new consumption growth variable (as the first difference in logCons_pc) 
+
+In the case of logs, <span style="background-color:#FFD701">observations that are zero need to be replaced with an appropriate low number. I pick the lowest minimum value for each variable as the replacement.</span>
+```{r}
+#log transformations (replacing with minimum value in case of zeroes)
+allData <- allData %>% 
+        mutate(logGdp = ifelse(gdp == 0, log(min(gdp[gdp != 0], na.rm = T)), log(gdp)), 
+               logCons_pc_mean_tot = ifelse(cons_pc_mean_tot == 0, log(min(cons_pc_mean_tot[cons_pc_mean_tot != 0], na.rm = T)), log(cons_pc_mean_tot)),
+               apLog = ifelse(ap == 0, log(min(ap[ap != 0], na.rm = T)), log(ap)),
+               ndLog = ifelse(nd == 0, log(min(nd[nd != 0], na.rm = T)), log(nd)),
+               logGdpPc = ifelse(gdp_pc == 0, log(min(gdp_pc[gdp_pc != 0], na.rm = T)), log(gdp_pc)),
+               logNtl_a = ifelse(ntl_a == 0, log(min(ntl_a[ntl_a != 0], na.rm = T)), log(ntl_a)),
+               logNtl_pc = ifelse(ntl_pc == 0, log(min(ntl_pc[ntl_pc != 0], na.rm = T)), log(ntl_pc))
+               )
+##calculating the consumption growth variable
+allData <- allData %>% 
+        group_by(finalId) %>% 
+        mutate(consumptGr = logCons_pc_mean_tot - lag(logCons_pc_mean_tot, 1)) %>% 
+        ungroup()
+
+##Flipping poverty and forest cover variables
+
+allData <- allData %>% 
+        mutate(fo_s = 100 - fo_s, 
+               povrate_tot = (100 - povrate_tot)/100, 
+               povrate_rur = (100 - povrate_rur)/100, 
+               povrate_urb = (100 - povrate_urb)/100)
+
+##Creating an aggregate non-farm employment variable
+allData <- allData %>%
+        rowwise() %>% 
+        mutate(totNonFarmEmp_f = sum(emp_rwg_f, emp_slf_f), 
+               totNonFarmEmp_tot = sum(emp_rwg_t, emp_slf_t),
+               totFarmEmp_f = sum(emp_fmr_f, emp_cwg_f),
+               totFarmEmp_tot = sum(emp_fmr_t, emp_cwg_t)) %>% 
+        ungroup()
+        
+```
+
+
+<span style="background-color:#FFD701">In addition the hous_slm variable is NA so I remove this before saving the dataset.</span>
+
+```{r}
+allData <- allData %>% 
+        select(-hous_slm)
+```
+
+
+Now the data is ready for regressions.
+```{r}
+save(allData, file = "../data/1 Cleaned files for analysis/allData.RDA")
+```

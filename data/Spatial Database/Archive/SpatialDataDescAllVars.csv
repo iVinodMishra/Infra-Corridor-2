@@ -1,0 +1,474 @@
+Variable,Description
+a_dec_pre_1,Precipitation anomaly - Jan (millimeters)
+a_dec_pre_10,Precipitation anomaly - Oct (millimeters)
+a_dec_pre_11,Precipitation anomaly - Nov (millimeters)
+a_dec_pre_12,Precipitation anomaly - Dec (millimeters)
+a_dec_pre_2,Precipitation anomaly - Feb (millimeters)
+a_dec_pre_3,Precipitation anomaly - Mar (millimeters)
+a_dec_pre_4,Precipitation anomaly - Apr (millimeters)
+a_dec_pre_5,Precipitation anomaly - May (millimeters)
+a_dec_pre_6,Precipitation anomaly - Jun (millimeters)
+a_dec_pre_7,Precipitation anomaly - Jul (millimeters)
+a_dec_pre_8,Precipitation anomaly - Aug (millimeters)
+a_dec_pre_9,Precipitation anomaly - Sep (millimeters)
+a_dec_tmp_1,Temperature anomaly - Jan (Co)
+a_dec_tmp_10,Temperature anomaly - Oct (Co)
+a_dec_tmp_11,Temperature anomaly - Nov (Co)
+a_dec_tmp_12,Temperature anomaly - Dec (Co)
+a_dec_tmp_2,Temperature anomaly - Feb (Co)
+a_dec_tmp_3,Temperature anomaly - Mar (Co)
+a_dec_tmp_4,Temperature anomaly - Apr (Co)
+a_dec_tmp_5,Temperature anomaly - May (Co)
+a_dec_tmp_6,Temperature anomaly - Jun (Co)
+a_dec_tmp_7,Temperature anomaly - Jul (Co)
+a_dec_tmp_8,Temperature anomaly - Aug (Co)
+a_dec_tmp_9,Temperature anomaly - Sep (Co)
+ac_irr,Land area actually irrigated (percent of land area)
+anc,Three ante-natal care visits (percent of population group)
+ap,Aerosol particle radius (percent of small particles)
+area,Area (sq. km.)
+area_bu,Area (sq. km.)
+area_lit,Area (sq. km.)
+at,Aerosol optical thickness (thickness scale  0–1 )
+bank_slm,"Households' access to banking services, in slums (percent of households)"
+bank_t,"Households' access to banking services, total (percent of households)"
+bmas_ins_slm,"Households use biomass to cook indoors,slums(percent of households)"
+bmas_ins_t,Households use biomass to cook indoors(percent of households)
+c_oper_t,Mineral production capacity  (million metric tons per year )
+cbr_t,"Crude birth rate, total (live births per 1000 people)"
+cdr_f,"Crude death rate, female (deaths per 1000 people)"
+cdr_m,"Crude death rate, male (deaths per 1000 people)"
+cdr_t,"Crude death rate, total (deaths per 1000 people)"
+cls_good_pri,Classrooms in good condition in primary schools (percent of classrooms)
+cm,Carbon monoxide levels (parts per billion by volume)
+cond,Female use of condom (percent of population group)
+cr_s,Cropland (percent of area)
+dens,Population density (people per sq. km.)
+dens_bu,Population density (people per sq. km.)
+dens_lit,Population density (people per sq. km.)
+dep_rat_014,"Dependency ratio, 0-14 years (percent)"
+dep_rat_ag,"Dependency ratio, 65+ years (percent)"
+dep_rat_t,"Dependency ratio, 0-14 or 65+ years (percent)"
+di_e_2,"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)"
+di_e_4,"Diversification index of Non-agr. enterprises, ISIC 3.1 -4 digit(index)"
+dpt,DPT immunization (percent of population group)
+drrh,Diarrhea treatment (percent of population group)
+e,Non-agr. enterprises   (thousands)
+e_elc_pr,"Non-agriculture enterprises' use of electricity,private(percent of establishment"
+e_elc_pu,"Non-agriculture enterprises' use of electricity,public(percent of establishments"
+e_elc_t,"Non-agriculture enterprises' use of electricity,total(percent of establishments)"
+e_fin1,Non-agr. enter.’ fin. serv.-No finance/self-finance(percent of est.)
+e_fin2,Non-agr. enter.’ fin. serv.-Assist. from gov. sources(percent of est.)
+e_fin3,Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.)
+e_fin4,Non-agr. enter.’ fin. serv.-Borrow from non-fin. inst.(percent of est.)
+e_fin5,"Non-agr. enter.’ fin. serv.-Others (NGOs, etc.)(percent of est.)"
+e_own1,Non-agr. enterprises by ownership -Private(percent of establishments)
+e_own2,Non-agr. enterprises by ownership -Public(percent of establishments)
+e_pr_fin1,Priv. non-agr. enter.’ fin. serv.-No finance/self-finance(percent of est.)
+e_pr_fin2,Priv. non-agr. enter.’ fin. serv.-Assist. from gov. sources(percent of est.)
+e_pr_fin3,Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.)
+e_pr_fin4,Priv. non-agr. enter.’ fin. serv.-Borrow from non-fin. inst.(percent of est.)
+e_pr_fin5,"Priv. non-agr. enter.’ fin. serv.-Others (NGOs, etc.)(percent of est.)"
+e_s1,"Non-agr. by sect.,ISIC3.1-Mining and quarrying(C)(percent of est.)"
+e_s10,"Non-agr. by sect.,ISIC3.1-Education,health and social(M, N, O)(percent of est.)"
+e_s2,"Non-agr. by sect.,ISIC3.1-Manufacturing(D)(percent of est.)"
+e_s3,"Non-agr. by sect.,ISIC3.1-Electricity,gas and water supply(E)(percent of est.)"
+e_s4,"Non-agr. by sect.,ISIC3.1-Construction(F)(percent of est.)"
+e_s5,"Non-agr. by sect.,ISIC3.1-Trade,hotels and restaurants(G, H)(percent of est.)"
+e_s6,"Non-agr. by sect.,ISIC3.1-Trans.,storage and communications.(I)(percent of est.)"
+e_s7,"Non-agr. by sect.,ISIC3.1-Financial intermediation(J)(percent of est.)"
+e_s8,"Non-agr. by sect.,ISIC3.1-Real estate & business activities (K)(percent of est.)"
+e_s9,"Non-agr. by sect.,ISIC3.1-Public administration(L)(percent of est.)"
+e_z1,Non-agr. enterprises by size -1(percent of establishments)
+e_z2,Non-agr. enterprises by size -2-5(percent of establishments)
+e_z3,Non-agr. enterprises by size -6-9(percent of establishments)
+e_z4,Non-agr. enterprises by size -10-19(percent of establishments)
+e_z5,Non-agr. enterprises by size -20-99(percent of establishments)
+e_z6,Non-agr. enterprises by size -100+(percent of establishments)
+ear_agr,"Labor earnings by sector,Agriculture(current USD per day)"
+ear_f,"Labor earnings by gender,Female(current USD per day)"
+ear_ind,"Labor earnings by sector,Industry(current USD per day)"
+ear_m,"Labor earnings by gender,Male(current USD per day)"
+ear_sev,"Labor earnings by sector,Services(current USD per day)"
+ear_t,"Labor earnings by gender,Total(current USD per day)"
+edu_lit_15_f,"Literacy rate,15+ years,female(percent of population group)"
+edu_lit_15_m,"Literacy rate,15+ years,male(percent of population group)"
+edu_lit_15_t,"Literacy rate,15+ years,total(percent of population group)"
+edu_lit_7_f,"Literacy rate,7+ years,female(percent of population group)"
+edu_lit_7_m,"Literacy rate,7+ years,male(percent of population group)"
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)"
+edu_sec_15_f,"Secondary education completion rate,15+ years,female(percent of population group"
+edu_sec_15_m,"Secondary education completion rate,15+ years,male(percent of population group)"
+edu_sec_15_t,"Secondary education completion rate,15+ years,total(percent of population group)"
+edu_ter_15_f,"Tertiary education completion rate,15+ years,female(percent of population group)"
+edu_ter_15_m,"Tertiary education completion rate,15+ years,male(percent of population group)"
+edu_ter_15_t,"Tertiary education completion rate,15+ years,total(percent of population group)"
+elec_sch_pri,Access to electricity in primary schools (percent of schools)
+elev,Elevation (meters)
+emp_7_f,"Employment rate, 7+ years, main + marginal,       Female(percent of age group)"
+emp_7_m,"Employment rate, 7+ years, main + marginal,          Male(percent of age group)"
+emp_7_t,"Employment rate, 7+ years, main + marginal,          Total(percent of age group)"
+emp_agr,"Employment by sector,Agriculture(percent of total employment)"
+emp_cwg_f,"Casual wage earners,       Female(percent of total employment)"
+emp_cwg_m,"Casual wage earners,          Male(percent of total employment)"
+emp_cwg_t,"Casual wage earners,          Total(percent of total employment)"
+emp_fmr_f,"Farmers,       Female(percent of total employment)"
+emp_fmr_m,"Farmers,          Male(percent of total employment)"
+emp_fmr_t,"Farmers,          Total(percent of total employment)"
+emp_ind,"Employment by sector,Industry (incl. manufacturing)(percent of total employment)"
+emp_man,"Employment by sector,Manufacturing(percent of total employment)"
+emp_rwg_f,"Regular wage earners,       Female(percent of total employment)"
+emp_rwg_m,"Regular wage earners,          Male(percent of total employment)"
+emp_rwg_t,"Regular wage earners,          Total(percent of total employment)"
+emp_sev,"Employment by sector,Services(percent of total employment)"
+emp_slf_f,"Self-employed,       Female(percent of total employment)"
+emp_slf_m,"Self-employed,          Male(percent of total employment)"
+emp_slf_t,"Self-employed,          Total(percent of total employment)"
+est_sh_1,"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)"
+est_sh_1,"Informal manu,Food/beverage/tobacco (15, 16)(percent of establishments)"
+est_sh_10,"formal manu,Electrical equipment (31)(percent of establishments)"
+est_sh_10,"Informal manu,Electrical equipment (31)(percent of establishments)"
+est_sh_11,"formal manu,Machinery and equipment (29)(percent of establishments)"
+est_sh_11,"Informal manu,Machinery and equipment (29)(percent of establishments)"
+est_sh_11,"Informal serv,Education, health, social and other services (M, N, O)(percent of"
+est_sh_12,"formal manu,Transportation equipment (34, 35)(percent of establishments)"
+est_sh_12,"Informal manu,Transportation equipment (34, 35)(percent of establishments)"
+est_sh_13,"formal manu,Other (36, 37, 38)(percent of establishments)"
+est_sh_13,"Informal manu,Other (36, 37, 38)(percent of establishments)"
+est_sh_2,"formal manu,Textiles/apparel/leather(17, 18, 19)(percent of establishments)"
+est_sh_2,"Informal manu,Textiles/apparel/leather(17, 18, 19)(percent of establishments)"
+est_sh_3,"formal manu,Wood/paper products (20, 21)(percent of establishments)"
+est_sh_3,"Informal manu,Wood/paper products (20, 21)(percent of establishments)"
+est_sh_4,"formal manu,Printing/recorded media (22)(percent of establishments)"
+est_sh_4,"Informal manu,Printing/recorded media (22)(percent of establishments)"
+est_sh_5,"formal manu,Coke and refined petroleum (23)(percent of establishments)"
+est_sh_5,"Informal manu,Coke and refined petroleum (23)(percent of establishments)"
+est_sh_6,"formal manu,Chemicals pharmaceuticals (24)(percent of establishments)"
+est_sh_6,"Informal manu,Chemicals pharmaceuticals (24)(percent of establishments)"
+est_sh_6,"Informal serv,Trade, hotels and restaurants (G, H)(percent of establishments)"
+est_sh_7,"formal manu,Rubber/plastics/nonmetallic mineral(25,26)(percent of establishments"
+est_sh_7,"Informal manu,Rubber/plastics/nonmetallic mineral(25,26)(percent of establishmen"
+est_sh_7,"Informal serv,Transportation, storage and communications (I)(percent of establis"
+est_sh_8,"formal manu,Basic metals/fabricated metals(27, 28)(percent of establishments)"
+est_sh_8,"Informal manu,Basic metals/fabricated metals(27, 28)(percent of establishments)"
+est_sh_8,"Informal serv,Financial intermediation (J)(percent of establishments)"
+est_sh_9,"formal manu,Computer/electronic/optical(30,32,33)(percent of establishments)"
+est_sh_9,"Informal manu,Computer/electronic/optical(30,32,33)(percent of establishments)"
+est_sh_9,"Informal serv,Real estate, renting and business activities (K)(percent of establ"
+exp_sh_b40,Share of bottom 40 percent(percent of population)
+fam_pln,Female contraceptive prevalence (percent of population group)
+fo_s,Forest (percent of area)
+full_imm,Full immunization (percent of population group)
+gdp,"GDP  (current USD, in millions)"
+gdp_pc,GDP per capita (current USD)
+ger_f,"Gross primary enrollment, female (percent of population group)"
+ger_m,"Gross primary enrollment, male (percent of population group)"
+ger_t,"Gross primary enrollment, total (percent of population group)"
+grl_tlt_pri,Girls' toilets in primary schools(percent of schools with girls)
+hh_cell_slm,"Households' access to cellphone,slum(percent of households)"
+hh_cell_t,"Households' access to cellphone,total(percent of households)"
+hh_elec_slm,"Households' access to electricity,slums(percent of households)"
+hh_elec_t,"Households' access to electricity,total(percent of households)"
+hh_fuel_cook_1,"Households' use of fuel for cooking,biomass(percent of households)"
+hh_fuel_cook_2,"Households' use of fuel for cooking,coal/charcoal(percent of households)"
+hh_fuel_cook_3,"Households' use of fuel for cooking,kerosene(percent of households)"
+hh_fuel_cook_4,"Households' use of fuel for cooking,LPG/PNG(percent of households)"
+hh_fuel_cook_5,"Households' use of fuel for cooking,electricity(percent of households)"
+hh_fuel_cook_6,"Households' use of fuel for cooking,biogas(percent of households)"
+hh_fuel_lit_1,"Households's use of fuel for lighting,kerosene(percent of households)"
+hh_fuel_lit_2,"Households's use of fuel for lighting,gas/other oil(percent of households)"
+hh_fuel_lit_3,"Households's use of fuel for lighting,electricity(percent of households)"
+hh_fuel_lit_4,"Households's use of fuel for lighting,candle/others(percent of households)"
+hh_fuel_lit_5,"Households's use of fuel for lighting,no lighting(percent of households)"
+hh_intt_slm,"Households' access to compute with Internet,slum(percent of households)"
+hh_intt_t,"Households' access to compute with Internet,total(percent of households)"
+hh_size_t,"People per household,total(people)"
+hous_slm,Housing units located in urban slums(percent of housing units)
+hs_good_slm,Housing units in good condition(percent of households)
+hs_good_t,Housing units in good condition(percent of households)
+ictc_inf_man,"Enterprises’ access to computer,Informal manufacturing(percent of establishments"
+ictc_inf_ser,"Enterprises’ access to computer,Informal services(percent of establishments)"
+icti_inf_man,"Enterprises’ access to internet,Informal manufacturing(percent of establishments"
+icti_inf_ser,"Enterprises’ access to internet,Informal services(percent of establishments)"
+imr_f,"Infant mortality rate, female (deaths per 1,000 live births)"
+imr_m,"Infant mortality rate, male (deaths per 1,000 live births)"
+imr_t,"Infant mortality rate, total (deaths per 1,000 live births)"
+inst_bth,Institutional births (percent of population group)
+irr_all,Land area equipped for irrigation - Total (percent of land area)
+irr_gw,Land area equipped for irrigation  - Ground water (percent of land area)
+irr_sw,Land area equipped for irrigation  - Surface water (percent of land area)
+kl_for_man_1,"K/L formal manu,Food/beverage/tobacco (15, 16)(current USD per worker)"
+kl_for_man_10,"K/L formal manu,Electrical equipment (31)(current USD per worker)"
+kl_for_man_11,"K/L formal manu,Machinery and equipment (29)(current USD per worker)"
+kl_for_man_12,"K/L formal manu,Transportation equipment (34,35)(current USD per worker)"
+kl_for_man_13,"K/L formal manu,Other (36, 37, 38)(current USD per worker)"
+kl_for_man_2,"K/L formal manu,Textiles/apparel/leather(17,18, 19)(current USD per worker)"
+kl_for_man_3,"K/L formal manu,Wood/paper products (20,21)(current USD per worker)"
+kl_for_man_4,"K/L formal manu,Printing/recorded media (22)(current USD per worker)"
+kl_for_man_5,"K/L formal manu,Coke and refined petroleum (23)(current USD per worker)"
+kl_for_man_6,"K/L formal manu,Chemicals pharmaceuticals (24)(current USD per worker)"
+kl_for_man_7,"K/L formal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per worke"
+kl_for_man_8,"K/L formal manu,Basic metals/fabricated metals(27,28)(current USD per worker)"
+kl_for_man_9,"K/L formal manu,Computer/electronic/optical(30,32,33)(current USD per worker)"
+kl_for_man_t,"K/L formal manu,All(current USD per worker)"
+kl_inf_man_1,"K/L informal manu,Food/beverage/tobacco (15, 16)(current USD per worker)"
+kl_inf_man_10,"K/L informal manu,Electrical equipment (31)(current USD per worker)"
+kl_inf_man_11,"K/L informal manu,Machinery and equipment (29)(current USD per worker)"
+kl_inf_man_12,"K/L informal manu,Transportation equipment (34,35)(current USD per worker)"
+kl_inf_man_13,"K/L informal manu,Other (36, 37, 38)(current USD per worker)"
+kl_inf_man_2,"K/L informal manu,Textiles/apparel/leather(17,18, 19)(current USD per worker)"
+kl_inf_man_3,"K/L informal manu,Wood/paper products (20,21)(current USD per worker)"
+kl_inf_man_4,"K/L informal manu,Printing/recorded media (22)(current USD per worker)"
+kl_inf_man_5,"K/L informal manu,Coke and refined petroleum (23)(current USD per worker)"
+kl_inf_man_6,"K/L informal manu,Chemicals pharmaceuticals (24)(current USD per worker)"
+kl_inf_man_7,"K/L informal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per wor"
+kl_inf_man_8,"K/L informal manu,Basic metals/fabricated metals(27,28)(current USD per worker)"
+kl_inf_man_9,"K/L informal manu,Computer/electronic/optical(30,32,33)(current USD per worker)"
+kl_inf_man_t,"K/L informal manu,All(current USD per worker)"
+kl_inf_ser_11,"K/L informal serv,Education/health/social/other(M, N, O)(current USD per worker)"
+kl_inf_ser_6,"K/L informal serv,Trade/hotels/restaurants (G,H)(current USD per worker)"
+kl_inf_ser_7,"K/L informal serv,Transport/storage/communication(I)(current USD per worker)"
+kl_inf_ser_8,"K/L informal serv,Financial intermediation (J)(current USD per worker)"
+kl_inf_ser_9,"K/L informal serv,Real estate/business activities (K)(current USD per worker)"
+kl_inf_ser_t,"K/L informal serv,All(current USD per worker)"
+lcrt,Land area with limited or no constraints (percent of land area)
+lfp_15_u_f,"Labor force participation, 15+ years, usual ,       Female(percent of age group)"
+lfp_15_u_m,"Labor force participation, 15+ years, usual ,          Male(percent of age group"
+lfp_15_u_t,"Labor force participation, 15+ years, usual ,          Total(percent of age grou"
+lfp_15_w_f,"Labor force participation, 15+ years, weekly,       Female(percent of age group)"
+lfp_15_w_m,"Labor force participation, 15+ years, weekly,          Male(percent of age group"
+lfp_15_w_t,"Labor force participation, 15+ years, weekly,          Total(percent of age grou"
+lp_for_man_1,"LP formal manu,Food/beverage/tobacco (15, 16)(current USD per worker)"
+lp_for_man_10,"LP formal manu,Electrical equipment (31)(current USD per worker)"
+lp_for_man_11,"LP formal manu,Machinery and equipment (29)(current USD per worker)"
+lp_for_man_12,"LP formal manu,Transportation equipment (34, 35)(current USD per worker)"
+lp_for_man_13,"LP formal manu,Other (36, 37, 38)(current USD per worker)"
+lp_for_man_2,"LP formal manu,Textiles/apparel/leather(17, 18, 19)(current USD per worker)"
+lp_for_man_3,"LP formal manu,Wood/paper products (20, 21)(current USD per worker)"
+lp_for_man_4,"LP formal manu,Printing/recorded media (22)(current USD per worker)"
+lp_for_man_5,"LP formal manu,Coke and refined petroleum (23)(current USD per worker)"
+lp_for_man_6,"LP formal manu,Chemicals pharmaceuticals (24)(current USD per worker)"
+lp_for_man_7,"LP formal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per worker"
+lp_for_man_8,"LP formal manu,Basic metals/fabricated metals(27, 28)(current USD per worker)"
+lp_for_man_9,"LP formal manu,Computer/electronic/optical(30,32,33)(current USD per worker)"
+lp_for_man_t,"LP formal manu,All(current USD per worker)"
+lp_inf_man_1,"LP informal manu,Food/beverage/tobacco (15, 16)(current USD per worker)"
+lp_inf_man_10,"LP informal manu,Electrical equipment (31)(current USD per worker)"
+lp_inf_man_11,"LP informal manu,Machinery and equipment (29)(current USD per worker)"
+lp_inf_man_12,"LP informal manu,Transportation equipment (34, 35)(current USD per worker)"
+lp_inf_man_13,"LP informal manu,Other (36, 37, 38)(current USD per worker)"
+lp_inf_man_2,"LP informal manu,Textiles/apparel/leather(17, 18, 19)(current USD per worker)"
+lp_inf_man_3,"LP informal manu,Wood/paper products (20, 21)(current USD per worker)"
+lp_inf_man_4,"LP informal manu,Printing/recorded media (22)(current USD per worker)"
+lp_inf_man_5,"LP informal manu,Coke and refined petroleum (23)(current USD per worker)"
+lp_inf_man_6,"LP informal manu,Chemicals pharmaceuticals (24)(current USD per worker)"
+lp_inf_man_7,"LP informal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per work"
+lp_inf_man_8,"LP informal manu,Basic metals/fabricated metals(27, 28)(current USD per worker)"
+lp_inf_man_9,"LP informal manu,Computer/electronic/optical(30,32,33)(current USD per worker)"
+lp_inf_man_t,"LP informal manu,All(current USD per worker)"
+lp_inf_ser_11,"LP informal manu,Education/health/social/other(M, N, O)(current USD per worker)"
+lp_inf_ser_6,"LP informal manu,Trade/hotels/restaurants (G,H)(current USD per worker)"
+lp_inf_ser_7,"LP informal manu,Transport/storage/communication(I)(current USD per worker)"
+lp_inf_ser_8,"LP informal manu,Financial intermediation (J)(current USD per worker)"
+lp_inf_ser_9,"LP informal manu,Real estate/business activities (K)(current USD per worker)"
+lp_inf_ser_t,"LP informal serv,All(current USD per worker)"
+lrn_math1,Children who can recognize numbers 1-9 (percent of population group)
+lrn_math2,Children who can do subtraction (percent of population group)
+lrn_read1,Children who can read letters or words (percent of population group)
+lrn_read2,Children who can read Grade 1 text (percent of population group)
+m_dec_pre_1,Decadal average of monthly precipitation - Jan (millimeters)
+m_dec_pre_10,Decadal average of monthly precipitation - Oct (millimeters)
+m_dec_pre_11,Decadal average of monthly precipitation - Nov (millimeters)
+m_dec_pre_12,Decadal average of monthly precipitation - Dec (millimeters)
+m_dec_pre_2,Decadal average of monthly precipitation - Feb (millimeters)
+m_dec_pre_3,Decadal average of monthly precipitation - Mar (millimeters)
+m_dec_pre_4,Decadal average of monthly precipitation - Apr (millimeters)
+m_dec_pre_5,Decadal average of monthly precipitation - May (millimeters)
+m_dec_pre_6,Decadal average of monthly precipitation - Jun (millimeters)
+m_dec_pre_7,Decadal average of monthly precipitation - Jul (millimeters)
+m_dec_pre_8,Decadal average of monthly precipitation - Aug (millimeters)
+m_dec_pre_9,Decadal average of monthly precipitation - Sep (millimeters)
+m_dec_tmp_1,Decadal average of monthly temperature - Jan (Co)
+m_dec_tmp_10,Decadal average of monthly temperature - Oct (Co)
+m_dec_tmp_11,Decadal average of monthly temperature - Nov (Co)
+m_dec_tmp_12,Decadal average of monthly temperature - Dec (Co)
+m_dec_tmp_2,Decadal average of monthly temperature - Feb (Co)
+m_dec_tmp_3,Decadal average of monthly temperature - Mar (Co)
+m_dec_tmp_4,Decadal average of monthly temperature - Apr (Co)
+m_dec_tmp_5,Decadal average of monthly temperature - May (Co)
+m_dec_tmp_6,Decadal average of monthly temperature - Jun (Co)
+m_dec_tmp_7,Decadal average of monthly temperature - Jul (Co)
+m_dec_tmp_8,Decadal average of monthly temperature - Aug (Co)
+m_dec_tmp_9,Decadal average of monthly temperature - Sep (Co)
+m_pre_1,Precipitation - Jan (millimeters)
+m_pre_10,Precipitation - Oct (millimeters)
+m_pre_11,Precipitation - Nov (millimeters)
+m_pre_12,Precipitation - Dec (millimeters)
+m_pre_2,Precipitation - Feb (millimeters)
+m_pre_3,Precipitation - Mar (millimeters)
+m_pre_4,Precipitation - Apr (millimeters)
+m_pre_5,Precipitation - May (millimeters)
+m_pre_6,Precipitation - Jun (millimeters)
+m_pre_7,Precipitation - Jul (millimeters)
+m_pre_8,Precipitation - Aug (millimeters)
+m_pre_9,Precipitation - Sep (millimeters)
+m_tmp_1,Monthly temperature - Jan (Co)
+m_tmp_10,Monthly temperature - Oct (Co)
+m_tmp_11,Monthly temperature - Nov (Co)
+m_tmp_12,Monthly temperature - Dec (Co)
+m_tmp_2,Monthly temperature - Feb (Co)
+m_tmp_3,Monthly temperature - Mar (Co)
+m_tmp_4,Monthly temperature - Apr (Co)
+m_tmp_5,Monthly temperature - May (Co)
+m_tmp_6,Monthly temperature - Jun (Co)
+m_tmp_7,Monthly temperature - Jul (Co)
+m_tmp_8,Monthly temperature - Aug (Co)
+m_tmp_9,Monthly temperature - Sep (Co)
+morb_ari,"Acute respiratory infection (per 100,000 people)"
+morb_art,"Arthritis (per 100,000 people)"
+morb_ast,"Asthma (per 100,000 people)"
+morb_chd_ari,"Child acute respiratory infection (percent of children, 0-4 years)"
+morb_chd_dia,"Child diarrhea (percent of children, 0-4 years)"
+morb_chd_fev,"Child fever (percent of children, 0-4 years)"
+morb_dia,"Diarrhea (per 100,000 people)"
+morb_diab,"Diabetes (per 100,000 people)"
+morb_fev,"Fever (per 100,000 people)"
+morb_hyp,"Hypertension (per 100,000 people)"
+morb_tub,"Tuberculosis (per 100,000 people)"
+n_oper_fo,Mineral facilities - Foreign  (number of facilities)
+n_oper_gov,Mineral facilities - Public  (number of facilities)
+n_oper_pri,Mineral facilities - Private  (number of facilities)
+n_oper_t,Mineral facilities - Total  (number of facilities)
+nd,Nitrogen dioxide levels (billion molecules/mm2)
+neo_mr,"Neonatal mortality rate (deaths per 1,000 live births)"
+ntl_a,Light intensity per area (Digital Numbers of light per sq. km.)
+ntl_pc,Light intensity per 1000 people(Digital Numbers of light per 1000 people)
+oos_child,Out of school children (percent of population group)
+ovr_crw_slm,"Overcrowding,slums(percent of housing units)"
+ovr_crw_t,"Overcrowding,total(percent of housing units)"
+own_fen,"Informal manu, by owner's gender, female (percent of establishments)"
+own_fen,"Informal serv, by owner's gender, female (percent of establishments)"
+own_men,"Informal manu, by owner's gender, male (percent of establishments)"
+own_men,"Informal serv, by owner's gender, male (percent of establishments)"
+pc_exp,Household per capita expenditure(current USD per capita per month)
+pc_exp_gini,Gini coefficient of per capita expenditure(percent)
+pc_exp_mld,MLD of per capita expenditure(index)
+pc_exp_r9010,90 to 10 ratio of per capita expenditure(ratio)
+phc,"Primary health care centers, rural (per 10,000 people)"
+pop,Population (thousands)
+pop_bu,Population (thousands)
+pop_lit,Population (thousands)
+pov_nl,Poverty rate at national poverty line(percent of population)
+ppl_room_slm,"People per room,slums(people)"
+ppl_room_t,"People per room,total(people)"
+ptr_pri,Pupil-teacher ratio in primary schools (students per teacher)
+ptr30_pri,Pupil-teacher ratio over 30 in primary schools (percent of schools)
+road_int_h,"Road intensity,Major highways, primary and secondary(km. per 1000 sq. km.)"
+road_int_o,"Road intensity,Other(km. per 1000 sq. km.)"
+road_int_r,"Road intensity,Tertiary and rural(km. per 1000 sq. km.)"
+road_int_t,"Road intensity,Total(km. per 1000 sq. km.)"
+road_lng_h,"Road length,Major highways, primary and secondary(km.)"
+road_lng_o,"Road length,Other(km.)"
+road_lng_r,"Road length,Tertiary and rural(km.)"
+road_lng_t,"Road length,Total(km.)"
+rough,Surface roughness (meters)
+s_pr_int,Protected land - International (percent of area)
+s_pr_nat,Protected land - National (percent of area)
+s_pr_t,Protected land - Total (percent of area)
+sc,Scheduled Caste (SC) population (percent)
+sd_dec_pre_1,Decadal variation of monthly precipitation - Jan (millimeters)
+sd_dec_pre_10,Decadal variation of monthly precipitation - Oct (millimeters)
+sd_dec_pre_11,Decadal variation of monthly precipitation - Nov (millimeters)
+sd_dec_pre_12,Decadal variation of monthly precipitation - Dec (millimeters)
+sd_dec_pre_2,Decadal variation of monthly precipitation - Feb (millimeters)
+sd_dec_pre_3,Decadal variation of monthly precipitation - Mar (millimeters)
+sd_dec_pre_4,Decadal variation of monthly precipitation - Apr (millimeters)
+sd_dec_pre_5,Decadal variation of monthly precipitation - May (millimeters)
+sd_dec_pre_6,Decadal variation of monthly precipitation - Jun (millimeters)
+sd_dec_pre_7,Decadal variation of monthly precipitation - Jul (millimeters)
+sd_dec_pre_8,Decadal variation of monthly precipitation - Aug (millimeters)
+sd_dec_pre_9,Decadal variation of monthly precipitation - Sep (millimeters)
+sd_dec_tmp_1,Decadal variation of monthly temperature - Jan (Co)
+sd_dec_tmp_10,Decadal variation of monthly temperature - Oct (Co)
+sd_dec_tmp_11,Decadal variation of monthly temperature - Nov (Co)
+sd_dec_tmp_12,Decadal variation of monthly temperature - Dec (Co)
+sd_dec_tmp_2,Decadal variation of monthly temperature - Feb (Co)
+sd_dec_tmp_3,Decadal variation of monthly temperature - Mar (Co)
+sd_dec_tmp_4,Decadal variation of monthly temperature - Apr (Co)
+sd_dec_tmp_5,Decadal variation of monthly temperature - May (Co)
+sd_dec_tmp_6,Decadal variation of monthly temperature - Jun (Co)
+sd_dec_tmp_7,Decadal variation of monthly temperature - Jul (Co)
+sd_dec_tmp_8,Decadal variation of monthly temperature - Aug (Co)
+sd_dec_tmp_9,Decadal variation of monthly temperature - Sep (Co)
+sex_rat_04,"Gender ratio, 0-4 years (percent)"
+sex_rat_b,"Gender ratio, at birth (percent)"
+sex_rat_t,"Gender ratio, all ages (percent)"
+sgdp_s1,"GVA by sector,ISIC 3.1-Agriculture,fishing,hunting,forestry(A,B)(percent of GDP)"
+sgdp_s10,"GVA by sector,ISIC 3.1-Public administration(L)(percent of GDP)"
+sgdp_s11,"GVA by sector,ISIC 3.1-Other(M, N, O, P, Q)(percent of GDP)"
+sgdp_s2,"GVA by sector,ISIC 3.1-Mining and quarrying(C)(percent of GDP)"
+sgdp_s3,"GVA by sector,ISIC 3.1-Manufacturing(D)(percent of GDP)"
+sgdp_s4,"GVA by sector,ISIC 3.1-Electricity, gas and water supply(E)(percent of GDP)"
+sgdp_s5,"GVA by sector,ISIC 3.1-Construction(F)(percent of GDP)"
+sgdp_s6,"GVA by sector,ISIC 3.1-Trade, hotels and restaurants(G, H)(percent of GDP)"
+sgdp_s7,"GVA by sector,ISIC 3.1-Transportation,storage,communications(I)(percent of GDP)"
+sgdp_s8,"GVA by sector,ISIC 3.1-Financial intermediation(J)(percent of GDP)"
+sgdp_s9,"GVA by sector,ISIC 3.1-Real estate & business activities(K)(percent of GDP)"
+shc,"Secondary health care centers, rural (per 10,000 people)"
+size,Average size of formal manufacturing enterprises(number of employees)
+size,Average size of informal manufacturing enterprises(number of employees)
+size,Average size of informal services enterprises(number of employees)
+sp_e_2,"Specialization index of  Non-agr. enterprises, ISIC 3.1 -2 digit(index)"
+sp_e_4,"Specialization index of  Non-agr. enterprises, ISIC 3.1 -4 digit(index)"
+st,Scheduled Tribe (ST) population (percent)
+station_den_m,"Number of stations,Metro(stations per 1000 sq. km.)"
+station_den_r,"Number of stations,Railway(stations per 1000 sq. km.)"
+station_den_t,"Number of stations,Total(stations per 1000 sq. km.)"
+station_nmb_m,"Number of stations,Metro(stations)"
+station_nmb_r,"Number of stations,Railway(stations)"
+station_nmb_t,"Number of stations,Total(stations)"
+stunting,"Stunting (percent of children, 0-4 years)"
+u5mr_f,"Under-five mortality rate, female (deaths per 1,000 live births)"
+u5mr_m,"Under-five mortality rate, male (deaths per 1,000 live births)"
+u5mr_t,"Under-five mortality rate, total (deaths per 1,000 live births)"
+und_15_f,"Under-employment rate, 15+ years, marginal,       Female(percent of labor force)"
+und_15_m,"Under-employment rate, 15+ years, marginal,          Male(percent of labor force"
+und_15_t,"Under-employment rate, 15+ years, marginal,          Total(percent of labor forc"
+underwgt,"Underweight (percent of children, 0-4 years)"
+une_15_u_f,"Unemployment rate, 15+ years, usual ,       Female(percent of labor force)"
+une_15_u_m,"Unemployment rate, 15+ years, usual ,          Male(percent of labor force)"
+une_15_u_t,"Unemployment rate, 15+ years, usual ,          Total(percent of labor force)"
+une_15_w_f,"Unemployment rate, 15+ years, weekly,       Female(percent of labor force)"
+une_15_w_m,"Unemployment rate, 15+ years, weekly,          Male(percent of labor force)"
+une_15_w_t,"Unemployment rate, 15+ years, weekly,          Total(percent of labor force)"
+une_1524_u_f,"Unemployment rate, 15-24 years, usual ,       Female(percent of labor force)"
+une_1524_u_m,"Unemployment rate, 15-24 years, usual ,          Male(percent of labor force)"
+une_1524_u_t,"Unemployment rate, 15-24 years, usual ,          Total(percent of labor force)"
+une_1524_w_f,"Unemployment rate, 15-24 years, weekly,       Female(percent of labor force)"
+une_1524_w_m,"Unemployment rate, 15-24 years, weekly,          Male(percent of labor force)"
+une_1524_w_t,"Unemployment rate, 15-24 years, weekly,          Total(percent of labor force)"
+wasting,"Wasting (percent of children, 0-4 years)"
+wkp_15_f,"Working-age population, 15+ years,       Female(percent)"
+wkp_15_m,"Working-age population, 15+ years,          Male(percent)"
+wkp_15_t,"Working-age population, 15+ years,          Total(percent)"
+wkp_7_f,"Working-age population, 7+ years,       Female(percent)"
+wkp_7_m,"Working-age population, 7+ years,          Male(percent)"
+wkp_7_t,"Working-age population, 7+ years,          Total(percent)"
+wtr_sch_pri,Drinking water facility in primary schools (percent of schools)
+yieldp,"Crop yield,  quantity - All (tonnes per ha.)"
+yieldp_sel1,"Crop yield,  quantity - Millets(tonnes per ha.)"
+yieldp_sel2,"Crop yield,  quantity - Pulses(tonnes per ha.)"
+yieldp_sel3,"Crop yield,  quantity - Rice(tonnes per ha.)"
+yieldp_sel4,"Crop yield,  quantity - Sugar cane(tonnes per ha.)"
+yieldp_sel5,"Crop yield,  quantity - Wheat(tonnes per ha.)"
+yieldp_sel6,"Crop yield,  quantity - Maize(tonnes per ha.)"
+yieldp_sel7,"Crop yield,  quantity - Groundnut(tonnes per ha.)"
+yieldvus,"Crop yield,  monetary - All (2011 USD per ha., in thousands)"
+yieldvus_sel1,"Crop yield,  monetary - Millets (2011 USD per ha., in thousands)"
+yieldvus_sel2,"Crop yield,  monetary - Pulses (2011 USD per ha., in thousands)"
+yieldvus_sel3,"Crop yield,  monetary - Rice(2011 USD per ha., in thousands)"
+yieldvus_sel4,"Crop yield,  monetary - Sugar cane (2011 USD per ha., in thousands)"
+yieldvus_sel5,"Crop yield,  monetary - Wheat (2011 USD per ha., in thousands)"
+yieldvus_sel6,"Crop yield,  monetary - Maize(2011 USD per ha., in thousands)"
+yieldvus_sel7,"Crop yield,  monetary - Groundnut (2011 USD per ha., in thousands)"
+NA,NA

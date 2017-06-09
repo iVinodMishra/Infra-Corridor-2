@@ -1,0 +1,9 @@
+varNames,varDescription
+dens,Population density (people per sq. km.)
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)"
+elev,Elevation (meters)
+hh_elec_t,"Households' access to electricity,total(percent of households)"
+pop,Population (thousands)
+sc,Scheduled Caste (SC) population (percent)
+bank_t,"Households' access to banking services, total (percent of households)"
+urbanPopShare,Share of urban population

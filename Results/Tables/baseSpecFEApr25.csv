@@ -1,0 +1,28 @@
+yVar,yType,description,adjRSq,nobs,postGQ,postNSEW,gqDistType0-40:postGQ,nsewDistType0-40:postNSEW
+ap,environment,Aerosol particle radius (percent of small particles) in logs,0.529000827534179,854,13.1732***,NA,-0.7238,-0.4047
+at,environment,Aerosol optical thickness (thickness scale  0–1 ),0.582347767685487,854,0.0746***,NA,0.0259***,0.0095
+nd,environment,Nitrogen dioxide levels (billion molecules/mm2) in logs,0.5577445043711431,854,25.2989***,NA,1.0056,-1.5397
+povrate_rur,equality,Reduction in poverty rate (rural),0.35509826729344296,1661,0.192***,0.085**,-0.0048,0.0088
+povrate_tot,equality,Reduction in poverty rate (total),0.31899756472707586,1661,0.1883***,0.1092***,-0.0027,0.0064
+povrate_urb,equality,Reduction in poverty rate (urban),-0.05179839239217432,1626,0.0699*,0.1986***,0.0151,0.0366
+emp_7_f,inclusion,"Employment rate, 7+ years, main + marginal, Female(percent of age group)",-0.38598747067115435,854,0.4106,NA,0.153,-0.9373
+emp_7_t,inclusion,"Employment rate, 7+ years, main + marginal, Total(percent of age group)",-0.4862121680939031,854,-0.6589,NA,0.5686,-0.3776
+emp_rwg_f,inclusion,"Regular wage earners, Female (percent of total empl)",0.34449595855040993,854,3.0361**,NA,2.0519***,2.2527**
+emp_rwg_t,inclusion,"Regular wage earners, Total (percent of total emplt)",-0.030468304122330814,854,1.7236*,NA,1.221**,2.1592***
+emp_slf_f,inclusion,"Self-employed, Female(percent of total employment)",-0.7559564320209871,854,-1.953***,NA,0.3485,0.2897
+emp_slf_t,inclusion,"Self-employed,Total(percent of total employment)",-0.720942254270724,854,-1.205***,NA,0.3573*,0.2884
+pct_emp_both_tot,inclusion,N employed/Total total population,-0.12711998758674214,1626,0.0271*,-0.039**,-0.0027,-0.0145
+pct_emp_f_tot,inclusion,N females employed/female total population,-0.1382723521150997,1626,0.0655**,-0.0461,-0.0015,-0.0192
+pct_emp_m_tot,inclusion,N males employed/male total population,-0.24519650403852578,1626,-0.0089,-0.0349**,4e-04,-0.0106
+pct_regWage_both_tot,inclusion,N total regular wage employed/Total employed,-0.08404734985792417,1626,-0.0348**,0.0137,-0.0017,0.0128
+pct_regWage_f_tot,inclusion,N total females regular wage employed/N female employed,-0.22188359262221713,1626,0.0165,0.0141,-0.0075,-0.0063
+totFarmEmp_f,inclusion,emp_fmr_f + emp_cwg_f,0.21451846416017195,854,-1.1147,NA,-2.4541***,-2.4263**
+totFarmEmp_tot,inclusion,emp_fmr_t + emp_cwg_t,-0.10910136794192926,854,-0.5342,NA,-1.4324**,-2.414***
+totNonFarmEmp_f,inclusion,emp_rwg_f + emp_slf_f,0.22823347539968097,854,1.0831,NA,2.4003***,2.5425**
+totNonFarmEmp_tot,inclusion,emp_rwg_t + emp_slf_t,-0.09924314302958348,854,0.5186,NA,1.5783**,2.4476***
+consumptGr,welfare,logCons_pc_mean_tot(t) - logCons_pc_mean_tot(t-1),-0.3621379058507004,1236,0.0868,0.0542,-0.0368,-0.0973**
+logCons_pc_mean_tot,welfare,Log of mean hh consumption (total),0.29628605785552375,1661,0.2266***,0.1791***,4e-04,-0.0127
+logGdp,welfare,"Log of GDP (current USD, in millions)",0.8555509256523208,854,0.4594***,NA,0.0252*,0.0056
+logGdpPc,welfare,"Log of GDP per capita (current USD, in millions)",0.7792740281316468,854,0.405***,NA,0.0402***,0.0042
+logNtl_a,welfare,Light intensity per area in logs,0.684068864859789,854,0.6606***,NA,-0.0443,-0.0485
+logNtl_pc,welfare,Light intensity per 1000 people in logs,0.5065330390859926,854,0.6082***,NA,-0.0694,-0.0913

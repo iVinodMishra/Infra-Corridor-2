@@ -1,0 +1,526 @@
+Variable,Description,source,Y/Z/Control?,in1993,in2001,in2004,in2011
+a_dec_pre_1,Precipitation anomaly - Jan (millimeters),spatial database,,0,1,0,1
+a_dec_pre_10,Precipitation anomaly - Oct (millimeters),spatial database,,0,1,0,1
+a_dec_pre_11,Precipitation anomaly - Nov (millimeters),spatial database,,0,1,0,1
+a_dec_pre_12,Precipitation anomaly - Dec (millimeters),spatial database,,0,1,0,1
+a_dec_pre_2,Precipitation anomaly - Feb (millimeters),spatial database,,0,1,0,1
+a_dec_pre_3,Precipitation anomaly - Mar (millimeters),spatial database,,0,1,0,1
+a_dec_pre_4,Precipitation anomaly - Apr (millimeters),spatial database,,0,1,0,1
+a_dec_pre_5,Precipitation anomaly - May (millimeters),spatial database,,0,1,0,1
+a_dec_pre_6,Precipitation anomaly - Jun (millimeters),spatial database,,0,1,0,1
+a_dec_pre_7,Precipitation anomaly - Jul (millimeters),spatial database,,0,1,0,1
+a_dec_pre_8,Precipitation anomaly - Aug (millimeters),spatial database,,0,1,0,1
+a_dec_pre_9,Precipitation anomaly - Sep (millimeters),spatial database,,0,1,0,1
+a_dec_tmp_1,Temperature anomaly - Jan (Co),spatial database,,0,1,0,1
+a_dec_tmp_10,Temperature anomaly - Oct (Co),spatial database,,0,1,0,1
+a_dec_tmp_11,Temperature anomaly - Nov (Co),spatial database,,0,1,0,1
+a_dec_tmp_12,Temperature anomaly - Dec (Co),spatial database,,0,1,0,1
+a_dec_tmp_2,Temperature anomaly - Feb (Co),spatial database,,0,1,0,1
+a_dec_tmp_3,Temperature anomaly - Mar (Co),spatial database,,0,1,0,1
+a_dec_tmp_4,Temperature anomaly - Apr (Co),spatial database,,0,1,0,1
+a_dec_tmp_5,Temperature anomaly - May (Co),spatial database,,0,1,0,1
+a_dec_tmp_6,Temperature anomaly - Jun (Co),spatial database,,0,1,0,1
+a_dec_tmp_7,Temperature anomaly - Jul (Co),spatial database,,0,1,0,1
+a_dec_tmp_8,Temperature anomaly - Aug (Co),spatial database,,0,1,0,1
+a_dec_tmp_9,Temperature anomaly - Sep (Co),spatial database,,0,1,0,1
+ac_irr,Land area actually irrigated (percent of land area),spatial database,,0,1,0,1
+anc,Three ante-natal care visits (percent of population group),spatial database,,0,0,0,1
+ap,Aerosol particle radius (percent of small particles),spatial database,,0,1,0,1
+area,Area (sq. km.),spatial database,,0,1,0,1
+area_bu,Area (sq. km.),spatial database,,0,1,0,1
+area_lit,Area (sq. km.),spatial database,,0,1,0,1
+at,Aerosol optical thickness (thickness scale  0–1 ),spatial database,,0,1,0,1
+bank_slm,"Households' access to banking services, in slums (percent of households)",spatial database,,0,0,0,1
+bank_t,"Households' access to banking services, total (percent of households)",spatial database,,0,1,0,1
+bmas_ins_slm,"Households use biomass to cook indoors,slums(percent of households)",spatial database,,0,0,0,1
+bmas_ins_t,Households use biomass to cook indoors(percent of households),spatial database,,0,0,0,1
+c_oper_t,Mineral production capacity  (million metric tons per year ),spatial database,,0,1,0,1
+cbr_t,"Crude birth rate, total (live births per 1000 people)",spatial database,,0,0,0,1
+cdr_f,"Crude death rate, female (deaths per 1000 people)",spatial database,,0,0,0,1
+cdr_m,"Crude death rate, male (deaths per 1000 people)",spatial database,,0,0,0,1
+cdr_t,"Crude death rate, total (deaths per 1000 people)",spatial database,,0,0,0,1
+cls_good_pri,Classrooms in good condition in primary schools (percent of classrooms),spatial database,,0,0,0,1
+cm,Carbon monoxide levels (parts per billion by volume),spatial database,,0,1,0,1
+cond,Female use of condom (percent of population group),spatial database,,0,0,0,1
+cr_s,Cropland (percent of area),spatial database,,0,1,0,1
+dens,Population density (people per sq. km.),spatial database,,0,1,0,1
+dens_bu,Population density (people per sq. km.),spatial database,,0,1,0,1
+dens_lit,Population density (people per sq. km.),spatial database,,0,1,0,1
+dep_rat_014,"Dependency ratio, 0-14 years (percent)",spatial database,,0,1,0,1
+dep_rat_ag,"Dependency ratio, 65+ years (percent)",spatial database,,0,1,0,1
+dep_rat_t,"Dependency ratio, 0-14 or 65+ years (percent)",spatial database,,0,1,0,1
+di_e_2,"Diversification index of Non-agr. enterprises, ISIC 3.1 -2 digit(index)",spatial database,,0,0,0,1
+di_e_4,"Diversification index of Non-agr. enterprises, ISIC 3.1 -4 digit(index)",spatial database,,0,0,0,1
+dpt,DPT immunization (percent of population group),spatial database,,0,0,0,1
+drrh,Diarrhea treatment (percent of population group),spatial database,,0,0,0,1
+e,Non-agr. enterprises   (thousands),spatial database,,0,0,0,1
+e_elc_pr,"Non-agriculture enterprises' use of electricity,private(percent of establishment",spatial database,,0,0,0,1
+e_elc_pu,"Non-agriculture enterprises' use of electricity,public(percent of establishments",spatial database,,0,0,0,1
+e_elc_t,"Non-agriculture enterprises' use of electricity,total(percent of establishments)",spatial database,,0,0,0,1
+e_fin1,Non-agr. enter.’ fin. serv.-No finance/self-finance(percent of est.),spatial database,,0,0,0,1
+e_fin2,Non-agr. enter.’ fin. serv.-Assist. from gov. sources(percent of est.),spatial database,,0,0,0,1
+e_fin3,Non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),spatial database,,0,0,0,1
+e_fin4,Non-agr. enter.’ fin. serv.-Borrow from non-fin. inst.(percent of est.),spatial database,,0,0,0,1
+e_fin5,"Non-agr. enter.’ fin. serv.-Others (NGOs, etc.)(percent of est.)",spatial database,,0,0,0,1
+e_own1,Non-agr. enterprises by ownership -Private(percent of establishments),spatial database,,0,0,0,1
+e_own2,Non-agr. enterprises by ownership -Public(percent of establishments),spatial database,,0,0,0,1
+e_pr_fin1,Priv. non-agr. enter.’ fin. serv.-No finance/self-finance(percent of est.),spatial database,,0,0,0,1
+e_pr_fin2,Priv. non-agr. enter.’ fin. serv.-Assist. from gov. sources(percent of est.),spatial database,,0,0,0,1
+e_pr_fin3,Priv. non-agr. enter.’ fin. serv.-Borrow from fin. inst.(percent of est.),spatial database,,0,0,0,1
+e_pr_fin4,Priv. non-agr. enter.’ fin. serv.-Borrow from non-fin. inst.(percent of est.),spatial database,,0,0,0,1
+e_pr_fin5,"Priv. non-agr. enter.’ fin. serv.-Others (NGOs, etc.)(percent of est.)",spatial database,,0,0,0,1
+e_s1,"Non-agr. by sect.,ISIC3.1-Mining and quarrying(C)(percent of est.)",spatial database,,0,0,0,1
+e_s10,"Non-agr. by sect.,ISIC3.1-Education,health and social(M, N, O)(percent of est.)",spatial database,,0,0,0,1
+e_s2,"Non-agr. by sect.,ISIC3.1-Manufacturing(D)(percent of est.)",spatial database,,0,0,0,1
+e_s3,"Non-agr. by sect.,ISIC3.1-Electricity,gas and water supply(E)(percent of est.)",spatial database,,0,0,0,1
+e_s4,"Non-agr. by sect.,ISIC3.1-Construction(F)(percent of est.)",spatial database,,0,0,0,1
+e_s5,"Non-agr. by sect.,ISIC3.1-Trade,hotels and restaurants(G, H)(percent of est.)",spatial database,,0,0,0,1
+e_s6,"Non-agr. by sect.,ISIC3.1-Trans.,storage and communications.(I)(percent of est.)",spatial database,,0,0,0,1
+e_s7,"Non-agr. by sect.,ISIC3.1-Financial intermediation(J)(percent of est.)",spatial database,,0,0,0,1
+e_s8,"Non-agr. by sect.,ISIC3.1-Real estate & business activities (K)(percent of est.)",spatial database,,0,0,0,1
+e_s9,"Non-agr. by sect.,ISIC3.1-Public administration(L)(percent of est.)",spatial database,,0,0,0,1
+e_z1,Non-agr. enterprises by size -1(percent of establishments),spatial database,,0,0,0,1
+e_z2,Non-agr. enterprises by size -2-5(percent of establishments),spatial database,,0,0,0,1
+e_z3,Non-agr. enterprises by size -6-9(percent of establishments),spatial database,,0,0,0,1
+e_z4,Non-agr. enterprises by size -10-19(percent of establishments),spatial database,,0,0,0,1
+e_z5,Non-agr. enterprises by size -20-99(percent of establishments),spatial database,,0,0,0,1
+e_z6,Non-agr. enterprises by size -100+(percent of establishments),spatial database,,0,0,0,1
+ear_agr,"Labor earnings by sector,Agriculture(current USD per day)",spatial database,,0,0,0,1
+ear_f,"Labor earnings by gender,Female(current USD per day)",spatial database,,0,0,0,1
+ear_ind,"Labor earnings by sector,Industry(current USD per day)",spatial database,,0,0,0,1
+ear_m,"Labor earnings by gender,Male(current USD per day)",spatial database,,0,0,0,1
+ear_sev,"Labor earnings by sector,Services(current USD per day)",spatial database,,0,0,0,1
+ear_t,"Labor earnings by gender,Total(current USD per day)",spatial database,,0,0,0,1
+edu_lit_15_f,"Literacy rate,15+ years,female(percent of population group)",spatial database,,0,0,0,1
+edu_lit_15_m,"Literacy rate,15+ years,male(percent of population group)",spatial database,,0,0,0,1
+edu_lit_15_t,"Literacy rate,15+ years,total(percent of population group)",spatial database,,0,0,0,1
+edu_lit_7_f,"Literacy rate,7+ years,female(percent of population group)",spatial database,,0,1,0,1
+edu_lit_7_m,"Literacy rate,7+ years,male(percent of population group)",spatial database,,0,1,0,1
+edu_lit_7_t,"Literacy rate,7+ years,total(percent of population group)",spatial database,,0,1,0,1
+edu_sec_15_f,"Secondary education completion rate,15+ years,female(percent of population group",spatial database,,0,0,0,1
+edu_sec_15_m,"Secondary education completion rate,15+ years,male(percent of population group)",spatial database,,0,0,0,1
+edu_sec_15_t,"Secondary education completion rate,15+ years,total(percent of population group)",spatial database,,0,0,0,1
+edu_ter_15_f,"Tertiary education completion rate,15+ years,female(percent of population group)",spatial database,,0,0,0,1
+edu_ter_15_m,"Tertiary education completion rate,15+ years,male(percent of population group)",spatial database,,0,0,0,1
+edu_ter_15_t,"Tertiary education completion rate,15+ years,total(percent of population group)",spatial database,,0,0,0,1
+elec_sch_pri,Access to electricity in primary schools (percent of schools),spatial database,,0,0,0,1
+elev,Elevation (meters),spatial database,,0,1,0,1
+emp_7_f,"Employment rate, 7+ years, main + marginal,       Female(percent of age group)",spatial database,,0,1,0,1
+emp_7_m,"Employment rate, 7+ years, main + marginal,          Male(percent of age group)",spatial database,,0,1,0,1
+emp_7_t,"Employment rate, 7+ years, main + marginal,          Total(percent of age group)",spatial database,,0,1,0,1
+emp_agr,"Employment by sector,Agriculture(percent of total employment)",spatial database,,0,0,0,1
+emp_cwg_f,"Casual wage earners,       Female(percent of total employment)",spatial database,,0,1,0,1
+emp_cwg_m,"Casual wage earners,          Male(percent of total employment)",spatial database,,0,1,0,1
+emp_cwg_t,"Casual wage earners,          Total(percent of total employment)",spatial database,,0,1,0,1
+emp_fmr_f,"Farmers,       Female(percent of total employment)",spatial database,,0,1,0,1
+emp_fmr_m,"Farmers,          Male(percent of total employment)",spatial database,,0,1,0,1
+emp_fmr_t,"Farmers,          Total(percent of total employment)",spatial database,,0,1,0,1
+emp_ind,"Employment by sector,Industry (incl. manufacturing)(percent of total employment)",spatial database,,0,0,0,1
+emp_man,"Employment by sector,Manufacturing(percent of total employment)",spatial database,,0,0,0,1
+emp_rwg_f,"Regular wage earners,       Female(percent of total employment)",spatial database,,0,1,0,1
+emp_rwg_m,"Regular wage earners,          Male(percent of total employment)",spatial database,,0,1,0,1
+emp_rwg_t,"Regular wage earners,          Total(percent of total employment)",spatial database,,0,1,0,1
+emp_sev,"Employment by sector,Services(percent of total employment)",spatial database,,0,0,0,1
+emp_slf_f,"Self-employed,       Female(percent of total employment)",spatial database,,0,1,0,1
+emp_slf_m,"Self-employed,          Male(percent of total employment)",spatial database,,0,1,0,1
+emp_slf_t,"Self-employed,          Total(percent of total employment)",spatial database,,0,1,0,1
+est_sh_1,"formal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_1,"Informal manu,Food/beverage/tobacco (15, 16)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_10,"formal manu,Electrical equipment (31)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_10,"Informal manu,Electrical equipment (31)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_11,"formal manu,Machinery and equipment (29)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_11,"Informal manu,Machinery and equipment (29)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_11,"Informal serv,Education, health, social and other services (M, N, O)(percent of",spatial database,,0,0,0,0
+est_sh_12,"formal manu,Transportation equipment (34, 35)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_12,"Informal manu,Transportation equipment (34, 35)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_13,"formal manu,Other (36, 37, 38)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_13,"Informal manu,Other (36, 37, 38)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_2,"formal manu,Textiles/apparel/leather(17, 18, 19)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_2,"Informal manu,Textiles/apparel/leather(17, 18, 19)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_3,"formal manu,Wood/paper products (20, 21)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_3,"Informal manu,Wood/paper products (20, 21)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_4,"formal manu,Printing/recorded media (22)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_4,"Informal manu,Printing/recorded media (22)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_5,"formal manu,Coke and refined petroleum (23)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_5,"Informal manu,Coke and refined petroleum (23)(percent of establishments)",spatial database,,0,0,0,1
+est_sh_6,"formal manu,Chemicals pharmaceuticals (24)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_6,"Informal manu,Chemicals pharmaceuticals (24)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_6,"Informal serv,Trade, hotels and restaurants (G, H)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_7,"formal manu,Rubber/plastics/nonmetallic mineral(25,26)(percent of establishments",spatial database,,0,0,0,0
+est_sh_7,"Informal manu,Rubber/plastics/nonmetallic mineral(25,26)(percent of establishmen",spatial database,,0,0,0,0
+est_sh_7,"Informal serv,Transportation, storage and communications (I)(percent of establis",spatial database,,0,0,0,0
+est_sh_8,"formal manu,Basic metals/fabricated metals(27, 28)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_8,"Informal manu,Basic metals/fabricated metals(27, 28)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_8,"Informal serv,Financial intermediation (J)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_9,"formal manu,Computer/electronic/optical(30,32,33)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_9,"Informal manu,Computer/electronic/optical(30,32,33)(percent of establishments)",spatial database,,0,0,0,0
+est_sh_9,"Informal serv,Real estate, renting and business activities (K)(percent of establ",spatial database,,0,0,0,0
+exp_sh_b40,Share of bottom 40 percent(percent of population),spatial database,,0,0,0,1
+fam_pln,Female contraceptive prevalence (percent of population group),spatial database,,0,0,0,1
+fo_s,Forest (percent of area),spatial database,,0,1,0,1
+full_imm,Full immunization (percent of population group),spatial database,,0,0,0,1
+gdp,"GDP  (current USD, in millions)",spatial database,,0,1,0,1
+gdp_pc,GDP per capita (current USD),spatial database,,0,1,0,1
+ger_f,"Gross primary enrollment, female (percent of population group)",spatial database,,0,0,0,1
+ger_m,"Gross primary enrollment, male (percent of population group)",spatial database,,0,0,0,1
+ger_t,"Gross primary enrollment, total (percent of population group)",spatial database,,0,0,0,1
+grl_tlt_pri,Girls' toilets in primary schools(percent of schools with girls),spatial database,,0,0,0,1
+hh_cell_slm,"Households' access to cellphone,slum(percent of households)",spatial database,,0,0,0,1
+hh_cell_t,"Households' access to cellphone,total(percent of households)",spatial database,,0,0,0,1
+hh_elec_slm,"Households' access to electricity,slums(percent of households)",spatial database,,0,0,0,1
+hh_elec_t,"Households' access to electricity,total(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_1,"Households' use of fuel for cooking,biomass(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_2,"Households' use of fuel for cooking,coal/charcoal(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_3,"Households' use of fuel for cooking,kerosene(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_4,"Households' use of fuel for cooking,LPG/PNG(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_5,"Households' use of fuel for cooking,electricity(percent of households)",spatial database,,0,1,0,1
+hh_fuel_cook_6,"Households' use of fuel for cooking,biogas(percent of households)",spatial database,,0,1,0,1
+hh_fuel_lit_1,"Households's use of fuel for lighting,kerosene(percent of households)",spatial database,,0,0,0,1
+hh_fuel_lit_2,"Households's use of fuel for lighting,gas/other oil(percent of households)",spatial database,,0,0,0,1
+hh_fuel_lit_3,"Households's use of fuel for lighting,electricity(percent of households)",spatial database,,0,0,0,1
+hh_fuel_lit_4,"Households's use of fuel for lighting,candle/others(percent of households)",spatial database,,0,0,0,1
+hh_fuel_lit_5,"Households's use of fuel for lighting,no lighting(percent of households)",spatial database,,0,0,0,1
+hh_intt_slm,"Households' access to compute with Internet,slum(percent of households)",spatial database,,0,0,0,1
+hh_intt_t,"Households' access to compute with Internet,total(percent of households)",spatial database,,0,0,0,1
+hh_size_t,"People per household,total(people)",spatial database,,0,1,0,1
+hous_slm,Housing units located in urban slums(percent of housing units),spatial database,,0,0,0,1
+hs_good_slm,Housing units in good condition(percent of households),spatial database,,0,0,0,1
+hs_good_t,Housing units in good condition(percent of households),spatial database,,0,0,0,1
+ictc_inf_man,"Enterprises’ access to computer,Informal manufacturing(percent of establishments",spatial database,,0,0,0,1
+ictc_inf_ser,"Enterprises’ access to computer,Informal services(percent of establishments)",spatial database,,0,0,0,1
+icti_inf_man,"Enterprises’ access to internet,Informal manufacturing(percent of establishments",spatial database,,0,0,0,1
+icti_inf_ser,"Enterprises’ access to internet,Informal services(percent of establishments)",spatial database,,0,0,0,1
+imr_f,"Infant mortality rate, female (deaths per 1,000 live births)",spatial database,,0,0,0,1
+imr_m,"Infant mortality rate, male (deaths per 1,000 live births)",spatial database,,0,0,0,1
+imr_t,"Infant mortality rate, total (deaths per 1,000 live births)",spatial database,,0,0,0,1
+inst_bth,Institutional births (percent of population group),spatial database,,0,0,0,1
+irr_all,Land area equipped for irrigation - Total (percent of land area),spatial database,,0,1,0,1
+irr_gw,Land area equipped for irrigation  - Ground water (percent of land area),spatial database,,0,1,0,1
+irr_sw,Land area equipped for irrigation  - Surface water (percent of land area),spatial database,,0,1,0,1
+kl_for_man_1,"K/L formal manu,Food/beverage/tobacco (15, 16)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_10,"K/L formal manu,Electrical equipment (31)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_11,"K/L formal manu,Machinery and equipment (29)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_12,"K/L formal manu,Transportation equipment (34,35)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_13,"K/L formal manu,Other (36, 37, 38)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_2,"K/L formal manu,Textiles/apparel/leather(17,18, 19)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_3,"K/L formal manu,Wood/paper products (20,21)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_4,"K/L formal manu,Printing/recorded media (22)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_5,"K/L formal manu,Coke and refined petroleum (23)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_6,"K/L formal manu,Chemicals pharmaceuticals (24)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_7,"K/L formal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per worke",spatial database,,0,0,0,0
+kl_for_man_8,"K/L formal manu,Basic metals/fabricated metals(27,28)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_9,"K/L formal manu,Computer/electronic/optical(30,32,33)(current USD per worker)",spatial database,,0,0,0,0
+kl_for_man_t,"K/L formal manu,All(current USD per worker)",spatial database,,0,0,0,0
+kl_inf_man_1,"K/L informal manu,Food/beverage/tobacco (15, 16)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_10,"K/L informal manu,Electrical equipment (31)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_11,"K/L informal manu,Machinery and equipment (29)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_12,"K/L informal manu,Transportation equipment (34,35)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_13,"K/L informal manu,Other (36, 37, 38)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_2,"K/L informal manu,Textiles/apparel/leather(17,18, 19)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_3,"K/L informal manu,Wood/paper products (20,21)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_4,"K/L informal manu,Printing/recorded media (22)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_5,"K/L informal manu,Coke and refined petroleum (23)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_6,"K/L informal manu,Chemicals pharmaceuticals (24)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_7,"K/L informal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per wor",spatial database,,0,0,0,1
+kl_inf_man_8,"K/L informal manu,Basic metals/fabricated metals(27,28)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_9,"K/L informal manu,Computer/electronic/optical(30,32,33)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_man_t,"K/L informal manu,All(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_11,"K/L informal serv,Education/health/social/other(M, N, O)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_6,"K/L informal serv,Trade/hotels/restaurants (G,H)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_7,"K/L informal serv,Transport/storage/communication(I)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_8,"K/L informal serv,Financial intermediation (J)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_9,"K/L informal serv,Real estate/business activities (K)(current USD per worker)",spatial database,,0,0,0,1
+kl_inf_ser_t,"K/L informal serv,All(current USD per worker)",spatial database,,0,0,0,1
+lcrt,Land area with limited or no constraints (percent of land area),spatial database,,0,1,0,1
+lfp_15_u_f,"Labor force participation, 15+ years, usual ,       Female(percent of age group)",spatial database,,0,0,0,1
+lfp_15_u_m,"Labor force participation, 15+ years, usual ,          Male(percent of age group",spatial database,,0,0,0,1
+lfp_15_u_t,"Labor force participation, 15+ years, usual ,          Total(percent of age grou",spatial database,,0,0,0,1
+lfp_15_w_f,"Labor force participation, 15+ years, weekly,       Female(percent of age group)",spatial database,,0,0,0,1
+lfp_15_w_m,"Labor force participation, 15+ years, weekly,          Male(percent of age group",spatial database,,0,0,0,1
+lfp_15_w_t,"Labor force participation, 15+ years, weekly,          Total(percent of age grou",spatial database,,0,0,0,1
+lp_for_man_1,"LP formal manu,Food/beverage/tobacco (15, 16)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_10,"LP formal manu,Electrical equipment (31)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_11,"LP formal manu,Machinery and equipment (29)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_12,"LP formal manu,Transportation equipment (34, 35)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_13,"LP formal manu,Other (36, 37, 38)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_2,"LP formal manu,Textiles/apparel/leather(17, 18, 19)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_3,"LP formal manu,Wood/paper products (20, 21)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_4,"LP formal manu,Printing/recorded media (22)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_5,"LP formal manu,Coke and refined petroleum (23)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_6,"LP formal manu,Chemicals pharmaceuticals (24)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_7,"LP formal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per worker",spatial database,,0,0,0,0
+lp_for_man_8,"LP formal manu,Basic metals/fabricated metals(27, 28)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_9,"LP formal manu,Computer/electronic/optical(30,32,33)(current USD per worker)",spatial database,,0,0,0,0
+lp_for_man_t,"LP formal manu,All(current USD per worker)",spatial database,,0,0,0,0
+lp_inf_man_1,"LP informal manu,Food/beverage/tobacco (15, 16)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_10,"LP informal manu,Electrical equipment (31)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_11,"LP informal manu,Machinery and equipment (29)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_12,"LP informal manu,Transportation equipment (34, 35)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_13,"LP informal manu,Other (36, 37, 38)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_2,"LP informal manu,Textiles/apparel/leather(17, 18, 19)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_3,"LP informal manu,Wood/paper products (20, 21)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_4,"LP informal manu,Printing/recorded media (22)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_5,"LP informal manu,Coke and refined petroleum (23)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_6,"LP informal manu,Chemicals pharmaceuticals (24)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_7,"LP informal manu,Rubber/plastics/nonmetallic mineral(25,26)(current USD per work",spatial database,,0,0,0,1
+lp_inf_man_8,"LP informal manu,Basic metals/fabricated metals(27, 28)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_9,"LP informal manu,Computer/electronic/optical(30,32,33)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_man_t,"LP informal manu,All(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_11,"LP informal manu,Education/health/social/other(M, N, O)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_6,"LP informal manu,Trade/hotels/restaurants (G,H)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_7,"LP informal manu,Transport/storage/communication(I)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_8,"LP informal manu,Financial intermediation (J)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_9,"LP informal manu,Real estate/business activities (K)(current USD per worker)",spatial database,,0,0,0,1
+lp_inf_ser_t,"LP informal serv,All(current USD per worker)",spatial database,,0,0,0,1
+lrn_math1,Children who can recognize numbers 1-9 (percent of population group),spatial database,,0,0,0,1
+lrn_math2,Children who can do subtraction (percent of population group),spatial database,,0,0,0,1
+lrn_read1,Children who can read letters or words (percent of population group),spatial database,,0,0,0,1
+lrn_read2,Children who can read Grade 1 text (percent of population group),spatial database,,0,0,0,1
+m_dec_pre_1,Decadal average of monthly precipitation - Jan (millimeters),spatial database,,0,1,0,1
+m_dec_pre_10,Decadal average of monthly precipitation - Oct (millimeters),spatial database,,0,1,0,1
+m_dec_pre_11,Decadal average of monthly precipitation - Nov (millimeters),spatial database,,0,1,0,1
+m_dec_pre_12,Decadal average of monthly precipitation - Dec (millimeters),spatial database,,0,1,0,1
+m_dec_pre_2,Decadal average of monthly precipitation - Feb (millimeters),spatial database,,0,1,0,1
+m_dec_pre_3,Decadal average of monthly precipitation - Mar (millimeters),spatial database,,0,1,0,1
+m_dec_pre_4,Decadal average of monthly precipitation - Apr (millimeters),spatial database,,0,1,0,1
+m_dec_pre_5,Decadal average of monthly precipitation - May (millimeters),spatial database,,0,1,0,1
+m_dec_pre_6,Decadal average of monthly precipitation - Jun (millimeters),spatial database,,0,1,0,1
+m_dec_pre_7,Decadal average of monthly precipitation - Jul (millimeters),spatial database,,0,1,0,1
+m_dec_pre_8,Decadal average of monthly precipitation - Aug (millimeters),spatial database,,0,1,0,1
+m_dec_pre_9,Decadal average of monthly precipitation - Sep (millimeters),spatial database,,0,1,0,1
+m_dec_tmp_1,Decadal average of monthly temperature - Jan (Co),spatial database,,0,1,0,1
+m_dec_tmp_10,Decadal average of monthly temperature - Oct (Co),spatial database,,0,1,0,1
+m_dec_tmp_11,Decadal average of monthly temperature - Nov (Co),spatial database,,0,1,0,1
+m_dec_tmp_12,Decadal average of monthly temperature - Dec (Co),spatial database,,0,1,0,1
+m_dec_tmp_2,Decadal average of monthly temperature - Feb (Co),spatial database,,0,1,0,1
+m_dec_tmp_3,Decadal average of monthly temperature - Mar (Co),spatial database,,0,1,0,1
+m_dec_tmp_4,Decadal average of monthly temperature - Apr (Co),spatial database,,0,1,0,1
+m_dec_tmp_5,Decadal average of monthly temperature - May (Co),spatial database,,0,1,0,1
+m_dec_tmp_6,Decadal average of monthly temperature - Jun (Co),spatial database,,0,1,0,1
+m_dec_tmp_7,Decadal average of monthly temperature - Jul (Co),spatial database,,0,1,0,1
+m_dec_tmp_8,Decadal average of monthly temperature - Aug (Co),spatial database,,0,1,0,1
+m_dec_tmp_9,Decadal average of monthly temperature - Sep (Co),spatial database,,0,1,0,1
+m_pre_1,Precipitation - Jan (millimeters),spatial database,,0,1,0,1
+m_pre_10,Precipitation - Oct (millimeters),spatial database,,0,1,0,1
+m_pre_11,Precipitation - Nov (millimeters),spatial database,,0,1,0,1
+m_pre_12,Precipitation - Dec (millimeters),spatial database,,0,1,0,1
+m_pre_2,Precipitation - Feb (millimeters),spatial database,,0,1,0,1
+m_pre_3,Precipitation - Mar (millimeters),spatial database,,0,1,0,1
+m_pre_4,Precipitation - Apr (millimeters),spatial database,,0,1,0,1
+m_pre_5,Precipitation - May (millimeters),spatial database,,0,1,0,1
+m_pre_6,Precipitation - Jun (millimeters),spatial database,,0,1,0,1
+m_pre_7,Precipitation - Jul (millimeters),spatial database,,0,1,0,1
+m_pre_8,Precipitation - Aug (millimeters),spatial database,,0,1,0,1
+m_pre_9,Precipitation - Sep (millimeters),spatial database,,0,1,0,1
+m_tmp_1,Monthly temperature - Jan (Co),spatial database,,0,1,0,1
+m_tmp_10,Monthly temperature - Oct (Co),spatial database,,0,1,0,1
+m_tmp_11,Monthly temperature - Nov (Co),spatial database,,0,1,0,1
+m_tmp_12,Monthly temperature - Dec (Co),spatial database,,0,1,0,1
+m_tmp_2,Monthly temperature - Feb (Co),spatial database,,0,1,0,1
+m_tmp_3,Monthly temperature - Mar (Co),spatial database,,0,1,0,1
+m_tmp_4,Monthly temperature - Apr (Co),spatial database,,0,1,0,1
+m_tmp_5,Monthly temperature - May (Co),spatial database,,0,1,0,1
+m_tmp_6,Monthly temperature - Jun (Co),spatial database,,0,1,0,1
+m_tmp_7,Monthly temperature - Jul (Co),spatial database,,0,1,0,1
+m_tmp_8,Monthly temperature - Aug (Co),spatial database,,0,1,0,1
+m_tmp_9,Monthly temperature - Sep (Co),spatial database,,0,1,0,1
+morb_ari,"Acute respiratory infection (per 100,000 people)",spatial database,,0,0,0,1
+morb_art,"Arthritis (per 100,000 people)",spatial database,,0,0,0,1
+morb_ast,"Asthma (per 100,000 people)",spatial database,,0,0,0,1
+morb_chd_ari,"Child acute respiratory infection (percent of children, 0-4 years)",spatial database,,0,0,0,1
+morb_chd_dia,"Child diarrhea (percent of children, 0-4 years)",spatial database,,0,0,0,1
+morb_chd_fev,"Child fever (percent of children, 0-4 years)",spatial database,,0,0,0,1
+morb_dia,"Diarrhea (per 100,000 people)",spatial database,,0,0,0,1
+morb_diab,"Diabetes (per 100,000 people)",spatial database,,0,0,0,1
+morb_fev,"Fever (per 100,000 people)",spatial database,,0,0,0,1
+morb_hyp,"Hypertension (per 100,000 people)",spatial database,,0,0,0,1
+morb_tub,"Tuberculosis (per 100,000 people)",spatial database,,0,0,0,1
+n_oper_fo,Mineral facilities - Foreign  (number of facilities),spatial database,,0,1,0,1
+n_oper_gov,Mineral facilities - Public  (number of facilities),spatial database,,0,1,0,1
+n_oper_pri,Mineral facilities - Private  (number of facilities),spatial database,,0,1,0,1
+n_oper_t,Mineral facilities - Total  (number of facilities),spatial database,,0,1,0,1
+nd,Nitrogen dioxide levels (billion molecules/mm2),spatial database,,0,1,0,1
+neo_mr,"Neonatal mortality rate (deaths per 1,000 live births)",spatial database,,0,0,0,1
+ntl_a,Light intensity per area (Digital Numbers of light per sq. km.),spatial database,,0,1,0,1
+ntl_pc,Light intensity per 1000 people(Digital Numbers of light per 1000 people),spatial database,,0,1,0,1
+oos_child,Out of school children (percent of population group),spatial database,,0,0,0,1
+ovr_crw_slm,"Overcrowding,slums(percent of housing units)",spatial database,,0,0,0,1
+ovr_crw_t,"Overcrowding,total(percent of housing units)",spatial database,,0,1,0,1
+own_fen,"Informal manu, by owner's gender, female (percent of establishments)",spatial database,,0,0,0,0
+own_fen,"Informal serv, by owner's gender, female (percent of establishments)",spatial database,,0,0,0,0
+own_men,"Informal manu, by owner's gender, male (percent of establishments)",spatial database,,0,0,0,0
+own_men,"Informal serv, by owner's gender, male (percent of establishments)",spatial database,,0,0,0,0
+pc_exp,Household per capita expenditure(current USD per capita per month),spatial database,,0,0,0,1
+pc_exp_gini,Gini coefficient of per capita expenditure(percent),spatial database,,0,0,0,1
+pc_exp_mld,MLD of per capita expenditure(index),spatial database,,0,0,0,1
+pc_exp_r9010,90 to 10 ratio of per capita expenditure(ratio),spatial database,,0,0,0,1
+phc,"Primary health care centers, rural (per 10,000 people)",spatial database,,0,0,0,1
+pop,Population (thousands),spatial database,,0,1,0,1
+pop_bu,Population (thousands),spatial database,,0,1,0,1
+pop_lit,Population (thousands),spatial database,,0,1,0,1
+pov_nl,Poverty rate at national poverty line(percent of population),spatial database,,0,0,0,1
+ppl_room_slm,"People per room,slums(people)",spatial database,,0,0,0,1
+ppl_room_t,"People per room,total(people)",spatial database,,0,1,0,1
+ptr_pri,Pupil-teacher ratio in primary schools (students per teacher),spatial database,,0,0,0,1
+ptr30_pri,Pupil-teacher ratio over 30 in primary schools (percent of schools),spatial database,,0,0,0,1
+road_int_h,"Road intensity,Major highways, primary and secondary(km. per 1000 sq. km.)",spatial database,,0,0,0,1
+road_int_o,"Road intensity,Other(km. per 1000 sq. km.)",spatial database,,0,0,0,1
+road_int_r,"Road intensity,Tertiary and rural(km. per 1000 sq. km.)",spatial database,,0,0,0,1
+road_int_t,"Road intensity,Total(km. per 1000 sq. km.)",spatial database,,0,0,0,1
+road_lng_h,"Road length,Major highways, primary and secondary(km.)",spatial database,,0,0,0,1
+road_lng_o,"Road length,Other(km.)",spatial database,,0,0,0,1
+road_lng_r,"Road length,Tertiary and rural(km.)",spatial database,,0,0,0,1
+road_lng_t,"Road length,Total(km.)",spatial database,,0,0,0,1
+rough,Surface roughness (meters),spatial database,,0,1,0,1
+s_pr_int,Protected land - International (percent of area),spatial database,,0,1,0,1
+s_pr_nat,Protected land - National (percent of area),spatial database,,0,1,0,1
+s_pr_t,Protected land - Total (percent of area),spatial database,,0,1,0,1
+sc,Scheduled Caste (SC) population (percent),spatial database,,0,1,0,1
+sd_dec_pre_1,Decadal variation of monthly precipitation - Jan (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_10,Decadal variation of monthly precipitation - Oct (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_11,Decadal variation of monthly precipitation - Nov (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_12,Decadal variation of monthly precipitation - Dec (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_2,Decadal variation of monthly precipitation - Feb (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_3,Decadal variation of monthly precipitation - Mar (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_4,Decadal variation of monthly precipitation - Apr (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_5,Decadal variation of monthly precipitation - May (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_6,Decadal variation of monthly precipitation - Jun (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_7,Decadal variation of monthly precipitation - Jul (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_8,Decadal variation of monthly precipitation - Aug (millimeters),spatial database,,0,1,0,1
+sd_dec_pre_9,Decadal variation of monthly precipitation - Sep (millimeters),spatial database,,0,1,0,1
+sd_dec_tmp_1,Decadal variation of monthly temperature - Jan (Co),spatial database,,0,1,0,1
+sd_dec_tmp_10,Decadal variation of monthly temperature - Oct (Co),spatial database,,0,1,0,1
+sd_dec_tmp_11,Decadal variation of monthly temperature - Nov (Co),spatial database,,0,1,0,1
+sd_dec_tmp_12,Decadal variation of monthly temperature - Dec (Co),spatial database,,0,1,0,1
+sd_dec_tmp_2,Decadal variation of monthly temperature - Feb (Co),spatial database,,0,1,0,1
+sd_dec_tmp_3,Decadal variation of monthly temperature - Mar (Co),spatial database,,0,1,0,1
+sd_dec_tmp_4,Decadal variation of monthly temperature - Apr (Co),spatial database,,0,1,0,1
+sd_dec_tmp_5,Decadal variation of monthly temperature - May (Co),spatial database,,0,1,0,1
+sd_dec_tmp_6,Decadal variation of monthly temperature - Jun (Co),spatial database,,0,1,0,1
+sd_dec_tmp_7,Decadal variation of monthly temperature - Jul (Co),spatial database,,0,1,0,1
+sd_dec_tmp_8,Decadal variation of monthly temperature - Aug (Co),spatial database,,0,1,0,1
+sd_dec_tmp_9,Decadal variation of monthly temperature - Sep (Co),spatial database,,0,1,0,1
+sex_rat_04,"Gender ratio, 0-4 years (percent)",spatial database,,0,1,0,1
+sex_rat_b,"Gender ratio, at birth (percent)",spatial database,,0,0,0,1
+sex_rat_t,"Gender ratio, all ages (percent)",spatial database,,0,1,0,1
+sgdp_s1,"GVA by sector,ISIC 3.1-Agriculture,fishing,hunting,forestry(A,B)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s10,"GVA by sector,ISIC 3.1-Public administration(L)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s11,"GVA by sector,ISIC 3.1-Other(M, N, O, P, Q)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s2,"GVA by sector,ISIC 3.1-Mining and quarrying(C)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s3,"GVA by sector,ISIC 3.1-Manufacturing(D)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s4,"GVA by sector,ISIC 3.1-Electricity, gas and water supply(E)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s5,"GVA by sector,ISIC 3.1-Construction(F)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s6,"GVA by sector,ISIC 3.1-Trade, hotels and restaurants(G, H)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s7,"GVA by sector,ISIC 3.1-Transportation,storage,communications(I)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s8,"GVA by sector,ISIC 3.1-Financial intermediation(J)(percent of GDP)",spatial database,,0,1,0,1
+sgdp_s9,"GVA by sector,ISIC 3.1-Real estate & business activities(K)(percent of GDP)",spatial database,,0,1,0,1
+shc,"Secondary health care centers, rural (per 10,000 people)",spatial database,,0,0,0,1
+size,Average size of formal manufacturing enterprises(number of employees),spatial database,,0,0,0,0
+size,Average size of informal manufacturing enterprises(number of employees),spatial database,,0,0,0,0
+size,Average size of informal services enterprises(number of employees),spatial database,,0,0,0,0
+sp_e_2,"Specialization index of  Non-agr. enterprises, ISIC 3.1 -2 digit(index)",spatial database,,0,0,0,1
+sp_e_4,"Specialization index of  Non-agr. enterprises, ISIC 3.1 -4 digit(index)",spatial database,,0,0,0,1
+st,Scheduled Tribe (ST) population (percent),spatial database,,0,1,0,1
+station_den_m,"Number of stations,Metro(stations per 1000 sq. km.)",spatial database,,0,0,0,1
+station_den_r,"Number of stations,Railway(stations per 1000 sq. km.)",spatial database,,0,0,0,1
+station_den_t,"Number of stations,Total(stations per 1000 sq. km.)",spatial database,,0,0,0,1
+station_nmb_m,"Number of stations,Metro(stations)",spatial database,,0,0,0,1
+station_nmb_r,"Number of stations,Railway(stations)",spatial database,,0,0,0,1
+station_nmb_t,"Number of stations,Total(stations)",spatial database,,0,0,0,1
+stunting,"Stunting (percent of children, 0-4 years)",spatial database,,0,0,0,0
+u5mr_f,"Under-five mortality rate, female (deaths per 1,000 live births)",spatial database,,0,0,0,1
+u5mr_m,"Under-five mortality rate, male (deaths per 1,000 live births)",spatial database,,0,0,0,1
+u5mr_t,"Under-five mortality rate, total (deaths per 1,000 live births)",spatial database,,0,0,0,1
+und_15_f,"Under-employment rate, 15+ years, marginal,       Female(percent of labor force)",spatial database,,0,1,0,1
+und_15_m,"Under-employment rate, 15+ years, marginal,          Male(percent of labor force",spatial database,,0,1,0,1
+und_15_t,"Under-employment rate, 15+ years, marginal,          Total(percent of labor forc",spatial database,,0,1,0,1
+underwgt,"Underweight (percent of children, 0-4 years)",spatial database,,0,0,0,0
+une_15_u_f,"Unemployment rate, 15+ years, usual ,       Female(percent of labor force)",spatial database,,0,0,0,1
+une_15_u_m,"Unemployment rate, 15+ years, usual ,          Male(percent of labor force)",spatial database,,0,0,0,1
+une_15_u_t,"Unemployment rate, 15+ years, usual ,          Total(percent of labor force)",spatial database,,0,0,0,1
+une_15_w_f,"Unemployment rate, 15+ years, weekly,       Female(percent of labor force)",spatial database,,0,0,0,1
+une_15_w_m,"Unemployment rate, 15+ years, weekly,          Male(percent of labor force)",spatial database,,0,0,0,1
+une_15_w_t,"Unemployment rate, 15+ years, weekly,          Total(percent of labor force)",spatial database,,0,0,0,1
+une_1524_u_f,"Unemployment rate, 15-24 years, usual ,       Female(percent of labor force)",spatial database,,0,0,0,1
+une_1524_u_m,"Unemployment rate, 15-24 years, usual ,          Male(percent of labor force)",spatial database,,0,0,0,1
+une_1524_u_t,"Unemployment rate, 15-24 years, usual ,          Total(percent of labor force)",spatial database,,0,0,0,1
+une_1524_w_f,"Unemployment rate, 15-24 years, weekly,       Female(percent of labor force)",spatial database,,0,0,0,1
+une_1524_w_m,"Unemployment rate, 15-24 years, weekly,          Male(percent of labor force)",spatial database,,0,0,0,1
+une_1524_w_t,"Unemployment rate, 15-24 years, weekly,          Total(percent of labor force)",spatial database,,0,0,0,1
+wasting,"Wasting (percent of children, 0-4 years)",spatial database,,0,0,0,0
+wkp_15_f,"Working-age population, 15+ years,       Female(percent)",spatial database,,0,0,0,1
+wkp_15_m,"Working-age population, 15+ years,          Male(percent)",spatial database,,0,0,0,1
+wkp_15_t,"Working-age population, 15+ years,          Total(percent)",spatial database,,0,0,0,1
+wkp_7_f,"Working-age population, 7+ years,       Female(percent)",spatial database,,0,1,0,1
+wkp_7_m,"Working-age population, 7+ years,          Male(percent)",spatial database,,0,1,0,1
+wkp_7_t,"Working-age population, 7+ years,          Total(percent)",spatial database,,0,1,0,1
+wtr_sch_pri,Drinking water facility in primary schools (percent of schools),spatial database,,0,0,0,1
+yieldp,"Crop yield,  quantity - All (tonnes per ha.)",spatial database,,0,0,0,0
+yieldp_sel1,"Crop yield,  quantity - Millets(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel2,"Crop yield,  quantity - Pulses(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel3,"Crop yield,  quantity - Rice(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel4,"Crop yield,  quantity - Sugar cane(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel5,"Crop yield,  quantity - Wheat(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel6,"Crop yield,  quantity - Maize(tonnes per ha.)",spatial database,,0,1,0,1
+yieldp_sel7,"Crop yield,  quantity - Groundnut(tonnes per ha.)",spatial database,,0,1,0,1
+yieldvus,"Crop yield,  monetary - All (2011 USD per ha., in thousands)",spatial database,,0,0,0,0
+yieldvus_sel1,"Crop yield,  monetary - Millets (2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel2,"Crop yield,  monetary - Pulses (2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel3,"Crop yield,  monetary - Rice(2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel4,"Crop yield,  monetary - Sugar cane (2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel5,"Crop yield,  monetary - Wheat (2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel6,"Crop yield,  monetary - Maize(2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+yieldvus_sel7,"Crop yield,  monetary - Groundnut (2011 USD per ha., in thousands)",spatial database,,0,1,0,1
+hh_wtr_t,"Households' access to improved water,total(percent of households)",spatial database,,0,1,0,1
+hh_wtr_slm,"Households' access to improved water,slums(percent of households)",spatial database,,0,0,0,1
+hh_snt2_t,"Households' access to improved sanitation,total(percent of households)",spatial database,,0,1,0,1
+hh_snt2_slm,"Households' access to improved sanitation,slums(percent of households)",spatial database,,0,0,0,1
+hh_snt_t,"Households' access to enhanced improved sanitation,total(percent of households)",spatial database,,0,0,0,1
+hh_snt_slm,"Households' access to enhanced improved sanitation,slums(percent of households)",spatial database,,0,0,0,1
+povrate_tot,poverty rate (total),labour force survey,,1,1,1,1
+cons_pc_mean_tot,mean hh consumption,labour force survey,,1,1,1,1
+pct_emp_both_tot,N employed/Total total population,labour force survey,,1,1,1,1
+pct_inactive_both_tot,N inactive/Total total population,labour force survey,,1,1,1,1
+pct_wage_both_tot,N total wage employed/Total employed,labour force survey,,1,1,1,1
+pct_regWage_both_tot,N total regular wage employed/Total employed,labour force survey,,1,1,1,1
+pct_formal_both_tot,N total formal employed/Total employed,labour force survey,,1,1,1,1
+pct_selfemp_both_tot,N total self employed/Total employed,labour force survey,,1,1,1,1
+pct_hhemp_both_tot,N total household employed/Total employed,labour force survey,,1,1,1,1
+pct_agrEmp_both_tot,N total agriculture employed/Total employed,labour force survey,,1,1,1,1
+pct_mfgEmp_both_tot,N total manufacturing employed/Total employed,labour force survey,,1,1,1,1
+pct_trspEmp_both_tot,N total transportation employed/Total employed,labour force survey,,1,1,1,1
+pct_comEmp_both_tot,N total commerce employed/Total employed,labour force survey,,1,1,1,1
+x30,Total imports (consumed),ASI,,0,1,0,1
+x1,1. NUMBER OF FACTORIES,ASI,,0,1,0,1
+x6,6. NUMBER OF WORKERS,ASI,,0,1,0,1
+x7,7. MANDAYS-WORKERS,ASI,,0,1,0,1
+x8,8. NUMBER OF EMPLOYEES,ASI,,0,1,0,1
+x9,9. MANDAYS-EMPLOYEES,ASI,,0,1,0,1
+x10,10.TOTAL PERSON ENGAGED,ASI,,0,1,0,1
+x11,11.WAGES TO WORKERS,ASI,,0,1,0,1
+x14,14.WORKMEN & STAFF WELFARE EXPENS,ASI,,0,1,0,1
+x13,13. PROVIDENT & OTHER FUNDS,ASI,,0,1,0,1
+x12,12.TOTAL EMOLUMENTS,ASI,,0,1,0,1
+x2,2. FIXED CAPITAL,ASI,,0,1,0,1
+x3,3. WORKING CAPITAL,ASI,,0,1,0,1
+x4,4. INVESTED CAPITAL,ASI,,0,1,0,1
+x22,22.RENT PAID,ASI,,0,1,0,1
+x5,5. OUTSTANDING LOANS,ASI,,0,1,0,1
+x23,23.INTEREST PAID,ASI,,0,1,0,1
+x18,18.PRODUCTS AND BY- PRODUCTS,ASI,,0,1,0,1
+x19,19.VALUE OF OUTPUT,ASI,,0,1,0,1
+x15,15.FUELS CONSUMED,ASI,,0,1,0,1
+x16,16.MATERIAL CONSUMED,ASI,,0,1,0,1
+x17,17.TOTAL INPUTS,ASI,,0,1,0,1
+x20,20.DEPRECIATION,ASI,,0,1,0,1
+x21,21.NET VALUE ADDED,ASI,,0,1,0,1
+x25,25.NET FIXED CAPITAL FORMATION,ASI,,0,1,0,1
+x26,26.GROSS FIXED CAPITAL FORMATION,ASI,,0,1,0,1
+x27a,"(I) MATERIAL,FUELS ETC.",ASI,,0,1,0,1
+x27b,(II) SEMI FINISHED GOODS,ASI,,0,1,0,1
+x27c,(iii) FINISHED GOODS,ASI,,0,1,0,1
+x27d,(IV) TOTAL,ASI,,0,1,0,1
+x28,28. GROSS CAPITAL FORMATION,ASI,,0,1,0,1
+x24,24.NET INCOME,ASI,,0,1,0,1
+x29,29. PROFITS,ASI,,0,1,0,1
+a5,"Ind Code as per Return (5-digit, NIC-98)",ASI,,0,1,0,1

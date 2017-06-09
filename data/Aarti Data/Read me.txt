@@ -1,0 +1,25 @@
+************************************************************************
+***************Ghani - Goswami- Kerr -		 ***********************
+***************Golden Quadrilateral Highways*******
+***************Economic Journal, 2014 ******************
+************************************************************************
+___
+The folder structure is organized as follows:
+
+01. Data (Contains all raw data): 
+This folder contains all raw datasets. This folder is further categorized into subfolders concordances, deflators, districts, highway timing details, maps and distances. Within each subfolder, the sources and notes for the raw data are explained in a text files named "source"  
+
+02. Programs for data extraction and analysis files (All Stata do-files for exrtracting and cleaning the raw dataset):
+Contains programs to clean and/or process data in preparation for analysis, and programs to analyze data.
+
+
+03. Final district level datasets:
+Contains finalized dataset made available for replication of main analyses (Tables 2-6).
+
+
+04. Programs for all Tables and figures (all stata do files for replicating the work after the data has been extracted):
+This is labeled by the tables and figures. 
+
+Citation:
+Use of these files requires a citation to:
+Ghani, Ejaz, Arti G. Goswami and William R. Kerr, "Highway to Success: The Impact of the Golden Quadrilateral Project for the Location and Performance of Indian Manufacturing," 2014.

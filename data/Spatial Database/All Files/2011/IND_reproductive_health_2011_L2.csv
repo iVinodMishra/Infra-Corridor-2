@@ -1,0 +1,1942 @@
+id,spatial_data_yr,geography,L0_code,L0_name,L1_code,L1_name,L2_code,L2_name,anc,cond,fam_pln
+3_10_203_0,2011,Rural,3,India,10,Bihar,203,Pashchim Champaran,37.1,.1,29.4
+3_10_203_0,2011,Total,3,India,10,Bihar,203,Pashchim Champaran,36.3,.4,29.5
+3_10_203_0,2011,Urban,3,India,10,Bihar,203,Pashchim Champaran,,,
+3_10_204_0,2011,Rural,3,India,10,Bihar,204,Purba Champaran,34.6,.7000000000000001,23.6
+3_10_204_0,2011,Total,3,India,10,Bihar,204,Purba Champaran,34.8,1.2,24.6
+3_10_204_0,2011,Urban,3,India,10,Bihar,204,Purba Champaran,,,
+3_10_205_0,2011,Rural,3,India,10,Bihar,205,Sheohar,17.6,.4,22.1
+3_10_205_0,2011,Total,3,India,10,Bihar,205,Sheohar,18.2,.4,23.1
+3_10_205_0,2011,Urban,3,India,10,Bihar,205,Sheohar,,,
+3_10_206_0,2011,Rural,3,India,10,Bihar,206,Sitamarhi,24.2,.3,23.3
+3_10_206_0,2011,Total,3,India,10,Bihar,206,Sitamarhi,24.9,.5,24.3
+3_10_206_0,2011,Urban,3,India,10,Bihar,206,Sitamarhi,,,
+3_10_207_0,2011,Rural,3,India,10,Bihar,207,Madhubani,34.3,.4,31.8
+3_10_207_0,2011,Total,3,India,10,Bihar,207,Madhubani,33.6,.5,31.4
+3_10_207_0,2011,Urban,3,India,10,Bihar,207,Madhubani,,,
+3_10_208_0,2011,Rural,3,India,10,Bihar,208,Supaul,20.5,.4,44.1
+3_10_208_0,2011,Total,3,India,10,Bihar,208,Supaul,20,.4,43.5
+3_10_208_0,2011,Urban,3,India,10,Bihar,208,Supaul,,,
+3_10_209_0,2011,Rural,3,India,10,Bihar,209,Araria,41.90000000000001,.2,29.3
+3_10_209_0,2011,Total,3,India,10,Bihar,209,Araria,41,.2,30.2
+3_10_209_0,2011,Urban,3,India,10,Bihar,209,Araria,,,
+3_10_210_0,2011,Rural,3,India,10,Bihar,210,Kishanganj,26.1,.8,23.7
+3_10_210_0,2011,Total,3,India,10,Bihar,210,Kishanganj,27.7,1.2,25
+3_10_210_0,2011,Urban,3,India,10,Bihar,210,Kishanganj,,,
+3_10_211_0,2011,Rural,3,India,10,Bihar,211,Purnia,16.4,1,25.1
+3_10_211_0,2011,Total,3,India,10,Bihar,211,Purnia,17.7,1.1,27
+3_10_211_0,2011,Urban,3,India,10,Bihar,211,Purnia,,,
+3_10_212_0,2011,Rural,3,India,10,Bihar,212,Katihar,30.8,.6000000000000001,19.4
+3_10_212_0,2011,Total,3,India,10,Bihar,212,Katihar,32.6,1.5,21.8
+3_10_212_0,2011,Urban,3,India,10,Bihar,212,Katihar,,,
+3_10_213_0,2011,Rural,3,India,10,Bihar,213,Madhepura,19.3,.5,31.7
+3_10_213_0,2011,Total,3,India,10,Bihar,213,Madhepura,20.1,.6000000000000001,32.5
+3_10_213_0,2011,Urban,3,India,10,Bihar,213,Madhepura,,,
+3_10_214_0,2011,Rural,3,India,10,Bihar,214,Saharsa,13.5,1.1,30.9
+3_10_214_0,2011,Total,3,India,10,Bihar,214,Saharsa,13.7,1.1,31.8
+3_10_214_0,2011,Urban,3,India,10,Bihar,214,Saharsa,,,
+3_10_215_0,2011,Rural,3,India,10,Bihar,215,Darbhanga,27.6,.2,30.1
+3_10_215_0,2011,Total,3,India,10,Bihar,215,Darbhanga,28.5,.8,31.4
+3_10_215_0,2011,Urban,3,India,10,Bihar,215,Darbhanga,,,
+3_10_216_0,2011,Rural,3,India,10,Bihar,216,Muzaffarpur,19,.7000000000000001,32.9
+3_10_216_0,2011,Total,3,India,10,Bihar,216,Muzaffarpur,20.2,1.3,33.3
+3_10_216_0,2011,Urban,3,India,10,Bihar,216,Muzaffarpur,,,
+3_10_217_0,2011,Rural,3,India,10,Bihar,217,Gopalganj,32.5,1.6,20.6
+3_10_217_0,2011,Total,3,India,10,Bihar,217,Gopalganj,32.2,1.7,21.2
+3_10_217_0,2011,Urban,3,India,10,Bihar,217,Gopalganj,,,
+3_10_218_0,2011,Rural,3,India,10,Bihar,218,Siwan,32.3,.7000000000000001,21.2
+3_10_218_0,2011,Total,3,India,10,Bihar,218,Siwan,33.3,.7000000000000001,21.5
+3_10_218_0,2011,Urban,3,India,10,Bihar,218,Siwan,,,
+3_10_219_0,2011,Rural,3,India,10,Bihar,219,Saran,21.2,2.1,23.9
+3_10_219_0,2011,Total,3,India,10,Bihar,219,Saran,21.5,2,26.2
+3_10_219_0,2011,Urban,3,India,10,Bihar,219,Saran,,,
+3_10_220_0,2011,Rural,3,India,10,Bihar,220,Vaishali,15.2,2.2,41.1
+3_10_220_0,2011,Total,3,India,10,Bihar,220,Vaishali,16.3,2,41.3
+3_10_220_0,2011,Urban,3,India,10,Bihar,220,Vaishali,,,
+3_10_221_0,2011,Rural,3,India,10,Bihar,221,Samastipur,22.6,.8,30.3
+3_10_221_0,2011,Total,3,India,10,Bihar,221,Samastipur,23.1,.9,29.9
+3_10_221_0,2011,Urban,3,India,10,Bihar,221,Samastipur,,,
+3_10_222_0,2011,Rural,3,India,10,Bihar,222,Begusarai,29,1.1,25.6
+3_10_222_0,2011,Total,3,India,10,Bihar,222,Begusarai,29.4,1.1,26.6
+3_10_222_0,2011,Urban,3,India,10,Bihar,222,Begusarai,,,
+3_10_223_0,2011,Rural,3,India,10,Bihar,223,Khagaria,26.7,.7000000000000001,28.1
+3_10_223_0,2011,Total,3,India,10,Bihar,223,Khagaria,27.9,1.2,29.1
+3_10_223_0,2011,Urban,3,India,10,Bihar,223,Khagaria,,,
+3_10_224_0,2011,Rural,3,India,10,Bihar,224,Bhagalpur,16.2,2.3,36.5
+3_10_224_0,2011,Total,3,India,10,Bihar,224,Bhagalpur,20.8,2.8,36.7
+3_10_224_0,2011,Urban,3,India,10,Bihar,224,Bhagalpur,,,
+3_10_225_0,2011,Rural,3,India,10,Bihar,225,Banka,32.3,.7000000000000001,24.1
+3_10_225_0,2011,Total,3,India,10,Bihar,225,Banka,31.9,.9,23.8
+3_10_225_0,2011,Urban,3,India,10,Bihar,225,Banka,,,
+3_10_226_0,2011,Rural,3,India,10,Bihar,226,Munger,36,.8,34.7
+3_10_226_0,2011,Total,3,India,10,Bihar,226,Munger,37.3,1.2,35.5
+3_10_226_0,2011,Urban,3,India,10,Bihar,226,Munger,,,
+3_10_227_0,2011,Rural,3,India,10,Bihar,227,Lakhisarai,24.6,.4,27.3
+3_10_227_0,2011,Total,3,India,10,Bihar,227,Lakhisarai,25.8,.8,30
+3_10_227_0,2011,Urban,3,India,10,Bihar,227,Lakhisarai,,,
+3_10_228_0,2011,Rural,3,India,10,Bihar,228,Sheikhpura,43.40000000000001,1,23.3
+3_10_228_0,2011,Total,3,India,10,Bihar,228,Sheikhpura,43.7,1,25.3
+3_10_228_0,2011,Urban,3,India,10,Bihar,228,Sheikhpura,,,
+3_10_229_0,2011,Rural,3,India,10,Bihar,229,Nalanda,21.5,2.4,27.2
+3_10_229_0,2011,Total,3,India,10,Bihar,229,Nalanda,24.6,2.7,28.8
+3_10_229_0,2011,Urban,3,India,10,Bihar,229,Nalanda,,,
+3_10_230_0,2011,Rural,3,India,10,Bihar,230,Patna,14.5,1.7,38
+3_10_230_0,2011,Total,3,India,10,Bihar,230,Patna,24.1,2.7,41.5
+3_10_230_0,2011,Urban,3,India,10,Bihar,230,Patna,,,
+3_10_231_0,2011,Rural,3,India,10,Bihar,231,Bhojpur,16.9,1.1,30.7
+3_10_231_0,2011,Total,3,India,10,Bihar,231,Bhojpur,18.4,1.4,32.1
+3_10_231_0,2011,Urban,3,India,10,Bihar,231,Bhojpur,,,
+3_10_232_0,2011,Rural,3,India,10,Bihar,232,Buxar,18.2,1.1,27
+3_10_232_0,2011,Total,3,India,10,Bihar,232,Buxar,21.4,1.7,29.3
+3_10_232_0,2011,Urban,3,India,10,Bihar,232,Buxar,,,
+3_10_233_0,2011,Rural,3,India,10,Bihar,233,Kaimur (Bhabua),24.1,2.1,27
+3_10_233_0,2011,Total,3,India,10,Bihar,233,Kaimur (Bhabua),24.3,2.1,27.2
+3_10_233_0,2011,Urban,3,India,10,Bihar,233,Kaimur (Bhabua),,,
+3_10_234_0,2011,Rural,3,India,10,Bihar,234,Rohtas,21.1,1.8,34.4
+3_10_234_0,2011,Total,3,India,10,Bihar,234,Rohtas,25.6,2,36.4
+3_10_234_0,2011,Urban,3,India,10,Bihar,234,Rohtas,,,
+3_10_235_0,2011,Rural,3,India,10,Bihar,235,Aurangabad,19.4,.6000000000000001,31.6
+3_10_235_0,2011,Total,3,India,10,Bihar,235,Aurangabad,20.3,.9,32.5
+3_10_235_0,2011,Urban,3,India,10,Bihar,235,Aurangabad,,,
+3_10_236_0,2011,Rural,3,India,10,Bihar,236,Gaya,21.3,1.2,25.5
+3_10_236_0,2011,Total,3,India,10,Bihar,236,Gaya,24.2,1.8,29.1
+3_10_236_0,2011,Urban,3,India,10,Bihar,236,Gaya,,,
+3_10_237_0,2011,Rural,3,India,10,Bihar,237,Nawada,22.5,1.2,23
+3_10_237_0,2011,Total,3,India,10,Bihar,237,Nawada,23,1.1,24.9
+3_10_237_0,2011,Urban,3,India,10,Bihar,237,Nawada,,,
+3_10_238_0,2011,Rural,3,India,10,Bihar,238,Jamui,26.5,.9,21.7
+3_10_238_0,2011,Total,3,India,10,Bihar,238,Jamui,27.9,1.6,21.9
+3_10_238_0,2011,Urban,3,India,10,Bihar,238,Jamui,,,
+3_10_239_0,2011,Rural,3,India,10,Bihar,239,Jehanabad,31.7,1.6,25
+3_10_239_0,2011,Total,3,India,10,Bihar,239,Jehanabad,31.2,1.7,25.4
+3_10_239_0,2011,Urban,3,India,10,Bihar,239,Jehanabad,,,
+3_10_240_0,2011,Rural,3,India,10,Bihar,240,Arwal,,,
+3_10_240_0,2011,Total,3,India,10,Bihar,240,Arwal,,,
+3_10_240_0,2011,Urban,3,India,10,Bihar,240,Arwal,,,
+3_11_241_0,2011,Rural,3,India,11,Sikkim,241,North  District,68,2,64.8
+3_11_241_0,2011,Total,3,India,11,Sikkim,241,North  District,67.90000000000001,2.1,64.8
+3_11_241_0,2011,Urban,3,India,11,Sikkim,241,North  District,,,
+3_11_242_0,2011,Rural,3,India,11,Sikkim,242,West District,63,4.9,60.7
+3_11_242_0,2011,Total,3,India,11,Sikkim,242,West District,62.90000000000001,4.800000000000001,60.8
+3_11_242_0,2011,Urban,3,India,11,Sikkim,242,West District,,,
+3_11_243_0,2011,Rural,3,India,11,Sikkim,243,South District,73.5,3.8,55
+3_11_243_0,2011,Total,3,India,11,Sikkim,243,South District,73.8,4,55.2
+3_11_243_0,2011,Urban,3,India,11,Sikkim,243,South District,,,
+3_11_244_0,2011,Rural,3,India,11,Sikkim,244,East District,70.8,4.9,62.2
+3_11_244_0,2011,Total,3,India,11,Sikkim,244,East District,72.90000000000001,5.4,61.90000000000001
+3_11_244_0,2011,Urban,3,India,11,Sikkim,244,East District,,,
+3_12_245_1,2011,Rural,3,India,12,India/China  1,245,Tawang,40.8,.8,48.1
+3_12_245_1,2011,Total,3,India,12,India/China  1,245,Tawang,46.40000000000001,1.4,50.5
+3_12_245_1,2011,Urban,3,India,12,India/China  1,245,Tawang,,,
+3_12_246_1,2011,Rural,3,India,12,India/China  1,246,West Kameng,53,2.8,50.90000000000001
+3_12_246_1,2011,Total,3,India,12,India/China  1,246,West Kameng,55.90000000000001,2.7,50
+3_12_246_1,2011,Urban,3,India,12,India/China  1,246,West Kameng,,,
+3_12_247_1,2011,Rural,3,India,12,India/China  1,247,East Kameng,10.5,.7000000000000001,31.3
+3_12_247_1,2011,Total,3,India,12,India/China  1,247,East Kameng,25.5,1,33.7
+3_12_247_1,2011,Urban,3,India,12,India/China  1,247,East Kameng,,,
+3_12_248_0,2011,Rural,3,India,12,Arunachal Pradesh,248,Papum Pare,49.6,2.1,58
+3_12_248_1,2011,Rural,3,India,12,India/China  1,248,Papum Pare,49.6,2.1,58
+3_12_248_1,2011,Total,3,India,12,India/China  1,248,Papum Pare,57.8,3.1,57.2
+3_12_248_0,2011,Total,3,India,12,Arunachal Pradesh,248,Papum Pare,57.8,3.1,57.2
+3_12_248_1,2011,Urban,3,India,12,India/China  1,248,Papum Pare,,,
+3_12_248_0,2011,Urban,3,India,12,Arunachal Pradesh,248,Papum Pare,,,
+3_12_249_1,2011,Rural,3,India,12,India/China  1,249,Upper Subansiri,44.90000000000001,5,51.7
+3_12_249_1,2011,Total,3,India,12,India/China  1,249,Upper Subansiri,51.90000000000001,4.600000000000001,54.5
+3_12_249_1,2011,Urban,3,India,12,India/China  1,249,Upper Subansiri,,,
+3_12_250_0,2011,Rural,3,India,12,Arunachal Pradesh,250,West Siang,35.2,4.600000000000001,59.7
+3_12_250_1,2011,Rural,3,India,12,India/China  1,250,West Siang,35.2,4.600000000000001,59.7
+3_12_250_0,2011,Total,3,India,12,Arunachal Pradesh,250,West Siang,44.1,4.7,61.2
+3_12_250_1,2011,Total,3,India,12,India/China  1,250,West Siang,44.1,4.7,61.2
+3_12_250_1,2011,Urban,3,India,12,India/China  1,250,West Siang,,,
+3_12_250_0,2011,Urban,3,India,12,Arunachal Pradesh,250,West Siang,,,
+3_12_251_1,2011,Rural,3,India,12,India/China  1,251,East Siang,41.5,3,57.6
+3_12_251_0,2011,Rural,3,India,12,Arunachal Pradesh,251,East Siang,41.5,3,57.6
+3_12_251_0,2011,Total,3,India,12,Arunachal Pradesh,251,East Siang,49.2,2.6,55.7
+3_12_251_1,2011,Total,3,India,12,India/China  1,251,East Siang,49.2,2.6,55.7
+3_12_251_0,2011,Urban,3,India,12,Arunachal Pradesh,251,East Siang,,,
+3_12_251_1,2011,Urban,3,India,12,India/China  1,251,East Siang,,,
+3_12_252_1,2011,Rural,3,India,12,India/China  1,252,Upper Siang,13.4,1.5,42.5
+3_12_252_1,2011,Total,3,India,12,India/China  1,252,Upper Siang,13.4,1.5,42.5
+3_12_252_1,2011,Urban,3,India,12,India/China  1,252,Upper Siang,,,
+3_12_253_0,2011,Rural,3,India,12,Arunachal Pradesh,253,Changlang,62.2,3.2,50.8
+3_12_253_0,2011,Total,3,India,12,Arunachal Pradesh,253,Changlang,62.7,3.3,50.90000000000001
+3_12_253_0,2011,Urban,3,India,12,Arunachal Pradesh,253,Changlang,,,
+3_12_254_0,2011,Rural,3,India,12,Arunachal Pradesh,254,Tirap,39,2.2,43.5
+3_12_254_0,2011,Total,3,India,12,Arunachal Pradesh,254,Tirap,44.6,2,44.3
+3_12_254_0,2011,Urban,3,India,12,Arunachal Pradesh,254,Tirap,,,
+3_12_255_1,2011,Rural,3,India,12,India/China  1,255,Lower Subansiri,64.3,4,51.3
+3_12_255_1,2011,Total,3,India,12,India/China  1,255,Lower Subansiri,61.7,4.4,51.5
+3_12_255_1,2011,Urban,3,India,12,India/China  1,255,Lower Subansiri,,,
+3_12_256_1,2011,Rural,3,India,12,India/China  1,256,Kurung Kumey,52.40000000000001,2.4,47.3
+3_12_256_1,2011,Total,3,India,12,India/China  1,256,Kurung Kumey,52.40000000000001,2.4,47.3
+3_12_256_1,2011,Urban,3,India,12,India/China  1,256,Kurung Kumey,,,
+3_12_257_1,2011,Rural,3,India,12,India/China  1,257,Dibang Valley,40.1,1.6,35.3
+3_12_257_1,2011,Total,3,India,12,India/China  1,257,Dibang Valley,43.5,1.4,36.1
+3_12_257_1,2011,Urban,3,India,12,India/China  1,257,Dibang Valley,,,
+3_12_258_1,2011,Rural,3,India,12,India/China  1,258,Lower Dibang Valley,30.9,2.5,45.90000000000001
+3_12_258_0,2011,Rural,3,India,12,Arunachal Pradesh,258,Lower Dibang Valley,30.9,2.5,45.90000000000001
+3_12_258_0,2011,Total,3,India,12,Arunachal Pradesh,258,Lower Dibang Valley,37.2,2.3,46.6
+3_12_258_1,2011,Total,3,India,12,India/China  1,258,Lower Dibang Valley,37.2,2.3,46.6
+3_12_258_0,2011,Urban,3,India,12,Arunachal Pradesh,258,Lower Dibang Valley,,,
+3_12_258_1,2011,Urban,3,India,12,India/China  1,258,Lower Dibang Valley,,,
+3_12_259_0,2011,Rural,3,India,12,Arunachal Pradesh,259,Lohit,60.3,1.3,50.3
+3_12_259_1,2011,Rural,3,India,12,India/China  1,259,Lohit,60.3,1.3,50.3
+3_12_259_0,2011,Total,3,India,12,Arunachal Pradesh,259,Lohit,64.40000000000001,1.4,49.40000000000001
+3_12_259_1,2011,Total,3,India,12,India/China  1,259,Lohit,64.40000000000001,1.4,49.40000000000001
+3_12_259_1,2011,Urban,3,India,12,India/China  1,259,Lohit,,,
+3_12_259_0,2011,Urban,3,India,12,Arunachal Pradesh,259,Lohit,,,
+3_12_260_1,2011,Rural,3,India,12,India/China  1,260,Anjaw,52.5,2.6,41.5
+3_12_260_0,2011,Rural,3,India,12,Arunachal Pradesh,260,Anjaw,52.5,2.6,41.5
+3_12_260_0,2011,Total,3,India,12,Arunachal Pradesh,260,Anjaw,52.5,2.6,41.5
+3_12_260_1,2011,Total,3,India,12,India/China  1,260,Anjaw,52.5,2.6,41.5
+3_12_260_0,2011,Urban,3,India,12,Arunachal Pradesh,260,Anjaw,,,
+3_12_260_1,2011,Urban,3,India,12,India/China  1,260,Anjaw,,,
+3_13_261_0,2011,Rural,3,India,13,Nagaland,261,Mon,,,
+3_13_261_0,2011,Total,3,India,13,Nagaland,261,Mon,,,
+3_13_261_0,2011,Urban,3,India,13,Nagaland,261,Mon,,,
+3_13_262_0,2011,Rural,3,India,13,Nagaland,262,Mokokchung,,,
+3_13_262_0,2011,Total,3,India,13,Nagaland,262,Mokokchung,,,
+3_13_262_0,2011,Urban,3,India,13,Nagaland,262,Mokokchung,,,
+3_13_263_0,2011,Rural,3,India,13,Nagaland,263,Zunheboto,,,
+3_13_263_0,2011,Total,3,India,13,Nagaland,263,Zunheboto,,,
+3_13_263_0,2011,Urban,3,India,13,Nagaland,263,Zunheboto,,,
+3_13_264_0,2011,Rural,3,India,13,Nagaland,264,Wokha,,,
+3_13_264_0,2011,Total,3,India,13,Nagaland,264,Wokha,,,
+3_13_264_0,2011,Urban,3,India,13,Nagaland,264,Wokha,,,
+3_13_265_0,2011,Rural,3,India,13,Nagaland,265,Dimapur,,,
+3_13_265_0,2011,Total,3,India,13,Nagaland,265,Dimapur,,,
+3_13_265_0,2011,Urban,3,India,13,Nagaland,265,Dimapur,,,
+3_13_266_0,2011,Rural,3,India,13,Nagaland,266,Phek,,,
+3_13_266_0,2011,Total,3,India,13,Nagaland,266,Phek,,,
+3_13_266_0,2011,Urban,3,India,13,Nagaland,266,Phek,,,
+3_13_267_0,2011,Rural,3,India,13,Nagaland,267,Tuensang,,,
+3_13_267_0,2011,Total,3,India,13,Nagaland,267,Tuensang,,,
+3_13_267_0,2011,Urban,3,India,13,Nagaland,267,Tuensang,,,
+3_13_268_0,2011,Rural,3,India,13,Nagaland,268,Longleng,,,
+3_13_268_0,2011,Total,3,India,13,Nagaland,268,Longleng,,,
+3_13_268_0,2011,Urban,3,India,13,Nagaland,268,Longleng,,,
+3_13_269_0,2011,Rural,3,India,13,Nagaland,269,Kiphire,,,
+3_13_269_0,2011,Total,3,India,13,Nagaland,269,Kiphire,,,
+3_13_269_0,2011,Urban,3,India,13,Nagaland,269,Kiphire,,,
+3_13_270_0,2011,Rural,3,India,13,Nagaland,270,Kohima,,,
+3_13_270_0,2011,Total,3,India,13,Nagaland,270,Kohima,,,
+3_13_270_0,2011,Urban,3,India,13,Nagaland,270,Kohima,,,
+3_13_271_0,2011,Rural,3,India,13,Nagaland,271,Peren,,,
+3_13_271_0,2011,Total,3,India,13,Nagaland,271,Peren,,,
+3_13_271_0,2011,Urban,3,India,13,Nagaland,271,Peren,,,
+3_14_272_0,2011,Rural,3,India,14,Manipur,272,Senapati,56.6,1.6,16.1
+3_14_272_0,2011,Total,3,India,14,Manipur,272,Senapati,56.2,1.7,15.9
+3_14_272_0,2011,Urban,3,India,14,Manipur,272,Senapati,,,
+3_14_273_0,2011,Rural,3,India,14,Manipur,273,Tamenglong,21.7,2.7,17.4
+3_14_273_0,2011,Total,3,India,14,Manipur,273,Tamenglong,21.6,2.7,17.1
+3_14_273_0,2011,Urban,3,India,14,Manipur,273,Tamenglong,,,
+3_14_274_0,2011,Rural,3,India,14,Manipur,274,Churachandpur,46.6,2.5,19.6
+3_14_274_0,2011,Total,3,India,14,Manipur,274,Churachandpur,45.90000000000001,2.5,19.6
+3_14_274_0,2011,Urban,3,India,14,Manipur,274,Churachandpur,,,
+3_14_275_0,2011,Rural,3,India,14,Manipur,275,Bishnupur,71.7,4,28.9
+3_14_275_0,2011,Total,3,India,14,Manipur,275,Bishnupur,78.7,3,28.1
+3_14_275_0,2011,Urban,3,India,14,Manipur,275,Bishnupur,,,
+3_14_276_0,2011,Rural,3,India,14,Manipur,276,Thoubal,74.90000000000001,3.7,28.1
+3_14_276_0,2011,Total,3,India,14,Manipur,276,Thoubal,80.30000000000001,3.5,25.1
+3_14_276_0,2011,Urban,3,India,14,Manipur,276,Thoubal,,,
+3_14_277_0,2011,Rural,3,India,14,Manipur,277,Imphal West,73.60000000000001,5.800000000000001,26
+3_14_277_0,2011,Total,3,India,14,Manipur,277,Imphal West,80.90000000000001,3.9,20.8
+3_14_277_0,2011,Urban,3,India,14,Manipur,277,Imphal West,,,
+3_14_278_0,2011,Rural,3,India,14,Manipur,278,Imphal East,68.10000000000001,4.100000000000001,23.9
+3_14_278_0,2011,Total,3,India,14,Manipur,278,Imphal East,73.40000000000001,3.4,20.9
+3_14_278_0,2011,Urban,3,India,14,Manipur,278,Imphal East,,,
+3_14_279_0,2011,Rural,3,India,14,Manipur,279,Ukhrul,29.5,3,11.5
+3_14_279_0,2011,Total,3,India,14,Manipur,279,Ukhrul,30.1,3,11.4
+3_14_279_0,2011,Urban,3,India,14,Manipur,279,Ukhrul,,,
+3_14_280_0,2011,Rural,3,India,14,Manipur,280,Chandel,56.1,2.4,18.1
+3_14_280_0,2011,Total,3,India,14,Manipur,280,Chandel,57.40000000000001,2.6,18.3
+3_14_280_0,2011,Urban,3,India,14,Manipur,280,Chandel,,,
+3_15_281_0,2011,Rural,3,India,15,Mizoram,281,Mamit,50,1.3,49.3
+3_15_281_0,2011,Total,3,India,15,Mizoram,281,Mamit,55.40000000000001,1.3,50.3
+3_15_281_0,2011,Urban,3,India,15,Mizoram,281,Mamit,,,
+3_15_282_0,2011,Rural,3,India,15,Mizoram,282,Kolasib,47.8,1.6,55.8
+3_15_282_0,2011,Total,3,India,15,Mizoram,282,Kolasib,64.3,1.4,53.8
+3_15_282_0,2011,Urban,3,India,15,Mizoram,282,Kolasib,,,
+3_15_283_0,2011,Rural,3,India,15,Mizoram,283,Aizawl,69.10000000000001,.6000000000000001,58.40000000000001
+3_15_283_0,2011,Total,3,India,15,Mizoram,283,Aizawl,75,2.9,65.10000000000001
+3_15_283_0,2011,Urban,3,India,15,Mizoram,283,Aizawl,,,
+3_15_284_0,2011,Rural,3,India,15,Mizoram,284,Champhai,61.3,.7000000000000001,54.7
+3_15_284_0,2011,Total,3,India,15,Mizoram,284,Champhai,64,1,55.40000000000001
+3_15_284_0,2011,Urban,3,India,15,Mizoram,284,Champhai,,,
+3_15_285_0,2011,Rural,3,India,15,Mizoram,285,Serchhip,82.5,1.6,66.2
+3_15_285_0,2011,Total,3,India,15,Mizoram,285,Serchhip,78.90000000000001,1.6,64.5
+3_15_285_0,2011,Urban,3,India,15,Mizoram,285,Serchhip,,,
+3_15_286_0,2011,Rural,3,India,15,Mizoram,286,Lunglei,45.7,.3,50.3
+3_15_286_0,2011,Total,3,India,15,Mizoram,286,Lunglei,55.7,.2,59.3
+3_15_286_0,2011,Urban,3,India,15,Mizoram,286,Lunglei,,,
+3_15_287_0,2011,Rural,3,India,15,Mizoram,287,Lawngtlai,47.8,.7000000000000001,49.5
+3_15_287_0,2011,Total,3,India,15,Mizoram,287,Lawngtlai,48.7,.7000000000000001,49.5
+3_15_287_0,2011,Urban,3,India,15,Mizoram,287,Lawngtlai,,,
+3_15_288_0,2011,Rural,3,India,15,Mizoram,288,Saiha,56.7,.6000000000000001,52.5
+3_15_288_0,2011,Total,3,India,15,Mizoram,288,Saiha,63.3,.9,57.1
+3_15_288_0,2011,Urban,3,India,15,Mizoram,288,Saiha,,,
+3_16_289_0,2011,Rural,3,India,16,Tripura,289,West Tripura,50.6,1.6,49.40000000000001
+3_16_289_0,2011,Total,3,India,16,Tripura,289,West Tripura,50.6,2.5,50
+3_16_289_0,2011,Urban,3,India,16,Tripura,289,West Tripura,,,
+3_16_290_0,2011,Rural,3,India,16,Tripura,290,South Tripura,40.40000000000001,2.3,47
+3_16_290_0,2011,Total,3,India,16,Tripura,290,South Tripura,40.2,2.4,46.5
+3_16_290_0,2011,Urban,3,India,16,Tripura,290,South Tripura,,,
+3_16_291_0,2011,Rural,3,India,16,Tripura,291,Dhalai,43.2,1.4,37.8
+3_16_291_0,2011,Total,3,India,16,Tripura,291,Dhalai,37.2,1.6,38
+3_16_291_0,2011,Urban,3,India,16,Tripura,291,Dhalai,,,
+3_16_292_0,2011,Rural,3,India,16,Tripura,292,North Tripura,52.5,1,33.5
+3_16_292_0,2011,Total,3,India,16,Tripura,292,North Tripura,51.1,1.1,35.8
+3_16_292_0,2011,Urban,3,India,16,Tripura,292,North Tripura,,,
+3_17_293_0,2011,Rural,3,India,17,Meghalaya,293,West Garo Hills,27.8,3.1,24.9
+3_17_293_0,2011,Total,3,India,17,Meghalaya,293,West Garo Hills,29.6,2.9,24.1
+3_17_293_0,2011,Urban,3,India,17,Meghalaya,293,West Garo Hills,,,
+3_17_294_0,2011,Rural,3,India,17,Meghalaya,294,East Garo Hills,24.9,3.4,19.4
+3_17_294_0,2011,Total,3,India,17,Meghalaya,294,East Garo Hills,29.3,3.5,21.7
+3_17_294_0,2011,Urban,3,India,17,Meghalaya,294,East Garo Hills,,,
+3_17_295_0,2011,Rural,3,India,17,Meghalaya,295,South Garo Hills,26.2,4.600000000000001,20.7
+3_17_295_0,2011,Total,3,India,17,Meghalaya,295,South Garo Hills,26.5,4.3,19.9
+3_17_295_0,2011,Urban,3,India,17,Meghalaya,295,South Garo Hills,,,
+3_17_296_0,2011,Rural,3,India,17,Meghalaya,296,West Khasi Hills,25.3,.1,5.5
+3_17_296_0,2011,Total,3,India,17,Meghalaya,296,West Khasi Hills,27.6,.2,6.800000000000001
+3_17_296_0,2011,Urban,3,India,17,Meghalaya,296,West Khasi Hills,,,
+3_17_297_0,2011,Rural,3,India,17,Meghalaya,297,Ribhoi,47.3,.8,14.9
+3_17_297_0,2011,Total,3,India,17,Meghalaya,297,Ribhoi,49.40000000000001,.8,14.9
+3_17_297_0,2011,Urban,3,India,17,Meghalaya,297,Ribhoi,,,
+3_17_298_0,2011,Rural,3,India,17,Meghalaya,298,East Khasi Hills,60.40000000000001,1.8,15.3
+3_17_298_0,2011,Total,3,India,17,Meghalaya,298,East Khasi Hills,64.2,3,24
+3_17_298_0,2011,Urban,3,India,17,Meghalaya,298,East Khasi Hills,,,
+3_17_299_0,2011,Rural,3,India,17,Meghalaya,299,Jaintia Hills,45.2,.1,11.2
+3_17_299_0,2011,Total,3,India,17,Meghalaya,299,Jaintia Hills,46.8,.3,11.4
+3_17_299_0,2011,Urban,3,India,17,Meghalaya,299,Jaintia Hills,,,
+3_18_300_0,2011,Rural,3,India,18,Assam,300,Kokrajhar,25.4,2.7,28.7
+3_18_300_0,2011,Total,3,India,18,Assam,300,Kokrajhar,27.2,3.4,30.2
+3_18_300_0,2011,Urban,3,India,18,Assam,300,Kokrajhar,,,
+3_18_301_0,2011,Rural,3,India,18,Assam,301,Dhubri,19.1,1.1,23.2
+3_18_301_0,2011,Total,3,India,18,Assam,301,Dhubri,20.7,1.8,23.6
+3_18_301_0,2011,Urban,3,India,18,Assam,301,Dhubri,,,
+3_18_302_0,2011,Rural,3,India,18,Assam,302,Goalpara,33.3,.3,29.9
+3_18_302_0,2011,Total,3,India,18,Assam,302,Goalpara,33.5,.5,31.1
+3_18_302_0,2011,Urban,3,India,18,Assam,302,Goalpara,,,
+3_18_303_0,2011,Rural,3,India,18,Assam,303,Barpeta,48.2,1.5,27.4
+3_18_303_0,2011,Total,3,India,18,Assam,303,Barpeta,49.3,1.6,27.7
+3_18_303_0,2011,Urban,3,India,18,Assam,303,Barpeta,,,
+3_18_304_0,2011,Rural,3,India,18,Assam,304,Morigaon,45,1.2,25
+3_18_304_0,2011,Total,3,India,18,Assam,304,Morigaon,43.90000000000001,1.3,24.7
+3_18_304_0,2011,Urban,3,India,18,Assam,304,Morigaon,,,
+3_18_305_0,2011,Rural,3,India,18,Assam,305,Nagaon,46.6,.9,27.3
+3_18_305_0,2011,Total,3,India,18,Assam,305,Nagaon,51.2,1.6,27.7
+3_18_305_0,2011,Urban,3,India,18,Assam,305,Nagaon,,,
+3_18_306_0,2011,Rural,3,India,18,Assam,306,Sonitpur,49.2,1,36
+3_18_306_0,2011,Total,3,India,18,Assam,306,Sonitpur,49.7,1.3,36.2
+3_18_306_0,2011,Urban,3,India,18,Assam,306,Sonitpur,,,
+3_18_307_0,2011,Rural,3,India,18,Assam,307,Lakhimpur,36,2.3,26.4
+3_18_307_0,2011,Total,3,India,18,Assam,307,Lakhimpur,37.3,2.5,26.6
+3_18_307_0,2011,Urban,3,India,18,Assam,307,Lakhimpur,,,
+3_18_308_0,2011,Rural,3,India,18,Assam,308,Dhemaji,28.5,1.7,33.9
+3_18_308_0,2011,Total,3,India,18,Assam,308,Dhemaji,29.9,1.9,34.6
+3_18_308_0,2011,Urban,3,India,18,Assam,308,Dhemaji,,,
+3_18_309_0,2011,Rural,3,India,18,Assam,309,Tinsukia,50.8,.7000000000000001,43.6
+3_18_309_0,2011,Total,3,India,18,Assam,309,Tinsukia,55.3,1,44.3
+3_18_309_0,2011,Urban,3,India,18,Assam,309,Tinsukia,,,
+3_18_310_0,2011,Rural,3,India,18,Assam,310,Dibrugarh,54,1.9,41.90000000000001
+3_18_310_0,2011,Total,3,India,18,Assam,310,Dibrugarh,58.40000000000001,2.2,40.5
+3_18_310_0,2011,Urban,3,India,18,Assam,310,Dibrugarh,,,
+3_18_311_0,2011,Rural,3,India,18,Assam,311,Sivasagar,57.90000000000001,2.2,21.7
+3_18_311_0,2011,Total,3,India,18,Assam,311,Sivasagar,60.6,2.6,23.2
+3_18_311_0,2011,Urban,3,India,18,Assam,311,Sivasagar,,,
+3_18_312_0,2011,Rural,3,India,18,Assam,312,Jorhat,54.6,.8,25.6
+3_18_312_0,2011,Total,3,India,18,Assam,312,Jorhat,56,1.6,27.5
+3_18_312_0,2011,Urban,3,India,18,Assam,312,Jorhat,,,
+3_18_313_0,2011,Rural,3,India,18,Assam,313,Golaghat,41.6,1.2,18.8
+3_18_313_0,2011,Total,3,India,18,Assam,313,Golaghat,42.2,1.3,20.5
+3_18_313_0,2011,Urban,3,India,18,Assam,313,Golaghat,,,
+3_18_314_0,2011,Rural,3,India,18,Assam,314,Karbi Anglong,37.6,.7000000000000001,39.8
+3_18_314_0,2011,Total,3,India,18,Assam,314,Karbi Anglong,46.40000000000001,1,38.90000000000001
+3_18_314_0,2011,Urban,3,India,18,Assam,314,Karbi Anglong,,,
+3_18_315_0,2011,Rural,3,India,18,Assam,315,Dima Hasao,22.4,3.4,30.8
+3_18_315_0,2011,Total,3,India,18,Assam,315,Dima Hasao,35.7,4,37
+3_18_315_0,2011,Urban,3,India,18,Assam,315,Dima Hasao,,,
+3_18_316_0,2011,Rural,3,India,18,Assam,316,Cachar,51.90000000000001,3.5,19.4
+3_18_316_0,2011,Total,3,India,18,Assam,316,Cachar,51.90000000000001,4.3,21.4
+3_18_316_0,2011,Urban,3,India,18,Assam,316,Cachar,,,
+3_18_317_0,2011,Rural,3,India,18,Assam,317,Karimganj,42.8,3.8,14.4
+3_18_317_0,2011,Total,3,India,18,Assam,317,Karimganj,45.6,3.8,14.8
+3_18_317_0,2011,Urban,3,India,18,Assam,317,Karimganj,,,
+3_18_318_0,2011,Rural,3,India,18,Assam,318,Hailakandi,53.2,4.600000000000001,13.7
+3_18_318_0,2011,Total,3,India,18,Assam,318,Hailakandi,55.1,4.9,14.8
+3_18_318_0,2011,Urban,3,India,18,Assam,318,Hailakandi,,,
+3_18_319_0,2011,Rural,3,India,18,Assam,319,Bongaigaon,33.1,1.1,24.4
+3_18_319_0,2011,Total,3,India,18,Assam,319,Bongaigaon,35.2,2.5,27.7
+3_18_319_0,2011,Urban,3,India,18,Assam,319,Bongaigaon,,,
+3_18_320_0,2011,Rural,3,India,18,Assam,320,Chirang,34.3,2.5,27.1
+3_18_320_0,2011,Total,3,India,18,Assam,320,Chirang,33.9,2.6,27.1
+3_18_320_0,2011,Urban,3,India,18,Assam,320,Chirang,,,
+3_18_321_0,2011,Rural,3,India,18,Assam,321,Kamrup,56.1,0,31.5
+3_18_321_0,2011,Total,3,India,18,Assam,321,Kamrup,69.7,2.7,39.1
+3_18_321_0,2011,Urban,3,India,18,Assam,321,Kamrup,,,
+3_18_322_0,2011,Rural,3,India,18,Assam,322,Kamrup Metropolitan,53.40000000000001,1.9,36
+3_18_322_0,2011,Total,3,India,18,Assam,322,Kamrup Metropolitan,60.8,1.7,35.2
+3_18_322_0,2011,Urban,3,India,18,Assam,322,Kamrup Metropolitan,,,
+3_18_323_0,2011,Rural,3,India,18,Assam,323,Nalbari,48.90000000000001,2.9,44.8
+3_18_323_0,2011,Total,3,India,18,Assam,323,Nalbari,49.90000000000001,3.1,45
+3_18_323_0,2011,Urban,3,India,18,Assam,323,Nalbari,,,
+3_18_324_0,2011,Rural,3,India,18,Assam,324,Baksa,52,1.3,41.7
+3_18_324_0,2011,Total,3,India,18,Assam,324,Baksa,51.8,1.3,41.7
+3_18_324_0,2011,Urban,3,India,18,Assam,324,Baksa,,,
+3_18_325_0,2011,Rural,3,India,18,Assam,325,Darrang,39.5,.6000000000000001,35.4
+3_18_325_0,2011,Total,3,India,18,Assam,325,Darrang,44.2,.9,36.3
+3_18_325_0,2011,Urban,3,India,18,Assam,325,Darrang,,,
+3_18_326_0,2011,Rural,3,India,18,Assam,326,Udalguri,52.7,1.5,38.2
+3_18_326_0,2011,Total,3,India,18,Assam,326,Udalguri,53.6,1.7,39.3
+3_18_326_0,2011,Urban,3,India,18,Assam,326,Udalguri,,,
+3_19_327_0,2011,Rural,3,India,19,West Bengal,327,Darjiling,64.8,3.7,56.1
+3_19_327_0,2011,Total,3,India,19,West Bengal,327,Darjiling,70.40000000000001,4.800000000000001,57.8
+3_19_327_0,2011,Urban,3,India,19,West Bengal,327,Darjiling,,,
+3_19_328_0,2011,Rural,3,India,19,West Bengal,328,Jalpaiguri,69.90000000000001,2.2,53.1
+3_19_328_0,2011,Total,3,India,19,West Bengal,328,Jalpaiguri,72.90000000000001,3.2,53.1
+3_19_328_0,2011,Urban,3,India,19,West Bengal,328,Jalpaiguri,,,
+3_19_329_0,2011,Rural,3,India,19,West Bengal,329,Koch Bihar,57.1,1.6,55.6
+3_19_329_0,2011,Total,3,India,19,West Bengal,329,Koch Bihar,55.6,2.1,56.8
+3_19_329_0,2011,Urban,3,India,19,West Bengal,329,Koch Bihar,,,
+3_19_330_0,2011,Rural,3,India,19,West Bengal,330,Uttar Dinajpur,51,2.3,32.3
+3_19_330_0,2011,Total,3,India,19,West Bengal,330,Uttar Dinajpur,53.3,2.9,34.7
+3_19_330_0,2011,Urban,3,India,19,West Bengal,330,Uttar Dinajpur,,,
+3_19_331_0,2011,Rural,3,India,19,West Bengal,331,Dakshin Dinajpur,76.5,2.4,53.1
+3_19_331_0,2011,Total,3,India,19,West Bengal,331,Dakshin Dinajpur,78.10000000000001,3.4,54
+3_19_331_0,2011,Urban,3,India,19,West Bengal,331,Dakshin Dinajpur,,,
+3_19_332_0,2011,Rural,3,India,19,West Bengal,332,Maldah,58.90000000000001,1.6,40.40000000000001
+3_19_332_0,2011,Total,3,India,19,West Bengal,332,Maldah,58.40000000000001,2.7,42.6
+3_19_332_0,2011,Urban,3,India,19,West Bengal,332,Maldah,,,
+3_19_333_0,2011,Rural,3,India,19,West Bengal,333,Murshidabad,62.1,2.4,54.3
+3_19_333_0,2011,Total,3,India,19,West Bengal,333,Murshidabad,63.5,2.9,54
+3_19_333_0,2011,Urban,3,India,19,West Bengal,333,Murshidabad,,,
+3_19_334_0,2011,Rural,3,India,19,West Bengal,334,Birbhum,57.90000000000001,1.6,61.3
+3_19_334_0,2011,Total,3,India,19,West Bengal,334,Birbhum,59.1,2.4,62.6
+3_19_334_0,2011,Urban,3,India,19,West Bengal,334,Birbhum,,,
+3_19_335_0,2011,Rural,3,India,19,West Bengal,335,Barddhaman,67.5,1.9,66.5
+3_19_335_0,2011,Total,3,India,19,West Bengal,335,Barddhaman,68.10000000000001,3.7,62.2
+3_19_335_0,2011,Urban,3,India,19,West Bengal,335,Barddhaman,,,
+3_19_336_0,2011,Rural,3,India,19,West Bengal,336,Nadia,72.8,2.4,49.40000000000001
+3_19_336_0,2011,Total,3,India,19,West Bengal,336,Nadia,76.3,2.5,47.2
+3_19_336_0,2011,Urban,3,India,19,West Bengal,336,Nadia,,,
+3_19_337_0,2011,Rural,3,India,19,West Bengal,337,North Twenty Four Parganas,83.40000000000001,1.6,48.5
+3_19_337_0,2011,Total,3,India,19,West Bengal,337,North Twenty Four Parganas,85.10000000000001,3.7,45.7
+3_19_337_0,2011,Urban,3,India,19,West Bengal,337,North Twenty Four Parganas,,,
+3_19_338_0,2011,Rural,3,India,19,West Bengal,338,Hugli,79.5,2.3,61.8
+3_19_338_0,2011,Total,3,India,19,West Bengal,338,Hugli,81.10000000000001,3.6,58.1
+3_19_338_0,2011,Urban,3,India,19,West Bengal,338,Hugli,,,
+3_19_339_0,2011,Rural,3,India,19,West Bengal,339,Bankura,63.2,1.1,62.5
+3_19_339_0,2011,Total,3,India,19,West Bengal,339,Bankura,65.7,1.5,63.8
+3_19_339_0,2011,Urban,3,India,19,West Bengal,339,Bankura,,,
+3_19_340_0,2011,Rural,3,India,19,West Bengal,340,Puruliya,64.3,1.4,42.3
+3_19_340_0,2011,Total,3,India,19,West Bengal,340,Puruliya,66.10000000000001,1.9,44.90000000000001
+3_19_340_0,2011,Urban,3,India,19,West Bengal,340,Puruliya,,,
+3_19_341_0,2011,Rural,3,India,19,West Bengal,341,Haora,79.2,2.5,51.40000000000001
+3_19_341_0,2011,Total,3,India,19,West Bengal,341,Haora,80.40000000000001,6.800000000000001,52.1
+3_19_341_0,2011,Urban,3,India,19,West Bengal,341,Haora,,,
+3_19_342_0,2011,Rural,3,India,19,West Bengal,342,Kolkata,,,
+3_19_342_0,2011,Total,3,India,19,West Bengal,342,Kolkata,91.80000000000001,11.2,45.8
+3_19_342_0,2011,Urban,3,India,19,West Bengal,342,Kolkata,,,
+3_19_343_0,2011,Rural,3,India,19,West Bengal,343,South Twenty Four Parganas,66.7,3.4,50.3
+3_19_343_0,2011,Total,3,India,19,West Bengal,343,South Twenty Four Parganas,67.5,4.100000000000001,51.3
+3_19_343_0,2011,Urban,3,India,19,West Bengal,343,South Twenty Four Parganas,,,
+3_19_344_0,2011,Rural,3,India,19,West Bengal,344,Paschim Medinipur,49.5,1.7,65.5
+3_19_344_0,2011,Total,3,India,19,West Bengal,344,Paschim Medinipur,48,1.8,66.40000000000001
+3_19_344_0,2011,Urban,3,India,19,West Bengal,344,Paschim Medinipur,,,
+3_19_345_0,2011,Rural,3,India,19,West Bengal,345,Purba Medinipur,74.40000000000001,2.3,56.1
+3_19_345_0,2011,Total,3,India,19,West Bengal,345,Purba Medinipur,74.90000000000001,2.4,56.90000000000001
+3_19_345_0,2011,Urban,3,India,19,West Bengal,345,Purba Medinipur,,,
+3_1_1_0,2011,Rural,3,India,1,Jammu and Kashmir,1,Kupwara,67.7,3.5,31.6
+3_1_1_0,2011,Total,3,India,1,Jammu and Kashmir,1,Kupwara,68.60000000000001,3.4,32.1
+3_1_1_0,2011,Urban,3,India,1,Jammu and Kashmir,1,Kupwara,,,
+3_1_10_0,2011,Rural,3,India,1,Jammu and Kashmir,10,Srinagar,90.7,2.6,52.6
+3_1_10_0,2011,Total,3,India,1,Jammu and Kashmir,10,Srinagar,92.40000000000001,6.4,56.1
+3_1_10_0,2011,Urban,3,India,1,Jammu and Kashmir,10,Srinagar,,,
+3_1_11_0,2011,Rural,3,India,1,Jammu and Kashmir,11,Ganderbal,90.7,2.6,52.6
+3_1_11_0,2011,Total,3,India,1,Jammu and Kashmir,11,Ganderbal,92.40000000000001,6.4,56.1
+3_1_11_0,2011,Urban,3,India,1,Jammu and Kashmir,11,Ganderbal,,,
+3_1_12_0,2011,Rural,3,India,1,Jammu and Kashmir,12,Pulwama,86.80000000000001,6.5,40.7
+3_1_12_0,2011,Total,3,India,1,Jammu and Kashmir,12,Pulwama,86.5,6.300000000000001,41.40000000000001
+3_1_12_0,2011,Urban,3,India,1,Jammu and Kashmir,12,Pulwama,,,
+3_1_13_0,2011,Rural,3,India,1,Jammu and Kashmir,13,Shupiyan,86.80000000000001,6.5,40.7
+3_1_13_0,2011,Total,3,India,1,Jammu and Kashmir,13,Shupiyan,86.5,6.300000000000001,41.40000000000001
+3_1_13_0,2011,Urban,3,India,1,Jammu and Kashmir,13,Shupiyan,,,
+3_1_14_0,2011,Rural,3,India,1,Jammu and Kashmir,14,Anantnag,71.2,5.100000000000001,41.40000000000001
+3_1_14_0,2011,Total,3,India,1,Jammu and Kashmir,14,Anantnag,71.7,5.300000000000001,43.3
+3_1_14_0,2011,Urban,3,India,1,Jammu and Kashmir,14,Anantnag,,,
+3_1_15_0,2011,Rural,3,India,1,Jammu and Kashmir,15,Kulgam,71.2,5.100000000000001,41.40000000000001
+3_1_15_0,2011,Total,3,India,1,Jammu and Kashmir,15,Kulgam,71.7,5.300000000000001,43.3
+3_1_15_0,2011,Urban,3,India,1,Jammu and Kashmir,15,Kulgam,,,
+3_1_16_0,2011,Rural,3,India,1,Jammu and Kashmir,16,Doda,57.6,2,29.8
+3_1_16_0,2011,Total,3,India,1,Jammu and Kashmir,16,Doda,58.8,2.5,30.5
+3_1_16_0,2011,Urban,3,India,1,Jammu and Kashmir,16,Doda,,,
+3_1_17_0,2011,Rural,3,India,1,Jammu and Kashmir,17,Ramban,57.6,2,29.8
+3_1_17_0,2011,Total,3,India,1,Jammu and Kashmir,17,Ramban,58.8,2.5,30.5
+3_1_17_0,2011,Urban,3,India,1,Jammu and Kashmir,17,Ramban,,,
+3_1_18_0,2011,Rural,3,India,1,Jammu and Kashmir,18,Kishtwar,57.6,2,29.8
+3_1_18_0,2011,Total,3,India,1,Jammu and Kashmir,18,Kishtwar,58.8,2.5,30.5
+3_1_18_0,2011,Urban,3,India,1,Jammu and Kashmir,18,Kishtwar,,,
+3_1_19_0,2011,Rural,3,India,1,Jammu and Kashmir,19,Udhampur,69.90000000000001,9.5,42
+3_1_19_0,2011,Total,3,India,1,Jammu and Kashmir,19,Udhampur,72.90000000000001,11,45.8
+3_1_19_0,2011,Urban,3,India,1,Jammu and Kashmir,19,Udhampur,,,
+3_1_2_0,2011,Rural,3,India,1,Jammu and Kashmir,2,Badgam,88.10000000000001,3.5,40.6
+3_1_2_0,2011,Total,3,India,1,Jammu and Kashmir,2,Badgam,89.10000000000001,4,43.1
+3_1_2_0,2011,Urban,3,India,1,Jammu and Kashmir,2,Badgam,,,
+3_1_20_0,2011,Rural,3,India,1,Jammu and Kashmir,20,Reasi,69.90000000000001,9.5,42
+3_1_20_0,2011,Total,3,India,1,Jammu and Kashmir,20,Reasi,72.90000000000001,11,45.8
+3_1_20_0,2011,Urban,3,India,1,Jammu and Kashmir,20,Reasi,,,
+3_1_21_0,2011,Rural,3,India,1,Jammu and Kashmir,21,Jammu,80.80000000000001,11,53.40000000000001
+3_1_21_0,2011,Total,3,India,1,Jammu and Kashmir,21,Jammu,86.5,12.4,51.3
+3_1_21_0,2011,Urban,3,India,1,Jammu and Kashmir,21,Jammu,,,
+3_1_22_0,2011,Rural,3,India,1,Jammu and Kashmir,22,Samba,83.2,10.3,51.6
+3_1_22_0,2011,Total,3,India,1,Jammu and Kashmir,22,Samba,86.80000000000001,11.6,51
+3_1_22_0,2011,Urban,3,India,1,Jammu and Kashmir,22,Samba,,,
+3_1_3_0,2011,Rural,3,India,1,Jammu and Kashmir,3,Leh(Ladakh),79.80000000000001,2.2,68.2
+3_1_3_1,2011,Rural,3,India,1,India/China  2,3,Leh(Ladakh),79.80000000000001,2.2,68.2
+3_1_3_0,2011,Total,3,India,1,Jammu and Kashmir,3,Leh(Ladakh),81,3.3,69.10000000000001
+3_1_3_1,2011,Total,3,India,1,India/China  2,3,Leh(Ladakh),81,3.3,69.10000000000001
+3_1_3_1,2011,Urban,3,India,1,India/China  2,3,Leh(Ladakh),,,
+3_1_3_0,2011,Urban,3,India,1,Jammu and Kashmir,3,Leh(Ladakh),,,
+3_1_4_0,2011,Rural,3,India,1,Jammu and Kashmir,4,Kargil,62.5,2.1,41.2
+3_1_4_0,2011,Total,3,India,1,Jammu and Kashmir,4,Kargil,64.60000000000001,2.9,43.3
+3_1_4_0,2011,Urban,3,India,1,Jammu and Kashmir,4,Kargil,,,
+3_1_5_0,2011,Rural,3,India,1,Jammu and Kashmir,5,Punch,42.1,.9,23.5
+3_1_5_0,2011,Total,3,India,1,Jammu and Kashmir,5,Punch,42.8,1,23.6
+3_1_5_0,2011,Urban,3,India,1,Jammu and Kashmir,5,Punch,,,
+3_1_6_0,2011,Rural,3,India,1,Jammu and Kashmir,6,Rajouri,56.40000000000001,2,33.6
+3_1_6_0,2011,Total,3,India,1,Jammu and Kashmir,6,Rajouri,58.3,2.1,34
+3_1_6_0,2011,Urban,3,India,1,Jammu and Kashmir,6,Rajouri,,,
+3_1_7_0,2011,Rural,3,India,1,Jammu and Kashmir,7,Kathua,85.5,9.5,49.8
+3_1_7_0,2011,Total,3,India,1,Jammu and Kashmir,7,Kathua,87,10.8,50.7
+3_1_7_0,2011,Urban,3,India,1,Jammu and Kashmir,7,Kathua,,,
+3_1_8_0,2011,Rural,3,India,1,Jammu and Kashmir,8,Baramula,75.7,2.6,37
+3_1_8_0,2011,Total,3,India,1,Jammu and Kashmir,8,Baramula,76.5,3.6,38.40000000000001
+3_1_8_0,2011,Urban,3,India,1,Jammu and Kashmir,8,Baramula,,,
+3_1_9_0,2011,Rural,3,India,1,Jammu and Kashmir,9,Bandipore,75.7,2.6,37
+3_1_9_0,2011,Total,3,India,1,Jammu and Kashmir,9,Bandipore,76.5,3.6,38.40000000000001
+3_1_9_0,2011,Urban,3,India,1,Jammu and Kashmir,9,Bandipore,,,
+3_20_346_0,2011,Rural,3,India,20,Jharkhand,346,Garhwa,19.5,1,40.1
+3_20_346_0,2011,Total,3,India,20,Jharkhand,346,Garhwa,20.1,1.1,40.8
+3_20_346_0,2011,Urban,3,India,20,Jharkhand,346,Garhwa,,,
+3_20_347_0,2011,Rural,3,India,20,Jharkhand,347,Chatra,21.5,.6000000000000001,32.6
+3_20_347_0,2011,Total,3,India,20,Jharkhand,347,Chatra,22.9,.9,32.8
+3_20_347_0,2011,Urban,3,India,20,Jharkhand,347,Chatra,,,
+3_20_348_0,2011,Rural,3,India,20,Jharkhand,348,Kodarma,29.2,1.1,25.2
+3_20_348_0,2011,Total,3,India,20,Jharkhand,348,Kodarma,33.3,1.4,28.5
+3_20_348_0,2011,Urban,3,India,20,Jharkhand,348,Kodarma,,,
+3_20_349_0,2011,Rural,3,India,20,Jharkhand,349,Giridih,24,.2,22.4
+3_20_349_0,2011,Total,3,India,20,Jharkhand,349,Giridih,25,.3,24.3
+3_20_349_0,2011,Urban,3,India,20,Jharkhand,349,Giridih,,,
+3_20_350_0,2011,Rural,3,India,20,Jharkhand,350,Deoghar,25.7,.2,33.4
+3_20_350_0,2011,Total,3,India,20,Jharkhand,350,Deoghar,22.9,.3,36.7
+3_20_350_0,2011,Urban,3,India,20,Jharkhand,350,Deoghar,,,
+3_20_351_0,2011,Rural,3,India,20,Jharkhand,351,Godda,23.2,0,21.7
+3_20_351_0,2011,Total,3,India,20,Jharkhand,351,Godda,24.1,0,21.7
+3_20_351_0,2011,Urban,3,India,20,Jharkhand,351,Godda,,,
+3_20_352_0,2011,Rural,3,India,20,Jharkhand,352,Sahibganj,19.2,1.1,20.3
+3_20_352_0,2011,Total,3,India,20,Jharkhand,352,Sahibganj,23.2,1.7,24.8
+3_20_352_0,2011,Urban,3,India,20,Jharkhand,352,Sahibganj,,,
+3_20_353_0,2011,Rural,3,India,20,Jharkhand,353,Pakur,16.3,.3,13.4
+3_20_353_0,2011,Total,3,India,20,Jharkhand,353,Pakur,17.4,.4,15.1
+3_20_353_0,2011,Urban,3,India,20,Jharkhand,353,Pakur,,,
+3_20_354_0,2011,Rural,3,India,20,Jharkhand,354,Dhanbad,39.8,1.3,42
+3_20_354_0,2011,Total,3,India,20,Jharkhand,354,Dhanbad,50.90000000000001,2.3,45.7
+3_20_354_0,2011,Urban,3,India,20,Jharkhand,354,Dhanbad,,,
+3_20_355_0,2011,Rural,3,India,20,Jharkhand,355,Bokaro,34.5,3.7,41
+3_20_355_0,2011,Total,3,India,20,Jharkhand,355,Bokaro,46.2,3.6,48.40000000000001
+3_20_355_0,2011,Urban,3,India,20,Jharkhand,355,Bokaro,,,
+3_20_356_0,2011,Rural,3,India,20,Jharkhand,356,Lohardaga,27.7,1.8,31.3
+3_20_356_0,2011,Total,3,India,20,Jharkhand,356,Lohardaga,29.4,2.4,31.3
+3_20_356_0,2011,Urban,3,India,20,Jharkhand,356,Lohardaga,,,
+3_20_357_0,2011,Rural,3,India,20,Jharkhand,357,Purbi Singhbhum,48.90000000000001,3.6,36
+3_20_357_0,2011,Total,3,India,20,Jharkhand,357,Purbi Singhbhum,55,5.7,46.3
+3_20_357_0,2011,Urban,3,India,20,Jharkhand,357,Purbi Singhbhum,,,
+3_20_358_0,2011,Rural,3,India,20,Jharkhand,358,Palamu,21.1,1.2,38.6
+3_20_358_0,2011,Total,3,India,20,Jharkhand,358,Palamu,22.4,1.3,39
+3_20_358_0,2011,Urban,3,India,20,Jharkhand,358,Palamu,,,
+3_20_359_0,2011,Rural,3,India,20,Jharkhand,359,Latehar,26.9,1.1,29.7
+3_20_359_0,2011,Total,3,India,20,Jharkhand,359,Latehar,28.7,1.1,30.8
+3_20_359_0,2011,Urban,3,India,20,Jharkhand,359,Latehar,,,
+3_20_360_0,2011,Rural,3,India,20,Jharkhand,360,Hazaribagh,35.6,2.7,43.90000000000001
+3_20_360_0,2011,Total,3,India,20,Jharkhand,360,Hazaribagh,38.6,4,46
+3_20_360_0,2011,Urban,3,India,20,Jharkhand,360,Hazaribagh,,,
+3_20_361_0,2011,Rural,3,India,20,Jharkhand,361,Ramgarh,35.6,2.7,43.90000000000001
+3_20_361_0,2011,Total,3,India,20,Jharkhand,361,Ramgarh,38.6,4,46
+3_20_361_0,2011,Urban,3,India,20,Jharkhand,361,Ramgarh,,,
+3_20_362_0,2011,Rural,3,India,20,Jharkhand,362,Dumka,25.1,1.3,27
+3_20_362_0,2011,Total,3,India,20,Jharkhand,362,Dumka,27.2,1.5,30.1
+3_20_362_0,2011,Urban,3,India,20,Jharkhand,362,Dumka,,,
+3_20_363_0,2011,Rural,3,India,20,Jharkhand,363,Jamtara,33.1,.6000000000000001,26.1
+3_20_363_0,2011,Total,3,India,20,Jharkhand,363,Jamtara,34.2,.9,27.2
+3_20_363_0,2011,Urban,3,India,20,Jharkhand,363,Jamtara,,,
+3_20_364_0,2011,Rural,3,India,20,Jharkhand,364,Ranchi,34.2,2.7,30.4
+3_20_364_0,2011,Total,3,India,20,Jharkhand,364,Ranchi,40.6,4,38.3
+3_20_364_0,2011,Urban,3,India,20,Jharkhand,364,Ranchi,,,
+3_20_365_0,2011,Rural,3,India,20,Jharkhand,365,Khunti,34.2,2.7,30.4
+3_20_365_0,2011,Total,3,India,20,Jharkhand,365,Khunti,40.6,4,38.3
+3_20_365_0,2011,Urban,3,India,20,Jharkhand,365,Khunti,,,
+3_20_366_0,2011,Rural,3,India,20,Jharkhand,366,Gumla,29.2,4.800000000000001,25.8
+3_20_366_0,2011,Total,3,India,20,Jharkhand,366,Gumla,29.3,4.600000000000001,26.1
+3_20_366_0,2011,Urban,3,India,20,Jharkhand,366,Gumla,,,
+3_20_367_0,2011,Rural,3,India,20,Jharkhand,367,Simdega,32.4,1.6,17
+3_20_367_0,2011,Total,3,India,20,Jharkhand,367,Simdega,36.8,1.4,17.3
+3_20_367_0,2011,Urban,3,India,20,Jharkhand,367,Simdega,,,
+3_20_368_0,2011,Rural,3,India,20,Jharkhand,368,Pashchimi Singhbhum,36.8,1.9,18.9
+3_20_368_0,2011,Total,3,India,20,Jharkhand,368,Pashchimi Singhbhum,32.6,3.7,22.4
+3_20_368_0,2011,Urban,3,India,20,Jharkhand,368,Pashchimi Singhbhum,,,
+3_20_369_0,2011,Rural,3,India,20,Jharkhand,369,Saraikela-Kharsawan,40.90000000000001,1.9,30.5
+3_20_369_0,2011,Total,3,India,20,Jharkhand,369,Saraikela-Kharsawan,49.7,3.5,34.8
+3_20_369_0,2011,Urban,3,India,20,Jharkhand,369,Saraikela-Kharsawan,,,
+3_21_370_0,2011,Rural,3,India,21,Odisha,370,Bargarh,57.1,1.5,44.7
+3_21_370_0,2011,Total,3,India,21,Odisha,370,Bargarh,59.2,1.5,44.40000000000001
+3_21_370_0,2011,Urban,3,India,21,Odisha,370,Bargarh,,,
+3_21_371_0,2011,Rural,3,India,21,Odisha,371,Jharsuguda,57.8,2.8,41.2
+3_21_371_0,2011,Total,3,India,21,Odisha,371,Jharsuguda,57.90000000000001,4.2,44.90000000000001
+3_21_371_0,2011,Urban,3,India,21,Odisha,371,Jharsuguda,,,
+3_21_372_0,2011,Rural,3,India,21,Odisha,372,Sambalpur,47.6,.6000000000000001,36.3
+3_21_372_0,2011,Total,3,India,21,Odisha,372,Sambalpur,57.3,2.1,41.40000000000001
+3_21_372_0,2011,Urban,3,India,21,Odisha,372,Sambalpur,,,
+3_21_373_0,2011,Rural,3,India,21,Odisha,373,Debagarh,37.4,.8,33.1
+3_21_373_0,2011,Total,3,India,21,Odisha,373,Debagarh,38.1,1,33.5
+3_21_373_0,2011,Urban,3,India,21,Odisha,373,Debagarh,,,
+3_21_374_0,2011,Rural,3,India,21,Odisha,374,Sundargarh,45.1,2.2,36.3
+3_21_374_0,2011,Total,3,India,21,Odisha,374,Sundargarh,53.3,4.4,41.1
+3_21_374_0,2011,Urban,3,India,21,Odisha,374,Sundargarh,,,
+3_21_375_0,2011,Rural,3,India,21,Odisha,375,Kendujhar,48,.6000000000000001,37.8
+3_21_375_0,2011,Total,3,India,21,Odisha,375,Kendujhar,47.5,.9,38.3
+3_21_375_0,2011,Urban,3,India,21,Odisha,375,Kendujhar,,,
+3_21_376_0,2011,Rural,3,India,21,Odisha,376,Mayurbhanj,62.2,1.2,39.5
+3_21_376_0,2011,Total,3,India,21,Odisha,376,Mayurbhanj,63.5,1.6,39.7
+3_21_376_0,2011,Urban,3,India,21,Odisha,376,Mayurbhanj,,,
+3_21_377_0,2011,Rural,3,India,21,Odisha,377,Baleshwar,61.5,1.2,53.1
+3_21_377_0,2011,Total,3,India,21,Odisha,377,Baleshwar,64.2,1.7,53.5
+3_21_377_0,2011,Urban,3,India,21,Odisha,377,Baleshwar,,,
+3_21_378_0,2011,Rural,3,India,21,Odisha,378,Bhadrak,50.5,2.1,51.5
+3_21_378_0,2011,Total,3,India,21,Odisha,378,Bhadrak,52.40000000000001,2.5,50.40000000000001
+3_21_378_0,2011,Urban,3,India,21,Odisha,378,Bhadrak,,,
+3_21_379_0,2011,Rural,3,India,21,Odisha,379,Kendrapara,57.8,2.2,36.6
+3_21_379_0,2011,Total,3,India,21,Odisha,379,Kendrapara,59.40000000000001,2.3,36.8
+3_21_379_0,2011,Urban,3,India,21,Odisha,379,Kendrapara,,,
+3_21_380_0,2011,Rural,3,India,21,Odisha,380,Jagatsinghapur,79.2,2.9,41.90000000000001
+3_21_380_0,2011,Total,3,India,21,Odisha,380,Jagatsinghapur,79.10000000000001,3,42
+3_21_380_0,2011,Urban,3,India,21,Odisha,380,Jagatsinghapur,,,
+3_21_381_0,2011,Rural,3,India,21,Odisha,381,Cuttack,58.3,2.4,49.1
+3_21_381_0,2011,Total,3,India,21,Odisha,381,Cuttack,62.3,3.5,48.7
+3_21_381_0,2011,Urban,3,India,21,Odisha,381,Cuttack,,,
+3_21_382_0,2011,Rural,3,India,21,Odisha,382,Jajapur,63.5,1.9,42.1
+3_21_382_0,2011,Total,3,India,21,Odisha,382,Jajapur,63.8,1.9,42.2
+3_21_382_0,2011,Urban,3,India,21,Odisha,382,Jajapur,,,
+3_21_383_0,2011,Rural,3,India,21,Odisha,383,Dhenkanal,47.5,1.5,47.1
+3_21_383_0,2011,Total,3,India,21,Odisha,383,Dhenkanal,50.5,1.6,46.40000000000001
+3_21_383_0,2011,Urban,3,India,21,Odisha,383,Dhenkanal,,,
+3_21_384_0,2011,Rural,3,India,21,Odisha,384,Anugul,44.1,1,35.1
+3_21_384_0,2011,Total,3,India,21,Odisha,384,Anugul,48.8,2.5,37.5
+3_21_384_0,2011,Urban,3,India,21,Odisha,384,Anugul,,,
+3_21_385_0,2011,Rural,3,India,21,Odisha,385,Nayagarh,41.2,1.1,34.8
+3_21_385_0,2011,Total,3,India,21,Odisha,385,Nayagarh,41.8,1.2,34.4
+3_21_385_0,2011,Urban,3,India,21,Odisha,385,Nayagarh,,,
+3_21_386_0,2011,Rural,3,India,21,Odisha,386,Khordha,57.5,1.9,42.2
+3_21_386_0,2011,Total,3,India,21,Odisha,386,Khordha,67.40000000000001,3.8,44.90000000000001
+3_21_386_0,2011,Urban,3,India,21,Odisha,386,Khordha,,,
+3_21_387_0,2011,Rural,3,India,21,Odisha,387,Puri,61.8,2.5,53.40000000000001
+3_21_387_0,2011,Total,3,India,21,Odisha,387,Puri,63.3,2.8,53
+3_21_387_0,2011,Urban,3,India,21,Odisha,387,Puri,,,
+3_21_388_0,2011,Rural,3,India,21,Odisha,388,Ganjam,49.6,1.2,38
+3_21_388_0,2011,Total,3,India,21,Odisha,388,Ganjam,54.7,1.5,38.90000000000001
+3_21_388_0,2011,Urban,3,India,21,Odisha,388,Ganjam,,,
+3_21_389_0,2011,Rural,3,India,21,Odisha,389,Gajapati,39.90000000000001,.1,29.2
+3_21_389_0,2011,Total,3,India,21,Odisha,389,Gajapati,44.5,.5,32.7
+3_21_389_0,2011,Urban,3,India,21,Odisha,389,Gajapati,,,
+3_21_390_0,2011,Rural,3,India,21,Odisha,390,Kandhamal,32.3,.3,25.6
+3_21_390_0,2011,Total,3,India,21,Odisha,390,Kandhamal,34.3,.4,25.6
+3_21_390_0,2011,Urban,3,India,21,Odisha,390,Kandhamal,,,
+3_21_391_0,2011,Rural,3,India,21,Odisha,391,Baudh,49.8,.7000000000000001,25.6
+3_21_391_0,2011,Total,3,India,21,Odisha,391,Baudh,50.8,.8,27.1
+3_21_391_0,2011,Urban,3,India,21,Odisha,391,Baudh,,,
+3_21_392_0,2011,Rural,3,India,21,Odisha,392,Subarnapur,58.8,1.1,32.3
+3_21_392_0,2011,Total,3,India,21,Odisha,392,Subarnapur,60.6,1.1,33.3
+3_21_392_0,2011,Urban,3,India,21,Odisha,392,Subarnapur,,,
+3_21_393_0,2011,Rural,3,India,21,Odisha,393,Balangir,50,.2,34.6
+3_21_393_0,2011,Total,3,India,21,Odisha,393,Balangir,48.3,.3,37.2
+3_21_393_0,2011,Urban,3,India,21,Odisha,393,Balangir,,,
+3_21_394_0,2011,Rural,3,India,21,Odisha,394,Nuapada,51.5,.2,31.7
+3_21_394_0,2011,Total,3,India,21,Odisha,394,Nuapada,52.6,.4,31.6
+3_21_394_0,2011,Urban,3,India,21,Odisha,394,Nuapada,,,
+3_21_395_0,2011,Rural,3,India,21,Odisha,395,Kalahandi,47,.6000000000000001,28.8
+3_21_395_0,2011,Total,3,India,21,Odisha,395,Kalahandi,48.1,.6000000000000001,29
+3_21_395_0,2011,Urban,3,India,21,Odisha,395,Kalahandi,,,
+3_21_396_0,2011,Rural,3,India,21,Odisha,396,Rayagada,46.40000000000001,.6000000000000001,31.5
+3_21_396_0,2011,Total,3,India,21,Odisha,396,Rayagada,49,.6000000000000001,36
+3_21_396_0,2011,Urban,3,India,21,Odisha,396,Rayagada,,,
+3_21_397_0,2011,Rural,3,India,21,Odisha,397,Nabarangapur,65,0,31.6
+3_21_397_0,2011,Total,3,India,21,Odisha,397,Nabarangapur,65.8,.3,33.4
+3_21_397_0,2011,Urban,3,India,21,Odisha,397,Nabarangapur,,,
+3_21_398_0,2011,Rural,3,India,21,Odisha,398,Koraput,39.6,.3,35.1
+3_21_398_0,2011,Total,3,India,21,Odisha,398,Koraput,44.90000000000001,.5,36.6
+3_21_398_0,2011,Urban,3,India,21,Odisha,398,Koraput,,,
+3_21_399_0,2011,Rural,3,India,21,Odisha,399,Malkangiri,34.4,.3,32.4
+3_21_399_0,2011,Total,3,India,21,Odisha,399,Malkangiri,34.9,.5,33.2
+3_21_399_0,2011,Urban,3,India,21,Odisha,399,Malkangiri,,,
+3_22_400_0,2011,Rural,3,India,22,Chhattisgarh,400,Koriya,32.1,.5,35.5
+3_22_400_0,2011,Total,3,India,22,Chhattisgarh,400,Koriya,42.2,2,39.7
+3_22_400_0,2011,Urban,3,India,22,Chhattisgarh,400,Koriya,,,
+3_22_401_0,2011,Rural,3,India,22,Chhattisgarh,401,Surguja,26.7,1.2,40.7
+3_22_401_0,2011,Total,3,India,22,Chhattisgarh,401,Surguja,28,1.5,41.6
+3_22_401_0,2011,Urban,3,India,22,Chhattisgarh,401,Surguja,,,
+3_22_402_0,2011,Rural,3,India,22,Chhattisgarh,402,Jashpur,29.5,1.1,36.3
+3_22_402_0,2011,Total,3,India,22,Chhattisgarh,402,Jashpur,30.9,1.2,36.6
+3_22_402_0,2011,Urban,3,India,22,Chhattisgarh,402,Jashpur,,,
+3_22_403_0,2011,Rural,3,India,22,Chhattisgarh,403,Raigarh,49.8,.7000000000000001,49.7
+3_22_403_0,2011,Total,3,India,22,Chhattisgarh,403,Raigarh,53,.9,52
+3_22_403_0,2011,Urban,3,India,22,Chhattisgarh,403,Raigarh,,,
+3_22_404_0,2011,Rural,3,India,22,Chhattisgarh,404,Korba,30.7,.7000000000000001,37.2
+3_22_404_0,2011,Total,3,India,22,Chhattisgarh,404,Korba,41.90000000000001,1.6,42.2
+3_22_404_0,2011,Urban,3,India,22,Chhattisgarh,404,Korba,,,
+3_22_405_0,2011,Rural,3,India,22,Chhattisgarh,405,Janjgir - Champa,43.6,1,51
+3_22_405_0,2011,Total,3,India,22,Chhattisgarh,405,Janjgir - Champa,45.90000000000001,1,50.2
+3_22_405_0,2011,Urban,3,India,22,Chhattisgarh,405,Janjgir - Champa,,,
+3_22_406_0,2011,Rural,3,India,22,Chhattisgarh,406,Bilaspur,46.2,.8,41.5
+3_22_406_0,2011,Total,3,India,22,Chhattisgarh,406,Bilaspur,51.7,1.7,44.1
+3_22_406_0,2011,Urban,3,India,22,Chhattisgarh,406,Bilaspur,,,
+3_22_407_0,2011,Rural,3,India,22,Chhattisgarh,407,Kabeerdham,47.3,.4,50.90000000000001
+3_22_407_0,2011,Total,3,India,22,Chhattisgarh,407,Kabeerdham,49,.5,51.3
+3_22_407_0,2011,Urban,3,India,22,Chhattisgarh,407,Kabeerdham,,,
+3_22_408_0,2011,Rural,3,India,22,Chhattisgarh,408,Rajnandgaon,62.1,.6000000000000001,55.8
+3_22_408_0,2011,Total,3,India,22,Chhattisgarh,408,Rajnandgaon,65.40000000000001,1.2,55.40000000000001
+3_22_408_0,2011,Urban,3,India,22,Chhattisgarh,408,Rajnandgaon,,,
+3_22_409_0,2011,Rural,3,India,22,Chhattisgarh,409,Durg,61.90000000000001,.6000000000000001,62.5
+3_22_409_0,2011,Total,3,India,22,Chhattisgarh,409,Durg,68.40000000000001,2.9,63
+3_22_409_0,2011,Urban,3,India,22,Chhattisgarh,409,Durg,,,
+3_22_410_0,2011,Rural,3,India,22,Chhattisgarh,410,Raipur,47.40000000000001,1.3,48.90000000000001
+3_22_410_0,2011,Total,3,India,22,Chhattisgarh,410,Raipur,55,3.1,52.1
+3_22_410_0,2011,Urban,3,India,22,Chhattisgarh,410,Raipur,,,
+3_22_411_0,2011,Rural,3,India,22,Chhattisgarh,411,Mahasamund,61.2,.6000000000000001,54.6
+3_22_411_0,2011,Total,3,India,22,Chhattisgarh,411,Mahasamund,64.2,.7000000000000001,55
+3_22_411_0,2011,Urban,3,India,22,Chhattisgarh,411,Mahasamund,,,
+3_22_412_0,2011,Rural,3,India,22,Chhattisgarh,412,Dhamtari,68.3,.6000000000000001,64.90000000000001
+3_22_412_0,2011,Total,3,India,22,Chhattisgarh,412,Dhamtari,72.40000000000001,1.3,65.3
+3_22_412_0,2011,Urban,3,India,22,Chhattisgarh,412,Dhamtari,,,
+3_22_413_0,2011,Rural,3,India,22,Chhattisgarh,413,Uttar Bastar Kanker,61.1,.2,50.3
+3_22_413_0,2011,Total,3,India,22,Chhattisgarh,413,Uttar Bastar Kanker,62.6,.7000000000000001,50.90000000000001
+3_22_413_0,2011,Urban,3,India,22,Chhattisgarh,413,Uttar Bastar Kanker,,,
+3_22_414_0,2011,Rural,3,India,22,Chhattisgarh,414,Bastar,49.5,.4,40.40000000000001
+3_22_414_0,2011,Total,3,India,22,Chhattisgarh,414,Bastar,52.3,.7000000000000001,41.1
+3_22_414_0,2011,Urban,3,India,22,Chhattisgarh,414,Bastar,,,
+3_22_415_0,2011,Rural,3,India,22,Chhattisgarh,415,Narayanpur,49.5,.4,40.40000000000001
+3_22_415_0,2011,Total,3,India,22,Chhattisgarh,415,Narayanpur,52.3,.7000000000000001,41.1
+3_22_415_0,2011,Urban,3,India,22,Chhattisgarh,415,Narayanpur,,,
+3_22_416_0,2011,Rural,3,India,22,Chhattisgarh,416,Dakshin Bastar Dantewada,52.8,.6000000000000001,32.9
+3_22_416_0,2011,Total,3,India,22,Chhattisgarh,416,Dakshin Bastar Dantewada,55.8,1.6,36.5
+3_22_416_0,2011,Urban,3,India,22,Chhattisgarh,416,Dakshin Bastar Dantewada,,,
+3_22_417_0,2011,Rural,3,India,22,Chhattisgarh,417,Bijapur,60.1,.7000000000000001,59.1
+3_22_417_0,2011,Total,3,India,22,Chhattisgarh,417,Bijapur,65.2,1.2,57.3
+3_22_417_0,2011,Urban,3,India,22,Chhattisgarh,417,Bijapur,,,
+3_23_418_0,2011,Rural,3,India,23,Madhya Pradesh,418,Sheopur,12.7,1.3,39.90000000000001
+3_23_418_0,2011,Total,3,India,23,Madhya Pradesh,418,Sheopur,14.4,2.2,41.1
+3_23_418_0,2011,Urban,3,India,23,Madhya Pradesh,418,Sheopur,,,
+3_23_419_0,2011,Rural,3,India,23,Madhya Pradesh,419,Morena,5.600000000000001,3.4,48.8
+3_23_419_0,2011,Total,3,India,23,Madhya Pradesh,419,Morena,12.5,5.5,48
+3_23_419_0,2011,Urban,3,India,23,Madhya Pradesh,419,Morena,,,
+3_23_420_0,2011,Rural,3,India,23,Madhya Pradesh,420,Bhind,15,5,50.7
+3_23_420_0,2011,Total,3,India,23,Madhya Pradesh,420,Bhind,18.6,6.600000000000001,50.3
+3_23_420_0,2011,Urban,3,India,23,Madhya Pradesh,420,Bhind,,,
+3_23_421_0,2011,Rural,3,India,23,Madhya Pradesh,421,Gwalior,15.9,5.100000000000001,51.3
+3_23_421_0,2011,Total,3,India,23,Madhya Pradesh,421,Gwalior,25.8,7.7,51.7
+3_23_421_0,2011,Urban,3,India,23,Madhya Pradesh,421,Gwalior,,,
+3_23_422_0,2011,Rural,3,India,23,Madhya Pradesh,422,Datia,23,4.5,58.2
+3_23_422_0,2011,Total,3,India,23,Madhya Pradesh,422,Datia,24.8,5.100000000000001,56.6
+3_23_422_0,2011,Urban,3,India,23,Madhya Pradesh,422,Datia,,,
+3_23_423_0,2011,Rural,3,India,23,Madhya Pradesh,423,Shivpuri,10.8,4.4,47.3
+3_23_423_0,2011,Total,3,India,23,Madhya Pradesh,423,Shivpuri,14.3,6,47.6
+3_23_423_0,2011,Urban,3,India,23,Madhya Pradesh,423,Shivpuri,,,
+3_23_424_0,2011,Rural,3,India,23,Madhya Pradesh,424,Tikamgarh,17.8,2.8,54.8
+3_23_424_0,2011,Total,3,India,23,Madhya Pradesh,424,Tikamgarh,21.6,4.2,55.40000000000001
+3_23_424_0,2011,Urban,3,India,23,Madhya Pradesh,424,Tikamgarh,,,
+3_23_425_0,2011,Rural,3,India,23,Madhya Pradesh,425,Chhatarpur,24.1,2.6,42.6
+3_23_425_0,2011,Total,3,India,23,Madhya Pradesh,425,Chhatarpur,29.2,3.9,44
+3_23_425_0,2011,Urban,3,India,23,Madhya Pradesh,425,Chhatarpur,,,
+3_23_426_0,2011,Rural,3,India,23,Madhya Pradesh,426,Panna,18.2,1.6,51.1
+3_23_426_0,2011,Total,3,India,23,Madhya Pradesh,426,Panna,20,2.4,51.3
+3_23_426_0,2011,Urban,3,India,23,Madhya Pradesh,426,Panna,,,
+3_23_427_0,2011,Rural,3,India,23,Madhya Pradesh,427,Sagar,31.4,1.6,49.3
+3_23_427_0,2011,Total,3,India,23,Madhya Pradesh,427,Sagar,40.3,3.3,51.2
+3_23_427_0,2011,Urban,3,India,23,Madhya Pradesh,427,Sagar,,,
+3_23_428_0,2011,Rural,3,India,23,Madhya Pradesh,428,Damoh,26.8,1.9,73
+3_23_428_0,2011,Total,3,India,23,Madhya Pradesh,428,Damoh,35.8,2.5,68.7
+3_23_428_0,2011,Urban,3,India,23,Madhya Pradesh,428,Damoh,,,
+3_23_429_0,2011,Rural,3,India,23,Madhya Pradesh,429,Satna,23.7,1.1,47.3
+3_23_429_0,2011,Total,3,India,23,Madhya Pradesh,429,Satna,28.6,2.7,48.1
+3_23_429_0,2011,Urban,3,India,23,Madhya Pradesh,429,Satna,,,
+3_23_430_0,2011,Rural,3,India,23,Madhya Pradesh,430,Rewa,22.5,1,44.40000000000001
+3_23_430_0,2011,Total,3,India,23,Madhya Pradesh,430,Rewa,23.7,1.8,45.40000000000001
+3_23_430_0,2011,Urban,3,India,23,Madhya Pradesh,430,Rewa,,,
+3_23_431_0,2011,Rural,3,India,23,Madhya Pradesh,431,Umaria,25.9,.7000000000000001,44.6
+3_23_431_0,2011,Total,3,India,23,Madhya Pradesh,431,Umaria,30.5,1.9,45.2
+3_23_431_0,2011,Urban,3,India,23,Madhya Pradesh,431,Umaria,,,
+3_23_432_0,2011,Rural,3,India,23,Madhya Pradesh,432,Neemuch,48.2,3.9,49.3
+3_23_432_0,2011,Total,3,India,23,Madhya Pradesh,432,Neemuch,51.90000000000001,6.4,52.2
+3_23_432_0,2011,Urban,3,India,23,Madhya Pradesh,432,Neemuch,,,
+3_23_433_0,2011,Rural,3,India,23,Madhya Pradesh,433,Mandsaur,56,4.2,54.1
+3_23_433_0,2011,Total,3,India,23,Madhya Pradesh,433,Mandsaur,57.5,6.2,56
+3_23_433_0,2011,Urban,3,India,23,Madhya Pradesh,433,Mandsaur,,,
+3_23_434_0,2011,Rural,3,India,23,Madhya Pradesh,434,Ratlam,45.6,.5,54.2
+3_23_434_0,2011,Total,3,India,23,Madhya Pradesh,434,Ratlam,50.2,4.4,57.90000000000001
+3_23_434_0,2011,Urban,3,India,23,Madhya Pradesh,434,Ratlam,,,
+3_23_435_0,2011,Rural,3,India,23,Madhya Pradesh,435,Ujjain,58.8,1.3,64
+3_23_435_0,2011,Total,3,India,23,Madhya Pradesh,435,Ujjain,65.8,9.300000000000001,63.90000000000001
+3_23_435_0,2011,Urban,3,India,23,Madhya Pradesh,435,Ujjain,,,
+3_23_436_0,2011,Rural,3,India,23,Madhya Pradesh,436,Shajapur,55,2.9,55.8
+3_23_436_0,2011,Total,3,India,23,Madhya Pradesh,436,Shajapur,56.1,5.600000000000001,57.40000000000001
+3_23_436_0,2011,Urban,3,India,23,Madhya Pradesh,436,Shajapur,,,
+3_23_437_0,2011,Rural,3,India,23,Madhya Pradesh,437,Dewas,45.6,3.3,64.2
+3_23_437_0,2011,Total,3,India,23,Madhya Pradesh,437,Dewas,53.40000000000001,4.800000000000001,65.7
+3_23_437_0,2011,Urban,3,India,23,Madhya Pradesh,437,Dewas,,,
+3_23_438_0,2011,Rural,3,India,23,Madhya Pradesh,438,Dhar,30.8,1.5,56.90000000000001
+3_23_438_0,2011,Total,3,India,23,Madhya Pradesh,438,Dhar,37.3,3.9,58.5
+3_23_438_0,2011,Urban,3,India,23,Madhya Pradesh,438,Dhar,,,
+3_23_439_0,2011,Rural,3,India,23,Madhya Pradesh,439,Indore,37.6,4.800000000000001,64
+3_23_439_0,2011,Total,3,India,23,Madhya Pradesh,439,Indore,67.8,10,62.7
+3_23_439_0,2011,Urban,3,India,23,Madhya Pradesh,439,Indore,,,
+3_23_440_0,2011,Rural,3,India,23,Madhya Pradesh,440,Khargone (West Nimar),34.8,3,66.2
+3_23_440_0,2011,Total,3,India,23,Madhya Pradesh,440,Khargone (West Nimar),38.2,3.8,66.60000000000001
+3_23_440_0,2011,Urban,3,India,23,Madhya Pradesh,440,Khargone (West Nimar),,,
+3_23_441_0,2011,Rural,3,India,23,Madhya Pradesh,441,Barwani,16.9,.5,45.6
+3_23_441_0,2011,Total,3,India,23,Madhya Pradesh,441,Barwani,21.6,1.4,47.5
+3_23_441_0,2011,Urban,3,India,23,Madhya Pradesh,441,Barwani,,,
+3_23_442_0,2011,Rural,3,India,23,Madhya Pradesh,442,Rajgarh,40.3,2.1,44.8
+3_23_442_0,2011,Total,3,India,23,Madhya Pradesh,442,Rajgarh,42,4.4,46.1
+3_23_442_0,2011,Urban,3,India,23,Madhya Pradesh,442,Rajgarh,,,
+3_23_443_0,2011,Rural,3,India,23,Madhya Pradesh,443,Vidisha,26.4,4.5,51
+3_23_443_0,2011,Total,3,India,23,Madhya Pradesh,443,Vidisha,33.6,9.600000000000001,54.5
+3_23_443_0,2011,Urban,3,India,23,Madhya Pradesh,443,Vidisha,,,
+3_23_444_0,2011,Rural,3,India,23,Madhya Pradesh,444,Bhopal,21.9,6.4,47.40000000000001
+3_23_444_0,2011,Total,3,India,23,Madhya Pradesh,444,Bhopal,59.40000000000001,12.5,57.5
+3_23_444_0,2011,Urban,3,India,23,Madhya Pradesh,444,Bhopal,,,
+3_23_445_0,2011,Rural,3,India,23,Madhya Pradesh,445,Sehore,38.90000000000001,2.8,60.40000000000001
+3_23_445_0,2011,Total,3,India,23,Madhya Pradesh,445,Sehore,45,5.600000000000001,60.8
+3_23_445_0,2011,Urban,3,India,23,Madhya Pradesh,445,Sehore,,,
+3_23_446_0,2011,Rural,3,India,23,Madhya Pradesh,446,Raisen,23.2,2.9,50.6
+3_23_446_0,2011,Total,3,India,23,Madhya Pradesh,446,Raisen,25.9,5,51.6
+3_23_446_0,2011,Urban,3,India,23,Madhya Pradesh,446,Raisen,,,
+3_23_447_0,2011,Rural,3,India,23,Madhya Pradesh,447,Betul,35.7,1.3,61
+3_23_447_0,2011,Total,3,India,23,Madhya Pradesh,447,Betul,43.2,2.3,62.7
+3_23_447_0,2011,Urban,3,India,23,Madhya Pradesh,447,Betul,,,
+3_23_448_0,2011,Rural,3,India,23,Madhya Pradesh,448,Harda,36.5,3.2,59.40000000000001
+3_23_448_0,2011,Total,3,India,23,Madhya Pradesh,448,Harda,42,6.100000000000001,61.1
+3_23_448_0,2011,Urban,3,India,23,Madhya Pradesh,448,Harda,,,
+3_23_449_0,2011,Rural,3,India,23,Madhya Pradesh,449,Hoshangabad,36.2,2.3,60.5
+3_23_449_0,2011,Total,3,India,23,Madhya Pradesh,449,Hoshangabad,45.6,6,63.90000000000001
+3_23_449_0,2011,Urban,3,India,23,Madhya Pradesh,449,Hoshangabad,,,
+3_23_450_0,2011,Rural,3,India,23,Madhya Pradesh,450,Katni,14.9,1.7,52.1
+3_23_450_0,2011,Total,3,India,23,Madhya Pradesh,450,Katni,19.7,2.2,51.2
+3_23_450_0,2011,Urban,3,India,23,Madhya Pradesh,450,Katni,,,
+3_23_451_0,2011,Rural,3,India,23,Madhya Pradesh,451,Jabalpur,43.5,1.4,69.90000000000001
+3_23_451_0,2011,Total,3,India,23,Madhya Pradesh,451,Jabalpur,61.1,3.8,65.8
+3_23_451_0,2011,Urban,3,India,23,Madhya Pradesh,451,Jabalpur,,,
+3_23_452_0,2011,Rural,3,India,23,Madhya Pradesh,452,Narsimhapur,44.6,2.4,67.8
+3_23_452_0,2011,Total,3,India,23,Madhya Pradesh,452,Narsimhapur,50.40000000000001,3.1,65.90000000000001
+3_23_452_0,2011,Urban,3,India,23,Madhya Pradesh,452,Narsimhapur,,,
+3_23_453_0,2011,Rural,3,India,23,Madhya Pradesh,453,Dindori,16.6,.3,54.3
+3_23_453_0,2011,Total,3,India,23,Madhya Pradesh,453,Dindori,16.9,.6000000000000001,55.2
+3_23_453_0,2011,Urban,3,India,23,Madhya Pradesh,453,Dindori,,,
+3_23_454_0,2011,Rural,3,India,23,Madhya Pradesh,454,Mandla,23.9,.5,62.40000000000001
+3_23_454_0,2011,Total,3,India,23,Madhya Pradesh,454,Mandla,28.4,1.3,62
+3_23_454_0,2011,Urban,3,India,23,Madhya Pradesh,454,Mandla,,,
+3_23_455_0,2011,Rural,3,India,23,Madhya Pradesh,455,Chhindwara,35.6,1,59.7
+3_23_455_0,2011,Total,3,India,23,Madhya Pradesh,455,Chhindwara,44.3,2.1,58.8
+3_23_455_0,2011,Urban,3,India,23,Madhya Pradesh,455,Chhindwara,,,
+3_23_456_0,2011,Rural,3,India,23,Madhya Pradesh,456,Seoni,46.2,1.4,63.8
+3_23_456_0,2011,Total,3,India,23,Madhya Pradesh,456,Seoni,48.40000000000001,1.9,62.8
+3_23_456_0,2011,Urban,3,India,23,Madhya Pradesh,456,Seoni,,,
+3_23_457_0,2011,Rural,3,India,23,Madhya Pradesh,457,Balaghat,60.8,1.5,57.3
+3_23_457_0,2011,Total,3,India,23,Madhya Pradesh,457,Balaghat,64,2,58.2
+3_23_457_0,2011,Urban,3,India,23,Madhya Pradesh,457,Balaghat,,,
+3_23_458_0,2011,Rural,3,India,23,Madhya Pradesh,458,Guna,11.4,3.1,48
+3_23_458_0,2011,Total,3,India,23,Madhya Pradesh,458,Guna,16.6,4.4,49.1
+3_23_458_0,2011,Urban,3,India,23,Madhya Pradesh,458,Guna,,,
+3_23_459_0,2011,Rural,3,India,23,Madhya Pradesh,459,Ashoknagar,11.4,3.1,48
+3_23_459_0,2011,Total,3,India,23,Madhya Pradesh,459,Ashoknagar,16.6,4.4,49.1
+3_23_459_0,2011,Urban,3,India,23,Madhya Pradesh,459,Ashoknagar,,,
+3_23_460_0,2011,Rural,3,India,23,Madhya Pradesh,460,Shahdol,33.9,.5,45.3
+3_23_460_0,2011,Total,3,India,23,Madhya Pradesh,460,Shahdol,42.3,1.3,47.3
+3_23_460_0,2011,Urban,3,India,23,Madhya Pradesh,460,Shahdol,,,
+3_23_461_0,2011,Rural,3,India,23,Madhya Pradesh,461,Anuppur,33.9,.5,45.3
+3_23_461_0,2011,Total,3,India,23,Madhya Pradesh,461,Anuppur,42.3,1.3,47.3
+3_23_461_0,2011,Urban,3,India,23,Madhya Pradesh,461,Anuppur,,,
+3_23_462_0,2011,Rural,3,India,23,Madhya Pradesh,462,Sidhi,14.3,1.7,37.1
+3_23_462_0,2011,Total,3,India,23,Madhya Pradesh,462,Sidhi,15.6,1.6,37.2
+3_23_462_0,2011,Urban,3,India,23,Madhya Pradesh,462,Sidhi,,,
+3_23_463_0,2011,Rural,3,India,23,Madhya Pradesh,463,Singrauli,14.3,1.7,37.1
+3_23_463_0,2011,Total,3,India,23,Madhya Pradesh,463,Singrauli,15.6,1.6,37.2
+3_23_463_0,2011,Urban,3,India,23,Madhya Pradesh,463,Singrauli,,,
+3_23_464_0,2011,Rural,3,India,23,Madhya Pradesh,464,Jhabua,20.7,.1,39.6
+3_23_464_0,2011,Total,3,India,23,Madhya Pradesh,464,Jhabua,23.5,.8,42
+3_23_464_0,2011,Urban,3,India,23,Madhya Pradesh,464,Jhabua,,,
+3_23_465_0,2011,Rural,3,India,23,Madhya Pradesh,465,Alirajpur,20.7,.1,39.6
+3_23_465_0,2011,Total,3,India,23,Madhya Pradesh,465,Alirajpur,23.5,.8,42
+3_23_465_0,2011,Urban,3,India,23,Madhya Pradesh,465,Alirajpur,,,
+3_23_466_0,2011,Rural,3,India,23,Madhya Pradesh,466,Khandwa (East Nimar),21.7,3.1,61.7
+3_23_466_0,2011,Total,3,India,23,Madhya Pradesh,466,Khandwa (East Nimar),27.2,4.3,62.7
+3_23_466_0,2011,Urban,3,India,23,Madhya Pradesh,466,Khandwa (East Nimar),,,
+3_23_467_0,2011,Rural,3,India,23,Madhya Pradesh,467,Burhanpur,21.7,3.1,61.7
+3_23_467_0,2011,Total,3,India,23,Madhya Pradesh,467,Burhanpur,27.2,4.3,62.7
+3_23_467_0,2011,Urban,3,India,23,Madhya Pradesh,467,Burhanpur,,,
+3_24_468_0,2011,Rural,3,India,24,Gujarat,468,Kachchh,38.1,5.2,43.90000000000001
+3_24_468_0,2011,Total,3,India,24,Gujarat,468,Kachchh,48.5,4.9,44.8
+3_24_468_0,2011,Urban,3,India,24,Gujarat,468,Kachchh,,,
+3_24_469_0,2011,Rural,3,India,24,Gujarat,469,Banas Kantha,28,2.3,47.6
+3_24_469_0,2011,Total,3,India,24,Gujarat,469,Banas Kantha,28.7,3,48.40000000000001
+3_24_469_0,2011,Urban,3,India,24,Gujarat,469,Banas Kantha,,,
+3_24_470_0,2011,Rural,3,India,24,Gujarat,470,Patan,52.6,4.4,53.40000000000001
+3_24_470_0,2011,Total,3,India,24,Gujarat,470,Patan,53.40000000000001,5.4,54.6
+3_24_470_0,2011,Urban,3,India,24,Gujarat,470,Patan,,,
+3_24_471_0,2011,Rural,3,India,24,Gujarat,471,Mahesana,53.7,6.5,59.6
+3_24_471_0,2011,Total,3,India,24,Gujarat,471,Mahesana,59,7.300000000000001,57.8
+3_24_471_0,2011,Urban,3,India,24,Gujarat,471,Mahesana,,,
+3_24_472_0,2011,Rural,3,India,24,Gujarat,472,Sabar Kantha,44.6,4.100000000000001,49.5
+3_24_472_0,2011,Total,3,India,24,Gujarat,472,Sabar Kantha,49.7,4.9,50
+3_24_472_0,2011,Urban,3,India,24,Gujarat,472,Sabar Kantha,,,
+3_24_473_0,2011,Rural,3,India,24,Gujarat,473,Gandhinagar,61.6,5.600000000000001,62.2
+3_24_473_0,2011,Total,3,India,24,Gujarat,473,Gandhinagar,59.3,6.800000000000001,60
+3_24_473_0,2011,Urban,3,India,24,Gujarat,473,Gandhinagar,,,
+3_24_474_0,2011,Rural,3,India,24,Gujarat,474,Ahmadabad,30.6,3,57.5
+3_24_474_0,2011,Total,3,India,24,Gujarat,474,Ahmadabad,67.3,6.300000000000001,53.40000000000001
+3_24_474_0,2011,Urban,3,India,24,Gujarat,474,Ahmadabad,,,
+3_24_475_0,2011,Rural,3,India,24,Gujarat,475,Surendranagar,31.6,5.2,58.2
+3_24_475_0,2011,Total,3,India,24,Gujarat,475,Surendranagar,39,5.800000000000001,56.2
+3_24_475_0,2011,Urban,3,India,24,Gujarat,475,Surendranagar,,,
+3_24_476_0,2011,Rural,3,India,24,Gujarat,476,Rajkot,71.40000000000001,4.3,58.40000000000001
+3_24_476_0,2011,Total,3,India,24,Gujarat,476,Rajkot,82.2,8.300000000000001,60.8
+3_24_476_0,2011,Urban,3,India,24,Gujarat,476,Rajkot,,,
+3_24_477_0,2011,Rural,3,India,24,Gujarat,477,Jamnagar,73.2,3.5,61.3
+3_24_477_0,2011,Total,3,India,24,Gujarat,477,Jamnagar,75,5.800000000000001,61.7
+3_24_477_0,2011,Urban,3,India,24,Gujarat,477,Jamnagar,,,
+3_24_478_0,2011,Rural,3,India,24,Gujarat,478,Porbandar,65.3,4.800000000000001,58.40000000000001
+3_24_478_0,2011,Total,3,India,24,Gujarat,478,Porbandar,71.3,5.100000000000001,54.5
+3_24_478_0,2011,Urban,3,India,24,Gujarat,478,Porbandar,,,
+3_24_479_0,2011,Rural,3,India,24,Gujarat,479,Junagadh,71.2,3.7,60.2
+3_24_479_0,2011,Total,3,India,24,Gujarat,479,Junagadh,74.7,4.9,59.90000000000001
+3_24_479_0,2011,Urban,3,India,24,Gujarat,479,Junagadh,,,
+3_24_480_0,2011,Rural,3,India,24,Gujarat,480,Amreli,64.5,2.2,65.2
+3_24_480_0,2011,Total,3,India,24,Gujarat,480,Amreli,63.8,3.7,65.10000000000001
+3_24_480_0,2011,Urban,3,India,24,Gujarat,480,Amreli,,,
+3_24_481_0,2011,Rural,3,India,24,Gujarat,481,Bhavnagar,50,2,63.2
+3_24_481_0,2011,Total,3,India,24,Gujarat,481,Bhavnagar,58,3.2,59.3
+3_24_481_0,2011,Urban,3,India,24,Gujarat,481,Bhavnagar,,,
+3_24_482_0,2011,Rural,3,India,24,Gujarat,482,Anand,63.8,2.7,56.1
+3_24_482_0,2011,Total,3,India,24,Gujarat,482,Anand,68.5,3.6,57.1
+3_24_482_0,2011,Urban,3,India,24,Gujarat,482,Anand,,,
+3_24_483_0,2011,Rural,3,India,24,Gujarat,483,Kheda,63.1,3.4,60.2
+3_24_483_0,2011,Total,3,India,24,Gujarat,483,Kheda,62.2,3.9,60.3
+3_24_483_0,2011,Urban,3,India,24,Gujarat,483,Kheda,,,
+3_24_484_0,2011,Rural,3,India,24,Gujarat,484,Panch Mahals,51.6,1.1,50.40000000000001
+3_24_484_0,2011,Total,3,India,24,Gujarat,484,Panch Mahals,55.3,1.7,50.40000000000001
+3_24_484_0,2011,Urban,3,India,24,Gujarat,484,Panch Mahals,,,
+3_24_485_0,2011,Rural,3,India,24,Gujarat,485,Dohad,48.5,.7000000000000001,35.7
+3_24_485_0,2011,Total,3,India,24,Gujarat,485,Dohad,46.5,1.2,37.9
+3_24_485_0,2011,Urban,3,India,24,Gujarat,485,Dohad,,,
+3_24_486_0,2011,Rural,3,India,24,Gujarat,486,Vadodara,32.9,2.1,60.1
+3_24_486_0,2011,Total,3,India,24,Gujarat,486,Vadodara,50.2,4.2,62.3
+3_24_486_0,2011,Urban,3,India,24,Gujarat,486,Vadodara,,,
+3_24_487_0,2011,Rural,3,India,24,Gujarat,487,Narmada,42.5,2.7,59.6
+3_24_487_0,2011,Total,3,India,24,Gujarat,487,Narmada,48.40000000000001,2.8,59.90000000000001
+3_24_487_0,2011,Urban,3,India,24,Gujarat,487,Narmada,,,
+3_24_488_0,2011,Rural,3,India,24,Gujarat,488,Bharuch,60.3,2.6,66.90000000000001
+3_24_488_0,2011,Total,3,India,24,Gujarat,488,Bharuch,64.60000000000001,3.5,65
+3_24_488_0,2011,Urban,3,India,24,Gujarat,488,Bharuch,,,
+3_24_489_0,2011,Rural,3,India,24,Gujarat,489,The Dangs,19.4,.8,52.1
+3_24_489_0,2011,Total,3,India,24,Gujarat,489,The Dangs,20.9,.8,52.1
+3_24_489_0,2011,Urban,3,India,24,Gujarat,489,The Dangs,,,
+3_24_490_0,2011,Rural,3,India,24,Gujarat,490,Navsari,82.7,1.2,64.7
+3_24_490_0,2011,Total,3,India,24,Gujarat,490,Navsari,77.80000000000001,2.9,63.40000000000001
+3_24_490_0,2011,Urban,3,India,24,Gujarat,490,Navsari,,,
+3_24_491_0,2011,Rural,3,India,24,Gujarat,491,Valsad,57.8,1.1,54.8
+3_24_491_0,2011,Total,3,India,24,Gujarat,491,Valsad,47,2,56.90000000000001
+3_24_491_0,2011,Urban,3,India,24,Gujarat,491,Valsad,,,
+3_24_492_0,2011,Rural,3,India,24,Gujarat,492,Surat,81.5,2.7,74.5
+3_24_492_0,2011,Total,3,India,24,Gujarat,492,Surat,78.40000000000001,4.600000000000001,65.90000000000001
+3_24_492_0,2011,Urban,3,India,24,Gujarat,492,Surat,,,
+3_24_493_0,2011,Rural,3,India,24,Gujarat,493,Tapi,81.5,2.7,74.5
+3_24_493_0,2011,Total,3,India,24,Gujarat,493,Tapi,78.40000000000001,4.600000000000001,65.90000000000001
+3_24_493_0,2011,Urban,3,India,24,Gujarat,493,Tapi,,,
+3_25_494_0,2011,Rural,3,India,25,Daman & Diu,494,Diu,78.80000000000001,2.7,52.90000000000001
+3_25_494_0,2011,Total,3,India,25,Daman & Diu,494,Diu,84.40000000000001,4.600000000000001,49.7
+3_25_494_0,2011,Urban,3,India,25,Daman & Diu,494,Diu,,,
+3_25_495_0,2011,Rural,3,India,25,Daman & Diu,495,Daman,89.30000000000001,5.2,60.1
+3_25_495_0,2011,Total,3,India,25,Daman & Diu,495,Daman,91.10000000000001,8.300000000000001,59.2
+3_25_495_0,2011,Urban,3,India,25,Daman & Diu,495,Daman,,,
+3_26_496_0,2011,Rural,3,India,26,Dadra & Nagar Haveli,496,Dadra & Nagar Haveli,58.2,2.8,51.5
+3_26_496_0,2011,Total,3,India,26,Dadra & Nagar Haveli,496,Dadra & Nagar Haveli,63.3,4,51.90000000000001
+3_26_496_0,2011,Urban,3,India,26,Dadra & Nagar Haveli,496,Dadra & Nagar Haveli,,,
+3_27_497_0,2011,Rural,3,India,27,Maharashtra,497,Nandurbar,34.5,1.5,56
+3_27_497_0,2011,Total,3,India,27,Maharashtra,497,Nandurbar,38.3,2.1,58.1
+3_27_497_0,2011,Urban,3,India,27,Maharashtra,497,Nandurbar,,,
+3_27_498_0,2011,Rural,3,India,27,Maharashtra,498,Dhule,42.7,2.9,68.40000000000001
+3_27_498_0,2011,Total,3,India,27,Maharashtra,498,Dhule,49.5,5,67.40000000000001
+3_27_498_0,2011,Urban,3,India,27,Maharashtra,498,Dhule,,,
+3_27_499_0,2011,Rural,3,India,27,Maharashtra,499,Jalgaon,52.7,2.5,65
+3_27_499_0,2011,Total,3,India,27,Maharashtra,499,Jalgaon,58.2,5.9,66.60000000000001
+3_27_499_0,2011,Urban,3,India,27,Maharashtra,499,Jalgaon,,,
+3_27_500_0,2011,Rural,3,India,27,Maharashtra,500,Buldana,63.3,6.800000000000001,63.7
+3_27_500_0,2011,Total,3,India,27,Maharashtra,500,Buldana,66.7,7,62
+3_27_500_0,2011,Urban,3,India,27,Maharashtra,500,Buldana,,,
+3_27_501_0,2011,Rural,3,India,27,Maharashtra,501,Akola,62.40000000000001,5.800000000000001,67
+3_27_501_0,2011,Total,3,India,27,Maharashtra,501,Akola,69.10000000000001,7.2,65.7
+3_27_501_0,2011,Urban,3,India,27,Maharashtra,501,Akola,,,
+3_27_502_0,2011,Rural,3,India,27,Maharashtra,502,Washim,65.60000000000001,6.100000000000001,66.3
+3_27_502_0,2011,Total,3,India,27,Maharashtra,502,Washim,68.60000000000001,6.4,65.8
+3_27_502_0,2011,Urban,3,India,27,Maharashtra,502,Washim,,,
+3_27_503_0,2011,Rural,3,India,27,Maharashtra,503,Amravati,73.90000000000001,4.4,69.8
+3_27_503_0,2011,Total,3,India,27,Maharashtra,503,Amravati,77.90000000000001,6.800000000000001,70.5
+3_27_503_0,2011,Urban,3,India,27,Maharashtra,503,Amravati,,,
+3_27_504_0,2011,Rural,3,India,27,Maharashtra,504,Wardha,88.5,3.6,79.40000000000001
+3_27_504_0,2011,Total,3,India,27,Maharashtra,504,Wardha,88.60000000000001,5.4,78.10000000000001
+3_27_504_0,2011,Urban,3,India,27,Maharashtra,504,Wardha,,,
+3_27_505_0,2011,Rural,3,India,27,Maharashtra,505,Nagpur,97.30000000000001,4.5,72.5
+3_27_505_0,2011,Total,3,India,27,Maharashtra,505,Nagpur,95.5,6.600000000000001,69.90000000000001
+3_27_505_0,2011,Urban,3,India,27,Maharashtra,505,Nagpur,,,
+3_27_506_0,2011,Rural,3,India,27,Maharashtra,506,Bhandara,83.7,3.3,68.8
+3_27_506_0,2011,Total,3,India,27,Maharashtra,506,Bhandara,84.5,4.2,68.8
+3_27_506_0,2011,Urban,3,India,27,Maharashtra,506,Bhandara,,,
+3_27_507_0,2011,Rural,3,India,27,Maharashtra,507,Gondiya,81.7,1.9,65.8
+3_27_507_0,2011,Total,3,India,27,Maharashtra,507,Gondiya,83,1.9,65.5
+3_27_507_0,2011,Urban,3,India,27,Maharashtra,507,Gondiya,,,
+3_27_508_0,2011,Rural,3,India,27,Maharashtra,508,Gadchiroli,72.3,.8,58.6
+3_27_508_0,2011,Total,3,India,27,Maharashtra,508,Gadchiroli,72.5,1.5,58.5
+3_27_508_0,2011,Urban,3,India,27,Maharashtra,508,Gadchiroli,,,
+3_27_509_0,2011,Rural,3,India,27,Maharashtra,509,Chandrapur,80,1.7,63.40000000000001
+3_27_509_0,2011,Total,3,India,27,Maharashtra,509,Chandrapur,83.2,3.9,65.7
+3_27_509_0,2011,Urban,3,India,27,Maharashtra,509,Chandrapur,,,
+3_27_510_0,2011,Rural,3,India,27,Maharashtra,510,Yavatmal,68.60000000000001,2.6,66.2
+3_27_510_0,2011,Total,3,India,27,Maharashtra,510,Yavatmal,71.5,4.100000000000001,66.60000000000001
+3_27_510_0,2011,Urban,3,India,27,Maharashtra,510,Yavatmal,,,
+3_27_511_0,2011,Rural,3,India,27,Maharashtra,511,Nanded,73.3,1.5,62.3
+3_27_511_0,2011,Total,3,India,27,Maharashtra,511,Nanded,76.2,2.1,59.8
+3_27_511_0,2011,Urban,3,India,27,Maharashtra,511,Nanded,,,
+3_27_512_0,2011,Rural,3,India,27,Maharashtra,512,Hingoli,67.5,1.6,62.90000000000001
+3_27_512_0,2011,Total,3,India,27,Maharashtra,512,Hingoli,69.3,1.6,62.2
+3_27_512_0,2011,Urban,3,India,27,Maharashtra,512,Hingoli,,,
+3_27_513_0,2011,Rural,3,India,27,Maharashtra,513,Parbhani,63.90000000000001,3.1,57.6
+3_27_513_0,2011,Total,3,India,27,Maharashtra,513,Parbhani,69,4.5,57.1
+3_27_513_0,2011,Urban,3,India,27,Maharashtra,513,Parbhani,,,
+3_27_514_0,2011,Rural,3,India,27,Maharashtra,514,Jalna,67.90000000000001,3.7,54.6
+3_27_514_0,2011,Total,3,India,27,Maharashtra,514,Jalna,69.3,5.300000000000001,55.1
+3_27_514_0,2011,Urban,3,India,27,Maharashtra,514,Jalna,,,
+3_27_515_0,2011,Rural,3,India,27,Maharashtra,515,Aurangabad,53,2.9,58.90000000000001
+3_27_515_0,2011,Total,3,India,27,Maharashtra,515,Aurangabad,57.2,6.2,58
+3_27_515_0,2011,Urban,3,India,27,Maharashtra,515,Aurangabad,,,
+3_27_516_0,2011,Rural,3,India,27,Maharashtra,516,Nashik,62.7,2.9,66.10000000000001
+3_27_516_0,2011,Total,3,India,27,Maharashtra,516,Nashik,71.60000000000001,5.800000000000001,68.40000000000001
+3_27_516_0,2011,Urban,3,India,27,Maharashtra,516,Nashik,,,
+3_27_517_0,2011,Rural,3,India,27,Maharashtra,517,Thane,83,1,51.2
+3_27_517_0,2011,Total,3,India,27,Maharashtra,517,Thane,84.7,6.300000000000001,57.40000000000001
+3_27_517_0,2011,Urban,3,India,27,Maharashtra,517,Thane,,,
+3_27_518_0,2011,Rural,3,India,27,Maharashtra,518,Mumbai Suburban,,,
+3_27_518_0,2011,Total,3,India,27,Maharashtra,518,Mumbai Suburban,89.7,9.600000000000001,58.3
+3_27_518_0,2011,Urban,3,India,27,Maharashtra,518,Mumbai Suburban,,,
+3_27_519_0,2011,Rural,3,India,27,Maharashtra,519,Mumbai,,,
+3_27_519_0,2011,Total,3,India,27,Maharashtra,519,Mumbai,92.7,9.300000000000001,56.2
+3_27_519_0,2011,Urban,3,India,27,Maharashtra,519,Mumbai,,,
+3_27_520_0,2011,Rural,3,India,27,Maharashtra,520,Raigarh,80.10000000000001,2,62.1
+3_27_520_0,2011,Total,3,India,27,Maharashtra,520,Raigarh,83.80000000000001,3.3,62.7
+3_27_520_0,2011,Urban,3,India,27,Maharashtra,520,Raigarh,,,
+3_27_521_0,2011,Rural,3,India,27,Maharashtra,521,Pune,83,.2,71.2
+3_27_521_0,2011,Total,3,India,27,Maharashtra,521,Pune,89,4.7,70.40000000000001
+3_27_521_0,2011,Urban,3,India,27,Maharashtra,521,Pune,,,
+3_27_522_0,2011,Rural,3,India,27,Maharashtra,522,Ahmadnagar,81.7,4.5,70.10000000000001
+3_27_522_0,2011,Total,3,India,27,Maharashtra,522,Ahmadnagar,83.60000000000001,5.2,68.5
+3_27_522_0,2011,Urban,3,India,27,Maharashtra,522,Ahmadnagar,,,
+3_27_523_0,2011,Rural,3,India,27,Maharashtra,523,Bid,62.6,1.9,62.2
+3_27_523_0,2011,Total,3,India,27,Maharashtra,523,Bid,61.5,3.1,61.90000000000001
+3_27_523_0,2011,Urban,3,India,27,Maharashtra,523,Bid,,,
+3_27_524_0,2011,Rural,3,India,27,Maharashtra,524,Latur,73.7,2.1,62.7
+3_27_524_0,2011,Total,3,India,27,Maharashtra,524,Latur,76.2,2.6,63.3
+3_27_524_0,2011,Urban,3,India,27,Maharashtra,524,Latur,,,
+3_27_525_0,2011,Rural,3,India,27,Maharashtra,525,Osmanabad,70,1,66.3
+3_27_525_0,2011,Total,3,India,27,Maharashtra,525,Osmanabad,71.90000000000001,1.9,66.40000000000001
+3_27_525_0,2011,Urban,3,India,27,Maharashtra,525,Osmanabad,,,
+3_27_526_0,2011,Rural,3,India,27,Maharashtra,526,Solapur,83.40000000000001,.7000000000000001,71.8
+3_27_526_0,2011,Total,3,India,27,Maharashtra,526,Solapur,86.60000000000001,3.3,73.2
+3_27_526_0,2011,Urban,3,India,27,Maharashtra,526,Solapur,,,
+3_27_527_0,2011,Rural,3,India,27,Maharashtra,527,Satara,92.80000000000001,3.6,70.10000000000001
+3_27_527_0,2011,Total,3,India,27,Maharashtra,527,Satara,92.60000000000001,4.4,70.40000000000001
+3_27_527_0,2011,Urban,3,India,27,Maharashtra,527,Satara,,,
+3_27_528_0,2011,Rural,3,India,27,Maharashtra,528,Ratnagiri,81.90000000000001,2.2,57.5
+3_27_528_0,2011,Total,3,India,27,Maharashtra,528,Ratnagiri,83.30000000000001,3,58.40000000000001
+3_27_528_0,2011,Urban,3,India,27,Maharashtra,528,Ratnagiri,,,
+3_27_529_0,2011,Rural,3,India,27,Maharashtra,529,Sindhudurg,92.30000000000001,4.2,57.5
+3_27_529_0,2011,Total,3,India,27,Maharashtra,529,Sindhudurg,92.5,4.5,57
+3_27_529_0,2011,Urban,3,India,27,Maharashtra,529,Sindhudurg,,,
+3_27_530_0,2011,Rural,3,India,27,Maharashtra,530,Kolhapur,83.60000000000001,1.8,72.2
+3_27_530_0,2011,Total,3,India,27,Maharashtra,530,Kolhapur,82.80000000000001,3.2,70
+3_27_530_0,2011,Urban,3,India,27,Maharashtra,530,Kolhapur,,,
+3_27_531_0,2011,Rural,3,India,27,Maharashtra,531,Sangli,79.60000000000001,2.2,68.40000000000001
+3_27_531_0,2011,Total,3,India,27,Maharashtra,531,Sangli,81.60000000000001,2.9,69.3
+3_27_531_0,2011,Urban,3,India,27,Maharashtra,531,Sangli,,,
+3_28_532_0,2011,Rural,3,India,28,Andhra Pradesh,532,Adilabad,76.40000000000001,.2,52.6
+3_28_532_0,2011,Total,3,India,28,Andhra Pradesh,532,Adilabad,79.2,.2,56.90000000000001
+3_28_532_0,2011,Urban,3,India,28,Andhra Pradesh,532,Adilabad,,,
+3_28_533_0,2011,Rural,3,India,28,Andhra Pradesh,533,Nizamabad,97.5,0,56.40000000000001
+3_28_533_0,2011,Total,3,India,28,Andhra Pradesh,533,Nizamabad,95.30000000000001,.1,58.6
+3_28_533_0,2011,Urban,3,India,28,Andhra Pradesh,533,Nizamabad,,,
+3_28_534_0,2011,Rural,3,India,28,Andhra Pradesh,534,Karimnagar,95.7,.4,69.40000000000001
+3_28_534_0,2011,Total,3,India,28,Andhra Pradesh,534,Karimnagar,97.30000000000001,.3,67.8
+3_28_534_0,2011,Urban,3,India,28,Andhra Pradesh,534,Karimnagar,,,
+3_28_535_0,2011,Rural,3,India,28,Andhra Pradesh,535,Medak,93.30000000000001,0,58.7
+3_28_535_0,2011,Total,3,India,28,Andhra Pradesh,535,Medak,93.2,0,58.8
+3_28_535_0,2011,Urban,3,India,28,Andhra Pradesh,535,Medak,,,
+3_28_536_0,2011,Rural,3,India,28,Andhra Pradesh,536,Hyderabad,,,
+3_28_536_0,2011,Total,3,India,28,Andhra Pradesh,536,Hyderabad,98,1.3,64.60000000000001
+3_28_536_0,2011,Urban,3,India,28,Andhra Pradesh,536,Hyderabad,,,
+3_28_537_0,2011,Rural,3,India,28,Andhra Pradesh,537,Rangareddy,99.10000000000001,0,63.40000000000001
+3_28_537_0,2011,Total,3,India,28,Andhra Pradesh,537,Rangareddy,97,.3,64.7
+3_28_537_0,2011,Urban,3,India,28,Andhra Pradesh,537,Rangareddy,,,
+3_28_538_0,2011,Rural,3,India,28,Andhra Pradesh,538,Mahbubnagar,86.30000000000001,.3,58.1
+3_28_538_0,2011,Total,3,India,28,Andhra Pradesh,538,Mahbubnagar,87.30000000000001,.3,58.8
+3_28_538_0,2011,Urban,3,India,28,Andhra Pradesh,538,Mahbubnagar,,,
+3_28_539_0,2011,Rural,3,India,28,Andhra Pradesh,539,Nalgonda,95.10000000000001,0,69
+3_28_539_0,2011,Total,3,India,28,Andhra Pradesh,539,Nalgonda,95.7,0,68.7
+3_28_539_0,2011,Urban,3,India,28,Andhra Pradesh,539,Nalgonda,,,
+3_28_540_0,2011,Rural,3,India,28,Andhra Pradesh,540,Warangal,98.30000000000001,0,69.40000000000001
+3_28_540_0,2011,Total,3,India,28,Andhra Pradesh,540,Warangal,96.80000000000001,0,70.10000000000001
+3_28_540_0,2011,Urban,3,India,28,Andhra Pradesh,540,Warangal,,,
+3_28_541_0,2011,Rural,3,India,28,Andhra Pradesh,541,Khammam,86.30000000000001,0,73.2
+3_28_541_0,2011,Total,3,India,28,Andhra Pradesh,541,Khammam,89.80000000000001,0,73.7
+3_28_541_0,2011,Urban,3,India,28,Andhra Pradesh,541,Khammam,,,
+3_28_542_0,2011,Rural,3,India,28,Andhra Pradesh,542,Srikakulam,94,.4,74.10000000000001
+3_28_542_0,2011,Total,3,India,28,Andhra Pradesh,542,Srikakulam,92.60000000000001,.6000000000000001,73.8
+3_28_542_0,2011,Urban,3,India,28,Andhra Pradesh,542,Srikakulam,,,
+3_28_543_0,2011,Rural,3,India,28,Andhra Pradesh,543,Vizianagaram,82.30000000000001,.3,70.5
+3_28_543_0,2011,Total,3,India,28,Andhra Pradesh,543,Vizianagaram,82.60000000000001,.6000000000000001,70
+3_28_543_0,2011,Urban,3,India,28,Andhra Pradesh,543,Vizianagaram,,,
+3_28_544_0,2011,Rural,3,India,28,Andhra Pradesh,544,Visakhapatnam,74,.3,60.3
+3_28_544_0,2011,Total,3,India,28,Andhra Pradesh,544,Visakhapatnam,76.40000000000001,1.6,66.5
+3_28_544_0,2011,Urban,3,India,28,Andhra Pradesh,544,Visakhapatnam,,,
+3_28_545_0,2011,Rural,3,India,28,Andhra Pradesh,545,East Godavari,91.30000000000001,.5,76.60000000000001
+3_28_545_0,2011,Total,3,India,28,Andhra Pradesh,545,East Godavari,89.80000000000001,1.1,78
+3_28_545_0,2011,Urban,3,India,28,Andhra Pradesh,545,East Godavari,,,
+3_28_546_0,2011,Rural,3,India,28,Andhra Pradesh,546,West Godavari,95.90000000000001,0,78.90000000000001
+3_28_546_0,2011,Total,3,India,28,Andhra Pradesh,546,West Godavari,95.2,.1,78.5
+3_28_546_0,2011,Urban,3,India,28,Andhra Pradesh,546,West Godavari,,,
+3_28_547_0,2011,Rural,3,India,28,Andhra Pradesh,547,Krishna,98.30000000000001,.3,74.2
+3_28_547_0,2011,Total,3,India,28,Andhra Pradesh,547,Krishna,98.30000000000001,.5,76.40000000000001
+3_28_547_0,2011,Urban,3,India,28,Andhra Pradesh,547,Krishna,,,
+3_28_548_0,2011,Rural,3,India,28,Andhra Pradesh,548,Guntur,84.5,.7000000000000001,73.40000000000001
+3_28_548_0,2011,Total,3,India,28,Andhra Pradesh,548,Guntur,88,.6000000000000001,71.40000000000001
+3_28_548_0,2011,Urban,3,India,28,Andhra Pradesh,548,Guntur,,,
+3_28_549_0,2011,Rural,3,India,28,Andhra Pradesh,549,Prakasam,81.10000000000001,.5,69.7
+3_28_549_0,2011,Total,3,India,28,Andhra Pradesh,549,Prakasam,84.60000000000001,.4,70.10000000000001
+3_28_549_0,2011,Urban,3,India,28,Andhra Pradesh,549,Prakasam,,,
+3_28_550_0,2011,Rural,3,India,28,Andhra Pradesh,550,Sri Potti Sriramulu Nellore,90.80000000000001,.5,68
+3_28_550_0,2011,Total,3,India,28,Andhra Pradesh,550,Sri Potti Sriramulu Nellore,92.30000000000001,.6000000000000001,66.10000000000001
+3_28_550_0,2011,Urban,3,India,28,Andhra Pradesh,550,Sri Potti Sriramulu Nellore,,,
+3_28_551_0,2011,Rural,3,India,28,Andhra Pradesh,551,Y.S.R.,83.30000000000001,.6000000000000001,48.8
+3_28_551_0,2011,Total,3,India,28,Andhra Pradesh,551,Y.S.R.,82.7,.5,51
+3_28_551_0,2011,Urban,3,India,28,Andhra Pradesh,551,Y.S.R.,,,
+3_28_552_0,2011,Rural,3,India,28,Andhra Pradesh,552,Kurnool,77.40000000000001,0,63.2
+3_28_552_0,2011,Total,3,India,28,Andhra Pradesh,552,Kurnool,81.80000000000001,.3,61.8
+3_28_552_0,2011,Urban,3,India,28,Andhra Pradesh,552,Kurnool,,,
+3_28_553_0,2011,Rural,3,India,28,Andhra Pradesh,553,Anantapur,80.30000000000001,.2,65.60000000000001
+3_28_553_0,2011,Total,3,India,28,Andhra Pradesh,553,Anantapur,86.10000000000001,.1,64.2
+3_28_553_0,2011,Urban,3,India,28,Andhra Pradesh,553,Anantapur,,,
+3_28_554_0,2011,Rural,3,India,28,Andhra Pradesh,554,Chittoor,94.30000000000001,0,66.10000000000001
+3_28_554_0,2011,Total,3,India,28,Andhra Pradesh,554,Chittoor,90.5,.2,65
+3_28_554_0,2011,Urban,3,India,28,Andhra Pradesh,554,Chittoor,,,
+3_29_555_0,2011,Rural,3,India,29,Karnataka,555,Belgaum,67.10000000000001,.4,63.90000000000001
+3_29_555_0,2011,Total,3,India,29,Karnataka,555,Belgaum,71.5,1.8,64.3
+3_29_555_0,2011,Urban,3,India,29,Karnataka,555,Belgaum,,,
+3_29_556_0,2011,Rural,3,India,29,Karnataka,556,Bagalkot,58,.1,55
+3_29_556_0,2011,Total,3,India,29,Karnataka,556,Bagalkot,62.90000000000001,.2,53.7
+3_29_556_0,2011,Urban,3,India,29,Karnataka,556,Bagalkot,,,
+3_29_557_0,2011,Rural,3,India,29,Karnataka,557,Bijapur,60.1,.7000000000000001,59.1
+3_29_557_0,2011,Total,3,India,29,Karnataka,557,Bijapur,65.2,1.2,57.3
+3_29_557_0,2011,Urban,3,India,29,Karnataka,557,Bijapur,,,
+3_29_558_0,2011,Rural,3,India,29,Karnataka,558,Bidar,78.7,.1,56.90000000000001
+3_29_558_0,2011,Total,3,India,29,Karnataka,558,Bidar,81.7,1.2,56.1
+3_29_558_0,2011,Urban,3,India,29,Karnataka,558,Bidar,,,
+3_29_559_0,2011,Rural,3,India,29,Karnataka,559,Raichur,48.8,0,48
+3_29_559_0,2011,Total,3,India,29,Karnataka,559,Raichur,55.7,.2,49.3
+3_29_559_0,2011,Urban,3,India,29,Karnataka,559,Raichur,,,
+3_29_560_0,2011,Rural,3,India,29,Karnataka,560,Koppal,64.40000000000001,0,53.1
+3_29_560_0,2011,Total,3,India,29,Karnataka,560,Koppal,65.7,.3,52.5
+3_29_560_0,2011,Urban,3,India,29,Karnataka,560,Koppal,,,
+3_29_561_0,2011,Rural,3,India,29,Karnataka,561,Gadag,77,.2,58.1
+3_29_561_0,2011,Total,3,India,29,Karnataka,561,Gadag,80.60000000000001,.5,56.40000000000001
+3_29_561_0,2011,Urban,3,India,29,Karnataka,561,Gadag,,,
+3_29_562_0,2011,Rural,3,India,29,Karnataka,562,Dharwad,78.60000000000001,.2,63.5
+3_29_562_0,2011,Total,3,India,29,Karnataka,562,Dharwad,81,.5,61.7
+3_29_562_0,2011,Urban,3,India,29,Karnataka,562,Dharwad,,,
+3_29_563_0,2011,Rural,3,India,29,Karnataka,563,Uttara Kannada,90.60000000000001,1.7,63.5
+3_29_563_0,2011,Total,3,India,29,Karnataka,563,Uttara Kannada,91,2.3,59.90000000000001
+3_29_563_0,2011,Urban,3,India,29,Karnataka,563,Uttara Kannada,,,
+3_29_564_0,2011,Rural,3,India,29,Karnataka,564,Haveri,89.7,.1,63.8
+3_29_564_0,2011,Total,3,India,29,Karnataka,564,Haveri,89.40000000000001,.4,62.7
+3_29_564_0,2011,Urban,3,India,29,Karnataka,564,Haveri,,,
+3_29_565_0,2011,Rural,3,India,29,Karnataka,565,Bellary,55.2,.5,56.90000000000001
+3_29_565_0,2011,Total,3,India,29,Karnataka,565,Bellary,64.3,.6000000000000001,55.7
+3_29_565_0,2011,Urban,3,India,29,Karnataka,565,Bellary,,,
+3_29_566_0,2011,Rural,3,India,29,Karnataka,566,Chitradurga,79.40000000000001,.3,66.10000000000001
+3_29_566_0,2011,Total,3,India,29,Karnataka,566,Chitradurga,81.10000000000001,.8,64.90000000000001
+3_29_566_0,2011,Urban,3,India,29,Karnataka,566,Chitradurga,,,
+3_29_567_0,2011,Rural,3,India,29,Karnataka,567,Davanagere,78.90000000000001,.4,69.2
+3_29_567_0,2011,Total,3,India,29,Karnataka,567,Davanagere,82.90000000000001,.5,66.2
+3_29_567_0,2011,Urban,3,India,29,Karnataka,567,Davanagere,,,
+3_29_568_0,2011,Rural,3,India,29,Karnataka,568,Shimoga,87,.6000000000000001,73.60000000000001
+3_29_568_0,2011,Total,3,India,29,Karnataka,568,Shimoga,91.80000000000001,1.5,68.90000000000001
+3_29_568_0,2011,Urban,3,India,29,Karnataka,568,Shimoga,,,
+3_29_569_0,2011,Rural,3,India,29,Karnataka,569,Udupi,98.40000000000001,1.9,56.40000000000001
+3_29_569_0,2011,Total,3,India,29,Karnataka,569,Udupi,96.40000000000001,2.1,55.6
+3_29_569_0,2011,Urban,3,India,29,Karnataka,569,Udupi,,,
+3_29_570_0,2011,Rural,3,India,29,Karnataka,570,Chikmagalur,91.2,1.6,75
+3_29_570_0,2011,Total,3,India,29,Karnataka,570,Chikmagalur,92.90000000000001,1.8,73
+3_29_570_0,2011,Urban,3,India,29,Karnataka,570,Chikmagalur,,,
+3_29_571_0,2011,Rural,3,India,29,Karnataka,571,Tumkur,92.7,.5,72.10000000000001
+3_29_571_0,2011,Total,3,India,29,Karnataka,571,Tumkur,93.90000000000001,.9,70.40000000000001
+3_29_571_0,2011,Urban,3,India,29,Karnataka,571,Tumkur,,,
+3_29_572_0,2011,Rural,3,India,29,Karnataka,572,Bangalore,94.7,0,58.40000000000001
+3_29_572_0,2011,Total,3,India,29,Karnataka,572,Bangalore,98.10000000000001,4.800000000000001,59.2
+3_29_572_0,2011,Urban,3,India,29,Karnataka,572,Bangalore,,,
+3_29_573_0,2011,Rural,3,India,29,Karnataka,573,Mandya,97.10000000000001,.5,79.30000000000001
+3_29_573_0,2011,Total,3,India,29,Karnataka,573,Mandya,97.2,.6000000000000001,78.60000000000001
+3_29_573_0,2011,Urban,3,India,29,Karnataka,573,Mandya,,,
+3_29_574_0,2011,Rural,3,India,29,Karnataka,574,Hassan,93,.6000000000000001,80.10000000000001
+3_29_574_0,2011,Total,3,India,29,Karnataka,574,Hassan,94,1,79.2
+3_29_574_0,2011,Urban,3,India,29,Karnataka,574,Hassan,,,
+3_29_575_0,2011,Rural,3,India,29,Karnataka,575,Dakshina Kannada,97.60000000000001,3.5,50.90000000000001
+3_29_575_0,2011,Total,3,India,29,Karnataka,575,Dakshina Kannada,97,3.8,46.3
+3_29_575_0,2011,Urban,3,India,29,Karnataka,575,Dakshina Kannada,,,
+3_29_576_0,2011,Rural,3,India,29,Karnataka,576,Kodagu,94.2,1.6,67.40000000000001
+3_29_576_0,2011,Total,3,India,29,Karnataka,576,Kodagu,94.5,2.4,67.7
+3_29_576_0,2011,Urban,3,India,29,Karnataka,576,Kodagu,,,
+3_29_577_0,2011,Rural,3,India,29,Karnataka,577,Mysore,92.7,.2,73.2
+3_29_577_0,2011,Total,3,India,29,Karnataka,577,Mysore,91.5,1.5,70.90000000000001
+3_29_577_0,2011,Urban,3,India,29,Karnataka,577,Mysore,,,
+3_29_578_0,2011,Rural,3,India,29,Karnataka,578,Chamarajanagar,97.10000000000001,.6000000000000001,67.7
+3_29_578_0,2011,Total,3,India,29,Karnataka,578,Chamarajanagar,97.40000000000001,.7000000000000001,66.7
+3_29_578_0,2011,Urban,3,India,29,Karnataka,578,Chamarajanagar,,,
+3_29_579_0,2011,Rural,3,India,29,Karnataka,579,Gulbarga,60.3,0,45.6
+3_29_579_0,2011,Total,3,India,29,Karnataka,579,Gulbarga,65.40000000000001,.2,47.6
+3_29_579_0,2011,Urban,3,India,29,Karnataka,579,Gulbarga,,,
+3_29_580_0,2011,Rural,3,India,29,Karnataka,580,Yadgir,60.3,0,45.6
+3_29_580_0,2011,Total,3,India,29,Karnataka,580,Yadgir,65.40000000000001,.2,47.6
+3_29_580_0,2011,Urban,3,India,29,Karnataka,580,Yadgir,,,
+3_29_581_0,2011,Rural,3,India,29,Karnataka,581,Kolar,90.90000000000001,.1,69.2
+3_29_581_0,2011,Total,3,India,29,Karnataka,581,Kolar,92.5,.8,67.60000000000001
+3_29_581_0,2011,Urban,3,India,29,Karnataka,581,Kolar,,,
+3_29_582_0,2011,Rural,3,India,29,Karnataka,582,Chikkaballapura,90.90000000000001,.1,69.2
+3_29_582_0,2011,Total,3,India,29,Karnataka,582,Chikkaballapura,92.5,.8,67.60000000000001
+3_29_582_0,2011,Urban,3,India,29,Karnataka,582,Chikkaballapura,,,
+3_29_583_0,2011,Rural,3,India,29,Karnataka,583,Bangalore Rural,95.5,.2,73.8
+3_29_583_0,2011,Total,3,India,29,Karnataka,583,Bangalore Rural,95.60000000000001,1.1,71.7
+3_29_583_0,2011,Urban,3,India,29,Karnataka,583,Bangalore Rural,,,
+3_29_584_0,2011,Rural,3,India,29,Karnataka,584,Ramanagara,95.5,.2,73.8
+3_29_584_0,2011,Total,3,India,29,Karnataka,584,Ramanagara,95.60000000000001,1.1,71.7
+3_29_584_0,2011,Urban,3,India,29,Karnataka,584,Ramanagara,,,
+3_2_23_0,2011,Rural,3,India,2,Himachal Pradesh,23,Chamba,49.3,6.7,63
+3_2_23_0,2011,Total,3,India,2,Himachal Pradesh,23,Chamba,50.8,7.9,63.40000000000001
+3_2_23_0,2011,Urban,3,India,2,Himachal Pradesh,23,Chamba,,,
+3_2_24_0,2011,Rural,3,India,2,Himachal Pradesh,24,Kangra,54.7,13.5,67.2
+3_2_24_0,2011,Total,3,India,2,Himachal Pradesh,24,Kangra,56,13,67.2
+3_2_24_0,2011,Urban,3,India,2,Himachal Pradesh,24,Kangra,,,
+3_2_25_0,2011,Rural,3,India,2,Himachal Pradesh,25,Lahul & Spiti,64.90000000000001,9.600000000000001,69.2
+3_2_25_0,2011,Total,3,India,2,Himachal Pradesh,25,Lahul & Spiti,69,9.600000000000001,69.2
+3_2_25_0,2011,Urban,3,India,2,Himachal Pradesh,25,Lahul & Spiti,,,
+3_2_26_0,2011,Rural,3,India,2,Himachal Pradesh,26,Kullu,67.90000000000001,9.700000000000001,73.3
+3_2_26_0,2011,Total,3,India,2,Himachal Pradesh,26,Kullu,68.90000000000001,10.7,73.10000000000001
+3_2_26_0,2011,Urban,3,India,2,Himachal Pradesh,26,Kullu,,,
+3_2_27_0,2011,Rural,3,India,2,Himachal Pradesh,27,Mandi,37.5,8.1,69.7
+3_2_27_0,2011,Total,3,India,2,Himachal Pradesh,27,Mandi,38.40000000000001,9.1,69.60000000000001
+3_2_27_0,2011,Urban,3,India,2,Himachal Pradesh,27,Mandi,,,
+3_2_28_0,2011,Rural,3,India,2,Himachal Pradesh,28,Hamirpur,82.10000000000001,10.8,75.90000000000001
+3_2_28_0,2011,Total,3,India,2,Himachal Pradesh,28,Hamirpur,81,11.2,75.40000000000001
+3_2_28_0,2011,Urban,3,India,2,Himachal Pradesh,28,Hamirpur,,,
+3_2_29_0,2011,Rural,3,India,2,Himachal Pradesh,29,Una,59.8,9.800000000000001,65.90000000000001
+3_2_29_0,2011,Total,3,India,2,Himachal Pradesh,29,Una,59.2,10.5,64.7
+3_2_29_0,2011,Urban,3,India,2,Himachal Pradesh,29,Una,,,
+3_2_30_0,2011,Rural,3,India,2,Himachal Pradesh,30,Bilaspur,68.8,8.6,73.7
+3_2_30_0,2011,Total,3,India,2,Himachal Pradesh,30,Bilaspur,68.60000000000001,8.9,73.40000000000001
+3_2_30_0,2011,Urban,3,India,2,Himachal Pradesh,30,Bilaspur,,,
+3_2_31_0,2011,Rural,3,India,2,Himachal Pradesh,31,Solan,59.40000000000001,11.3,74.5
+3_2_31_0,2011,Total,3,India,2,Himachal Pradesh,31,Solan,61,12.9,71.40000000000001
+3_2_31_0,2011,Urban,3,India,2,Himachal Pradesh,31,Solan,,,
+3_2_32_0,2011,Rural,3,India,2,Himachal Pradesh,32,Sirmaur,41.6,10.2,71.60000000000001
+3_2_32_0,2011,Total,3,India,2,Himachal Pradesh,32,Sirmaur,46.6,11.7,71.60000000000001
+3_2_32_0,2011,Urban,3,India,2,Himachal Pradesh,32,Sirmaur,,,
+3_2_33_0,2011,Rural,3,India,2,Himachal Pradesh,33,Shimla,65.40000000000001,5.5,65.60000000000001
+3_2_33_0,2011,Total,3,India,2,Himachal Pradesh,33,Shimla,68.90000000000001,6.7,63
+3_2_33_0,2011,Urban,3,India,2,Himachal Pradesh,33,Shimla,,,
+3_2_34_0,2011,Rural,3,India,2,Himachal Pradesh,34,Kinnaur,66.90000000000001,4.4,60.5
+3_2_34_0,2011,Total,3,India,2,Himachal Pradesh,34,Kinnaur,67.40000000000001,4.4,60.5
+3_2_34_0,2011,Urban,3,India,2,Himachal Pradesh,34,Kinnaur,,,
+3_30_585_0,2011,Rural,3,India,30,Goa,585,North Goa,99.10000000000001,6,34.8
+3_30_585_0,2011,Total,3,India,30,Goa,585,North Goa,96.90000000000001,9.800000000000001,35.8
+3_30_585_0,2011,Urban,3,India,30,Goa,585,North Goa,,,
+3_30_586_0,2011,Rural,3,India,30,Goa,586,South Goa,97.60000000000001,5.9,36.5
+3_30_586_0,2011,Total,3,India,30,Goa,586,South Goa,94.40000000000001,7.9,38.40000000000001
+3_30_586_0,2011,Urban,3,India,30,Goa,586,South Goa,,,
+3_31_587_0,2011,Rural,3,India,31,Lakshadweep,587,Lakshadweep,88,4.2,17.4
+3_31_587_0,2011,Total,3,India,31,Lakshadweep,587,Lakshadweep,91.10000000000001,4.4,17
+3_31_587_0,2011,Urban,3,India,31,Lakshadweep,587,Lakshadweep,,,
+3_32_588_0,2011,Rural,3,India,32,Kerala,588,Kasaragod,99.60000000000001,2.7,44.1
+3_32_588_0,2011,Total,3,India,32,Kerala,588,Kasaragod,99.7,2.6,42.90000000000001
+3_32_588_0,2011,Urban,3,India,32,Kerala,588,Kasaragod,,,
+3_32_589_0,2011,Rural,3,India,32,Kerala,589,Kannur,85.5,3.9,47.2
+3_32_589_0,2011,Total,3,India,32,Kerala,589,Kannur,89,3.1,46.7
+3_32_589_0,2011,Urban,3,India,32,Kerala,589,Kannur,,,
+3_32_590_0,2011,Rural,3,India,32,Kerala,590,Wayanad,97.80000000000001,4.5,61.8
+3_32_590_0,2011,Total,3,India,32,Kerala,590,Wayanad,97.90000000000001,4.5,61.7
+3_32_590_0,2011,Urban,3,India,32,Kerala,590,Wayanad,,,
+3_32_591_0,2011,Rural,3,India,32,Kerala,591,Kozhikode,98.40000000000001,3.9,50.2
+3_32_591_0,2011,Total,3,India,32,Kerala,591,Kozhikode,98.90000000000001,4.3,53.1
+3_32_591_0,2011,Urban,3,India,32,Kerala,591,Kozhikode,,,
+3_32_592_0,2011,Rural,3,India,32,Kerala,592,Malappuram,99,5.100000000000001,46.2
+3_32_592_0,2011,Total,3,India,32,Kerala,592,Malappuram,99.10000000000001,5,46.40000000000001
+3_32_592_0,2011,Urban,3,India,32,Kerala,592,Malappuram,,,
+3_32_593_0,2011,Rural,3,India,32,Kerala,593,Palakkad,87,4,51.90000000000001
+3_32_593_0,2011,Total,3,India,32,Kerala,593,Palakkad,87.7,3.9,52.1
+3_32_593_0,2011,Urban,3,India,32,Kerala,593,Palakkad,,,
+3_32_594_0,2011,Rural,3,India,32,Kerala,594,Thrissur,98.10000000000001,3.2,57.6
+3_32_594_0,2011,Total,3,India,32,Kerala,594,Thrissur,98,2.9,60
+3_32_594_0,2011,Urban,3,India,32,Kerala,594,Thrissur,,,
+3_32_595_0,2011,Rural,3,India,32,Kerala,595,Ernakulam,93.40000000000001,3.6,64.3
+3_32_595_0,2011,Total,3,India,32,Kerala,595,Ernakulam,95.7,3.7,59.6
+3_32_595_0,2011,Urban,3,India,32,Kerala,595,Ernakulam,,,
+3_32_596_0,2011,Rural,3,India,32,Kerala,596,Idukki,95.80000000000001,3.2,62.40000000000001
+3_32_596_0,2011,Total,3,India,32,Kerala,596,Idukki,96.10000000000001,2.9,60.40000000000001
+3_32_596_0,2011,Urban,3,India,32,Kerala,596,Idukki,,,
+3_32_597_0,2011,Rural,3,India,32,Kerala,597,Kottayam,88.10000000000001,3.5,62.5
+3_32_597_0,2011,Total,3,India,32,Kerala,597,Kottayam,86.40000000000001,4.100000000000001,62.8
+3_32_597_0,2011,Urban,3,India,32,Kerala,597,Kottayam,,,
+3_32_598_0,2011,Rural,3,India,32,Kerala,598,Alappuzha,95.7,4,59.2
+3_32_598_0,2011,Total,3,India,32,Kerala,598,Alappuzha,95,5,58.6
+3_32_598_0,2011,Urban,3,India,32,Kerala,598,Alappuzha,,,
+3_32_599_0,2011,Rural,3,India,32,Kerala,599,Pathanamthitta,99.30000000000001,2.4,60.40000000000001
+3_32_599_0,2011,Total,3,India,32,Kerala,599,Pathanamthitta,98.2,2.3,59
+3_32_599_0,2011,Urban,3,India,32,Kerala,599,Pathanamthitta,,,
+3_32_600_0,2011,Rural,3,India,32,Kerala,600,Kollam,91.7,3,67
+3_32_600_0,2011,Total,3,India,32,Kerala,600,Kollam,91.2,3,67
+3_32_600_0,2011,Urban,3,India,32,Kerala,600,Kollam,,,
+3_32_601_0,2011,Rural,3,India,32,Kerala,601,Thiruvananthapuram,99.2,3.8,70
+3_32_601_0,2011,Total,3,India,32,Kerala,601,Thiruvananthapuram,99.5,4.5,65.5
+3_32_601_0,2011,Urban,3,India,32,Kerala,601,Thiruvananthapuram,,,
+3_33_602_0,2011,Rural,3,India,33,Tamil Nadu,602,Thiruvallur,100,.9,68.7
+3_33_602_0,2011,Total,3,India,33,Tamil Nadu,602,Thiruvallur,99.2,.9,64.60000000000001
+3_33_602_0,2011,Urban,3,India,33,Tamil Nadu,602,Thiruvallur,,,
+3_33_603_0,2011,Rural,3,India,33,Tamil Nadu,603,Chennai,0,0,0
+3_33_603_0,2011,Total,3,India,33,Tamil Nadu,603,Chennai,99.5,2.1,63
+3_33_603_0,2011,Urban,3,India,33,Tamil Nadu,603,Chennai,,,
+3_33_604_0,2011,Rural,3,India,33,Tamil Nadu,604,Kancheepuram,89.60000000000001,0,62.90000000000001
+3_33_604_0,2011,Total,3,India,33,Tamil Nadu,604,Kancheepuram,93.2,.7000000000000001,61.90000000000001
+3_33_604_0,2011,Urban,3,India,33,Tamil Nadu,604,Kancheepuram,,,
+3_33_605_0,2011,Rural,3,India,33,Tamil Nadu,605,Vellore,87.60000000000001,.5,62.8
+3_33_605_0,2011,Total,3,India,33,Tamil Nadu,605,Vellore,88.90000000000001,.8,61.1
+3_33_605_0,2011,Urban,3,India,33,Tamil Nadu,605,Vellore,,,
+3_33_606_0,2011,Rural,3,India,33,Tamil Nadu,606,Tiruvannamalai,96.5,0,67.10000000000001
+3_33_606_0,2011,Total,3,India,33,Tamil Nadu,606,Tiruvannamalai,96.30000000000001,.2,67.10000000000001
+3_33_606_0,2011,Urban,3,India,33,Tamil Nadu,606,Tiruvannamalai,,,
+3_33_607_0,2011,Rural,3,India,33,Tamil Nadu,607,Viluppuram,91.7,.3,62.1
+3_33_607_0,2011,Total,3,India,33,Tamil Nadu,607,Viluppuram,92,.6000000000000001,61.6
+3_33_607_0,2011,Urban,3,India,33,Tamil Nadu,607,Viluppuram,,,
+3_33_608_0,2011,Rural,3,India,33,Tamil Nadu,608,Salem,93.5,.4,57.5
+3_33_608_0,2011,Total,3,India,33,Tamil Nadu,608,Salem,96.2,.8,55
+3_33_608_0,2011,Urban,3,India,33,Tamil Nadu,608,Salem,,,
+3_33_609_0,2011,Rural,3,India,33,Tamil Nadu,609,Namakkal,94.7,1.3,54.7
+3_33_609_0,2011,Total,3,India,33,Tamil Nadu,609,Namakkal,96.7,1.5,56.7
+3_33_609_0,2011,Urban,3,India,33,Tamil Nadu,609,Namakkal,,,
+3_33_610_0,2011,Rural,3,India,33,Tamil Nadu,610,Erode,98.80000000000001,0,64.2
+3_33_610_0,2011,Total,3,India,33,Tamil Nadu,610,Erode,99.60000000000001,.8,61.40000000000001
+3_33_610_0,2011,Urban,3,India,33,Tamil Nadu,610,Erode,,,
+3_33_611_0,2011,Rural,3,India,33,Tamil Nadu,611,The Nilgiris,98.90000000000001,2.7,69.2
+3_33_611_0,2011,Total,3,India,33,Tamil Nadu,611,The Nilgiris,99.10000000000001,2.4,68.2
+3_33_611_0,2011,Urban,3,India,33,Tamil Nadu,611,The Nilgiris,,,
+3_33_612_0,2011,Rural,3,India,33,Tamil Nadu,612,Dindigul,95.5,1,64
+3_33_612_0,2011,Total,3,India,33,Tamil Nadu,612,Dindigul,97.10000000000001,1.5,62.8
+3_33_612_0,2011,Urban,3,India,33,Tamil Nadu,612,Dindigul,,,
+3_33_613_0,2011,Rural,3,India,33,Tamil Nadu,613,Karur,99.2,1,57.5
+3_33_613_0,2011,Total,3,India,33,Tamil Nadu,613,Karur,98.30000000000001,1.9,57.5
+3_33_613_0,2011,Urban,3,India,33,Tamil Nadu,613,Karur,,,
+3_33_614_0,2011,Rural,3,India,33,Tamil Nadu,614,Tiruchirappalli,90.80000000000001,1.6,52.2
+3_33_614_0,2011,Total,3,India,33,Tamil Nadu,614,Tiruchirappalli,91.90000000000001,2.6,51.6
+3_33_614_0,2011,Urban,3,India,33,Tamil Nadu,614,Tiruchirappalli,,,
+3_33_615_0,2011,Rural,3,India,33,Tamil Nadu,615,Perambalur,,,
+3_33_615_0,2011,Total,3,India,33,Tamil Nadu,615,Perambalur,,,
+3_33_615_0,2011,Urban,3,India,33,Tamil Nadu,615,Perambalur,,,
+3_33_616_0,2011,Rural,3,India,33,Tamil Nadu,616,Ariyalur,98,.7000000000000001,51.1
+3_33_616_0,2011,Total,3,India,33,Tamil Nadu,616,Ariyalur,98.5,1.3,50.7
+3_33_616_0,2011,Urban,3,India,33,Tamil Nadu,616,Ariyalur,,,
+3_33_617_0,2011,Rural,3,India,33,Tamil Nadu,617,Cuddalore,97.2,1.1,59.1
+3_33_617_0,2011,Total,3,India,33,Tamil Nadu,617,Cuddalore,97.10000000000001,2.3,56.40000000000001
+3_33_617_0,2011,Urban,3,India,33,Tamil Nadu,617,Cuddalore,,,
+3_33_618_0,2011,Rural,3,India,33,Tamil Nadu,618,Nagapattinam,98.40000000000001,.6000000000000001,54.90000000000001
+3_33_618_0,2011,Total,3,India,33,Tamil Nadu,618,Nagapattinam,98.2,.9,53
+3_33_618_0,2011,Urban,3,India,33,Tamil Nadu,618,Nagapattinam,,,
+3_33_619_0,2011,Rural,3,India,33,Tamil Nadu,619,Thiruvarur,96.40000000000001,.6000000000000001,58.2
+3_33_619_0,2011,Total,3,India,33,Tamil Nadu,619,Thiruvarur,96.30000000000001,1.2,56.1
+3_33_619_0,2011,Urban,3,India,33,Tamil Nadu,619,Thiruvarur,,,
+3_33_620_0,2011,Rural,3,India,33,Tamil Nadu,620,Thanjavur,92,.4,52.90000000000001
+3_33_620_0,2011,Total,3,India,33,Tamil Nadu,620,Thanjavur,95.40000000000001,.8,53.40000000000001
+3_33_620_0,2011,Urban,3,India,33,Tamil Nadu,620,Thanjavur,,,
+3_33_621_0,2011,Rural,3,India,33,Tamil Nadu,621,Pudukkottai,97.7,1.1,54.40000000000001
+3_33_621_0,2011,Total,3,India,33,Tamil Nadu,621,Pudukkottai,98,1,53.5
+3_33_621_0,2011,Urban,3,India,33,Tamil Nadu,621,Pudukkottai,,,
+3_33_622_0,2011,Rural,3,India,33,Tamil Nadu,622,Sivaganga,97.40000000000001,1.6,56.5
+3_33_622_0,2011,Total,3,India,33,Tamil Nadu,622,Sivaganga,97.7,2.4,57.3
+3_33_622_0,2011,Urban,3,India,33,Tamil Nadu,622,Sivaganga,,,
+3_33_623_0,2011,Rural,3,India,33,Tamil Nadu,623,Madurai,90.5,.8,69.90000000000001
+3_33_623_0,2011,Total,3,India,33,Tamil Nadu,623,Madurai,92.40000000000001,3.1,66.2
+3_33_623_0,2011,Urban,3,India,33,Tamil Nadu,623,Madurai,,,
+3_33_624_0,2011,Rural,3,India,33,Tamil Nadu,624,Theni,93.5,.9,70.40000000000001
+3_33_624_0,2011,Total,3,India,33,Tamil Nadu,624,Theni,95,2,66.90000000000001
+3_33_624_0,2011,Urban,3,India,33,Tamil Nadu,624,Theni,,,
+3_33_625_0,2011,Rural,3,India,33,Tamil Nadu,625,Virudhunagar,83.7,.8,59.90000000000001
+3_33_625_0,2011,Total,3,India,33,Tamil Nadu,625,Virudhunagar,90.5,1.1,61
+3_33_625_0,2011,Urban,3,India,33,Tamil Nadu,625,Virudhunagar,,,
+3_33_626_0,2011,Rural,3,India,33,Tamil Nadu,626,Ramanathapuram,94.7,.7000000000000001,45.7
+3_33_626_0,2011,Total,3,India,33,Tamil Nadu,626,Ramanathapuram,95.90000000000001,1.1,46.8
+3_33_626_0,2011,Urban,3,India,33,Tamil Nadu,626,Ramanathapuram,,,
+3_33_627_0,2011,Rural,3,India,33,Tamil Nadu,627,Thoothukkudi,93,.7000000000000001,55.7
+3_33_627_0,2011,Total,3,India,33,Tamil Nadu,627,Thoothukkudi,96.30000000000001,.7000000000000001,52.8
+3_33_627_0,2011,Urban,3,India,33,Tamil Nadu,627,Thoothukkudi,,,
+3_33_628_0,2011,Rural,3,India,33,Tamil Nadu,628,Tirunelveli,92.40000000000001,.3,50.40000000000001
+3_33_628_0,2011,Total,3,India,33,Tamil Nadu,628,Tirunelveli,94.5,1.4,51
+3_33_628_0,2011,Urban,3,India,33,Tamil Nadu,628,Tirunelveli,,,
+3_33_629_0,2011,Rural,3,India,33,Tamil Nadu,629,Kanniyakumari,98.5,3,65.7
+3_33_629_0,2011,Total,3,India,33,Tamil Nadu,629,Kanniyakumari,98,2.8,63.6
+3_33_629_0,2011,Urban,3,India,33,Tamil Nadu,629,Kanniyakumari,,,
+3_33_630_0,2011,Rural,3,India,33,Tamil Nadu,630,Dharmapuri,94.7,.8,63.5
+3_33_630_0,2011,Total,3,India,33,Tamil Nadu,630,Dharmapuri,95.40000000000001,1.2,62.5
+3_33_630_0,2011,Urban,3,India,33,Tamil Nadu,630,Dharmapuri,,,
+3_33_631_0,2011,Rural,3,India,33,Tamil Nadu,631,Krishnagiri,93.80000000000001,.4,62
+3_33_631_0,2011,Total,3,India,33,Tamil Nadu,631,Krishnagiri,94.7,.8,60.8
+3_33_631_0,2011,Urban,3,India,33,Tamil Nadu,631,Krishnagiri,,,
+3_33_632_0,2011,Rural,3,India,33,Tamil Nadu,632,Coimbatore,98.5,1.9,65.40000000000001
+3_33_632_0,2011,Total,3,India,33,Tamil Nadu,632,Coimbatore,96.40000000000001,3.3,64
+3_33_632_0,2011,Urban,3,India,33,Tamil Nadu,632,Coimbatore,,,
+3_33_633_0,2011,Rural,3,India,33,Tamil Nadu,633,Tiruppur,98.7,.9,64.8
+3_33_633_0,2011,Total,3,India,33,Tamil Nadu,633,Tiruppur,98,2,62.7
+3_33_633_0,2011,Urban,3,India,33,Tamil Nadu,633,Tiruppur,,,
+3_34_634_0,2011,Rural,3,India,34,Puducherry,634,Yanam,0,0,100
+3_34_634_0,2011,Total,3,India,34,Puducherry,634,Yanam,43.2,.5,64.3
+3_34_634_0,2011,Urban,3,India,34,Puducherry,634,Yanam,,,
+3_34_635_0,2011,Rural,3,India,34,Puducherry,635,Puducherry,98.60000000000001,2.8,63.3
+3_34_635_0,2011,Total,3,India,34,Puducherry,635,Puducherry,98.60000000000001,3.9,61.6
+3_34_635_0,2011,Urban,3,India,34,Puducherry,635,Puducherry,,,
+3_34_636_0,2011,Rural,3,India,34,Puducherry,636,Mahe,0,0,0
+3_34_636_0,2011,Total,3,India,34,Puducherry,636,Mahe,100,5.9,55.40000000000001
+3_34_636_0,2011,Urban,3,India,34,Puducherry,636,Mahe,,,
+3_34_637_0,2011,Rural,3,India,34,Puducherry,637,Karaikal,95.40000000000001,2.8,63
+3_34_637_0,2011,Total,3,India,34,Puducherry,637,Karaikal,97.7,4.9,56.6
+3_34_637_0,2011,Urban,3,India,34,Puducherry,637,Karaikal,,,
+3_35_638_0,2011,Rural,3,India,35,Andaman & Nicobar Islands,638,Nicobars,85.7,7.4,64.60000000000001
+3_35_638_0,2011,Total,3,India,35,Andaman & Nicobar Islands,638,Nicobars,83.5,6.5,65
+3_35_638_0,2011,Urban,3,India,35,Andaman & Nicobar Islands,638,Nicobars,,,
+3_35_639_0,2011,Rural,3,India,35,Andaman & Nicobar Islands,639,North  & Middle Andaman,,,
+3_35_639_0,2011,Total,3,India,35,Andaman & Nicobar Islands,639,North  & Middle Andaman,,,
+3_35_639_0,2011,Urban,3,India,35,Andaman & Nicobar Islands,639,North  & Middle Andaman,,,
+3_35_640_0,2011,Rural,3,India,35,Andaman & Nicobar Islands,640,South Andaman,,,
+3_35_640_0,2011,Total,3,India,35,Andaman & Nicobar Islands,640,South Andaman,,,
+3_35_640_0,2011,Urban,3,India,35,Andaman & Nicobar Islands,640,South Andaman,,,
+3_3_35_0,2011,Rural,3,India,3,Punjab,35,Gurdaspur,59.6,16.8,57.40000000000001
+3_3_35_0,2011,Total,3,India,3,Punjab,35,Gurdaspur,63.90000000000001,18.8,57.5
+3_3_35_0,2011,Urban,3,India,3,Punjab,35,Gurdaspur,,,
+3_3_36_0,2011,Rural,3,India,3,Punjab,36,Kapurthala,53.3,15.6,51.5
+3_3_36_0,2011,Total,3,India,3,Punjab,36,Kapurthala,58.3,18.2,52.2
+3_3_36_0,2011,Urban,3,India,3,Punjab,36,Kapurthala,,,
+3_3_37_0,2011,Rural,3,India,3,Punjab,37,Jalandhar,56.7,18,57.7
+3_3_37_0,2011,Total,3,India,3,Punjab,37,Jalandhar,62.5,17.6,53.2
+3_3_37_0,2011,Urban,3,India,3,Punjab,37,Jalandhar,,,
+3_3_38_0,2011,Rural,3,India,3,Punjab,38,Hoshiarpur,58.7,12.8,43.6
+3_3_38_0,2011,Total,3,India,3,Punjab,38,Hoshiarpur,61.90000000000001,15.2,43.40000000000001
+3_3_38_0,2011,Urban,3,India,3,Punjab,38,Hoshiarpur,,,
+3_3_39_0,2011,Rural,3,India,3,Punjab,39,Shahid Bhagat Singh Nagar,63.6,16.4,57.6
+3_3_39_0,2011,Total,3,India,3,Punjab,39,Shahid Bhagat Singh Nagar,64.5,16.9,59
+3_3_39_0,2011,Urban,3,India,3,Punjab,39,Shahid Bhagat Singh Nagar,,,
+3_3_40_0,2011,Rural,3,India,3,Punjab,40,Fatehgarh Sahib,62.2,17.1,68.7
+3_3_40_0,2011,Total,3,India,3,Punjab,40,Fatehgarh Sahib,62,19.7,66.7
+3_3_40_0,2011,Urban,3,India,3,Punjab,40,Fatehgarh Sahib,,,
+3_3_41_0,2011,Rural,3,India,3,Punjab,41,Ludhiana,57.6,11.7,51.7
+3_3_41_0,2011,Total,3,India,3,Punjab,41,Ludhiana,59,14.7,57.2
+3_3_41_0,2011,Urban,3,India,3,Punjab,41,Ludhiana,,,
+3_3_42_0,2011,Rural,3,India,3,Punjab,42,Moga,66.8,14.5,70.40000000000001
+3_3_42_0,2011,Total,3,India,3,Punjab,42,Moga,70.8,16.8,71.5
+3_3_42_0,2011,Urban,3,India,3,Punjab,42,Moga,,,
+3_3_43_0,2011,Rural,3,India,3,Punjab,43,Firozpur,68.5,15.9,70
+3_3_43_0,2011,Total,3,India,3,Punjab,43,Firozpur,71.2,19.1,69.7
+3_3_43_0,2011,Urban,3,India,3,Punjab,43,Firozpur,,,
+3_3_44_0,2011,Rural,3,India,3,Punjab,44,Muktsar,66.5,14.8,72.40000000000001
+3_3_44_0,2011,Total,3,India,3,Punjab,44,Muktsar,70.7,18.4,73.60000000000001
+3_3_44_0,2011,Urban,3,India,3,Punjab,44,Muktsar,,,
+3_3_45_0,2011,Rural,3,India,3,Punjab,45,Faridkot,67.5,13.4,70.8
+3_3_45_0,2011,Total,3,India,3,Punjab,45,Faridkot,71.3,16.6,70.3
+3_3_45_0,2011,Urban,3,India,3,Punjab,45,Faridkot,,,
+3_3_46_0,2011,Rural,3,India,3,Punjab,46,Bathinda,61.3,17.2,70.8
+3_3_46_0,2011,Total,3,India,3,Punjab,46,Bathinda,65.90000000000001,20.6,71
+3_3_46_0,2011,Urban,3,India,3,Punjab,46,Bathinda,,,
+3_3_47_0,2011,Rural,3,India,3,Punjab,47,Mansa,29.2,5.800000000000001,67.2
+3_3_47_0,2011,Total,3,India,3,Punjab,47,Mansa,36.2,9.200000000000001,65.2
+3_3_47_0,2011,Urban,3,India,3,Punjab,47,Mansa,,,
+3_3_48_0,2011,Rural,3,India,3,Punjab,48,Patiala,65.40000000000001,13.1,62.8
+3_3_48_0,2011,Total,3,India,3,Punjab,48,Patiala,64.3,15.7,63
+3_3_48_0,2011,Urban,3,India,3,Punjab,48,Patiala,,,
+3_3_49_0,2011,Rural,3,India,3,Punjab,49,Amritsar,75.60000000000001,17.4,62.5
+3_3_49_0,2011,Total,3,India,3,Punjab,49,Amritsar,80.80000000000001,25.7,63.90000000000001
+3_3_49_0,2011,Urban,3,India,3,Punjab,49,Amritsar,,,
+3_3_50_0,2011,Rural,3,India,3,Punjab,50,Tarn Taran,77.5,22.3,71.2
+3_3_50_0,2011,Total,3,India,3,Punjab,50,Tarn Taran,77.2,22.8,70.7
+3_3_50_0,2011,Urban,3,India,3,Punjab,50,Tarn Taran,,,
+3_3_51_0,2011,Rural,3,India,3,Punjab,51,Rupnagar,68,14.6,66.2
+3_3_51_0,2011,Total,3,India,3,Punjab,51,Rupnagar,69.7,16.1,65.7
+3_3_51_0,2011,Urban,3,India,3,Punjab,51,Rupnagar,,,
+3_3_52_0,2011,Rural,3,India,3,Punjab,52,Sahibzada Ajit Singh Nagar,68.2,17.9,62.6
+3_3_52_0,2011,Total,3,India,3,Punjab,52,Sahibzada Ajit Singh Nagar,69.5,20.4,64.5
+3_3_52_0,2011,Urban,3,India,3,Punjab,52,Sahibzada Ajit Singh Nagar,,,
+3_3_53_0,2011,Rural,3,India,3,Punjab,53,Sangrur,52.6,13.4,60.3
+3_3_53_0,2011,Total,3,India,3,Punjab,53,Sangrur,51,15.9,57.90000000000001
+3_3_53_0,2011,Urban,3,India,3,Punjab,53,Sangrur,,,
+3_3_54_0,2011,Rural,3,India,3,Punjab,54,Barnala,52.90000000000001,8.700000000000001,63.3
+3_3_54_0,2011,Total,3,India,3,Punjab,54,Barnala,57.7,13.8,60.90000000000001
+3_3_54_0,2011,Urban,3,India,3,Punjab,54,Barnala,,,
+3_4_55_0,2011,Rural,3,India,4,Chandigarh,55,Chandigarh,66.7,21,72.8
+3_4_55_0,2011,Total,3,India,4,Chandigarh,55,Chandigarh,77.60000000000001,29.4,71.60000000000001
+3_4_55_0,2011,Urban,3,India,4,Chandigarh,55,Chandigarh,,,
+3_5_56_0,2011,Rural,3,India,5,Uttarakhand,56,Uttarkashi,19.4,5.800000000000001,66.5
+3_5_56_0,2011,Total,3,India,5,Uttarakhand,56,Uttarkashi,22.2,6.800000000000001,67.5
+3_5_56_0,2011,Urban,3,India,5,Uttarakhand,56,Uttarkashi,,,
+3_5_57_0,2011,Rural,3,India,5,Uttarakhand,57,Chamoli,35.1,6.100000000000001,71.3
+3_5_57_0,2011,Total,3,India,5,Uttarakhand,57,Chamoli,42.5,7.2,71.3
+3_5_57_0,2011,Urban,3,India,5,Uttarakhand,57,Chamoli,,,
+3_5_58_0,2011,Rural,3,India,5,Uttarakhand,58,Rudraprayag,36.3,5.7,68.3
+3_5_58_0,2011,Total,3,India,5,Uttarakhand,58,Rudraprayag,37.3,5.800000000000001,68.2
+3_5_58_0,2011,Urban,3,India,5,Uttarakhand,58,Rudraprayag,,,
+3_5_59_0,2011,Rural,3,India,5,Uttarakhand,59,Tehri Garhwal,29.9,4.9,54.2
+3_5_59_0,2011,Total,3,India,5,Uttarakhand,59,Tehri Garhwal,33.6,6,54.90000000000001
+3_5_59_0,2011,Urban,3,India,5,Uttarakhand,59,Tehri Garhwal,,,
+3_5_60_0,2011,Rural,3,India,5,Uttarakhand,60,Dehradun,43.2,7.7,50.40000000000001
+3_5_60_0,2011,Total,3,India,5,Uttarakhand,60,Dehradun,52.40000000000001,20.7,57.8
+3_5_60_0,2011,Urban,3,India,5,Uttarakhand,60,Dehradun,,,
+3_5_61_0,2011,Rural,3,India,5,Uttarakhand,61,Garhwal,31.5,7.4,59.8
+3_5_61_0,2011,Total,3,India,5,Uttarakhand,61,Garhwal,34.3,8.4,60
+3_5_61_0,2011,Urban,3,India,5,Uttarakhand,61,Garhwal,,,
+3_5_62_0,2011,Rural,3,India,5,Uttarakhand,62,Pithoragarh,26.4,7.100000000000001,67.2
+3_5_62_0,2011,Total,3,India,5,Uttarakhand,62,Pithoragarh,29.3,8.800000000000001,68
+3_5_62_0,2011,Urban,3,India,5,Uttarakhand,62,Pithoragarh,,,
+3_5_63_0,2011,Rural,3,India,5,Uttarakhand,63,Bageshwar,18.4,8.200000000000001,50.90000000000001
+3_5_63_0,2011,Total,3,India,5,Uttarakhand,63,Bageshwar,20.1,8.5,51.3
+3_5_63_0,2011,Urban,3,India,5,Uttarakhand,63,Bageshwar,,,
+3_5_64_0,2011,Rural,3,India,5,Uttarakhand,64,Almora,24,10.5,61.6
+3_5_64_0,2011,Total,3,India,5,Uttarakhand,64,Almora,27.4,10.8,60.90000000000001
+3_5_64_0,2011,Urban,3,India,5,Uttarakhand,64,Almora,,,
+3_5_65_0,2011,Rural,3,India,5,Uttarakhand,65,Champawat,20.4,6,46.5
+3_5_65_0,2011,Total,3,India,5,Uttarakhand,65,Champawat,23.4,7.5,49.40000000000001
+3_5_65_0,2011,Urban,3,India,5,Uttarakhand,65,Champawat,,,
+3_5_66_0,2011,Rural,3,India,5,Uttarakhand,66,Nainital,26.3,11.5,64.60000000000001
+3_5_66_0,2011,Total,3,India,5,Uttarakhand,66,Nainital,31.6,17.4,65.10000000000001
+3_5_66_0,2011,Urban,3,India,5,Uttarakhand,66,Nainital,,,
+3_5_67_0,2011,Rural,3,India,5,Uttarakhand,67,Udham Singh Nagar,34.3,13.7,52.7
+3_5_67_0,2011,Total,3,India,5,Uttarakhand,67,Udham Singh Nagar,37.1,16.5,54.3
+3_5_67_0,2011,Urban,3,India,5,Uttarakhand,67,Udham Singh Nagar,,,
+3_5_68_0,2011,Rural,3,India,5,Uttarakhand,68,Hardwar,27.7,12.7,38.8
+3_5_68_0,2011,Total,3,India,5,Uttarakhand,68,Hardwar,31,13.6,42.2
+3_5_68_0,2011,Urban,3,India,5,Uttarakhand,68,Hardwar,,,
+3_6_69_0,2011,Rural,3,India,6,Haryana,69,Panchkula,66.2,14.3,59.5
+3_6_69_0,2011,Total,3,India,6,Haryana,69,Panchkula,72.3,18.9,58.90000000000001
+3_6_69_0,2011,Urban,3,India,6,Haryana,69,Panchkula,,,
+3_6_70_0,2011,Rural,3,India,6,Haryana,70,Ambala,44.8,14.2,63
+3_6_70_0,2011,Total,3,India,6,Haryana,70,Ambala,57.7,17.2,61.3
+3_6_70_0,2011,Urban,3,India,6,Haryana,70,Ambala,,,
+3_6_71_0,2011,Rural,3,India,6,Haryana,71,Yamunanagar,50.8,11.6,58.7
+3_6_71_0,2011,Total,3,India,6,Haryana,71,Yamunanagar,60.8,15.8,56.2
+3_6_71_0,2011,Urban,3,India,6,Haryana,71,Yamunanagar,,,
+3_6_72_0,2011,Rural,3,India,6,Haryana,72,Kurukshetra,56.7,16,61.3
+3_6_72_0,2011,Total,3,India,6,Haryana,72,Kurukshetra,61.5,17.3,58.5
+3_6_72_0,2011,Urban,3,India,6,Haryana,72,Kurukshetra,,,
+3_6_73_0,2011,Rural,3,India,6,Haryana,73,Kaithal,59.5,7.9,60
+3_6_73_0,2011,Total,3,India,6,Haryana,73,Kaithal,64,10.7,60.1
+3_6_73_0,2011,Urban,3,India,6,Haryana,73,Kaithal,,,
+3_6_74_0,2011,Rural,3,India,6,Haryana,74,Karnal,57.5,10.8,57.40000000000001
+3_6_74_0,2011,Total,3,India,6,Haryana,74,Karnal,58.90000000000001,13.8,56.7
+3_6_74_0,2011,Urban,3,India,6,Haryana,74,Karnal,,,
+3_6_75_0,2011,Rural,3,India,6,Haryana,75,Panipat,48.1,8.1,48.7
+3_6_75_0,2011,Total,3,India,6,Haryana,75,Panipat,51.1,10.4,46.8
+3_6_75_0,2011,Urban,3,India,6,Haryana,75,Panipat,,,
+3_6_76_0,2011,Rural,3,India,6,Haryana,76,Sonipat,53.5,5.5,51.3
+3_6_76_0,2011,Total,3,India,6,Haryana,76,Sonipat,57.7,9.600000000000001,52.90000000000001
+3_6_76_0,2011,Urban,3,India,6,Haryana,76,Sonipat,,,
+3_6_77_0,2011,Rural,3,India,6,Haryana,77,Jind,54.2,4.800000000000001,62.2
+3_6_77_0,2011,Total,3,India,6,Haryana,77,Jind,55.40000000000001,5.5,60.5
+3_6_77_0,2011,Urban,3,India,6,Haryana,77,Jind,,,
+3_6_78_0,2011,Rural,3,India,6,Haryana,78,Fatehabad,37.8,7.2,62.1
+3_6_78_0,2011,Total,3,India,6,Haryana,78,Fatehabad,41.7,9.4,61.1
+3_6_78_0,2011,Urban,3,India,6,Haryana,78,Fatehabad,,,
+3_6_79_0,2011,Rural,3,India,6,Haryana,79,Sirsa,51.90000000000001,10.5,65.8
+3_6_79_0,2011,Total,3,India,6,Haryana,79,Sirsa,56,12.4,64.3
+3_6_79_0,2011,Urban,3,India,6,Haryana,79,Sirsa,,,
+3_6_80_0,2011,Rural,3,India,6,Haryana,80,Hisar,43.1,4.600000000000001,63.8
+3_6_80_0,2011,Total,3,India,6,Haryana,80,Hisar,44.3,6.7,64.2
+3_6_80_0,2011,Urban,3,India,6,Haryana,80,Hisar,,,
+3_6_81_0,2011,Rural,3,India,6,Haryana,81,Bhiwani,47.2,3.2,62.40000000000001
+3_6_81_0,2011,Total,3,India,6,Haryana,81,Bhiwani,48.3,5,61.90000000000001
+3_6_81_0,2011,Urban,3,India,6,Haryana,81,Bhiwani,,,
+3_6_82_0,2011,Rural,3,India,6,Haryana,82,Rohtak,60,5.2,57.1
+3_6_82_0,2011,Total,3,India,6,Haryana,82,Rohtak,60.1,10.5,56.3
+3_6_82_0,2011,Urban,3,India,6,Haryana,82,Rohtak,,,
+3_6_83_0,2011,Rural,3,India,6,Haryana,83,Jhajjar,55.3,4.600000000000001,57.1
+3_6_83_0,2011,Total,3,India,6,Haryana,83,Jhajjar,59.7,6.9,56.3
+3_6_83_0,2011,Urban,3,India,6,Haryana,83,Jhajjar,,,
+3_6_84_0,2011,Rural,3,India,6,Haryana,84,Mahendragarh,52,4.800000000000001,66.40000000000001
+3_6_84_0,2011,Total,3,India,6,Haryana,84,Mahendragarh,53.1,6.9,65.5
+3_6_84_0,2011,Urban,3,India,6,Haryana,84,Mahendragarh,,,
+3_6_85_0,2011,Rural,3,India,6,Haryana,85,Rewari,70.10000000000001,5.5,63.6
+3_6_85_0,2011,Total,3,India,6,Haryana,85,Rewari,70,7.7,61.5
+3_6_85_0,2011,Urban,3,India,6,Haryana,85,Rewari,,,
+3_6_86_0,2011,Rural,3,India,6,Haryana,86,Gurgaon,56,5.9,57.8
+3_6_86_0,2011,Total,3,India,6,Haryana,86,Gurgaon,60.1,9.700000000000001,55.2
+3_6_86_0,2011,Urban,3,India,6,Haryana,86,Gurgaon,,,
+3_6_87_0,2011,Rural,3,India,6,Haryana,87,Mewat,15.9,1.9,15.8
+3_6_87_0,2011,Total,3,India,6,Haryana,87,Mewat,17,2.9,18.7
+3_6_87_0,2011,Urban,3,India,6,Haryana,87,Mewat,,,
+3_6_88_0,2011,Rural,3,India,6,Haryana,88,Faridabad,34.4,4.5,45.5
+3_6_88_0,2011,Total,3,India,6,Haryana,88,Faridabad,43.8,9.800000000000001,45.40000000000001
+3_6_88_0,2011,Urban,3,India,6,Haryana,88,Faridabad,,,
+3_6_89_0,2011,Rural,3,India,6,Haryana,89,Palwal,25.2,3.2,30.6
+3_6_89_0,2011,Total,3,India,6,Haryana,89,Palwal,30.4,6.4,32.1
+3_6_89_0,2011,Urban,3,India,6,Haryana,89,Palwal,,,
+3_7_90_0,2011,Rural,3,India,7,NCT Of Delhi,90,North West,63.90000000000001,18,56.40000000000001
+3_7_90_0,2011,Total,3,India,7,NCT Of Delhi,90,North West,71.5,18.1,54.2
+3_7_90_0,2011,Urban,3,India,7,NCT Of Delhi,90,North West,,,
+3_7_91_0,2011,Rural,3,India,7,NCT Of Delhi,91,North,33.3,8.6,46.6
+3_7_91_0,2011,Total,3,India,7,NCT Of Delhi,91,North,74.2,20.8,53.8
+3_7_91_0,2011,Urban,3,India,7,NCT Of Delhi,91,North,,,
+3_7_92_0,2011,Rural,3,India,7,NCT Of Delhi,92,North East,66.7,16.1,54.7
+3_7_92_0,2011,Total,3,India,7,NCT Of Delhi,92,North East,64,21.8,51.40000000000001
+3_7_92_0,2011,Urban,3,India,7,NCT Of Delhi,92,North East,,,
+3_7_93_0,2011,Rural,3,India,7,NCT Of Delhi,93,East,22.2,5.600000000000001,22.2
+3_7_93_0,2011,Total,3,India,7,NCT Of Delhi,93,East,73.2,22,54.2
+3_7_93_0,2011,Urban,3,India,7,NCT Of Delhi,93,East,,,
+3_7_94_0,2011,Rural,3,India,7,NCT Of Delhi,94,New Delhi,,,
+3_7_94_0,2011,Total,3,India,7,NCT Of Delhi,94,New Delhi,69.5,16.7,58.5
+3_7_94_0,2011,Urban,3,India,7,NCT Of Delhi,94,New Delhi,,,
+3_7_95_0,2011,Rural,3,India,7,NCT Of Delhi,95,Central,,,
+3_7_95_0,2011,Total,3,India,7,NCT Of Delhi,95,Central,79,27.9,54.6
+3_7_95_0,2011,Urban,3,India,7,NCT Of Delhi,95,Central,,,
+3_7_96_0,2011,Rural,3,India,7,NCT Of Delhi,96,West,38.5,13.5,51.40000000000001
+3_7_96_0,2011,Total,3,India,7,NCT Of Delhi,96,West,75.7,20.7,53.5
+3_7_96_0,2011,Urban,3,India,7,NCT Of Delhi,96,West,,,
+3_7_97_0,2011,Rural,3,India,7,NCT Of Delhi,97,South West,69.60000000000001,15.1,52.90000000000001
+3_7_97_0,2011,Total,3,India,7,NCT Of Delhi,97,South West,73.10000000000001,16.1,57.6
+3_7_97_0,2011,Urban,3,India,7,NCT Of Delhi,97,South West,,,
+3_7_98_0,2011,Rural,3,India,7,NCT Of Delhi,98,South,63.3,21.1,61.1
+3_7_98_0,2011,Total,3,India,7,NCT Of Delhi,98,South,69.5,20.6,57.6
+3_7_98_0,2011,Urban,3,India,7,NCT Of Delhi,98,South,,,
+3_8_100_0,2011,Rural,3,India,8,Rajasthan,100,Hanumangarh,35,7.2,73.90000000000001
+3_8_100_0,2011,Total,3,India,8,Rajasthan,100,Hanumangarh,34.7,7.5,73.60000000000001
+3_8_100_0,2011,Urban,3,India,8,Rajasthan,100,Hanumangarh,,,
+3_8_101_0,2011,Rural,3,India,8,Rajasthan,101,Bikaner,14.1,4.800000000000001,54.3
+3_8_101_0,2011,Total,3,India,8,Rajasthan,101,Bikaner,24.9,7.9,58.40000000000001
+3_8_101_0,2011,Urban,3,India,8,Rajasthan,101,Bikaner,,,
+3_8_102_0,2011,Rural,3,India,8,Rajasthan,102,Churu,20.3,3.6,60.7
+3_8_102_0,2011,Total,3,India,8,Rajasthan,102,Churu,22.4,5.4,59.8
+3_8_102_0,2011,Urban,3,India,8,Rajasthan,102,Churu,,,
+3_8_103_0,2011,Rural,3,India,8,Rajasthan,103,Jhunjhunun,28.3,7.2,66.7
+3_8_103_0,2011,Total,3,India,8,Rajasthan,103,Jhunjhunun,30.3,8,65.5
+3_8_103_0,2011,Urban,3,India,8,Rajasthan,103,Jhunjhunun,,,
+3_8_104_0,2011,Rural,3,India,8,Rajasthan,104,Alwar,11.5,4.4,57.40000000000001
+3_8_104_0,2011,Total,3,India,8,Rajasthan,104,Alwar,14.4,5.4,58.3
+3_8_104_0,2011,Urban,3,India,8,Rajasthan,104,Alwar,,,
+3_8_105_0,2011,Rural,3,India,8,Rajasthan,105,Bharatpur,6.2,2.1,41.6
+3_8_105_0,2011,Total,3,India,8,Rajasthan,105,Bharatpur,8,3.6,44.3
+3_8_105_0,2011,Urban,3,India,8,Rajasthan,105,Bharatpur,,,
+3_8_106_0,2011,Rural,3,India,8,Rajasthan,106,Dhaulpur,4.800000000000001,4.100000000000001,36.1
+3_8_106_0,2011,Total,3,India,8,Rajasthan,106,Dhaulpur,7.600000000000001,5.4,40
+3_8_106_0,2011,Urban,3,India,8,Rajasthan,106,Dhaulpur,,,
+3_8_107_0,2011,Rural,3,India,8,Rajasthan,107,Karauli,11.1,2.6,44.3
+3_8_107_0,2011,Total,3,India,8,Rajasthan,107,Karauli,13.4,3.9,43.90000000000001
+3_8_107_0,2011,Urban,3,India,8,Rajasthan,107,Karauli,,,
+3_8_108_0,2011,Rural,3,India,8,Rajasthan,108,Sawai Madhopur,13.8,2.6,49
+3_8_108_0,2011,Total,3,India,8,Rajasthan,108,Sawai Madhopur,18.2,4.600000000000001,50.3
+3_8_108_0,2011,Urban,3,India,8,Rajasthan,108,Sawai Madhopur,,,
+3_8_109_0,2011,Rural,3,India,8,Rajasthan,109,Dausa,20.6,3.3,54.5
+3_8_109_0,2011,Total,3,India,8,Rajasthan,109,Dausa,22.3,5,54.90000000000001
+3_8_109_0,2011,Urban,3,India,8,Rajasthan,109,Dausa,,,
+3_8_110_0,2011,Rural,3,India,8,Rajasthan,110,Jaipur,21.3,3.3,60.1
+3_8_110_0,2011,Total,3,India,8,Rajasthan,110,Jaipur,26.8,6.100000000000001,61.2
+3_8_110_0,2011,Urban,3,India,8,Rajasthan,110,Jaipur,,,
+3_8_111_0,2011,Rural,3,India,8,Rajasthan,111,Sikar,32.1,5.100000000000001,56.2
+3_8_111_0,2011,Total,3,India,8,Rajasthan,111,Sikar,33.6,6,55
+3_8_111_0,2011,Urban,3,India,8,Rajasthan,111,Sikar,,,
+3_8_112_0,2011,Rural,3,India,8,Rajasthan,112,Nagaur,20.5,3.9,49.7
+3_8_112_0,2011,Total,3,India,8,Rajasthan,112,Nagaur,27.6,4.9,49.8
+3_8_112_0,2011,Urban,3,India,8,Rajasthan,112,Nagaur,,,
+3_8_113_0,2011,Rural,3,India,8,Rajasthan,113,Jodhpur,24.4,3.4,46.7
+3_8_113_0,2011,Total,3,India,8,Rajasthan,113,Jodhpur,32.1,4.4,48.2
+3_8_113_0,2011,Urban,3,India,8,Rajasthan,113,Jodhpur,,,
+3_8_114_0,2011,Rural,3,India,8,Rajasthan,114,Jaisalmer,16.6,4,45.1
+3_8_114_0,2011,Total,3,India,8,Rajasthan,114,Jaisalmer,18.5,4.7,47.5
+3_8_114_0,2011,Urban,3,India,8,Rajasthan,114,Jaisalmer,,,
+3_8_115_0,2011,Rural,3,India,8,Rajasthan,115,Barmer,18.8,8.1,50.3
+3_8_115_0,2011,Total,3,India,8,Rajasthan,115,Barmer,19.8,8.4,51.6
+3_8_115_0,2011,Urban,3,India,8,Rajasthan,115,Barmer,,,
+3_8_116_0,2011,Rural,3,India,8,Rajasthan,116,Jalor,30.2,8,55.3
+3_8_116_0,2011,Total,3,India,8,Rajasthan,116,Jalor,30.4,8.4,55.7
+3_8_116_0,2011,Urban,3,India,8,Rajasthan,116,Jalor,,,
+3_8_117_0,2011,Rural,3,India,8,Rajasthan,117,Sirohi,32.9,10.7,51.90000000000001
+3_8_117_0,2011,Total,3,India,8,Rajasthan,117,Sirohi,35.9,11.1,53.6
+3_8_117_0,2011,Urban,3,India,8,Rajasthan,117,Sirohi,,,
+3_8_118_0,2011,Rural,3,India,8,Rajasthan,118,Pali,38.8,4,45.5
+3_8_118_0,2011,Total,3,India,8,Rajasthan,118,Pali,45.1,4.800000000000001,47.3
+3_8_118_0,2011,Urban,3,India,8,Rajasthan,118,Pali,,,
+3_8_119_0,2011,Rural,3,India,8,Rajasthan,119,Ajmer,32.7,2.7,40.7
+3_8_119_0,2011,Total,3,India,8,Rajasthan,119,Ajmer,47.1,7.4,49.5
+3_8_119_0,2011,Urban,3,India,8,Rajasthan,119,Ajmer,,,
+3_8_120_0,2011,Rural,3,India,8,Rajasthan,120,Tonk,32.5,3.1,47.3
+3_8_120_0,2011,Total,3,India,8,Rajasthan,120,Tonk,38.90000000000001,5.300000000000001,49.2
+3_8_120_0,2011,Urban,3,India,8,Rajasthan,120,Tonk,,,
+3_8_121_0,2011,Rural,3,India,8,Rajasthan,121,Bundi,26.8,2.6,45
+3_8_121_0,2011,Total,3,India,8,Rajasthan,121,Bundi,32.8,5.600000000000001,48.5
+3_8_121_0,2011,Urban,3,India,8,Rajasthan,121,Bundi,,,
+3_8_122_0,2011,Rural,3,India,8,Rajasthan,122,Bhilwara,29.6,11,52.7
+3_8_122_0,2011,Total,3,India,8,Rajasthan,122,Bhilwara,34.7,13.2,55.7
+3_8_122_0,2011,Urban,3,India,8,Rajasthan,122,Bhilwara,,,
+3_8_123_0,2011,Rural,3,India,8,Rajasthan,123,Rajsamand,27.5,13.5,53.8
+3_8_123_0,2011,Total,3,India,8,Rajasthan,123,Rajsamand,32.1,14.3,56.2
+3_8_123_0,2011,Urban,3,India,8,Rajasthan,123,Rajsamand,,,
+3_8_124_0,2011,Rural,3,India,8,Rajasthan,124,Dungarpur,27.8,9.9,62
+3_8_124_0,2011,Total,3,India,8,Rajasthan,124,Dungarpur,30.1,10.8,62.8
+3_8_124_0,2011,Urban,3,India,8,Rajasthan,124,Dungarpur,,,
+3_8_125_0,2011,Rural,3,India,8,Rajasthan,125,Banswara,18.3,8.5,61.6
+3_8_125_0,2011,Total,3,India,8,Rajasthan,125,Banswara,19.2,8.5,61.8
+3_8_125_0,2011,Urban,3,India,8,Rajasthan,125,Banswara,,,
+3_8_126_0,2011,Rural,3,India,8,Rajasthan,126,Chittaurgarh,29.3,11.6,58.2
+3_8_126_0,2011,Total,3,India,8,Rajasthan,126,Chittaurgarh,34.5,12.5,59.5
+3_8_126_0,2011,Urban,3,India,8,Rajasthan,126,Chittaurgarh,,,
+3_8_127_0,2011,Rural,3,India,8,Rajasthan,127,Kota,38.6,8.4,60.5
+3_8_127_0,2011,Total,3,India,8,Rajasthan,127,Kota,45.5,12.8,60.7
+3_8_127_0,2011,Urban,3,India,8,Rajasthan,127,Kota,,,
+3_8_128_0,2011,Rural,3,India,8,Rajasthan,128,Baran,35.1,4.9,53.8
+3_8_128_0,2011,Total,3,India,8,Rajasthan,128,Baran,38,7.9,54.2
+3_8_128_0,2011,Urban,3,India,8,Rajasthan,128,Baran,,,
+3_8_129_0,2011,Rural,3,India,8,Rajasthan,129,Jhalawar,17.4,7.300000000000001,56.6
+3_8_129_0,2011,Total,3,India,8,Rajasthan,129,Jhalawar,22.5,9.600000000000001,58.90000000000001
+3_8_129_0,2011,Urban,3,India,8,Rajasthan,129,Jhalawar,,,
+3_8_130_0,2011,Rural,3,India,8,Rajasthan,130,Udaipur,23.1,12.3,59.40000000000001
+3_8_130_0,2011,Total,3,India,8,Rajasthan,130,Udaipur,27,13,62.1
+3_8_130_0,2011,Urban,3,India,8,Rajasthan,130,Udaipur,,,
+3_8_131_0,2011,Rural,3,India,8,Rajasthan,131,Pratapgarh,23.6,10.8,59.7
+3_8_131_0,2011,Total,3,India,8,Rajasthan,131,Pratapgarh,26.9,11.3,61.1
+3_8_131_0,2011,Urban,3,India,8,Rajasthan,131,Pratapgarh,,,
+3_8_99_0,2011,Rural,3,India,8,Rajasthan,99,Ganganagar,37.7,7.2,70.10000000000001
+3_8_99_0,2011,Total,3,India,8,Rajasthan,99,Ganganagar,39,10.8,70.60000000000001
+3_8_99_0,2011,Urban,3,India,8,Rajasthan,99,Ganganagar,,,
+3_9_132_0,2011,Rural,3,India,9,Uttar Pradesh,132,Saharanpur,24.2,14.6,44.1
+3_9_132_0,2011,Total,3,India,9,Uttar Pradesh,132,Saharanpur,25.4,15.2,42.7
+3_9_132_0,2011,Urban,3,India,9,Uttar Pradesh,132,Saharanpur,,,
+3_9_133_0,2011,Rural,3,India,9,Uttar Pradesh,133,Muzaffarnagar,30.5,11.6,36.5
+3_9_133_0,2011,Total,3,India,9,Uttar Pradesh,133,Muzaffarnagar,32.5,13.2,35.8
+3_9_133_0,2011,Urban,3,India,9,Uttar Pradesh,133,Muzaffarnagar,,,
+3_9_134_0,2011,Rural,3,India,9,Uttar Pradesh,134,Bijnor,27.7,14.8,35.1
+3_9_134_0,2011,Total,3,India,9,Uttar Pradesh,134,Bijnor,27.5,14.8,32.7
+3_9_134_0,2011,Urban,3,India,9,Uttar Pradesh,134,Bijnor,,,
+3_9_135_0,2011,Rural,3,India,9,Uttar Pradesh,135,Moradabad,19.3,8.6,23.3
+3_9_135_0,2011,Total,3,India,9,Uttar Pradesh,135,Moradabad,20.8,12.5,26.4
+3_9_135_0,2011,Urban,3,India,9,Uttar Pradesh,135,Moradabad,,,
+3_9_136_0,2011,Rural,3,India,9,Uttar Pradesh,136,Rampur,14.5,11.5,27
+3_9_136_0,2011,Total,3,India,9,Uttar Pradesh,136,Rampur,15.6,12.6,30
+3_9_136_0,2011,Urban,3,India,9,Uttar Pradesh,136,Rampur,,,
+3_9_137_0,2011,Rural,3,India,9,Uttar Pradesh,137,Jyotiba Phule Nagar,17.5,13.8,34.5
+3_9_137_0,2011,Total,3,India,9,Uttar Pradesh,137,Jyotiba Phule Nagar,18.5,13.8,33.3
+3_9_137_0,2011,Urban,3,India,9,Uttar Pradesh,137,Jyotiba Phule Nagar,,,
+3_9_138_0,2011,Rural,3,India,9,Uttar Pradesh,138,Meerut,21.6,9,34.3
+3_9_138_0,2011,Total,3,India,9,Uttar Pradesh,138,Meerut,28.2,13.9,38.3
+3_9_138_0,2011,Urban,3,India,9,Uttar Pradesh,138,Meerut,,,
+3_9_139_0,2011,Rural,3,India,9,Uttar Pradesh,139,Baghpat,35.1,10.8,38.5
+3_9_139_0,2011,Total,3,India,9,Uttar Pradesh,139,Baghpat,34.4,11.1,39.40000000000001
+3_9_139_0,2011,Urban,3,India,9,Uttar Pradesh,139,Baghpat,,,
+3_9_140_0,2011,Rural,3,India,9,Uttar Pradesh,140,Ghaziabad,37.1,11.4,41
+3_9_140_0,2011,Total,3,India,9,Uttar Pradesh,140,Ghaziabad,38.6,17.1,41.6
+3_9_140_0,2011,Urban,3,India,9,Uttar Pradesh,140,Ghaziabad,,,
+3_9_141_0,2011,Rural,3,India,9,Uttar Pradesh,141,Gautam Buddha Nagar,25.5,5.2,40.8
+3_9_141_0,2011,Total,3,India,9,Uttar Pradesh,141,Gautam Buddha Nagar,23.7,7.7,40.8
+3_9_141_0,2011,Urban,3,India,9,Uttar Pradesh,141,Gautam Buddha Nagar,,,
+3_9_142_0,2011,Rural,3,India,9,Uttar Pradesh,142,Bulandshahr,23.9,8.300000000000001,31.1
+3_9_142_0,2011,Total,3,India,9,Uttar Pradesh,142,Bulandshahr,25.3,10.1,32.7
+3_9_142_0,2011,Urban,3,India,9,Uttar Pradesh,142,Bulandshahr,,,
+3_9_143_0,2011,Rural,3,India,9,Uttar Pradesh,143,Aligarh,15.8,8.200000000000001,29
+3_9_143_0,2011,Total,3,India,9,Uttar Pradesh,143,Aligarh,20.2,10,29.7
+3_9_143_0,2011,Urban,3,India,9,Uttar Pradesh,143,Aligarh,,,
+3_9_144_0,2011,Rural,3,India,9,Uttar Pradesh,144,Mahamaya Nagar,16.4,4.9,23.5
+3_9_144_0,2011,Total,3,India,9,Uttar Pradesh,144,Mahamaya Nagar,16.5,5.7,24.4
+3_9_144_0,2011,Urban,3,India,9,Uttar Pradesh,144,Mahamaya Nagar,,,
+3_9_145_0,2011,Rural,3,India,9,Uttar Pradesh,145,Mathura,18.3,2.7,26.1
+3_9_145_0,2011,Total,3,India,9,Uttar Pradesh,145,Mathura,20.9,5.100000000000001,30.3
+3_9_145_0,2011,Urban,3,India,9,Uttar Pradesh,145,Mathura,,,
+3_9_146_0,2011,Rural,3,India,9,Uttar Pradesh,146,Agra,14.8,2.2,25.4
+3_9_146_0,2011,Total,3,India,9,Uttar Pradesh,146,Agra,19.5,5.100000000000001,28.4
+3_9_146_0,2011,Urban,3,India,9,Uttar Pradesh,146,Agra,,,
+3_9_147_0,2011,Rural,3,India,9,Uttar Pradesh,147,Firozabad,15,4.100000000000001,15.5
+3_9_147_0,2011,Total,3,India,9,Uttar Pradesh,147,Firozabad,21.4,6.100000000000001,20.2
+3_9_147_0,2011,Urban,3,India,9,Uttar Pradesh,147,Firozabad,,,
+3_9_148_0,2011,Rural,3,India,9,Uttar Pradesh,148,Mainpuri,6.2,4.100000000000001,15.8
+3_9_148_0,2011,Total,3,India,9,Uttar Pradesh,148,Mainpuri,8.200000000000001,4.800000000000001,17.3
+3_9_148_0,2011,Urban,3,India,9,Uttar Pradesh,148,Mainpuri,,,
+3_9_149_0,2011,Rural,3,India,9,Uttar Pradesh,149,Budaun,5.600000000000001,3,9.9
+3_9_149_0,2011,Total,3,India,9,Uttar Pradesh,149,Budaun,8.1,4.4,12.9
+3_9_149_0,2011,Urban,3,India,9,Uttar Pradesh,149,Budaun,,,
+3_9_150_0,2011,Rural,3,India,9,Uttar Pradesh,150,Bareilly,13.5,5.300000000000001,23.5
+3_9_150_0,2011,Total,3,India,9,Uttar Pradesh,150,Bareilly,16.2,7.9,24.5
+3_9_150_0,2011,Urban,3,India,9,Uttar Pradesh,150,Bareilly,,,
+3_9_151_0,2011,Rural,3,India,9,Uttar Pradesh,151,Pilibhit,18.5,7.800000000000001,27.4
+3_9_151_0,2011,Total,3,India,9,Uttar Pradesh,151,Pilibhit,17.9,9.5,29.3
+3_9_151_0,2011,Urban,3,India,9,Uttar Pradesh,151,Pilibhit,,,
+3_9_152_0,2011,Rural,3,India,9,Uttar Pradesh,152,Shahjahanpur,7.800000000000001,5.7,17.3
+3_9_152_0,2011,Total,3,India,9,Uttar Pradesh,152,Shahjahanpur,10.9,7.300000000000001,20
+3_9_152_0,2011,Urban,3,India,9,Uttar Pradesh,152,Shahjahanpur,,,
+3_9_153_0,2011,Rural,3,India,9,Uttar Pradesh,153,Kheri,12.8,5.800000000000001,23.7
+3_9_153_0,2011,Total,3,India,9,Uttar Pradesh,153,Kheri,14.6,6.2,23.9
+3_9_153_0,2011,Urban,3,India,9,Uttar Pradesh,153,Kheri,,,
+3_9_154_0,2011,Rural,3,India,9,Uttar Pradesh,154,Sitapur,13.7,4.3,18.2
+3_9_154_0,2011,Total,3,India,9,Uttar Pradesh,154,Sitapur,15.6,5.300000000000001,19.1
+3_9_154_0,2011,Urban,3,India,9,Uttar Pradesh,154,Sitapur,,,
+3_9_155_0,2011,Rural,3,India,9,Uttar Pradesh,155,Hardoi,7.300000000000001,4.7,14.5
+3_9_155_0,2011,Total,3,India,9,Uttar Pradesh,155,Hardoi,8.800000000000001,5.300000000000001,16
+3_9_155_0,2011,Urban,3,India,9,Uttar Pradesh,155,Hardoi,,,
+3_9_156_0,2011,Rural,3,India,9,Uttar Pradesh,156,Unnao,12.9,7.800000000000001,22.5
+3_9_156_0,2011,Total,3,India,9,Uttar Pradesh,156,Unnao,15.4,8.5,23.6
+3_9_156_0,2011,Urban,3,India,9,Uttar Pradesh,156,Unnao,,,
+3_9_157_0,2011,Rural,3,India,9,Uttar Pradesh,157,Lucknow,21.3,2.9,26.2
+3_9_157_0,2011,Total,3,India,9,Uttar Pradesh,157,Lucknow,41.2,11.8,38.6
+3_9_157_0,2011,Urban,3,India,9,Uttar Pradesh,157,Lucknow,,,
+3_9_158_0,2011,Rural,3,India,9,Uttar Pradesh,158,Rae Bareli,26.1,5.2,20.9
+3_9_158_0,2011,Total,3,India,9,Uttar Pradesh,158,Rae Bareli,27.3,6,22.5
+3_9_158_0,2011,Urban,3,India,9,Uttar Pradesh,158,Rae Bareli,,,
+3_9_159_0,2011,Rural,3,India,9,Uttar Pradesh,159,Farrukhabad,7.2,4.7,13.5
+3_9_159_0,2011,Total,3,India,9,Uttar Pradesh,159,Farrukhabad,9.600000000000001,6.5,16.2
+3_9_159_0,2011,Urban,3,India,9,Uttar Pradesh,159,Farrukhabad,,,
+3_9_160_0,2011,Rural,3,India,9,Uttar Pradesh,160,Kannauj,10.3,6.5,15.6
+3_9_160_0,2011,Total,3,India,9,Uttar Pradesh,160,Kannauj,11.6,8.300000000000001,17.6
+3_9_160_0,2011,Urban,3,India,9,Uttar Pradesh,160,Kannauj,,,
+3_9_161_0,2011,Rural,3,India,9,Uttar Pradesh,161,Etawah,13.8,5.2,26.2
+3_9_161_0,2011,Total,3,India,9,Uttar Pradesh,161,Etawah,17.5,6.5,26.3
+3_9_161_0,2011,Urban,3,India,9,Uttar Pradesh,161,Etawah,,,
+3_9_162_0,2011,Rural,3,India,9,Uttar Pradesh,162,Auraiya,9.600000000000001,5.7,27.3
+3_9_162_0,2011,Total,3,India,9,Uttar Pradesh,162,Auraiya,13.3,6.5,27.7
+3_9_162_0,2011,Urban,3,India,9,Uttar Pradesh,162,Auraiya,,,
+3_9_163_0,2011,Rural,3,India,9,Uttar Pradesh,163,Kanpur Dehat,20.3,11.3,28.4
+3_9_163_0,2011,Total,3,India,9,Uttar Pradesh,163,Kanpur Dehat,21.8,12.3,29.2
+3_9_163_0,2011,Urban,3,India,9,Uttar Pradesh,163,Kanpur Dehat,,,
+3_9_164_0,2011,Rural,3,India,9,Uttar Pradesh,164,Kanpur Nagar,19.6,10.8,39.40000000000001
+3_9_164_0,2011,Total,3,India,9,Uttar Pradesh,164,Kanpur Nagar,28.1,14.7,41.7
+3_9_164_0,2011,Urban,3,India,9,Uttar Pradesh,164,Kanpur Nagar,,,
+3_9_165_0,2011,Rural,3,India,9,Uttar Pradesh,165,Jalaun,14.2,7.100000000000001,47.6
+3_9_165_0,2011,Total,3,India,9,Uttar Pradesh,165,Jalaun,19,10.2,48.2
+3_9_165_0,2011,Urban,3,India,9,Uttar Pradesh,165,Jalaun,,,
+3_9_166_0,2011,Rural,3,India,9,Uttar Pradesh,166,Jhansi,26.2,2.7,61.40000000000001
+3_9_166_0,2011,Total,3,India,9,Uttar Pradesh,166,Jhansi,24.8,5.600000000000001,58.6
+3_9_166_0,2011,Urban,3,India,9,Uttar Pradesh,166,Jhansi,,,
+3_9_167_0,2011,Rural,3,India,9,Uttar Pradesh,167,Lalitpur,16.9,6.100000000000001,42.6
+3_9_167_0,2011,Total,3,India,9,Uttar Pradesh,167,Lalitpur,18.8,8.300000000000001,43.7
+3_9_167_0,2011,Urban,3,India,9,Uttar Pradesh,167,Lalitpur,,,
+3_9_168_0,2011,Rural,3,India,9,Uttar Pradesh,168,Hamirpur,32.1,10.2,42.40000000000001
+3_9_168_0,2011,Total,3,India,9,Uttar Pradesh,168,Hamirpur,32.7,11.7,43.5
+3_9_168_0,2011,Urban,3,India,9,Uttar Pradesh,168,Hamirpur,,,
+3_9_169_0,2011,Rural,3,India,9,Uttar Pradesh,169,Mahoba,12.9,5.9,46.8
+3_9_169_0,2011,Total,3,India,9,Uttar Pradesh,169,Mahoba,16.3,7.2,46.2
+3_9_169_0,2011,Urban,3,India,9,Uttar Pradesh,169,Mahoba,,,
+3_9_170_0,2011,Rural,3,India,9,Uttar Pradesh,170,Banda,17.6,5,26.1
+3_9_170_0,2011,Total,3,India,9,Uttar Pradesh,170,Banda,21.7,6.5,27.2
+3_9_170_0,2011,Urban,3,India,9,Uttar Pradesh,170,Banda,,,
+3_9_171_0,2011,Rural,3,India,9,Uttar Pradesh,171,Chitrakoot,23.9,4,32.8
+3_9_171_0,2011,Total,3,India,9,Uttar Pradesh,171,Chitrakoot,25.2,4.5,33.9
+3_9_171_0,2011,Urban,3,India,9,Uttar Pradesh,171,Chitrakoot,,,
+3_9_172_0,2011,Rural,3,India,9,Uttar Pradesh,172,Fatehpur,15.6,3.6,18.4
+3_9_172_0,2011,Total,3,India,9,Uttar Pradesh,172,Fatehpur,16,3.6,18.3
+3_9_172_0,2011,Urban,3,India,9,Uttar Pradesh,172,Fatehpur,,,
+3_9_173_0,2011,Rural,3,India,9,Uttar Pradesh,173,Pratapgarh,29.2,2.5,23.3
+3_9_173_0,2011,Total,3,India,9,Uttar Pradesh,173,Pratapgarh,29.8,2.7,24.5
+3_9_173_0,2011,Urban,3,India,9,Uttar Pradesh,173,Pratapgarh,,,
+3_9_174_0,2011,Rural,3,India,9,Uttar Pradesh,174,Kaushambi,18.9,4.100000000000001,22.9
+3_9_174_0,2011,Total,3,India,9,Uttar Pradesh,174,Kaushambi,20,4.5,23.5
+3_9_174_0,2011,Urban,3,India,9,Uttar Pradesh,174,Kaushambi,,,
+3_9_175_0,2011,Rural,3,India,9,Uttar Pradesh,175,Allahabad,21.1,3,36.5
+3_9_175_0,2011,Total,3,India,9,Uttar Pradesh,175,Allahabad,27.1,4.800000000000001,37.8
+3_9_175_0,2011,Urban,3,India,9,Uttar Pradesh,175,Allahabad,,,
+3_9_176_0,2011,Rural,3,India,9,Uttar Pradesh,176,Bara Banki,24.1,6.800000000000001,21.5
+3_9_176_0,2011,Total,3,India,9,Uttar Pradesh,176,Bara Banki,24.3,7,20.6
+3_9_176_0,2011,Urban,3,India,9,Uttar Pradesh,176,Bara Banki,,,
+3_9_177_0,2011,Rural,3,India,9,Uttar Pradesh,177,Faizabad,28.3,7.300000000000001,20.2
+3_9_177_0,2011,Total,3,India,9,Uttar Pradesh,177,Faizabad,28.7,7.5,22.3
+3_9_177_0,2011,Urban,3,India,9,Uttar Pradesh,177,Faizabad,,,
+3_9_178_0,2011,Rural,3,India,9,Uttar Pradesh,178,Ambedkar Nagar,22.4,5,20.1
+3_9_178_0,2011,Total,3,India,9,Uttar Pradesh,178,Ambedkar Nagar,24.2,5.800000000000001,20.3
+3_9_178_0,2011,Urban,3,India,9,Uttar Pradesh,178,Ambedkar Nagar,,,
+3_9_179_0,2011,Rural,3,India,9,Uttar Pradesh,179,Sultanpur,27.6,4.600000000000001,22
+3_9_179_0,2011,Total,3,India,9,Uttar Pradesh,179,Sultanpur,28.2,4.600000000000001,22.1
+3_9_179_0,2011,Urban,3,India,9,Uttar Pradesh,179,Sultanpur,,,
+3_9_180_0,2011,Rural,3,India,9,Uttar Pradesh,180,Bahraich,14.4,2,7.5
+3_9_180_0,2011,Total,3,India,9,Uttar Pradesh,180,Bahraich,14.5,2.4,8.9
+3_9_180_0,2011,Urban,3,India,9,Uttar Pradesh,180,Bahraich,,,
+3_9_181_0,2011,Rural,3,India,9,Uttar Pradesh,181,Shrawasti,18.9,2.3,8.800000000000001
+3_9_181_0,2011,Total,3,India,9,Uttar Pradesh,181,Shrawasti,18.8,2.3,8.800000000000001
+3_9_181_0,2011,Urban,3,India,9,Uttar Pradesh,181,Shrawasti,,,
+3_9_182_0,2011,Rural,3,India,9,Uttar Pradesh,182,Balrampur,24,1,5.2
+3_9_182_0,2011,Total,3,India,9,Uttar Pradesh,182,Balrampur,23.9,2,6.5
+3_9_182_0,2011,Urban,3,India,9,Uttar Pradesh,182,Balrampur,,,
+3_9_183_0,2011,Rural,3,India,9,Uttar Pradesh,183,Gonda,15.4,2.7,12
+3_9_183_0,2011,Total,3,India,9,Uttar Pradesh,183,Gonda,17.3,3.1,13
+3_9_183_0,2011,Urban,3,India,9,Uttar Pradesh,183,Gonda,,,
+3_9_184_0,2011,Rural,3,India,9,Uttar Pradesh,184,Siddharthnagar,20.7,1.3,11.5
+3_9_184_0,2011,Total,3,India,9,Uttar Pradesh,184,Siddharthnagar,21.2,1.5,12
+3_9_184_0,2011,Urban,3,India,9,Uttar Pradesh,184,Siddharthnagar,,,
+3_9_185_0,2011,Rural,3,India,9,Uttar Pradesh,185,Basti,26.7,5.2,17.9
+3_9_185_0,2011,Total,3,India,9,Uttar Pradesh,185,Basti,27.9,5.600000000000001,18.9
+3_9_185_0,2011,Urban,3,India,9,Uttar Pradesh,185,Basti,,,
+3_9_186_0,2011,Rural,3,India,9,Uttar Pradesh,186,Sant Kabir Nagar,24.4,3.4,16.8
+3_9_186_0,2011,Total,3,India,9,Uttar Pradesh,186,Sant Kabir Nagar,24.7,4.600000000000001,18.4
+3_9_186_0,2011,Urban,3,India,9,Uttar Pradesh,186,Sant Kabir Nagar,,,
+3_9_187_0,2011,Rural,3,India,9,Uttar Pradesh,187,Mahrajganj,28.8,2.7,31.7
+3_9_187_0,2011,Total,3,India,9,Uttar Pradesh,187,Mahrajganj,29.2,3.4,32.4
+3_9_187_0,2011,Urban,3,India,9,Uttar Pradesh,187,Mahrajganj,,,
+3_9_188_0,2011,Rural,3,India,9,Uttar Pradesh,188,Gorakhpur,41.5,5.300000000000001,33.6
+3_9_188_0,2011,Total,3,India,9,Uttar Pradesh,188,Gorakhpur,43.1,7.2,35.2
+3_9_188_0,2011,Urban,3,India,9,Uttar Pradesh,188,Gorakhpur,,,
+3_9_189_0,2011,Rural,3,India,9,Uttar Pradesh,189,Kushinagar,33.4,4.3,32.3
+3_9_189_0,2011,Total,3,India,9,Uttar Pradesh,189,Kushinagar,33.9,4.4,32.2
+3_9_189_0,2011,Urban,3,India,9,Uttar Pradesh,189,Kushinagar,,,
+3_9_190_0,2011,Rural,3,India,9,Uttar Pradesh,190,Deoria,46.90000000000001,6.7,25.3
+3_9_190_0,2011,Total,3,India,9,Uttar Pradesh,190,Deoria,46.1,7,26.5
+3_9_190_0,2011,Urban,3,India,9,Uttar Pradesh,190,Deoria,,,
+3_9_191_0,2011,Rural,3,India,9,Uttar Pradesh,191,Azamgarh,34.5,2.7,20.4
+3_9_191_0,2011,Total,3,India,9,Uttar Pradesh,191,Azamgarh,35.1,3.3,20.6
+3_9_191_0,2011,Urban,3,India,9,Uttar Pradesh,191,Azamgarh,,,
+3_9_192_0,2011,Rural,3,India,9,Uttar Pradesh,192,Mau,33.2,3.9,23.5
+3_9_192_0,2011,Total,3,India,9,Uttar Pradesh,192,Mau,34.8,4.2,22.8
+3_9_192_0,2011,Urban,3,India,9,Uttar Pradesh,192,Mau,,,
+3_9_193_0,2011,Rural,3,India,9,Uttar Pradesh,193,Ballia,40.8,2.3,26.5
+3_9_193_0,2011,Total,3,India,9,Uttar Pradesh,193,Ballia,42.3,2.3,26.6
+3_9_193_0,2011,Urban,3,India,9,Uttar Pradesh,193,Ballia,,,
+3_9_194_0,2011,Rural,3,India,9,Uttar Pradesh,194,Jaunpur,25.7,2.4,30.6
+3_9_194_0,2011,Total,3,India,9,Uttar Pradesh,194,Jaunpur,26.5,3.4,31.9
+3_9_194_0,2011,Urban,3,India,9,Uttar Pradesh,194,Jaunpur,,,
+3_9_195_0,2011,Rural,3,India,9,Uttar Pradesh,195,Ghazipur,27.6,3.5,24.4
+3_9_195_0,2011,Total,3,India,9,Uttar Pradesh,195,Ghazipur,28.7,3.7,25.3
+3_9_195_0,2011,Urban,3,India,9,Uttar Pradesh,195,Ghazipur,,,
+3_9_196_0,2011,Rural,3,India,9,Uttar Pradesh,196,Chandauli,18.9,3.1,36.4
+3_9_196_0,2011,Total,3,India,9,Uttar Pradesh,196,Chandauli,17.1,3.8,36.3
+3_9_196_0,2011,Urban,3,India,9,Uttar Pradesh,196,Chandauli,,,
+3_9_197_0,2011,Rural,3,India,9,Uttar Pradesh,197,Varanasi,17.6,5.4,46.5
+3_9_197_0,2011,Total,3,India,9,Uttar Pradesh,197,Varanasi,22.7,6,47.2
+3_9_197_0,2011,Urban,3,India,9,Uttar Pradesh,197,Varanasi,,,
+3_9_198_0,2011,Rural,3,India,9,Uttar Pradesh,198,Sant Ravidas Nagar (Bhadohi),17.2,3.2,30.3
+3_9_198_0,2011,Total,3,India,9,Uttar Pradesh,198,Sant Ravidas Nagar (Bhadohi),16.6,3.7,31.8
+3_9_198_0,2011,Urban,3,India,9,Uttar Pradesh,198,Sant Ravidas Nagar (Bhadohi),,,
+3_9_199_0,2011,Rural,3,India,9,Uttar Pradesh,199,Mirzapur,16,3,42.40000000000001
+3_9_199_0,2011,Total,3,India,9,Uttar Pradesh,199,Mirzapur,18.4,3.6,42.3
+3_9_199_0,2011,Urban,3,India,9,Uttar Pradesh,199,Mirzapur,,,
+3_9_200_0,2011,Rural,3,India,9,Uttar Pradesh,200,Sonbhadra,14.3,1.7,38.40000000000001
+3_9_200_0,2011,Total,3,India,9,Uttar Pradesh,200,Sonbhadra,15,3.1,40.1
+3_9_200_0,2011,Urban,3,India,9,Uttar Pradesh,200,Sonbhadra,,,
+3_9_201_0,2011,Rural,3,India,9,Uttar Pradesh,201,Etah,6.800000000000001,4.800000000000001,14.8
+3_9_201_0,2011,Total,3,India,9,Uttar Pradesh,201,Etah,8.300000000000001,6.4,17.5
+3_9_201_0,2011,Urban,3,India,9,Uttar Pradesh,201,Etah,,,
+3_9_202_0,2011,Rural,3,India,9,Uttar Pradesh,202,Kanshiram Nagar,6.800000000000001,4.800000000000001,14.8
+3_9_202_0,2011,Total,3,India,9,Uttar Pradesh,202,Kanshiram Nagar,8.300000000000001,6.4,17.5
+3_9_202_0,2011,Urban,3,India,9,Uttar Pradesh,202,Kanshiram Nagar,,,
